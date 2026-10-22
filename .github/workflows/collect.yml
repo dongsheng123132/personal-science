@@ -1,0 +1,41 @@
+name: collect
+
+on:
+  schedule:
+    # 每天 UTC 22:17（北京 06:17）。GitHub 的 runner 在美国，等于自带一台美国服务器。
+    - cron: "17 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 采集
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 这三个是可选的：配了就用 AI 写"推荐理由"，没配就用规则生成
+          PS_LLM_BASE: ${{ vars.PS_LLM_BASE }}
+          PS_LLM_MODEL: ${{ vars.PS_LLM_MODEL }}
+          PS_LLM_KEY: ${{ secrets.PS_LLM_KEY }}
+        run: python collector/collect.py
+
+      - name: 提交
+        run: |
+          git config user.name "ps-bot"
+          git config user.email "ps-bot@users.noreply.github.com"
+          git add inbox feed collector/seen.json
+          if git diff --staged --quiet; then
+            echo "今天没有新内容"
+          else
+            git commit -m "collect: $(date -u +%F)"
+            git push
+          fi

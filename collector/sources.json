@@ -1,0 +1,45 @@
+{
+  "wordpress": {
+    "enabled": true,
+    "sites": ["https://hackaday.com"],
+    "queries": [
+      "spectrometer",
+      "microscope",
+      "telescope",
+      "geiger counter",
+      "air quality",
+      "water quality",
+      "thermometer",
+      "calibration",
+      "sensor",
+      "science project",
+      "DIY lab",
+      "radiation",
+      "weather station",
+      "magnetometer",
+      "oscilloscope"
+    ],
+    "per_query": 5
+  },
+  "hn": {
+    "enabled": true,
+    "queries": ["citizen science", "DIY science", "home lab", "self experiment"],
+    "days": 90
+  },
+  "feeds": {
+    "enabled": false,
+    "feeds": [
+      { "name": "hackaday", "url": "https://hackaday.com/feed/", "enabled": true }
+    ]
+  },
+  "github": {
+    "enabled": false,
+    "queries": ["topic:citizen-science"],
+    "per_query": 6
+  },
+  "arxiv": {
+    "enabled": false,
+    "queries": ["citizen science"],
+    "max_results": 6
+  }
+}

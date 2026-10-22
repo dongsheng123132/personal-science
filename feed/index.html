@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Science · 每日候选</title>
+<style>
+  *{box-sizing:border-box}
+  :root{--ink:#17191f;--ink2:#3c4149;--muted:#6b7280;--line:#e5e7eb;--bg:#f6f7f9;--blue:#1e5bd6;--blue-soft:#eef3fd;--blue-line:#cfddf7}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei","PingFang SC",sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:var(--blue);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:860px;margin:0 auto;padding:0 24px}
+  header{border-bottom:1px solid var(--line);background:#fff}
+  .bar{display:flex;align-items:center;gap:10px;height:58px}
+  .mark{width:18px;height:18px;border-radius:5px;background:var(--blue);position:relative}
+  .mark::after{content:"";position:absolute;inset:6px;background:#fff;border-radius:2px}
+  .brand{font-weight:700}
+  .tag{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:0 8px;line-height:20px}
+  .bar nav{margin-left:auto;font-size:13.5px;display:flex;gap:18px}
+  .bar nav a{color:var(--ink2)}
+  h1{font-size:30px;letter-spacing:-.02em;margin:40px 0 6px}
+  .sub{color:var(--muted);margin:0 0 22px;font-size:14px}
+  .note{background:var(--blue-soft);border:1px solid var(--blue-line);border-radius:10px;padding:14px 16px;font-size:13.5px;color:#2f4468;margin-bottom:26px}
+  .note b{color:#17233a}
+  ol{list-style:none;margin:0;padding:0}
+  li{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px;display:flex;gap:14px}
+  .score{flex:none;width:44px;height:44px;border-radius:10px;background:var(--blue-soft);color:var(--blue);font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
+  .body{min-width:0}
+  .title{font-weight:600;font-size:15.5px;display:block;margin-bottom:4px}
+  .meta{font-size:12.5px;color:var(--muted)}
+  .summary{font-size:13.5px;color:var(--ink2);margin:6px 0 0}
+  .empty{background:#fff;border:1px solid var(--line);border-radius:12px;padding:28px;text-align:center;color:var(--muted)}
+  footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 44px;font-size:12.5px;color:var(--muted)}
+  code{background:#eef0f3;border-radius:4px;padding:1px 5px;font-size:12px}
+  @media (max-width:640px){h1{font-size:24px}li{gap:10px}.score{width:38px;height:38px;font-size:13px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <span class="mark"></span>
+    <span class="brand">Personal Science</span>
+    <span class="tag">每日候选</span>
+    <nav>
+      <a href="../README.md">清单</a>
+      <a href="../CHARTER.md">章程</a>
+      <a href="../inbox/candidates.md">AI 筛选</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1 id="date">今日候选</h1>
+  <p class="sub" id="count">加载中…</p>
+  <div class="note">
+    这是<b>机器粗筛</b>的结果，不是清单。清单只收能照着做、能写清验收标准的实验——
+    在 <a href="../README.md">README</a> 里。这里的每一条，都要先过 AI 和人两道关。
+  </div>
+  <ol id="list"></ol>
+  <footer>
+    生成时间 <span id="generated">—</span> ·
+    由 <code>collector/collect.py</code> 每天跑一次 ·
+    数据源在 <code>collector/sources.json</code>
+  </footer>
+</main>
+
+<script src="latest.js"></script>
+<script>
+(function () {
+  var D = window.PS_FEED;
+  if (!D) {
+    document.getElementById("count").textContent = "没有数据：先跑一次 collector/collect.py";
+    return;
+  }
+  document.getElementById("date").textContent = D.date + " 的候选";
+  document.getElementById("count").textContent = "从今天的抓取里粗筛出 " + D.count + " 条（按分数排）";
+  document.getElementById("generated").textContent = D.generated_at;
+
+  var esc = function (s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  };
+
+  document.getElementById("list").innerHTML = D.items.map(function (i) {
+    return '<li><div class="score">' + i.score + "</div><div class=\"body\">" +
+      '<a class="title" href="' + esc(i.url) + '" target="_blank" rel="noopener">' + esc(i.title) + "</a>" +
+      '<div class="meta">' + esc(i.source) + " · " + esc(i.published || "无日期") + "</div>" +
+      (i.summary ? '<p class="summary">' + esc(i.summary.slice(0, 180)) + "</p>" : "") +
+      "</div></li>";
+  }).join("") || '<div class="empty">今天没有新东西。空跑也算正常。</div>';
+})();
+</script>
+</body>
+</html>

@@ -101,6 +101,25 @@
 
 ---
 
+## 每天在自动收集什么
+
+这个仓库有一条输送带，每天在美国的机器上跑一次（GitHub Actions，免费，不用租服务器）：
+
+```
+Hackaday 等源  →  inbox/raw.json（宽网，90 条/天）  →  AI 筛  →  inbox/candidates.md  →  人挑一页  →  进上面的清单
+```
+
+- 今天的原始池：[inbox/raw.json](inbox/raw.json)
+- 机器排序：[inbox/prefilter.md](inbox/prefilter.md)
+- AI 筛过的：[inbox/candidates.md](inbox/candidates.md)
+- 网页看板：[feed/index.html](feed/index.html)
+- 怎么跑、怎么加源：[collector/README.md](collector/README.md)
+- 放哪跑：[deploy/README.md](deploy/README.md)
+
+**脚本负责看得多，AI 负责看得准，人负责做得完。** 清单进什么，永远由人决定。
+
+---
+
 ## 安全底线
 
 这个清单不做这些：高压电、明火、化学品入口/吸入、活体动物实验、需要资质的检测、任何会伤到人的操作。
