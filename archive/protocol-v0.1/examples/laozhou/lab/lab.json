@@ -1,0 +1,42 @@
+{
+  "gitscience": "0.1",
+  "kind": "lab",
+  "handle": "laozhou",
+  "name": "老周的维修铺",
+  "bio": "手机家电维修十五年，两平米的工作台，什么都能拆开看看。",
+  "location": { "city": "长沙", "region": "湖南", "country": "CN" },
+  "availability": {
+    "note": "周三到周日 10:00–19:00，来之前先提 issue",
+    "accepts_samples": true,
+    "shipping": "国内，顺丰到付",
+    "paid": true
+  },
+  "capabilities": [
+    {
+      "id": "dc-measure",
+      "what": "直流电压 / 电流测量",
+      "gear": ["UNI-T UT61E", "可调电源 30V/5A", "电子负载 150W"],
+      "limits": ["60V 以上不碰", "万用表没校准，精度按说明书", "电流只到 10A"],
+      "confirmed": true,
+      "source": "operator"
+    },
+    {
+      "id": "solder",
+      "what": "焊接与拆焊（贴片 / 通孔）",
+      "gear": ["恒温烙铁", "热风枪"],
+      "limits": ["BGA 不接", "没有返修台，多层板不敢动"],
+      "confirmed": true,
+      "source": "operator"
+    },
+    {
+      "id": "battery",
+      "what": "单节电池容量测试",
+      "gear": ["电子负载 150W"],
+      "limits": ["只测 18650 / 软包", "不做穿刺、不做过充"],
+      "confirmed": true,
+      "source": "operator"
+    }
+  ],
+  "unknowns": ["没有示波器，看不到波形", "热风枪温度旋钮刻度可能不准"],
+  "links": { "contact": "issue" }
+}

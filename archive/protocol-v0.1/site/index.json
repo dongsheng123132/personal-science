@@ -1,0 +1,744 @@
+{
+  "generated_at": "2026-10-22T14:18:36+00:00",
+  "protocol": "0.1",
+  "source": "demo",
+  "counts": {
+    "labs": 5,
+    "experiments": 3,
+    "reproductions": 5,
+    "independent": 5,
+    "cities": 5,
+    "countries": 3
+  },
+  "labs": [
+    {
+      "uid": "LAB:anna/lab",
+      "owner": "anna",
+      "repo": "lab",
+      "handle": "anna",
+      "name": "Anna 的家庭电子角",
+      "bio": "柏林，做嵌入式硬件的工程师，家里一张 1.2 米的桌面。",
+      "city": "柏林",
+      "region": "",
+      "country": "DE",
+      "availability": {
+        "note": "周末整天，工作日晚上两小时",
+        "accepts_samples": true,
+        "shipping": "欧盟",
+        "paid": false
+      },
+      "capabilities": [
+        {
+          "id": "dc-precision",
+          "what": "四线制直流电压 / 小电阻测量",
+          "gear": [
+            "HP 34401A 六位半",
+            "四线开尔文夹"
+          ],
+          "limits": [
+            "电流只到 1A",
+            "没有大功率负载"
+          ],
+          "confirmed": true,
+          "source": "operator"
+        },
+        {
+          "id": "thermal",
+          "what": "稳态温度分布拍摄",
+          "gear": [
+            "手持热像仪（型号未确认）"
+          ],
+          "limits": [
+            "没有恒温室，只能测室温附近",
+            "发射率用的是默认值"
+          ],
+          "confirmed": false,
+          "source": "photo"
+        },
+        {
+          "id": "logging",
+          "what": "长时间无人值守记录",
+          "gear": [
+            "温湿度记录仪",
+            "树莓派"
+          ],
+          "limits": [
+            "没有 UPS，断电会中断"
+          ],
+          "confirmed": true,
+          "source": "operator"
+        }
+      ],
+      "unknowns": [
+        "热像仪的精度从来没核对过",
+        "桌面只有 1.2 米，最多摆两台设备"
+      ],
+      "stars": 1,
+      "url": "https://github.com/anna/lab",
+      "repo_key": "anna/lab",
+      "experiments": [
+        "EXP:anna/usb-c-cable-drop#usb-c-cable-drop"
+      ],
+      "reproductions": [],
+      "reproduced_count": 0,
+      "confirmed_count": 2,
+      "draft_count": 1,
+      "experiment_count": 1,
+      "reproduction_count": 0
+    },
+    {
+      "uid": "LAB:laozhou/lab",
+      "owner": "laozhou",
+      "repo": "lab",
+      "handle": "laozhou",
+      "name": "老周的维修铺",
+      "bio": "手机家电维修十五年，两平米的工作台，什么都能拆开看看。",
+      "city": "长沙",
+      "region": "湖南",
+      "country": "CN",
+      "availability": {
+        "note": "周三到周日 10:00–19:00，来之前先提 issue",
+        "accepts_samples": true,
+        "shipping": "国内，顺丰到付",
+        "paid": true
+      },
+      "capabilities": [
+        {
+          "id": "dc-measure",
+          "what": "直流电压 / 电流测量",
+          "gear": [
+            "UNI-T UT61E",
+            "可调电源 30V/5A",
+            "电子负载 150W"
+          ],
+          "limits": [
+            "60V 以上不碰",
+            "万用表没校准，精度按说明书",
+            "电流只到 10A"
+          ],
+          "confirmed": true,
+          "source": "operator"
+        },
+        {
+          "id": "solder",
+          "what": "焊接与拆焊（贴片 / 通孔）",
+          "gear": [
+            "恒温烙铁",
+            "热风枪"
+          ],
+          "limits": [
+            "BGA 不接",
+            "没有返修台，多层板不敢动"
+          ],
+          "confirmed": true,
+          "source": "operator"
+        },
+        {
+          "id": "battery",
+          "what": "单节电池容量测试",
+          "gear": [
+            "电子负载 150W"
+          ],
+          "limits": [
+            "只测 18650 / 软包",
+            "不做穿刺、不做过充"
+          ],
+          "confirmed": true,
+          "source": "operator"
+        }
+      ],
+      "unknowns": [
+        "没有示波器，看不到波形",
+        "热风枪温度旋钮刻度可能不准"
+      ],
+      "stars": 3,
+      "url": "https://github.com/laozhou/lab",
+      "repo_key": "laozhou/lab",
+      "experiments": [
+        "EXP:laozhou/18650-capacity#18650-capacity",
+        "EXP:laozhou/adapter-drop-12v#adapter-drop-12v"
+      ],
+      "reproductions": [],
+      "reproduced_count": 5,
+      "confirmed_count": 3,
+      "draft_count": 0,
+      "experiment_count": 2,
+      "reproduction_count": 0
+    },
+    {
+      "uid": "LAB:qingdao-hvac/lab",
+      "owner": "qingdao-hvac",
+      "repo": "lab",
+      "handle": "qingdao-hvac",
+      "name": "青岛某职校电子实训室",
+      "bio": "二十个实训工位，寒暑假基本空着。张老师管。",
+      "city": "青岛",
+      "region": "山东",
+      "country": "CN",
+      "availability": {
+        "note": "寒暑假和周末，要提前约",
+        "accepts_samples": true,
+        "shipping": "国内",
+        "paid": false
+      },
+      "capabilities": [
+        {
+          "id": "dc-measure-parallel",
+          "what": "直流电压 / 电流测量（可并行 20 个工位）",
+          "gear": [
+            "实训台万用表 ×20"
+          ],
+          "limits": [
+            "万用表型号杂，精度不一致",
+            "只有两台示波器"
+          ],
+          "confirmed": true,
+          "source": "operator"
+        },
+        {
+          "id": "thermal-chamber",
+          "what": "恒温箱温控与温度循环",
+          "gear": [
+            "恒温箱（型号未确认）",
+            "温度记录仪"
+          ],
+          "limits": [
+            "箱子小，样品不能超过 20×20cm"
+          ],
+          "confirmed": false,
+          "source": "photo"
+        },
+        {
+          "id": "soldering",
+          "what": "批量焊接与返修",
+          "gear": [
+            "实训台焊台 ×20"
+          ],
+          "limits": [
+            "只做通孔和普通贴片"
+          ],
+          "confirmed": true,
+          "source": "operator"
+        }
+      ],
+      "unknowns": [
+        "恒温箱多久没校准不知道",
+        "假期进校门要申请"
+      ],
+      "stars": 5,
+      "url": "https://github.com/qingdao-hvac/lab",
+      "repo_key": "qingdao-hvac/lab",
+      "experiments": [],
+      "reproductions": [
+        "REP:qingdao-hvac/lab/18650-capacity",
+        "REP:qingdao-hvac/lab/adapter-drop-12v"
+      ],
+      "reproduced_count": 0,
+      "confirmed_count": 2,
+      "draft_count": 1,
+      "experiment_count": 0,
+      "reproduction_count": 2
+    },
+    {
+      "uid": "LAB:wanjiku/lab",
+      "owner": "wanjiku",
+      "repo": "lab",
+      "handle": "wanjiku",
+      "name": "Wanjiku 太阳能维修站",
+      "bio": "内罗毕，修离网太阳能和电池，白天有太阳才能干活。",
+      "city": "内罗毕",
+      "region": "",
+      "country": "KE",
+      "availability": {
+        "note": "白天，周一到周六",
+        "accepts_samples": false,
+        "shipping": "",
+        "paid": true
+      },
+      "capabilities": [
+        {
+          "id": "solar-test",
+          "what": "太阳能板开路电压 / 短路电流测试",
+          "gear": [
+            "万用表（型号未确认）",
+            "直流钳表"
+          ],
+          "limits": [
+            "没有标准光源，天气影响大",
+            "电网不稳，电脑会断"
+          ],
+          "confirmed": false,
+          "source": "photo"
+        },
+        {
+          "id": "battery-pack",
+          "what": "铅酸 / 锂电组电压与内阻粗测",
+          "gear": [
+            "内阻仪（型号未确认）"
+          ],
+          "limits": [
+            "只能测整组，不拆单节",
+            "没有电子负载"
+          ],
+          "confirmed": false,
+          "source": "photo"
+        }
+      ],
+      "unknowns": [
+        "内阻仪准不准不知道",
+        "雨季基本没法做"
+      ],
+      "stars": 1,
+      "url": "https://github.com/wanjiku/lab",
+      "repo_key": "wanjiku/lab",
+      "experiments": [],
+      "reproductions": [
+        "REP:wanjiku/lab/18650-capacity"
+      ],
+      "reproduced_count": 0,
+      "confirmed_count": 0,
+      "draft_count": 2,
+      "experiment_count": 0,
+      "reproduction_count": 1
+    },
+    {
+      "uid": "LAB:xiaoli/lab",
+      "owner": "xiaoli",
+      "repo": "lab",
+      "handle": "xiaoli",
+      "name": "小李的创客桌",
+      "bio": "深圳，做硬件的学生，宿舍改的工作台。",
+      "city": "深圳",
+      "region": "广东",
+      "country": "CN",
+      "availability": {
+        "note": "只有周末能用，平时要上课",
+        "accepts_samples": false,
+        "shipping": "",
+        "paid": false
+      },
+      "capabilities": [
+        {
+          "id": "dc-measure",
+          "what": "直流电压 / 电流测量",
+          "gear": [
+            "Fluke 17B+",
+            "可调电源 30V/3A"
+          ],
+          "limits": [
+            "没有电子负载",
+            "电流只到 3A"
+          ],
+          "confirmed": true,
+          "source": "operator"
+        },
+        {
+          "id": "microscope",
+          "what": "小件外观与焊点检查",
+          "gear": [
+            "双目显微镜"
+          ],
+          "limits": [
+            "只能看，没有相机，不能拍照存档"
+          ],
+          "confirmed": true,
+          "source": "operator"
+        }
+      ],
+      "unknowns": [
+        "可调电源的电流显示准不准，没比过"
+      ],
+      "stars": 2,
+      "url": "https://github.com/xiaoli/lab",
+      "repo_key": "xiaoli/lab",
+      "experiments": [],
+      "reproductions": [
+        "REP:xiaoli/lab/18650-capacity",
+        "REP:xiaoli/lab/adapter-drop-12v"
+      ],
+      "reproduced_count": 0,
+      "confirmed_count": 2,
+      "draft_count": 0,
+      "experiment_count": 0,
+      "reproduction_count": 2
+    }
+  ],
+  "experiments": [
+    {
+      "uid": "EXP:anna/usb-c-cable-drop#usb-c-cable-drop",
+      "owner": "anna",
+      "repo": "usb-c-cable-drop",
+      "repo_key": "anna/usb-c-cable-drop",
+      "id": "usb-c-cable-drop",
+      "title": "USB-C 线在 3A 下的压降，便宜的差多少",
+      "author": "anna",
+      "date": "2026-11-20",
+      "field": [
+        "electronics"
+      ],
+      "status": "running",
+      "question": "10 条不同价位的 USB-C 线，在 3A 恒流负载下，压降是否超过 0.5V？",
+      "hypothesis": "低于 3 欧元的线压降明显更大。",
+      "protocol": {
+        "samples": 10,
+        "repeats": 2,
+        "gear": [
+          "HP 34401A",
+          "电子负载 150W",
+          "USB-C 测试板"
+        ],
+        "steps": [
+          "线材接测试板，电子负载设 3A 恒流",
+          "稳定 60 秒后在线材两端测压差",
+          "每条测两次，间隔 5 分钟"
+        ],
+        "acceptance": "同一条线两次极差 < 0.01V 才计入",
+        "limits": [
+          "没有恒温",
+          "只测 3A，不测 5A",
+          "只测压降，不测 E-Marker"
+        ]
+      },
+      "result": null,
+      "progress": "已经测了 6 条，压降从 0.21V 到 0.58V 都有。",
+      "stars": 4,
+      "url": "https://github.com/anna/usb-c-cable-drop",
+      "author_name": "Anna 的家庭电子角",
+      "city": "柏林",
+      "country": "DE",
+      "reproductions": [],
+      "independent_count": 0,
+      "matched_count": 0
+    },
+    {
+      "uid": "EXP:laozhou/18650-capacity#18650-capacity",
+      "owner": "laozhou",
+      "repo": "18650-capacity",
+      "repo_key": "laozhou/18650-capacity",
+      "id": "18650-capacity",
+      "title": "标称 3000mAh 的 18650，实际能放出多少",
+      "author": "laozhou",
+      "date": "2026-11-09",
+      "field": [
+        "battery"
+      ],
+      "status": "done",
+      "question": "5 节标称 3000mAh 的 18650，以 0.5C 恒流放电到 2.8V，实际容量是否低于 2700mAh？",
+      "hypothesis": "实际容量普遍比标称低 10% 以上。",
+      "protocol": {
+        "samples": 5,
+        "repeats": 1,
+        "gear": [
+          "电子负载 150W"
+        ],
+        "steps": [
+          "每节先用 1A 恒流充到 4.2V，静置 30 分钟",
+          "以 1.5A 恒流放电到 2.8V，记录放出容量",
+          "每节测完静置 30 分钟再测下一节"
+        ],
+        "acceptance": "放电过程电流波动 < ±2% 才算一次有效",
+        "limits": [
+          "没有恒温，室温 22±2°C",
+          "只做一次，不测循环衰减"
+        ]
+      },
+      "result": {
+        "outcome": "refutes",
+        "summary": "5 节平均 2860mAh，最低 2793mAh，没有一节低于 2700。这批货虚标没到 10%，假设被推翻。",
+        "measurements": [
+          {
+            "cell": "A",
+            "capacity_mah": 2871
+          },
+          {
+            "cell": "B",
+            "capacity_mah": 2850
+          },
+          {
+            "cell": "C",
+            "capacity_mah": 2793
+          },
+          {
+            "cell": "D",
+            "capacity_mah": 2902
+          },
+          {
+            "cell": "E",
+            "capacity_mah": 2884
+          }
+        ],
+        "files": [
+          "data/capacity.csv"
+        ]
+      },
+      "progress": "",
+      "stars": 23,
+      "url": "https://github.com/laozhou/18650-capacity",
+      "reproductions": [
+        "REP:qingdao-hvac/lab/18650-capacity",
+        "REP:wanjiku/lab/18650-capacity",
+        "REP:xiaoli/lab/18650-capacity"
+      ],
+      "author_name": "老周的维修铺",
+      "city": "长沙",
+      "country": "CN",
+      "independent_count": 3,
+      "matched_count": 2
+    },
+    {
+      "uid": "EXP:laozhou/adapter-drop-12v#adapter-drop-12v",
+      "owner": "laozhou",
+      "repo": "adapter-drop-12v",
+      "repo_key": "laozhou/adapter-drop-12v",
+      "id": "adapter-drop-12v",
+      "title": "标称 12V 2A 的适配器，满载时还稳吗",
+      "author": "laozhou",
+      "date": "2026-11-02",
+      "field": [
+        "electronics",
+        "power"
+      ],
+      "status": "done",
+      "question": "在 25% / 50% / 100% 负载下，输出电压相对空载的偏差是否超过 ±5%？",
+      "hypothesis": "满载压降会超过 5%。",
+      "protocol": {
+        "samples": 3,
+        "repeats": 3,
+        "gear": [
+          "UNI-T UT61E",
+          "电子负载 150W"
+        ],
+        "steps": [
+          "空载接万用表，稳定 60 秒后读 3 次",
+          "接 25% 负载，稳定 60 秒后读 3 次",
+          "同上 50%、100% 负载",
+          "每台测完记一次室温"
+        ],
+        "acceptance": "同一负载点 3 次读数极差 < 0.05V 才计入平均值",
+        "limits": [
+          "室温未控，±3°C",
+          "只测 12V 2A 这一个规格",
+          "3 台是同一个批次的货"
+        ]
+      },
+      "result": {
+        "outcome": "supports",
+        "summary": "3 台同款里 2 台满载压降超过 5%，最差的一台 11.32V（-5.7%）。空载全部正常，所以只看空载会漏掉。",
+        "measurements": [
+          {
+            "load": "空载",
+            "voltage": 12.01
+          },
+          {
+            "load": "25%",
+            "voltage": 11.92
+          },
+          {
+            "load": "50%",
+            "voltage": 11.71
+          },
+          {
+            "load": "100%",
+            "voltage": 11.38
+          }
+        ],
+        "files": [
+          "data/load-test.csv"
+        ]
+      },
+      "progress": "",
+      "stars": 7,
+      "url": "https://github.com/laozhou/adapter-drop-12v",
+      "reproductions": [
+        "REP:qingdao-hvac/lab/adapter-drop-12v",
+        "REP:xiaoli/lab/adapter-drop-12v"
+      ],
+      "author_name": "老周的维修铺",
+      "city": "长沙",
+      "country": "CN",
+      "independent_count": 2,
+      "matched_count": 1
+    }
+  ],
+  "reproductions": [
+    {
+      "uid": "REP:qingdao-hvac/lab/18650-capacity",
+      "owner": "qingdao-hvac",
+      "repo": "lab",
+      "repo_key": "qingdao-hvac/lab",
+      "rid": "18650-capacity",
+      "reproduces": "laozhou/18650-capacity#18650-capacity",
+      "reproducer": "qingdao-hvac",
+      "date": "2026-11-25",
+      "independence": "independent",
+      "outcome": "matched",
+      "difference": "用实训台测了 10 节，平均 2855mAh。未见差异，但万用表精度不齐，容量是电子负载读的。",
+      "target": "EXP:laozhou/18650-capacity#18650-capacity",
+      "url": "https://github.com/qingdao-hvac/lab",
+      "reproducer_name": "青岛某职校电子实训室",
+      "city": "青岛",
+      "country": "CN"
+    },
+    {
+      "uid": "REP:qingdao-hvac/lab/adapter-drop-12v",
+      "owner": "qingdao-hvac",
+      "repo": "lab",
+      "repo_key": "qingdao-hvac/lab",
+      "rid": "adapter-drop-12v",
+      "reproduces": "laozhou/adapter-drop-12v#adapter-drop-12v",
+      "reproducer": "qingdao-hvac",
+      "date": "2026-11-22",
+      "independence": "independent",
+      "outcome": "matched",
+      "difference": "20 台万用表里抽了 4 台测同款适配器，结果和原实验一致，最差 -5.9%。未见差异。",
+      "target": "EXP:laozhou/adapter-drop-12v#adapter-drop-12v",
+      "url": "https://github.com/qingdao-hvac/lab",
+      "reproducer_name": "青岛某职校电子实训室",
+      "city": "青岛",
+      "country": "CN"
+    },
+    {
+      "uid": "REP:wanjiku/lab/18650-capacity",
+      "owner": "wanjiku",
+      "repo": "lab",
+      "repo_key": "wanjiku/lab",
+      "rid": "18650-capacity",
+      "reproduces": "laozhou/18650-capacity#18650-capacity",
+      "reproducer": "wanjiku",
+      "date": "2026-11-26",
+      "independence": "independent",
+      "outcome": "inconclusive",
+      "difference": "这里只有内阻仪，没有电子负载，做不了完整放电。内阻看起来偏高，但不能拿这个下结论。",
+      "target": "EXP:laozhou/18650-capacity#18650-capacity",
+      "url": "https://github.com/wanjiku/lab",
+      "reproducer_name": "Wanjiku 太阳能维修站",
+      "city": "内罗毕",
+      "country": "KE"
+    },
+    {
+      "uid": "REP:xiaoli/lab/18650-capacity",
+      "owner": "xiaoli",
+      "repo": "lab",
+      "repo_key": "xiaoli/lab",
+      "rid": "18650-capacity",
+      "reproduces": "laozhou/18650-capacity#18650-capacity",
+      "reproducer": "xiaoli",
+      "date": "2026-11-20",
+      "independence": "independent",
+      "outcome": "matched",
+      "difference": "测了 3 节同型号，平均 2830mAh，和原结论一致。未见差异。",
+      "target": "EXP:laozhou/18650-capacity#18650-capacity",
+      "url": "https://github.com/xiaoli/lab",
+      "reproducer_name": "小李的创客桌",
+      "city": "深圳",
+      "country": "CN"
+    },
+    {
+      "uid": "REP:xiaoli/lab/adapter-drop-12v",
+      "owner": "xiaoli",
+      "repo": "lab",
+      "repo_key": "xiaoli/lab",
+      "rid": "adapter-drop-12v",
+      "reproduces": "laozhou/adapter-drop-12v#adapter-drop-12v",
+      "reproducer": "xiaoli",
+      "date": "2026-11-18",
+      "independence": "independent",
+      "outcome": "different",
+      "difference": "我的两台满载只掉 4.0%（11.52V），没到 5%。可能是批次不同，我这两台是去年买的。",
+      "target": "EXP:laozhou/adapter-drop-12v#adapter-drop-12v",
+      "url": "https://github.com/xiaoli/lab",
+      "reproducer_name": "小李的创客桌",
+      "city": "深圳",
+      "country": "CN"
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "EXP:anna/usb-c-cable-drop#usb-c-cable-drop",
+        "kind": "experiment",
+        "label": "USB-C 线在 3A 下的压降，便宜的差多少",
+        "sub": "柏林 · Anna 的家庭电子角",
+        "outcome": null
+      },
+      {
+        "id": "EXP:laozhou/18650-capacity#18650-capacity",
+        "kind": "experiment",
+        "label": "标称 3000mAh 的 18650，实际能放出多少",
+        "sub": "长沙 · 老周的维修铺",
+        "outcome": "refutes"
+      },
+      {
+        "id": "EXP:laozhou/adapter-drop-12v#adapter-drop-12v",
+        "kind": "experiment",
+        "label": "标称 12V 2A 的适配器，满载时还稳吗",
+        "sub": "长沙 · 老周的维修铺",
+        "outcome": "supports"
+      },
+      {
+        "id": "REP:qingdao-hvac/lab/18650-capacity",
+        "kind": "reproduction",
+        "label": "青岛某职校电子实训室",
+        "sub": "青岛",
+        "outcome": "matched"
+      },
+      {
+        "id": "REP:qingdao-hvac/lab/adapter-drop-12v",
+        "kind": "reproduction",
+        "label": "青岛某职校电子实训室",
+        "sub": "青岛",
+        "outcome": "matched"
+      },
+      {
+        "id": "REP:wanjiku/lab/18650-capacity",
+        "kind": "reproduction",
+        "label": "Wanjiku 太阳能维修站",
+        "sub": "内罗毕",
+        "outcome": "inconclusive"
+      },
+      {
+        "id": "REP:xiaoli/lab/18650-capacity",
+        "kind": "reproduction",
+        "label": "小李的创客桌",
+        "sub": "深圳",
+        "outcome": "matched"
+      },
+      {
+        "id": "REP:xiaoli/lab/adapter-drop-12v",
+        "kind": "reproduction",
+        "label": "小李的创客桌",
+        "sub": "深圳",
+        "outcome": "different"
+      }
+    ],
+    "edges": [
+      {
+        "from": "EXP:laozhou/18650-capacity#18650-capacity",
+        "to": "REP:qingdao-hvac/lab/18650-capacity",
+        "outcome": "matched"
+      },
+      {
+        "from": "EXP:laozhou/adapter-drop-12v#adapter-drop-12v",
+        "to": "REP:qingdao-hvac/lab/adapter-drop-12v",
+        "outcome": "matched"
+      },
+      {
+        "from": "EXP:laozhou/18650-capacity#18650-capacity",
+        "to": "REP:wanjiku/lab/18650-capacity",
+        "outcome": "inconclusive"
+      },
+      {
+        "from": "EXP:laozhou/18650-capacity#18650-capacity",
+        "to": "REP:xiaoli/lab/18650-capacity",
+        "outcome": "matched"
+      },
+      {
+        "from": "EXP:laozhou/adapter-drop-12v#adapter-drop-12v",
+        "to": "REP:xiaoli/lab/adapter-drop-12v",
+        "outcome": "different"
+      }
+    ]
+  },
+  "warnings": [],
+  "note": "演示数据，不是真实网络"
+}

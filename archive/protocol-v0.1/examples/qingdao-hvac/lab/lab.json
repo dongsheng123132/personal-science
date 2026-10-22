@@ -1,0 +1,42 @@
+{
+  "gitscience": "0.1",
+  "kind": "lab",
+  "handle": "qingdao-hvac",
+  "name": "青岛某职校电子实训室",
+  "bio": "二十个实训工位，寒暑假基本空着。张老师管。",
+  "location": { "city": "青岛", "region": "山东", "country": "CN" },
+  "availability": {
+    "note": "寒暑假和周末，要提前约",
+    "accepts_samples": true,
+    "shipping": "国内",
+    "paid": false
+  },
+  "capabilities": [
+    {
+      "id": "dc-measure-parallel",
+      "what": "直流电压 / 电流测量（可并行 20 个工位）",
+      "gear": ["实训台万用表 ×20"],
+      "limits": ["万用表型号杂，精度不一致", "只有两台示波器"],
+      "confirmed": true,
+      "source": "operator"
+    },
+    {
+      "id": "thermal-chamber",
+      "what": "恒温箱温控与温度循环",
+      "gear": ["恒温箱（型号未确认）", "温度记录仪"],
+      "limits": ["箱子小，样品不能超过 20×20cm"],
+      "confirmed": false,
+      "source": "photo"
+    },
+    {
+      "id": "soldering",
+      "what": "批量焊接与返修",
+      "gear": ["实训台焊台 ×20"],
+      "limits": ["只做通孔和普通贴片"],
+      "confirmed": true,
+      "source": "operator"
+    }
+  ],
+  "unknowns": ["恒温箱多久没校准不知道", "假期进校门要申请"],
+  "links": { "contact": "issue" }
+}

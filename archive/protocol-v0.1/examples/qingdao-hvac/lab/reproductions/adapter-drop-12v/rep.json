@@ -1,0 +1,11 @@
+{
+  "gitscience": "0.1",
+  "kind": "reproduction",
+  "reproduces": "laozhou/adapter-drop-12v#adapter-drop-12v",
+  "reproducer": "qingdao-hvac",
+  "date": "2026-11-22",
+  "independence": "independent",
+  "outcome": "matched",
+  "difference": "20 台万用表里抽了 4 台测同款适配器，结果和原实验一致，最差 -5.9%。未见差异。",
+  "data": []
+}

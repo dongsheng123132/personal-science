@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gitscience.dev/schema/rep.schema.json",
+  "title": "GitScience Reproduction",
+  "type": "object",
+  "required": ["gitscience", "kind", "reproduces", "reproducer", "independence", "outcome"],
+  "properties": {
+    "gitscience": { "type": "string", "enum": ["0.1"] },
+    "kind": { "const": "reproduction" },
+    "reproduces": { "type": "string", "pattern": "^[A-Za-z0-9-]+/[A-Za-z0-9._-]+#[a-z0-9-]+$" },
+    "reproducer": { "type": "string", "pattern": "^[A-Za-z0-9]([A-Za-z0-9-]{0,38})$" },
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "independence": { "type": "string", "enum": ["independent", "self", "same_gear"] },
+    "outcome": { "type": "string", "enum": ["matched", "different", "failed", "inconclusive"] },
+    "difference": { "type": "string", "maxLength": 1000 },
+    "data": { "type": "array", "items": { "type": "string" } }
+  }
+}

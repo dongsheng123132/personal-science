@@ -1,0 +1,42 @@
+{
+  "gitscience": "0.1",
+  "kind": "lab",
+  "handle": "anna",
+  "name": "Anna 的家庭电子角",
+  "bio": "柏林，做嵌入式硬件的工程师，家里一张 1.2 米的桌面。",
+  "location": { "city": "柏林", "country": "DE" },
+  "availability": {
+    "note": "周末整天，工作日晚上两小时",
+    "accepts_samples": true,
+    "shipping": "欧盟",
+    "paid": false
+  },
+  "capabilities": [
+    {
+      "id": "dc-precision",
+      "what": "四线制直流电压 / 小电阻测量",
+      "gear": ["HP 34401A 六位半", "四线开尔文夹"],
+      "limits": ["电流只到 1A", "没有大功率负载"],
+      "confirmed": true,
+      "source": "operator"
+    },
+    {
+      "id": "thermal",
+      "what": "稳态温度分布拍摄",
+      "gear": ["手持热像仪（型号未确认）"],
+      "limits": ["没有恒温室，只能测室温附近", "发射率用的是默认值"],
+      "confirmed": false,
+      "source": "photo"
+    },
+    {
+      "id": "logging",
+      "what": "长时间无人值守记录",
+      "gear": ["温湿度记录仪", "树莓派"],
+      "limits": ["没有 UPS，断电会中断"],
+      "confirmed": true,
+      "source": "operator"
+    }
+  ],
+  "unknowns": ["热像仪的精度从来没核对过", "桌面只有 1.2 米，最多摆两台设备"],
+  "links": { "contact": "issue" }
+}

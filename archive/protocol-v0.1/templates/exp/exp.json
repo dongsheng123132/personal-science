@@ -1,0 +1,23 @@
+{
+  "gitscience": "0.1",
+  "kind": "experiment",
+  "id": "my-experiment-id",
+  "title": "一句话说清这个实验要回答什么",
+  "author": "YOUR-GITHUB-HANDLE",
+  "date": "2026-01-01",
+  "field": ["electronics"],
+  "status": "planned",
+  "question": "在什么条件下，测哪个量，和什么比，是否超过多少？",
+  "hypothesis": "你认为会是什么结果。",
+  "protocol": {
+    "samples": 1,
+    "repeats": 3,
+    "gear": ["用到的设备"],
+    "steps": [
+      "第一步做什么",
+      "第二步做什么"
+    ],
+    "acceptance": "什么条件下数据算合格（比如：同一条件三次极差 < 0.05V 才计入）",
+    "limits": ["什么没控制住（比如：室温未控，±3°C）"]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "gitscience": "0.1",
+  "kind": "experiment",
+  "id": "adapter-drop-12v",
+  "title": "标称 12V 2A 的适配器，满载时还稳吗",
+  "author": "laozhou",
+  "date": "2026-11-02",
+  "field": ["electronics", "power"],
+  "status": "done",
+  "question": "在 25% / 50% / 100% 负载下，输出电压相对空载的偏差是否超过 ±5%？",
+  "hypothesis": "满载压降会超过 5%。",
+  "protocol": {
+    "samples": 3,
+    "repeats": 3,
+    "gear": ["UNI-T UT61E", "电子负载 150W"],
+    "steps": [
+      "空载接万用表，稳定 60 秒后读 3 次",
+      "接 25% 负载，稳定 60 秒后读 3 次",
+      "同上 50%、100% 负载",
+      "每台测完记一次室温"
+    ],
+    "acceptance": "同一负载点 3 次读数极差 < 0.05V 才计入平均值",
+    "limits": ["室温未控，±3°C", "只测 12V 2A 这一个规格", "3 台是同一个批次的货"]
+  },
+  "result": {
+    "outcome": "supports",
+    "summary": "3 台同款里 2 台满载压降超过 5%，最差的一台 11.32V（-5.7%）。空载全部正常，所以只看空载会漏掉。",
+    "measurements": [
+      { "load": "空载", "voltage": 12.01 },
+      { "load": "25%", "voltage": 11.92 },
+      { "load": "50%", "voltage": 11.71 },
+      { "load": "100%", "voltage": 11.38 }
+    ],
+    "files": ["data/load-test.csv"]
+  }
+}

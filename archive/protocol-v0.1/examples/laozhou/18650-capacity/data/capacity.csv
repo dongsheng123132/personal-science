@@ -1,0 +1,6 @@
+cell,capacity_mah,discharge_current_a,cutoff_v,rest_minutes
+A,2871,1.5,2.8,30
+B,2850,1.5,2.8,30
+C,2793,1.5,2.8,30
+D,2902,1.5,2.8,30
+E,2884,1.5,2.8,30

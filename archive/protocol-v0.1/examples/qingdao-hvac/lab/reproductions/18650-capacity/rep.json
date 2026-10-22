@@ -1,0 +1,11 @@
+{
+  "gitscience": "0.1",
+  "kind": "reproduction",
+  "reproduces": "laozhou/18650-capacity#18650-capacity",
+  "reproducer": "qingdao-hvac",
+  "date": "2026-11-25",
+  "independence": "independent",
+  "outcome": "matched",
+  "difference": "用实训台测了 10 节，平均 2855mAh。未见差异，但万用表精度不齐，容量是电子负载读的。",
+  "data": []
+}

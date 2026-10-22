@@ -1,0 +1,11 @@
+{
+  "gitscience": "0.1",
+  "kind": "reproduction",
+  "reproduces": "laozhou/18650-capacity#18650-capacity",
+  "reproducer": "xiaoli",
+  "date": "2026-11-20",
+  "independence": "independent",
+  "outcome": "matched",
+  "difference": "测了 3 节同型号，平均 2830mAh，和原结论一致。未见差异。",
+  "data": []
+}

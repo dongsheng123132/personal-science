@@ -1,0 +1,11 @@
+{
+  "gitscience": "0.1",
+  "kind": "reproduction",
+  "reproduces": "OWNER/REPO#EXPERIMENT-ID",
+  "reproducer": "YOUR-GITHUB-HANDLE",
+  "date": "2026-01-01",
+  "independence": "independent",
+  "outcome": "matched",
+  "difference": "和原结果差在哪、可能是什么条件造成的。没有差异就写'未见差异'。",
+  "data": []
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gitscience.dev/schema/lab.schema.json",
+  "title": "GitScience Lab",
+  "type": "object",
+  "required": ["gitscience", "kind", "handle", "name", "location", "capabilities"],
+  "properties": {
+    "gitscience": { "type": "string", "enum": ["0.1"] },
+    "kind": { "const": "lab" },
+    "handle": { "type": "string", "pattern": "^[A-Za-z0-9]([A-Za-z0-9-]{0,38})$" },
+    "name": { "type": "string", "minLength": 1, "maxLength": 60 },
+    "bio": { "type": "string", "maxLength": 500 },
+    "location": {
+      "type": "object",
+      "required": ["city", "country"],
+      "properties": {
+        "city": { "type": "string", "minLength": 1 },
+        "region": { "type": "string" },
+        "country": { "type": "string", "pattern": "^[A-Z]{2}$" }
+      }
+    },
+    "availability": {
+      "type": "object",
+      "properties": {
+        "note": { "type": "string" },
+        "accepts_samples": { "type": "boolean" },
+        "shipping": { "type": "string" },
+        "paid": { "type": "boolean" }
+      }
+    },
+    "capabilities": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["what", "confirmed"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+          "what": { "type": "string", "minLength": 2, "maxLength": 120 },
+          "gear": { "type": "array", "items": { "type": "string" } },
+          "limits": { "type": "array", "items": { "type": "string" } },
+          "confirmed": { "type": "boolean" },
+          "source": { "type": "string", "enum": ["photo", "operator"] }
+        }
+      }
+    },
+    "unknowns": { "type": "array", "items": { "type": "string" } },
+    "links": { "type": "object" }
+  }
+}

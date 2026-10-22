@@ -1,0 +1,25 @@
+{
+  "gitscience": "0.1",
+  "kind": "experiment",
+  "id": "usb-c-cable-drop",
+  "title": "USB-C 线在 3A 下的压降，便宜的差多少",
+  "author": "anna",
+  "date": "2026-11-20",
+  "field": ["electronics"],
+  "status": "running",
+  "question": "10 条不同价位的 USB-C 线，在 3A 恒流负载下，压降是否超过 0.5V？",
+  "hypothesis": "低于 3 欧元的线压降明显更大。",
+  "protocol": {
+    "samples": 10,
+    "repeats": 2,
+    "gear": ["HP 34401A", "电子负载 150W", "USB-C 测试板"],
+    "steps": [
+      "线材接测试板，电子负载设 3A 恒流",
+      "稳定 60 秒后在线材两端测压差",
+      "每条测两次，间隔 5 分钟"
+    ],
+    "acceptance": "同一条线两次极差 < 0.01V 才计入",
+    "limits": ["没有恒温", "只测 3A，不测 5A", "只测压降，不测 E-Marker"]
+  },
+  "progress": "已经测了 6 条，压降从 0.21V 到 0.58V 都有。"
+}

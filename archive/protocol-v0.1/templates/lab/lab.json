@@ -1,0 +1,32 @@
+{
+  "gitscience": "0.1",
+  "kind": "lab",
+  "handle": "YOUR-GITHUB-HANDLE",
+  "name": "我的工作台",
+  "bio": "一句话：你在哪个城市、干什么、干了多久。",
+  "location": {
+    "city": "城市",
+    "region": "省/州（可删）",
+    "country": "CN"
+  },
+  "availability": {
+    "note": "比如：工作日晚上、周末白天",
+    "accepts_samples": false,
+    "shipping": "仅国内",
+    "paid": false
+  },
+  "capabilities": [
+    {
+      "id": "dc-measure",
+      "what": "直流电压 / 电流测量",
+      "gear": ["万用表（型号未确认）"],
+      "limits": ["没有校准", "具体量程待确认"],
+      "confirmed": false,
+      "source": "photo"
+    }
+  ],
+  "unknowns": ["示波器能不能用还没试", "不知道电子负载最大功率"],
+  "links": {
+    "contact": "issue"
+  }
+}

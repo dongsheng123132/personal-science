@@ -1,0 +1,11 @@
+{
+  "gitscience": "0.1",
+  "kind": "reproduction",
+  "reproduces": "laozhou/adapter-drop-12v#adapter-drop-12v",
+  "reproducer": "xiaoli",
+  "date": "2026-11-18",
+  "independence": "independent",
+  "outcome": "different",
+  "difference": "我的两台满载只掉 4.0%（11.52V），没到 5%。可能是批次不同，我这两台是去年买的。",
+  "data": []
+}

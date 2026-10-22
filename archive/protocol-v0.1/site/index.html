@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitScience · 全球实验网络</title>
+<meta name="description" content="不认证，不评分，不审核。把你的工作台接进世界的证据链。">
+<style>
+  *{box-sizing:border-box}
+  :root{
+    --ink:#17191f; --ink2:#3c4149; --muted:#6b7280;
+    --line:#e5e7eb; --bg:#f6f7f9; --card:#fff;
+    --blue:#1e5bd6; --blue-dark:#1a4dbb; --blue-soft:#eef3fd; --blue-line:#cfddf7;
+    --amber:#a15c12; --amber-soft:#fdf5ea; --amber-line:#eedcc0;
+    --red:#9f2020; --red-soft:#fbeeee;
+    --gray-soft:#f1f3f5; --radius:12px;
+  }
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink); font-size:15px; line-height:1.65;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei","PingFang SC",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--blue);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+  section[id]{scroll-margin-top:76px}
+
+  /* ---- 顶栏 ---- */
+  .topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);
+    backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .topbar .inner{max-width:1080px;margin:0 auto;padding:0 24px;height:60px;display:flex;align-items:center;gap:12px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:16px;color:var(--ink)}
+  .brand:hover{text-decoration:none}
+  .mark{width:18px;height:18px;border-radius:5px;background:var(--blue);position:relative;flex:none}
+  .mark::after{content:"";position:absolute;inset:6px;background:#fff;border-radius:2px}
+  .tag{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:999px;
+    padding:0 8px;line-height:20px;background:#fff}
+  nav{margin-left:auto;display:flex;gap:24px;font-size:14px}
+  nav a{color:var(--ink2)}
+  nav a:hover{color:var(--blue);text-decoration:none}
+
+  /* ---- 首屏 ---- */
+  .hero{padding:76px 0 52px}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.12em;
+    color:var(--muted);text-transform:uppercase}
+  .eyebrow i{width:6px;height:6px;border-radius:50%;background:var(--blue);display:block}
+  h1{font-size:46px;line-height:1.2;letter-spacing:-.02em;margin:18px 0 20px;font-weight:700;max-width:15em}
+  .lede{font-size:17px;color:var(--ink2);max-width:640px;margin:0 0 30px}
+  .lede b{color:var(--ink);font-weight:600}
+  .cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:52px}
+  .btn{display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 20px;
+    border-radius:8px;font-size:14.5px;font-weight:600;border:1px solid transparent}
+  .btn-primary{background:var(--blue);color:#fff}
+  .btn-primary:hover{background:var(--blue-dark);text-decoration:none}
+  .btn-ghost{background:#fff;border-color:var(--line);color:var(--ink2)}
+  .btn-ghost:hover{border-color:#c8ced7;text-decoration:none}
+
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;
+    border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  .stat{padding:20px 24px;border-right:1px solid var(--line)}
+  .stat:last-child{border-right:0}
+  .stat .n{font-size:30px;font-weight:700;letter-spacing:-.02em;line-height:1.15;font-variant-numeric:tabular-nums}
+  .stat .l{font-size:12.5px;color:var(--muted);margin-top:3px}
+
+  /* ---- 区块 ---- */
+  .section{padding:56px 0 6px}
+  .sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:20px}
+  .sec-head h2{font-size:22px;margin:0;letter-spacing:-.01em}
+  .sec-head p{margin:6px 0 0;color:var(--muted);font-size:14px;max-width:640px}
+  .sec-head .count{font-size:13px;color:var(--muted);white-space:nowrap;padding-bottom:3px}
+
+  .grid{display:grid;gap:16px}
+  .grid-3{grid-template-columns:repeat(3,1fr)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:20px;display:flex;flex-direction:column;transition:border-color .15s}
+  .card:hover{border-color:#d2d8e1}
+
+  .badge{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;
+    padding:3px 9px;border-radius:999px;border:1px solid transparent;white-space:nowrap}
+  .b-supports{background:var(--blue-soft);color:var(--blue);border-color:var(--blue-line)}
+  .b-refutes{background:var(--amber-soft);color:var(--amber);border-color:var(--amber-line)}
+  .b-inconclusive{background:var(--gray-soft);color:var(--muted);border-color:var(--line)}
+  .b-running{background:#fff;color:var(--ink2);border-color:var(--line)}
+
+  .exp-top{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+  .exp-meta{font-size:12.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+  .card h3.exp-title{font-size:16px;margin:0 0 8px;line-height:1.45;letter-spacing:-.005em}
+  .summary{color:var(--ink2);font-size:14px;margin:0 0 16px;flex:1}
+  .card-foot{display:flex;align-items:center;gap:14px;padding-top:13px;
+    border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);flex-wrap:wrap}
+  .card-foot b{color:var(--ink2);font-weight:600;font-variant-numeric:tabular-nums}
+  .sp{margin-left:auto}
+
+  .lab-head{display:flex;align-items:baseline;gap:8px}
+  .lab-head h3{font-size:16px;margin:0}
+  .lab-loc{font-size:12.5px;color:var(--muted);white-space:nowrap}
+  .lab-bio{font-size:13.5px;color:var(--ink2);margin:8px 0 14px;flex:1}
+  .caps{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+  .cap{font-size:12px;padding:3px 8px;border-radius:6px;background:var(--blue-soft);
+    color:#1a4ba8;border:1px solid var(--blue-line)}
+  .cap.draft{background:#fff;border:1px dashed #cbd2dc;color:var(--muted)}
+  .cap.draft::after{content:"待确认";font-size:10px;margin-left:5px;color:#9aa3af;letter-spacing:.02em}
+
+  /* ---- 复现图 ---- */
+  .graph-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  .graph-inner{padding:10px 8px 2px}
+  #graph svg{width:100%;height:auto;display:block}
+  .legend{display:flex;flex-wrap:wrap;gap:20px;padding:13px 18px;border-top:1px solid var(--line);
+    font-size:12.5px;color:var(--muted)}
+  .legend span{display:inline-flex;align-items:center;gap:7px}
+  .legend i{width:16px;height:2px;display:block;border-radius:2px}
+  .graph-note{font-size:13px;color:var(--muted);margin:12px 2px 0}
+
+  /* ---- 倡议 ---- */
+  .inits{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+  .init{background:var(--blue-soft);border:1px solid var(--blue-line);border-radius:var(--radius);padding:22px}
+  .init .no{font-size:12px;letter-spacing:.1em;color:var(--blue);font-weight:700}
+  .init h3{font-size:17px;margin:8px 0 7px;line-height:1.4}
+  .init p{font-size:13.5px;color:#36486a;margin:0 0 14px}
+  .init .meta{font-size:12.5px;color:#4a5b7a}
+
+  /* ---- 加入 ---- */
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:22px}
+  .step{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px}
+  .step .n{width:24px;height:24px;border-radius:50%;background:var(--blue);color:#fff;
+    font-size:12.5px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+  .step h3{font-size:15px;margin:0 0 6px}
+  .step p{font-size:13.5px;color:var(--muted);margin:0}
+  .blocks{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .block h4{font-size:12.5px;color:var(--muted);margin:0 0 8px;font-weight:600;letter-spacing:.02em}
+  pre{background:#15171c;color:#e6e8ee;border-radius:10px;padding:16px 18px;font-size:12.6px;
+    line-height:1.75;overflow:auto;margin:0;
+    font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}
+  pre .c{color:#8b94a7}
+
+  /* ---- 页脚 ---- */
+  footer{border-top:1px solid var(--line);margin-top:60px;padding:30px 0 52px;background:#fff}
+  .principles{display:flex;gap:32px;flex-wrap:wrap;font-size:14px;margin-bottom:14px}
+  .principles span{display:inline-flex;align-items:center;gap:8px}
+  .principles i{width:6px;height:6px;border-radius:50%;background:var(--blue);display:block}
+  .foot-note{font-size:12.5px;color:var(--muted);margin:0}
+  .foot-note code{background:var(--gray-soft);padding:1px 5px;border-radius:4px;font-size:12px}
+
+  @media (max-width:900px){
+    h1{font-size:34px}
+    .hero{padding:48px 0 36px}
+    .grid-3,.inits,.steps,.blocks{grid-template-columns:1fr}
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .stat:nth-child(2){border-right:0}
+    .stat:nth-child(-n+2){border-bottom:1px solid var(--line)}
+    nav{display:none}
+    .sec-head{flex-direction:column;align-items:flex-start;gap:6px}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="inner">
+    <a class="brand" href="#top"><span class="mark"></span>GitScience</a>
+    <span class="tag">协议 v0.1</span>
+    <nav>
+      <a href="#experiments">实验</a>
+      <a href="#labs">实验室</a>
+      <a href="#graph">复现图</a>
+      <a href="#initiatives">倡议</a>
+      <a href="#join">怎么加入</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap hero">
+    <div class="eyebrow"><i></i>全球实验网络 · 演示数据</div>
+    <h1>把你的工作台，<br>接进世界的证据链。</h1>
+    <p class="lede">
+      不认证，不评分，不审核。拍一张工作台的照片，AI 帮你写清楚
+      <b>你能验证什么</b>；每个实验都是一个 GitHub 仓库；
+      别人复现你，就留下一条<b>指向你的记录</b>。信用不是发出来的，是长出来的。
+    </p>
+    <div class="cta">
+      <a class="btn btn-primary" href="#join">怎么加入 →</a>
+      <a class="btn btn-ghost" href="#experiments">看看网络里的实验</a>
+    </div>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <section class="wrap section" id="experiments">
+    <div class="sec-head">
+      <div>
+        <h2>最近发生的实验</h2>
+        <p>每个实验一个仓库。方案在数据之前提交，验收标准在做之前写死。</p>
+      </div>
+      <span class="count" id="exp-count"></span>
+    </div>
+    <div class="grid grid-3" id="exp-grid"></div>
+  </section>
+
+  <section class="wrap section" id="labs">
+    <div class="sec-head">
+      <div>
+        <h2>网络里的实验室</h2>
+        <p>维修铺、宿舍、职校实训室、离网太阳能站。<b>虚线框的能力是照片推断、本人还没确认的。</b></p>
+      </div>
+      <span class="count" id="lab-count"></span>
+    </div>
+    <div class="grid grid-3" id="lab-grid"></div>
+  </section>
+
+  <section class="wrap section" id="graph">
+    <div class="sec-head">
+      <div>
+        <h2>复现关系</h2>
+        <p>这是整个网络唯一有信息量的东西——不是分数，是"谁验证过谁"。</p>
+      </div>
+    </div>
+    <div class="graph-card">
+      <div class="graph-inner">
+        <div id="graph" role="img" aria-label="实验与复现的关系图"></div>
+      </div>
+      <div class="legend">
+        <span><i style="background:#1e5bd6"></i>一致</span>
+        <span><i style="background:#b45309;height:0;border-top:2px dashed #b45309"></i>结果不同</span>
+        <span><i style="background:#9aa3af;height:0;border-top:2px dotted #9aa3af"></i>判不了</span>
+        <span>实线 = 独立复现</span>
+      </div>
+    </div>
+    <p class="graph-note">复现记录放在复现者自己的仓库里，用 <code>reproduces</code> 字段指过来。原作者永远不合 PR，事实也还在。</p>
+  </section>
+
+  <section class="wrap section" id="initiatives">
+    <div class="sec-head">
+      <div>
+        <h2>全球倡议</h2>
+        <p>我们只发起题目，不组织、不审核。谁想做就自己发一个仓库。</p>
+      </div>
+    </div>
+    <div class="inits">
+      <div class="init">
+        <div class="no">倡议 001</div>
+        <h3>100 个城市，测一次自家自来水的 TDS</h3>
+        <p>同一天、同一支笔、同一个读法。一个人测等于没测，一百个人测就是一张图。</p>
+        <div class="meta">征集中 · 需要的设备：TDS 笔 · 一个人 20 分钟</div>
+      </div>
+      <div class="init">
+        <div class="no">倡议 002</div>
+        <h3>同款充电头，20 个城市同时测满载压降</h3>
+        <p>网购同一批次，各自测，各自发仓库。看标称和实测差多少，也看不同城市的电网有没有影响。</p>
+        <div class="meta">征集中 · 需要的设备：万用表 + 电子负载 · 一个人 1 小时</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section" id="join">
+    <div class="sec-head">
+      <div>
+        <h2>怎么加入</h2>
+        <p>不用申请，不用注册，不用经过任何人同意。三步，一下午。</p>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="n">1</div>
+        <h3>拍一张工作台</h3>
+        <p>桌面全貌 + 关键设备面板。手机拍就行，看得清型号最重要。</p>
+      </div>
+      <div class="step">
+        <div class="n">2</div>
+        <h3>交给会看图的 AI</h3>
+        <p>附上 SKILL.md。它会输出 lab.json、一个主页，和 3 个你能接的验证任务。</p>
+      </div>
+      <div class="step">
+        <div class="n">3</div>
+        <h3>push 到 GitHub，打上 topic</h3>
+        <p>带 <code>gitscience-lab</code> 的仓库，就会被索引器收进网络。</p>
+      </div>
+    </div>
+    <div class="blocks">
+      <div class="block">
+        <h4>给 AI 的话（复制这段）</h4>
+        <pre>这是我的工作台照片。
+请按 SKILL.md 生成：
+1. lab.json
+2. 一个能当仓库首页的 README
+3. 3 个我现在就能做的实验</pre>
+      </div>
+      <div class="block">
+        <h4>发布（三条命令）</h4>
+        <pre>git init &amp;&amp; git add . &amp;&amp; git commit -m "lab: init"
+gh repo create lab --public --source=. --push
+gh repo edit --add-topic gitscience-lab</pre>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="principles">
+      <span><i></i><b>不认证</b>　没有证书，没有等级</span>
+      <span><i></i><b>不评分</b>　只统计事实，不做加权</span>
+      <span><i></i><b>不审核</b>　格式不对不进索引，不删帖</span>
+    </div>
+    <p class="foot-note">
+      演示数据 · 不是真实网络 · 由 <code>indexer/gitscience.py</code> 生成 ·
+      协议 v0.1 · 本页无后端、无数据库、无追踪
+    </p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  var D = window.GS_DATA;
+  if (!D) {
+    document.querySelector("main").innerHTML =
+      '<div class="wrap" style="padding:80px 0"><h2 style="margin:0 0 12px">没有找到数据</h2>' +
+      '<p style="color:#6b7280">先跑一遍索引器：<code>python indexer/gitscience.py build --local examples --out site</code></p></div>';
+    return;
+  }
+
+  var OUT = {
+    supports:     { cls: "b-supports",      label: "支持假设" },
+    refutes:      { cls: "b-refutes",       label: "推翻假设" },
+    inconclusive: { cls: "b-inconclusive",  label: "判不了" },
+    matched:      { cls: "b-supports",      label: "一致" },
+    different:    { cls: "b-refutes",       label: "结果不同" },
+    failed:       { cls: "b-refutes",       label: "没做成" }
+  };
+  var EDGE = { matched: "#1e5bd6", different: "#b45309", failed: "#9f2020", inconclusive: "#9aa3af" };
+  var DASH = { matched: "", different: "5 4", failed: "2 4", inconclusive: "1 4" };
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+  function cut(s, n) {
+    s = String(s == null ? "" : s);
+    return s.length > n ? s.slice(0, n - 1) + "…" : s;
+  }
+  function wrap2(s, n) {
+    s = String(s == null ? "" : s);
+    if (s.length <= n) return [s];
+    if (s.length <= n * 2) return [s.slice(0, n), s.slice(n)];
+    return [s.slice(0, n), s.slice(n, n * 2 - 1) + "…"];
+  }
+  function badge(outcome) {
+    if (!outcome) return '<span class="badge b-running">进行中</span>';
+    var o = OUT[outcome] || OUT.inconclusive;
+    return '<span class="badge ' + o.cls + '">' + o.label + '</span>';
+  }
+
+  // ---- 数字 ----
+  var c = D.counts;
+  document.getElementById("stats").innerHTML = [
+    [c.labs, "实验室"], [c.experiments, "实验"],
+    [c.reproductions, "复现记录"], [c.cities, "城市"]
+  ].map(function (x) {
+    return '<div class="stat"><div class="n">' + x[0] + '</div><div class="l">' + x[1] + '</div></div>';
+  }).join("");
+  document.getElementById("exp-count").textContent = c.experiments + " 个";
+  document.getElementById("lab-count").textContent = c.labs + " 个";
+
+  // ---- 实验 ----
+  var exps = D.experiments.slice().sort(function (a, b) { return (b.date || "").localeCompare(a.date || ""); });
+  document.getElementById("exp-grid").innerHTML = exps.map(function (e) {
+    var summary = (e.result && e.result.summary) || e.progress || e.question;
+    return '<article class="card">' +
+      '<div class="exp-top">' + badge(e.result && e.result.outcome) +
+        '<span class="exp-meta">' + esc(e.city) + ' · ' + esc(e.date) + '</span></div>' +
+      '<h3 class="exp-title">' + esc(e.title) + '</h3>' +
+      '<p class="summary">' + esc(summary) + '</p>' +
+      '<div class="card-foot"><span>' + esc(e.author_name) + '</span><span class="sp"></span>' +
+        '<span>独立复现 <b>' + e.independent_count + '</b></span>' +
+        '<span>★ <b>' + e.stars + '</b></span></div>' +
+      '</article>';
+  }).join("");
+
+  // ---- 实验室 ----
+  document.getElementById("lab-grid").innerHTML = D.labs.map(function (l) {
+    var caps = l.capabilities.slice(0, 3).map(function (cp) {
+      return '<span class="cap' + (cp.confirmed ? "" : " draft") + '">' + esc(cp.what) + '</span>';
+    }).join("");
+    return '<article class="card">' +
+      '<div class="lab-head"><h3>' + esc(l.name) + '</h3><span class="lab-loc">' + esc(l.city) + '</span></div>' +
+      '<p class="lab-bio">' + esc(l.bio) + '</p>' +
+      '<div class="caps">' + caps + '</div>' +
+      '<div class="card-foot">' +
+        '<span>实验 <b>' + l.experiment_count + '</b></span>' +
+        '<span>复现 <b>' + l.reproduction_count + '</b></span>' +
+        '<span>被复现 <b>' + l.reproduced_count + '</b></span>' +
+        '<span class="sp"></span><span>★ <b>' + l.stars + '</b></span></div>' +
+      '</article>';
+  }).join("");
+
+  // ---- 复现图 ----
+  (function renderGraph() {
+    var svg = document.getElementById("graph");
+    var leftW = 240, gapX = 140, rightW = 240;
+    var nodeH = 64, repH = 42, repGap = 16, blockGap = 36, padY = 26;
+
+    var rows = exps.map(function (e) {
+      return { exp: e, reps: D.reproductions.filter(function (r) { return r.target === e.uid; }) };
+    });
+
+    var y = padY, nodes = [], edges = [];
+    rows.forEach(function (row) {
+      var h = Math.max(nodeH, row.reps.length * (repH + repGap) - repGap);
+      var top = y, expCy = top + h / 2;
+      nodes.push({ cy: expCy, x: 0, w: leftW, h: nodeH, kind: "exp", data: row.exp });
+      row.reps.forEach(function (r, i) {
+        var cy = top + i * (repH + repGap) + repH / 2;
+        nodes.push({ cy: cy, x: leftW + gapX, w: rightW, h: repH, kind: "rep", data: r });
+        edges.push({ x1: leftW, y1: expCy, x2: leftW + gapX, y2: cy, outcome: r.outcome });
+      });
+      y = top + h + blockGap;
+    });
+
+    var W = leftW + gapX + rightW;
+    var H = Math.max(160, y - blockGap + padY);
+    var parts = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' + W + ' ' + H + '">'];
+
+    // 列标签
+    parts.push('<text x="0" y="12" font-size="11" fill="#9aa3af" letter-spacing="2">实验</text>');
+    parts.push('<text x="' + (leftW + gapX) + '" y="12" font-size="11" fill="#9aa3af" letter-spacing="2">复现</text>');
+
+    // 连线
+    edges.forEach(function (e) {
+      var color = EDGE[e.outcome] || "#9aa3af";
+      var dash = DASH[e.outcome] ? ' stroke-dasharray="' + DASH[e.outcome] + '"' : "";
+      var d = "M " + e.x1 + " " + e.y1 + " C " + (e.x1 + 44) + " " + e.y1 + ", " +
+              (e.x2 - 44) + " " + e.y2 + ", " + e.x2 + " " + e.y2;
+      parts.push('<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="1.4"' +
+                 dash + ' opacity=".9"/>');
+      parts.push('<circle cx="' + e.x2 + '" cy="' + e.y2 + '" r="2.6" fill="' + color + '"/>');
+    });
+
+    // 节点
+    nodes.forEach(function (n) {
+      var top = n.cy - n.h / 2;
+      if (n.kind === "exp") {
+        var lines = wrap2(n.data.title, 13);
+        parts.push('<rect x="0" y="' + top + '" width="' + n.w + '" height="' + n.h +
+                   '" rx="9" fill="#fff" stroke="#d9e2f5"/>');
+        parts.push('<rect x="0" y="' + top + '" width="3.5" height="' + n.h +
+                   '" rx="1.75" fill="#1e5bd6"/>');
+        if (lines.length === 1) {
+          parts.push('<text x="18" y="' + (n.cy - 4) + '" font-size="12.5" fill="#17191f">' +
+                     esc(lines[0]) + '</text>');
+          parts.push('<text x="18" y="' + (n.cy + 15) + '" font-size="10.5" fill="#6b7280">' +
+                     esc(cut(n.data.city + " · " + n.data.author_name, 24)) + '</text>');
+        } else {
+          parts.push('<text x="18" y="' + (n.cy - 13) + '" font-size="12.5" fill="#17191f">' +
+                     esc(lines[0]) + '</text>');
+          parts.push('<text x="18" y="' + (n.cy + 3) + '" font-size="12.5" fill="#17191f">' +
+                     esc(lines[1]) + '</text>');
+          parts.push('<text x="18" y="' + (n.cy + 22) + '" font-size="10.5" fill="#6b7280">' +
+                     esc(cut(n.data.city + " · " + n.data.author_name, 24)) + '</text>');
+        }
+      } else {
+        var color = EDGE[n.data.outcome] || "#9aa3af";
+        var o = OUT[n.data.outcome] || OUT.inconclusive;
+        parts.push('<rect x="' + n.x + '" y="' + top + '" width="' + n.w + '" height="' + n.h +
+                   '" rx="8" fill="#fff" stroke="' + color + '" stroke-opacity=".45"/>');
+        parts.push('<circle cx="' + (n.x + 17) + '" cy="' + n.cy + '" r="3.5" fill="' + color + '"/>');
+        parts.push('<text x="' + (n.x + 29) + '" y="' + (n.cy - 1) + '" font-size="11.5" fill="#17191f">' +
+                   esc(cut(n.data.reproducer_name, 16)) + '</text>');
+        parts.push('<text x="' + (n.x + 29) + '" y="' + (n.cy + 14) + '" font-size="10" fill="' + color + '">' +
+                   o.label + ' · ' + esc(n.data.city) + '</text>');
+      }
+    });
+
+    parts.push("</svg>");
+    svg.innerHTML = parts.join("");
+  })();
+})();
+</script>
+</body>
+</html>

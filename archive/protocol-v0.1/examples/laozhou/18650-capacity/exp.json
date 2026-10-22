@@ -1,0 +1,36 @@
+{
+  "gitscience": "0.1",
+  "kind": "experiment",
+  "id": "18650-capacity",
+  "title": "标称 3000mAh 的 18650，实际能放出多少",
+  "author": "laozhou",
+  "date": "2026-11-09",
+  "field": ["battery"],
+  "status": "done",
+  "question": "5 节标称 3000mAh 的 18650，以 0.5C 恒流放电到 2.8V，实际容量是否低于 2700mAh？",
+  "hypothesis": "实际容量普遍比标称低 10% 以上。",
+  "protocol": {
+    "samples": 5,
+    "repeats": 1,
+    "gear": ["电子负载 150W"],
+    "steps": [
+      "每节先用 1A 恒流充到 4.2V，静置 30 分钟",
+      "以 1.5A 恒流放电到 2.8V，记录放出容量",
+      "每节测完静置 30 分钟再测下一节"
+    ],
+    "acceptance": "放电过程电流波动 < ±2% 才算一次有效",
+    "limits": ["没有恒温，室温 22±2°C", "只做一次，不测循环衰减"]
+  },
+  "result": {
+    "outcome": "refutes",
+    "summary": "5 节平均 2860mAh，最低 2793mAh，没有一节低于 2700。这批货虚标没到 10%，假设被推翻。",
+    "measurements": [
+      { "cell": "A", "capacity_mah": 2871 },
+      { "cell": "B", "capacity_mah": 2850 },
+      { "cell": "C", "capacity_mah": 2793 },
+      { "cell": "D", "capacity_mah": 2902 },
+      { "cell": "E", "capacity_mah": 2884 }
+    ],
+    "files": ["data/capacity.csv"]
+  }
+}

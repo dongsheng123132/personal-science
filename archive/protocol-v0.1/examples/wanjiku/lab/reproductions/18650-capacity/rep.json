@@ -1,0 +1,11 @@
+{
+  "gitscience": "0.1",
+  "kind": "reproduction",
+  "reproduces": "laozhou/18650-capacity#18650-capacity",
+  "reproducer": "wanjiku",
+  "date": "2026-11-26",
+  "independence": "independent",
+  "outcome": "inconclusive",
+  "difference": "这里只有内阻仪，没有电子负载，做不了完整放电。内阻看起来偏高，但不能拿这个下结论。",
+  "data": []
+}

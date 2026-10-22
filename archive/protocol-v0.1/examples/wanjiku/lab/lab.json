@@ -1,0 +1,34 @@
+{
+  "gitscience": "0.1",
+  "kind": "lab",
+  "handle": "wanjiku",
+  "name": "Wanjiku 太阳能维修站",
+  "bio": "内罗毕，修离网太阳能和电池，白天有太阳才能干活。",
+  "location": { "city": "内罗毕", "country": "KE" },
+  "availability": {
+    "note": "白天，周一到周六",
+    "accepts_samples": false,
+    "shipping": "",
+    "paid": true
+  },
+  "capabilities": [
+    {
+      "id": "solar-test",
+      "what": "太阳能板开路电压 / 短路电流测试",
+      "gear": ["万用表（型号未确认）", "直流钳表"],
+      "limits": ["没有标准光源，天气影响大", "电网不稳，电脑会断"],
+      "confirmed": false,
+      "source": "photo"
+    },
+    {
+      "id": "battery-pack",
+      "what": "铅酸 / 锂电组电压与内阻粗测",
+      "gear": ["内阻仪（型号未确认）"],
+      "limits": ["只能测整组，不拆单节", "没有电子负载"],
+      "confirmed": false,
+      "source": "photo"
+    }
+  ],
+  "unknowns": ["内阻仪准不准不知道", "雨季基本没法做"],
+  "links": { "contact": "issue" }
+}
