@@ -7,6 +7,8 @@
 
 `12 个实验` · `每页写死验收标准` · `CC0 随便抄` · `每天自动收集候选`
 
+[![collect](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml/badge.svg)](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml)
+
 [一分钟版本](#一分钟版本) · [清单](#清单) · [每天在长出来](#每天在长出来) · [怎么加一个](#怎么加一个) · [章程](CHARTER.md)
 
 ---

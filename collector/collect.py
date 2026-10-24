@@ -123,12 +123,15 @@ def make_item(source, title, url, published, summary="", meta=None, targeted=Fal
     clean_url = norm_url(url)
     if not title or not clean_url:
         return None
+    # RSS 是 RFC822（Fri, 08 Nov 2024 …），API 是 ISO，统一成 YYYY-MM-DD
+    parsed = parse_date(published)
+    published_iso = parsed.strftime("%Y-%m-%d") if parsed else (published or "")[:10]
     return {
         "id": hashlib.sha1(clean_url.encode("utf-8")).hexdigest()[:12],
         "source": source,
         "title": title,
         "url": clean_url,
-        "published": (published or "")[:10],
+        "published": published_iso,
         "summary": summary,
         "meta": meta or {},
         "targeted": targeted,
