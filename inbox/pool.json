@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T10:20:46+00:00",
+ "updated_at": "2026-10-24T10:23:23+00:00",
  "count": 137,
  "items": [
   {
@@ -1296,6 +1296,30 @@
    "title_signal": false
   },
   {
+   "id": "b5b9635e94fc",
+   "source": "wikipedia",
+   "title": "吴健雄",
+   "url": "https://zh.wikipedia.org/wiki/%E5%90%B4%E5%81%A5%E9%9B%84",
+   "published": "",
+   "summary": "吴健雄（英語：Chien-Shiung Wu；1912年5月31日—1997年2月16日），美籍华裔物理学家，在核物理学领域卓有贡献，其在实验物理学方面的造诣常令人将她与瑪麗·居禮相提并论。吴健雄是美国物理学会的第一位女性会长，常被人称為“中國的居里夫人”、“物理研究的第一女士”、“核子研究的女王”以及“世界最傑出的女性實驗物理學家之一”。 吴健雄先后毕业于中華民國国立中央大学和美国加州大学伯克利分校，师从诺贝尔物理学奖得主欧内斯特·劳伦斯。曼哈顿计划期间，她参与研究了如何利用气体扩散法分离铀的两种同位素（铀-235与铀-238）。吴健雄长期在美国哥伦比亚大学任教，她最著名的一项科研成果是利用实验方法验证了宇称不守恒，这项工作令其同事李政道和杨振宁获得1957年的诺贝尔物理学奖，本人也因此获授1978年首次颁发的沃尔夫物理学奖。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "b2a4e0b2b7c7",
    "source": "wikipedia",
    "title": "國立臺灣大學物理學系",
@@ -1364,30 +1388,6 @@
    "modern_hits": [],
    "hits": [
     "实验"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "43a3935e4604",
-   "source": "wikipedia",
-   "title": "物理学的进化",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E7%9A%84%E8%BF%9B%E5%8C%96",
-   "published": "",
-   "summary": "《物理学的进化》（英文版原名：The Evolution of Physics或The Evolution of Physics: From Early Concept to Relativity and Quanta，根据版本不同书名有上述的文字差别。中文版译名来自周肇威的译本）是由物理学家阿尔伯特·爱因斯坦和利奥波德·英费尔德合著出版的物理学科普读物，内容介绍了物理学从伽利略、牛顿时代的经典理论到现代场论、相对论和量子力学的发展演化历程。该书最初由剑桥大学出版社在1938年出版并获得了大众的广泛好评，《时代》杂志还特别为此书刊载了一篇头条报道。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics"
    ],
    "title_signal": false
   },
@@ -1536,12 +1536,12 @@
    "title_signal": false
   },
   {
-   "id": "b5b9635e94fc",
+   "id": "43a3935e4604",
    "source": "wikipedia",
-   "title": "吴健雄",
-   "url": "https://zh.wikipedia.org/wiki/%E5%90%B4%E5%81%A5%E9%9B%84",
+   "title": "物理学的进化",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E7%9A%84%E8%BF%9B%E5%8C%96",
    "published": "",
-   "summary": "吴健雄（英語：Chien-Shiung Wu；1912年5月31日—1997年2月16日），美籍华裔物理学家，在核物理学领域卓有贡献，其在实验物理学方面的造诣常令人将她与瑪麗·居禮相提并论。吴健雄是美国物理学会的第一位女性会长，常被人称為“中國的居里夫人”、“物理研究的第一女士”、“核子研究的女王”以及“世界最傑出的女性實驗物理學家之一”。 吴健雄先后毕业于中華民國国立中央大学和美国加州大学伯克利分校，师从诺贝尔物理学奖得主欧内斯特·劳伦斯。曼哈顿计划期间，她参与研究了如何利用气体扩散法分离铀的两种同位素（铀-235与铀-238）。吴健雄长期在美国哥伦比亚大学任教，她最著名的一项科研成果是利用实验方法验证了宇称不守恒，这项工作令其同事李政道和杨振宁获得1957年的诺贝尔物理学奖，本人也因此获授1978年首次颁发的沃尔夫物理学奖。",
+   "summary": "《物理学的进化》（英文版原名：The Evolution of Physics或The Evolution of Physics: From Early Concept to Relativity and Quanta，根据版本不同书名有上述的文字差别。中文版译名来自周肇威的译本）是由物理学家阿尔伯特·爱因斯坦和利奥波德·英费尔德合著出版的物理学科普读物，内容介绍了物理学从伽利略、牛顿时代的经典理论到现代场论、相对论和量子力学的发展演化历程。该书最初由剑桥大学出版社在1938年出版并获得了大众的广泛好评，《时代》杂志还特别为此书刊载了一篇头条报道。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1550,12 +1550,12 @@
    "why": "",
    "timeless": true,
    "obj_hits": [
-    "实验"
+    "physics"
    ],
    "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "实验"
+    "physics"
    ],
    "title_signal": false
   },
@@ -2105,7 +2105,7 @@
    "title": "赛门·夏佛",
    "url": "https://zh.wikipedia.org/wiki/%E8%B5%9B%E9%97%A8%C2%B7%E5%A4%8F%E4%BD%9B",
    "published": "",
-   "summary": "賽門·夏佛（英語：Simon J. Schaffer，1955年1月1日—），劍橋大學科學史與科學哲學教授。英國科學史期刊主編。專長為物理史、社會科學史。",
+   "summary": "賽門·夏佛（英語：，1955年1月1日—），劍橋大學科學史與科學哲學教授。英國科學史期刊主編。專長為物理史、社會科學史。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2180,12 +2180,12 @@
    "title_signal": false
   },
   {
-   "id": "e7af2a5ae059",
+   "id": "109ee3b55506",
    "source": "wikipedia",
-   "title": "威斯康星大学麦迪逊分校",
-   "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%A4%A7%E5%AD%A6%E9%BA%A6%E8%BF%AA%E9%80%8A%E5%88%86%E6%A0%A1",
+   "title": "汪達幻視",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E9%81%94%E5%B9%BB%E8%A6%96",
    "published": "",
-   "summary": "威斯康星大学麦迪逊分校（英語：University of Wisconsin–Madison, 简称UW–Madison，UW，或Madison）是一所位于美国威斯康星州麦迪逊市的公立赠地研究型大学，也是威斯康星大学系统的旗舰校区。学校成立于1848年，与威斯康星州成为美国联邦的一部分为同一年。校区占地约378公顷，坐落于门多塔湖畔；此外，大学还在校区以南约6.4公里处拥有并运营着一个占地约486公顷的植物园。 威斯康星大学是美国大学协会的创始成员，也是“公立常春藤”之一，被归类为R1级研究型大学。威斯康星大学是“威斯康星学派”的发源地。根据美国国家科学基金会的数据，2024年该校在全美大学科研经费支出中排名第五。 截至2026年10月 (2026-10)，麦迪逊师生共赢得过23次诺贝尔奖、学校共诞生了43位普利策奖得主、1位菲尔兹奖得主以及1位图灵奖得主。该校同时也培育了大量富布赖特学者",
+   "summary": "《旺达幻视》（英語：WandaVision，香港译《温黛与幻视》，台湾译《汪达幻视》）是一部美國超級英雄類型的網路劇集，改編自漫威漫畫的角色「緋紅女巫」汪達·麥西莫夫和幻視，由潔克·薛佛主創並擔當首席編劇，麥特·夏克曼執導影集。該電視劇是漫威影業開發製作的漫威電影宇宙的首部電視劇作品，與漫威電影宇宙系列電影處於同一架空世界和共同世界，於線上串流媒體平台Disney+首播。 伊莉莎白·歐森和保羅·彼特尼繼續分別飾演在漫威電影宇宙系列電影中的角色汪達·麥西莫夫和幻視。主演還包括黛博拉·喬·拉普、弗雷德·邁拉麥德、凱薩琳·哈恩、泰娜·帕麗斯、藍道爾·朴、凱特·丹寧絲和伊凡·彼得斯。2018年9月，漫威影業宣佈為華特迪士尼公司旗下的在線上串流平台Disney+開發數個電視劇，並以漫威電影宇宙中的「二級核心」人物為主角，比如「緋紅女巫」汪達·麥西莫夫和幻視，伊莉莎白·歐森和保羅·彼特尼有望回歸繼續出",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2340,6 +2340,26 @@
    "title_signal": false
   },
   {
+   "id": "0829c514aed2",
+   "source": "wikipedia",
+   "title": "元科学",
+   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
+   "published": "",
+   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "f088ab6a58af",
    "source": "wikipedia",
    "title": "Air Force Command College",
@@ -2448,6 +2468,26 @@
    "summary": "Nankai University is located in Tianjin, People's Republic of China. It was co-founded by prominent modern Chinese educators Yan Xiu and Zhang Boling, originating from the establishment of Nankai School in 1904. In 1919, the university division of Nankai School was formally established. On September 25, 1919, the university division of Nankai School held its first opening ceremony, marking the off",
    "meta": {
     "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "e7af2a5ae059",
+   "source": "wikipedia",
+   "title": "威斯康星大学麦迪逊分校",
+   "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%A4%A7%E5%AD%A6%E9%BA%A6%E8%BF%AA%E9%80%8A%E5%88%86%E6%A0%A1",
+   "published": "",
+   "summary": "威斯康星大学麦迪逊分校（英語：University of Wisconsin–Madison, 简称UW–Madison，UW，或Madison）是一所位于美国威斯康星州麦迪逊市的公立赠地研究型大学，也是威斯康星大学系统的旗舰校区。学校成立于1848年，与威斯康星州成为美国联邦的一部分为同一年。校区占地约378公顷，坐落于门多塔湖畔；此外，大学还在校区以南约6.4公里处拥有并运营着一个占地约486公顷的植物园。 威斯康星大学是美国大学协会的创始成员，也是“公立常春藤”之一，被归类为R1级研究型大学。威斯康星大学是“威斯康星学派”的发源地。根据美国国家科学基金会的数据，2024年该校在全美大学科研经费支出中排名第五。 截至2026年10月 (2026-10)，麦迪逊师生共赢得过23次诺贝尔奖、学校共诞生了43位普利策奖得主、1位菲尔兹奖得主以及1位图灵奖得主。该校同时也培育了大量富布赖特学者",
+   "meta": {
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -2806,46 +2846,6 @@
    "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%88%86%E6%94%AF",
    "published": "",
    "summary": "科学的分支、分类，也称科学领域，通常分为三大类： 形式科学：对形式系统的研究，如逻辑和数学分支下的学科。它们依据先验知识，而非建立在实证基础上。 自然科学：对自然现象的研究（包括宇宙内的宇宙学、地质学、物理学、化学和生物学影响）。自然科学可分为两个主要分支：物理科学和生命科学（或生物科学）。 社会科学：在社会和文化角度研究人类行为的科学。 科学知识必须建立在可观察的现象之上，并且能够在相同条件下被其他研究者验证。自然科学、社会科学和形式科学构成基础科学，它们也是跨学科和应用科学（如工程学和医学）的基础。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "109ee3b55506",
-   "source": "wikipedia",
-   "title": "汪達幻視",
-   "url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E9%81%94%E5%B9%BB%E8%A6%96",
-   "published": "",
-   "summary": "《旺达幻视》（英語：WandaVision，香港译《温黛与幻视》，台湾译《汪达幻视》）是一部美國超級英雄類型的網路劇集，改編自漫威漫畫的角色「緋紅女巫」汪達·麥西莫夫和幻視，由潔克·薛佛主創並擔當首席編劇，麥特·夏克曼執導影集。該電視劇是漫威影業開發製作的漫威電影宇宙的首部電視劇作品，與漫威電影宇宙系列電影處於同一架空世界和共同世界，於線上串流媒體平台Disney+首播。 伊莉莎白·歐森和保羅·彼特尼繼續分別飾演在漫威電影宇宙系列電影中的角色汪達·麥西莫夫和幻視。主演還包括黛博拉·喬·拉普、弗雷德·邁拉麥德、凱薩琳·哈恩、泰娜·帕麗斯、藍道爾·朴、凱特·丹寧絲和伊凡·彼得斯。2018年9月，漫威影業宣佈為華特迪士尼公司旗下的在線上串流平台Disney+開發數個電視劇，並以漫威電影宇宙中的「二級核心」人物為主角，比如「緋紅女巫」汪達·麥西莫夫和幻視，伊莉莎白·歐森和保羅·彼特尼有望回歸繼續出",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "0829c514aed2",
-   "source": "wikipedia",
-   "title": "元科学",
-   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
-   "published": "",
-   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
    "meta": {
     "site": "zh.wikipedia.org"
    },
