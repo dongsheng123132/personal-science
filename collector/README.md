@@ -5,7 +5,7 @@
 | 谁 | 干什么 | 为什么这么分 |
 |---|---|---|
 | `collect.py` | 撒网、去重、打分、写文件 | 机器擅长重复劳动，不擅长判断 |
-| AI | 从 `inbox/raw.json` 里挑出真正能做的 | 判断"一个人能不能做"需要常识，关键词做不到 |
+| `triage.py` | 用模型从 `raw.json` 里挑出能做的，写 `candidates.md` | 判断"一个人能不能做"需要常识，关键词做不到 |
 | 人 | 决定写哪一页、怎么提 PR | 清单只进能照着做的，这一关不能自动化 |
 
 **不要让脚本决定清单内容。** 脚本只负责"今天有哪些新东西"，AI 和人才负责"哪个值得写"。
@@ -14,6 +14,7 @@
 
 ```bash
 python collector/collect.py
+python collector/triage.py    # 需要 PS_LLM_KEY；没有就自动跳过，不影响别的
 ```
 
 产出：
@@ -22,12 +23,20 @@ python collector/collect.py
 |---|---|
 | `inbox/raw.json` | 今天抓到的全部内容（90 条左右），带分数和命中的关键词 |
 | `inbox/prefilter.md` | 按分数排的前 30 条，快速扫一眼用 |
+| `inbox/candidates.md` | AI 筛完的 8 条 + 筛掉理由（没配 key 时不动这个文件） |
 | `feed/latest.json` / `latest.js` | 给网页看板用 |
 | `collector/seen.json` | 去重库，见过的不再出现 |
 
-## AI 筛选用的 prompt
+## AI 筛选（已经自动化）
 
-把下面这段和 `inbox/raw.json` 一起丢给任何能读长文本的 AI：
+`triage.py` 读 `raw.json`、调模型、直接写 `candidates.md`。GitHub Actions 里已经接好了：
+
+- 配了 `PS_LLM_KEY` → 每天自动跑
+- 没配 → 打印一句提示跳过，采集和提交照常
+
+prompt 在 `triage.py` 顶部，想改判断标准就改那里。
+
+想手动跑也行，把下面这段发给任何能读长文本的 AI：
 
 ```text
 你在帮一个叫 Personal Science 的仓库筛候选。
