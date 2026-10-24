@@ -160,8 +160,10 @@ def main():
     OUT_PATH.parent.mkdir(exist_ok=True)
     OUT_PATH.write_text(text + "\n", "utf-8")
 
-    # 把 AI 选中的条目单独存一份，给 design.py 用——设计要跟着筛选的判断走
-    picked_ids = [int(x) for x in re.findall(r"候选索引[：:]\s*(\d+)", text)]
+    # 把 AI 选中的条目单独存一份，给 design.py 用——设计要跟着筛选的判断走。
+    # 只取「可以直接写成实验页」那一组：被判为"仅灵感 / 仅阅读"的不该被设计成实验页。
+    direct_section = text.split("## 需要补设备")[0]
+    picked_ids = [int(x) for x in re.findall(r"候选索引[：:]\s*(\d+)", direct_section)]
     picked = [kept[i] for i in picked_ids if 0 <= i < len(kept)]
     picked_path = BASE / "inbox" / "picked.json"
     picked_path.write_text(json.dumps({
