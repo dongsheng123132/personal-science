@@ -24,6 +24,7 @@ from datetime import datetime, timezone
 
 BASE = pathlib.Path(__file__).resolve().parent.parent
 RAW_PATH = BASE / "inbox" / "raw.json"
+POOL_PATH = BASE / "inbox" / "pool.json"
 OUT_PATH = BASE / "inbox" / "candidates.md"
 NOW = datetime.now(timezone.utc)
 
@@ -110,12 +111,16 @@ def main():
     if not key:
         print("没有 PS_LLM_KEY，跳过 AI 筛选（这不影响采集和提交）")
         return 0
-    if not RAW_PATH.exists():
-        print("没有 inbox/raw.json，先跑 collect.py")
+
+    # 优先用 7 天滚动池；没有池子才退回当天 raw
+    source_path = POOL_PATH if POOL_PATH.exists() else RAW_PATH
+    if not source_path.exists():
+        print("没有 inbox/pool.json 或 raw.json，先跑 collect.py")
         return 0
 
-    payload = json.loads(RAW_PATH.read_text("utf-8"))
+    payload = json.loads(source_path.read_text("utf-8"))
     items = payload.get("items", [])
+    print(f"输入池：{source_path.name}，{len(items)} 条")
     kept = items[: args.limit]
     compact = [
         {

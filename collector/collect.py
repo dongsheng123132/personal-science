@@ -446,6 +446,29 @@ def write_raw(items):
     }
     (INBOX_DIR / "raw.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=1) + "\n", "utf-8")
+    update_pool(items)
+
+
+def update_pool(items):
+    """7 天滚动池。每天的 raw 只有当天新增，AI 看到的太少；池子才是它的输入。"""
+    pool_path = INBOX_DIR / "pool.json"
+    pool = []
+    if pool_path.exists():
+        try:
+            pool = json.loads(pool_path.read_text("utf-8")).get("items", [])
+        except json.JSONDecodeError:
+            pool = []
+    fresh = {i["id"] for i in items}
+    merged = items + [p for p in pool if p.get("id") not in fresh]
+    cutoff = (NOW - timedelta(days=7)).strftime("%Y-%m-%d")
+    merged = [m for m in merged if not m.get("published") or m["published"] >= cutoff]
+    merged.sort(key=lambda x: (x.get("score", 0), x.get("published", "")), reverse=True)
+    merged = merged[:150]
+    pool_path.write_text(json.dumps({
+        "updated_at": NOW.isoformat(timespec="seconds"),
+        "count": len(merged),
+        "items": merged,
+    }, ensure_ascii=False, indent=1) + "\n", "utf-8")
 
 
 def write_prefilter(items):
