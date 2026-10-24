@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-24T10:00:41+00:00",
- "count": 131,
+ "updated_at": "2026-10-24T10:02:23+00:00",
+ "count": 132,
  "items": [
   {
    "id": "b7ecd58ef8e7",
@@ -2051,7 +2051,7 @@
    "title": "赛门·夏佛",
    "url": "https://zh.wikipedia.org/wiki/%E8%B5%9B%E9%97%A8%C2%B7%E5%A4%8F%E4%BD%9B",
    "published": "",
-   "summary": "賽門·夏佛（英語：Simon J. Schaffer，1955年1月1日—），劍橋大學科學史與科學哲學教授。英國科學史期刊主編。專長為物理史、社會科學史。",
+   "summary": "賽門·夏佛（英語：，1955年1月1日—），劍橋大學科學史與科學哲學教授。英國科學史期刊主編。專長為物理史、社會科學史。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2326,12 +2326,12 @@
    "title_signal": false
   },
   {
-   "id": "e7951e4e685f",
+   "id": "86b390281ac8",
    "source": "wikipedia",
-   "title": "HIV/AIDS in China",
-   "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_China",
+   "title": "Beijing Electronic Science and Technology Institute",
+   "url": "https://en.wikipedia.org/wiki/Beijing_Electronic_Science_and_Technology_Institute",
    "published": "",
-   "summary": "HIV/AIDS in China can be traced to an initial outbreak of the human immunodeficiency virus (HIV) first recognized in 1989 among injecting drug users along China's southern border. Figures from the Chinese Center for Disease Control and Prevention, World Health Organization, and UNAIDS estimate that there were 1.25 million people living with HIV/AIDS in China at the end of 2018, with 135,000 new in",
+   "summary": "Beijing Electronic Science and Technology Institute, or BEIST, is located at No. 7 Fufeng Road, Fengtai District, Beijing. It is a general institution of higher learning that trains professional and technical personnel in information security and office automation for party and government agencies. It is affiliated with the General Office of the Chinese Communist Party. The college is a major rese",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -2412,6 +2412,146 @@
    "url": "https://en.wikipedia.org/wiki/History_of_Nankai_University",
    "published": "",
    "summary": "Nankai University is located in Tianjin, People's Republic of China. It was co-founded by prominent modern Chinese educators Yan Xiu and Zhang Boling, originating from the establishment of Nankai School in 1904. In 1919, the university division of Nankai School was formally established. On September 25, 1919, the university division of Nankai School held its first opening ceremony, marking the off",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f5cd3cda2a7a",
+   "source": "wikipedia",
+   "title": "Experiment",
+   "url": "https://en.wikipedia.org/wiki/Experiment",
+   "published": "",
+   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4a260f65e483",
+   "source": "wikipedia",
+   "title": "Galileo's Leaning Tower of Pisa experiment",
+   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+   "published": "",
+   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "444f60e72a87",
+   "source": "wikipedia",
+   "title": "History of science",
+   "url": "https://en.wikipedia.org/wiki/History_of_science",
+   "published": "",
+   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "5661bb119eeb",
+   "source": "wikipedia",
+   "title": "Milgram experiment",
+   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
+   "published": "",
+   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ae63027fda5d",
+   "source": "wikipedia",
+   "title": "Rosenhan experiment",
+   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
+   "published": "",
+   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "464ab5e5b3b1",
+   "source": "wikipedia",
+   "title": "Thought experiment",
+   "url": "https://en.wikipedia.org/wiki/Thought_experiment",
+   "published": "",
+   "summary": "A thought experiment is an imaginary scenario that is meant to elucidate or test an argument or theory. It is often an experiment that would be hard, impossible, or unethical to actually perform. It can also be an abstract hypothetical that is meant to test our intuitions about morality or other fundamental questions of philosophy.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "e7951e4e685f",
+   "source": "wikipedia",
+   "title": "HIV/AIDS in China",
+   "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_China",
+   "published": "",
+   "summary": "HIV/AIDS in China can be traced to an initial outbreak of the human immunodeficiency virus (HIV) first recognized in 1989 among injecting drug users along China's southern border. Figures from the Chinese Center for Disease Control and Prevention, World Health Organization, and UNAIDS estimate that there were 1.25 million people living with HIV/AIDS in China at the end of 2018, with 135,000 new in",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -2666,132 +2806,12 @@
    "title_signal": false
   },
   {
-   "id": "464ab5e5b3b1",
-   "source": "wikipedia",
-   "title": "Thought experiment",
-   "url": "https://en.wikipedia.org/wiki/Thought_experiment",
-   "published": "",
-   "summary": "A thought experiment is an imaginary scenario that is meant to elucidate or test an argument or theory. It is often an experiment that would be hard, impossible, or unethical to actually perform. It can also be an abstract hypothetical that is meant to test our intuitions about morality or other fundamental questions of philosophy.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "78d0cbe81a17",
    "source": "wikipedia",
    "title": "Twin Earth thought experiment",
    "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
    "published": "",
    "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "f5cd3cda2a7a",
-   "source": "wikipedia",
-   "title": "Experiment",
-   "url": "https://en.wikipedia.org/wiki/Experiment",
-   "published": "",
-   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4a260f65e483",
-   "source": "wikipedia",
-   "title": "Galileo's Leaning Tower of Pisa experiment",
-   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
-   "published": "",
-   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "444f60e72a87",
-   "source": "wikipedia",
-   "title": "History of science",
-   "url": "https://en.wikipedia.org/wiki/History_of_science",
-   "published": "",
-   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "5661bb119eeb",
-   "source": "wikipedia",
-   "title": "Milgram experiment",
-   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
-   "published": "",
-   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "ae63027fda5d",
-   "source": "wikipedia",
-   "title": "Rosenhan experiment",
-   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
-   "published": "",
-   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
    "meta": {
     "site": "en.wikipedia.org"
    },
