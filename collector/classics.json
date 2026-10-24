@@ -1,0 +1,247 @@
+{
+  "note": "经典实验种子库。不是清单内容，是给 AI 筛选和人工写页用的候选源。每个都按同一个标准选：一个人/一个老师/一个产品经理，能不能用今天的工具重做一遍，并且测出一个数。",
+  "items": [
+    {
+      "id": "eratosthenes-earth-radius",
+      "era": "-240",
+      "zh": "埃拉托色尼用影子测地球半径",
+      "en": "Eratosthenes measures Earth's radius with shadows",
+      "what": "证明地球是球，并算出它的半径",
+      "redo": "两人异地同日正午量杆影，算太阳高度角差；AI 帮忙算大圆距离和误差",
+      "tools": ["杆子", "卷尺", "手机"],
+      "why": "两千年前的方法，今天两个人一个下午就能重做，结果误差能到 5% 以内",
+      "level": "随时能做"
+    },
+    {
+      "id": "galileo-inclined-plane",
+      "era": "1604",
+      "zh": "伽利略斜面实验",
+      "en": "Galileo's inclined plane",
+      "what": "发现自由落体是匀加速运动",
+      "redo": "斜面上滚小球，手机慢动作逐帧测位置，AI 拟合 s=½at²",
+      "tools": ["手机", "木板", "小球"],
+      "why": "把'加速度'这个抽象概念变成一条能自己拟合出来的曲线",
+      "level": "随时能做"
+    },
+    {
+      "id": "newton-prism",
+      "era": "1666",
+      "zh": "牛顿棱镜分光",
+      "en": "Newton's prism experiment",
+      "what": "证明白光由多种颜色组成，且颜色不可再分",
+      "redo": "阳光/白光 LED + 棱镜或水盆镜子，手机拍光谱，AI 分析颜色分布",
+      "tools": ["棱镜", "手机", "纸板"],
+      "why": "一个孩子的第一个'哇'，成本不到二十块",
+      "level": "随时能做"
+    },
+    {
+      "id": "torricelli-barometer",
+      "era": "1643",
+      "zh": "托里拆利测大气压",
+      "en": "Torricelli's barometer",
+      "what": "证明大气有重量，并测出大气压",
+      "redo": "用 10 米软管装水做水柱气压计（安全版，用水银太危险）",
+      "tools": ["软管", "水", "尺子"],
+      "why": "在楼道里搭一根 10 米高的水柱，抬头就能看见大气压",
+      "level": "进阶"
+    },
+    {
+      "id": "young-double-slit",
+      "era": "1801",
+      "zh": "杨氏双缝干涉",
+      "en": "Young's double-slit experiment",
+      "what": "证明光是波",
+      "redo": "激光笔 + 头发丝/双缝片 + 白墙，手机拍条纹；AI 量条纹间距反推波长",
+      "tools": ["激光笔", "头发丝", "手机"],
+      "why": "光的波粒二象性从这里开始，而你的窗台就能做",
+      "level": "随时能做"
+    },
+    {
+      "id": "oersted-magnetism",
+      "era": "1820",
+      "zh": "奥斯特：电流让磁针偏转",
+      "en": "Oersted's compass and current",
+      "what": "发现电和磁是一回事",
+      "redo": "电池 + 导线 + 指南针，换方向、换电流看偏转",
+      "tools": ["电池", "导线", "指南针"],
+      "why": "电动机、发电机、变压器全部从这里开始，材料只要三样",
+      "level": "随时能做"
+    },
+    {
+      "id": "faraday-induction",
+      "era": "1831",
+      "zh": "法拉第电磁感应",
+      "en": "Faraday's law of induction",
+      "what": "变化的磁通量产生电流",
+      "redo": "线圈 + 磁铁 + 万用表，比较插入速度与感应电压；AI 拟合曲线",
+      "tools": ["线圈", "磁铁", "万用表"],
+      "why": "今天所有发电方式，都只是这一条规律的工程化",
+      "level": "随时能做"
+    },
+    {
+      "id": "joule-heat-equivalent",
+      "era": "1843",
+      "zh": "焦耳热功当量",
+      "en": "Joule's mechanical equivalent of heat",
+      "what": "证明热是能量的一种形式",
+      "redo": "重物下落搅拌保温杯里的水，测温升，算 4.18 J/cal 到底是多少",
+      "tools": ["保温杯", "重物", "温度计"],
+      "why": "把'卡路里'从食品标签拽回物理世界",
+      "level": "进阶"
+    },
+    {
+      "id": "ohm-law",
+      "era": "1827",
+      "zh": "欧姆定律",
+      "en": "Ohm's law",
+      "what": "电压、电流、电阻的定量关系",
+      "redo": "电池 + 可调电阻 + 万用表，画 I-V 直线；AI 算拟合优度",
+      "tools": ["万用表", "电阻", "电池"],
+      "why": "所有电路课的起点，也是'线性关系'的第一个真实例子",
+      "level": "随时能做"
+    },
+    {
+      "id": "hall-effect",
+      "era": "1879",
+      "zh": "霍尔效应",
+      "en": "Hall effect",
+      "what": "磁场会让载流导体产生横向电压",
+      "redo": "霍尔传感器 + 磁铁 + 万用表，测磁场随距离的衰减",
+      "tools": ["霍尔传感器", "磁铁", "万用表"],
+      "why": "手机里的指南针、电动车的电流传感器，全靠这一条",
+      "level": "进阶"
+    },
+    {
+      "id": "michelson-morley",
+      "era": "1887",
+      "zh": "迈克尔逊-莫雷实验",
+      "en": "Michelson–Morley experiment",
+      "what": "没测到'以太'，为相对论铺路",
+      "redo": "激光 + 分光镜做简化干涉仪，验证光速与方向无关（难度高，可先做定性版）",
+      "tools": ["激光", "半透镜", "镜子"],
+      "why": "人类最著名的'零结果'：没测到东西，反而推翻了一整套世界观",
+      "level": "进阶"
+    },
+    {
+      "id": "brownian-motion",
+      "era": "1827",
+      "zh": "布朗运动",
+      "en": "Brownian motion",
+      "what": "为'原子真实存在'提供证据",
+      "redo": "显微镜看牛奶/墨汁里的颗粒，手机拍视频，AI 追踪轨迹算均方位移",
+      "tools": ["显微镜", "手机", "牛奶"],
+      "why": "爱因斯坦 1905 年用它证明原子存在；今天 AI 帮你追每一颗粒子",
+      "level": "进阶"
+    },
+    {
+      "id": "pasteur-swan-neck",
+      "era": "1859",
+      "zh": "巴斯德鹅颈瓶",
+      "en": "Pasteur's swan-neck flask",
+      "what": "推翻自然发生说",
+      "redo": "肉汤 + 两个瓶子（一个开口一个弯管），观察谁先腐败",
+      "tools": ["玻璃瓶", "肉汤", "锅"],
+      "why": "一次厨房里的实验，改写了医学史",
+      "level": "进阶"
+    },
+    {
+      "id": "mendel-peas",
+      "era": "1866",
+      "zh": "孟德尔豌豆实验",
+      "en": "Mendel's pea experiments",
+      "what": "发现遗传规律",
+      "redo": "种两代豌豆/果蝇看性状分离比，AI 做卡方检验",
+      "tools": ["种子", "花盆", "手机"],
+      "why": "统计学会让'运气'显形，这是数据思维的起点",
+      "level": "进阶"
+    },
+    {
+      "id": "cavendish-torsion",
+      "era": "1798",
+      "zh": "卡文迪许扭秤测万有引力常数",
+      "en": "Cavendish experiment",
+      "what": "第一次'称出'地球的质量",
+      "redo": "扭丝 + 铅球 + 激光光杠杆放大位移（家庭版需耐心，可先做定性）",
+      "tools": ["细丝", "铅球", "激光"],
+      "why": "'看不见的力'被一次微小的偏转测出来了，测量思维的巅峰",
+      "level": "进阶"
+    },
+    {
+      "id": "millikan-oil-drop",
+      "era": "1909",
+      "zh": "密立根油滴实验",
+      "en": "Millikan oil-drop experiment",
+      "what": "测出电子电荷",
+      "redo": "平行板 + 显微镜 + 手机摄像头，AI 自动追踪油滴算电荷量子化",
+      "tools": ["平行板", "显微镜", "手机"],
+      "why": "把'电荷是一份一份的'从猜想变成可数的数字",
+      "level": "进阶"
+    },
+    {
+      "id": "photoelectric-led",
+      "era": "1902",
+      "zh": "光电效应（用 LED 反做）",
+      "en": "Photoelectric effect, replayed with LEDs",
+      "what": "光子的能量由频率决定",
+      "redo": "不同颜色 LED 测点亮电压，反推普朗克常数（本仓库有现成方案）",
+      "tools": ["万用表", "LED", "电位器"],
+      "why": "几十块钱测出一个量子力学常数，这是最便宜的'量子实验'",
+      "level": "进阶"
+    },
+    {
+      "id": "wilson-cloud-chamber",
+      "era": "1911",
+      "zh": "威尔逊云室",
+      "en": "Wilson cloud chamber",
+      "what": "第一次'看见'粒子轨迹",
+      "redo": "酒精 + 干冰 + 暗盒，手机拍下粒子轨迹，AI 统计轨迹密度",
+      "tools": ["干冰", "酒精", "手机"],
+      "why": "宇宙射线穿过你家的那一刻，被你拍下来了",
+      "level": "进阶"
+    },
+    {
+      "id": "foucault-pendulum",
+      "era": "1851",
+      "zh": "傅科摆",
+      "en": "Foucault pendulum",
+      "what": "用摆动证明地球在自转",
+      "redo": "长绳 + 重物 + 沙盘，记录摆动平面偏转；手机延时摄影",
+      "tools": ["长绳", "重物", "手机"],
+      "why": "不需要看天，站在屋里就能看见地球在转",
+      "level": "进阶"
+    },
+    {
+      "id": "pavlov-conditioning",
+      "era": "1890s",
+      "zh": "巴甫洛夫条件反射",
+      "en": "Pavlovian conditioning",
+      "what": "学习是如何被'配对'出来的",
+      "redo": "用家里的宠物做正向训练，记录响应时间；注意动物福利与伦理",
+      "tools": ["宠物", "零食", "秒表"],
+      "why": "行为主义的第一课，也是产品设计里'习惯回路'的源头",
+      "level": "进阶"
+    },
+    {
+      "id": "milgram-obedience",
+      "era": "1961",
+      "zh": "米尔格拉姆服从实验",
+      "en": "Milgram obedience study",
+      "what": "普通人会在权威下做到什么程度",
+      "redo": "不建议复现原件（伦理问题）；可做低风险版本：观察规则服从、设计问卷",
+      "tools": ["问卷", "统计工具"],
+      "why": "现代科研伦理的起点。做不了，但必须知道它为什么做不了",
+      "level": "仅阅读"
+    },
+    {
+      "id": "double-slit-single-photon",
+      "era": "1989",
+      "zh": "单光子双缝",
+      "en": "Single-photon double slit",
+      "what": "单个光子也能和自己干涉",
+      "redo": "专业设备太贵；可用'逐次累积'的模拟版理解统计含义",
+      "tools": ["模拟软件"],
+      "why": "量子力学最反直觉的一张图，值得每个人看一眼",
+      "level": "仅阅读"
+    }
+  ]
+}

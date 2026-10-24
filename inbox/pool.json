@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-24T09:38:05+00:00",
- "count": 24,
+ "updated_at": "2026-10-24T10:00:41+00:00",
+ "count": 131,
  "items": [
   {
    "id": "b7ecd58ef8e7",
@@ -13,16 +13,310 @@
     "query": "sensor"
    },
    "targeted": true,
-   "score": 94,
+   "score": 100,
    "why": "",
    "obj_hits": [
     "sensor",
     "camera"
    ],
    "per_hits": [],
-   "hits": [
+   "modern_hits": [
     "sensor",
     "camera"
+   ],
+   "hits": [
+    "sensor",
+    "camera",
+    "sensor"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "7f435caa1a8d",
+   "source": "classic",
+   "title": "伽利略斜面实验（1604）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E4%BC%BD%E5%88%A9%E7%95%A5%E6%96%9C%E9%9D%A2%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "发现自由落体是匀加速运动；重做方式：斜面上滚小球，手机慢动作逐帧测位置，AI 拟合 s=½at²；为什么值得：把'加速度'这个抽象概念变成一条能自己拟合出来的曲线；难度：随时能做",
+   "meta": {
+    "era": "1604",
+    "level": "随时能做",
+    "tools": [
+     "手机",
+     "木板",
+     "小球"
+    ]
+   },
+   "targeted": true,
+   "score": 97,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [
+    "自己"
+   ],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "实验",
+    "自己",
+    "手机"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "c588c69ff8ed",
+   "source": "classic",
+   "title": "霍尔效应（1879）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E9%9C%8D%E5%B0%94%E6%95%88%E5%BA%94",
+   "published": "",
+   "summary": "磁场会让载流导体产生横向电压；重做方式：霍尔传感器 + 磁铁 + 万用表，测磁场随距离的衰减；为什么值得：手机里的指南针、电动车的电流传感器，全靠这一条；难度：进阶",
+   "meta": {
+    "era": "1879",
+    "level": "进阶",
+    "tools": [
+     "霍尔传感器",
+     "磁铁",
+     "万用表"
+    ]
+   },
+   "targeted": true,
+   "score": 96,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "传感器"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "手机",
+    "传感器"
+   ],
+   "hits": [
+    "传感器",
+    "手机",
+    "传感器"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "2bed04fd5894",
+   "source": "classic",
+   "title": "迈克尔逊-莫雷实验（1887）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E8%BF%88%E5%85%8B%E5%B0%94%E9%80%8A-%E8%8E%AB%E9%9B%B7%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "没测到'以太'，为相对论铺路；重做方式：激光 + 分光镜做简化干涉仪，验证光速与方向无关（难度高，可先做定性版）；为什么值得：人类最著名的'零结果'：没测到东西，反而推翻了一整套世界观；难度：进阶",
+   "meta": {
+    "era": "1887",
+    "level": "进阶",
+    "tools": [
+     "激光",
+     "半透镜",
+     "镜子"
+    ]
+   },
+   "targeted": true,
+   "score": 93,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "激光"
+   ],
+   "hits": [
+    "实验",
+    "激光"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "21493fa4a51b",
+   "source": "classic",
+   "title": "卡文迪许扭秤测万有引力常数（1798）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%8D%A1%E6%96%87%E8%BF%AA%E8%AE%B8%E6%89%AD%E7%A7%A4%E6%B5%8B%E4%B8%87%E6%9C%89%E5%BC%95%E5%8A%9B%E5%B8%B8%E6%95%B0",
+   "published": "",
+   "summary": "第一次'称出'地球的质量；重做方式：扭丝 + 铅球 + 激光光杠杆放大位移（家庭版需耐心，可先做定性）；为什么值得：'看不见的力'被一次微小的偏转测出来了，测量思维的巅峰；难度：进阶",
+   "meta": {
+    "era": "1798",
+    "level": "进阶",
+    "tools": [
+     "细丝",
+     "铅球",
+     "激光"
+    ]
+   },
+   "targeted": true,
+   "score": 93,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "测量"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "激光"
+   ],
+   "hits": [
+    "测量",
+    "激光"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "9892c07817f6",
+   "source": "classic",
+   "title": "密立根油滴实验（1909）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%AF%86%E7%AB%8B%E6%A0%B9%E6%B2%B9%E6%BB%B4%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "测出电子电荷；重做方式：平行板 + 显微镜 + 手机摄像头，AI 自动追踪油滴算电荷量子化；为什么值得：把'电荷是一份一份的'从猜想变成可数的数字；难度：进阶",
+   "meta": {
+    "era": "1909",
+    "level": "进阶",
+    "tools": [
+     "平行板",
+     "显微镜",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 93,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "实验",
+    "手机"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "fc201e2e94a3",
+   "source": "classic",
+   "title": "巴斯德鹅颈瓶（1859）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%B7%B4%E6%96%AF%E5%BE%B7%E9%B9%85%E9%A2%88%E7%93%B6",
+   "published": "",
+   "summary": "推翻自然发生说；重做方式：肉汤 + 两个瓶子（一个开口一个弯管），观察谁先腐败；为什么值得：一次厨房里的实验，改写了医学史；难度：进阶",
+   "meta": {
+    "era": "1859",
+    "level": "进阶",
+    "tools": [
+     "玻璃瓶",
+     "肉汤",
+     "锅"
+    ]
+   },
+   "targeted": true,
+   "score": 90,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "fd6d3cd50fb7",
+   "source": "classic",
+   "title": "孟德尔豌豆实验（1866）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%AD%9F%E5%BE%B7%E5%B0%94%E8%B1%8C%E8%B1%86%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "发现遗传规律；重做方式：种两代豌豆/果蝇看性状分离比，AI 做卡方检验；为什么值得：统计学会让'运气'显形，这是数据思维的起点；难度：进阶",
+   "meta": {
+    "era": "1866",
+    "level": "进阶",
+    "tools": [
+     "种子",
+     "花盆",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 90,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "1ebc9f25bb55",
+   "source": "classic",
+   "title": "光电效应（用 LED 反做）（1902）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%85%89%E7%94%B5%E6%95%88%E5%BA%94%EF%BC%88%E7%94%A8+LED+%E5%8F%8D%E5%81%9A%EF%BC%89",
+   "published": "",
+   "summary": "光子的能量由频率决定；重做方式：不同颜色 LED 测点亮电压，反推普朗克常数（本仓库有现成方案）；为什么值得：几十块钱测出一个量子力学常数，这是最便宜的'量子实验'；难度：进阶",
+   "meta": {
+    "era": "1902",
+    "level": "进阶",
+    "tools": [
+     "万用表",
+     "LED",
+     "电位器"
+    ]
+   },
+   "targeted": true,
+   "score": 90,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "d9911725f290",
+   "source": "classic",
+   "title": "米尔格拉姆服从实验（1961）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E7%B1%B3%E5%B0%94%E6%A0%BC%E6%8B%89%E5%A7%86%E6%9C%8D%E4%BB%8E%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "普通人会在权威下做到什么程度；重做方式：不建议复现原件（伦理问题）；可做低风险版本：观察规则服从、设计问卷；为什么值得：现代科研伦理的起点。做不了，但必须知道它为什么做不了；难度：仅阅读",
+   "meta": {
+    "era": "1961",
+    "level": "仅阅读",
+    "tools": [
+     "问卷",
+     "统计工具"
+    ]
+   },
+   "targeted": true,
+   "score": 90,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
    ],
    "title_signal": true
   },
@@ -45,6 +339,7 @@
    "per_hits": [
     "diy"
    ],
+   "modern_hits": [],
    "hits": [
     "microscope",
     "diy"
@@ -70,11 +365,122 @@
    "per_hits": [
     "build"
    ],
+   "modern_hits": [],
    "hits": [
     "microscope",
     "build"
    ],
    "title_signal": true
+  },
+  {
+   "id": "a58941cbbc37",
+   "source": "hackaday",
+   "title": "Every Type of Current Sensor Explained",
+   "url": "https://hackaday.com/2026/10/21/every-type-of-current-sensor-explained",
+   "published": "2026-10-21",
+   "summary": "Measuring electric currents is an essential element of many electrical systems, but doing so in a way that is as nonintrusive as possible is not an easy problem to solve. …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 87,
+   "why": "",
+   "obj_hits": [
+    "sensor"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "sensor"
+   ],
+   "hits": [
+    "sensor",
+    "sensor"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "fefcff432875",
+   "source": "classic",
+   "title": "杨氏双缝干涉（1801）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%9D%A8%E6%B0%8F%E5%8F%8C%E7%BC%9D%E5%B9%B2%E6%B6%89",
+   "published": "",
+   "summary": "证明光是波；重做方式：激光笔 + 头发丝/双缝片 + 白墙，手机拍条纹；AI 量条纹间距反推波长；为什么值得：光的波粒二象性从这里开始，而你的窗台就能做；难度：随时能做",
+   "meta": {
+    "era": "1801",
+    "level": "随时能做",
+    "tools": [
+     "激光笔",
+     "头发丝",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机",
+    "激光"
+   ],
+   "hits": [
+    "手机",
+    "激光"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "b84a26e4185d",
+   "source": "wikipedia",
+   "title": "理论物理学",
+   "url": "https://zh.wikipedia.org/wiki/%E7%90%86%E8%AE%BA%E7%89%A9%E7%90%86%E5%AD%A6",
+   "published": "",
+   "summary": "理论物理学，也称理论物理（英語：Theoretical physics）是物理学的一个分支。理论物理学与实验物理学相对，专注于研究和发展理论模型以解释并预测自然现象。它基于物理实际借助数学工具构建数学模型，来试图理解物理现象的运行机制，以深入理解宇宙的基本规律。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics",
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics",
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "1e800ac3d6c6",
+   "source": "wikipedia",
+   "title": "计算物理学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E5%AD%A6",
+   "published": "",
+   "summary": "計算物理學（英語：Computational physics）是研究如何使用數值方法分析可以量化的物理学問題的学科。 历史上，计算物理学是计算机的第一项应用；目前计算物理学被视为计算科学的分支。 计算物理有时也被视为理论物理的分支学科或子问题，但也有人认为计算物理与理论物理与实验物理联系紧密，又相对独立，是物理学第三大分支。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics",
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics",
+    "实验"
+   ],
+   "title_signal": false
   },
   {
    "id": "a74860b994bb",
@@ -93,32 +499,11 @@
     "temperature"
    ],
    "per_hits": [],
+   "modern_hits": [],
    "hits": [
     "temperature"
    ],
    "title_signal": false
-  },
-  {
-   "id": "a58941cbbc37",
-   "source": "hackaday",
-   "title": "Every Type of Current Sensor Explained",
-   "url": "https://hackaday.com/2026/10/21/every-type-of-current-sensor-explained",
-   "published": "2026-10-21",
-   "summary": "Measuring electric currents is an essential element of many electrical systems, but doing so in a way that is as nonintrusive as possible is not an easy problem to solve. …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [
-    "sensor"
-   ],
-   "per_hits": [],
-   "hits": [
-    "sensor"
-   ],
-   "title_signal": true
   },
   {
    "id": "60064ab6f6ce",
@@ -137,8 +522,990 @@
     "radio"
    ],
    "per_hits": [],
+   "modern_hits": [],
    "hits": [
     "radio"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "deeab5e0a633",
+   "source": "hackaday",
+   "title": "Synthetic Aperture Radar Drone Gets Interferometric Imaging",
+   "url": "https://hackaday.com/2026/09/28/synthetic-aperture-radar-drone-gets-interferometric-imaging",
+   "published": "2026-09-28",
+   "summary": "It’s been more than a year since [Henrik Forstén] built the first iteration of his synthetic-aperture radar (SAR) imaging drone, and he’s certainly been productive in the meantime. Not only …read more",
+   "meta": {
+    "query": "calibration"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "obj_hits": [
+    "imaging"
+   ],
+   "per_hits": [
+    "built"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "imaging",
+    "built"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "db6c61486dcf",
+   "source": "classic",
+   "title": "单光子双缝（1989）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%8D%95%E5%85%89%E5%AD%90%E5%8F%8C%E7%BC%9D",
+   "published": "",
+   "summary": "单个光子也能和自己干涉；重做方式：专业设备太贵；可用'逐次累积'的模拟版理解统计含义；为什么值得：量子力学最反直觉的一张图，值得每个人看一眼；难度：仅阅读",
+   "meta": {
+    "era": "1989",
+    "level": "仅阅读",
+    "tools": [
+     "模拟软件"
+    ]
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [
+    "自己"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "自己"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "a0c487e68cd8",
+   "source": "classic",
+   "title": "牛顿棱镜分光（1666）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E7%89%9B%E9%A1%BF%E6%A3%B1%E9%95%9C%E5%88%86%E5%85%89",
+   "published": "",
+   "summary": "证明白光由多种颜色组成，且颜色不可再分；重做方式：阳光/白光 LED + 棱镜或水盆镜子，手机拍光谱，AI 分析颜色分布；为什么值得：一个孩子的第一个'哇'，成本不到二十块；难度：随时能做",
+   "meta": {
+    "era": "1666",
+    "level": "随时能做",
+    "tools": [
+     "棱镜",
+     "手机",
+     "纸板"
+    ]
+   },
+   "targeted": true,
+   "score": 83,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "手机"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "e4783fe669af",
+   "source": "classic",
+   "title": "布朗运动（1827）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%B8%83%E6%9C%97%E8%BF%90%E5%8A%A8",
+   "published": "",
+   "summary": "为'原子真实存在'提供证据；重做方式：显微镜看牛奶/墨汁里的颗粒，手机拍视频，AI 追踪轨迹算均方位移；为什么值得：爱因斯坦 1905 年用它证明原子存在；今天 AI 帮你追每一颗粒子；难度：进阶",
+   "meta": {
+    "era": "1827",
+    "level": "进阶",
+    "tools": [
+     "显微镜",
+     "手机",
+     "牛奶"
+    ]
+   },
+   "targeted": true,
+   "score": 83,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "手机"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "53208c3896c4",
+   "source": "classic",
+   "title": "威尔逊云室（1911）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%A8%81%E5%B0%94%E9%80%8A%E4%BA%91%E5%AE%A4",
+   "published": "",
+   "summary": "第一次'看见'粒子轨迹；重做方式：酒精 + 干冰 + 暗盒，手机拍下粒子轨迹，AI 统计轨迹密度；为什么值得：宇宙射线穿过你家的那一刻，被你拍下来了；难度：进阶",
+   "meta": {
+    "era": "1911",
+    "level": "进阶",
+    "tools": [
+     "干冰",
+     "酒精",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 83,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "手机"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "978b5914290c",
+   "source": "classic",
+   "title": "傅科摆（1851）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%82%85%E7%A7%91%E6%91%86",
+   "published": "",
+   "summary": "用摆动证明地球在自转；重做方式：长绳 + 重物 + 沙盘，记录摆动平面偏转；手机延时摄影；为什么值得：不需要看天，站在屋里就能看见地球在转；难度：进阶",
+   "meta": {
+    "era": "1851",
+    "level": "进阶",
+    "tools": [
+     "长绳",
+     "重物",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 83,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "手机"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "d22d3c04dd7f",
+   "source": "hackaday",
+   "title": "Vacuum Drying and Making Stuff Hot in a Vacuum",
+   "url": "https://hackaday.com/2026/10/01/vacuum-drying-and-making-stuff-hot-in-a-vacuum",
+   "published": "2026-10-01",
+   "summary": "After previously exploring the impact of vapor pressure on the drying of desiccant and more, the conclusion was essentially that in order to drive moisture that’s not directly on a …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "obj_hits": [
+    "pressure"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "pressure"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "56d72f8fb466",
+   "source": "hackaday",
+   "title": "Roman Telescope Saves Fuel, Doubles Mission",
+   "url": "https://hackaday.com/2026/09/30/roman-telescope-saves-fuel-doubles-mission",
+   "published": "2026-09-30",
+   "summary": "Contemplate the events that might end a space mission, and you might picture something dramatic: detonation on the pad, a dead guidance system, or micrometeoroids shattering delicate solar panels. More …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "obj_hits": [
+    "telescope"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "telescope"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "a59d5e645baa",
+   "source": "hackaday",
+   "title": "Basically, Galvanizing Metal Without Acid",
+   "url": "https://hackaday.com/2026/09/26/basically-galvanizing-metal-without-acid",
+   "published": "2026-09-26",
+   "summary": "As useful as steel and iron are to the modern world, their tendency to rust is a major downside. There’s a spectrum of ways to prevent it, from quickly slapping …read more",
+   "meta": {
+    "query": "water quality"
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "obj_hits": [
+    "spectrum"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "spectrum"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "9094207ea8eb",
+   "source": "classic",
+   "title": "埃拉托色尼用影子测地球半径（-240）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%9F%83%E6%8B%89%E6%89%98%E8%89%B2%E5%B0%BC%E7%94%A8%E5%BD%B1%E5%AD%90%E6%B5%8B%E5%9C%B0%E7%90%83%E5%8D%8A%E5%BE%84",
+   "published": "",
+   "summary": "证明地球是球，并算出它的半径；重做方式：两人异地同日正午量杆影，算太阳高度角差；AI 帮忙算大圆距离和误差；为什么值得：两千年前的方法，今天两个人一个下午就能重做，结果误差能到 5% 以内；难度：随时能做",
+   "meta": {
+    "era": "-240",
+    "level": "随时能做",
+    "tools": [
+     "杆子",
+     "卷尺",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "06b0015bdfc2",
+   "source": "classic",
+   "title": "托里拆利测大气压（1643）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%89%98%E9%87%8C%E6%8B%86%E5%88%A9%E6%B5%8B%E5%A4%A7%E6%B0%94%E5%8E%8B",
+   "published": "",
+   "summary": "证明大气有重量，并测出大气压；重做方式：用 10 米软管装水做水柱气压计（安全版，用水银太危险）；为什么值得：在楼道里搭一根 10 米高的水柱，抬头就能看见大气压；难度：进阶",
+   "meta": {
+    "era": "1643",
+    "level": "进阶",
+    "tools": [
+     "软管",
+     "水",
+     "尺子"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "20461a6eb292",
+   "source": "classic",
+   "title": "奥斯特：电流让磁针偏转（1820）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%A5%A5%E6%96%AF%E7%89%B9%EF%BC%9A%E7%94%B5%E6%B5%81%E8%AE%A9%E7%A3%81%E9%92%88%E5%81%8F%E8%BD%AC",
+   "published": "",
+   "summary": "发现电和磁是一回事；重做方式：电池 + 导线 + 指南针，换方向、换电流看偏转；为什么值得：电动机、发电机、变压器全部从这里开始，材料只要三样；难度：随时能做",
+   "meta": {
+    "era": "1820",
+    "level": "随时能做",
+    "tools": [
+     "电池",
+     "导线",
+     "指南针"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f077c900abe8",
+   "source": "classic",
+   "title": "法拉第电磁感应（1831）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94",
+   "published": "",
+   "summary": "变化的磁通量产生电流；重做方式：线圈 + 磁铁 + 万用表，比较插入速度与感应电压；AI 拟合曲线；为什么值得：今天所有发电方式，都只是这一条规律的工程化；难度：随时能做",
+   "meta": {
+    "era": "1831",
+    "level": "随时能做",
+    "tools": [
+     "线圈",
+     "磁铁",
+     "万用表"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "6bdc4eced96c",
+   "source": "classic",
+   "title": "焦耳热功当量（1843）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E7%84%A6%E8%80%B3%E7%83%AD%E5%8A%9F%E5%BD%93%E9%87%8F",
+   "published": "",
+   "summary": "证明热是能量的一种形式；重做方式：重物下落搅拌保温杯里的水，测温升，算 4.18 J/cal 到底是多少；为什么值得：把'卡路里'从食品标签拽回物理世界；难度：进阶",
+   "meta": {
+    "era": "1843",
+    "level": "进阶",
+    "tools": [
+     "保温杯",
+     "重物",
+     "温度计"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ccef0c7aa507",
+   "source": "classic",
+   "title": "欧姆定律（1827）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%AC%A7%E5%A7%86%E5%AE%9A%E5%BE%8B",
+   "published": "",
+   "summary": "电压、电流、电阻的定量关系；重做方式：电池 + 可调电阻 + 万用表，画 I-V 直线；AI 算拟合优度；为什么值得：所有电路课的起点，也是'线性关系'的第一个真实例子；难度：随时能做",
+   "meta": {
+    "era": "1827",
+    "level": "随时能做",
+    "tools": [
+     "万用表",
+     "电阻",
+     "电池"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "a0eb5d39901f",
+   "source": "classic",
+   "title": "巴甫洛夫条件反射（1890s）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%B7%B4%E7%94%AB%E6%B4%9B%E5%A4%AB%E6%9D%A1%E4%BB%B6%E5%8F%8D%E5%B0%84",
+   "published": "",
+   "summary": "学习是如何被'配对'出来的；重做方式：用家里的宠物做正向训练，记录响应时间；注意动物福利与伦理；为什么值得：行为主义的第一课，也是产品设计里'习惯回路'的源头；难度：进阶",
+   "meta": {
+    "era": "1890s",
+    "level": "进阶",
+    "tools": [
+     "宠物",
+     "零食",
+     "秒表"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "367ca672b34e",
+   "source": "wikipedia",
+   "title": "斯坦福监狱实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E5%9D%A6%E7%A6%8F%E7%9B%91%E7%8B%B1%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "斯坦福监狱实验（英語：Stanford prison experiment）是1971年由美国心理学家菲利普·津巴多领导的研究小组於斯坦福大学心理学系大楼地下室的模拟监狱内，进行的一项关于人类对囚禁的反应以及囚禁对监狱中权威者和被监管者行为影响的心理学研究。充当看守和囚犯的都是大学生志愿者，實驗資助者是美國海軍研究辦公室。 囚犯和看守很快就适应自己的角色，危险與伤害也越來越嚴重。三分之一的看守被認为显示出“真正的”虐待狂倾向，许多囚犯在心理上受到创伤，有兩人不得不提前退出实验。最后，津巴多因为这个研究中日益泛滥的反社会行为而受到警告，提前终止整个实验。这种性格的变化被他称为“路西法效应”，借用上帝最宠爱的天使路西法后来堕落成魔鬼撒旦的故事來比喻。 斯坦福监狱实验经常被拿来与米尔格拉姆实验比较，米尔格拉姆实验是于1961年在耶鲁大学，由津巴多中学时代的好友斯坦利·米尔格拉姆開展的。 近年許多",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [
+    "自己"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "实验",
+    "自己"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "c76eafe64d5b",
+   "source": "hackaday",
+   "title": "DIY Game Console Does It With Optical Discs",
+   "url": "https://hackaday.com/2026/09/30/diy-game-console-does-it-with-optical-disks",
+   "published": "2026-09-30",
+   "summary": "Optical media may be dead for video games on the big corporate consoles, but not in [Emmet]’s heart– or on his DIY game console, that he built specifically to use …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 78,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "built",
+    "diy"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "built",
+    "diy"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "ea38c29a8cd4",
+   "source": "hackaday",
+   "title": "An Open Source Linear Capacitive Encoder",
+   "url": "https://hackaday.com/2026/10/22/an-open-source-linear-capacitive-encoder",
+   "published": "2026-10-22",
+   "summary": "If you’ve ever pulled apart a set of digital calipers, you’ve probably marvelled at the capacitive encoder that does all the measuring work. There’s nothing stopping you from using the …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 77,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "open source"
+   ],
+   "hits": [
+    "open source"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "73a267630d62",
+   "source": "hackaday",
+   "title": "Turning a Wi-Fi Adapter into an SDR",
+   "url": "https://hackaday.com/2026/10/18/turning-a-wi-fi-adapter-into-an-sdr",
+   "published": "2026-10-18",
+   "summary": "Since the discovery of an undocumented I/Q sampling feature in ESP32 chips about two weeks ago, there’s been a flood of similar features being found in other wireless chips, including …read more",
+   "meta": {
+    "query": "calibration"
+   },
+   "targeted": true,
+   "score": 77,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "esp32"
+   ],
+   "hits": [
+    "esp32"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "de8bd8ec3e0c",
+   "source": "hackaday",
+   "title": "Embedded 3D Printing with Liquids on a Bricked Prusa FDM Printer",
+   "url": "https://hackaday.com/2026/10/09/embedded-3d-printing-with-liquids-on-a-bricked-prusa-fdm-printer",
+   "published": "2026-10-09",
+   "summary": "Recently [Riley] got his paws on an old Prusa i3 FDM printer that had clearly seen better days, with a hot-end that had suffered an explosive blow-out. For the project …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 77,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "3d print"
+   ],
+   "modern_hits": [
+    "3d print"
+   ],
+   "hits": [
+    "3d print",
+    "3d print"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "6597a7733b86",
+   "source": "wikipedia",
+   "title": "物理哲学",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%93%B2%E5%AD%A6",
+   "published": "",
+   "summary": "在哲学中，物理哲学是关于当代物理中的概念性与解释性的问题。其中许多问题与理论物理学家的研究领域重叠。物理哲学可大致分为以下三个领域： 对量子力学的解释：主要关于如何形式化地看待量子测量以及该理论对现实的描述。 空间与时间的本质：时空是物质，或仅仅是一种关系？同时性是常规的或者相对的？暂时的不对称性是否可以单纯还原为热力学不对称性？ 理论间的关系：不同物理理论之间的关系，如热力学与统计力学。这领域与科学还原论重叠。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "测量"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "测量"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "78f4403a37fa",
+   "source": "wikipedia",
+   "title": "经典力学",
+   "url": "https://zh.wikipedia.org/wiki/%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6",
+   "published": "",
+   "summary": "经典力学是力学的一个分支。经典力学是以牛顿运动定律为基础，在宏观世界和低速状态下，研究物体运动的基本学科。在物理學裏，经典力学是最早被接受为力學的一个基本綱領。经典力学又分为静力学（描述静止物体）、运动学（描述物体运动）和动力学（描述物体受力作用下的运动）。16世纪，伽利略·伽利莱就已采用科学实验和数学分析的方法研究力学。他为后来的科学家提供了许多豁然开朗的启示。艾萨克·牛顿则是最早使用数学语言描述力学定律的科学家。 后来，拉格朗日、哈密顿创立更为抽象的研究方法來表述经典力学。新的表述形式被称为拉格朗日力学和哈密顿力学，或统称为分析力学。这些进步主要发生在18世纪和19世纪，新的表达方式大大超出了牛顿所表达经典力学的工作范围，特别是通过使用分析力学，经过一些类比和推广即可用于现代物理学的所有领域。 在研究速度不接近光速、质量不是非常大的宏观物体时，经典力学提供了非常精确的结果。然而，当被检",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "58c42e0ca1d6",
+   "source": "wikipedia",
+   "title": "假想實驗",
+   "url": "https://zh.wikipedia.org/wiki/%E5%81%87%E6%83%B3%E5%AF%A6%E9%A9%97",
+   "published": "",
+   "summary": "假想實驗（thought experiment）又称思想实验、臆想實驗、思维实验等，是指用想象力的實驗，所做的都是在現實中無法做到（或現實未做到）的實驗；其具体的做法是在人的头脑中进行理性思维活动，它不受现实物质条件的限制，只须借助于想象力，就可以使实验者置身于任何对象的实验环境中；在科学方法论上，它属于理性思维的范畴。 假想實驗的例子如愛因斯坦有關相對運動的著名假想實驗，又例如他和英費爾德合著的科普讀物《物理学的进化》中要求讀者想象一個用平滑，無摩擦力的地面及球體的實驗，但在現實（或暫時）做不到。假想實驗要的是想象力而非感官。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "3159fb8be0c4",
+   "source": "wikipedia",
+   "title": "惠勒延迟选择实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "f2bc782fed23",
+   "source": "wikipedia",
+   "title": "波普尔实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%99%AE%E5%B0%94%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "波普尔实验是由哲学家卡尔·波普尔提出的实验。 在1934年，波普尔对哥本哈根解释，一种流行的量子力学主观解释，产生了怀疑，并提出了一个实验来检验它。 波普尔的实验是对一种争议说法的具体化，类似于阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森提出的EPR佯謬思想实验。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "c92f39c2aec2",
+   "source": "wikipedia",
+   "title": "牛顿大炮",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E5%A4%A7%E7%82%AE",
+   "published": "",
+   "summary": "牛顿大炮（英語：Newton's cannonball）是物理学家艾萨克·牛顿阐述的一个思想实验。牛顿用这个实验来假设引力具有普适性，并且是行星运动的重要动力来源。这个实验出现在牛顿的著作《自然哲学的数学原理》中。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "6f8a9aad6f5e",
+   "source": "wikipedia",
+   "title": "缸中之脑",
+   "url": "https://zh.wikipedia.org/wiki/%E7%BC%B8%E4%B8%AD%E4%B9%8B%E8%84%91",
+   "published": "",
+   "summary": "缸中之脑（英語：Brain in a vat），又稱桶中之腦（brain in a jar），是知识论中的一个思想实验中的一個思物，這個概念由哲學家希拉里·普特南在《理性、真理和历史》（Reason, Truth, and History）一书中提出。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "7f3fef59d5b9",
+   "source": "wikipedia",
+   "title": "薛定谔猫",
+   "url": "https://zh.wikipedia.org/wiki/%E8%96%9B%E5%AE%9A%E8%B0%94%E7%8C%AB",
+   "published": "",
+   "summary": "薛定谔猫（英語：Schrödinger's cat）是奥地利物理學者埃尔温·薛定谔於1935年提出的思想实验。通過此思想实验，薛定諤指出應用量子力學哥本哈根詮釋於宏觀物體會產生的問題，以及其與物理常識間的矛盾。在此思想實驗裏，由於先前發生事件的隨機性質，貓會處於生存與死亡的疊加態。 根據退相干理論，貓不可能永遠處於生存與死亡的疊加態，由於環境影響，會很快產生退相干效應，貓改而處於生存或死亡的經典統計學狀態，因此一般而言，絕對無法觀察到生存與死亡的疊加態。至今為止，物理學者只能精心製備出一些介觀物體的疊加態。 薛丁格貓雖然是思想實驗，但類似原理已應用於實際領域。在理論上研討量子力學詮釋問題時，薛丁格貓也時常會被提出，以作爲試金石。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "b5b9635e94fc",
+   "source": "wikipedia",
+   "title": "吴健雄",
+   "url": "https://zh.wikipedia.org/wiki/%E5%90%B4%E5%81%A5%E9%9B%84",
+   "published": "",
+   "summary": "吴健雄（英語：Chien-Shiung Wu；1912年5月31日—1997年2月16日），美籍华裔物理学家，在核物理学领域卓有贡献，其在实验物理学方面的造诣常令人将她与瑪麗·居禮相提并论。吴健雄是美国物理学会的第一位女性会长，常被人称為“中國的居里夫人”、“物理研究的第一女士”、“核子研究的女王”以及“世界最傑出的女性實驗物理學家之一”。 吴健雄先后毕业于中華民國国立中央大学和美国加州大学伯克利分校，师从诺贝尔物理学奖得主欧内斯特·劳伦斯。曼哈顿计划期间，她参与研究了如何利用气体扩散法分离铀的两种同位素（铀-235与铀-238）。吴健雄长期在美国哥伦比亚大学任教，她最著名的一项科研成果是利用实验方法验证了宇称不守恒，这项工作令其同事李政道和杨振宁获得1957年的诺贝尔物理学奖，本人也因此获授1978年首次颁发的沃尔夫物理学奖。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "b2a4e0b2b7c7",
+   "source": "wikipedia",
+   "title": "國立臺灣大學物理學系",
+   "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%89%A9%E7%90%86%E5%AD%B8%E7%B3%BB",
+   "published": "",
+   "summary": "國立臺灣大學物理學系（英語：Department of Physics, National Taiwan University），略稱臺灣大學物理系、臺大物理系，創辦於1946年8月，首任系主任為物理學家戴運軌。台大物理系是為國立臺灣大學改制之後首創的第一個系所。前身是日治時期臺北帝國大學的理學部化學科所設置的物理學講座，當時有兩三間辦公室和實驗室。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "1128fe5e51b1",
+   "source": "wikipedia",
+   "title": "物理学",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6",
+   "published": "",
+   "summary": "物理學或物理（英语：physics）是研究物質、能量的本質與性質的自然科學。由於物質與能量是所有科學研究的必須涉及的基本要素，所以物理學是自然科學中最基礎的學科之一。物理學是一種實驗科學，物理學者從觀測與分析大自然的各種基於物質與能量的現象來找出其中的模式。這些模式稱為「物理理論」，經得起實驗檢驗的常用物理理論稱為物理定律，直到有一天被證明是有錯誤為止（具可否證性）。物理學是由這些定律精緻地建構而成。物理學是自然科學中最基礎的學科之一。化學、生物學、考古學等等科學學術領域的理論都建構於這些物理定律。 物理學是最古老的學術之一。物理學、化學、生物學等等原本都歸屬於自然哲學的範疇，直到十七世紀至十九世紀期間，才漸漸地從自然哲學中分別成長為獨立的學術領域。物理學與其它很多跨領域研究有相當的交集，如量子化學、生物物理學等等。物理學的疆界並不是固定不變的，物理學裡的創始突破時常可以用來解釋這些跨領域",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "9bb8bebc8f58",
+   "source": "wikipedia",
+   "title": "物理学史",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E5%8F%B2",
+   "published": "",
+   "summary": "物理学主要是研究物质、能量及它們彼此之間的關係。它是最早形成的自然科学学科之一，如果把天文学包括在内则有可能是名副其实历史最悠久的自然科学。最早的物理学著作是古希腊科学家亚里士多德的《物理學》。形成物理学的元素主要来自对天文学、光学和力学的研究，而这些研究通过几何学的方法统合在一起形成了物理学。这些方法形成于古巴比伦和古希腊时期，当时的代表人物如数学家阿基米德和天文学家托勒密；随后这些学说被传入阿拉伯世界，并被当时的阿拉伯科学家海什木等人发展为更具有物理性和实验性的传统学说；最终这些学说传入了西欧，首先研究这些内容的学者代表人物是罗吉尔·培根。然而在当时的西方世界，哲学家们普遍认为这些学说在本质上是技术性的，从而一般没有察觉到它们所描述的内容反映着自然界中重要的哲学意义。而在古代中国和印度的科学史上，类似的研究数学的方法也在发展中。 在这一时代，包含着所谓“自然哲学”（即物理学）的哲学所集",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "889dbcaae6cd",
+   "source": "wikipedia",
+   "title": "弗朗西斯·培根",
+   "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9",
+   "published": "",
+   "summary": "第一代圣奥尔本子爵弗朗西斯·培根（英語：Francis Bacon, 1st Viscount St Alban，1561年1月22日—1626年4月9日），英国文艺复兴时期哲学家、政要、科學家、法學家、演說家和散文作家，被认为是经验主义哲学的创始人。卡尔·马克思亦称其为“英国唯物主义和整个现代实验科学的真正始祖”。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "3548437df952",
+   "source": "wikipedia",
+   "title": "埃弗里-麦克劳德-麦卡蒂实验",
+   "url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%BC%97%E9%87%8C-%E9%BA%A6%E5%85%8B%E5%8A%B3%E5%BE%B7-%E9%BA%A6%E5%8D%A1%E8%92%82%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "埃弗里-麦克劳德-麦卡蒂实验（英語：Avery–MacLeod–McCarty experiment）是由奥斯瓦尔德·埃弗里（Oswald Avery）、科林·麦克劳德（Colin MacLeod）和麦克林恩·麦卡蒂（Maclyn McCarty）于1935至1944年共同完成的证明脱氧核糖核酸是肺炎链球菌的遗传物质的实验。 该实验是证明DNA为遗传物质的关键性实验，论文《对引起肺炎球菌类型转化的物质化学特性的研究——从肺炎球菌III型分离出来的脱氧核糖核酸引起的转化》发表在1944年8月《实验医学杂志》（Journal of Experimental Medicine 79 (2): 137–158.）。论文的结构主体为：(前言)、实验(1营养肉汤 2血浆或学血浆液 3R菌株(R36A) 4测定转化活性物质的方法)、制备方法(1材料 2热杀死的细胞提取液 3脱蛋白和假模多糖去除的过程 4",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "c0339c00660c",
+   "source": "wikipedia",
+   "title": "皮埃尔·迪昂",
+   "url": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%9F%83%E5%B0%94%C2%B7%E8%BF%AA%E6%98%82",
+   "published": "",
+   "summary": "皮埃尔·迪昂（法語：Pierre Duhem，1861年6月9日—1916年9月14日），法国物理学家、科学史家与科学哲学家。迪昂主要以其在化学热力学领域的工作、对实验非充分决定性的科学哲学探讨以及对欧洲中世纪科学史的研究而知名。作为一名科学家，迪昂的贡献还包括对于流体动力学、弹性理论的研究。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "ab7c032cfc59",
+   "source": "wikipedia",
+   "title": "聚变实验列表",
+   "url": "https://zh.wikipedia.org/wiki/%E8%81%9A%E5%8F%98%E5%AE%9E%E9%AA%8C%E5%88%97%E8%A1%A8",
+   "published": "",
+   "summary": "用于发展聚变能的实验总是会使用专门的装置，这些装置可以根据他们使用的聚变原理和燃料自持方式来进行区分。 主要区分为磁约束和惯性约束两种。在磁约束中，热等离子体膨胀的趋势被等离子体中的电流和外部线圈产生的磁场之间的洛伦兹力抵消。粒子密度范围趋向于1018-1022 m−3，线性尺寸范围为0.1 m至10m。 粒子和能量约束时间在从几毫秒到超过一秒的范围内，但是配置本身通常通过输入粒子、能量和电流来维持数倍或数千倍的时间。一些理论能够无限期地维持等离子体。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "312009950f0f",
+   "source": "wikipedia",
+   "title": "Zhu Xi (biologist)",
+   "url": "https://en.wikipedia.org/wiki/Zhu_Xi_(biologist)",
+   "published": "",
+   "summary": "Zhu Xi (Chinese: 朱洗; pinyin: Zhū Xǐ; 1900 – (1962-07-24)July 24, 1962), born Zhu Yongchang, courtesy name Yu Wen, was a Chinese biologist, anarchist and a pioneer of cell biology and experimental embryology in the People's Republic of China. He was a public opponent of the Eliminate Sparrows campaign in the 1950s, for which his grave was desecrated during the Cultural Revolution.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "biology"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "biology"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "84d08da14f64",
+   "source": "wikipedia",
+   "title": "Theory of relativity",
+   "url": "https://en.wikipedia.org/wiki/Theory_of_relativity",
+   "published": "",
+   "summary": "The theory of relativity comprises two physics theories by Albert Einstein: special relativity and general relativity, proposed and published in 1905 and 1915, respectively. Special relativity applies to all physical phenomena in the absence of gravity. General relativity explains the law of gravitation and its relation to the forces of nature. It applies to the cosmological and astrophysical real",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
    ],
    "title_signal": false
   },
@@ -157,24 +1524,7 @@
    "why": "",
    "obj_hits": [],
    "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "ea38c29a8cd4",
-   "source": "hackaday",
-   "title": "An Open Source Linear Capacitive Encoder",
-   "url": "https://hackaday.com/2026/10/22/an-open-source-linear-capacitive-encoder",
-   "published": "2026-10-22",
-   "summary": "If you’ve ever pulled apart a set of digital calipers, you’ve probably marvelled at the capacitive encoder that does all the measuring work. There’s nothing stopping you from using the …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
+   "modern_hits": [],
    "hits": [],
    "title_signal": false
   },
@@ -193,6 +1543,7 @@
    "why": "",
    "obj_hits": [],
    "per_hits": [],
+   "modern_hits": [],
    "hits": [],
    "title_signal": false
   },
@@ -211,6 +1562,7 @@
    "why": "",
    "obj_hits": [],
    "per_hits": [],
+   "modern_hits": [],
    "hits": [],
    "title_signal": false
   },
@@ -229,6 +1581,7 @@
    "why": "",
    "obj_hits": [],
    "per_hits": [],
+   "modern_hits": [],
    "hits": [],
    "title_signal": false
   },
@@ -247,24 +1600,7 @@
    "why": "",
    "obj_hits": [],
    "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "73a267630d62",
-   "source": "hackaday",
-   "title": "Turning a Wi-Fi Adapter into an SDR",
-   "url": "https://hackaday.com/2026/10/18/turning-a-wi-fi-adapter-into-an-sdr",
-   "published": "2026-10-18",
-   "summary": "Since the discovery of an undocumented I/Q sampling feature in ESP32 chips about two weeks ago, there’s been a flood of similar features being found in other wireless chips, including …read more",
-   "meta": {
-    "query": "calibration"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
+   "modern_hits": [],
    "hits": [],
    "title_signal": false
   },
@@ -285,8 +1621,78 @@
    "per_hits": [
     "cheap"
    ],
+   "modern_hits": [],
    "hits": [
     "cheap"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "9a675dec4f8d",
+   "source": "hackaday",
+   "title": "Two-Component H-shifter for Racing Sims",
+   "url": "https://hackaday.com/2026/10/09/two-component-h-shifter-for-racing-sims",
+   "published": "2026-10-09",
+   "summary": "Flying and driving simulators can go as far as money will take you, and at some point it might end up being cheaper to buy a plane or race car …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "cheap"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "cheap"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "2c1b2b1bd5de",
+   "source": "hackaday",
+   "title": "Tearing Down a Heavy Oscilloscope",
+   "url": "https://hackaday.com/2026/10/04/tearing-down-a-heavy-oscilloscope",
+   "published": "2026-10-04",
+   "summary": "When [Thomas] showed his 1960s-era Tektronix 545A oscilloscope in a recent video, it made us both nostalgic and happy. Nostalgic because we miss the days when our oscilloscopes were “mainframes” …read more",
+   "meta": {
+    "query": "oscilloscope"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "made"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "made"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "0428714f1a14",
+   "source": "hackaday",
+   "title": "Open Source Tricorder Is In It For The Science",
+   "url": "https://hackaday.com/2026/09/30/open-source-tricorder-is-in-it-for-the-science",
+   "published": "2026-09-30",
+   "summary": "If you’re reading Hackaday there’s pretty good odds you’re at least somewhat fond of Star Trek. We’d bet good money most of you would quit your jobs today if a Starfleet …read more",
+   "meta": {
+    "query": "spectrometer"
+   },
+   "targeted": true,
+   "score": 73,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "open source"
+   ],
+   "hits": [
+    "open source"
    ],
    "title_signal": false
   },
@@ -305,6 +1711,7 @@
    "why": "",
    "obj_hits": [],
    "per_hits": [],
+   "modern_hits": [],
    "hits": [],
    "title_signal": false
   },
@@ -323,6 +1730,7 @@
    "why": "",
    "obj_hits": [],
    "per_hits": [],
+   "modern_hits": [],
    "hits": [],
    "title_signal": false
   },
@@ -341,6 +1749,7 @@
    "why": "",
    "obj_hits": [],
    "per_hits": [],
+   "modern_hits": [],
    "hits": [],
    "title_signal": false
   },
@@ -359,6 +1768,7 @@
    "why": "",
    "obj_hits": [],
    "per_hits": [],
+   "modern_hits": [],
    "hits": [],
    "title_signal": false
   },
@@ -377,6 +1787,7 @@
    "why": "",
    "obj_hits": [],
    "per_hits": [],
+   "modern_hits": [],
    "hits": [],
    "title_signal": false
   },
@@ -395,6 +1806,1002 @@
    "why": "",
    "obj_hits": [],
    "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "1c55acd5be88",
+   "source": "hackaday",
+   "title": "A Headset Fit For A Hackaday Writer",
+   "url": "https://hackaday.com/2026/10/06/a-headset-fit-for-a-hackaday-writer",
+   "published": "2026-10-06",
+   "summary": "I started writing this from a commuter train passing at speed through the outskirts of London, and my headset had just broken. The flexible joint that attaches one earpiece to …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "3597c9d424e2",
+   "source": "hackaday",
+   "title": "Hackaday Podcast Episode 389: Spinning Lightfield Displays, and Jenny Visits a Blast Furnace",
+   "url": "https://hackaday.com/2026/10/02/hackaday-podcast-episode-389-spinning-lightfield-displays-and-jenny-visits-a-blast-furnace",
+   "published": "2026-10-02",
+   "summary": "Another all-European podcast for you this week, as Elliot Williams is joined by Jenny List for an evening looking at the past week in Hackaday. And this week there is …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "dfeb1b1e3b8f",
+   "source": "hackaday",
+   "title": "Archiving The World’s Oldest Webcam Feed",
+   "url": "https://hackaday.com/2026/10/01/archiving-the-worlds-oldest-webcam-feed",
+   "published": "2026-10-01",
+   "summary": "FogCam is the oldest webcam feed that’s still up and running. Installed at San Francisco State University, it’s been slowly uploading a new image to the web every 20 to …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "37dd63a7931c",
+   "source": "hackaday",
+   "title": "Geothermal Cooling For New York’s Subways",
+   "url": "https://hackaday.com/2026/09/29/geothermal-cooling-for-new-yorks-subways",
+   "published": "2026-09-29",
+   "summary": "You might think that if you dug some tunnels down into the ground where you could be out of the sunshine, that you might find them to be relatively cool …read more",
+   "meta": {
+    "query": "weather station"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "a659f2cf96d6",
+   "source": "hackaday",
+   "title": "Two-Dimensional Material Now Easier to Manufacture",
+   "url": "https://hackaday.com/2026/09/28/two-dimensional-material-now-easier-to-manufacture",
+   "published": "2026-09-28",
+   "summary": "We often see scientific breakthroughs in journals or other media that’s reported on as if it’s a revolutionary technology guaranteed to reshape human existence, only to never hear about it …read more",
+   "meta": {
+    "query": "water quality"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "cb182d8517f7",
+   "source": "wikipedia",
+   "title": "物理学词汇表",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E8%AF%8D%E6%B1%87%E8%A1%A8",
+   "published": "",
+   "summary": "本物理学词汇表列出了与物理学、其分支学科和相关领域（包括力学、材料科学、核物理学、粒子物理学和热力学）相关的术语和概念的定义。有关科学和技术相关领域的更具包容性的词汇表，请参阅化学词汇表、天文学辞汇、数学领域词汇表和工程学词汇表。 本词汇表按照汉语拼音字母排列。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "8209714e5c07",
+   "source": "wikipedia",
+   "title": "物理对象",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AF%B9%E8%B1%A1",
+   "published": "",
+   "summary": "物理对象（英语：physical object）其范畴包括“物体”，但定义更广，指在时空中占据位置，且具有物理属性（如：质量、能量、动量、电荷、自旋等）的实体或现象。物理对象含盖所有符合物理定律的实体、场与能量形态，例如：光子、电子、电磁场、引力波、时空本身。 物理实体（physical entity）相当于物理对象，但其更強調“本体存在”（本体论）；物理对象则可以是一个抽象的物理系统（认识论）。例如：「理想气体」是一个研究的物理对象，但它不是一个真实的物理实体，因其在现实中不存在，是个简化后的模型。再如：在量子力学中，波函数也是我们研究的物理对象，但它本身可能不是一个物理实体，可能只是一个机率描述。 在物理学裡，物体（material object，object，body）被认定为独一的、聚集的一群物质；物体为宏观实体，具有明确边界、静止质量不为零的特征。例如，棒球可以被认为是一个物体；",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "9aa8dfe5a597",
+   "source": "wikipedia",
+   "title": "相对论",
+   "url": "https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%AF%B9%E8%AE%BA",
+   "published": "",
+   "summary": "相對論（英語：Theory of relativity）是关于时空和引力的理论，主要由爱因斯坦创立，依其研究对象的不同可分为狭义相对论和广义相对论。相对论和量子力学的提出给物理学带来了革命性的变化，它们共同奠定了现代物理学的基础。相对论极大地改变了人类对宇宙和自然的“常识性”观念，提出了“同时的相对性”、“四维时空”、“弯曲时空”等全新的概念。不过近年来，人们对于物理理论的分类有了一种新的认识——以其理论是否是决定论的来划分经典与非经典的物理学，即“非古典的＝量子的”。在这个意义下，相对论仍然是一种经典的理论。 該理論取代了200年前主要由艾薩克·牛頓創立的力學理論，從而改變了20世紀的理論物理學和天文學，它引入的概念，包括時空、同時性之相對性、運動學、重力時間膨脹和勞侖茲收縮。在物理學領域，相對論改善了基本粒子的科學以及它們的基本相互作用，以及迎來核子時代。 另外，藉由相對論，物理宇宙學",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "6215b15a1e45",
+   "source": "wikipedia",
+   "title": "中世紀科學史",
+   "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E4%B8%96%E7%B4%80%E7%A7%91%E5%AD%B8%E5%8F%B2",
+   "published": "",
+   "summary": "中世紀科學史是指在中世紀，星象、藥物、數學等科学在當時都相當的活躍，但是，由於古代的文化(在羅馬及伊斯蘭的落沒之前的時期)已經存在有許多的科學基礎，所以研究科學的方法才能夠在中世紀時誕生，也因此科學能夠在此時正式地與哲學分野，然而在當時世界各地像是伊斯蘭世界、地中海盆地、中國，以及印度等也已經有了科學研究的足跡，而在西歐一度落後的科學發展則是從12世紀開始再次趕上這些地區。 拜占庭帝國是中世紀早期的文化指標，它保存了希臘羅馬時期的自然、數學，以及藥學的系統以及理論；亞里士多德、阿基米德、蓋倫、托勒密，以及歐幾里得的思想在當時傳遍整個帝國。他們的著作及注解釋為中世紀科學發展的根源，因為那時候的西歐地區的文化由於西羅馬帝國的落沒而遭受破壞，但是因為有了義大利神學家托馬斯·阿奎那及法國學者布里丹等人的貢獻，西歐科學研究的精神得以保存，而當時所保存的著作也因此成為了往後歐洲的科學在科學革命時期能夠",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "91b5bfdb8698",
+   "source": "wikipedia",
+   "title": "科学分支",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%88%86%E6%94%AF",
+   "published": "",
+   "summary": "科学的分支、分类，也称科学领域，通常分为三大类： 形式科学：对形式系统的研究，如逻辑和数学分支下的学科。它们依据先验知识，而非建立在实证基础上。 自然科学：对自然现象的研究（包括宇宙内的宇宙学、地质学、物理学、化学和生物学影响）。自然科学可分为两个主要分支：物理科学和生命科学（或生物科学）。 社会科学：在社会和文化角度研究人类行为的科学。 科学知识必须建立在可观察的现象之上，并且能够在相同条件下被其他研究者验证。自然科学、社会科学和形式科学构成基础科学，它们也是跨学科和应用科学（如工程学和医学）的基础。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "5716602e848d",
+   "source": "wikipedia",
+   "title": "科学史",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2",
+   "published": "",
+   "summary": "科學史，利用了思想史和社會史兩個面向的歷史研究方法。科學起源於對自然其功能性的實用考量以及纯粹的哲學探究。 雖然科學方法自古便不斷發展，但現代科學方法卻是始自伊斯蘭科學家，海什木在大約西元1000年左右，運用實驗的經驗法則寫出了一本關於光學的著作《光學書》。然而，現代科學方法在13世紀的歐洲由大學經院哲學的學者所發起科學革命時，方才算發展完全，到了16世紀及17世紀早期的發展高峰，現代科學方法的廣泛應用更引領了知識的全面重估。科學方法的發展被某些人（尤其是科學哲學家及實證科學家）認為是太過於基礎而重要的，認為早先對於自然的探索只不過是前科學（pre-scientific），現代科學方法才被他們認為是真正的科學。習慣上，科學史學家仍舊認定早先的科學探索也包含於廣大而充足的科學範疇之中。 數學史、科技史及哲學史則在其各自的條目中描述。數學跟科學很接近但有所區别（至少在現代的觀念上是這樣認為）。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "2aaa7d3b0145",
+   "source": "wikipedia",
+   "title": "自然科学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6",
+   "published": "",
+   "summary": "自然科学（natural science）是研究大自然中有机或无机的事物和现象的科学。 自然科学包括天文學、物理学、化学、地球科学、生物学等；必须注意的是其不包含逻辑学、数学、统计学。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "bca0f77d3a27",
+   "source": "wikipedia",
+   "title": "赛门·夏佛",
+   "url": "https://zh.wikipedia.org/wiki/%E8%B5%9B%E9%97%A8%C2%B7%E5%A4%8F%E4%BD%9B",
+   "published": "",
+   "summary": "賽門·夏佛（英語：Simon J. Schaffer，1955年1月1日—），劍橋大學科學史與科學哲學教授。英國科學史期刊主編。專長為物理史、社會科學史。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "cf44c48498ff",
+   "source": "wikipedia",
+   "title": "XTIE",
+   "url": "https://zh.wikipedia.org/wiki/XTIE",
+   "published": "",
+   "summary": "XTIE（英語：Cristie Lam，1994年8月26日—），香港創作女歌手。2020年出道。出道至今以個人工作室獨立製作并發行作品，亦為其他歌手擔任編曲及監製，如衛蘭、許廷鏗等。其音樂多用流行、舞曲和電子音樂的元素。為首位登上格林美頻道演出的香港歌手，單曲《Lost in Between》(2024) 及 《Rocket Science》(2025) 入圍格林美獎「最佳流行舞曲」首輪名單 。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "21447eafb6cd",
+   "source": "wikipedia",
+   "title": "Xcon",
+   "url": "https://zh.wikipedia.org/wiki/Xcon",
+   "published": "",
+   "summary": "R1（后来被称为XCON，eXpert CONfigurer的所写，意为专家设置）程序是基于生产规则的系统，由卡内基梅隆大学的John P. McDermott在1978年用OPS5开发。其目的是按照用户的需求，帮助DEC为VAX型计算机系统自动选择组件。XCON的开发继承了两个之前用FORTRAN语言和BASIC语言未成功的尝试完成了一个专家系统。 在1980年，XCON最初被用于DEC位于新罕布什尔州萨利姆的工厂。最终它有了大约2500条规则。截止至1986年，它一共处理了80,000条指令，准确率达到95-98%。据估计，通过减少当技师出错时送给客户的组件、加速组装流程、和增加客户满意度，它每年为DEC节省了两千五百万美元。 在使用XCON之前，当从DEC订购VAX时，电缆、接头、和很多软件要单独订购（计算机和外设不像今天一样一起出售）。不是所有的销售人员都是技术专家，所以经常会发生",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "cee5ba259b88",
+   "source": "wikipedia",
+   "title": "印第安電單車",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
+   "published": "",
+   "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "109ee3b55506",
+   "source": "wikipedia",
+   "title": "汪達幻視",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E9%81%94%E5%B9%BB%E8%A6%96",
+   "published": "",
+   "summary": "《旺达幻视》（英語：WandaVision，香港译《温黛与幻视》，台湾译《汪达幻视》）是一部美國超級英雄類型的網路劇集，改編自漫威漫畫的角色「緋紅女巫」汪達·麥西莫夫和幻視，由潔克·薛佛主創並擔當首席編劇，麥特·夏克曼執導影集。該電視劇是漫威影業開發製作的漫威電影宇宙的首部電視劇作品，與漫威電影宇宙系列電影處於同一架空世界和共同世界，於線上串流媒體平台Disney+首播。 伊莉莎白·歐森和保羅·彼特尼繼續分別飾演在漫威電影宇宙系列電影中的角色汪達·麥西莫夫和幻視。主演還包括黛博拉·喬·拉普、弗雷德·邁拉麥德、凱薩琳·哈恩、泰娜·帕麗斯、藍道爾·朴、凱特·丹寧絲和伊凡·彼得斯。2018年9月，漫威影業宣佈為華特迪士尼公司旗下的在線上串流平台Disney+開發數個電視劇，並以漫威電影宇宙中的「二級核心」人物為主角，比如「緋紅女巫」汪達·麥西莫夫和幻視，伊莉莎白·歐森和保羅·彼特尼有望回歸繼續出",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "5668918f426d",
+   "source": "wikipedia",
+   "title": "魔术沙",
+   "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%9C%AF%E6%B2%99",
+   "published": "",
+   "summary": "魔术沙是一种被疏水材料包裹的沙制玩具。这种疏水材料使用了三甲基硅醇这种有机化合物。 最早的防水沙在1915年的《The Boy Mechanic Book 2》一书中记载。这个防水沙由东印度魔术师发明，它由混合加热的沙子和熔化的蜡得到，所用的蜡在水中可以疏水。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "93f8d02b5eb2",
+   "source": "wikipedia",
+   "title": "任晓平",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BB%BB%E6%99%93%E5%B9%B3",
+   "published": "",
+   "summary": "任晓平（1961年—），中国外科医生，哈尔滨医科大学附属第二医院教授。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "1b17bfdbe05c",
+   "source": "wikipedia",
+   "title": "實驗哲學",
+   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
+   "published": "",
+   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "925998e1f52f",
+   "source": "wikipedia",
+   "title": "朱迪斯·贾维斯·汤姆逊",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E8%B4%BE%E7%BB%B4%E6%96%AF%C2%B7%E6%B1%A4%E5%A7%86%E9%80%8A",
+   "published": "",
+   "summary": "朱迪斯·贾维斯·汤姆逊（1929年10月4日 – 2020年11月20日）是一位研究伦理学、形上學和有轨电车难题的美国哲学家。 朱迪斯·贾维斯·汤姆逊是《为堕胎辩护》的作者。1989年，朱迪斯·贾维斯·汤姆逊当选美国文理科学院院士。 2016年，她当选为英國國家學術院通讯院士。 2019年，当选为美國哲學學會会员。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "0e24266f1272",
+   "source": "wikipedia",
+   "title": "相對同時",
+   "url": "https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%B0%8D%E5%90%8C%E6%99%82",
+   "published": "",
+   "summary": "在物理學中，同時性之相對性（relativity of simultaneity）是指超距同時性的概念並不是絕對的。換言之，在空間中不同位置所發生的事件，其同時性取決於觀測者所在的參考系。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f2e60dbc49a7",
+   "source": "wikipedia",
+   "title": "非火箭航天发射",
+   "url": "https://zh.wikipedia.org/wiki/%E9%9D%9E%E7%81%AB%E7%AE%AD%E8%88%AA%E5%A4%A9%E5%8F%91%E5%B0%84",
+   "published": "",
+   "summary": "非火箭航天发射是一种部分或全部的采用火箭发动机外的其他推进方式的航天发射方式。如在火箭橇发射或空中发射中，在通过其他手段获得初始速度或高度后，火箭才被应用。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "6a392e8abd30",
+   "source": "wikipedia",
+   "title": "伽利略·伽利莱",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1",
+   "published": "",
+   "summary": "伽利略·伽利莱（義大利語：Galileo Galilei ；1564年2月15日—1642年1月8日），義大利物理學家、數學家、天文學家及哲學家，科學革命中的重要人物。伽利略被譽為“現代觀測天文學之父”、“現代物理學之父”、科学方法之父及“現代科學之父”。 伽利略曾研究速率與速度、引力與自由落體、相对性原理、慣性與抛体运动，並在應用科學與技術領域有所建樹，描述鐘擺特性與流体静力平衡。他亦是最早發展熱成像儀的學者之一，並發明多種軍用比例規與測量儀器。透過自行改良的望远镜，伽利略觀測到银河系中的繁星、金星相位、木星最大的四顆衛星、土星環、月球陨石坑與太陽黑子等現象；此外，他亦製造出早期形式的顯微鏡。 伽利略對哥白尼日心說的支持，招致天主教會內部及部分天文學家的反對。1615年，羅馬宗教裁判所開始調查此事，並認定其觀點與當時被接受的《聖經》詮釋相牴觸。 其後，伽利略於《关于托勒密和哥白尼两大世界",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "0829c514aed2",
+   "source": "wikipedia",
+   "title": "元科学",
+   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
+   "published": "",
+   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f088ab6a58af",
+   "source": "wikipedia",
+   "title": "Air Force Command College",
+   "url": "https://en.wikipedia.org/wiki/Air_Force_Command_College",
+   "published": "",
+   "summary": "The Air Force Command College (AFCC), MOE Code (院校代码): 91023, is the highest academic institution of the Chinese People's Liberation Army Air Force (PLAAF), with a corps deputy grade, and it is tasked with training the commanding officer corps for the force. It is based in Beijing, right next to the Kunming Lake and the Beijing Xijiao Airport. It is an intermediate command school for the trainin",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "e7951e4e685f",
+   "source": "wikipedia",
+   "title": "HIV/AIDS in China",
+   "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_China",
+   "published": "",
+   "summary": "HIV/AIDS in China can be traced to an initial outbreak of the human immunodeficiency virus (HIV) first recognized in 1989 among injecting drug users along China's southern border. Figures from the Chinese Center for Disease Control and Prevention, World Health Organization, and UNAIDS estimate that there were 1.25 million people living with HIV/AIDS in China at the end of 2018, with 135,000 new in",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4155afb423c4",
+   "source": "wikipedia",
+   "title": "Li Fei'er",
+   "url": "https://en.wikipedia.org/wiki/Li_Fei%27er",
+   "published": "",
+   "summary": "Li Fei'er (simplified Chinese: 李菲儿; traditional Chinese: 李菲兒; pinyin: Lǐ Fēi'ér, born Li Fei; 3 October 1987), also known as Monica Li, is a Chinese actress and singer. After completing filming for her scenes in Royal Tramp, Li briefly trained in singing and dancing at now-defunct South Korean record label Good Entertainment in 2007.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "57291b5a7813",
+   "source": "wikipedia",
+   "title": "PLA Army Academy of Artillery and Air Defense",
+   "url": "https://en.wikipedia.org/wiki/PLA_Army_Academy_of_Artillery_and_Air_Defense",
+   "published": "",
+   "summary": "The People's Liberation Army Army Academy of Artillery and Air Defense (MOE: 91007) is a military school of deputy corps grade subordinate to the PLA Ground Force. It is responsible for officer, graduate, and NCO training for the PLA artillery forces. The academy was created in 2017 by merging four existing academies.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "39ffe9adb45b",
+   "source": "wikipedia",
+   "title": "Wild Grass (poetry collection)",
+   "url": "https://en.wikipedia.org/wiki/Wild_Grass_(poetry_collection)",
+   "published": "",
+   "summary": "Wild Grass (Chinese: 野草; pinyin: Yécǎo) is a collection of prose poetry by Lu Xun, published in July 1927. It comprises twenty-four pieces (including the preface), written between 1924 and 1926. Among the best-known are \"Autumn Night\", \"The Kite\", \"Snow\", \"The Passer-by\", and \"The Epitaph\". All of them first appeared in serial form in the magazine Yusi (Threads of Language). The collection was co",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "502974008e73",
+   "source": "wikipedia",
+   "title": "History of Nankai University",
+   "url": "https://en.wikipedia.org/wiki/History_of_Nankai_University",
+   "published": "",
+   "summary": "Nankai University is located in Tianjin, People's Republic of China. It was co-founded by prominent modern Chinese educators Yan Xiu and Zhang Boling, originating from the establishment of Nankai School in 1904. In 1919, the university division of Nankai School was formally established. On September 25, 1919, the university division of Nankai School held its first opening ceremony, marking the off",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "e2f65195a4c9",
+   "source": "wikipedia",
+   "title": "Army Academy of Armored Forces",
+   "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
+   "published": "",
+   "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "16dfa34f1419",
+   "source": "wikipedia",
+   "title": "Institute for the History of Natural Sciences",
+   "url": "https://en.wikipedia.org/wiki/Institute_for_the_History_of_Natural_Sciences",
+   "published": "",
+   "summary": "The Institute for the History of Natural Sciences (IHNS CAS; Chinese: 中国科学院自然科学史研究所; pinyin: Zhōngguó Kēxuéyuàn Zìrán Kēxuéshǐ Yánjiūsuǒ) is a leading research institution in China dedicated to the study of the history of science, technology, and medicine. It is affiliated with the Chinese Academy of Sciences (CAS).",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ef3dd7b47ba5",
+   "source": "wikipedia",
+   "title": "Mianyang",
+   "url": "https://en.wikipedia.org/wiki/Mianyang",
+   "published": "",
+   "summary": "Mianyang (simplified Chinese: 绵阳; traditional Chinese: 綿陽; pinyin: Miányáng; Wade–Giles: Mien2-yang2; Sichuanese romanization: Mien2-iang2; formerly known as Mienchow, Chinese: 綿州; pinyin: Mianzhou; Sichuanese romanization: Miencheo; lit. 'Mian Prefecture') is the second largest prefecture-level city of Sichuan province in Southwestern China. It borders Nanchong City to the east, Suining City to t",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "63623f9ad973",
+   "source": "wikipedia",
+   "title": "Barnum effect",
+   "url": "https://en.wikipedia.org/wiki/Barnum_effect",
+   "published": "",
+   "summary": "The Barnum effect, also called the Forer effect or, less commonly, the Barnum–Forer effect, is a common psychological phenomenon whereby individuals give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically to them, yet which are in fact vague and general enough to apply to a broad range of people. This effect can provide a partial explanation for th",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "95daaaf86db7",
+   "source": "wikipedia",
+   "title": "Door-in-the-face technique",
+   "url": "https://en.wikipedia.org/wiki/Door-in-the-face_technique",
+   "published": "",
+   "summary": "The door-in-the-face technique is a compliance method commonly studied in social psychology. The persuader attempts to convince the respondent to comply by making a large request that the respondent will most likely turn down, much like a metaphorical slamming of a door in the persuader's face. The respondent is then more likely to agree to a second, more reasonable request, than if that same requ",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "be33b43c4097",
+   "source": "wikipedia",
+   "title": "Eliezer Yudkowsky",
+   "url": "https://en.wikipedia.org/wiki/Eliezer_Yudkowsky",
+   "published": "",
+   "summary": "Eliezer Shlomo Yudkowsky ( EL-ee-EH-zər yuud-KOW-skee; born September 11, 1979) is an American artificial intelligence researcher and writer on decision theory and ethics, known for popularizing ideas related to friendly artificial intelligence. He is the founder of and a research fellow at the Machine Intelligence Research Institute (MIRI), a private research nonprofit based in Berkeley, Californ",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "6b7326a1de2b",
+   "source": "wikipedia",
+   "title": "Kuleshov effect",
+   "url": "https://en.wikipedia.org/wiki/Kuleshov_effect",
+   "published": "",
+   "summary": "The Kuleshov effect (Russian: Эффект Кулешова) is a film editing (montage) effect demonstrated by Russian filmmaker Lev Kuleshov in the 1910s and 1920s. It is a cognitive phenomenon by which viewers derive more meaning from the interaction of two sequential shots than from a single shot in isolation. Prior to the 1960s, the phenomenon was sometimes known as the Pudovkin effect and the Mozzhukhin e",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "84be9785ed2e",
+   "source": "wikipedia",
+   "title": "Miller–Urey experiment",
+   "url": "https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment",
+   "published": "",
+   "summary": "The Miller–Urey experiment, or Miller experiment, was an experiment in chemical synthesis carried out in 1952 that simulated the conditions thought at the time to be present in the atmosphere of the early, prebiotic Earth. It is seen as one of the first successful experiments demonstrating the synthesis of organic compounds from inorganic constituents in an origin of life scenario. The experiment",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "c49fa4f9f601",
+   "source": "wikipedia",
+   "title": "Blockhead (thought experiment)",
+   "url": "https://en.wikipedia.org/wiki/Blockhead_(thought_experiment)",
+   "published": "",
+   "summary": "Blockhead is a theoretical computer system invented as part of a thought experiment by philosopher Ned Block, which appeared in a paper titled \"Psychologism and Behaviorism\". Block did not personally name the computer in the paper, but in 1993 F. Jackson claimed that this name \"has become traditional\".",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "8a1f8c315489",
+   "source": "wikipedia",
+   "title": "Demon (thought experiment)",
+   "url": "https://en.wikipedia.org/wiki/Demon_(thought_experiment)",
+   "published": "",
+   "summary": "In thought experiments, philosophers and scientists occasionally imagine entities with special abilities as a way to pose thought experiment or highlight apparent paradoxes. The word \"demon\" here does not necessarily connote a demon, a malevolent being. For instance, James Clerk Maxwell came up with his thought experiment of a \"finite being\" manipulating entropy microscopically to highlight the",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4341680b6209",
+   "source": "wikipedia",
+   "title": "Einstein's thought experiments",
+   "url": "https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments",
+   "published": "",
+   "summary": "A hallmark of Albert Einstein's career was his use of visualized thought experiments (German: Gedankenexperiment) as a fundamental tool for understanding physical issues and for elucidating his concepts to others. Einstein's thought experiments took diverse forms. In his youth, he mentally chased beams of light. For special relativity, he employed moving trains and flashes of lightning to explain",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "36e498881eeb",
+   "source": "wikipedia",
+   "title": "The Left Hand of Darkness",
+   "url": "https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness",
+   "published": "",
+   "summary": "The Left Hand of Darkness is a science fiction novel by the American writer Ursula K. Le Guin. Published in 1969, its popularity established Le Guin's status as a major author of science fiction. The novel is set in the fictional universe of the Hainish Cycle, a series of novels and short stories by Le Guin, which she introduced in the 1964 short story \"The Dowry of Angyar\". It was fourth in writi",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "464ab5e5b3b1",
+   "source": "wikipedia",
+   "title": "Thought experiment",
+   "url": "https://en.wikipedia.org/wiki/Thought_experiment",
+   "published": "",
+   "summary": "A thought experiment is an imaginary scenario that is meant to elucidate or test an argument or theory. It is often an experiment that would be hard, impossible, or unethical to actually perform. It can also be an abstract hypothetical that is meant to test our intuitions about morality or other fundamental questions of philosophy.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "78d0cbe81a17",
+   "source": "wikipedia",
+   "title": "Twin Earth thought experiment",
+   "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
+   "published": "",
+   "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f5cd3cda2a7a",
+   "source": "wikipedia",
+   "title": "Experiment",
+   "url": "https://en.wikipedia.org/wiki/Experiment",
+   "published": "",
+   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4a260f65e483",
+   "source": "wikipedia",
+   "title": "Galileo's Leaning Tower of Pisa experiment",
+   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+   "published": "",
+   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "444f60e72a87",
+   "source": "wikipedia",
+   "title": "History of science",
+   "url": "https://en.wikipedia.org/wiki/History_of_science",
+   "published": "",
+   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "5661bb119eeb",
+   "source": "wikipedia",
+   "title": "Milgram experiment",
+   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
+   "published": "",
+   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ae63027fda5d",
+   "source": "wikipedia",
+   "title": "Rosenhan experiment",
+   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
+   "published": "",
+   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
    "hits": [],
    "title_signal": false
   },
@@ -416,6 +2823,31 @@
    "per_hits": [
     "home"
    ],
+   "modern_hits": [],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "21209da8cf91",
+   "source": "hn",
+   "title": "HomelabFest will be in St. Louis in September 2027",
+   "url": "https://www.homelabfest.org/",
+   "published": "2026-09-26",
+   "summary": "",
+   "meta": {
+    "points": 78,
+    "comments": 61
+   },
+   "targeted": false,
+   "score": 61,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home"
+   ],
+   "modern_hits": [],
    "hits": [
     "home"
    ],
@@ -437,6 +2869,7 @@
    "why": "",
    "obj_hits": [],
    "per_hits": [],
+   "modern_hits": [],
    "hits": [],
    "title_signal": false
   },
@@ -458,6 +2891,55 @@
    "per_hits": [
     "home"
    ],
+   "modern_hits": [],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "5a7f0d1f20e4",
+   "source": "hn",
+   "title": "What our experimental self-healing software loop shipped in two weeks",
+   "url": "https://www.replay.io/blog/what-our-experimental-self-healing-software-loop-shipped-in-two-weeks",
+   "published": "2026-10-08",
+   "summary": "",
+   "meta": {
+    "points": 2,
+    "comments": 0
+   },
+   "targeted": false,
+   "score": 58,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "self"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "self"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "a74bb076af23",
+   "source": "hn",
+   "title": "My Homelab Two Years Later, Every Upgrade and What It Cost",
+   "url": "https://www.joekarlsson.com/blog/homelab-two-years-later",
+   "published": "2026-10-05",
+   "summary": "",
+   "meta": {
+    "points": 17,
+    "comments": 16
+   },
+   "targeted": false,
+   "score": 58,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home"
+   ],
+   "modern_hits": [],
    "hits": [
     "home"
    ],
@@ -482,9 +2964,54 @@
     "home",
     "self"
    ],
+   "modern_hits": [],
    "hits": [
     "home",
     "self"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "149d8c5d384e",
+   "source": "wikipedia",
+   "title": "Nanjing Agricultural University",
+   "url": "https://en.wikipedia.org/wiki/Nanjing_Agricultural_University",
+   "published": "",
+   "summary": "Nanjing Agricultural University (NAU, 南京农业大学) is a public university in Nanjing, Jiangsu, China. It is affiliated with the Ministry of Education and co-sponsored by the Ministry of Education and the Jiangsu Provincial Government. The university is part of Project 211 and the Double First-Class Construction.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 51,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "7fdcc98a5e33",
+   "source": "hn",
+   "title": "Show HN: Omnesis – A private knowledge layer for ChatGPT and other agents",
+   "url": "https://omnesis.dev/",
+   "published": "2026-09-28",
+   "summary": "Imagine giving ChatGPT or any other agent access to your Whatsapp/iMessage, bank transactions, health data, web pages you see, metadata about all the photos you took, places you visited, all your emails/documents, call logs, meeting notes, your voice mails, and more…. I built a context layer for that purpose. You can connect your Openclaw, Hermes, Claude, ChatGPT, Codex, etc to it. It gives your f",
+   "meta": {
+    "points": 10,
+    "comments": 4
+   },
+   "targeted": false,
+   "score": 43,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "built"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "built"
    ],
    "title_signal": false
   }

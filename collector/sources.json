@@ -1,4 +1,22 @@
 {
+  "classics": {
+    "enabled": true,
+    "path": "collector/classics.json"
+  },
+  "wikipedia": {
+    "enabled": true,
+    "sites": ["zh.wikipedia.org", "en.wikipedia.org"],
+    "queries": [
+      "经典实验 物理",
+      "思想实验",
+      "物理学史 实验",
+      "科学史 实验",
+      "classic experiment",
+      "thought experiment",
+      "history of science experiment"
+    ],
+    "limit": 6
+  },
   "wordpress": {
     "enabled": true,
     "sites": ["https://hackaday.com"],

@@ -1,6 +1,857 @@
 {
- "generated_at": "2026-10-24T09:38:05+00:00",
+ "generated_at": "2026-10-24T10:00:41+00:00",
  "date": "2026-10-24",
- "count": 0,
- "items": []
+ "count": 30,
+ "items": [
+  {
+   "id": "7f435caa1a8d",
+   "source": "classic",
+   "title": "伽利略斜面实验（1604）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E4%BC%BD%E5%88%A9%E7%95%A5%E6%96%9C%E9%9D%A2%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "发现自由落体是匀加速运动；重做方式：斜面上滚小球，手机慢动作逐帧测位置，AI 拟合 s=½at²；为什么值得：把'加速度'这个抽象概念变成一条能自己拟合出来的曲线；难度：随时能做",
+   "meta": {
+    "era": "1604",
+    "level": "随时能做",
+    "tools": [
+     "手机",
+     "木板",
+     "小球"
+    ]
+   },
+   "targeted": true,
+   "score": 97,
+   "why": "命中 实验、自己、手机",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [
+    "自己"
+   ],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "实验",
+    "自己",
+    "手机"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "c588c69ff8ed",
+   "source": "classic",
+   "title": "霍尔效应（1879）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E9%9C%8D%E5%B0%94%E6%95%88%E5%BA%94",
+   "published": "",
+   "summary": "磁场会让载流导体产生横向电压；重做方式：霍尔传感器 + 磁铁 + 万用表，测磁场随距离的衰减；为什么值得：手机里的指南针、电动车的电流传感器，全靠这一条；难度：进阶",
+   "meta": {
+    "era": "1879",
+    "level": "进阶",
+    "tools": [
+     "霍尔传感器",
+     "磁铁",
+     "万用表"
+    ]
+   },
+   "targeted": true,
+   "score": 96,
+   "why": "命中 传感器、手机、传感器",
+   "timeless": true,
+   "obj_hits": [
+    "传感器"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "手机",
+    "传感器"
+   ],
+   "hits": [
+    "传感器",
+    "手机",
+    "传感器"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "2bed04fd5894",
+   "source": "classic",
+   "title": "迈克尔逊-莫雷实验（1887）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E8%BF%88%E5%85%8B%E5%B0%94%E9%80%8A-%E8%8E%AB%E9%9B%B7%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "没测到'以太'，为相对论铺路；重做方式：激光 + 分光镜做简化干涉仪，验证光速与方向无关（难度高，可先做定性版）；为什么值得：人类最著名的'零结果'：没测到东西，反而推翻了一整套世界观；难度：进阶",
+   "meta": {
+    "era": "1887",
+    "level": "进阶",
+    "tools": [
+     "激光",
+     "半透镜",
+     "镜子"
+    ]
+   },
+   "targeted": true,
+   "score": 93,
+   "why": "命中 实验、激光",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "激光"
+   ],
+   "hits": [
+    "实验",
+    "激光"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "21493fa4a51b",
+   "source": "classic",
+   "title": "卡文迪许扭秤测万有引力常数（1798）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%8D%A1%E6%96%87%E8%BF%AA%E8%AE%B8%E6%89%AD%E7%A7%A4%E6%B5%8B%E4%B8%87%E6%9C%89%E5%BC%95%E5%8A%9B%E5%B8%B8%E6%95%B0",
+   "published": "",
+   "summary": "第一次'称出'地球的质量；重做方式：扭丝 + 铅球 + 激光光杠杆放大位移（家庭版需耐心，可先做定性）；为什么值得：'看不见的力'被一次微小的偏转测出来了，测量思维的巅峰；难度：进阶",
+   "meta": {
+    "era": "1798",
+    "level": "进阶",
+    "tools": [
+     "细丝",
+     "铅球",
+     "激光"
+    ]
+   },
+   "targeted": true,
+   "score": 93,
+   "why": "命中 测量、激光",
+   "timeless": true,
+   "obj_hits": [
+    "测量"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "激光"
+   ],
+   "hits": [
+    "测量",
+    "激光"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "9892c07817f6",
+   "source": "classic",
+   "title": "密立根油滴实验（1909）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%AF%86%E7%AB%8B%E6%A0%B9%E6%B2%B9%E6%BB%B4%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "测出电子电荷；重做方式：平行板 + 显微镜 + 手机摄像头，AI 自动追踪油滴算电荷量子化；为什么值得：把'电荷是一份一份的'从猜想变成可数的数字；难度：进阶",
+   "meta": {
+    "era": "1909",
+    "level": "进阶",
+    "tools": [
+     "平行板",
+     "显微镜",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 93,
+   "why": "命中 实验、手机",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "实验",
+    "手机"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "fc201e2e94a3",
+   "source": "classic",
+   "title": "巴斯德鹅颈瓶（1859）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%B7%B4%E6%96%AF%E5%BE%B7%E9%B9%85%E9%A2%88%E7%93%B6",
+   "published": "",
+   "summary": "推翻自然发生说；重做方式：肉汤 + 两个瓶子（一个开口一个弯管），观察谁先腐败；为什么值得：一次厨房里的实验，改写了医学史；难度：进阶",
+   "meta": {
+    "era": "1859",
+    "level": "进阶",
+    "tools": [
+     "玻璃瓶",
+     "肉汤",
+     "锅"
+    ]
+   },
+   "targeted": true,
+   "score": 90,
+   "why": "命中 实验",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "fd6d3cd50fb7",
+   "source": "classic",
+   "title": "孟德尔豌豆实验（1866）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%AD%9F%E5%BE%B7%E5%B0%94%E8%B1%8C%E8%B1%86%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "发现遗传规律；重做方式：种两代豌豆/果蝇看性状分离比，AI 做卡方检验；为什么值得：统计学会让'运气'显形，这是数据思维的起点；难度：进阶",
+   "meta": {
+    "era": "1866",
+    "level": "进阶",
+    "tools": [
+     "种子",
+     "花盆",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 90,
+   "why": "命中 实验",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "1ebc9f25bb55",
+   "source": "classic",
+   "title": "光电效应（用 LED 反做）（1902）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%85%89%E7%94%B5%E6%95%88%E5%BA%94%EF%BC%88%E7%94%A8+LED+%E5%8F%8D%E5%81%9A%EF%BC%89",
+   "published": "",
+   "summary": "光子的能量由频率决定；重做方式：不同颜色 LED 测点亮电压，反推普朗克常数（本仓库有现成方案）；为什么值得：几十块钱测出一个量子力学常数，这是最便宜的'量子实验'；难度：进阶",
+   "meta": {
+    "era": "1902",
+    "level": "进阶",
+    "tools": [
+     "万用表",
+     "LED",
+     "电位器"
+    ]
+   },
+   "targeted": true,
+   "score": 90,
+   "why": "命中 实验",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "d9911725f290",
+   "source": "classic",
+   "title": "米尔格拉姆服从实验（1961）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E7%B1%B3%E5%B0%94%E6%A0%BC%E6%8B%89%E5%A7%86%E6%9C%8D%E4%BB%8E%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "普通人会在权威下做到什么程度；重做方式：不建议复现原件（伦理问题）；可做低风险版本：观察规则服从、设计问卷；为什么值得：现代科研伦理的起点。做不了，但必须知道它为什么做不了；难度：仅阅读",
+   "meta": {
+    "era": "1961",
+    "level": "仅阅读",
+    "tools": [
+     "问卷",
+     "统计工具"
+    ]
+   },
+   "targeted": true,
+   "score": 90,
+   "why": "命中 实验",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "fefcff432875",
+   "source": "classic",
+   "title": "杨氏双缝干涉（1801）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%9D%A8%E6%B0%8F%E5%8F%8C%E7%BC%9D%E5%B9%B2%E6%B6%89",
+   "published": "",
+   "summary": "证明光是波；重做方式：激光笔 + 头发丝/双缝片 + 白墙，手机拍条纹；AI 量条纹间距反推波长；为什么值得：光的波粒二象性从这里开始，而你的窗台就能做；难度：随时能做",
+   "meta": {
+    "era": "1801",
+    "level": "随时能做",
+    "tools": [
+     "激光笔",
+     "头发丝",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "命中 手机、激光",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机",
+    "激光"
+   ],
+   "hits": [
+    "手机",
+    "激光"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "b84a26e4185d",
+   "source": "wikipedia",
+   "title": "理论物理学",
+   "url": "https://zh.wikipedia.org/wiki/%E7%90%86%E8%AE%BA%E7%89%A9%E7%90%86%E5%AD%A6",
+   "published": "",
+   "summary": "理论物理学，也称理论物理（英語：Theoretical physics）是物理学的一个分支。理论物理学与实验物理学相对，专注于研究和发展理论模型以解释并预测自然现象。它基于物理实际借助数学工具构建数学模型，来试图理解物理现象的运行机制，以深入理解宇宙的基本规律。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "命中 physics、实验",
+   "timeless": true,
+   "obj_hits": [
+    "physics",
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics",
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "1e800ac3d6c6",
+   "source": "wikipedia",
+   "title": "计算物理学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E5%AD%A6",
+   "published": "",
+   "summary": "計算物理學（英語：Computational physics）是研究如何使用數值方法分析可以量化的物理学問題的学科。 历史上，计算物理学是计算机的第一项应用；目前计算物理学被视为计算科学的分支。 计算物理有时也被视为理论物理的分支学科或子问题，但也有人认为计算物理与理论物理与实验物理联系紧密，又相对独立，是物理学第三大分支。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "命中 physics、实验",
+   "timeless": true,
+   "obj_hits": [
+    "physics",
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics",
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "db6c61486dcf",
+   "source": "classic",
+   "title": "单光子双缝（1989）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%8D%95%E5%85%89%E5%AD%90%E5%8F%8C%E7%BC%9D",
+   "published": "",
+   "summary": "单个光子也能和自己干涉；重做方式：专业设备太贵；可用'逐次累积'的模拟版理解统计含义；为什么值得：量子力学最反直觉的一张图，值得每个人看一眼；难度：仅阅读",
+   "meta": {
+    "era": "1989",
+    "level": "仅阅读",
+    "tools": [
+     "模拟软件"
+    ]
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "命中 自己",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [
+    "自己"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "自己"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "a0c487e68cd8",
+   "source": "classic",
+   "title": "牛顿棱镜分光（1666）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E7%89%9B%E9%A1%BF%E6%A3%B1%E9%95%9C%E5%88%86%E5%85%89",
+   "published": "",
+   "summary": "证明白光由多种颜色组成，且颜色不可再分；重做方式：阳光/白光 LED + 棱镜或水盆镜子，手机拍光谱，AI 分析颜色分布；为什么值得：一个孩子的第一个'哇'，成本不到二十块；难度：随时能做",
+   "meta": {
+    "era": "1666",
+    "level": "随时能做",
+    "tools": [
+     "棱镜",
+     "手机",
+     "纸板"
+    ]
+   },
+   "targeted": true,
+   "score": 83,
+   "why": "命中 手机",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "手机"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "e4783fe669af",
+   "source": "classic",
+   "title": "布朗运动（1827）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%B8%83%E6%9C%97%E8%BF%90%E5%8A%A8",
+   "published": "",
+   "summary": "为'原子真实存在'提供证据；重做方式：显微镜看牛奶/墨汁里的颗粒，手机拍视频，AI 追踪轨迹算均方位移；为什么值得：爱因斯坦 1905 年用它证明原子存在；今天 AI 帮你追每一颗粒子；难度：进阶",
+   "meta": {
+    "era": "1827",
+    "level": "进阶",
+    "tools": [
+     "显微镜",
+     "手机",
+     "牛奶"
+    ]
+   },
+   "targeted": true,
+   "score": 83,
+   "why": "命中 手机",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "手机"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "53208c3896c4",
+   "source": "classic",
+   "title": "威尔逊云室（1911）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%A8%81%E5%B0%94%E9%80%8A%E4%BA%91%E5%AE%A4",
+   "published": "",
+   "summary": "第一次'看见'粒子轨迹；重做方式：酒精 + 干冰 + 暗盒，手机拍下粒子轨迹，AI 统计轨迹密度；为什么值得：宇宙射线穿过你家的那一刻，被你拍下来了；难度：进阶",
+   "meta": {
+    "era": "1911",
+    "level": "进阶",
+    "tools": [
+     "干冰",
+     "酒精",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 83,
+   "why": "命中 手机",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "手机"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "978b5914290c",
+   "source": "classic",
+   "title": "傅科摆（1851）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%82%85%E7%A7%91%E6%91%86",
+   "published": "",
+   "summary": "用摆动证明地球在自转；重做方式：长绳 + 重物 + 沙盘，记录摆动平面偏转；手机延时摄影；为什么值得：不需要看天，站在屋里就能看见地球在转；难度：进阶",
+   "meta": {
+    "era": "1851",
+    "level": "进阶",
+    "tools": [
+     "长绳",
+     "重物",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 83,
+   "why": "命中 手机",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "手机"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "9094207ea8eb",
+   "source": "classic",
+   "title": "埃拉托色尼用影子测地球半径（-240）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%9F%83%E6%8B%89%E6%89%98%E8%89%B2%E5%B0%BC%E7%94%A8%E5%BD%B1%E5%AD%90%E6%B5%8B%E5%9C%B0%E7%90%83%E5%8D%8A%E5%BE%84",
+   "published": "",
+   "summary": "证明地球是球，并算出它的半径；重做方式：两人异地同日正午量杆影，算太阳高度角差；AI 帮忙算大圆距离和误差；为什么值得：两千年前的方法，今天两个人一个下午就能重做，结果误差能到 5% 以内；难度：随时能做",
+   "meta": {
+    "era": "-240",
+    "level": "随时能做",
+    "tools": [
+     "杆子",
+     "卷尺",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "来自 classic",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "06b0015bdfc2",
+   "source": "classic",
+   "title": "托里拆利测大气压（1643）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%89%98%E9%87%8C%E6%8B%86%E5%88%A9%E6%B5%8B%E5%A4%A7%E6%B0%94%E5%8E%8B",
+   "published": "",
+   "summary": "证明大气有重量，并测出大气压；重做方式：用 10 米软管装水做水柱气压计（安全版，用水银太危险）；为什么值得：在楼道里搭一根 10 米高的水柱，抬头就能看见大气压；难度：进阶",
+   "meta": {
+    "era": "1643",
+    "level": "进阶",
+    "tools": [
+     "软管",
+     "水",
+     "尺子"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "来自 classic",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "20461a6eb292",
+   "source": "classic",
+   "title": "奥斯特：电流让磁针偏转（1820）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%A5%A5%E6%96%AF%E7%89%B9%EF%BC%9A%E7%94%B5%E6%B5%81%E8%AE%A9%E7%A3%81%E9%92%88%E5%81%8F%E8%BD%AC",
+   "published": "",
+   "summary": "发现电和磁是一回事；重做方式：电池 + 导线 + 指南针，换方向、换电流看偏转；为什么值得：电动机、发电机、变压器全部从这里开始，材料只要三样；难度：随时能做",
+   "meta": {
+    "era": "1820",
+    "level": "随时能做",
+    "tools": [
+     "电池",
+     "导线",
+     "指南针"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "来自 classic",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f077c900abe8",
+   "source": "classic",
+   "title": "法拉第电磁感应（1831）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94",
+   "published": "",
+   "summary": "变化的磁通量产生电流；重做方式：线圈 + 磁铁 + 万用表，比较插入速度与感应电压；AI 拟合曲线；为什么值得：今天所有发电方式，都只是这一条规律的工程化；难度：随时能做",
+   "meta": {
+    "era": "1831",
+    "level": "随时能做",
+    "tools": [
+     "线圈",
+     "磁铁",
+     "万用表"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "来自 classic",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "6bdc4eced96c",
+   "source": "classic",
+   "title": "焦耳热功当量（1843）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E7%84%A6%E8%80%B3%E7%83%AD%E5%8A%9F%E5%BD%93%E9%87%8F",
+   "published": "",
+   "summary": "证明热是能量的一种形式；重做方式：重物下落搅拌保温杯里的水，测温升，算 4.18 J/cal 到底是多少；为什么值得：把'卡路里'从食品标签拽回物理世界；难度：进阶",
+   "meta": {
+    "era": "1843",
+    "level": "进阶",
+    "tools": [
+     "保温杯",
+     "重物",
+     "温度计"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "来自 classic",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ccef0c7aa507",
+   "source": "classic",
+   "title": "欧姆定律（1827）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%AC%A7%E5%A7%86%E5%AE%9A%E5%BE%8B",
+   "published": "",
+   "summary": "电压、电流、电阻的定量关系；重做方式：电池 + 可调电阻 + 万用表，画 I-V 直线；AI 算拟合优度；为什么值得：所有电路课的起点，也是'线性关系'的第一个真实例子；难度：随时能做",
+   "meta": {
+    "era": "1827",
+    "level": "随时能做",
+    "tools": [
+     "万用表",
+     "电阻",
+     "电池"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "来自 classic",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "a0eb5d39901f",
+   "source": "classic",
+   "title": "巴甫洛夫条件反射（1890s）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%B7%B4%E7%94%AB%E6%B4%9B%E5%A4%AB%E6%9D%A1%E4%BB%B6%E5%8F%8D%E5%B0%84",
+   "published": "",
+   "summary": "学习是如何被'配对'出来的；重做方式：用家里的宠物做正向训练，记录响应时间；注意动物福利与伦理；为什么值得：行为主义的第一课，也是产品设计里'习惯回路'的源头；难度：进阶",
+   "meta": {
+    "era": "1890s",
+    "level": "进阶",
+    "tools": [
+     "宠物",
+     "零食",
+     "秒表"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "来自 classic",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "367ca672b34e",
+   "source": "wikipedia",
+   "title": "斯坦福监狱实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E5%9D%A6%E7%A6%8F%E7%9B%91%E7%8B%B1%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "斯坦福监狱实验（英語：Stanford prison experiment）是1971年由美国心理学家菲利普·津巴多领导的研究小组於斯坦福大学心理学系大楼地下室的模拟监狱内，进行的一项关于人类对囚禁的反应以及囚禁对监狱中权威者和被监管者行为影响的心理学研究。充当看守和囚犯的都是大学生志愿者，實驗資助者是美國海軍研究辦公室。 囚犯和看守很快就适应自己的角色，危险與伤害也越來越嚴重。三分之一的看守被認为显示出“真正的”虐待狂倾向，许多囚犯在心理上受到创伤，有兩人不得不提前退出实验。最后，津巴多因为这个研究中日益泛滥的反社会行为而受到警告，提前终止整个实验。这种性格的变化被他称为“路西法效应”，借用上帝最宠爱的天使路西法后来堕落成魔鬼撒旦的故事來比喻。 斯坦福监狱实验经常被拿来与米尔格拉姆实验比较，米尔格拉姆实验是于1961年在耶鲁大学，由津巴多中学时代的好友斯坦利·米尔格拉姆開展的。 近年許多",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "命中 实验、自己",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [
+    "自己"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "实验",
+    "自己"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "6597a7733b86",
+   "source": "wikipedia",
+   "title": "物理哲学",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%93%B2%E5%AD%A6",
+   "published": "",
+   "summary": "在哲学中，物理哲学是关于当代物理中的概念性与解释性的问题。其中许多问题与理论物理学家的研究领域重叠。物理哲学可大致分为以下三个领域： 对量子力学的解释：主要关于如何形式化地看待量子测量以及该理论对现实的描述。 空间与时间的本质：时空是物质，或仅仅是一种关系？同时性是常规的或者相对的？暂时的不对称性是否可以单纯还原为热力学不对称性？ 理论间的关系：不同物理理论之间的关系，如热力学与统计力学。这领域与科学还原论重叠。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "命中 测量",
+   "timeless": true,
+   "obj_hits": [
+    "测量"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "测量"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "78f4403a37fa",
+   "source": "wikipedia",
+   "title": "经典力学",
+   "url": "https://zh.wikipedia.org/wiki/%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6",
+   "published": "",
+   "summary": "经典力学是力学的一个分支。经典力学是以牛顿运动定律为基础，在宏观世界和低速状态下，研究物体运动的基本学科。在物理學裏，经典力学是最早被接受为力學的一个基本綱領。经典力学又分为静力学（描述静止物体）、运动学（描述物体运动）和动力学（描述物体受力作用下的运动）。16世纪，伽利略·伽利莱就已采用科学实验和数学分析的方法研究力学。他为后来的科学家提供了许多豁然开朗的启示。艾萨克·牛顿则是最早使用数学语言描述力学定律的科学家。 后来，拉格朗日、哈密顿创立更为抽象的研究方法來表述经典力学。新的表述形式被称为拉格朗日力学和哈密顿力学，或统称为分析力学。这些进步主要发生在18世纪和19世纪，新的表达方式大大超出了牛顿所表达经典力学的工作范围，特别是通过使用分析力学，经过一些类比和推广即可用于现代物理学的所有领域。 在研究速度不接近光速、质量不是非常大的宏观物体时，经典力学提供了非常精确的结果。然而，当被检",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "命中 实验",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "58c42e0ca1d6",
+   "source": "wikipedia",
+   "title": "假想實驗",
+   "url": "https://zh.wikipedia.org/wiki/%E5%81%87%E6%83%B3%E5%AF%A6%E9%A9%97",
+   "published": "",
+   "summary": "假想實驗（thought experiment）又称思想实验、臆想實驗、思维实验等，是指用想象力的實驗，所做的都是在現實中無法做到（或現實未做到）的實驗；其具体的做法是在人的头脑中进行理性思维活动，它不受现实物质条件的限制，只须借助于想象力，就可以使实验者置身于任何对象的实验环境中；在科学方法论上，它属于理性思维的范畴。 假想實驗的例子如愛因斯坦有關相對運動的著名假想實驗，又例如他和英費爾德合著的科普讀物《物理学的进化》中要求讀者想象一個用平滑，無摩擦力的地面及球體的實驗，但在現實（或暫時）做不到。假想實驗要的是想象力而非感官。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "命中 实验",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "3159fb8be0c4",
+   "source": "wikipedia",
+   "title": "惠勒延迟选择实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "命中 实验",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "f2bc782fed23",
+   "source": "wikipedia",
+   "title": "波普尔实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%99%AE%E5%B0%94%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "波普尔实验是由哲学家卡尔·波普尔提出的实验。 在1934年，波普尔对哥本哈根解释，一种流行的量子力学主观解释，产生了怀疑，并提出了一个实验来检验它。 波普尔的实验是对一种争议说法的具体化，类似于阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森提出的EPR佯謬思想实验。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "命中 实验",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  }
+ ]
 }

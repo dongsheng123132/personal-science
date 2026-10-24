@@ -60,6 +60,12 @@ NEGATIVE = [
     "hiring", "giveaway", "airdrop", "coupon", "casino", "betting", "sponsored",
     "launch hn", "show hn", "ask hn", "yc f", "yc s", "招聘", "融资", "webinar",
 ]
+# 能用今天的工具（AI / 单片机 / 手机）重做的加分
+MODERN_TOOLS = [
+    "esp32", "arduino", "raspberry", "smartphone", "手机", "传感器", "sensor",
+    "laser", "激光", "camera", "相机", "开源", "open source", "3d print",
+    "python", "imagej", "人工智能", "大模型", "machine learning",
+]
 
 
 # ---------------------------------------------------------------- 工具
@@ -314,6 +320,61 @@ def collect_arxiv(cfg):
     return items
 
 
+def collect_classics(cfg):
+    """本地种子库：经典实验。年代不限，越老越值钱——因为它们都还能重做。"""
+    path = BASE / cfg.get("path", "collector/classics.json")
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text("utf-8"))
+    items = []
+    for entry in data.get("items", []):
+        title = entry.get("zh") or entry.get("en") or entry["id"]
+        if entry.get("era"):
+            title = f"{title}（{entry['era']}）"
+        summary = "；".join(filter(None, [
+            entry.get("what"),
+            f"重做方式：{entry['redo']}" if entry.get("redo") else "",
+            f"为什么值得：{entry['why']}" if entry.get("why") else "",
+            f"难度：{entry['level']}" if entry.get("level") else "",
+        ]))
+        url = ("https://zh.wikipedia.org/wiki/Special:Search?search="
+               + urllib.parse.quote(entry.get("zh") or entry.get("en") or entry["id"]))
+        item = make_item("classic", title, url, "", summary,
+                         {"era": entry.get("era", ""), "level": entry.get("level", ""),
+                          "tools": entry.get("tools", [])}, targeted=True)
+        if item:
+            item["timeless"] = True
+            items.append(item)
+    log(f"  · classics: {len(items)} 条")
+    return items
+
+
+def collect_wikipedia(cfg):
+    """维基百科搜索：经典实验、思想实验、科学史条目。天然'不限年代'。"""
+    items = []
+    for site in cfg.get("sites", ["zh.wikipedia.org"]):
+        for query in cfg.get("queries", []):
+            url = ("https://" + site + "/w/api.php?action=query&format=json&generator=search"
+                   f"&gsrsearch={urllib.parse.quote(query)}&gsrlimit={int(cfg.get('limit', 8))}"
+                   "&prop=extracts|info&exintro=1&explaintext=1&inprop=url")
+            raw = fetch(url, {"Accept": "application/json"})
+            if not raw:
+                continue
+            try:
+                payload = json.loads(raw)
+            except json.JSONDecodeError:
+                continue
+            pages = (payload.get("query") or {}).get("pages") or {}
+            for page in pages.values():
+                item = make_item("wikipedia", page.get("title", ""), page.get("fullurl", ""),
+                                 "", (page.get("extract") or "")[:400], {"site": site}, targeted=True)
+                if item:
+                    item["timeless"] = True
+                    items.append(item)
+        log(f"  · wikipedia/{site}: 累计 {len(items)} 条")
+    return items
+
+
 # ---------------------------------------------------------------- 打分
 
 
@@ -328,19 +389,26 @@ def days_old(published):
 
 def score(item):
     blob = (item["title"] + " " + item["summary"]).lower()
-    base = {"hackaday": 58, "hackster": 55, "hackaday_": 55, "makezine": 50,
-            "instructables": 55, "hn": 50, "github": 45, "arxiv": 38}.get(item["source"], 45)
+    base = {"classic": 66, "wikipedia": 52, "hackaday": 58, "hackster": 55,
+            "makezine": 50, "instructables": 55, "hn": 50, "github": 45,
+            "arxiv": 38}.get(item["source"], 45)
     objs = [kw for kw in OBJECTS if kw in blob]
     pers = [kw for kw in PERSONAL if kw in blob]
+    modern = [kw for kw in MODERN_TOOLS if kw in blob]
     base += min(20, len(objs) * 10)
     base += min(10, len(pers) * 4)
+    base += min(12, len(modern) * 3)
     if item.get("targeted"):
         base += 8
+    if item.get("timeless"):
+        base += 6  # 经典实验没有"过期"这回事
     base -= min(40, sum(15 for kw in NEGATIVE if kw in blob))
 
-    age = days_old(item["published"])
-    if age is not None:
-        base += 8 if age <= 7 else 4 if age <= 30 else 0 if age <= 90 else -10
+    # 只有"新闻型"来源才看新鲜度；经典/维基条目不按年代扣分
+    if not item.get("timeless"):
+        age = days_old(item["published"])
+        if age is not None:
+            base += 8 if age <= 7 else 4 if age <= 30 else 0 if age <= 90 else -10
 
     stars = item["meta"].get("stars", 0)
     if stars:
@@ -352,7 +420,8 @@ def score(item):
     item["score"] = max(0, min(100, base))
     item["obj_hits"] = objs[:3]
     item["per_hits"] = pers[:3]
-    item["hits"] = (objs + pers)[:3]
+    item["modern_hits"] = modern[:3]
+    item["hits"] = (objs + pers + modern)[:3]
     item["title_signal"] = bool(
         any(kw in item["title"].lower() for kw in OBJECTS)
         or any(kw in item["title"].lower() for kw in PERSONAL)
@@ -374,7 +443,7 @@ def heuristic_why(item):
 
 
 def llm_reason(item):
-    base = os.environ.get("PS_LLM_BASE", "").rstrip("/")
+    base = (os.environ.get("PS_LLM_BASE") or "https://api.deepseek.com").rstrip("/")
     key = os.environ.get("PS_LLM_KEY", "")
     model = os.environ.get("PS_LLM_MODEL", "deepseek-chat")
     if not (base and key):
@@ -459,8 +528,9 @@ def update_pool(items):
             pool = []
     fresh = {i["id"] for i in items}
     merged = items + [p for p in pool if p.get("id") not in fresh]
-    cutoff = (NOW - timedelta(days=14)).strftime("%Y-%m-%d")
-    merged = [m for m in merged if not m.get("published") or m["published"] >= cutoff]
+    cutoff = (NOW - timedelta(days=30)).strftime("%Y-%m-%d")
+    merged = [m for m in merged
+              if m.get("timeless") or not m.get("published") or m["published"] >= cutoff]
     merged.sort(key=lambda x: (x.get("score", 0), x.get("published", "")), reverse=True)
     merged = merged[:150]
     pool_path.write_text(json.dumps({
@@ -500,6 +570,8 @@ def main():
     seen = load_seen()
 
     collectors = {
+        "classics": collect_classics,
+        "wikipedia": collect_wikipedia,
         "wordpress": collect_wordpress,
         "feeds": collect_feeds,
         "github": collect_github,
