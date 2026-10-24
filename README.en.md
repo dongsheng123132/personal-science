@@ -5,7 +5,7 @@
 A list of experiments you can do at home. No application, no review, no permission needed.
 **One person = one lab.** ([Charter](CHARTER.en.md))
 
-`12 experiments` · `acceptance criteria written down` · `CC0, copy freely` · `new candidates collected daily`
+`14 experiments` · `acceptance criteria written down` · `CC0, copy freely` · `daily collection + AI-designed drafts`
 
 [中文](README.md) · [One-minute version](#the-one-minute-version) · [The list](#the-list) · [Growing every day](#growing-every-day) · [How to add one](#how-to-add-one) · [Manifesto](MANIFESTO.en.md) · [Charter](CHARTER.en.md)
 
@@ -78,6 +78,7 @@ When that works, **the individual becomes the smallest unit of research.** Scien
 | Experiment | In one line | You need | Time | Cost | Difficulty |
 |---|---|---|---|---|---|
 | [Gravity with a phone](experiments/falling-g.md) | Measure 9.8 with a 240 fps video and a ruler | Phone, meter stick | 30 min | ¥0 | ★☆☆ |
+| [Galileo's inclined plane](experiments/galileo-inclined-plane.md) | Roll a ball down a ramp, measure the acceleration with slow-mo | Board, ball, phone | 1 hr | ¥0–20 | ★★☆ |
 | [Speed of sound with a clap](experiments/sound-speed.md) | One clap, one echo, one number | Phone, a long wall | 20 min | ¥0 | ★☆☆ |
 | [How fast a cup cools](experiments/fridge-thermal.md) | Exponential decay, measured with a thermometer | Temp logger, fridge | 2 hrs | ¥20 | ★☆☆ |
 | [Earth's radius with shadows](experiments/eratosthenes.md) | Same day, different latitudes, two people | A pole, a ruler, a friend | 2 days | ¥0 | ★★☆ |
@@ -94,6 +95,7 @@ When that works, **the individual becomes the smallest unit of research.** Scien
 | Experiment | In one line | You need | Time | Cost | Difficulty |
 |---|---|---|---|---|---|
 | [Speed of light in a microwave](experiments/microwave-speed-of-light.md) | Chocolate, a ruler, 3×10⁸ | Microwave, chocolate, ruler | 30 min | ¥10 | ★☆☆ |
+| [Young's double slit](experiments/young-double-slit.md) | A laser pointer and a hair: see light interfere | Laser pointer, double-slit slide, ruler | 40 min | ¥20–40 | ★☆☆ |
 | [Polarization with tape](experiments/polarization-tape.md) | See the stress inside clear plastic | Phone, tape, polarizer | 20 min | ¥0–20 | ★☆☆ |
 
 ### Biology & plants
@@ -145,7 +147,9 @@ classic experiments seed library + Wikipedia + Hackaday + Hacker News
 candidate pool (~130 items, rolling 30 days)
         ↓  AI applies five criteria
 inbox/candidates.md (up to 8, each with "how to redo it with today's tools")
-        ↓  a human picks one and writes the page
+        ↓  AI writes full draft pages for the top 2, including "how AI helps"
+inbox/designs/ (drafts, marked unverified)
+        ↓  a human edits one and opens a PR
 the list above
 ```
 
@@ -159,6 +163,7 @@ What enters the list is always decided by a person.
 | What was collected today | [inbox/raw.json](inbox/raw.json) |
 | How the machine ranked it | [inbox/prefilter.md](inbox/prefilter.md) |
 | What the AI kept | [inbox/candidates.md](inbox/candidates.md) |
+| AI-written draft pages | [inbox/designs/](inbox/designs) |
 | Web dashboard | [feed/index.html](feed/index.html) |
 | How to run it / add sources | [collector/README.md](collector/README.md) |
 | Where to run and host it | [deploy/README.md](deploy/README.md) |

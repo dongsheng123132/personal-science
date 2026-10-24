@@ -36,6 +36,14 @@ jobs:
           PS_LLM_KEY: ${{ secrets.PS_LLM_KEY }}
         run: python collector/triage.py
 
+      - name: AI 设计实验方案（没配 PS_LLM_KEY 会自动跳过）
+        continue-on-error: true
+        env:
+          PS_LLM_BASE: ${{ vars.PS_LLM_BASE }}
+          PS_LLM_MODEL: ${{ vars.PS_LLM_MODEL }}
+          PS_LLM_KEY: ${{ secrets.PS_LLM_KEY }}
+        run: python collector/design.py --top 2
+
       - name: 提交
         run: |
           git config user.name "ps-bot"

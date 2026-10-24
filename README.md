@@ -7,7 +7,7 @@
 一个人在家就能做的实验清单。不用申请、不用审核、不用等人批准。
 **一个人 = 一个实验室。**（[章程](CHARTER.md)）
 
-`12 个实验` · `每页写死验收标准` · `CC0 随便抄` · `每天自动收集候选`
+`14 个实验` · `每页写死验收标准` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
 
 [![collect](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml/badge.svg)](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml)
 
@@ -80,6 +80,7 @@ AI 正好一次拆掉这四样。所以不用等谁批准——测量、记录�
 | 实验 | 一句话 | 需要 | 时间 | 花费 | 难度 |
 |---|---|---|---|---|---|
 | [手机慢动作测 g](experiments/falling-g.md) | 用 240fps 视频和一把尺子量出 9.8 | 手机、米尺 | 30 分钟 | ¥0 | ★☆☆ |
+| [伽利略斜面](experiments/galileo-inclined-plane.md) | 让小球滚下斜面，用手机慢动作量出加速度 | 木板、小球、手机 | 1 小时 | ¥0–20 | ★★☆ |
 | [拍手测声速](experiments/sound-speed.md) | 一声拍手一次回声，算出声速 | 手机、长墙 | 20 分钟 | ¥0 | ★☆☆ |
 | [温度计 + 秒表量热平衡](experiments/fridge-thermal.md) | 热水在冰箱里凉得有多慢，指数曲线自己会说话 | 温度记录仪、冰箱 | 2 小时 | ¥20 | ★☆☆ |
 | [影子测地球半径](experiments/eratosthenes.md) | 和另一个纬度的人同一天量影子 | 杆子、尺子、一个网友 | 2 天 | ¥0 | ★★☆ |
@@ -96,6 +97,7 @@ AI 正好一次拆掉这四样。所以不用等谁批准——测量、记录�
 | 实验 | 一句话 | 需要 | 时间 | 花费 | 难度 |
 |---|---|---|---|---|---|
 | [微波炉测光速](experiments/microwave-speed-of-light.md) | 用巧克力把光速量出来 | 微波炉、巧克力、尺子 | 30 分钟 | ¥10 | ★☆☆ |
+| [杨氏双缝](experiments/young-double-slit.md) | 激光笔加一根头发，看见光的波动性 | 激光笔、双缝片、尺子 | 40 分钟 | ¥20–40 | ★☆☆ |
 | [偏振：一块胶带 + 两块屏幕](experiments/polarization-tape.md) | 看见塑料里的应力 | 手机、透明胶带、偏振片 | 20 分钟 | ¥0–20 | ★☆☆ |
 
 ### 生物与植物
@@ -145,7 +147,9 @@ AI 正好一次拆掉这四样。所以不用等谁批准——测量、记录�
 候选池（约 130 条，30 天滚动）
         ↓  AI 按五条标准筛
 inbox/candidates.md（最多 8 条，带"怎么用今天的工具重做"）
-        ↓  人挑一页、照模板写
+        ↓  AI 给前 2 条写完整实验页草稿（带"AI 怎么帮你"）
+inbox/designs/（草稿，标注未核对）
+        ↓  人改一页、提 PR
 上面的清单
 ```
 
@@ -158,6 +162,7 @@ inbox/candidates.md（最多 8 条，带"怎么用今天的工具重做"）
 | 今天抓到什么 | [inbox/raw.json](inbox/raw.json) |
 | 机器怎么排的 | [inbox/prefilter.md](inbox/prefilter.md) |
 | AI 筛完剩什么 | [inbox/candidates.md](inbox/candidates.md) |
+| AI 写的实验页草稿 | [inbox/designs/](inbox/designs) |
 | 网页看板 | [feed/index.html](feed/index.html) |
 | 怎么加源、怎么跑 | [collector/README.md](collector/README.md) |
 | 放哪跑、放哪看 | [deploy/README.md](deploy/README.md) |
@@ -231,7 +236,7 @@ inbox/candidates.md（最多 8 条，带"怎么用今天的工具重做"）
 ├── MANIFESTO.md         宣言：为什么出发（智力平权）
 ├── CHARTER.md           章程：这个仓库的宪法
 ├── *.en.md              英文版（README / 宣言 / 章程）
-├── experiments/         每个实验一页（12 个）
+├── experiments/         每个实验一页（14 个）
 ├── ideas.md             点子池
 ├── RESULTS.md           有人做过什么（含失败）
 ├── CONTRIBUTING.md      怎么加一个
