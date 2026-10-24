@@ -1,6 +1,51 @@
 {
- "generated_at": "2026-10-24T10:23:23+00:00",
+ "generated_at": "2026-10-24T10:25:55+00:00",
  "date": "2026-10-24",
- "count": 0,
- "items": []
+ "count": 2,
+ "items": [
+  {
+   "id": "1c289800e7eb",
+   "source": "wikipedia",
+   "title": "自然哲学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
+   "published": "",
+   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "28cdf1ffdf5f",
+   "source": "wikipedia",
+   "title": "Chengdu",
+   "url": "https://en.wikipedia.org/wiki/Chengdu",
+   "published": "",
+   "summary": "Chengdu is the capital city of the Chinese province of Sichuan. With a population of 20,937,757 at the 2020 census, it is the country's fourth most populous city and the only city with a population of over 20 million apart from provincial-level municipalities. It is traditionally the hub of Western China. Chengdu is in central Sichuan. The surrounding Chengdu Plain is known as the \"Country of Heav",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  }
+ ]
 }

@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-24T10:23:23+00:00",
- "count": 137,
+ "updated_at": "2026-10-24T10:25:55+00:00",
+ "count": 139,
  "items": [
   {
    "id": "b7ecd58ef8e7",
@@ -1320,30 +1320,6 @@
    "title_signal": false
   },
   {
-   "id": "b2a4e0b2b7c7",
-   "source": "wikipedia",
-   "title": "國立臺灣大學物理學系",
-   "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%89%A9%E7%90%86%E5%AD%B8%E7%B3%BB",
-   "published": "",
-   "summary": "國立臺灣大學物理學系（英語：Department of Physics, National Taiwan University），略稱臺灣大學物理系、臺大物理系，創辦於1946年8月，首任系主任為物理學家戴運軌。台大物理系是為國立臺灣大學改制之後首創的第一個系所。前身是日治時期臺北帝國大學的理學部化學科所設置的物理學講座，當時有兩三間辦公室和實驗室。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "1128fe5e51b1",
    "source": "wikipedia",
    "title": "物理学",
@@ -1392,6 +1368,30 @@
    "title_signal": false
   },
   {
+   "id": "43a3935e4604",
+   "source": "wikipedia",
+   "title": "物理学的进化",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E7%9A%84%E8%BF%9B%E5%8C%96",
+   "published": "",
+   "summary": "《物理学的进化》（英文版原名：The Evolution of Physics或The Evolution of Physics: From Early Concept to Relativity and Quanta，根据版本不同书名有上述的文字差别。中文版译名来自周肇威的译本）是由物理学家阿尔伯特·爱因斯坦和利奥波德·英费尔德合著出版的物理学科普读物，内容介绍了物理学从伽利略、牛顿时代的经典理论到现代场论、相对论和量子力学的发展演化历程。该书最初由剑桥大学出版社在1938年出版并获得了大众的广泛好评，《时代》杂志还特别为此书刊载了一篇头条报道。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "889dbcaae6cd",
    "source": "wikipedia",
    "title": "弗朗西斯·培根",
@@ -1416,12 +1416,12 @@
    "title_signal": false
   },
   {
-   "id": "5147d7c8f6d0",
+   "id": "1c289800e7eb",
    "source": "wikipedia",
-   "title": "罗森汉恩实验",
-   "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%A3%AE%E6%B1%89%E6%81%A9%E5%AE%9E%E9%AA%8C",
+   "title": "自然哲学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
    "published": "",
-   "summary": "罗森汉恩实验（Rosenhan Experiment）是1973年美国心理学家大卫·罗森汉恩关于检验美国精神病患鉴定标准的一项著名实验，并当年发布在《科学》杂志上。这项研究被认为是对精神病患鉴定标准的重要批判。",
+   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1437,7 +1437,7 @@
    "hits": [
     "实验"
    ],
-   "title_signal": true
+   "title_signal": false
   },
   {
    "id": "3548437df952",
@@ -1536,12 +1536,12 @@
    "title_signal": false
   },
   {
-   "id": "43a3935e4604",
+   "id": "b2a4e0b2b7c7",
    "source": "wikipedia",
-   "title": "物理学的进化",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E7%9A%84%E8%BF%9B%E5%8C%96",
+   "title": "國立臺灣大學物理學系",
+   "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%89%A9%E7%90%86%E5%AD%B8%E7%B3%BB",
    "published": "",
-   "summary": "《物理学的进化》（英文版原名：The Evolution of Physics或The Evolution of Physics: From Early Concept to Relativity and Quanta，根据版本不同书名有上述的文字差别。中文版译名来自周肇威的译本）是由物理学家阿尔伯特·爱因斯坦和利奥波德·英费尔德合著出版的物理学科普读物，内容介绍了物理学从伽利略、牛顿时代的经典理论到现代场论、相对论和量子力学的发展演化历程。该书最初由剑桥大学出版社在1938年出版并获得了大众的广泛好评，《时代》杂志还特别为此书刊载了一篇头条报道。",
+   "summary": "國立臺灣大學物理學系（英語：Department of Physics, National Taiwan University），略稱臺灣大學物理系、臺大物理系，創辦於1946年8月，首任系主任為物理學家戴運軌。台大物理系是為國立臺灣大學改制之後首創的第一個系所。前身是日治時期臺北帝國大學的理學部化學科所設置的物理學講座，當時有兩三間辦公室和實驗室。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1558,6 +1558,30 @@
     "physics"
    ],
    "title_signal": false
+  },
+  {
+   "id": "5147d7c8f6d0",
+   "source": "wikipedia",
+   "title": "罗森汉恩实验",
+   "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%A3%AE%E6%B1%89%E6%81%A9%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "罗森汉恩实验（Rosenhan Experiment）是1973年美国心理学家大卫·罗森汉恩关于检验美国精神病患鉴定标准的一项著名实验，并当年发布在《科学》杂志上。这项研究被认为是对精神病患鉴定标准的重要批判。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
   },
   {
    "id": "84d08da14f64",
@@ -2480,14 +2504,54 @@
    "title_signal": false
   },
   {
-   "id": "e7af2a5ae059",
+   "id": "e2f65195a4c9",
    "source": "wikipedia",
-   "title": "威斯康星大学麦迪逊分校",
-   "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%A4%A7%E5%AD%A6%E9%BA%A6%E8%BF%AA%E9%80%8A%E5%88%86%E6%A0%A1",
+   "title": "Army Academy of Armored Forces",
+   "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
    "published": "",
-   "summary": "威斯康星大学麦迪逊分校（英語：University of Wisconsin–Madison, 简称UW–Madison，UW，或Madison）是一所位于美国威斯康星州麦迪逊市的公立赠地研究型大学，也是威斯康星大学系统的旗舰校区。学校成立于1848年，与威斯康星州成为美国联邦的一部分为同一年。校区占地约378公顷，坐落于门多塔湖畔；此外，大学还在校区以南约6.4公里处拥有并运营着一个占地约486公顷的植物园。 威斯康星大学是美国大学协会的创始成员，也是“公立常春藤”之一，被归类为R1级研究型大学。威斯康星大学是“威斯康星学派”的发源地。根据美国国家科学基金会的数据，2024年该校在全美大学科研经费支出中排名第五。 截至2026年10月 (2026-10)，麦迪逊师生共赢得过23次诺贝尔奖、学校共诞生了43位普利策奖得主、1位菲尔兹奖得主以及1位图灵奖得主。该校同时也培育了大量富布赖特学者",
+   "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
    "meta": {
-    "site": "zh.wikipedia.org"
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "28cdf1ffdf5f",
+   "source": "wikipedia",
+   "title": "Chengdu",
+   "url": "https://en.wikipedia.org/wiki/Chengdu",
+   "published": "",
+   "summary": "Chengdu is the capital city of the Chinese province of Sichuan. With a population of 20,937,757 at the 2020 census, it is the country's fourth most populous city and the only city with a population of over 20 million apart from provincial-level municipalities. It is traditionally the hub of Western China. Chengdu is in central Sichuan. The surrounding Chengdu Plain is known as the \"Country of Heav",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "16dfa34f1419",
+   "source": "wikipedia",
+   "title": "Institute for the History of Natural Sciences",
+   "url": "https://en.wikipedia.org/wiki/Institute_for_the_History_of_Natural_Sciences",
+   "published": "",
+   "summary": "The Institute for the History of Natural Sciences (IHNS CAS; Chinese: 中国科学院自然科学史研究所; pinyin: Zhōngguó Kēxuéyuàn Zìrán Kēxuéshǐ Yánjiūsuǒ) is a leading research institution in China dedicated to the study of the history of science, technology, and medicine. It is affiliated with the Chinese Academy of Sciences (CAS).",
+   "meta": {
+    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -2840,6 +2904,26 @@
    "title_signal": false
   },
   {
+   "id": "e7af2a5ae059",
+   "source": "wikipedia",
+   "title": "威斯康星大学麦迪逊分校",
+   "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%A4%A7%E5%AD%A6%E9%BA%A6%E8%BF%AA%E9%80%8A%E5%88%86%E6%A0%A1",
+   "published": "",
+   "summary": "威斯康星大学麦迪逊分校（英語：University of Wisconsin–Madison, 简称UW–Madison，UW，或Madison）是一所位于美国威斯康星州麦迪逊市的公立赠地研究型大学，也是威斯康星大学系统的旗舰校区。学校成立于1848年，与威斯康星州成为美国联邦的一部分为同一年。校区占地约378公顷，坐落于门多塔湖畔；此外，大学还在校区以南约6.4公里处拥有并运营着一个占地约486公顷的植物园。 威斯康星大学是美国大学协会的创始成员，也是“公立常春藤”之一，被归类为R1级研究型大学。威斯康星大学是“威斯康星学派”的发源地。根据美国国家科学基金会的数据，2024年该校在全美大学科研经费支出中排名第五。 截至2026年10月 (2026-10)，麦迪逊师生共赢得过23次诺贝尔奖、学校共诞生了43位普利策奖得主、1位菲尔兹奖得主以及1位图灵奖得主。该校同时也培育了大量富布赖特学者",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "91b5bfdb8698",
    "source": "wikipedia",
    "title": "科学分支",
@@ -2866,46 +2950,6 @@
    "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_China",
    "published": "",
    "summary": "HIV/AIDS in China can be traced to an initial outbreak of the human immunodeficiency virus (HIV) first recognized in 1989 among injecting drug users along China's southern border. Figures from the Chinese Center for Disease Control and Prevention, World Health Organization, and UNAIDS estimate that there were 1.25 million people living with HIV/AIDS in China at the end of 2018, with 135,000 new in",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "e2f65195a4c9",
-   "source": "wikipedia",
-   "title": "Army Academy of Armored Forces",
-   "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
-   "published": "",
-   "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "16dfa34f1419",
-   "source": "wikipedia",
-   "title": "Institute for the History of Natural Sciences",
-   "url": "https://en.wikipedia.org/wiki/Institute_for_the_History_of_Natural_Sciences",
-   "published": "",
-   "summary": "The Institute for the History of Natural Sciences (IHNS CAS; Chinese: 中国科学院自然科学史研究所; pinyin: Zhōngguó Kēxuéyuàn Zìrán Kēxuéshǐ Yánjiūsuǒ) is a leading research institution in China dedicated to the study of the history of science, technology, and medicine. It is affiliated with the Chinese Academy of Sciences (CAS).",
    "meta": {
     "site": "en.wikipedia.org"
    },

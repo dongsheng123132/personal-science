@@ -1,0 +1,245 @@
+{
+ "generated_at": "2026-10-24T10:26:07+00:00",
+ "count": 8,
+ "items": [
+  {
+   "id": "7f435caa1a8d",
+   "source": "classic",
+   "title": "伽利略斜面实验（1604）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E4%BC%BD%E5%88%A9%E7%95%A5%E6%96%9C%E9%9D%A2%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "发现自由落体是匀加速运动；重做方式：斜面上滚小球，手机慢动作逐帧测位置，AI 拟合 s=½at²；为什么值得：把'加速度'这个抽象概念变成一条能自己拟合出来的曲线；难度：随时能做",
+   "meta": {
+    "era": "1604",
+    "level": "随时能做",
+    "tools": [
+     "手机",
+     "木板",
+     "小球"
+    ]
+   },
+   "targeted": true,
+   "score": 97,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [
+    "自己"
+   ],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "实验",
+    "自己",
+    "手机"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "fefcff432875",
+   "source": "classic",
+   "title": "杨氏双缝干涉（1801）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%9D%A8%E6%B0%8F%E5%8F%8C%E7%BC%9D%E5%B9%B2%E6%B6%89",
+   "published": "",
+   "summary": "证明光是波；重做方式：激光笔 + 头发丝/双缝片 + 白墙，手机拍条纹；AI 量条纹间距反推波长；为什么值得：光的波粒二象性从这里开始，而你的窗台就能做；难度：随时能做",
+   "meta": {
+    "era": "1801",
+    "level": "随时能做",
+    "tools": [
+     "激光笔",
+     "头发丝",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机",
+    "激光"
+   ],
+   "hits": [
+    "手机",
+    "激光"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "a0c487e68cd8",
+   "source": "classic",
+   "title": "牛顿棱镜分光（1666）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E7%89%9B%E9%A1%BF%E6%A3%B1%E9%95%9C%E5%88%86%E5%85%89",
+   "published": "",
+   "summary": "证明白光由多种颜色组成，且颜色不可再分；重做方式：阳光/白光 LED + 棱镜或水盆镜子，手机拍光谱，AI 分析颜色分布；为什么值得：一个孩子的第一个'哇'，成本不到二十块；难度：随时能做",
+   "meta": {
+    "era": "1666",
+    "level": "随时能做",
+    "tools": [
+     "棱镜",
+     "手机",
+     "纸板"
+    ]
+   },
+   "targeted": true,
+   "score": 83,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "手机"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "20461a6eb292",
+   "source": "classic",
+   "title": "奥斯特：电流让磁针偏转（1820）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%A5%A5%E6%96%AF%E7%89%B9%EF%BC%9A%E7%94%B5%E6%B5%81%E8%AE%A9%E7%A3%81%E9%92%88%E5%81%8F%E8%BD%AC",
+   "published": "",
+   "summary": "发现电和磁是一回事；重做方式：电池 + 导线 + 指南针，换方向、换电流看偏转；为什么值得：电动机、发电机、变压器全部从这里开始，材料只要三样；难度：随时能做",
+   "meta": {
+    "era": "1820",
+    "level": "随时能做",
+    "tools": [
+     "电池",
+     "导线",
+     "指南针"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f077c900abe8",
+   "source": "classic",
+   "title": "法拉第电磁感应（1831）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94",
+   "published": "",
+   "summary": "变化的磁通量产生电流；重做方式：线圈 + 磁铁 + 万用表，比较插入速度与感应电压；AI 拟合曲线；为什么值得：今天所有发电方式，都只是这一条规律的工程化；难度：随时能做",
+   "meta": {
+    "era": "1831",
+    "level": "随时能做",
+    "tools": [
+     "线圈",
+     "磁铁",
+     "万用表"
+    ]
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "53208c3896c4",
+   "source": "classic",
+   "title": "威尔逊云室（1911）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%A8%81%E5%B0%94%E9%80%8A%E4%BA%91%E5%AE%A4",
+   "published": "",
+   "summary": "第一次'看见'粒子轨迹；重做方式：酒精 + 干冰 + 暗盒，手机拍下粒子轨迹，AI 统计轨迹密度；为什么值得：宇宙射线穿过你家的那一刻，被你拍下来了；难度：进阶",
+   "meta": {
+    "era": "1911",
+    "level": "进阶",
+    "tools": [
+     "干冰",
+     "酒精",
+     "手机"
+    ]
+   },
+   "targeted": true,
+   "score": 83,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "手机"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "e4783fe669af",
+   "source": "classic",
+   "title": "布朗运动（1827）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%B8%83%E6%9C%97%E8%BF%90%E5%8A%A8",
+   "published": "",
+   "summary": "为'原子真实存在'提供证据；重做方式：显微镜看牛奶/墨汁里的颗粒，手机拍视频，AI 追踪轨迹算均方位移；为什么值得：爱因斯坦 1905 年用它证明原子存在；今天 AI 帮你追每一颗粒子；难度：进阶",
+   "meta": {
+    "era": "1827",
+    "level": "进阶",
+    "tools": [
+     "显微镜",
+     "手机",
+     "牛奶"
+    ]
+   },
+   "targeted": true,
+   "score": 83,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "手机"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "d9911725f290",
+   "source": "classic",
+   "title": "米尔格拉姆服从实验（1961）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E7%B1%B3%E5%B0%94%E6%A0%BC%E6%8B%89%E5%A7%86%E6%9C%8D%E4%BB%8E%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "普通人会在权威下做到什么程度；重做方式：不建议复现原件（伦理问题）；可做低风险版本：观察规则服从、设计问卷；为什么值得：现代科研伦理的起点。做不了，但必须知道它为什么做不了；难度：仅阅读",
+   "meta": {
+    "era": "1961",
+    "level": "仅阅读",
+    "tools": [
+     "问卷",
+     "统计工具"
+    ]
+   },
+   "targeted": true,
+   "score": 90,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  }
+ ]
+}
