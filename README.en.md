@@ -7,7 +7,7 @@ A list of experiments you can do at home. No application, no review, no permissi
 
 `12 experiments` · `acceptance criteria written down` · `CC0, copy freely` · `new candidates collected daily`
 
-[中文](README.md) · [One-minute version](#the-one-minute-version) · [The list](#the-list) · [Growing every day](#growing-every-day) · [How to add one](#how-to-add-one) · [Charter](CHARTER.en.md)
+[中文](README.md) · [One-minute version](#the-one-minute-version) · [The list](#the-list) · [Growing every day](#growing-every-day) · [How to add one](#how-to-add-one) · [Manifesto](MANIFESTO.en.md) · [Charter](CHARTER.en.md)
 
 ---
 
@@ -215,6 +215,8 @@ If something looks exciting but feels dangerous, don't do it. Open an issue firs
 .
 ├── README.md            Chinese README
 ├── README.en.md         You are here
+├── MANIFESTO.md         Manifesto (Chinese)
+├── MANIFESTO.en.md      Manifesto (English)
 ├── CHARTER.md           Charter (Chinese)
 ├── CHARTER.en.md        Charter (English)
 ├── experiments/         One page per experiment (currently Chinese)

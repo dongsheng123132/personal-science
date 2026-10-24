@@ -11,7 +11,7 @@
 
 [![collect](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml/badge.svg)](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml)
 
-[一分钟版本](#一分钟版本) · [清单](#清单) · [每天在长出来](#每天在长出来) · [怎么加一个](#怎么加一个) · [章程](CHARTER.md)
+[一分钟版本](#一分钟版本) · [清单](#清单) · [每天在长出来](#每天在长出来) · [怎么加一个](#怎么加一个) · [宣言](MANIFESTO.md) · [章程](CHARTER.md)
 
 ---
 
@@ -213,7 +213,9 @@ Hackaday 等源 → inbox/raw.json（宽网，约 90 条/天） → AI 筛 → i
 ```
 .
 ├── README.md            你在这
+├── MANIFESTO.md         宣言：为什么出发（智力平权）
 ├── CHARTER.md           章程：这个仓库的宪法
+├── *.en.md              英文版（README / 宣言 / 章程）
 ├── experiments/         每个实验一页（12 个）
 ├── ideas.md             点子池
 ├── RESULTS.md           有人做过什么（含失败）

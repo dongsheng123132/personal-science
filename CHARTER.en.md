@@ -10,6 +10,8 @@ This document says why this repo exists, what it does, and what it will never do
 
 It is short on purpose: every newcomer should be able to read it in under a minute.
 
+Before the rules, there is a reason we set out: the [manifesto](MANIFESTO.en.md).
+
 ---
 
 ## Article 1 · Purpose
