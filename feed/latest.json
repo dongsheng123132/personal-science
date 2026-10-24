@@ -1,41 +1,17 @@
 {
- "generated_at": "2026-10-24T10:25:55+00:00",
+ "generated_at": "2026-10-24T10:28:10+00:00",
  "date": "2026-10-24",
- "count": 2,
+ "count": 1,
  "items": [
   {
-   "id": "1c289800e7eb",
+   "id": "2b88d40ab609",
    "source": "wikipedia",
-   "title": "自然哲学",
-   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
+   "title": "强纲领",
+   "url": "https://zh.wikipedia.org/wiki/%E5%BC%BA%E7%BA%B2%E9%A2%86",
    "published": "",
-   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
+   "summary": "强纲领（英語：Strong programme），是科学知识社会学（SSK）的一支，它尤其与大衛·布魯爾、巴里·巴恩斯、哈里·柯林斯、Donald A. MacKenzie和 John Henry 的研究联系密切。强纲领被社会学家布鲁诺·拉图尔认为对于科学技术论有着无可比拟的的影响。主要以爱丁堡大学的学者为基础的学派阐释了，科学共同体（通过对共享范式的忠诚）紧密联结的方式，是标准科学活动的先决条件。 强纲领是对“弱”科学社会学的一种反应，弱纲领将社会学的应用限制在了“失败”或“错误”的理论，例如颅相学。 失败的理论可以用其研究者出现的偏差来解释，例如隐蔽的政治或经济利益。社会学与成功理论的相关性很小，这些理论之所以成功，是因为它们揭示了一个自然事实。 强纲领提出，对“真”和“假”的科学理论的研究都应该一视同仁，两者都是由社会因素或条件引起的，例如文化背景和自身利益。人类的一切知识，存在于于",
    "meta": {
     "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "命中 实验",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "28cdf1ffdf5f",
-   "source": "wikipedia",
-   "title": "Chengdu",
-   "url": "https://en.wikipedia.org/wiki/Chengdu",
-   "published": "",
-   "summary": "Chengdu is the capital city of the Chinese province of Sichuan. With a population of 20,937,757 at the 2020 census, it is the country's fourth most populous city and the only city with a population of over 20 million apart from provincial-level municipalities. It is traditionally the hub of Western China. Chengdu is in central Sichuan. The surrounding Chengdu Plain is known as the \"Country of Heav",
-   "meta": {
-    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
