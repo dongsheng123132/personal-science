@@ -69,7 +69,21 @@ prompt 在 `triage.py` 顶部，想改判断标准就改那里。
 
 目前支持三类，照着抄就行：
 
-**1. WordPress 站点的搜索接口**（最准，Hackaday 就是这么接的）
+**1. 本地种子库（经典实验）** — `collector/classics.json`
+
+年代不限的经典实验，一条一个对象：`zh` / `en` / `era` / `what` / `redo` / `tools` / `why` / `level`。
+它不会被"去重"掉，也不按年代扣分——经典本来就是用来重做的。
+
+**2. 维基百科搜索** — 经典实验、思想实验、科学史条目
+
+```json
+"wikipedia": { "sites": ["zh.wikipedia.org", "en.wikipedia.org"],
+               "queries": ["经典实验 物理", "thought experiment"], "limit": 6 }
+```
+
+走 MediaWiki 的 `generator=search`，不需要 key。天然"不限年代"。
+
+**3. WordPress 站点的搜索接口**（最准，Hackaday 就是这么接的）
 
 ```json
 "wordpress": {
@@ -81,15 +95,21 @@ prompt 在 `triage.py` 顶部，想改判断标准就改那里。
 
 接口是 `/wp-json/wp/v2/posts?search=关键词`。很多科技/创客博客都是 WordPress，直接把域名丢进去就能用。
 
-**2. RSS / Atom**
+**4. RSS / Atom**
 
 ```json
 "feeds": { "feeds": [{ "name": "xxx", "url": "https://xxx/feed/", "enabled": true }] }
 ```
 
-**3. 有公开 API 的**（GitHub / HN / arXiv）
+**5. 有公开 API 的**（GitHub / HN / arXiv）
 
 代码里已经写好了，`sources.json` 里把 `enabled` 打开就行。
+
+## 年代怎么处理
+
+- 新闻型来源（RSS / WordPress / HN）：照常按新鲜度加分，太旧的降权。
+- 经典型和维基条目：标记 `timeless`，**不看年代，不加分也不扣分**，并且在池子里永久保留。
+- 池子按"抓到的日期"滚动（30 天），不按"发布年代"——否则一百年前的实验进来就被清掉了。
 
 ## 一句话
 

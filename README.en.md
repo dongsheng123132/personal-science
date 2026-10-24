@@ -140,8 +140,16 @@ Ideas nobody has written up yet. Claim one, write a page with the [template](exp
 This repo has a conveyor belt that runs **once a day on a US-based runner** (GitHub Actions — free, no server to rent):
 
 ```
-sources → inbox/raw.json (~90 items/day) → AI filter → inbox/candidates.md → a human writes one page → the list above
+classic experiments seed library + Wikipedia + Hackaday + Hacker News
+        ↓
+candidate pool (~130 items, rolling 30 days)
+        ↓  AI applies five criteria
+inbox/candidates.md (up to 8, each with "how to redo it with today's tools")
+        ↓  a human picks one and writes the page
+the list above
 ```
+
+**No age limit.** A classic experiment from 1801, a WWII measurement, a 1960s psychology study — if it can be redone today with AI, an ESP32, or a phone, and it can grip a normal person, it belongs here.
 
 The script is responsible for **seeing a lot**. The AI is responsible for **seeing accurately**. A human is responsible for **doing the work**.
 What enters the list is always decided by a person.
@@ -206,6 +214,13 @@ These five are written into [Article 5 of the charter](CHARTER.en.md). If someon
 High voltage, open flame, chemicals you'd ingest or inhale, live-animal experiments, licensed testing — none of it is accepted here.
 
 If something looks exciting but feels dangerous, don't do it. Open an issue first.
+
+---
+
+## Reference
+
+- [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) — a multi-agent interactive classroom from Tsinghua MAIC. If you want to turn one experiment into a class you can talk with, start there.
+- This repo only answers "which experiments are worth doing". Turning them into a course is out of scope here.
 
 ---
 
