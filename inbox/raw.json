@@ -1,487 +1,18 @@
 {
- "generated_at": "2026-10-24T07:18:38+00:00",
+ "generated_at": "2026-10-24T07:19:58+00:00",
  "date": "2026-10-24",
- "count": 120,
+ "count": 22,
  "items": [
   {
-   "id": "b7ecd58ef8e7",
+   "id": "ac5fa2fb9bab",
    "source": "hackaday",
-   "title": "Car’s Camera Footage Backed up to NAS",
-   "url": "https://hackaday.com/2026/10/22/cars-camera-footage-backed-up-to-nas",
-   "published": "2026-10-22",
-   "summary": "For as many sensors, cameras, and computers as there are on modern cars, they ought to be a dream to poke around in and customize to one’s liking. Unfortunately they’re …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 94,
-   "why": "",
-   "obj_hits": [
-    "sensor",
-    "camera"
-   ],
-   "per_hits": [],
-   "hits": [
-    "sensor",
-    "camera"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "f54c90ffa0c2",
-   "source": "hackaday",
-   "title": "Building an Analog Geiger Counter",
-   "url": "https://hackaday.com/2026/08/22/building-an-analog-geiger-counter",
-   "published": "2026-08-22",
-   "summary": "These days, it’s plenty easy to build a Geiger counter with a microcontroller that has a nice fancy display and a simple digital readout for how many radiations you’re likely …read more",
-   "meta": {
-    "query": "geiger counter"
-   },
-   "targeted": true,
-   "score": 90,
-   "why": "",
-   "obj_hits": [
-    "geiger",
-    "radiation"
-   ],
-   "per_hits": [
-    "build"
-   ],
-   "hits": [
-    "geiger",
-    "radiation",
-    "build"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "d77d099493ec",
-   "source": "hackaday",
-   "title": "Hackaday Podcast Episode 392: Microscopes, Drones, and Other DIY Things",
-   "url": "https://hackaday.com/2026/10/23/hackaday-podcast-episode-392-microscopes-drones-and-other-diy-things",
-   "published": "2026-10-23",
-   "summary": "Hackaday Editors Elliot Williams and Al Williams met to review the week in Hackaday. Turns out, it was a week for tiny things, cybersecurity, nostalgia, and projects that would have …read more",
-   "meta": {
-    "query": "microscope"
-   },
-   "targeted": true,
-   "score": 88,
-   "why": "",
-   "obj_hits": [
-    "microscope"
-   ],
-   "per_hits": [
-    "diy"
-   ],
-   "hits": [
-    "microscope",
-    "diy"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "63e1526bb11f",
-   "source": "hackaday",
-   "title": "Building a Microscope with a 3D View",
-   "url": "https://hackaday.com/2026/10/18/building-a-microscope-with-a-3d-view",
-   "published": "2026-10-18",
-   "summary": "As electronic components grow ever smaller, a microscope has become an increasingly indispensable tool for any fine work; when inspecting electronics, though, especially solder joints, [Corebb] found a top-down view …read more",
-   "meta": {
-    "query": "microscope"
-   },
-   "targeted": true,
-   "score": 88,
-   "why": "",
-   "obj_hits": [
-    "microscope"
-   ],
-   "per_hits": [
-    "build"
-   ],
-   "hits": [
-    "microscope",
-    "build"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "a74860b994bb",
-   "source": "hackaday",
-   "title": "NASA Batteries Survive Extreme Cold and Heat",
-   "url": "https://hackaday.com/2026/10/22/nasa-batteries-survive-extreme-cold-and-heat",
-   "published": "2026-10-22",
-   "summary": "One of the major limits of mass-produced batteries is the electrolyte. From lead-acid to lithium ion, there’s some temperature where the electrolyte will freeze and cause all sorts of problems, …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [
-    "temperature"
-   ],
-   "per_hits": [],
-   "hits": [
-    "temperature"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "60064ab6f6ce",
-   "source": "hackaday",
-   "title": "Going Whole-Hog on a First Satellite Ground Station",
-   "url": "https://hackaday.com/2026/10/20/going-whole-hog-on-a-first-satellite-ground-station",
-   "published": "2026-10-20",
-   "summary": "When most radio enthusiasts start trying to pick up signals from satellites, they might put together a quick-and-dirty Yagi antenna and try to catch a repeater as is passes overhead, …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [
-    "radio"
-   ],
-   "per_hits": [],
-   "hits": [
-    "radio"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "deeab5e0a633",
-   "source": "hackaday",
-   "title": "Synthetic Aperture Radar Drone Gets Interferometric Imaging",
-   "url": "https://hackaday.com/2026/09/28/synthetic-aperture-radar-drone-gets-interferometric-imaging",
-   "published": "2026-09-28",
-   "summary": "It’s been more than a year since [Henrik Forstén] built the first iteration of his synthetic-aperture radar (SAR) imaging drone, and he’s certainly been productive in the meantime. Not only …read more",
-   "meta": {
-    "query": "calibration"
-   },
-   "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [
-    "imaging"
-   ],
-   "per_hits": [
-    "built"
-   ],
-   "hits": [
-    "imaging",
-    "built"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "a58941cbbc37",
-   "source": "hackaday",
-   "title": "Every Type of Current Sensor Explained",
-   "url": "https://hackaday.com/2026/10/21/every-type-of-current-sensor-explained",
-   "published": "2026-10-21",
-   "summary": "Measuring electric currents is an essential element of many electrical systems, but doing so in a way that is as nonintrusive as possible is not an easy problem to solve. …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [
-    "sensor"
-   ],
-   "per_hits": [],
-   "hits": [
-    "sensor"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "0c965e8a7c40",
-   "source": "hackaday",
-   "title": "Congratulations to the Frikkin Laser Winners!",
-   "url": "https://hackaday.com/2026/08/03/congratulations-to-the-frikkin-laser-winners",
-   "published": "2026-08-03",
-   "summary": "Apparently you all love lasers just as much as we do. We put out a challenge to use, build, or otherwise abuse our favorite coherent light sources, and you responded. …read more",
-   "meta": {
-    "query": "spectrometer"
-   },
-   "targeted": true,
-   "score": 80,
-   "why": "",
-   "obj_hits": [
-    "laser"
-   ],
-   "per_hits": [
-    "build"
-   ],
-   "hits": [
-    "laser",
-    "build"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "56d72f8fb466",
-   "source": "hackaday",
-   "title": "Roman Telescope Saves Fuel, Doubles Mission",
-   "url": "https://hackaday.com/2026/09/30/roman-telescope-saves-fuel-doubles-mission",
-   "published": "2026-09-30",
-   "summary": "Contemplate the events that might end a space mission, and you might picture something dramatic: detonation on the pad, a dead guidance system, or micrometeoroids shattering delicate solar panels. More …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 80,
-   "why": "",
-   "obj_hits": [
-    "telescope"
-   ],
-   "per_hits": [],
-   "hits": [
-    "telescope"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "a59d5e645baa",
-   "source": "hackaday",
-   "title": "Basically, Galvanizing Metal Without Acid",
-   "url": "https://hackaday.com/2026/09/26/basically-galvanizing-metal-without-acid",
-   "published": "2026-09-26",
-   "summary": "As useful as steel and iron are to the modern world, their tendency to rust is a major downside. There’s a spectrum of ways to prevent it, from quickly slapping …read more",
-   "meta": {
-    "query": "water quality"
-   },
-   "targeted": true,
-   "score": 80,
-   "why": "",
-   "obj_hits": [
-    "spectrum"
-   ],
-   "per_hits": [],
-   "hits": [
-    "spectrum"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "d22d3c04dd7f",
-   "source": "hackaday",
-   "title": "Vacuum Drying and Making Stuff Hot in a Vacuum",
-   "url": "https://hackaday.com/2026/10/01/vacuum-drying-and-making-stuff-hot-in-a-vacuum",
-   "published": "2026-10-01",
-   "summary": "After previously exploring the impact of vapor pressure on the drying of desiccant and more, the conclusion was essentially that in order to drive moisture that’s not directly on a …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 80,
-   "why": "",
-   "obj_hits": [
-    "pressure"
-   ],
-   "per_hits": [],
-   "hits": [
-    "pressure"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "c76eafe64d5b",
-   "source": "hackaday",
-   "title": "DIY Game Console Does It With Optical Discs",
-   "url": "https://hackaday.com/2026/09/30/diy-game-console-does-it-with-optical-disks",
-   "published": "2026-09-30",
-   "summary": "Optical media may be dead for video games on the big corporate consoles, but not in [Emmet]’s heart– or on his DIY game console, that he built specifically to use …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 78,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "built",
-    "diy"
-   ],
-   "hits": [
-    "built",
-    "diy"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "acd41bb080e5",
-   "source": "hackaday",
-   "title": "Superconducting Temperature Record set at Ambient Pressure",
-   "url": "https://hackaday.com/2026/08/20/superconducting-temperature-record-set-at-ambient-pressure",
-   "published": "2026-08-21",
-   "summary": "An interesting type of superconductors available to us today are the ones that achieve this property at room temperature, with only the small snag that they require crushing pressures that …read more",
+   "title": "PoE-powered GPIB Adapter with Ethernet and USB-C Support",
+   "url": "https://hackaday.com/2025/05/10/poe-powered-gpib-adapter-with-ethernet-and-usb-c-support",
+   "published": "2025-05-10",
+   "summary": "In the world of (expensive) lab test equipment the GPIB (general purpose interface bus) connection is hard to avoid if you want any kind of automation, but nobody likes wrangling …read more",
    "meta": {},
    "targeted": false,
-   "score": 78,
-   "why": "",
-   "obj_hits": [
-    "temperature",
-    "pressure"
-   ],
-   "per_hits": [],
-   "hits": [
-    "temperature",
-    "pressure"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "e2cd6756a0dd",
-   "source": "hackaday",
-   "title": "Have Scientists Stuck the Landing on the Glueball Discovery?",
-   "url": "https://hackaday.com/2026/08/12/have-scientists-stuck-the-landing-on-the-glueball-discovery",
-   "published": "2026-08-12",
-   "summary": "Exciting discoveries in particle physics are one of those things that it can be easy to get blase about. Some people get caught up in the obvious excitement, while others …read more",
-   "meta": {
-    "query": "spectrometer"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "hits": [
-    "physics"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "fb38c440b485",
-   "source": "hackaday",
-   "title": "2026 Frikkin Lasers Challenge: A 3D-Printed Raman Spectrometer",
-   "url": "https://hackaday.com/2026/07/05/2026-frikkin-lasers-challenge-a-3d-printed-raman-spectrometer",
-   "published": "2026-07-05",
-   "summary": "When light reflects off a surface, not all of it reflects off at the same wavelength; some photons impart a portion of their energy to raising the vibrational energy of …read more",
-   "meta": {
-    "query": "spectrometer"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "obj_hits": [
-    "spectrometer",
-    "laser"
-   ],
-   "per_hits": [],
-   "hits": [
-    "spectrometer",
-    "laser"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "4a29ce7801ae",
-   "source": "hackaday",
-   "title": "The Helicopter with Radioactive Blades",
-   "url": "https://hackaday.com/2026/09/07/the-helicopter-with-radioactive-blades",
-   "published": "2026-09-07",
-   "summary": "Sometimes you find gold in unexpected places. In this case, it’s from a video about the CH-53 helicopter. The CH-53 Sea Stallion first entered service in 1966. It’s a huge …read more",
-   "meta": {
-    "query": "geiger counter"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "obj_hits": [
-    "radio"
-   ],
-   "per_hits": [],
-   "hits": [
-    "radio"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "16dd1cf78752",
-   "source": "hackaday",
-   "title": "Making Audible Sense Of A Radiation Hunt",
-   "url": "https://hackaday.com/2025/11/04/making-audible-sense-of-a-radiation-hunt",
-   "published": "2025-11-04",
-   "summary": "The clicking of a Geiger counter is well enough known as a signifier of radioactive materials, due to it providing the menacing sound effect any time a film or TV …read more",
-   "meta": {
-    "query": "geiger counter"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "obj_hits": [
-    "geiger",
-    "radiation",
-    "radio"
-   ],
-   "per_hits": [],
-   "hits": [
-    "geiger",
-    "radiation",
-    "radio"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "91721df495b2",
-   "source": "hackaday",
-   "title": "Heat Domes: Meet the Quiet and Oppressive Take on the Thunderdome",
-   "url": "https://hackaday.com/2026/09/16/heat-domes-meet-the-quiet-and-oppressive-take-on-the-thunderdome",
-   "published": "2026-09-16",
-   "summary": "One of the nice things about the weather is that even if it’s bad right now, it’ll definitely be changing soon and maybe even for the better. There is one …read more",
-   "meta": {
-    "query": "weather station"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "obj_hits": [
-    "weather"
-   ],
-   "per_hits": [],
-   "hits": [
-    "weather"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "b87f88987863",
-   "source": "hackaday",
-   "title": "FitzRoy’s Glass: Victorian Weather Marvel or Glorified Thermometer?",
-   "url": "https://hackaday.com/2026/08/06/fitzroys-glass-victorian-weather-marvel-or-glorified-thermometer",
-   "published": "2026-08-06",
-   "summary": "Everyone talks about the weather. This is doubly true for sailors, where bad weather could mean a very bad day. So it isn’t surprising that navies around the world have …read more",
-   "meta": {
-    "query": "weather station"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "obj_hits": [
-    "weather"
-   ],
-   "per_hits": [],
-   "hits": [
-    "weather"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "9b2b117bfa8f",
-   "source": "hackaday",
-   "title": "An Open Micro-Manipulator Improved",
-   "url": "https://hackaday.com/2026/10/19/an-open-micro-maniplulator-improved",
-   "published": "2026-10-19",
-   "summary": "If you need a micro-manipulator, you probably already have a good idea of what it does. For example, you might be moving a probe over an IC die or wafer. …read more",
-   "meta": {
-    "query": "microscope"
-   },
-   "targeted": true,
-   "score": 74,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -489,39 +20,15 @@
    "title_signal": false
   },
   {
-   "id": "9f5576db0050",
+   "id": "8660979df1bc",
    "source": "hackaday",
-   "title": "Another IKEA Product Yields an LED Matrix",
-   "url": "https://hackaday.com/2026/10/10/another-ikea-product-yields-an-led-matrix",
-   "published": "2026-10-10",
-   "summary": "The IKEA Kortlinje is a digital clock that costs around 20 dollars, featuring a hygrometer and thermometer. It’s another cheap appliance, you might think, were it not that the display …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "cheap"
-   ],
-   "hits": [
-    "cheap"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "9b7319b0e959",
-   "source": "hackaday",
-   "title": "This Week in Security: Record Patch Tuesday, PHP’s Bad Time, The Oldest Vuln, AI Armies, and More",
-   "url": "https://hackaday.com/2026/10/23/this-week-in-security-record-patch-tuesday-phps-bad-time-the-oldest-vuln-ai-armies-and-more",
-   "published": "2026-10-23",
-   "summary": "It’s no longer a proper month without Microsoft breaking its own record for security fixes, and October’s Patch Tuesday was no exception. Brian Krebs brings the roundup: more than 1,400 …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 74,
+   "title": "Protocol Analyzer Remembered",
+   "url": "https://hackaday.com/2025/03/30/protocol-analyzer-remembered",
+   "published": "2025-03-30",
+   "summary": "Anyone will tell you that as hard as it is to create a working system, the real trick is making two systems talk to each other, especially if you created …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -529,39 +36,15 @@
    "title_signal": false
   },
   {
-   "id": "de8bd8ec3e0c",
+   "id": "ed7bf4fe6f3f",
    "source": "hackaday",
-   "title": "Embedded 3D Printing with Liquids on a Bricked Prusa FDM Printer",
-   "url": "https://hackaday.com/2026/10/09/embedded-3d-printing-with-liquids-on-a-bricked-prusa-fdm-printer",
-   "published": "2026-10-09",
-   "summary": "Recently [Riley] got his paws on an old Prusa i3 FDM printer that had clearly seen better days, with a hot-end that had suffered an explosive blow-out. For the project …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "3d print"
-   ],
-   "hits": [
-    "3d print"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "73a267630d62",
-   "source": "hackaday",
-   "title": "Turning a Wi-Fi Adapter into an SDR",
-   "url": "https://hackaday.com/2026/10/18/turning-a-wi-fi-adapter-into-an-sdr",
-   "published": "2026-10-18",
-   "summary": "Since the discovery of an undocumented I/Q sampling feature in ESP32 chips about two weeks ago, there’s been a flood of similar features being found in other wireless chips, including …read more",
-   "meta": {
-    "query": "calibration"
-   },
-   "targeted": true,
-   "score": 74,
+   "title": "Custom Hat Gives Vintage Mitutoyo Calipers a New Lease on Life",
+   "url": "https://hackaday.com/2024/08/02/custom-hat-gives-vintage-mitutoyo-calipers-a-new-lease-on-life",
+   "published": "2024-08-02",
+   "summary": "Metrology fans are usually at least a little bit in love with Mitutoyo, and rightfully so. The Japanese company has been making precision measuring instruments for the better part of …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -569,17 +52,15 @@
    "title_signal": false
   },
   {
-   "id": "ea38c29a8cd4",
+   "id": "d0c213456d55",
    "source": "hackaday",
-   "title": "An Open Source Linear Capacitive Encoder",
-   "url": "https://hackaday.com/2026/10/22/an-open-source-linear-capacitive-encoder",
-   "published": "2026-10-22",
-   "summary": "If you’ve ever pulled apart a set of digital calipers, you’ve probably marvelled at the capacitive encoder that does all the measuring work. There’s nothing stopping you from using the …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 74,
+   "title": "Hackaday Prize 2023: Over-the-Top Programmable Resistor Looks the Part and Performs",
+   "url": "https://hackaday.com/2023/08/18/over-the-top-programmable-resistor-looks-the-part-and-performs",
+   "published": "2023-08-18",
+   "summary": "Every once in a while we get wind of a project that we’re reluctant to write up for the simple reason that it looks too good to be true. Not …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -587,17 +68,15 @@
    "title_signal": false
   },
   {
-   "id": "ad91ebfd5bff",
+   "id": "8b8604ba9f97",
    "source": "hackaday",
-   "title": "Clotty The Custom Period Tracker Can, Of Course, Run DOOM",
-   "url": "https://hackaday.com/2026/10/21/clotty-the-custom-period-tracker-can-of-course-run-doom",
-   "published": "2026-10-21",
-   "summary": "[kati]’s Clotty might run DOOM and game-ify the menstrual tracking process with a playful Tamagotchi-like aspect, but don’t let that distract you. It is, at its heart, a personal menstrual …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 74,
+   "title": "The Make-roscope",
+   "url": "https://hackaday.com/2025/05/20/the-make-roscope",
+   "published": "2025-05-20",
+   "summary": "Normal people binge-scroll social media. Hackaday writers tend to pore through online tech news and shopping sites incessantly. The problem with the shopping sites is that you wind up buying …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -605,17 +84,15 @@
    "title_signal": false
   },
   {
-   "id": "11778679c745",
+   "id": "111e9ed92b4b",
    "source": "hackaday",
-   "title": "Charlotte’s New Runway Gets A Digital Twin",
-   "url": "https://hackaday.com/2026/10/19/charlottes-new-runway-gets-a-digital-twin",
-   "published": "2026-10-19",
-   "summary": "The first viable powered aircraft predated the first proper runway by two decades. While it’s entirely possible to launch some planes from austere dirt or grass strips, the aviation world …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 74,
+   "title": "Saving Green Books from Poison Paranoia",
+   "url": "https://hackaday.com/2025/06/09/saving-green-books-from-poison-paranoia",
+   "published": "2025-06-10",
+   "summary": "You probably do not need us to tell you that Arsenic is not healthy stuff. This wasn’t always such common knowledge, as for a time in the 19th century a …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -623,39 +100,15 @@
    "title_signal": false
   },
   {
-   "id": "9a675dec4f8d",
+   "id": "100ac53c020f",
    "source": "hackaday",
-   "title": "Two-Component H-shifter for Racing Sims",
-   "url": "https://hackaday.com/2026/10/09/two-component-h-shifter-for-racing-sims",
-   "published": "2026-10-09",
-   "summary": "Flying and driving simulators can go as far as money will take you, and at some point it might end up being cheaper to buy a plane or race car …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "cheap"
-   ],
-   "hits": [
-    "cheap"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "23e042718e8b",
-   "source": "hackaday",
-   "title": "An LCR Meter with Compromises",
-   "url": "https://hackaday.com/2026/10/19/an-lcr-meter-with-compromises",
-   "published": "2026-10-19",
-   "summary": "YouTube, like the Internet, has its plusses and minuses. On the plus side, you can find information on just about anything. On the minus side, you don’t always know if …read more",
-   "meta": {
-    "query": "oscilloscope"
-   },
-   "targeted": true,
-   "score": 74,
+   "title": "SHERLOC and the Search for Life on Mars",
+   "url": "https://hackaday.com/2022/01/27/sherloc-and-the-search-for-life-on-mars",
+   "published": "2022-01-27",
+   "summary": "Humanity has been wondering about whether life exists beyond our little backwater planet for so long that we’ve developed a kind of cultural bias as to how the answer to …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -663,89 +116,15 @@
    "title_signal": false
   },
   {
-   "id": "2c1b2b1bd5de",
+   "id": "22237c21ff4a",
    "source": "hackaday",
-   "title": "Tearing Down a Heavy Oscilloscope",
-   "url": "https://hackaday.com/2026/10/04/tearing-down-a-heavy-oscilloscope",
-   "published": "2026-10-04",
-   "summary": "When [Thomas] showed his 1960s-era Tektronix 545A oscilloscope in a recent video, it made us both nostalgic and happy. Nostalgic because we miss the days when our oscilloscopes were “mainframes” …read more",
-   "meta": {
-    "query": "oscilloscope"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "made"
-   ],
-   "hits": [
-    "made"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "b26abc7c3ee2",
-   "source": "hackaday",
-   "title": "A Tiny Chemistry Lab",
-   "url": "https://hackaday.com/2024/11/08/a-tiny-chemistry-lab",
-   "published": "2024-11-08",
-   "summary": "While advances in modern technology have allowed average people access to tremendous computing power as well as novel tools like 3D printers and laser cutters for a bare minimum cost, …read more",
+   "title": "Venus Flytrap Takes Ride Through a Particle Accelerator",
+   "url": "https://hackaday.com/2026/03/23/venus-flytrap-takes-ride-through-a-particle-accelerator",
+   "published": "2026-03-24",
+   "summary": "In the blue corner, we have the VENUS FLYTRAP! In the red corner, we have the underdog of the century, AN ENTIRE PARTICLE ACCELERATOR. Yes, you read that right. When …read more",
    "meta": {},
    "targeted": false,
-   "score": 72,
-   "why": "",
-   "obj_hits": [
-    "chemistry",
-    "laser"
-   ],
-   "per_hits": [
-    "3d print"
-   ],
-   "hits": [
-    "chemistry",
-    "laser",
-    "3d print"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "0e91a70ab9db",
-   "source": "hackaday",
-   "title": "Meter Mods Make Radioactive Prospecting More Enjoyable",
-   "url": "https://hackaday.com/2025/09/24/meter-mods-make-radioactive-prospecting-more-enjoyable",
-   "published": "2025-09-24",
-   "summary": "While we often get a detailed backstory of the projects we cover here at Hackaday, sometimes the genesis of a build is a bit of a mystery. Take [maurycyz]’s radiation …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 72,
-   "why": "",
-   "obj_hits": [
-    "radiation",
-    "radio"
-   ],
-   "per_hits": [
-    "build"
-   ],
-   "hits": [
-    "radiation",
-    "radio",
-    "build"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "0428714f1a14",
-   "source": "hackaday",
-   "title": "Open Source Tricorder Is In It For The Science",
-   "url": "https://hackaday.com/2026/09/30/open-source-tricorder-is-in-it-for-the-science",
-   "published": "2026-09-30",
-   "summary": "If you’re reading Hackaday there’s pretty good odds you’re at least somewhat fond of Star Trek. We’d bet good money most of you would quit your jobs today if a Starfleet …read more",
-   "meta": {
-    "query": "spectrometer"
-   },
-   "targeted": true,
-   "score": 70,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -753,17 +132,15 @@
    "title_signal": false
   },
   {
-   "id": "1040963ccfe2",
+   "id": "935931c2dc23",
    "source": "hackaday",
-   "title": "Inside a Mystery 1980s Filter IC Featuring Switched Capacitors",
-   "url": "https://hackaday.com/2026/10/11/inside-a-mystery-1980s-filter-ic-featuring-switched-capacitors",
-   "published": "2026-10-11",
-   "summary": "Recently [Ken Shirriff] got handed a mystery IC by [CuriousMarc] who had found said IC in a box of various old chips. Labelled only with a date code of the …read more",
-   "meta": {
-    "query": "microscope"
-   },
-   "targeted": true,
-   "score": 70,
+   "title": "Hackaday Links: January 25, 2026",
+   "url": "https://hackaday.com/2026/01/25/hackaday-links-january-25-2026",
+   "published": "2026-01-26",
+   "summary": "If predictions hold steady, nearly half of the United States will be covered in snow by the time this post goes live, with the Northeast potentially getting buried under more …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -771,39 +148,15 @@
    "title_signal": false
   },
   {
-   "id": "8b20f5169a49",
+   "id": "bd751ad127ea",
    "source": "hackaday",
-   "title": "Printing Micron-Scale Benchies With Resin and Turmeric",
-   "url": "https://hackaday.com/2026/09/06/printing-micron-scale-benchies-with-resin-and-turmeric",
-   "published": "2026-09-06",
-   "summary": "Resin 3D printing has opened up a whole new scale of resolution for hackers, but the technology can go still finer; commercial micro-SLA and two-photon polymerization printers can print items …read more",
-   "meta": {
-    "query": "microscope"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "3d print"
-   ],
-   "hits": [
-    "3d print"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "3597c9d424e2",
-   "source": "hackaday",
-   "title": "Hackaday Podcast Episode 389: Spinning Lightfield Displays, and Jenny Visits a Blast Furnace",
-   "url": "https://hackaday.com/2026/10/02/hackaday-podcast-episode-389-spinning-lightfield-displays-and-jenny-visits-a-blast-furnace",
-   "published": "2026-10-02",
-   "summary": "Another all-European podcast for you this week, as Elliot Williams is joined by Jenny List for an evening looking at the past week in Hackaday. And this week there is …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 70,
+   "title": "German Fireball’s 15 Minutes of Fame",
+   "url": "https://hackaday.com/2026/03/11/german-fireballs-15-minutes-of-fame",
+   "published": "2026-03-11",
+   "summary": "Sunday night, around 7:00 PM local time, a bright fireball streaked across the western German sky, exploded, and rained chunks of space rock down on the region around Koblenz. One …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -811,67 +164,15 @@
    "title_signal": false
   },
   {
-   "id": "eb2eb9dd395b",
+   "id": "6d0310ceb677",
    "source": "hackaday",
-   "title": "A Benchtop Neutron Generator for the Home Reactor",
-   "url": "https://hackaday.com/2026/05/25/a-benchtop-neutron-generator-for-the-home-reactor",
-   "published": "2026-05-25",
-   "summary": "There are a surprising number of experiments an amateur nuclear physicist can perform, from making a Geiger counter to fusing hydrogen atoms in a fusor. One project which we haven’t …read more",
-   "meta": {
-    "query": "geiger counter"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [
-    "geiger"
-   ],
-   "per_hits": [
-    "home"
-   ],
-   "hits": [
-    "geiger",
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "471d4344f94a",
-   "source": "hackaday",
-   "title": "DIY Weather Stations Report In From Chernobyl",
-   "url": "https://hackaday.com/2026/04/20/diy-weather-stations-report-in-from-chernobyl",
-   "published": "2026-04-20",
-   "summary": "You’re probably not going to hang out around Chernobyl any time soon. Still, knowing the conditions there can both satisfy your curiosity and provide scientific value. To that end, [Yury …read more",
-   "meta": {
-    "query": "geiger counter"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [
-    "weather"
-   ],
-   "per_hits": [
-    "diy"
-   ],
-   "hits": [
-    "weather",
-    "diy"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "b3dc147bc83f",
-   "source": "hackaday",
-   "title": "Single Button, Handheld Gaming Console",
-   "url": "https://hackaday.com/2026/10/14/single-button-handheld-gaming-console",
-   "published": "2026-10-14",
-   "summary": "Those of us who grew up in the 70s and 80s might be familiar with the Atari 2600 console and its now relatively unrecognizable (by modern standards) controller with only …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 70,
+   "title": "Citizen Scientists Spot Super Fast Moving Object in NASA Data",
+   "url": "https://hackaday.com/2024/08/22/citizen-scientists-spot-super-fast-moving-object-in-nasa-data",
+   "published": "2024-08-22",
+   "summary": "When you were five, you probably spotted your best friend running at “a million miles an hour” when they beat everybody at the local athletics meet. You probably haven’t seen …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -879,17 +180,15 @@
    "title_signal": false
   },
   {
-   "id": "f6ba968dd648",
+   "id": "568bebde7179",
    "source": "hackaday",
-   "title": "The Weirdest Video Games were Hacks",
-   "url": "https://hackaday.com/2026/10/10/the-weirdest-video-games-were-hacks",
-   "published": "2026-10-10",
-   "summary": "We were looking into the marvelous recent project by [Throaty Mumbo] to recreate and reimagine the forgotten world of VHS-tape-based video games. Wait, what? Yes, back in the day, when …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 70,
+   "title": "The Atomic Gardener Of Eastbourne",
+   "url": "https://hackaday.com/2024/08/01/the-atomic-gardener-of-eastbourne",
+   "published": "2024-08-01",
+   "summary": "Pity the video team at a large hacker camp, because they have a huge pile of interesting talks in the can but only the limited resources of volunteers to put …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -897,17 +196,15 @@
    "title_signal": false
   },
   {
-   "id": "1c55acd5be88",
+   "id": "1be80da2d0ef",
    "source": "hackaday",
-   "title": "A Headset Fit For A Hackaday Writer",
-   "url": "https://hackaday.com/2026/10/06/a-headset-fit-for-a-hackaday-writer",
-   "published": "2026-10-06",
-   "summary": "I started writing this from a commuter train passing at speed through the outskirts of London, and my headset had just broken. The flexible joint that attaches one earpiece to …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 70,
+   "title": "X-Ray CT Scanners From eBay, Brought Back to Life",
+   "url": "https://hackaday.com/2024/01/22/x-ray-ct-scanners-from-ebay-brought-back-to-life",
+   "published": "2024-01-23",
+   "summary": "If you have ever wondered what goes into repairing and refurbishing an X-ray Computed Tomography (CT) scanner, then don’t miss [Ahron Wayne]’s comprehensive project page on doing exactly that. He …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 48,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -915,1057 +212,18 @@
    "title_signal": false
   },
   {
-   "id": "a659f2cf96d6",
-   "source": "hackaday",
-   "title": "Two-Dimensional Material Now Easier to Manufacture",
-   "url": "https://hackaday.com/2026/09/28/two-dimensional-material-now-easier-to-manufacture",
-   "published": "2026-09-28",
-   "summary": "We often see scientific breakthroughs in journals or other media that’s reported on as if it’s a revolutionary technology guaranteed to reshape human existence, only to never hear about it …read more",
-   "meta": {
-    "query": "water quality"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "3b929ed43a7f",
-   "source": "hackaday",
-   "title": "Tiny e-Paper Display Delivers 30 FPS of Game Boy Fun",
-   "url": "https://hackaday.com/2026/10/14/tiny-e-paper-display-delivers-30-fps-of-game-boy-fun",
-   "published": "2026-10-14",
-   "summary": "Slow refresh, ghosting and low-contrast — wait, are we talking about passive matrix LCDs, or e-paper displays? That might be why e-paper Game Boy emulators are a thing: the limitations …read more",
-   "meta": {
-    "query": "calibration"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4f034027590c",
-   "source": "hackaday",
-   "title": "The Prusa Core One+ INDX, a Troubled Multi-Extruder Upgrade?",
-   "url": "https://hackaday.com/2026/10/12/the-prusa-core-one-indx-a-troubled-multi-extruder-upgrade",
-   "published": "2026-10-12",
-   "summary": "The Prusa Core One+ INDX is an interesting upgrade to the base FDM printer by Prusa, featuring eight independent extruders – hence the INDX – that in theory should allow …read more",
-   "meta": {
-    "query": "calibration"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "0c9a12ba2fd4",
-   "source": "hackaday",
-   "title": "Restoring an Altimeter Watch to Former Heights",
-   "url": "https://hackaday.com/2026/10/10/restoring-an-altimeter-watch-to-former-heights",
-   "published": "2026-10-10",
-   "summary": "Finding inexpensive broken hardware for sale, buying it, and restoring it to working condition is a long-standing tradition for hackers on a limited budge. But there are some devices that …read more",
-   "meta": {
-    "query": "calibration"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "dfeb1b1e3b8f",
-   "source": "hackaday",
-   "title": "Archiving The World’s Oldest Webcam Feed",
-   "url": "https://hackaday.com/2026/10/01/archiving-the-worlds-oldest-webcam-feed",
-   "published": "2026-10-01",
-   "summary": "FogCam is the oldest webcam feed that’s still up and running. Installed at San Francisco State University, it’s been slowly uploading a new image to the web every 20 to …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "37dd63a7931c",
-   "source": "hackaday",
-   "title": "Geothermal Cooling For New York’s Subways",
-   "url": "https://hackaday.com/2026/09/29/geothermal-cooling-for-new-yorks-subways",
-   "published": "2026-09-29",
-   "summary": "You might think that if you dug some tunnels down into the ground where you could be out of the sunshine, that you might find them to be relatively cool …read more",
-   "meta": {
-    "query": "weather station"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "25673ace0576",
-   "source": "hackaday",
-   "title": "Making a Neo Nuvistor Project in 2026",
-   "url": "https://hackaday.com/2026/09/11/making-a-neo-nuvistor-project-in-2026",
-   "published": "2026-09-11",
-   "summary": "For a little while vacuum tubes and semiconductors were fighting a heated battle for dominance, with bipolar junction transistors and 1959’s RCA Nuvistor both allowing you to build a compact …read more",
-   "meta": {
-    "query": "oscilloscope"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "build"
-   ],
-   "hits": [
-    "build"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "408fc3fc09f1",
-   "source": "hackaday",
-   "title": "Measurement is Science",
-   "url": "https://hackaday.com/2025/06/21/measurement-is-science",
-   "published": "2025-06-21",
-   "summary": "I was watching Ben Krasnow making iron nitride permanent magnets and was struck by the fact that about half of the video was about making a magnetometer – a device …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 68,
-   "why": "",
-   "obj_hits": [
-    "magnet",
-    "measurement"
-   ],
-   "per_hits": [],
-   "hits": [
-    "magnet",
-    "measurement"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "43565b7c73e1",
-   "source": "hackaday",
-   "title": "The Seven Sensors and Breakout Boards to Avoid in a Product",
-   "url": "https://hackaday.com/2026/08/02/the-seven-sensors-and-breakout-boards-to-avoid-in-a-product",
-   "published": "2026-08-02",
-   "summary": "We’ve all seen these sensors and modules kicking around, as part of beginner kits, strapped into prototypes and potentially even in products deployed in the field. Yet as [John Teel] …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 68,
-   "why": "",
-   "obj_hits": [
-    "sensor"
-   ],
-   "per_hits": [],
-   "hits": [
-    "sensor"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "d02d5909f295",
-   "source": "hackaday",
-   "title": "Smartphone Sensors Unlocked: Turn Your Phone into a Physics Lab",
-   "url": "https://hackaday.com/2025/09/07/smartphone-sensors-unlocked-turn-your-phone-into-a-physics-lab",
-   "published": "2025-09-08",
-   "summary": "These days, most of us have a smartphone. They are so commonplace that we rarely stop to consider how amazing they truly are. The open-source project Phyphox has provided easy …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 68,
-   "why": "",
-   "obj_hits": [
-    "physics",
-    "sensor"
-   ],
-   "per_hits": [],
-   "hits": [
-    "physics",
-    "sensor"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "c3194fc7ece0",
-   "source": "hackaday",
-   "title": "Fast Volumetric Imaging of Seizures with Adaptive Optics Light Sheet Microscopy",
-   "url": "https://hackaday.com/2026/07/24/fast-volumetric-imaging-of-seizures-with-adaptive-optics-light-sheet-microscopy",
-   "published": "2026-07-25",
-   "summary": "Key to understanding something like epilepsy is to be able to record highly transient events in biological tissues. Generally this is done using light sheet microscopy, which provides effectively a …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 68,
-   "why": "",
-   "obj_hits": [
-    "optics",
-    "imaging"
-   ],
-   "per_hits": [],
-   "hits": [
-    "optics",
-    "imaging"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "472300f0a63d",
-   "source": "hackaday",
-   "title": "An Improved Spectrometer, No Lasers Required",
-   "url": "https://hackaday.com/2024/05/27/an-improved-spectrometer-no-lasers-required",
-   "published": "2024-05-28",
-   "summary": "Here at Hackaday, we love it when someone picks up the ball from a previous project and runs with it. That’s what we’re all about, really — putting out cool …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 68,
-   "why": "",
-   "obj_hits": [
-    "spectrometer",
-    "laser"
-   ],
-   "per_hits": [],
-   "hits": [
-    "spectrometer",
-    "laser"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "6ee6d43a2190",
-   "source": "hackaday",
-   "title": "Chernobyl’s Robots, or the Hackathon From Hell",
-   "url": "https://hackaday.com/2026/08/07/chernobyls-robots-or-the-hackathon-from-hell",
-   "published": "2026-08-07",
-   "summary": "When the Chernobyl Nuclear Power Plant’s #4 reactor experienced an extreme criticality event on that infamous day in 1986, the resulting steam explosion and lack of any kind of containment …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 68,
-   "why": "",
-   "obj_hits": [
-    "plant"
-   ],
-   "per_hits": [],
-   "hits": [
-    "plant"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "30f8d36a20a9",
-   "source": "hackaday",
-   "title": "The Hottest Spark Plugs Were Actually Radioactive",
-   "url": "https://hackaday.com/2025/10/01/the-hottest-spark-plugs-were-actually-radioactive",
-   "published": "2025-10-01",
-   "summary": "In the middle of the 20th century, the atom was all the rage. Radiation was the shiny new solution to everything while being similarly poorly understood by the general public …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 68,
-   "why": "",
-   "obj_hits": [
-    "radiation",
-    "radio"
-   ],
-   "per_hits": [],
-   "hits": [
-    "radiation",
-    "radio"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "5cfac8e70714",
-   "source": "hackaday",
-   "title": "915 MHz Forecast: Rolling Your Own Offline Weather Station",
-   "url": "https://hackaday.com/2025/12/19/915-mhz-forecast-rolling-your-own-offline-weather-station",
-   "published": "2025-12-20",
-   "summary": "There are a lot of options for local weather stations; most of them, however, are sensors tied to a base station, often requiring an internet connection to access all features. …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 68,
-   "why": "",
-   "obj_hits": [
-    "sensor",
-    "weather"
-   ],
-   "per_hits": [],
-   "hits": [
-    "sensor",
-    "weather"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "14e5249a3e85",
-   "source": "hackaday",
-   "title": "This Week in Security: It’s Patch Tuesday Again, TVs Spying, Supply Chain Worms Return, Prolonged Hack Impacts, Stolen IDs",
-   "url": "https://hackaday.com/2026/09/11/this-week-in-security-its-patch-tuesday-again-tvs-spying-supply-chain-worms-return-prolonged-hack-impacts-stolen-ids",
-   "published": "2026-09-11",
-   "summary": "Several times this summer, Microsoft’s Patch Tuesday, the monthly roundup of major security patches for Microsoft products, has included record-breaking numbers of security fixes. The August 2026 patch set actually …read more",
-   "meta": {
-    "query": "water quality"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "36b406d948c8",
-   "source": "hackaday",
-   "title": "Getting Back Into Resin Printing: First Results",
-   "url": "https://hackaday.com/2026/08/12/getting-back-into-resin-printing-first-results",
-   "published": "2026-08-12",
-   "summary": "When we last left off, I had just set up a new SLA resin printer and was on the verge of doing the initial round of printing to see just …read more",
-   "meta": {
-    "query": "water quality"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "9b2681d9ab34",
-   "source": "hackaday",
-   "title": "Know Your Food: Our Daily Bread",
-   "url": "https://hackaday.com/2026/08/05/know-your-food-our-daily-bread",
-   "published": "2026-08-05",
-   "summary": "It’s time to return to our no-punches-pulled look at food manufacture, and this time we’re looking at the humble loaf of bread. As before, we’re approaching the subject with a …read more",
-   "meta": {
-    "query": "water quality"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "d0c3a401040d",
-   "source": "hackaday",
-   "title": "Teardown and Repair of an Insoma Water Timer",
-   "url": "https://hackaday.com/2026/09/19/teardown-and-repair-of-a-insoma-water-timer",
-   "published": "2026-09-19",
-   "summary": "Water timers are nifty devices that can water the lawn at set times or keep that vegetable garden from turning into a dustbowl. When [electronupdate] timer refused to output water …read more",
-   "meta": {
-    "query": "oscilloscope"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "686896893ee7",
-   "source": "hackaday",
-   "title": "Rusting an E-scooter (In a Good Way)",
-   "url": "https://hackaday.com/2026/09/13/rusting-an-e-scooter-in-a-good-way",
-   "published": "2026-09-13",
-   "summary": "It is a classic Hackaday situation. You have an Egret GT E-scooter. It has a screen that shows the usual dash stats, but that led to an annoyance. You could …read more",
-   "meta": {
-    "query": "oscilloscope"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "bbd57f420ef6",
-   "source": "hackaday",
-   "title": "Building a DIY Centrifuge For Blood Processing",
-   "url": "https://hackaday.com/2026/09/17/building-a-diy-centrifuge-for-blood-processing",
-   "published": "2026-09-18",
-   "summary": "If you want to do certain types of lab work with blood, you’ll need a centrifuge. It’s often possible to find serviceable units on the used market, but they may …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 66,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "build",
-    "diy"
-   ],
-   "hits": [
-    "build",
-    "diy"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "22fc11b479cc",
-   "source": "hackaday",
-   "title": "Build Yourself a Graphing Weather Display",
-   "url": "https://hackaday.com/2025/12/08/build-yourself-a-graphing-weather-display",
-   "published": "2025-12-09",
-   "summary": "These days, Internet connectivity is ubiquitous, so you can look up live weather data on just about any device around you. Regardless, [Jozerworx] wanted a simple, clean, independent weather display, …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 66,
-   "why": "",
-   "obj_hits": [
-    "weather"
-   ],
-   "per_hits": [
-    "build",
-    "self"
-   ],
-   "hits": [
-    "weather",
-    "build",
-    "self"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "cfa2bbeb1d74",
-   "source": "hackaday",
-   "title": "3D Printed Caliper Extensions Make Hole Measurement Easier",
-   "url": "https://hackaday.com/2024/12/06/3d-printed-extensions-make-hole-measurement-easier",
-   "published": "2024-12-07",
-   "summary": "If there’s anything more frustrating than mounting holes that don’t line up with the thing you’re mounting, we don’t know what it could be. You measure as carefully as possible, …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [
-    "measurement"
-   ],
-   "per_hits": [
-    "3d print"
-   ],
-   "hits": [
-    "measurement",
-    "3d print"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "c513a43f5eae",
-   "source": "hackaday",
-   "title": "Environmental Monitoring on the Cheap",
-   "url": "https://hackaday.com/2026/01/24/environmental-monitoring-on-the-cheap",
-   "published": "2026-01-24",
-   "summary": "If there is one thing we took from [azwankhairul345’s] environmental monitor project, it is this: sensors and computing power for such a project are a solved problem. What’s left is …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [
-    "sensor"
-   ],
-   "per_hits": [
-    "cheap"
-   ],
-   "hits": [
-    "sensor",
-    "cheap"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "fcd46c21a475",
-   "source": "hackaday",
-   "title": "Hacking Digital Calipers for Automated Measurements and Sorta-Micron Accuracy",
-   "url": "https://hackaday.com/2025/03/06/hacking-digital-calipers-for-automated-measurements-and-sorta-micron-accuracy",
-   "published": "2025-03-06",
-   "summary": "We’ll take a guess that most readers have a set of digital calipers somewhere close to hand right now. The cheapest ones tend to be a little unsatisfying in the …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [
-    "measurement"
-   ],
-   "per_hits": [
-    "cheap"
-   ],
-   "hits": [
-    "measurement",
-    "cheap"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "3e98a6b5151f",
-   "source": "hackaday",
-   "title": "About Right",
-   "url": "https://hackaday.com/2024/05/18/about-right",
-   "published": "2024-05-18",
-   "summary": "I really enjoyed reading Anne Ogborn’s piece on making simple DIY measurement devices for physical quantities like force, power, and torque. It is full of food for thought, if you’re …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [
-    "measurement"
-   ],
-   "per_hits": [
-    "diy"
-   ],
-   "hits": [
-    "measurement",
-    "diy"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "10574f54542d",
-   "source": "hackaday",
-   "title": "Building a Microscope without Lenses",
-   "url": "https://hackaday.com/2025/12/04/building-a-microscope-without-lenses",
-   "published": "2025-12-05",
-   "summary": "It’s relatively easy to understand how optical microscopes work at low magnifications: one lens magnifies an image, the next magnifies the already-magnified image, and so on until it reaches the …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [
-    "microscope"
-   ],
-   "per_hits": [
-    "build"
-   ],
-   "hits": [
-    "microscope",
-    "build"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "3b0f0284e56c",
-   "source": "hackaday",
-   "title": "Give Your Microscope Polarized $5 Shades to Fight Glare",
-   "url": "https://hackaday.com/2025/10/13/give-your-microscope-polarized-5-shades-to-fight-glare",
-   "published": "2025-10-13",
-   "summary": "Who doesn’t know the problem of glare when trying to ogle a PCB underneath a microscope of some description? Even with a ring light, you find yourself struggling to make …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [
-    "microscope"
-   ],
-   "per_hits": [
-    "self"
-   ],
-   "hits": [
-    "microscope",
-    "self"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "76d4b33c6319",
-   "source": "hackaday",
-   "title": "How A Failed Video Format Spawned A New Kind of Microscope",
-   "url": "https://hackaday.com/2025/09/23/how-a-failed-video-format-spawned-a-new-kind-of-microscope",
-   "published": "2025-09-24",
-   "summary": "The video cassette tape was really the first successful home video format; discs just couldn’t compete back in the early days. That’s not to say nobody tried, however, with RCA’s …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [
-    "microscope"
-   ],
-   "per_hits": [
-    "home"
-   ],
-   "hits": [
-    "microscope",
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "a6fecdafa884",
-   "source": "hackaday",
-   "title": "Spectroscopy on the Cheap",
-   "url": "https://hackaday.com/2024/09/27/spectroscopy-on-the-cheap",
-   "published": "2024-09-28",
-   "summary": "[Project 326] wanted to know exactly what gas was in some glass tubes. The answer, of course, is to use a spectrometer, but that’s an expensive piece of gear, right? …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [
-    "spectrometer"
-   ],
-   "per_hits": [
-    "cheap"
-   ],
-   "hits": [
-    "spectrometer",
-    "cheap"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "78db3032a1ef",
-   "source": "hackaday",
-   "title": "Gamma Ray Spectroscopy the Pomelo Way",
-   "url": "https://hackaday.com/2024/06/05/gamma-ray-spectroscopy-the-pomelo-way",
-   "published": "2024-06-05",
-   "summary": "Depending on the circumstances you find yourself in, a Geiger counter can be a tremendously useful tool. With just a click or a chirp, it can tell you if any …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [
-    "geiger"
-   ],
-   "per_hits": [
-    "self"
-   ],
-   "hits": [
-    "geiger",
-    "self"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "e817a5e2f193",
-   "source": "hackaday",
-   "title": "Perovskite Solar Cell Crystals See the Invisible",
-   "url": "https://hackaday.com/2025/09/16/perovskite-solar-cell-crystals-see-the-invisible",
-   "published": "2025-09-17",
-   "summary": "A new kind of ‘camera’ is poking at the invisible world of the human body – and it’s made from the same weird crystals that once shook up solar energy. …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [
-    "camera"
-   ],
-   "per_hits": [
-    "made"
-   ],
-   "hits": [
-    "camera",
-    "made"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "8cbb9d7531e5",
-   "source": "hackaday",
-   "title": "Binary Clock Also Monitors Weather",
-   "url": "https://hackaday.com/2025/11/17/binary-clock-also-monitors-weather",
-   "published": "2025-11-18",
-   "summary": "There are two things most of us want to know on a daily basis—the weather, and what time it is. [Guitarman9119] built a single device that can provide both pieces …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [
-    "weather"
-   ],
-   "per_hits": [
-    "built"
-   ],
-   "hits": [
-    "weather",
-    "built"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "799768e7c235",
-   "source": "hackaday",
-   "title": "Building A Desk Display For Time And Weather Data",
-   "url": "https://hackaday.com/2025/10/02/building-a-desk-display-for-time-and-weather-data",
-   "published": "2025-10-02",
-   "summary": "Just about every laptop, desktop, and smartphone in your life can tell you the date, time, and current weather predictions. However, sometimes it’s nice to have simple data displayed on …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [
-    "weather"
-   ],
-   "per_hits": [
-    "build"
-   ],
-   "hits": [
-    "weather",
-    "build"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "61ade933054b",
+   "id": "080a2933ee15",
    "source": "hn",
-   "title": "Homelab Doesn't Need to Run 24/7",
-   "url": "https://noted.lol/your-homelab-doesnt-need-to-run-24-7",
-   "published": "2026-10-17",
-   "summary": "",
+   "title": "Ask HN: Fable hacked my piano, can I release the results?",
+   "url": "https://news.ycombinator.com/item?id=49577129",
+   "published": "2026-09-05",
+   "summary": "I have a self playing piano, using a system called PianoDisc Protigy. They have an online store which sells music for their system, from various modern artists along with classics such as Bach and Beethoven. Last night I saw they had released some music from Eric Satre, a 19th century French composer, which I bought. Curious if I could have just used AI to create these files, I began experimenting",
    "meta": {
-    "points": 4,
-    "comments": 2
+    "points": 299,
+    "comments": 166
    },
    "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "21209da8cf91",
-   "source": "hn",
-   "title": "HomelabFest will be in St. Louis in September 2027",
-   "url": "https://www.homelabfest.org/",
-   "published": "2026-09-26",
-   "summary": "",
-   "meta": {
-    "points": 78,
-    "comments": 61
-   },
-   "targeted": false,
-   "score": 61,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "0383c5657091",
-   "source": "hackaday",
-   "title": "Best-Ever Brainstem Map Created by Indian Scientists",
-   "url": "https://hackaday.com/2026/07/30/best-ever-brainstem-map-created-by-indian-scientists",
-   "published": "2026-07-31",
-   "summary": "The elusive brainstem is a small, yet critical part of our brain: the slightest damage to it could prove fatal. But how it works is not fully understood today. Indian …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "87754e754875",
-   "source": "hackaday",
-   "title": "De-Aging Human Tissue Using Special Enzyme to Remove AGEs",
-   "url": "https://hackaday.com/2026/07/27/de-aging-human-tissue-using-special-enzyme-to-remove-ages",
-   "published": "2026-07-28",
-   "summary": "With human bodies being bags of mostly salty water and countless messy biochemical processes, it’s little wonder that over time some residues tend to collect in these systems. Although evolution …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "c43e0406599d",
-   "source": "hackaday",
-   "title": "Fully Characterized Systems",
-   "url": "https://hackaday.com/2026/08/15/fully-characterized-systems",
-   "published": "2026-08-15",
-   "summary": "A friend from my old hackerspace was in grad school for electrical engineering. He had a professor who would ask, when something went wrong with a student project, “Have you …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "31b836ff27e4",
-   "source": "hackaday",
-   "title": "Combination Safety Glasses and Measurement Tool",
-   "url": "https://hackaday.com/2024/11/08/combination-safety-glasses-and-measurement-tool",
-   "published": "2024-11-08",
-   "summary": "While rulers and tape measures are ubiquitous, they always seem to disappear when you need them. We know you’d never forget your safety glasses (safety first!), so what if they …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [
-    "measurement"
-   ],
-   "per_hits": [],
-   "hits": [
-    "measurement"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "68bfe7fc8057",
-   "source": "hackaday",
-   "title": "Add Sensors to Everything!",
-   "url": "https://hackaday.com/2026/07/25/add-sensors-to-everything",
-   "published": "2026-07-25",
-   "summary": "“You can’t control what you can’t measure” goes the old chestnut. But that’s a little bit negative, in my opinion. Instead, think of the benefits of sprinkling sensors around everywhere: …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [
-    "sensor"
-   ],
-   "per_hits": [],
-   "hits": [
-    "sensor"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "fb2cc0444cc3",
-   "source": "hackaday",
-   "title": "Teardown of HP Optical Link and Signal Investigations Using Siglent Technology",
-   "url": "https://hackaday.com/2025/11/08/teardown-of-hp-optical-link-and-signal-investigations-using-siglent-technology",
-   "published": "2025-11-09",
-   "summary": "Anything with a laser has undeniable hacker appeal, even if the laser’s task is as pedestrian as sending data over a fiber optic cable. [Shahriar] from [The Signal Path] must …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [
-    "laser"
-   ],
-   "per_hits": [],
-   "hits": [
-    "laser"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "9dbe7c164a0f",
-   "source": "hackaday",
-   "title": "Flexures Keep This Printed Displacement Sensor In Line",
-   "url": "https://hackaday.com/2024/05/18/flexures-keep-this-printed-displacement-sensor-in-line",
-   "published": "2024-05-18",
-   "summary": "When the job at hand is measuring something with micron-range precision, thoughts generally turn to a tool with a Mitutoyo or Starrett nameplate. But with a clever design and a …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [
-    "sensor"
-   ],
-   "per_hits": [],
-   "hits": [
-    "sensor"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "27900158e238",
-   "source": "hackaday",
-   "title": "19th Century Photography in Extreme Miniature",
-   "url": "https://hackaday.com/2025/06/29/19th-century-photography-in-extreme-miniature",
-   "published": "2025-06-29",
-   "summary": "Ever since the invention of the microscope, humanity has gained access to the world of the incredibly small. Scientists discovered that creatures never known to exist before are alive in …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [
-    "microscope"
-   ],
-   "per_hits": [],
-   "hits": [
-    "microscope"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "43ff83b37307",
-   "source": "hackaday",
-   "title": "RF Spectrometer Sees Inside",
-   "url": "https://hackaday.com/2023/01/30/rf-spectrometer-sees-inside",
-   "published": "2023-01-31",
-   "summary": "Spectrometry is a well-known technique or, more correctly, a set of techniques. We usually think of it as the analysis of light to determine what chemicals are producing it. For …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [
-    "spectrometer"
-   ],
-   "per_hits": [],
-   "hits": [
-    "spectrometer"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "6696e923877c",
-   "source": "hackaday",
-   "title": "Retro Weather Display Acts Like It’s Windows 95",
-   "url": "https://hackaday.com/2026/03/19/retro-weather-display-acts-like-its-windows-95",
-   "published": "2026-03-19",
-   "summary": "Sometimes you really need to know what the weather is doing, but you don’t want to look at your phone. For times like those, this neat weather display from [Jordan] …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [
-    "weather"
-   ],
-   "per_hits": [],
-   "hits": [
-    "weather"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "208a057b6593",
-   "source": "hn",
-   "title": "Citizen Science Groups Grapple with the Rise of A.I. Slop",
-   "url": "https://www.nytimes.com/2026/10/16/science/citizen-science-ai-slop.html",
-   "published": "2026-10-18",
-   "summary": "",
-   "meta": {
-    "points": 2,
-    "comments": 0
-   },
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "a74bb076af23",
-   "source": "hn",
-   "title": "My Homelab Two Years Later, Every Upgrade and What It Cost",
-   "url": "https://www.joekarlsson.com/blog/homelab-two-years-later",
-   "published": "2026-10-05",
-   "summary": "",
-   "meta": {
-    "points": 17,
-    "comments": 16
-   },
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "3ef2144a01c2",
-   "source": "hn",
-   "title": "Backup Tapes Come Back to the Homelab",
-   "url": "https://hackaday.com/2026/10/12/backup-tapes-come-back-to-the-homelab",
-   "published": "2026-10-16",
-   "summary": "",
-   "meta": {
-    "points": 8,
-    "comments": 1
-   },
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "c8f55ab30054",
-   "source": "hn",
-   "title": "Aperture GA: Building a home(lab) for agentic AI",
-   "url": "https://tailscale.com/blog/aperture-ga",
-   "published": "2026-08-26",
-   "summary": "",
-   "meta": {
-    "points": 4,
-    "comments": 1
-   },
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "build",
-    "home"
-   ],
-   "hits": [
-    "build",
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "5a7f0d1f20e4",
-   "source": "hn",
-   "title": "What our experimental self-healing software loop shipped in two weeks",
-   "url": "https://www.replay.io/blog/what-our-experimental-self-healing-software-loop-shipped-in-two-weeks",
-   "published": "2026-10-08",
-   "summary": "",
-   "meta": {
-    "points": 2,
-    "comments": 0
-   },
-   "targeted": false,
-   "score": 58,
+   "score": 47,
    "why": "",
    "obj_hits": [],
    "per_hits": [
@@ -1974,403 +232,167 @@
    "hits": [
     "self"
    ],
-   "title_signal": true
-  },
-  {
-   "id": "0e2e7f8c95c3",
-   "source": "hackaday",
-   "title": "Hackaday Podcast Episode Ep 377: Parallel Pixels, Wiggly Consoles, and Seven Segments",
-   "url": "https://hackaday.com/2026/07/10/hackaday-podcast-episode-ep-377-parallel-pixels-wiggly-consoles-and-seven-segments",
-   "published": "2026-07-10",
-   "summary": "This week’s podcast sees Elliot joined by Jenny List, as both suffer silently in the European summer heat because the sound of a desk fan would come over on the …read more",
-   "meta": {
-    "query": "spectrometer"
-   },
-   "targeted": true,
-   "score": 56,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
    "title_signal": false
   },
   {
-   "id": "794b01fb9ddf",
-   "source": "hackaday",
-   "title": "GOES-19 Goes Down, NOAA Investigating",
-   "url": "https://hackaday.com/2026/07/16/goes-19-goes-down-noaa-investigating",
-   "published": "2026-07-16",
-   "summary": "Some breaking news from geostationary orbit, as the National Oceanic and Atmospheric Administration (NOAA) has announced that its newest Geostationary Operational Environmental Satellite (GOES) satellite unexpectedly went offline last night, …read more",
-   "meta": {
-    "query": "weather station"
-   },
-   "targeted": true,
-   "score": 56,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "9a6fd19d04ed",
-   "source": "hackaday",
-   "title": "Homemade VNA Delivers High-Frequency Performance on a Budget",
-   "url": "https://hackaday.com/2025/04/16/homemade-vna-delivers-high-frequency-performance-on-a-budget",
-   "published": "2025-04-16",
-   "summary": "With vector network analyzers, the commercial offerings seem to come in two flavors: relatively inexpensive but limited capabilities, and full-featured but scary expensive. There doesn’t seem to be much middle …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 56,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "made",
-    "home"
-   ],
-   "hits": [
-    "made",
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "4a9da77574f7",
-   "source": "hackaday",
-   "title": "Bearing Witness: Measuring the Wobbles in Rotary Build",
-   "url": "https://hackaday.com/2025/07/21/bearing-witness-measuring-the-wobbles-in-rotary-build",
-   "published": "2025-07-21",
-   "summary": "3D printing has simplified the creation of many things, but part of making something is knowing just how much you can rely on it. On the [BubsBuilds] YouTube channel, he …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 56,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "build",
-    "3d print"
-   ],
-   "hits": [
-    "build",
-    "3d print"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "33651be16a71",
+   "id": "c519ef46efa3",
    "source": "hn",
-   "title": "My Homelab Got Hacked – A Postmortem",
-   "url": "https://phunky.cafe/my-homelab-got-hacked",
-   "published": "2026-08-13",
-   "summary": "",
-   "meta": {
-    "points": 26,
-    "comments": 7
-   },
-   "targeted": false,
-   "score": 55,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "0203ae2d3a0f",
-   "source": "hn",
-   "title": "Why Big Tech's War on Game Servers Should Terrify Every Home Lab Enthusiast",
-   "url": "https://unknownuniverse.uk/privacy-security/big-tech-war-on-self-hosting",
-   "published": "2026-09-03",
-   "summary": "",
-   "meta": {
-    "points": 8,
-    "comments": 1
-   },
-   "targeted": false,
-   "score": 54,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "a8bd6a3e2abb",
-   "source": "hn",
-   "title": "Destroying My Homelab with Kubernetes – Linux Society UNSW 2026 [video]",
-   "url": "https://www.youtube.com/watch?v=U-xqxMQD2QE",
-   "published": "2026-08-16",
-   "summary": "",
-   "meta": {
-    "points": 8,
-    "comments": 1
-   },
-   "targeted": false,
-   "score": 54,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "c8874b9015fb",
-   "source": "hn",
-   "title": "How to Use Podman for Home Lab Setup",
-   "url": "https://oneuptime.com/blog/post/2026-03-18-use-podman-home-lab-setup/view",
-   "published": "2026-08-10",
-   "summary": "",
-   "meta": {
-    "points": 7,
-    "comments": 1
-   },
-   "targeted": false,
-   "score": 54,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "7106e628295b",
-   "source": "hn",
-   "title": "AI Home Lab for Beginners: The Deep Dive",
-   "url": "https://augmentedmind.substack.com/p/ai-home-lab-for-beginners",
-   "published": "2026-08-25",
-   "summary": "",
-   "meta": {
-    "points": 7,
-    "comments": 0
-   },
-   "targeted": false,
-   "score": 54,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "e7dc1e265c3c",
-   "source": "hn",
-   "title": "Cove.town – an experiment in AT Protocol self-hosting",
-   "url": "https://cove.town/",
-   "published": "2026-09-02",
-   "summary": "",
+   "title": "Show HN: Self-Hosted Social Media Agents with Raspberry Pi",
+   "url": "https://www.microphone.computer/",
+   "published": "2026-08-23",
+   "summary": "A while back I posted about a project I was working on for a real-time voice agent that runs ads on Meta to build conviction and prioritize side gig/business ideas ( https://news.ycombinator.com/item?id=48900788 ); you yammer away and it automates market research, problem statements and hypotheses. I've been working with some folks from HN on the app since then. What we've been focused on building",
    "meta": {
     "points": 1,
     "comments": 0
    },
    "targeted": false,
-   "score": 54,
+   "score": 45,
    "why": "",
    "obj_hits": [],
    "per_hits": [
-    "self"
+    "build",
+    "self",
+    "raspberry pi"
    ],
    "hits": [
-    "self"
+    "build",
+    "self",
+    "raspberry pi"
    ],
    "title_signal": true
   },
   {
-   "id": "886e99c12974",
-   "source": "hackaday",
-   "title": "Is This The World’s Smallest Multichannel Voltmeter?",
-   "url": "https://hackaday.com/2024/05/22/is-this-the-worlds-smallest-multichannel-voltmeter",
-   "published": "2024-05-23",
-   "summary": "The instrument which probably the greatest number of Hackaday readers own is likely to be the humble digital multimeter. They’re cheap and useful, but they’re single-channel, and difficult to incorporate …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 52,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "cheap"
-   ],
-   "hits": [
-    "cheap"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "05c9bd5f543a",
-   "source": "hackaday",
-   "title": "Cheap And Aggressive DRAM Chip Tester",
-   "url": "https://hackaday.com/2025/12/08/cheap-and-aggressive-dram-chip-tester",
-   "published": "2025-12-08",
-   "summary": "People enjoy retrocomputing for a wide variety of reasons – sometimes it’s about having a computer you could fully learn, or nostalgia for chips that played a part in your …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 52,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "cheap"
-   ],
-   "hits": [
-    "cheap"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "7595da295576",
-   "source": "hackaday",
-   "title": "Seeing Fireworks in a Different Light",
-   "url": "https://hackaday.com/2024/01/06/seeing-fireworks-in-a-different-light",
-   "published": "2024-01-07",
-   "summary": "If you’re worried that [Roman Dvořák]’s spectroscopic analysis of fireworks is going to ruin New Year’s Eve or the Fourth of July, relax — the science of this build only …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 52,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "build"
-   ],
-   "hits": [
-    "build"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "9588aad2e895",
-   "source": "hackaday",
-   "title": "Meet The Shape That Cannot Pass Through Itself",
-   "url": "https://hackaday.com/2025/11/17/meet-the-shape-that-cannot-pass-through-itself",
-   "published": "2025-11-17",
-   "summary": "Can a shape pass through itself? That is to say, if one had two identical solids, would it be possible to orient one such that a hole could be cut …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 52,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "self"
-   ],
-   "hits": [
-    "self"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "faa28044da82",
-   "source": "hackaday",
-   "title": "Citizen Science is All Fun and Games",
-   "url": "https://hackaday.com/2025/07/13/citizen-science-is-all-fun-and-games",
-   "published": "2025-07-14",
-   "summary": "You are probably familiar with initiatives like Seti@Home, where you donate unused computer power to some science project that needs computer cycles. [Jeff Yoshimi] wants to borrow your most powerful …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 52,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "hits": [
-    "home"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "7eb8aab441e8",
-   "source": "hackaday",
-   "title": "Inviting the Public to Take Stereo Photos for Science",
-   "url": "https://hackaday.com/2024/09/20/inviting-the-public-to-take-stereo-photos-for-science",
-   "published": "2024-09-20",
-   "summary": "[Lynnadeng]’s team wanted to monitor the Los Angeles River over time and wanted citizen scientists — or anyone, for that matter — to help. They built a dual phone holder …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 52,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "built"
-   ],
-   "hits": [
-    "built"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "13f5b4f01cce",
+   "id": "1ef7ab61b466",
    "source": "hn",
-   "title": "Ask HN: What do you do as a 50yo+ programmer not ready to quit?",
-   "url": "https://news.ycombinator.com/item?id=50163386",
-   "published": "2026-10-20",
-   "summary": "I'm self taught, 51yo and been going through some recent health issues. I'm in the job market in a second tier city, and eerything feels upside dowm. How do I deal with the current market that seems fixated on AI graded leet code pre-screenings? I mean if you give me an actual 1:1 or meaningful homework I have no problem. But these pre screens feell like a challenge between rote memorization and g",
+   "title": "Show HN: I built self-hosted deployment automation tool for Windows and IIS",
+   "url": "https://fdeploy.com/",
+   "published": "2026-08-25",
+   "summary": "Seven years in the making (I admit that I did get a kid at some point which slowed down progress and brought it to a halt quite a few times), I decided to finaly release it, with a rather drastic change to the now (I believe) generous licensing model. Unlike current major players in this field, I decided to go with uncrippled, free version for commercial use for corps with up to 1M USD ARR. I pour",
    "meta": {
-    "points": 4,
-    "comments": 0
+    "points": 35,
+    "comments": 23
    },
    "targeted": false,
-   "score": 51,
+   "score": 44,
    "why": "",
    "obj_hits": [],
    "per_hits": [
-    "home",
+    "built",
     "self"
    ],
    "hits": [
-    "home",
+    "built",
     "self"
    ],
-   "title_signal": false
+   "title_signal": true
   },
   {
-   "id": "595429eb6519",
+   "id": "60d11722eb2e",
    "source": "hn",
-   "title": "Generative AI threatens to upend citizen science records",
-   "url": "https://phys.org/news/2026-08-creatures-born-code-generative-ai.html",
-   "published": "2026-08-09",
-   "summary": "",
+   "title": "Show HN: ColliePWA, a self-hosted mobile terminal for coding agents, with alerts",
+   "url": "https://colliepwa.dev/",
+   "published": "2026-09-20",
+   "summary": "Sharing the PWA[1] I built over the last couple of weeks to access my terminal sessions/agents when not in front of my computer. This started off as a weekend experiment right when herdr[2] (terminal multiplexer) released the functionality to write custom plugins and it's been quite helpful to me ever since. The general idea is that this runs a web app on the host machine which is then exposed thr",
    "meta": {
     "points": 3,
+    "comments": 2
+   },
+   "targeted": false,
+   "score": 43,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "built",
+    "self"
+   ],
+   "hits": [
+    "built",
+    "self"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "7fdcc98a5e33",
+   "source": "hn",
+   "title": "Show HN: Omnesis – A private knowledge layer for ChatGPT and other agents",
+   "url": "https://omnesis.dev/",
+   "published": "2026-09-28",
+   "summary": "Imagine giving ChatGPT or any other agent access to your Whatsapp/iMessage, bank transactions, health data, web pages you see, metadata about all the photos you took, places you visited, all your emails/documents, call logs, meeting notes, your voice mails, and more…. I built a context layer for that purpose. You can connect your Openclaw, Hermes, Claude, ChatGPT, Codex, etc to it. It gives your f",
+   "meta": {
+    "points": 10,
+    "comments": 4
+   },
+   "targeted": false,
+   "score": 43,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "built"
+   ],
+   "hits": [
+    "built"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "51340e71fbbb",
+   "source": "hn",
+   "title": "Show HN: Homebutler – Homelab CLI that gives agents commands, not a shell",
+   "url": "https://github.com/Higangssh/homebutler",
+   "published": "2026-07-30",
+   "summary": "",
+   "meta": {
+    "points": 5,
     "comments": 0
    },
    "targeted": false,
-   "score": 50,
+   "score": 39,
    "why": "",
    "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
+   "per_hits": [
+    "home"
+   ],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
   },
   {
-   "id": "63dfe00415dd",
+   "id": "5b4df9cbdaa3",
    "source": "hn",
-   "title": "Why I prefer Opus 5 to Fable 5",
-   "url": "https://news.ycombinator.com/item?id=49081970",
-   "published": "2026-07-28",
-   "summary": "I've been experimenting with both since the moment each came out. 4 games, 3 websites and 2 content creation engines later - I think I'm ready to share a bit of my experience and opinion. WHAT I'VE NOTICED ABOUT FABLE 1. Gold in, gold out - meaning I've had the best results by making all my design decisions before giving Fable the kickoff information and prompt. It's much more comfortable making d",
+   "title": "Show HN: Minilith – A zero-dependency CMS stored inside a PNG file",
+   "url": "https://blog.minilith.site/",
+   "published": "2026-09-05",
+   "summary": "I enjoy the constraints of retro development. While building games in PICO-8, I took a interest in the way it packs data into the virtual cartridge. I dug into steganography and started thinking: could I apply the same logic to a content management system? Do we really need all the bloat just to host a micro blog? Minilith is a database free CMS where the entire state (posts, pages, and settings) ",
    "meta": {
-    "points": 22,
-    "comments": 19
+    "points": 13,
+    "comments": 5
    },
    "targeted": false,
-   "score": 50,
+   "score": 39,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "build"
+   ],
+   "hits": [
+    "build"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "505dbe612d55",
+   "source": "hn",
+   "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+   "url": "https://armature.tech/",
+   "published": "2026-08-03",
+   "summary": "Hi HN! We’re Theodore and Louis, founders of Armature (YC P26). We reconstruct the entire session behind the MCP tool calls you receive, including what the user asked their agent to do and what the agent thought. You wrap your MCP in 3 lines of code (our SDK is available in Typescript, Python and Go) and start seeing in your dashboard: - All sessions reconstructed: it’s like reading the real conve",
+   "meta": {
+    "points": 42,
+    "comments": 8
+   },
+   "targeted": false,
+   "score": 36,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
@@ -2378,127 +400,18 @@
    "title_signal": false
   },
   {
-   "id": "5e3743e6a0e3",
-   "source": "hackaday",
-   "title": "Demonstrating Gray Codes With Industrial Display",
-   "url": "https://hackaday.com/2026/03/25/demonstrating-gray-codes-with-industrial-display",
-   "published": "2026-03-26",
-   "summary": "Many people base huge swaths of their lives on foundational philosophical texts, yet few have read them in their entirety. The one that springs to the forefront of many of …read more",
-   "meta": {},
+   "id": "f67c2caf252d",
+   "source": "hn",
+   "title": "Show HN: RunNburn – Run a 295B Moe from a 98GB GGUF on a 64GB RAM Desktop",
+   "url": "https://github.com/coderredlab/runNburn",
+   "published": "2026-07-30",
+   "summary": "runNburn is an Apache-2.0 Rust inference engine for quantized GGUF models that are too big for your fast memory. The core idea: weights stay file-backed (mmap), host residency stays under an explicit byte budget (--ram-budget), and GPU caches are sized from detected free/total VRAM — never from device-name presets. There is no conversion step, no sidecar cache files, no silent requantization. The ",
+   "meta": {
+    "points": 11,
+    "comments": 0
+   },
    "targeted": false,
-   "score": 48,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "b04830bd8f62",
-   "source": "hackaday",
-   "title": "Precision, Imprecision, Intellectual Honesty, and Little Green Men",
-   "url": "https://hackaday.com/2025/10/18/precision-imprecision-intellectual-honesty-and-little-green-men",
-   "published": "2025-10-18",
-   "summary": "If you’ve been following the hubbub about 3I/ATLAS, you’re probably either in the camp that thinks it’s just a comet from ridiculously far away that’s managed to find its way …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 48,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "8e87640662d9",
-   "source": "hackaday",
-   "title": "Digitally Reading a Micrometer’s Output",
-   "url": "https://hackaday.com/2024/07/17/digitally-reading-a-micrometers-output",
-   "published": "2024-07-17",
-   "summary": "If you’re instrumenting your machine tools, or if you’re just curious, you might want to get granular access to the output of a digital micrometer or the like. [Tommy] set …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 48,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4c677de9b363",
-   "source": "hackaday",
-   "title": "Rulers of the Ancient World — Literally!",
-   "url": "https://hackaday.com/2024/07/13/rulers-of-the-ancient-world-literally",
-   "published": "2024-07-13",
-   "summary": "If you were expecting a post about ancient kings and queens, you are probably at the wrong website. [Burn Heart] has a fascination with ancient measuring devices and set out …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 48,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "a596c7acbb72",
-   "source": "hackaday",
-   "title": "Echolocation for Drones",
-   "url": "https://hackaday.com/2026/07/20/echolocation-for-drones",
-   "published": "2026-07-20",
-   "summary": "Bats are remarkable creatures, able to fly at night or inside the confines of caves without light to guide their way. A team of researchers at Worcester Polytechnic Institute (WPI) …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 48,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "958bb6a6eed6",
-   "source": "hackaday",
-   "title": "Ride On with FOSS and GoldenCheetah",
-   "url": "https://hackaday.com/2025/12/03/ride-on-with-foss-and-goldencheetah",
-   "published": "2025-12-04",
-   "summary": "If you exclude certain companies like Peloton, the world of cycling technology is surprisingly open. It’s not perfect by any means, but there are enough open or open-ish standards for …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 48,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "bf60a352039f",
-   "source": "hackaday",
-   "title": "Play Capacitor Cupid With The Matchmaker",
-   "url": "https://hackaday.com/2025/09/23/play-capacitor-cupid-with-the-matchmaker",
-   "published": "2025-09-23",
-   "summary": "Occasionally a design requires capacitors that are much closer to being identical in value to one another than the usual tolerance ranges afford. Precision matching of components from parts on …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 48,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "11928e285262",
-   "source": "hackaday",
-   "title": "Capturing Screenshots Using a Fake Printer",
-   "url": "https://hackaday.com/2025/06/17/capturing-screenshots-using-a-fake-printer",
-   "published": "2025-06-18",
-   "summary": "If you have very old pieces of analogue test equipment with CRTs on your bench, the chances are they will all have surprisingly similar surrounds to their screens. Back when …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 48,
+   "score": 35,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
