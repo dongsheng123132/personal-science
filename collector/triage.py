@@ -18,6 +18,7 @@ import argparse
 import json
 import os
 import pathlib
+import re
 import sys
 import urllib.request
 from datetime import datetime, timezone
@@ -55,6 +56,7 @@ PROMPT = """下面是候选池（按机器分数排序的 JSON，包含新闻、
 
 ### 1. 标题
 原标题：<候选里的 title 原文>
+候选索引：<候选里的 i 字段，只要数字>
 [→ 原文](链接)
 - **年代**：1801 / 1950s / 未知
 - **为什么值得做**：一句话
@@ -157,7 +159,17 @@ def main():
 
     OUT_PATH.parent.mkdir(exist_ok=True)
     OUT_PATH.write_text(text + "\n", "utf-8")
-    print(f"已写 {OUT_PATH}（{len(text)} 字符）")
+
+    # 把 AI 选中的条目单独存一份，给 design.py 用——设计要跟着筛选的判断走
+    picked_ids = [int(x) for x in re.findall(r"候选索引[：:]\s*(\d+)", text)]
+    picked = [kept[i] for i in picked_ids if 0 <= i < len(kept)]
+    picked_path = BASE / "inbox" / "picked.json"
+    picked_path.write_text(json.dumps({
+        "generated_at": NOW.isoformat(timespec="seconds"),
+        "count": len(picked),
+        "items": picked,
+    }, ensure_ascii=False, indent=1) + "\n", "utf-8")
+    print(f"已写 {OUT_PATH}（{len(text)} 字符），选中 {len(picked)} 条给设计器")
     return 0
 
 

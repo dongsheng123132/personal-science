@@ -114,6 +114,9 @@ def main():
         return 0
 
     source = POOL_PATH if POOL_PATH.exists() else RAW_PATH
+    picked_path = BASE / "inbox" / "picked.json"
+    if picked_path.exists():
+        source = picked_path  # 优先用筛选器选中的条目
     if not source.exists():
         print("没有候选池，先跑 collect.py")
         return 0
