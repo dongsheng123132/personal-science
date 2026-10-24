@@ -9,28 +9,33 @@
       "geiger counter",
       "air quality",
       "water quality",
-      "thermometer",
       "calibration",
       "sensor",
-      "science project",
       "DIY lab",
-      "radiation",
       "weather station",
-      "magnetometer",
       "oscilloscope"
     ],
     "per_query": 5
+  },
+  "feeds": {
+    "enabled": true,
+    "feeds": [
+      { "name": "hackaday", "url": "https://hackaday.com/tag/science/feed/", "enabled": true },
+      { "name": "hackaday", "url": "https://hackaday.com/tag/measurement/feed/", "enabled": true },
+      { "name": "hackaday", "url": "https://hackaday.com/tag/sensors/feed/", "enabled": true },
+      { "name": "hackaday", "url": "https://hackaday.com/tag/test-equipment/feed/", "enabled": true },
+      { "name": "hackaday", "url": "https://hackaday.com/tag/metrology/feed/", "enabled": true },
+      { "name": "hackaday", "url": "https://hackaday.com/tag/microscope/feed/", "enabled": true },
+      { "name": "hackaday", "url": "https://hackaday.com/tag/spectroscopy/feed/", "enabled": true },
+      { "name": "hackaday", "url": "https://hackaday.com/tag/radiation/feed/", "enabled": true },
+      { "name": "hackaday", "url": "https://hackaday.com/tag/weather/feed/", "enabled": true },
+      { "name": "hackaday", "url": "https://hackaday.com/tag/citizen-science/feed/", "enabled": true }
+    ]
   },
   "hn": {
     "enabled": true,
     "queries": ["citizen science", "DIY science", "home lab", "self experiment"],
     "days": 90
-  },
-  "feeds": {
-    "enabled": false,
-    "feeds": [
-      { "name": "hackaday", "url": "https://hackaday.com/feed/", "enabled": true }
-    ]
   },
   "github": {
     "enabled": false,
