@@ -43,7 +43,18 @@ jobs:
           git add inbox feed collector/seen.json
           if git diff --staged --quiet; then
             echo "今天没有新内容"
-          else
-            git commit -m "collect: $(date -u +%F)"
-            git push
+            exit 0
           fi
+          git commit -m "collect: $(date -u +%F)"
+          # 如果同时有人往 main 推，push 会被拒；rebase 后重试，别让数据丢
+          for i in 1 2 3; do
+            if git push; then
+              echo "推送成功"
+              exit 0
+            fi
+            echo "推送被拒，rebase 后重试（$i/3）"
+            git pull --rebase || true
+            sleep 3
+          done
+          echo "推送失败" >&2
+          exit 1
