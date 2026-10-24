@@ -5,4 +5,4 @@
 完整原始池在 [raw.json](raw.json)。挑出来的写进 `inbox/candidates.md`，
 再照着 [实验模板](../experiments/_template.md) 写成页面，提 PR 进清单。
 
-- **强纲领** — 66 分 · `wikipedia` · 无日期 · [打开](https://zh.wikipedia.org/wiki/%E5%BC%BA%E7%BA%B2%E9%A2%86)
+- **加拿大** — 66 分 · `wikipedia` · 无日期 · [打开](https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7)

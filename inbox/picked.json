@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-24T10:29:02+00:00",
- "count": 8,
+ "generated_at": "2026-10-24T10:31:10+00:00",
+ "count": 5,
  "items": [
   {
    "id": "7f435caa1a8d",
@@ -151,95 +151,6 @@
    "modern_hits": [],
    "hits": [],
    "title_signal": false
-  },
-  {
-   "id": "e4783fe669af",
-   "source": "classic",
-   "title": "布朗运动（1827）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%B8%83%E6%9C%97%E8%BF%90%E5%8A%A8",
-   "published": "",
-   "summary": "为'原子真实存在'提供证据；重做方式：显微镜看牛奶/墨汁里的颗粒，手机拍视频，AI 追踪轨迹算均方位移；为什么值得：爱因斯坦 1905 年用它证明原子存在；今天 AI 帮你追每一颗粒子；难度：进阶",
-   "meta": {
-    "era": "1827",
-    "level": "进阶",
-    "tools": [
-     "显微镜",
-     "手机",
-     "牛奶"
-    ]
-   },
-   "targeted": true,
-   "score": 83,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [
-    "手机"
-   ],
-   "hits": [
-    "手机"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "53208c3896c4",
-   "source": "classic",
-   "title": "威尔逊云室（1911）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%A8%81%E5%B0%94%E9%80%8A%E4%BA%91%E5%AE%A4",
-   "published": "",
-   "summary": "第一次'看见'粒子轨迹；重做方式：酒精 + 干冰 + 暗盒，手机拍下粒子轨迹，AI 统计轨迹密度；为什么值得：宇宙射线穿过你家的那一刻，被你拍下来了；难度：进阶",
-   "meta": {
-    "era": "1911",
-    "level": "进阶",
-    "tools": [
-     "干冰",
-     "酒精",
-     "手机"
-    ]
-   },
-   "targeted": true,
-   "score": 83,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [
-    "手机"
-   ],
-   "hits": [
-    "手机"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "d9911725f290",
-   "source": "classic",
-   "title": "米尔格拉姆服从实验（1961）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E7%B1%B3%E5%B0%94%E6%A0%BC%E6%8B%89%E5%A7%86%E6%9C%8D%E4%BB%8E%E5%AE%9E%E9%AA%8C",
-   "published": "",
-   "summary": "普通人会在权威下做到什么程度；重做方式：不建议复现原件（伦理问题）；可做低风险版本：观察规则服从、设计问卷；为什么值得：现代科研伦理的起点。做不了，但必须知道它为什么做不了；难度：仅阅读",
-   "meta": {
-    "era": "1961",
-    "level": "仅阅读",
-    "tools": [
-     "问卷",
-     "统计工具"
-    ]
-   },
-   "targeted": true,
-   "score": 90,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": true
   }
  ]
 }

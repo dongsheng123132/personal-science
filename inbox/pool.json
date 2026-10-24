@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-24T10:28:10+00:00",
- "count": 140,
+ "updated_at": "2026-10-24T10:30:45+00:00",
+ "count": 143,
  "items": [
   {
    "id": "b7ecd58ef8e7",
@@ -1296,6 +1296,30 @@
    "title_signal": false
   },
   {
+   "id": "b5b9635e94fc",
+   "source": "wikipedia",
+   "title": "吴健雄",
+   "url": "https://zh.wikipedia.org/wiki/%E5%90%B4%E5%81%A5%E9%9B%84",
+   "published": "",
+   "summary": "吴健雄（英語：Chien-Shiung Wu；1912年5月31日—1997年2月16日），美籍华裔物理学家，在核物理学领域卓有贡献，其在实验物理学方面的造诣常令人将她与瑪麗·居禮相提并论。吴健雄是美国物理学会的第一位女性会长，常被人称為“中國的居里夫人”、“物理研究的第一女士”、“核子研究的女王”以及“世界最傑出的女性實驗物理學家之一”。 吴健雄先后毕业于中華民國国立中央大学和美国加州大学伯克利分校，师从诺贝尔物理学奖得主欧内斯特·劳伦斯。曼哈顿计划期间，她参与研究了如何利用气体扩散法分离铀的两种同位素（铀-235与铀-238）。吴健雄长期在美国哥伦比亚大学任教，她最著名的一项科研成果是利用实验方法验证了宇称不守恒，这项工作令其同事李政道和杨振宁获得1957年的诺贝尔物理学奖，本人也因此获授1978年首次颁发的沃尔夫物理学奖。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "b2a4e0b2b7c7",
    "source": "wikipedia",
    "title": "國立臺灣大學物理學系",
@@ -1368,30 +1392,6 @@
    "title_signal": false
   },
   {
-   "id": "43a3935e4604",
-   "source": "wikipedia",
-   "title": "物理学的进化",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E7%9A%84%E8%BF%9B%E5%8C%96",
-   "published": "",
-   "summary": "《物理学的进化》（英文版原名：The Evolution of Physics或The Evolution of Physics: From Early Concept to Relativity and Quanta，根据版本不同书名有上述的文字差别。中文版译名来自周肇威的译本）是由物理学家阿尔伯特·爱因斯坦和利奥波德·英费尔德合著出版的物理学科普读物，内容介绍了物理学从伽利略、牛顿时代的经典理论到现代场论、相对论和量子力学的发展演化历程。该书最初由剑桥大学出版社在1938年出版并获得了大众的广泛好评，《时代》杂志还特别为此书刊载了一篇头条报道。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "889dbcaae6cd",
    "source": "wikipedia",
    "title": "弗朗西斯·培根",
@@ -1414,6 +1414,30 @@
     "实验"
    ],
    "title_signal": false
+  },
+  {
+   "id": "5147d7c8f6d0",
+   "source": "wikipedia",
+   "title": "罗森汉恩实验",
+   "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%A3%AE%E6%B1%89%E6%81%A9%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "罗森汉恩实验（Rosenhan Experiment）是1973年美国心理学家大卫·罗森汉恩关于检验美国精神病患鉴定标准的一项著名实验，并当年发布在《科学》杂志上。这项研究被认为是对精神病患鉴定标准的重要批判。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
   },
   {
    "id": "3548437df952",
@@ -1512,12 +1536,12 @@
    "title_signal": false
   },
   {
-   "id": "b5b9635e94fc",
+   "id": "43a3935e4604",
    "source": "wikipedia",
-   "title": "吴健雄",
-   "url": "https://zh.wikipedia.org/wiki/%E5%90%B4%E5%81%A5%E9%9B%84",
+   "title": "物理学的进化",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E7%9A%84%E8%BF%9B%E5%8C%96",
    "published": "",
-   "summary": "吴健雄（英語：Chien-Shiung Wu；1912年5月31日—1997年2月16日），美籍华裔物理学家，在核物理学领域卓有贡献，其在实验物理学方面的造诣常令人将她与瑪麗·居禮相提并论。吴健雄是美国物理学会的第一位女性会长，常被人称為“中國的居里夫人”、“物理研究的第一女士”、“核子研究的女王”以及“世界最傑出的女性實驗物理學家之一”。 吴健雄先后毕业于中華民國国立中央大学和美国加州大学伯克利分校，师从诺贝尔物理学奖得主欧内斯特·劳伦斯。曼哈顿计划期间，她参与研究了如何利用气体扩散法分离铀的两种同位素（铀-235与铀-238）。吴健雄长期在美国哥伦比亚大学任教，她最著名的一项科研成果是利用实验方法验证了宇称不守恒，这项工作令其同事李政道和杨振宁获得1957年的诺贝尔物理学奖，本人也因此获授1978年首次颁发的沃尔夫物理学奖。",
+   "summary": "《物理学的进化》（英文版原名：The Evolution of Physics或The Evolution of Physics: From Early Concept to Relativity and Quanta，根据版本不同书名有上述的文字差别。中文版译名来自周肇威的译本）是由物理学家阿尔伯特·爱因斯坦和利奥波德·英费尔德合著出版的物理学科普读物，内容介绍了物理学从伽利略、牛顿时代的经典理论到现代场论、相对论和量子力学的发展演化历程。该书最初由剑桥大学出版社在1938年出版并获得了大众的广泛好评，《时代》杂志还特别为此书刊载了一篇头条报道。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1526,12 +1550,12 @@
    "why": "",
    "timeless": true,
    "obj_hits": [
-    "实验"
+    "physics"
    ],
    "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "实验"
+    "physics"
    ],
    "title_signal": false
   },
@@ -1558,30 +1582,6 @@
     "实验"
    ],
    "title_signal": false
-  },
-  {
-   "id": "5147d7c8f6d0",
-   "source": "wikipedia",
-   "title": "罗森汉恩实验",
-   "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%A3%AE%E6%B1%89%E6%81%A9%E5%AE%9E%E9%AA%8C",
-   "published": "",
-   "summary": "罗森汉恩实验（Rosenhan Experiment）是1973年美国心理学家大卫·罗森汉恩关于检验美国精神病患鉴定标准的一项著名实验，并当年发布在《科学》杂志上。这项研究被认为是对精神病患鉴定标准的重要批判。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": true
   },
   {
    "id": "84d08da14f64",
@@ -2084,26 +2084,6 @@
    "title_signal": false
   },
   {
-   "id": "91b5bfdb8698",
-   "source": "wikipedia",
-   "title": "科学分支",
-   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%88%86%E6%94%AF",
-   "published": "",
-   "summary": "科学的分支、分类，也称科学领域，通常分为三大类： 形式科学：对形式系统的研究，如逻辑和数学分支下的学科。它们依据先验知识，而非建立在实证基础上。 自然科学：对自然现象的研究（包括宇宙内的宇宙学、地质学、物理学、化学和生物学影响）。自然科学可分为两个主要分支：物理科学和生命科学（或生物科学）。 社会科学：在社会和文化角度研究人类行为的科学。 科学知识必须建立在可观察的现象之上，并且能够在相同条件下被其他研究者验证。自然科学、社会科学和形式科学构成基础科学，它们也是跨学科和应用科学（如工程学和医学）的基础。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "5716602e848d",
    "source": "wikipedia",
    "title": "科学史",
@@ -2284,12 +2264,12 @@
    "title_signal": false
   },
   {
-   "id": "1b17bfdbe05c",
+   "id": "d4334f08f1a7",
    "source": "wikipedia",
-   "title": "實驗哲學",
-   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
+   "title": "加拿大",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
    "published": "",
-   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
+   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2304,12 +2284,12 @@
    "title_signal": false
   },
   {
-   "id": "925998e1f52f",
+   "id": "1b17bfdbe05c",
    "source": "wikipedia",
-   "title": "朱迪斯·贾维斯·汤姆逊",
-   "url": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E8%B4%BE%E7%BB%B4%E6%96%AF%C2%B7%E6%B1%A4%E5%A7%86%E9%80%8A",
+   "title": "實驗哲學",
+   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
    "published": "",
-   "summary": "朱迪斯·贾维斯·汤姆逊（1929年10月4日 – 2020年11月20日）是一位研究伦理学、形上學和有轨电车难题的美国哲学家。 朱迪斯·贾维斯·汤姆逊是《为堕胎辩护》的作者。1989年，朱迪斯·贾维斯·汤姆逊当选美国文理科学院院士。 2016年，她当选为英國國家學術院通讯院士。 2019年，当选为美國哲學學會会员。",
+   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2384,12 +2364,12 @@
    "title_signal": false
   },
   {
-   "id": "2b88d40ab609",
+   "id": "0829c514aed2",
    "source": "wikipedia",
-   "title": "强纲领",
-   "url": "https://zh.wikipedia.org/wiki/%E5%BC%BA%E7%BA%B2%E9%A2%86",
+   "title": "元科学",
+   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
    "published": "",
-   "summary": "强纲领（英語：Strong programme），是科学知识社会学（SSK）的一支，它尤其与大衛·布魯爾、巴里·巴恩斯、哈里·柯林斯、Donald A. MacKenzie和 John Henry 的研究联系密切。强纲领被社会学家布鲁诺·拉图尔认为对于科学技术论有着无可比拟的的影响。主要以爱丁堡大学的学者为基础的学派阐释了，科学共同体（通过对共享范式的忠诚）紧密联结的方式，是标准科学活动的先决条件。 强纲领是对“弱”科学社会学的一种反应，弱纲领将社会学的应用限制在了“失败”或“错误”的理论，例如颅相学。 失败的理论可以用其研究者出现的偏差来解释，例如隐蔽的政治或经济利益。社会学与成功理论的相关性很小，这些理论之所以成功，是因为它们揭示了一个自然事实。 强纲领提出，对“真”和“假”的科学理论的研究都应该一视同仁，两者都是由社会因素或条件引起的，例如文化背景和自身利益。人类的一切知识，存在于于",
+   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2510,206 +2490,6 @@
    "url": "https://en.wikipedia.org/wiki/History_of_Nankai_University",
    "published": "",
    "summary": "Nankai University is located in Tianjin, People's Republic of China. It was co-founded by prominent modern Chinese educators Yan Xiu and Zhang Boling, originating from the establishment of Nankai School in 1904. In 1919, the university division of Nankai School was formally established. On September 25, 1919, the university division of Nankai School held its first opening ceremony, marking the off",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "0829c514aed2",
-   "source": "wikipedia",
-   "title": "元科学",
-   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
-   "published": "",
-   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "e2f65195a4c9",
-   "source": "wikipedia",
-   "title": "Army Academy of Armored Forces",
-   "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
-   "published": "",
-   "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "28cdf1ffdf5f",
-   "source": "wikipedia",
-   "title": "Chengdu",
-   "url": "https://en.wikipedia.org/wiki/Chengdu",
-   "published": "",
-   "summary": "Chengdu is the capital city of the Chinese province of Sichuan. With a population of 20,937,757 at the 2020 census, it is the country's fourth most populous city and the only city with a population of over 20 million apart from provincial-level municipalities. It is traditionally the hub of Western China. Chengdu is in central Sichuan. The surrounding Chengdu Plain is known as the \"Country of Heav",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "16dfa34f1419",
-   "source": "wikipedia",
-   "title": "Institute for the History of Natural Sciences",
-   "url": "https://en.wikipedia.org/wiki/Institute_for_the_History_of_Natural_Sciences",
-   "published": "",
-   "summary": "The Institute for the History of Natural Sciences (IHNS CAS; Chinese: 中国科学院自然科学史研究所; pinyin: Zhōngguó Kēxuéyuàn Zìrán Kēxuéshǐ Yánjiūsuǒ) is a leading research institution in China dedicated to the study of the history of science, technology, and medicine. It is affiliated with the Chinese Academy of Sciences (CAS).",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "63623f9ad973",
-   "source": "wikipedia",
-   "title": "Barnum effect",
-   "url": "https://en.wikipedia.org/wiki/Barnum_effect",
-   "published": "",
-   "summary": "The Barnum effect, also called the Forer effect or, less commonly, the Barnum–Forer effect, is a common psychological phenomenon whereby individuals give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically to them, yet which are in fact vague and general enough to apply to a broad range of people. This effect can provide a partial explanation for th",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "95daaaf86db7",
-   "source": "wikipedia",
-   "title": "Door-in-the-face technique",
-   "url": "https://en.wikipedia.org/wiki/Door-in-the-face_technique",
-   "published": "",
-   "summary": "The door-in-the-face technique is a compliance method commonly studied in social psychology. The persuader attempts to convince the respondent to comply by making a large request that the respondent will most likely turn down, much like a metaphorical slamming of a door in the persuader's face. The respondent is then more likely to agree to a second, more reasonable request, than if that same requ",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "be33b43c4097",
-   "source": "wikipedia",
-   "title": "Eliezer Yudkowsky",
-   "url": "https://en.wikipedia.org/wiki/Eliezer_Yudkowsky",
-   "published": "",
-   "summary": "Eliezer Shlomo Yudkowsky ( EL-ee-EH-zər yuud-KOW-skee; born September 11, 1979) is an American artificial intelligence researcher and writer on decision theory and ethics, known for popularizing ideas related to friendly artificial intelligence. He is the founder of and a research fellow at the Machine Intelligence Research Institute (MIRI), a private research nonprofit based in Berkeley, Californ",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "d3a003a34d23",
-   "source": "wikipedia",
-   "title": "Foot-in-the-door technique",
-   "url": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
-   "published": "",
-   "summary": "Foot-in-the-door (FITD) technique is a compliance tactic that aims at getting a person to agree to a large request by having them agree to a modest request first. If a smaller request is granted, then the person who is agreeing feels like they are obligated to keep agreeing to larger requests. The saying originates from door to door salesmen who keep the door from shutting with their foot, giving",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "6b7326a1de2b",
-   "source": "wikipedia",
-   "title": "Kuleshov effect",
-   "url": "https://en.wikipedia.org/wiki/Kuleshov_effect",
-   "published": "",
-   "summary": "The Kuleshov effect (Russian: Эффект Кулешова) is a film editing (montage) effect demonstrated by Russian filmmaker Lev Kuleshov in the 1910s and 1920s. It is a cognitive phenomenon by which viewers derive more meaning from the interaction of two sequential shots than from a single shot in isolation. Prior to the 1960s, the phenomenon was sometimes known as the Pudovkin effect and the Mozzhukhin e",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "84be9785ed2e",
-   "source": "wikipedia",
-   "title": "Miller–Urey experiment",
-   "url": "https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment",
-   "published": "",
-   "summary": "The Miller–Urey experiment, or Miller experiment, was an experiment in chemical synthesis carried out in 1952 that simulated the conditions thought at the time to be present in the atmosphere of the early, prebiotic Earth. It is seen as one of the first successful experiments demonstrating the synthesis of organic compounds from inorganic constituents in an origin of life scenario. The experiment",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -2944,6 +2724,246 @@
    "title_signal": false
   },
   {
+   "id": "91b5bfdb8698",
+   "source": "wikipedia",
+   "title": "科学分支",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%88%86%E6%94%AF",
+   "published": "",
+   "summary": "科学的分支、分类，也称科学领域，通常分为三大类： 形式科学：对形式系统的研究，如逻辑和数学分支下的学科。它们依据先验知识，而非建立在实证基础上。 自然科学：对自然现象的研究（包括宇宙内的宇宙学、地质学、物理学、化学和生物学影响）。自然科学可分为两个主要分支：物理科学和生命科学（或生物科学）。 社会科学：在社会和文化角度研究人类行为的科学。 科学知识必须建立在可观察的现象之上，并且能够在相同条件下被其他研究者验证。自然科学、社会科学和形式科学构成基础科学，它们也是跨学科和应用科学（如工程学和医学）的基础。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "925998e1f52f",
+   "source": "wikipedia",
+   "title": "朱迪斯·贾维斯·汤姆逊",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E8%B4%BE%E7%BB%B4%E6%96%AF%C2%B7%E6%B1%A4%E5%A7%86%E9%80%8A",
+   "published": "",
+   "summary": "朱迪斯·贾维斯·汤姆逊（1929年10月4日 – 2020年11月20日）是一位研究伦理学、形上學和有轨电车难题的美国哲学家。 朱迪斯·贾维斯·汤姆逊是《为堕胎辩护》的作者。1989年，朱迪斯·贾维斯·汤姆逊当选美国文理科学院院士。 2016年，她当选为英國國家學術院通讯院士。 2019年，当选为美國哲學學會会员。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "2b88d40ab609",
+   "source": "wikipedia",
+   "title": "强纲领",
+   "url": "https://zh.wikipedia.org/wiki/%E5%BC%BA%E7%BA%B2%E9%A2%86",
+   "published": "",
+   "summary": "强纲领（英語：Strong programme），是科学知识社会学（SSK）的一支，它尤其与大衛·布魯爾、巴里·巴恩斯、哈里·柯林斯、Donald A. MacKenzie和 John Henry 的研究联系密切。强纲领被社会学家布鲁诺·拉图尔认为对于科学技术论有着无可比拟的的影响。主要以爱丁堡大学的学者为基础的学派阐释了，科学共同体（通过对共享范式的忠诚）紧密联结的方式，是标准科学活动的先决条件。 强纲领是对“弱”科学社会学的一种反应，弱纲领将社会学的应用限制在了“失败”或“错误”的理论，例如颅相学。 失败的理论可以用其研究者出现的偏差来解释，例如隐蔽的政治或经济利益。社会学与成功理论的相关性很小，这些理论之所以成功，是因为它们揭示了一个自然事实。 强纲领提出，对“真”和“假”的科学理论的研究都应该一视同仁，两者都是由社会因素或条件引起的，例如文化背景和自身利益。人类的一切知识，存在于于",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "e2f65195a4c9",
+   "source": "wikipedia",
+   "title": "Army Academy of Armored Forces",
+   "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
+   "published": "",
+   "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "28cdf1ffdf5f",
+   "source": "wikipedia",
+   "title": "Chengdu",
+   "url": "https://en.wikipedia.org/wiki/Chengdu",
+   "published": "",
+   "summary": "Chengdu is the capital city of the Chinese province of Sichuan. With a population of 20,937,757 at the 2020 census, it is the country's fourth most populous city and the only city with a population of over 20 million apart from provincial-level municipalities. It is traditionally the hub of Western China. Chengdu is in central Sichuan. The surrounding Chengdu Plain is known as the \"Country of Heav",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "16dfa34f1419",
+   "source": "wikipedia",
+   "title": "Institute for the History of Natural Sciences",
+   "url": "https://en.wikipedia.org/wiki/Institute_for_the_History_of_Natural_Sciences",
+   "published": "",
+   "summary": "The Institute for the History of Natural Sciences (IHNS CAS; Chinese: 中国科学院自然科学史研究所; pinyin: Zhōngguó Kēxuéyuàn Zìrán Kēxuéshǐ Yánjiūsuǒ) is a leading research institution in China dedicated to the study of the history of science, technology, and medicine. It is affiliated with the Chinese Academy of Sciences (CAS).",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "63623f9ad973",
+   "source": "wikipedia",
+   "title": "Barnum effect",
+   "url": "https://en.wikipedia.org/wiki/Barnum_effect",
+   "published": "",
+   "summary": "The Barnum effect, also called the Forer effect or, less commonly, the Barnum–Forer effect, is a common psychological phenomenon whereby individuals give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically to them, yet which are in fact vague and general enough to apply to a broad range of people. This effect can provide a partial explanation for th",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "95daaaf86db7",
+   "source": "wikipedia",
+   "title": "Door-in-the-face technique",
+   "url": "https://en.wikipedia.org/wiki/Door-in-the-face_technique",
+   "published": "",
+   "summary": "The door-in-the-face technique is a compliance method commonly studied in social psychology. The persuader attempts to convince the respondent to comply by making a large request that the respondent will most likely turn down, much like a metaphorical slamming of a door in the persuader's face. The respondent is then more likely to agree to a second, more reasonable request, than if that same requ",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "be33b43c4097",
+   "source": "wikipedia",
+   "title": "Eliezer Yudkowsky",
+   "url": "https://en.wikipedia.org/wiki/Eliezer_Yudkowsky",
+   "published": "",
+   "summary": "Eliezer Shlomo Yudkowsky ( EL-ee-EH-zər yuud-KOW-skee; born September 11, 1979) is an American artificial intelligence researcher and writer on decision theory and ethics, known for popularizing ideas related to friendly artificial intelligence. He is the founder of and a research fellow at the Machine Intelligence Research Institute (MIRI), a private research nonprofit based in Berkeley, Californ",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "d3a003a34d23",
+   "source": "wikipedia",
+   "title": "Foot-in-the-door technique",
+   "url": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
+   "published": "",
+   "summary": "Foot-in-the-door (FITD) technique is a compliance tactic that aims at getting a person to agree to a large request by having them agree to a modest request first. If a smaller request is granted, then the person who is agreeing feels like they are obligated to keep agreeing to larger requests. The saying originates from door to door salesmen who keep the door from shutting with their foot, giving",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "6b7326a1de2b",
+   "source": "wikipedia",
+   "title": "Kuleshov effect",
+   "url": "https://en.wikipedia.org/wiki/Kuleshov_effect",
+   "published": "",
+   "summary": "The Kuleshov effect (Russian: Эффект Кулешова) is a film editing (montage) effect demonstrated by Russian filmmaker Lev Kuleshov in the 1910s and 1920s. It is a cognitive phenomenon by which viewers derive more meaning from the interaction of two sequential shots than from a single shot in isolation. Prior to the 1960s, the phenomenon was sometimes known as the Pudovkin effect and the Mozzhukhin e",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "84be9785ed2e",
+   "source": "wikipedia",
+   "title": "Miller–Urey experiment",
+   "url": "https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment",
+   "published": "",
+   "summary": "The Miller–Urey experiment, or Miller experiment, was an experiment in chemical synthesis carried out in 1952 that simulated the conditions thought at the time to be present in the atmosphere of the early, prebiotic Earth. It is seen as one of the first successful experiments demonstrating the synthesis of organic compounds from inorganic constituents in an origin of life scenario. The experiment",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "e7af2a5ae059",
    "source": "wikipedia",
    "title": "威斯康星大学麦迪逊分校",
@@ -3002,6 +3022,30 @@
    "modern_hits": [],
    "hits": [],
    "title_signal": false
+  },
+  {
+   "id": "6865588406db",
+   "source": "hn",
+   "title": "Things you don't need to run a Proxmox home lab",
+   "url": "https://www.virtualizationhowto.com/2026/10/7-things-you-dont-need-to-run-a-great-proxmox-home-lab",
+   "published": "2026-10-20",
+   "summary": "",
+   "meta": {
+    "points": 3,
+    "comments": 3
+   },
+   "targeted": false,
+   "score": 62,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
   },
   {
    "id": "61ade933054b",
@@ -3070,6 +3114,30 @@
    "modern_hits": [],
    "hits": [],
    "title_signal": false
+  },
+  {
+   "id": "6e47e6e96589",
+   "source": "hn",
+   "title": "Home lab: own cert to reach: Home Assistant, Vaultwarden and Gitea",
+   "url": "https://blog.jacq.cc/guides/client-certificates-home-assistant-vaultwarden-gitea",
+   "published": "2026-10-16",
+   "summary": "",
+   "meta": {
+    "points": 2,
+    "comments": 0
+   },
+   "targeted": false,
+   "score": 58,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
   },
   {
    "id": "3ef2144a01c2",
