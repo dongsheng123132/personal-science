@@ -1,5 +1,7 @@
 # 章程 · Personal Science
 
+**中文** · [English](CHARTER.en.md)
+
 > 科研平权。
 
 ---
