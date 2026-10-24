@@ -446,11 +446,10 @@ def write_raw(items):
     }
     (INBOX_DIR / "raw.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=1) + "\n", "utf-8")
-    update_pool(items)
 
 
 def update_pool(items):
-    """7 天滚动池。每天的 raw 只有当天新增，AI 看到的太少；池子才是它的输入。"""
+    """14 天滚动池。每天的 raw 只有当天新增，AI 看到的太少；池子才是它的输入。"""
     pool_path = INBOX_DIR / "pool.json"
     pool = []
     if pool_path.exists():
@@ -460,7 +459,7 @@ def update_pool(items):
             pool = []
     fresh = {i["id"] for i in items}
     merged = items + [p for p in pool if p.get("id") not in fresh]
-    cutoff = (NOW - timedelta(days=7)).strftime("%Y-%m-%d")
+    cutoff = (NOW - timedelta(days=14)).strftime("%Y-%m-%d")
     merged = [m for m in merged if not m.get("published") or m["published"] >= cutoff]
     merged.sort(key=lambda x: (x.get("score", 0), x.get("published", "")), reverse=True)
     merged = merged[:150]
@@ -522,11 +521,12 @@ def main():
         log(f"  {len(got)} 条")
         raw_items.extend(got)
 
-    # 去重：URL id + 标题指纹
+    # 去重：URL id + 标题指纹。注意这里**不排除"见过"的**——
+    # 见过的东西也要进滚动池，否则某天没新内容，AI 就没东西可筛。
     unique, titles = [], set()
     for item in raw_items:
         fingerprint = re.sub(r"[^a-z0-9\u4e00-\u9fff]", "", item["title"].lower())[:48]
-        if item["id"] in seen or item["id"] in {u["id"] for u in unique}:
+        if item["id"] in {u["id"] for u in unique}:
             continue
         if fingerprint and fingerprint in titles:
             continue
@@ -537,8 +537,13 @@ def main():
         score(item)
 
     unique.sort(key=lambda x: x["score"], reverse=True)
-    wide = unique[: max(120, args.limit * 4)]   # 宽网：全部留给人工/AI 复核
+    update_pool(unique)  # 池子收本轮抓到的全部内容
+
+    # 今天新增 = 没见过的
+    fresh = [i for i in unique if i["id"] not in seen]
+    wide = fresh[: max(120, args.limit * 4)]   # 宽网：全部留给人工/AI 复核
     write_raw(wide)
+    log(f"· 本轮抓到 {len(unique)} 条去重后内容，其中 {len(fresh)} 条是新的")
 
     # 关键词闸门只对"撒网型"来源生效；定向搜索（WordPress 查询）自带主题，不再筛
     kept = [i for i in wide

@@ -1,5 +1,492 @@
 {
- "updated_at": "2026-10-24T09:34:52+00:00",
- "count": 0,
- "items": []
+ "updated_at": "2026-10-24T09:35:37+00:00",
+ "count": 24,
+ "items": [
+  {
+   "id": "b7ecd58ef8e7",
+   "source": "hackaday",
+   "title": "Car’s Camera Footage Backed up to NAS",
+   "url": "https://hackaday.com/2026/10/22/cars-camera-footage-backed-up-to-nas",
+   "published": "2026-10-22",
+   "summary": "For as many sensors, cameras, and computers as there are on modern cars, they ought to be a dream to poke around in and customize to one’s liking. Unfortunately they’re …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 94,
+   "why": "",
+   "obj_hits": [
+    "sensor",
+    "camera"
+   ],
+   "per_hits": [],
+   "hits": [
+    "sensor",
+    "camera"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "d77d099493ec",
+   "source": "hackaday",
+   "title": "Hackaday Podcast Episode 392: Microscopes, Drones, and Other DIY Things",
+   "url": "https://hackaday.com/2026/10/23/hackaday-podcast-episode-392-microscopes-drones-and-other-diy-things",
+   "published": "2026-10-23",
+   "summary": "Hackaday Editors Elliot Williams and Al Williams met to review the week in Hackaday. Turns out, it was a week for tiny things, cybersecurity, nostalgia, and projects that would have …read more",
+   "meta": {
+    "query": "microscope"
+   },
+   "targeted": true,
+   "score": 88,
+   "why": "",
+   "obj_hits": [
+    "microscope"
+   ],
+   "per_hits": [
+    "diy"
+   ],
+   "hits": [
+    "microscope",
+    "diy"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "63e1526bb11f",
+   "source": "hackaday",
+   "title": "Building a Microscope with a 3D View",
+   "url": "https://hackaday.com/2026/10/18/building-a-microscope-with-a-3d-view",
+   "published": "2026-10-18",
+   "summary": "As electronic components grow ever smaller, a microscope has become an increasingly indispensable tool for any fine work; when inspecting electronics, though, especially solder joints, [Corebb] found a top-down view …read more",
+   "meta": {
+    "query": "microscope"
+   },
+   "targeted": true,
+   "score": 88,
+   "why": "",
+   "obj_hits": [
+    "microscope"
+   ],
+   "per_hits": [
+    "build"
+   ],
+   "hits": [
+    "microscope",
+    "build"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "a74860b994bb",
+   "source": "hackaday",
+   "title": "NASA Batteries Survive Extreme Cold and Heat",
+   "url": "https://hackaday.com/2026/10/22/nasa-batteries-survive-extreme-cold-and-heat",
+   "published": "2026-10-22",
+   "summary": "One of the major limits of mass-produced batteries is the electrolyte. From lead-acid to lithium ion, there’s some temperature where the electrolyte will freeze and cause all sorts of problems, …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "obj_hits": [
+    "temperature"
+   ],
+   "per_hits": [],
+   "hits": [
+    "temperature"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "a58941cbbc37",
+   "source": "hackaday",
+   "title": "Every Type of Current Sensor Explained",
+   "url": "https://hackaday.com/2026/10/21/every-type-of-current-sensor-explained",
+   "published": "2026-10-21",
+   "summary": "Measuring electric currents is an essential element of many electrical systems, but doing so in a way that is as nonintrusive as possible is not an easy problem to solve. …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "obj_hits": [
+    "sensor"
+   ],
+   "per_hits": [],
+   "hits": [
+    "sensor"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "60064ab6f6ce",
+   "source": "hackaday",
+   "title": "Going Whole-Hog on a First Satellite Ground Station",
+   "url": "https://hackaday.com/2026/10/20/going-whole-hog-on-a-first-satellite-ground-station",
+   "published": "2026-10-20",
+   "summary": "When most radio enthusiasts start trying to pick up signals from satellites, they might put together a quick-and-dirty Yagi antenna and try to catch a repeater as is passes overhead, …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "obj_hits": [
+    "radio"
+   ],
+   "per_hits": [],
+   "hits": [
+    "radio"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "9b7319b0e959",
+   "source": "hackaday",
+   "title": "This Week in Security: Record Patch Tuesday, PHP’s Bad Time, The Oldest Vuln, AI Armies, and More",
+   "url": "https://hackaday.com/2026/10/23/this-week-in-security-record-patch-tuesday-phps-bad-time-the-oldest-vuln-ai-armies-and-more",
+   "published": "2026-10-23",
+   "summary": "It’s no longer a proper month without Microsoft breaking its own record for security fixes, and October’s Patch Tuesday was no exception. Brian Krebs brings the roundup: more than 1,400 …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ea38c29a8cd4",
+   "source": "hackaday",
+   "title": "An Open Source Linear Capacitive Encoder",
+   "url": "https://hackaday.com/2026/10/22/an-open-source-linear-capacitive-encoder",
+   "published": "2026-10-22",
+   "summary": "If you’ve ever pulled apart a set of digital calipers, you’ve probably marvelled at the capacitive encoder that does all the measuring work. There’s nothing stopping you from using the …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ad91ebfd5bff",
+   "source": "hackaday",
+   "title": "Clotty The Custom Period Tracker Can, Of Course, Run DOOM",
+   "url": "https://hackaday.com/2026/10/21/clotty-the-custom-period-tracker-can-of-course-run-doom",
+   "published": "2026-10-21",
+   "summary": "[kati]’s Clotty might run DOOM and game-ify the menstrual tracking process with a playful Tamagotchi-like aspect, but don’t let that distract you. It is, at its heart, a personal menstrual …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "9b2b117bfa8f",
+   "source": "hackaday",
+   "title": "An Open Micro-Manipulator Improved",
+   "url": "https://hackaday.com/2026/10/19/an-open-micro-maniplulator-improved",
+   "published": "2026-10-19",
+   "summary": "If you need a micro-manipulator, you probably already have a good idea of what it does. For example, you might be moving a probe over an IC die or wafer. …read more",
+   "meta": {
+    "query": "microscope"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "11778679c745",
+   "source": "hackaday",
+   "title": "Charlotte’s New Runway Gets A Digital Twin",
+   "url": "https://hackaday.com/2026/10/19/charlottes-new-runway-gets-a-digital-twin",
+   "published": "2026-10-19",
+   "summary": "The first viable powered aircraft predated the first proper runway by two decades. While it’s entirely possible to launch some planes from austere dirt or grass strips, the aviation world …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "23e042718e8b",
+   "source": "hackaday",
+   "title": "An LCR Meter with Compromises",
+   "url": "https://hackaday.com/2026/10/19/an-lcr-meter-with-compromises",
+   "published": "2026-10-19",
+   "summary": "YouTube, like the Internet, has its plusses and minuses. On the plus side, you can find information on just about anything. On the minus side, you don’t always know if …read more",
+   "meta": {
+    "query": "oscilloscope"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "73a267630d62",
+   "source": "hackaday",
+   "title": "Turning a Wi-Fi Adapter into an SDR",
+   "url": "https://hackaday.com/2026/10/18/turning-a-wi-fi-adapter-into-an-sdr",
+   "published": "2026-10-18",
+   "summary": "Since the discovery of an undocumented I/Q sampling feature in ESP32 chips about two weeks ago, there’s been a flood of similar features being found in other wireless chips, including …read more",
+   "meta": {
+    "query": "calibration"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "9f5576db0050",
+   "source": "hackaday",
+   "title": "Another IKEA Product Yields an LED Matrix",
+   "url": "https://hackaday.com/2026/10/10/another-ikea-product-yields-an-led-matrix",
+   "published": "2026-10-10",
+   "summary": "The IKEA Kortlinje is a digital clock that costs around 20 dollars, featuring a hygrometer and thermometer. It’s another cheap appliance, you might think, were it not that the display …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "cheap"
+   ],
+   "hits": [
+    "cheap"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "b3dc147bc83f",
+   "source": "hackaday",
+   "title": "Single Button, Handheld Gaming Console",
+   "url": "https://hackaday.com/2026/10/14/single-button-handheld-gaming-console",
+   "published": "2026-10-14",
+   "summary": "Those of us who grew up in the 70s and 80s might be familiar with the Atari 2600 console and its now relatively unrecognizable (by modern standards) controller with only …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "3b929ed43a7f",
+   "source": "hackaday",
+   "title": "Tiny e-Paper Display Delivers 30 FPS of Game Boy Fun",
+   "url": "https://hackaday.com/2026/10/14/tiny-e-paper-display-delivers-30-fps-of-game-boy-fun",
+   "published": "2026-10-14",
+   "summary": "Slow refresh, ghosting and low-contrast — wait, are we talking about passive matrix LCDs, or e-paper displays? That might be why e-paper Game Boy emulators are a thing: the limitations …read more",
+   "meta": {
+    "query": "calibration"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4f034027590c",
+   "source": "hackaday",
+   "title": "The Prusa Core One+ INDX, a Troubled Multi-Extruder Upgrade?",
+   "url": "https://hackaday.com/2026/10/12/the-prusa-core-one-indx-a-troubled-multi-extruder-upgrade",
+   "published": "2026-10-12",
+   "summary": "The Prusa Core One+ INDX is an interesting upgrade to the base FDM printer by Prusa, featuring eight independent extruders – hence the INDX – that in theory should allow …read more",
+   "meta": {
+    "query": "calibration"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "1040963ccfe2",
+   "source": "hackaday",
+   "title": "Inside a Mystery 1980s Filter IC Featuring Switched Capacitors",
+   "url": "https://hackaday.com/2026/10/11/inside-a-mystery-1980s-filter-ic-featuring-switched-capacitors",
+   "published": "2026-10-11",
+   "summary": "Recently [Ken Shirriff] got handed a mystery IC by [CuriousMarc] who had found said IC in a box of various old chips. Labelled only with a date code of the …read more",
+   "meta": {
+    "query": "microscope"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f6ba968dd648",
+   "source": "hackaday",
+   "title": "The Weirdest Video Games were Hacks",
+   "url": "https://hackaday.com/2026/10/10/the-weirdest-video-games-were-hacks",
+   "published": "2026-10-10",
+   "summary": "We were looking into the marvelous recent project by [Throaty Mumbo] to recreate and reimagine the forgotten world of VHS-tape-based video games. Wait, what? Yes, back in the day, when …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "0c9a12ba2fd4",
+   "source": "hackaday",
+   "title": "Restoring an Altimeter Watch to Former Heights",
+   "url": "https://hackaday.com/2026/10/10/restoring-an-altimeter-watch-to-former-heights",
+   "published": "2026-10-10",
+   "summary": "Finding inexpensive broken hardware for sale, buying it, and restoring it to working condition is a long-standing tradition for hackers on a limited budge. But there are some devices that …read more",
+   "meta": {
+    "query": "calibration"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "61ade933054b",
+   "source": "hn",
+   "title": "Homelab Doesn't Need to Run 24/7",
+   "url": "https://noted.lol/your-homelab-doesnt-need-to-run-24-7",
+   "published": "2026-10-17",
+   "summary": "",
+   "meta": {
+    "points": 4,
+    "comments": 2
+   },
+   "targeted": false,
+   "score": 62,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home"
+   ],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "208a057b6593",
+   "source": "hn",
+   "title": "Citizen Science Groups Grapple with the Rise of A.I. Slop",
+   "url": "https://www.nytimes.com/2026/10/16/science/citizen-science-ai-slop.html",
+   "published": "2026-10-18",
+   "summary": "",
+   "meta": {
+    "points": 2,
+    "comments": 0
+   },
+   "targeted": false,
+   "score": 58,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "3ef2144a01c2",
+   "source": "hn",
+   "title": "Backup Tapes Come Back to the Homelab",
+   "url": "https://hackaday.com/2026/10/12/backup-tapes-come-back-to-the-homelab",
+   "published": "2026-10-16",
+   "summary": "",
+   "meta": {
+    "points": 8,
+    "comments": 1
+   },
+   "targeted": false,
+   "score": 58,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home"
+   ],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "13f5b4f01cce",
+   "source": "hn",
+   "title": "Ask HN: What do you do as a 50yo+ programmer not ready to quit?",
+   "url": "https://news.ycombinator.com/item?id=50163386",
+   "published": "2026-10-20",
+   "summary": "I'm self taught, 51yo and been going through some recent health issues. I'm in the job market in a second tier city, and eerything feels upside dowm. How do I deal with the current market that seems fixated on AI graded leet code pre-screenings? I mean if you give me an actual 1:1 or meaningful homework I have no problem. But these pre screens feell like a challenge between rote memorization and g",
+   "meta": {
+    "points": 4,
+    "comments": 0
+   },
+   "targeted": false,
+   "score": 51,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home",
+    "self"
+   ],
+   "hits": [
+    "home",
+    "self"
+   ],
+   "title_signal": false
+  }
+ ]
 }
