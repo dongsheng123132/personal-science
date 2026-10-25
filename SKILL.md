@@ -1,6 +1,6 @@
 ---
-name: awesome-experiments-picker
-description: 拍一张工作台/书桌/阳台的照片，从 Awesome 实验清单里挑出“你现在就能玩”的实验。用于参加 Awesome 实验、想知道自己手上这些东西能玩什么。
+name: personal-science-picker
+description: 拍一张工作台/书桌/阳台的照片，从 Personal Science 实验清单里挑出"你现在就能玩"的实验。用于参加个人科学实验、想知道自己手上这些东西能玩什么。
 ---
 
 # 拍张照片，看你能玩哪些

@@ -5,7 +5,7 @@
 A list of experiments you can do at home. No application, no review, no permission needed.
 **One person = one lab.** ([Charter](CHARTER.en.md))
 
-`17 experiments` · `acceptance criteria written down` · `CC0, copy freely` · `daily collection + AI-designed drafts`
+`17 experiments` · `each page tells you how to know it worked` · `CC0, copy freely` · `daily collection + AI-designed drafts`
 
 [中文](README.md) · [One-minute version](#the-one-minute-version) · [The list](#the-list) · [Growing every day](#growing-every-day) · [How to add one](#how-to-add-one) · [Manifesto](MANIFESTO.en.md) · [Charter](CHARTER.en.md)
 
@@ -147,7 +147,7 @@ This repo has a conveyor belt that runs **once a day on a US-based runner** (Git
 ```
 classic experiments seed library + Wikipedia + Hackaday + Hacker News
         ↓
-candidate pool (~130 items, rolling 30 days)
+candidate pool (recent items + classics, capped at 150)
         ↓  AI applies five criteria
 inbox/candidates.md (up to 8, each with "how to redo it with today's tools")
         ↓  AI writes full draft pages for the top 2, including "how AI helps"
@@ -160,6 +160,8 @@ the list above
 
 The script is responsible for **seeing a lot**. The AI is responsible for **seeing accurately**. A human is responsible for **doing the work**.
 What enters the list is always decided by a person.
+
+> To enable AI filtering and AI-designed drafts, set a `PS_LLM_KEY` (any OpenAI-compatible endpoint works). Without it, collection and commits still run.
 
 | Want to see | Look at |
 |---|---|

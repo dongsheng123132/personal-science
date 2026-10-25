@@ -5,7 +5,7 @@
 | 谁 | 干什么 | 为什么这么分 |
 |---|---|---|
 | `collect.py` | 撒网、去重、打分、写文件 | 机器擅长重复劳动，不擅长判断 |
-| `triage.py` | 用模型从 `raw.json` 里挑出能做的，写 `candidates.md` | 判断"一个人能不能做"需要常识，关键词做不到 |
+| `triage.py` | 用模型从 `pool.json`（滚动池）里挑出能做的，写 `candidates.md` 和 `picked.json` | 判断"一个人能不能做"需要常识，关键词做不到 |
 | `design.py` | 给候选写完整实验页草稿（含"AI 怎么帮你"），放 `inbox/designs/` | 方案设计是重复劳动里最耗时的部分 |
 | 人 | 决定写哪一页、怎么提 PR | 清单只进能照着做的，这一关不能自动化 |
 
@@ -23,16 +23,19 @@ python collector/design.py    # 同上；给前 N 条写完整实验页草稿
 
 | 文件 | 是什么 |
 |---|---|
-| `inbox/raw.json` | 今天抓到的全部内容（90 条左右），带分数和命中的关键词 |
+| `inbox/raw.json` | 今天抓到的**新增**内容（去重后，条数不定；全部内容在 `pool.json`） |
+| `inbox/pool.json` | 滚动池：最近内容 + 经典/维基条目，AI 筛选和设计的实际输入 |
 | `inbox/prefilter.md` | 按分数排的前 30 条，快速扫一眼用 |
 | `inbox/candidates.md` | AI 筛完的 8 条 + 筛掉理由（没配 key 时不动这个文件） |
-| `inbox/designs/` | AI 写的实验页草稿，开头标了"未核对"，改完才能进 `experiments/` |
+| `inbox/picked.json` | AI 判定"可直接写成实验页"的条目，给 `design.py` 用 |
+| `inbox/triaged.json` | 已经筛过的 id，下次不再重复送进模型 |
+| `inbox/designs/` | AI 写的实验页草稿，开头有可见的 ⚠️"未核对"标注 |
 | `feed/latest.json` / `latest.js` | 给网页看板用 |
 | `collector/seen.json` | 去重库，见过的不再出现 |
 
 ## AI 筛选（已经自动化）
 
-`triage.py` 读 `raw.json`、调模型、直接写 `candidates.md`。GitHub Actions 里已经接好了：
+`triage.py` 读 `pool.json`（没有才退回 `raw.json`）、调模型、直接写 `candidates.md` 和 `picked.json`。GitHub Actions 里已经接好了：
 
 - 配了 `PS_LLM_KEY` → 每天自动跑
 - 没配 → 打印一句提示跳过，采集和提交照常
@@ -110,9 +113,9 @@ prompt 在 `triage.py` 顶部，想改判断标准就改那里。
 
 ## 年代怎么处理
 
-- 新闻型来源（RSS / WordPress / HN）：照常按新鲜度加分，太旧的降权。
-- 经典型和维基条目：标记 `timeless`，**不看年代，不加分也不扣分**，并且在池子里永久保留。
-- 池子按"抓到的日期"滚动（30 天），不按"发布年代"——否则一百年前的实验进来就被清掉了。
+- 新闻型来源（RSS / WordPress / HN）：按**发布日期**保留 30 天，更旧的淘汰。
+- 经典型和维基条目：标记 `timeless`，不按年代淘汰，长期留在池子里。
+- 池子有 150 条上限；另外 `triaged.json` 保证"已经筛过的不再重复送进模型"，避免经典种子库每天被选同一批。
 
 ## 一句话
 

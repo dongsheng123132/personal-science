@@ -113,15 +113,30 @@ def main():
         print("没有 PS_LLM_KEY，跳过 AI 设计（这不影响采集和提交）")
         return 0
 
-    source = POOL_PATH if POOL_PATH.exists() else RAW_PATH
+    pool = []
+    source_name = ""
     picked_path = BASE / "inbox" / "picked.json"
     if picked_path.exists():
-        source = picked_path  # 优先用筛选器选中的条目
-    if not source.exists():
+        try:
+            p = json.loads(picked_path.read_text("utf-8"))
+            if p.get("count", 0) > 0 and p.get("items"):
+                pool, source_name = p["items"], "picked.json"
+        except json.JSONDecodeError:
+            pass
+    if not pool:
+        # picked 为空/过期/坏 → 回退池子，别让设计器永久空转
+        for path in (POOL_PATH, RAW_PATH):
+            if path.exists():
+                try:
+                    pool = json.loads(path.read_text("utf-8")).get("items", [])
+                    source_name = path.name
+                    break
+                except json.JSONDecodeError:
+                    continue
+    if not pool:
         print("没有候选池，先跑 collect.py")
         return 0
 
-    pool = json.loads(source.read_text("utf-8")).get("items", [])
     done = {}
     if DONE_PATH.exists():
         try:
@@ -135,9 +150,11 @@ def main():
     if not picked:
         print("没有新的候选可以设计")
         return 0
+    print(f"设计来源：{source_name}，候选 {len(candidates)} 条，本轮取 {len(picked)} 条")
 
     DESIGN_DIR.mkdir(parents=True, exist_ok=True)
     today = NOW.strftime("%Y-%m-%d")
+    failed = 0
 
     for item in picked:
         prompt = PROMPT.format(
@@ -150,20 +167,25 @@ def main():
         try:
             text = call_llm(prompt, key, base, model)
         except Exception as exc:  # noqa: BLE001
+            failed += 1
             print(f"设计失败，跳过「{item.get('title', '')[:30]}」：{type(exc).__name__}: {exc}",
                   file=sys.stderr)
             continue
         path = DESIGN_DIR / f"{today}-{slugify(item.get('title', ''))}.md"
         header = (
-            f"<!-- 草稿：AI 生成，未经人工核对。原文：{item.get('url', '')} -->\n"
-            f"<!-- 待核实：型号、价格、参数请对照原文确认后再进 experiments/ -->\n\n"
+            "> ⚠️ **AI 草稿，未经人工核对。** 型号、价格、参数待核实；改完才能进 `experiments/`。\n"
+            f"> 原文：{item.get('url', '')}\n\n"
         )
         path.write_text(header + text + "\n", "utf-8")
         done[item["id"]] = today
         print(f"已生成 {path.relative_to(BASE)}")
 
     DONE_PATH.write_text(json.dumps(done, ensure_ascii=False, indent=1) + "\n", "utf-8")
-    print(f"本轮设计 {len(picked)} 条，累计已设计 {len(done)} 条")
+    print(f"本轮设计 {len(picked) - failed} 条，累计已设计 {len(done)} 条")
+    if failed and failed == len(picked):
+        (BASE / "inbox" / ".ai-error").write_text(
+            f"{NOW.isoformat()} design 全部失败（{failed}/{len(picked)}）\n", "utf-8")
+        return 1  # 配了 key 却全挂 → 让 Actions 变红
     return 0
 
 

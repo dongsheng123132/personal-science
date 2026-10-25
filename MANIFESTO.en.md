@@ -166,7 +166,7 @@ You don't have to jump into deep water. Start with a 30-minute experiment. Dare 
 
 | The manifesto says | The repo does |
 |---|---|
-| The barrier is "nobody tells you what's next" | 12 experiments, each with a way to start and a way to know it worked |
+| The barrier is "nobody tells you what's next" | 17 experiments, each with a way to start and a way to know it worked |
 | The responsibility to verify cannot be cancelled | Acceptance criteria written first; results public, failures included |
 | Judge evidence, not identity | No certification, no scoring, no vetting who you are |
 | AI as a tool, not a substitute | AI helps you pick experiments and filter candidates; your hands do the work |

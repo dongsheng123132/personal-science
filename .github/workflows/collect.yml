@@ -12,6 +12,9 @@ permissions:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    concurrency:
+      group: collect
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v5
 
@@ -28,8 +31,8 @@ jobs:
           PS_LLM_KEY: ${{ secrets.PS_LLM_KEY }}
         run: python collector/collect.py
 
+      # 没配 key 会自动跳过（退出码 0）；配了 key 但调用失败/解析失败会退出码 1，让这一步变红
       - name: AI 筛选（没配 PS_LLM_KEY 会自动跳过）
-        continue-on-error: true
         env:
           PS_LLM_BASE: ${{ vars.PS_LLM_BASE }}
           PS_LLM_MODEL: ${{ vars.PS_LLM_MODEL }}
@@ -37,14 +40,15 @@ jobs:
         run: python collector/triage.py
 
       - name: AI 设计实验方案（没配 PS_LLM_KEY 会自动跳过）
-        continue-on-error: true
         env:
           PS_LLM_BASE: ${{ vars.PS_LLM_BASE }}
           PS_LLM_MODEL: ${{ vars.PS_LLM_MODEL }}
           PS_LLM_KEY: ${{ secrets.PS_LLM_KEY }}
         run: python collector/design.py --top 2
 
+      # 无论 AI 是否失败，都提交采集到的数据；AI 失败时上一步会变红，这里照样把 raw/feed 存下来
       - name: 提交
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "ps-bot"
           git config user.email "ps-bot@users.noreply.github.com"

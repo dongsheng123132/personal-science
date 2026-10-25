@@ -113,6 +113,9 @@ def norm_url(url):
     if not url:
         return ""
     parsed = urllib.parse.urlsplit(url.strip())
+    # 只允许 http/https/mailto，别让 javascript:/data: 进 raw 或 feed
+    if parsed.scheme.lower() not in ("http", "https", "mailto"):
+        return ""
     query = [(k, v) for k, v in urllib.parse.parse_qsl(parsed.query) if not k.startswith("utm_")]
     return urllib.parse.urlunsplit((
         parsed.scheme.lower() or "https",
