@@ -242,7 +242,7 @@ inbox/designs/（草稿，标注未核对）
 ├── experiments/         每个实验一页（17 个）
 ├── ideas.md             点子池
 ├── RESULTS.md           有人做过什么（含失败）
-├── CONTRIBUTING.md      怎么加一个
+├── CONTRIBUTING.md      怎么加一个（英文 CONTRIBUTING.en.md）
 ├── SKILL.md             拍照 → AI 帮你挑现在能玩的
 ├── collector/           每天采集的脚本
 ├── inbox/               采集结果 + AI 筛选
@@ -250,6 +250,14 @@ inbox/designs/（草稿，标注未核对）
 ├── deploy/              放哪跑、放哪看
 └── archive/             走错的路（保留，提醒自己别再建平台）
 ```
+
+---
+
+## 想加入？
+
+- 点个 ⭐，让更多"想动手但不知道从哪开始"的人看到这里
+- 加一个实验：[CONTRIBUTING.md](CONTRIBUTING.md) 就三条，一条 PR 一个实验
+- 做完贴结果：[RESULTS.md](RESULTS.md)，**失败的更值钱**
 
 ---
 

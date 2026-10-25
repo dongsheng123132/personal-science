@@ -256,4 +256,12 @@ If something looks exciting but feels dangerous, don't do it. Open an issue firs
 
 ---
 
+## Want to help?
+
+- Star it ⭐ so more people who are "curious but don't know where to start" find it
+- Add one experiment: [CONTRIBUTING.en.md](CONTRIBUTING.en.md) — three rules, one PR per experiment
+- Post your result: [RESULTS.md](RESULTS.md). **Failures are worth more.**
+
+---
+
 Content is [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Copy it, remix it, no attribution needed.
