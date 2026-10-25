@@ -5,7 +5,7 @@
 A list of experiments you can do at home. No application, no review, no permission needed.
 **One person = one lab.** ([Charter](CHARTER.en.md))
 
-`14 experiments` · `acceptance criteria written down` · `CC0, copy freely` · `daily collection + AI-designed drafts`
+`17 experiments` · `acceptance criteria written down` · `CC0, copy freely` · `daily collection + AI-designed drafts`
 
 [中文](README.md) · [One-minute version](#the-one-minute-version) · [The list](#the-list) · [Growing every day](#growing-every-day) · [How to add one](#how-to-add-one) · [Manifesto](MANIFESTO.en.md) · [Charter](CHARTER.en.md)
 
@@ -89,6 +89,8 @@ When that works, **the individual becomes the smallest unit of research.** Scien
 |---|---|---|---|---|---|
 | [Battery internal resistance](experiments/battery-internal-resistance.md) | A multimeter and one resistor reveal a battery's hidden cost | Multimeter, 10Ω resistor | 20 min | ¥10 | ★☆☆ |
 | [Planck's constant from LEDs](experiments/led-planck.md) | The turn-on voltage of colored LEDs hides a quantum constant | Multimeter, potentiometer, 5 LEDs | 1 hr | ¥30 | ★★★ |
+| [Oersted's compass and current](experiments/oersted-magnetism.md) | A wire with current swings a compass needle — electricity and magnetism are one | Battery, wire, compass | 30 min | ¥10 | ★☆☆ |
+| [Faraday's induction](experiments/faraday-induction.md) | A magnet in a coil makes electricity — the principle behind every power plant | Coil, magnet, multimeter | 40 min | ¥20 | ★★☆ |
 
 ### Light & waves
 
@@ -96,6 +98,7 @@ When that works, **the individual becomes the smallest unit of research.** Scien
 |---|---|---|---|---|---|
 | [Speed of light in a microwave](experiments/microwave-speed-of-light.md) | Chocolate, a ruler, 3×10⁸ | Microwave, chocolate, ruler | 30 min | ¥10 | ★☆☆ |
 | [Young's double slit](experiments/young-double-slit.md) | A laser pointer and a hair: see light interfere | Laser pointer, double-slit slide, ruler | 40 min | ¥20–40 | ★☆☆ |
+| [Newton's prism](experiments/newton-prism.md) | Split white light into a rainbow | Prism, sunlight or a white LED | 30 min | ¥10–30 | ★☆☆ |
 | [Polarization with tape](experiments/polarization-tape.md) | See the stress inside clear plastic | Phone, tape, polarizer | 20 min | ¥0–20 | ★☆☆ |
 
 ### Biology & plants
@@ -184,7 +187,7 @@ It won't rate you or grade you. It does one thing: translates "here's my stuff" 
 
 ## How to add one
 
-Three requirements, details in [CONTRIBUTING.md](CONTRIBUTING.md):
+Three requirements, details in [CONTRIBUTING.en.md](CONTRIBUTING.en.md):
 
 1. **One person can do it at home** — budget ≤ ¥200 (~$30), time ≤ one weekend, no license, no dangerous operations
 2. **Say what counts as success** — the acceptance criterion must be written *before* you start
@@ -239,10 +242,10 @@ If something looks exciting but feels dangerous, don't do it. Open an issue firs
 ├── MANIFESTO.en.md      Manifesto (English)
 ├── CHARTER.md           Charter (Chinese)
 ├── CHARTER.en.md        Charter (English)
-├── experiments/         One page per experiment (currently Chinese)
+├── experiments/         One page per experiment (17 pages)
 ├── ideas.md             Idea pool
 ├── RESULTS.md           What people got (including failures)
-├── CONTRIBUTING.md      How to add one
+├── CONTRIBUTING.en.md   How to add one (English)
 ├── SKILL.md             Photo → AI picks what you can do
 ├── collector/           Daily collection script
 ├── inbox/               Raw pool + AI filter

@@ -7,7 +7,7 @@
 一个人在家就能做的实验清单。不用申请、不用审核、不用等人批准。
 **一个人 = 一个实验室。**（[章程](CHARTER.md)）
 
-`14 个实验` · `每页写死验收标准` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
+`17 个实验` · `每页写死验收标准` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
 
 [![collect](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml/badge.svg)](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml)
 
@@ -91,6 +91,8 @@ AI 正好一次拆掉这四样。所以不用等谁批准——测量、记录�
 |---|---|---|---|---|---|
 | [两块钱测电池内阻](experiments/battery-internal-resistance.md) | 一块万用表加一个电阻，量出电池的"内耗" | 万用表、10Ω 电阻 | 20 分钟 | ¥10 | ★☆☆ |
 | [LED 估普朗克常数](experiments/led-planck.md) | 不同颜色 LED 的点亮电压里，藏着一个量子常数 | 万用表、电位器、5 种 LED | 1 小时 | ¥30 | ★★★ |
+| [奥斯特实验](experiments/oersted-magnetism.md) | 通电导线让磁针偏转，电和磁是一回事 | 电池、导线、指南针 | 30 分钟 | ¥10 | ★☆☆ |
+| [法拉第电磁感应](experiments/faraday-induction.md) | 磁铁插进线圈，发电的原理 | 线圈、磁铁、万用表 | 40 分钟 | ¥20 | ★★☆ |
 
 ### 光与波
 
@@ -98,6 +100,7 @@ AI 正好一次拆掉这四样。所以不用等谁批准——测量、记录�
 |---|---|---|---|---|---|
 | [微波炉测光速](experiments/microwave-speed-of-light.md) | 用巧克力把光速量出来 | 微波炉、巧克力、尺子 | 30 分钟 | ¥10 | ★☆☆ |
 | [杨氏双缝](experiments/young-double-slit.md) | 激光笔加一根头发，看见光的波动性 | 激光笔、双缝片、尺子 | 40 分钟 | ¥20–40 | ★☆☆ |
+| [牛顿棱镜](experiments/newton-prism.md) | 把白光拆成彩虹 | 三棱镜、阳光或白光 LED | 30 分钟 | ¥10–30 | ★☆☆ |
 | [偏振：一块胶带 + 两块屏幕](experiments/polarization-tape.md) | 看见塑料里的应力 | 手机、透明胶带、偏振片 | 20 分钟 | ¥0–20 | ★☆☆ |
 
 ### 生物与植物
@@ -236,7 +239,7 @@ inbox/designs/（草稿，标注未核对）
 ├── MANIFESTO.md         宣言：为什么出发（智力平权）
 ├── CHARTER.md           章程：这个仓库的宪法
 ├── *.en.md              英文版（README / 宣言 / 章程）
-├── experiments/         每个实验一页（14 个）
+├── experiments/         每个实验一页（17 个）
 ├── ideas.md             点子池
 ├── RESULTS.md           有人做过什么（含失败）
 ├── CONTRIBUTING.md      怎么加一个

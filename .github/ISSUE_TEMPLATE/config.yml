@@ -1,0 +1,9 @@
+blank_issues_enabled: true
+
+contact_links:
+  - name: 章程 / Charter
+    url: https://github.com/dongsheng123132/personal-science/blob/main/CHARTER.md
+    about: 先读章程，知道这个仓库做什么、不做什么 / Read the charter first to know what this repo does and doesn't do
+  - name: 贡献指南 / Contributing
+    url: https://github.com/dongsheng123132/personal-science/blob/main/CONTRIBUTING.en.md
+    about: 怎么加一个实验 / How to add an experiment
