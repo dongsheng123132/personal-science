@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-24T10:30:45+00:00",
- "count": 143,
+ "updated_at": "2026-10-25T00:20:15+00:00",
+ "count": 144,
  "items": [
   {
    "id": "b7ecd58ef8e7",
@@ -1320,30 +1320,6 @@
    "title_signal": false
   },
   {
-   "id": "b2a4e0b2b7c7",
-   "source": "wikipedia",
-   "title": "國立臺灣大學物理學系",
-   "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%89%A9%E7%90%86%E5%AD%B8%E7%B3%BB",
-   "published": "",
-   "summary": "國立臺灣大學物理學系（英語：Department of Physics, National Taiwan University），略稱臺灣大學物理系、臺大物理系，創辦於1946年8月，首任系主任為物理學家戴運軌。台大物理系是為國立臺灣大學改制之後首創的第一個系所。前身是日治時期臺北帝國大學的理學部化學科所設置的物理學講座，當時有兩三間辦公室和實驗室。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "1128fe5e51b1",
    "source": "wikipedia",
    "title": "物理学",
@@ -1388,6 +1364,30 @@
    "modern_hits": [],
    "hits": [
     "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "43a3935e4604",
+   "source": "wikipedia",
+   "title": "物理学的进化",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E7%9A%84%E8%BF%9B%E5%8C%96",
+   "published": "",
+   "summary": "《物理学的进化》（英文版原名：The Evolution of Physics或The Evolution of Physics: From Early Concept to Relativity and Quanta，根据版本不同书名有上述的文字差别。中文版译名来自周肇威的译本）是由物理学家阿尔伯特·爱因斯坦和利奥波德·英费尔德合著出版的物理学科普读物，内容介绍了物理学从伽利略、牛顿时代的经典理论到现代场论、相对论和量子力学的发展演化历程。该书最初由剑桥大学出版社在1938年出版并获得了大众的广泛好评，《时代》杂志还特别为此书刊载了一篇头条报道。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
    ],
    "title_signal": false
   },
@@ -1536,12 +1536,12 @@
    "title_signal": false
   },
   {
-   "id": "43a3935e4604",
+   "id": "b2a4e0b2b7c7",
    "source": "wikipedia",
-   "title": "物理学的进化",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E7%9A%84%E8%BF%9B%E5%8C%96",
+   "title": "國立臺灣大學物理學系",
+   "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%89%A9%E7%90%86%E5%AD%B8%E7%B3%BB",
    "published": "",
-   "summary": "《物理学的进化》（英文版原名：The Evolution of Physics或The Evolution of Physics: From Early Concept to Relativity and Quanta，根据版本不同书名有上述的文字差别。中文版译名来自周肇威的译本）是由物理学家阿尔伯特·爱因斯坦和利奥波德·英费尔德合著出版的物理学科普读物，内容介绍了物理学从伽利略、牛顿时代的经典理论到现代场论、相对论和量子力学的发展演化历程。该书最初由剑桥大学出版社在1938年出版并获得了大众的广泛好评，《时代》杂志还特别为此书刊载了一篇头条报道。",
+   "summary": "國立臺灣大學物理學系（英語：Department of Physics, National Taiwan University），略稱臺灣大學物理系、臺大物理系，創辦於1946年8月，首任系主任為物理學家戴運軌。台大物理系是為國立臺灣大學改制之後首創的第一個系所。前身是日治時期臺北帝國大學的理學部化學科所設置的物理學講座，當時有兩三間辦公室和實驗室。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2204,12 +2204,12 @@
    "title_signal": false
   },
   {
-   "id": "109ee3b55506",
+   "id": "e7af2a5ae059",
    "source": "wikipedia",
-   "title": "汪達幻視",
-   "url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E9%81%94%E5%B9%BB%E8%A6%96",
+   "title": "威斯康星大学麦迪逊分校",
+   "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%A4%A7%E5%AD%A6%E9%BA%A6%E8%BF%AA%E9%80%8A%E5%88%86%E6%A0%A1",
    "published": "",
-   "summary": "《旺达幻视》（英語：WandaVision，香港译《温黛与幻视》，台湾译《汪达幻视》）是一部美國超級英雄類型的網路劇集，改編自漫威漫畫的角色「緋紅女巫」汪達·麥西莫夫和幻視，由潔克·薛佛主創並擔當首席編劇，麥特·夏克曼執導影集。該電視劇是漫威影業開發製作的漫威電影宇宙的首部電視劇作品，與漫威電影宇宙系列電影處於同一架空世界和共同世界，於線上串流媒體平台Disney+首播。 伊莉莎白·歐森和保羅·彼特尼繼續分別飾演在漫威電影宇宙系列電影中的角色汪達·麥西莫夫和幻視。主演還包括黛博拉·喬·拉普、弗雷德·邁拉麥德、凱薩琳·哈恩、泰娜·帕麗斯、藍道爾·朴、凱特·丹寧絲和伊凡·彼得斯。2018年9月，漫威影業宣佈為華特迪士尼公司旗下的在線上串流平台Disney+開發數個電視劇，並以漫威電影宇宙中的「二級核心」人物為主角，比如「緋紅女巫」汪達·麥西莫夫和幻視，伊莉莎白·歐森和保羅·彼特尼有望回歸繼續出",
+   "summary": "威斯康星大学麦迪逊分校（英語：University of Wisconsin–Madison, 简称UW–Madison，UW，或Madison）是一所位于美国威斯康星州麦迪逊市的公立赠地研究型大学，也是威斯康星大学系统的旗舰校区。学校成立于1848年，与威斯康星州成为美国联邦的一部分为同一年。校区占地约378公顷，坐落于门多塔湖畔；此外，大学还在校区以南约6.4公里处拥有并运营着一个占地约486公顷的植物园。 威斯康星大学是美国大学协会的创始成员，也是“公立常春藤”之一，被归类为R1级研究型大学。威斯康星大学是“威斯康星学派”的发源地。根据美国国家科学基金会的数据，2024年该校在全美大学科研经费支出中排名第五。 截至2026年10月 (2026-10)，麦迪逊师生共赢得过23次诺贝尔奖、学校共诞生了43位普利策奖得主、1位菲尔兹奖得主以及1位图灵奖得主。该校同时也培育了大量富布赖特学者",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2264,12 +2264,12 @@
    "title_signal": false
   },
   {
-   "id": "d4334f08f1a7",
+   "id": "1b17bfdbe05c",
    "source": "wikipedia",
-   "title": "加拿大",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
+   "title": "實驗哲學",
+   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
    "published": "",
-   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
+   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2284,12 +2284,12 @@
    "title_signal": false
   },
   {
-   "id": "1b17bfdbe05c",
+   "id": "42194c0fcf28",
    "source": "wikipedia",
-   "title": "實驗哲學",
-   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
+   "title": "朝鲜战争",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89",
    "published": "",
-   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
+   "summary": "朝鲜战争是1950年至1953年期间朝鲜半岛发生的大規模戰爭，交戰雙方分別是朝鲜民主主义人民共和国與大韩民国。戰爭爆發後，16國組成的聯合國軍（以美軍為主力）出兵支持韓國，中华人民共和国以中国人民志愿军的名义出兵支持朝鲜，苏联则通过军事物资支援与空军支持出兵朝鲜，使战争升级为影响东亚地缘政治的区域性冲突，同时也令此战成为自中国的第二次国共内战后在冷战时期东西方阵营间的第二场代理人战争。 朝鮮人民軍在三八线发生冲突及南部发生濟州四·三事件后，於1950年6月25日跨越三八线南下与大韩民国国军作战，战争爆發。雙方隨後展開漫長的拉鋸戰，联合国军與中国人民志愿军先後參戰，最終戰線維持在三八線附近，於1953年7月27日在板门店签署《朝鲜停战协定》，並根据停战时实际控制线，建立朝韩非军事区作缓冲地带。朝鲜半岛南北双方仍有外交冲突和军事对峙，持续至今。 而美国于朝鲜战争期间部署第七舰队巡防台湾海峡，以",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2492,6 +2492,46 @@
    "summary": "Nankai University is located in Tianjin, People's Republic of China. It was co-founded by prominent modern Chinese educators Yan Xiu and Zhang Boling, originating from the establishment of Nankai School in 1904. In 1919, the university division of Nankai School was formally established. On September 25, 1919, the university division of Nankai School held its first opening ceremony, marking the off",
    "meta": {
     "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "109ee3b55506",
+   "source": "wikipedia",
+   "title": "汪達幻視",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E9%81%94%E5%B9%BB%E8%A6%96",
+   "published": "",
+   "summary": "《旺达幻视》（英語：WandaVision，香港译《温黛与幻视》，台湾译《汪达幻视》）是一部美國超級英雄類型的網路劇集，改編自漫威漫畫的角色「緋紅女巫」汪達·麥西莫夫和幻視，由潔克·薛佛主創並擔當首席編劇，麥特·夏克曼執導影集。該電視劇是漫威影業開發製作的漫威電影宇宙的首部電視劇作品，與漫威電影宇宙系列電影處於同一架空世界和共同世界，於線上串流媒體平台Disney+首播。 伊莉莎白·歐森和保羅·彼特尼繼續分別飾演在漫威電影宇宙系列電影中的角色汪達·麥西莫夫和幻視。主演還包括黛博拉·喬·拉普、弗雷德·邁拉麥德、凱薩琳·哈恩、泰娜·帕麗斯、藍道爾·朴、凱特·丹寧絲和伊凡·彼得斯。2018年9月，漫威影業宣佈為華特迪士尼公司旗下的在線上串流平台Disney+開發數個電視劇，並以漫威電影宇宙中的「二級核心」人物為主角，比如「緋紅女巫」汪達·麥西莫夫和幻視，伊莉莎白·歐森和保羅·彼特尼有望回歸繼續出",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "d4334f08f1a7",
+   "source": "wikipedia",
+   "title": "加拿大",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
+   "published": "",
+   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
+   "meta": {
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -2964,26 +3004,6 @@
    "title_signal": false
   },
   {
-   "id": "e7af2a5ae059",
-   "source": "wikipedia",
-   "title": "威斯康星大学麦迪逊分校",
-   "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%A4%A7%E5%AD%A6%E9%BA%A6%E8%BF%AA%E9%80%8A%E5%88%86%E6%A0%A1",
-   "published": "",
-   "summary": "威斯康星大学麦迪逊分校（英語：University of Wisconsin–Madison, 简称UW–Madison，UW，或Madison）是一所位于美国威斯康星州麦迪逊市的公立赠地研究型大学，也是威斯康星大学系统的旗舰校区。学校成立于1848年，与威斯康星州成为美国联邦的一部分为同一年。校区占地约378公顷，坐落于门多塔湖畔；此外，大学还在校区以南约6.4公里处拥有并运营着一个占地约486公顷的植物园。 威斯康星大学是美国大学协会的创始成员，也是“公立常春藤”之一，被归类为R1级研究型大学。威斯康星大学是“威斯康星学派”的发源地。根据美国国家科学基金会的数据，2024年该校在全美大学科研经费支出中排名第五。 截至2026年10月 (2026-10)，麦迪逊师生共赢得过23次诺贝尔奖、学校共诞生了43位普利策奖得主、1位菲尔兹奖得主以及1位图灵奖得主。该校同时也培育了大量富布赖特学者",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "e7951e4e685f",
    "source": "wikipedia",
    "title": "HIV/AIDS in China",
@@ -3048,30 +3068,6 @@
    "title_signal": true
   },
   {
-   "id": "61ade933054b",
-   "source": "hn",
-   "title": "Homelab Doesn't Need to Run 24/7",
-   "url": "https://noted.lol/your-homelab-doesnt-need-to-run-24-7",
-   "published": "2026-10-17",
-   "summary": "",
-   "meta": {
-    "points": 4,
-    "comments": 2
-   },
-   "targeted": false,
-   "score": 62,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
    "id": "21209da8cf91",
    "source": "hn",
    "title": "HomelabFest will be in St. Louis in September 2027",
@@ -3116,15 +3112,15 @@
    "title_signal": false
   },
   {
-   "id": "6e47e6e96589",
+   "id": "61ade933054b",
    "source": "hn",
-   "title": "Home lab: own cert to reach: Home Assistant, Vaultwarden and Gitea",
-   "url": "https://blog.jacq.cc/guides/client-certificates-home-assistant-vaultwarden-gitea",
-   "published": "2026-10-16",
+   "title": "Homelab Doesn't Need to Run 24/7",
+   "url": "https://noted.lol/your-homelab-doesnt-need-to-run-24-7",
+   "published": "2026-10-17",
    "summary": "",
    "meta": {
-    "points": 2,
-    "comments": 0
+    "points": 4,
+    "comments": 2
    },
    "targeted": false,
    "score": 58,
@@ -3149,6 +3145,30 @@
    "meta": {
     "points": 8,
     "comments": 1
+   },
+   "targeted": false,
+   "score": 58,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "6e47e6e96589",
+   "source": "hn",
+   "title": "Home lab: own cert to reach: Home Assistant, Vaultwarden and Gitea",
+   "url": "https://blog.jacq.cc/guides/client-certificates-home-assistant-vaultwarden-gitea",
+   "published": "2026-10-16",
+   "summary": "",
+   "meta": {
+    "points": 2,
+    "comments": 0
    },
    "targeted": false,
    "score": 58,
