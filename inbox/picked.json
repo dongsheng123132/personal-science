@@ -1,32 +1,42 @@
 {
- "generated_at": "2026-10-25T00:21:14+00:00",
- "count": 4,
+ "generated_at": "2026-10-25T03:49:15+00:00",
+ "count": 5,
  "items": [
   {
-   "id": "9094207ea8eb",
+   "id": "7f435caa1a8d",
    "source": "classic",
-   "title": "埃拉托色尼用影子测地球半径（-240）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%9F%83%E6%8B%89%E6%89%98%E8%89%B2%E5%B0%BC%E7%94%A8%E5%BD%B1%E5%AD%90%E6%B5%8B%E5%9C%B0%E7%90%83%E5%8D%8A%E5%BE%84",
+   "title": "伽利略斜面实验（1604）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E4%BC%BD%E5%88%A9%E7%95%A5%E6%96%9C%E9%9D%A2%E5%AE%9E%E9%AA%8C",
    "published": "",
-   "summary": "证明地球是球，并算出它的半径；重做方式：两人异地同日正午量杆影，算太阳高度角差；AI 帮忙算大圆距离和误差；为什么值得：两千年前的方法，今天两个人一个下午就能重做，结果误差能到 5% 以内；难度：随时能做",
+   "summary": "发现自由落体是匀加速运动；重做方式：斜面上滚小球，手机慢动作逐帧测位置，AI 拟合 s=½at²；为什么值得：把'加速度'这个抽象概念变成一条能自己拟合出来的曲线；难度：随时能做",
    "meta": {
-    "era": "-240",
+    "era": "1604",
     "level": "随时能做",
     "tools": [
-     "杆子",
-     "卷尺",
-     "手机"
+     "手机",
+     "木板",
+     "小球"
     ]
    },
    "targeted": true,
-   "score": 80,
+   "score": 97,
    "why": "",
    "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [
+    "自己"
+   ],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "实验",
+    "自己",
+    "手机"
+   ],
+   "title_signal": true
   },
   {
    "id": "fefcff432875",
@@ -61,6 +71,36 @@
    "title_signal": false
   },
   {
+   "id": "a0c487e68cd8",
+   "source": "classic",
+   "title": "牛顿棱镜分光（1666）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E7%89%9B%E9%A1%BF%E6%A3%B1%E9%95%9C%E5%88%86%E5%85%89",
+   "published": "",
+   "summary": "证明白光由多种颜色组成，且颜色不可再分；重做方式：阳光/白光 LED + 棱镜或水盆镜子，手机拍光谱，AI 分析颜色分布；为什么值得：一个孩子的第一个'哇'，成本不到二十块；难度：随时能做",
+   "meta": {
+    "era": "1666",
+    "level": "随时能做",
+    "tools": [
+     "棱镜",
+     "手机",
+     "纸板"
+    ]
+   },
+   "targeted": true,
+   "score": 83,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "手机"
+   ],
+   "hits": [
+    "手机"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "20461a6eb292",
    "source": "classic",
    "title": "奥斯特：电流让磁针偏转（1820）",
@@ -87,19 +127,19 @@
    "title_signal": false
   },
   {
-   "id": "f077c900abe8",
+   "id": "ccef0c7aa507",
    "source": "classic",
-   "title": "法拉第电磁感应（1831）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94",
+   "title": "欧姆定律（1827）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%AC%A7%E5%A7%86%E5%AE%9A%E5%BE%8B",
    "published": "",
-   "summary": "变化的磁通量产生电流；重做方式：线圈 + 磁铁 + 万用表，比较插入速度与感应电压；AI 拟合曲线；为什么值得：今天所有发电方式，都只是这一条规律的工程化；难度：随时能做",
+   "summary": "电压、电流、电阻的定量关系；重做方式：电池 + 可调电阻 + 万用表，画 I-V 直线；AI 算拟合优度；为什么值得：所有电路课的起点，也是'线性关系'的第一个真实例子；难度：随时能做",
    "meta": {
-    "era": "1831",
+    "era": "1827",
     "level": "随时能做",
     "tools": [
-     "线圈",
-     "磁铁",
-     "万用表"
+     "万用表",
+     "电阻",
+     "电池"
     ]
    },
    "targeted": true,
