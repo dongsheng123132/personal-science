@@ -1,0 +1,1 @@
+{"name":"personal-science-site","private":true,"type":"module","scripts":{"build":"node build.mjs"},"dependencies":{"marked":"15.0.12"}}
