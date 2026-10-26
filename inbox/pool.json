@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-25T03:48:22+00:00",
- "count": 144,
+ "updated_at": "2026-10-26T00:23:05+00:00",
+ "count": 145,
  "items": [
   {
    "id": "b7ecd58ef8e7",
@@ -347,32 +347,6 @@
    "title_signal": true
   },
   {
-   "id": "63e1526bb11f",
-   "source": "hackaday",
-   "title": "Building a Microscope with a 3D View",
-   "url": "https://hackaday.com/2026/10/18/building-a-microscope-with-a-3d-view",
-   "published": "2026-10-18",
-   "summary": "As electronic components grow ever smaller, a microscope has become an increasingly indispensable tool for any fine work; when inspecting electronics, though, especially solder joints, [Corebb] found a top-down view …read more",
-   "meta": {
-    "query": "microscope"
-   },
-   "targeted": true,
-   "score": 88,
-   "why": "",
-   "obj_hits": [
-    "microscope"
-   ],
-   "per_hits": [
-    "build"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "microscope",
-    "build"
-   ],
-   "title_signal": true
-  },
-  {
    "id": "a58941cbbc37",
    "source": "hackaday",
    "title": "Every Type of Current Sensor Explained",
@@ -555,6 +529,32 @@
    "title_signal": false
   },
   {
+   "id": "63e1526bb11f",
+   "source": "hackaday",
+   "title": "Building a Microscope with a 3D View",
+   "url": "https://hackaday.com/2026/10/18/building-a-microscope-with-a-3d-view",
+   "published": "2026-10-18",
+   "summary": "As electronic components grow ever smaller, a microscope has become an increasingly indispensable tool for any fine work; when inspecting electronics, though, especially solder joints, [Corebb] found a top-down view …read more",
+   "meta": {
+    "query": "microscope"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "obj_hits": [
+    "microscope"
+   ],
+   "per_hits": [
+    "build"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "microscope",
+    "build"
+   ],
+   "title_signal": true
+  },
+  {
    "id": "deeab5e0a633",
    "source": "hackaday",
    "title": "Synthetic Aperture Radar Drone Gets Interferometric Imaging",
@@ -727,6 +727,32 @@
     "手机"
    ],
    "title_signal": false
+  },
+  {
+   "id": "f956ef278ada",
+   "source": "hackaday",
+   "title": "A 3D Printed Marble Clock, but it’s Scrolling Text",
+   "url": "https://hackaday.com/2026/10/25/a-3d-printed-marble-clock-but-its-scrolling-text",
+   "published": "2026-10-25",
+   "summary": "With the topic of marble clocks having been quite well explored at this point, it raises the question of how easy it would be to take the basic principle and …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 81,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "3d print"
+   ],
+   "modern_hits": [
+    "3d print"
+   ],
+   "hits": [
+    "3d print",
+    "3d print"
+   ],
+   "title_signal": true
   },
   {
    "id": "d22d3c04dd7f",
@@ -1051,29 +1077,6 @@
    ],
    "hits": [
     "open source"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "73a267630d62",
-   "source": "hackaday",
-   "title": "Turning a Wi-Fi Adapter into an SDR",
-   "url": "https://hackaday.com/2026/10/18/turning-a-wi-fi-adapter-into-an-sdr",
-   "published": "2026-10-18",
-   "summary": "Since the discovery of an undocumented I/Q sampling feature in ESP32 chips about two weeks ago, there’s been a flood of similar features being found in other wireless chips, including …read more",
-   "meta": {
-    "query": "calibration"
-   },
-   "targeted": true,
-   "score": 77,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [
-    "esp32"
-   ],
-   "hits": [
-    "esp32"
    ],
    "title_signal": false
   },
@@ -1665,14 +1668,14 @@
    "title_signal": false
   },
   {
-   "id": "11778679c745",
+   "id": "23e042718e8b",
    "source": "hackaday",
-   "title": "Charlotte’s New Runway Gets A Digital Twin",
-   "url": "https://hackaday.com/2026/10/19/charlottes-new-runway-gets-a-digital-twin",
+   "title": "An LCR Meter with Compromises",
+   "url": "https://hackaday.com/2026/10/19/an-lcr-meter-with-compromises",
    "published": "2026-10-19",
-   "summary": "The first viable powered aircraft predated the first proper runway by two decades. While it’s entirely possible to launch some planes from austere dirt or grass strips, the aviation world …read more",
+   "summary": "YouTube, like the Internet, has its plusses and minuses. On the plus side, you can find information on just about anything. On the minus side, you don’t always know if …read more",
    "meta": {
-    "query": "sensor"
+    "query": "oscilloscope"
    },
    "targeted": true,
    "score": 74,
@@ -1684,14 +1687,14 @@
    "title_signal": false
   },
   {
-   "id": "23e042718e8b",
+   "id": "11778679c745",
    "source": "hackaday",
-   "title": "An LCR Meter with Compromises",
-   "url": "https://hackaday.com/2026/10/19/an-lcr-meter-with-compromises",
+   "title": "Charlotte’s New Runway Gets A Digital Twin",
+   "url": "https://hackaday.com/2026/10/19/charlottes-new-runway-gets-a-digital-twin",
    "published": "2026-10-19",
-   "summary": "YouTube, like the Internet, has its plusses and minuses. On the plus side, you can find information on just about anything. On the minus side, you don’t always know if …read more",
+   "summary": "The first viable powered aircraft predated the first proper runway by two decades. While it’s entirely possible to launch some planes from austere dirt or grass strips, the aviation world …read more",
    "meta": {
-    "query": "oscilloscope"
+    "query": "sensor"
    },
    "targeted": true,
    "score": 74,
@@ -1768,6 +1771,29 @@
    "modern_hits": [],
    "hits": [
     "made"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "73a267630d62",
+   "source": "hackaday",
+   "title": "Turning a Wi-Fi Adapter into an SDR",
+   "url": "https://hackaday.com/2026/10/18/turning-a-wi-fi-adapter-into-an-sdr",
+   "published": "2026-10-18",
+   "summary": "Since the discovery of an undocumented I/Q sampling feature in ESP32 chips about two weeks ago, there’s been a flood of similar features being found in other wireless chips, including …read more",
+   "meta": {
+    "query": "calibration"
+   },
+   "targeted": true,
+   "score": 73,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "esp32"
+   ],
+   "hits": [
+    "esp32"
    ],
    "title_signal": false
   },
@@ -3092,26 +3118,6 @@
    "title_signal": true
   },
   {
-   "id": "208a057b6593",
-   "source": "hn",
-   "title": "Citizen Science Groups Grapple with the Rise of A.I. Slop",
-   "url": "https://www.nytimes.com/2026/10/16/science/citizen-science-ai-slop.html",
-   "published": "2026-10-18",
-   "summary": "",
-   "meta": {
-    "points": 2,
-    "comments": 0
-   },
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "61ade933054b",
    "source": "hn",
    "title": "Homelab Doesn't Need to Run 24/7",
@@ -3230,6 +3236,26 @@
     "home"
    ],
    "title_signal": true
+  },
+  {
+   "id": "208a057b6593",
+   "source": "hn",
+   "title": "Citizen Science Groups Grapple with the Rise of A.I. Slop",
+   "url": "https://www.nytimes.com/2026/10/16/science/citizen-science-ai-slop.html",
+   "published": "2026-10-18",
+   "summary": "",
+   "meta": {
+    "points": 2,
+    "comments": 0
+   },
+   "targeted": false,
+   "score": 54,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
   },
   {
    "id": "13f5b4f01cce",
