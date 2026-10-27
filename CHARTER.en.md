@@ -64,6 +64,16 @@ This is not a downgrade. It is research being untied from its organizational for
 3. Let people **post what they got**, including failures
 4. Stay readable by AI, so a model can tell an ordinary person **which one to start with**
 
+**To accept an experiment, check these five, in order:**
+
+1. **Curiosity first** — an ordinary person should want to try it at first glance, think "wait, that works?"
+2. **Doable at home** — budget ≤ ¥200 (~$30), one weekend, no license, no danger
+3. **Produces a number** — not just "fun to watch", but "you can write down what counts as success before you start"
+4. **Upgradable with AI** — phone / ESP32 / open-source hardware / AI analysis instead of expensive instruments
+5. **Any era** — a classic from 1801, a WWII measurement; if it can be redone today, it counts
+
+**This standard itself is open for change.** If you think a rule is wrong or missing, open an issue or PR (see Article 7). The standard isn't dictated by the owner — it's settled by whoever argues well enough to convince everyone.
+
 Nothing outside these four.
 
 ---
