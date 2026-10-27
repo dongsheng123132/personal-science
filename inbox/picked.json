@@ -1,73 +1,56 @@
 {
- "generated_at": "2026-10-26T00:24:04+00:00",
- "count": 4,
+ "generated_at": "2026-10-27T01:29:27+00:00",
+ "count": 3,
  "items": [
   {
-   "id": "9094207ea8eb",
+   "id": "c588c69ff8ed",
    "source": "classic",
-   "title": "埃拉托色尼用影子测地球半径（-240）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%9F%83%E6%8B%89%E6%89%98%E8%89%B2%E5%B0%BC%E7%94%A8%E5%BD%B1%E5%AD%90%E6%B5%8B%E5%9C%B0%E7%90%83%E5%8D%8A%E5%BE%84",
+   "title": "霍尔效应（1879）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E9%9C%8D%E5%B0%94%E6%95%88%E5%BA%94",
    "published": "",
-   "summary": "证明地球是球，并算出它的半径；重做方式：两人异地同日正午量杆影，算太阳高度角差；AI 帮忙算大圆距离和误差；为什么值得：两千年前的方法，今天两个人一个下午就能重做，结果误差能到 5% 以内；难度：随时能做",
+   "summary": "磁场会让载流导体产生横向电压；重做方式：霍尔传感器 + 磁铁 + 万用表，测磁场随距离的衰减；为什么值得：手机里的指南针、电动车的电流传感器，全靠这一条；难度：进阶",
    "meta": {
-    "era": "-240",
-    "level": "随时能做",
+    "era": "1879",
+    "level": "进阶",
     "tools": [
-     "杆子",
-     "卷尺",
-     "手机"
-    ]
-   },
-   "targeted": true,
-   "score": 80,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "f077c900abe8",
-   "source": "classic",
-   "title": "法拉第电磁感应（1831）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94",
-   "published": "",
-   "summary": "变化的磁通量产生电流；重做方式：线圈 + 磁铁 + 万用表，比较插入速度与感应电压；AI 拟合曲线；为什么值得：今天所有发电方式，都只是这一条规律的工程化；难度：随时能做",
-   "meta": {
-    "era": "1831",
-    "level": "随时能做",
-    "tools": [
-     "线圈",
+     "霍尔传感器",
      "磁铁",
      "万用表"
     ]
    },
    "targeted": true,
-   "score": 80,
+   "score": 96,
    "why": "",
    "timeless": true,
-   "obj_hits": [],
+   "obj_hits": [
+    "传感器"
+   ],
    "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
+   "modern_hits": [
+    "手机",
+    "传感器"
+   ],
+   "hits": [
+    "传感器",
+    "手机",
+    "传感器"
+   ],
    "title_signal": false
   },
   {
-   "id": "e4783fe669af",
+   "id": "978b5914290c",
    "source": "classic",
-   "title": "布朗运动（1827）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%B8%83%E6%9C%97%E8%BF%90%E5%8A%A8",
+   "title": "傅科摆（1851）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%82%85%E7%A7%91%E6%91%86",
    "published": "",
-   "summary": "为'原子真实存在'提供证据；重做方式：显微镜看牛奶/墨汁里的颗粒，手机拍视频，AI 追踪轨迹算均方位移；为什么值得：爱因斯坦 1905 年用它证明原子存在；今天 AI 帮你追每一颗粒子；难度：进阶",
+   "summary": "用摆动证明地球在自转；重做方式：长绳 + 重物 + 沙盘，记录摆动平面偏转；手机延时摄影；为什么值得：不需要看天，站在屋里就能看见地球在转；难度：进阶",
    "meta": {
-    "era": "1827",
+    "era": "1851",
     "level": "进阶",
     "tools": [
-     "显微镜",
-     "手机",
-     "牛奶"
+     "长绳",
+     "重物",
+     "手机"
     ]
    },
    "targeted": true,
@@ -85,33 +68,29 @@
    "title_signal": false
   },
   {
-   "id": "1ebc9f25bb55",
+   "id": "6bdc4eced96c",
    "source": "classic",
-   "title": "光电效应（用 LED 反做）（1902）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%85%89%E7%94%B5%E6%95%88%E5%BA%94%EF%BC%88%E7%94%A8+LED+%E5%8F%8D%E5%81%9A%EF%BC%89",
+   "title": "焦耳热功当量（1843）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E7%84%A6%E8%80%B3%E7%83%AD%E5%8A%9F%E5%BD%93%E9%87%8F",
    "published": "",
-   "summary": "光子的能量由频率决定；重做方式：不同颜色 LED 测点亮电压，反推普朗克常数（本仓库有现成方案）；为什么值得：几十块钱测出一个量子力学常数，这是最便宜的'量子实验'；难度：进阶",
+   "summary": "证明热是能量的一种形式；重做方式：重物下落搅拌保温杯里的水，测温升，算 4.18 J/cal 到底是多少；为什么值得：把'卡路里'从食品标签拽回物理世界；难度：进阶",
    "meta": {
-    "era": "1902",
+    "era": "1843",
     "level": "进阶",
     "tools": [
-     "万用表",
-     "LED",
-     "电位器"
+     "保温杯",
+     "重物",
+     "温度计"
     ]
    },
    "targeted": true,
-   "score": 90,
+   "score": 80,
    "why": "",
    "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
+   "obj_hits": [],
    "per_hits": [],
    "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
+   "hits": [],
    "title_signal": false
   }
  ]

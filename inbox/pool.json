@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-26T00:23:05+00:00",
- "count": 145,
+ "updated_at": "2026-10-27T01:28:39+00:00",
+ "count": 148,
  "items": [
   {
    "id": "b7ecd58ef8e7",
@@ -801,29 +801,6 @@
    "title_signal": true
   },
   {
-   "id": "a59d5e645baa",
-   "source": "hackaday",
-   "title": "Basically, Galvanizing Metal Without Acid",
-   "url": "https://hackaday.com/2026/09/26/basically-galvanizing-metal-without-acid",
-   "published": "2026-09-26",
-   "summary": "As useful as steel and iron are to the modern world, their tendency to rust is a major downside. There’s a spectrum of ways to prevent it, from quickly slapping …read more",
-   "meta": {
-    "query": "water quality"
-   },
-   "targeted": true,
-   "score": 80,
-   "why": "",
-   "obj_hits": [
-    "spectrum"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "spectrum"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "9094207ea8eb",
    "source": "classic",
    "title": "埃拉托色尼用影子测地球半径（-240）",
@@ -1155,6 +1132,30 @@
    "title_signal": false
   },
   {
+   "id": "a8b9b0b154d4",
+   "source": "wikipedia",
+   "title": "馬德堡半球",
+   "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E5%BE%B7%E5%A0%A1%E5%8D%8A%E7%90%83",
+   "published": "",
+   "summary": "馬登堡半球（德語：Magdeburger Halbkugeln），亦作马格德堡半球，是一对铜质空心半球，被用于1654年由德国物理学家、时任馬德堡市長奥托·冯·居里克於神聖羅馬帝國的雷根斯堡進行的一項物理实验。在这项实验中，实验者先将两个完全密合的半球中的空气抽掉，然后驱马从两侧向外拉，以展示大气压力的作用。马德堡半球实验作为物理学中的经典实验，今日仍被广泛用于课堂教学。最初用于实验的两个半球保存于位于慕尼黑的德意志博物馆。馬德堡半球用了16匹馬才拉開。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "58c42e0ca1d6",
    "source": "wikipedia",
    "title": "假想實驗",
@@ -1227,30 +1228,6 @@
    "title_signal": true
   },
   {
-   "id": "c92f39c2aec2",
-   "source": "wikipedia",
-   "title": "牛顿大炮",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E5%A4%A7%E7%82%AE",
-   "published": "",
-   "summary": "牛顿大炮（英語：Newton's cannonball）是物理学家艾萨克·牛顿阐述的一个思想实验。牛顿用这个实验来假设引力具有普适性，并且是行星运动的重要动力来源。这个实验出现在牛顿的著作《自然哲学的数学原理》中。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "6f8a9aad6f5e",
    "source": "wikipedia",
    "title": "缸中之脑",
@@ -1319,30 +1296,6 @@
    "modern_hits": [],
    "hits": [
     "实验"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "b2a4e0b2b7c7",
-   "source": "wikipedia",
-   "title": "國立臺灣大學物理學系",
-   "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%89%A9%E7%90%86%E5%AD%B8%E7%B3%BB",
-   "published": "",
-   "summary": "國立臺灣大學物理學系（英語：Department of Physics, National Taiwan University），略稱臺灣大學物理系、臺大物理系，創辦於1946年8月，首任系主任為物理學家戴運軌。台大物理系是為國立臺灣大學改制之後首創的第一個系所。前身是日治時期臺北帝國大學的理學部化學科所設置的物理學講座，當時有兩三間辦公室和實驗室。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics"
    ],
    "title_signal": false
   },
@@ -1539,6 +1492,78 @@
    "title_signal": false
   },
   {
+   "id": "bb1408b8b499",
+   "source": "wikipedia",
+   "title": "Bohr–Einstein debates",
+   "url": "https://en.wikipedia.org/wiki/Bohr%E2%80%93Einstein_debates",
+   "published": "",
+   "summary": "The Bohr–Einstein debates were a series of public disputes about quantum mechanics between Albert Einstein and Niels Bohr. Their debates are remembered because of their importance to the philosophy of science, insofar as the disagreements—and the outcome of Bohr's version of quantum mechanics becoming the prevalent view—form the root of the modern understanding of physics. Most of Bohr's version o",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "c92f39c2aec2",
+   "source": "wikipedia",
+   "title": "牛顿大炮",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E5%A4%A7%E7%82%AE",
+   "published": "",
+   "summary": "牛顿大炮（英語：Newton's cannonball）是物理学家艾萨克·牛顿阐述的一个思想实验。牛顿用这个实验来假设引力具有普适性，并且是行星运动的重要动力来源。这个实验出现在牛顿的著作《自然哲学的数学原理》中。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "b2a4e0b2b7c7",
+   "source": "wikipedia",
+   "title": "國立臺灣大學物理學系",
+   "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%89%A9%E7%90%86%E5%AD%B8%E7%B3%BB",
+   "published": "",
+   "summary": "國立臺灣大學物理學系（英語：Department of Physics, National Taiwan University），略稱臺灣大學物理系、臺大物理系，創辦於1946年8月，首任系主任為物理學家戴運軌。台大物理系是為國立臺灣大學改制之後首創的第一個系所。前身是日治時期臺北帝國大學的理學部化學科所設置的物理學講座，當時有兩三間辦公室和實驗室。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "43a3935e4604",
    "source": "wikipedia",
    "title": "物理学的进化",
@@ -1638,44 +1663,6 @@
    "summary": "[kati]’s Clotty might run DOOM and game-ify the menstrual tracking process with a playful Tamagotchi-like aspect, but don’t let that distract you. It is, at its heart, a personal menstrual …read more",
    "meta": {
     "query": "sensor"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "9b2b117bfa8f",
-   "source": "hackaday",
-   "title": "An Open Micro-Manipulator Improved",
-   "url": "https://hackaday.com/2026/10/19/an-open-micro-maniplulator-improved",
-   "published": "2026-10-19",
-   "summary": "If you need a micro-manipulator, you probably already have a good idea of what it does. For example, you might be moving a probe over an IC die or wafer. …read more",
-   "meta": {
-    "query": "microscope"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "23e042718e8b",
-   "source": "hackaday",
-   "title": "An LCR Meter with Compromises",
-   "url": "https://hackaday.com/2026/10/19/an-lcr-meter-with-compromises",
-   "published": "2026-10-19",
-   "summary": "YouTube, like the Internet, has its plusses and minuses. On the plus side, you can find information on just about anything. On the minus side, you don’t always know if …read more",
-   "meta": {
-    "query": "oscilloscope"
    },
    "targeted": true,
    "score": 74,
@@ -1818,6 +1805,44 @@
    "hits": [
     "open source"
    ],
+   "title_signal": false
+  },
+  {
+   "id": "9b2b117bfa8f",
+   "source": "hackaday",
+   "title": "An Open Micro-Manipulator Improved",
+   "url": "https://hackaday.com/2026/10/19/an-open-micro-maniplulator-improved",
+   "published": "2026-10-19",
+   "summary": "If you need a micro-manipulator, you probably already have a good idea of what it does. For example, you might be moving a probe over an IC die or wafer. …read more",
+   "meta": {
+    "query": "microscope"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "23e042718e8b",
+   "source": "hackaday",
+   "title": "An LCR Meter with Compromises",
+   "url": "https://hackaday.com/2026/10/19/an-lcr-meter-with-compromises",
+   "published": "2026-10-19",
+   "summary": "YouTube, like the Internet, has its plusses and minuses. On the plus side, you can find information on just about anything. On the minus side, you don’t always know if …read more",
+   "meta": {
+    "query": "oscilloscope"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
    "title_signal": false
   },
   {
@@ -2030,23 +2055,27 @@
    "title_signal": false
   },
   {
-   "id": "cb182d8517f7",
+   "id": "a1d078e21527",
    "source": "wikipedia",
-   "title": "物理学词汇表",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E8%AF%8D%E6%B1%87%E8%A1%A8",
+   "title": "以太坊",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BB%A5%E5%A4%AA%E5%9D%8A",
    "published": "",
-   "summary": "本物理学词汇表列出了与物理学、其分支学科和相关领域（包括力学、材料科学、核物理学、粒子物理学和热力学）相关的术语和概念的定义。有关科学和技术相关领域的更具包容性的词汇表，请参阅化学词汇表、天文学辞汇、数学领域词汇表和工程学词汇表。 本词汇表按照汉语拼音字母排列。",
+   "summary": "以太坊（英語：Ethereum）是一个去中心化、开源并且具备智能合约功能的公共区块链平台，其核心组件是以太坊虚拟机（Ethereum Virtual Machine，EVM），它是一个图灵完备的虚拟机，能够执行智能合约代码。以太坊使用名为“以太”（Ether，缩写为 ETH）的加密货币作为其内部交易的“燃料”，用于支付交易费用和计算服务。 截至2024年3月，以太币是加密市场市值第二高的加密货币，仅次于比特币，市值为2561億美元（约等于1.7万亿人民币，8.1兆新台幣)，同时以太坊也是目前用户使用最多的区块链之一。截至2024年6月，以太坊主网已拥有378,000名活跃用户，这一数量几乎是2020年的九倍。 以太坊还允许用户创建和交换不可替代的代币（NFT），这些代币可以与独特的数字资产（例如图像）相关联。此外，许多其他加密货币在以太坊区块链之上利用 ERC-20 代币标准，进行首次代币",
    "meta": {
     "site": "zh.wikipedia.org"
    },
    "targeted": true,
-   "score": 66,
+   "score": 69,
    "why": "",
    "timeless": true,
    "obj_hits": [],
    "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
+   "modern_hits": [
+    "开源"
+   ],
+   "hits": [
+    "开源"
+   ],
    "title_signal": false
   },
   {
@@ -2076,6 +2105,46 @@
    "url": "https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%AF%B9%E8%AE%BA",
    "published": "",
    "summary": "相對論（英語：Theory of relativity）是关于时空和引力的理论，主要由爱因斯坦创立，依其研究对象的不同可分为狭义相对论和广义相对论。相对论和量子力学的提出给物理学带来了革命性的变化，它们共同奠定了现代物理学的基础。相对论极大地改变了人类对宇宙和自然的“常识性”观念，提出了“同时的相对性”、“四维时空”、“弯曲时空”等全新的概念。不过近年来，人们对于物理理论的分类有了一种新的认识——以其理论是否是决定论的来划分经典与非经典的物理学，即“非古典的＝量子的”。在这个意义下，相对论仍然是一种经典的理论。 該理論取代了200年前主要由艾薩克·牛頓創立的力學理論，從而改變了20世紀的理論物理學和天文學，它引入的概念，包括時空、同時性之相對性、運動學、重力時間膨脹和勞侖茲收縮。在物理學領域，相對論改善了基本粒子的科學以及它們的基本相互作用，以及迎來核子時代。 另外，藉由相對論，物理宇宙學",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "9aace4137621",
+   "source": "wikipedia",
+   "title": "爱因斯坦-波多尔斯基-罗森佯谬",
+   "url": "https://zh.wikipedia.org/wiki/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6-%E6%B3%A2%E5%A4%9A%E5%B0%94%E6%96%AF%E5%9F%BA-%E7%BD%97%E6%A3%AE%E4%BD%AF%E8%B0%AC",
+   "published": "",
+   "summary": "愛因斯坦-波多爾斯基-羅森弔詭（英語：Einstein-Podolsky-Rosen paradox），簡稱「愛波羅弔詭」、「EPR弔詭」（EPR paradox）是阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森在1935年發表的一篇論文中，以弔詭的形式針對量子力学的哥本哈根詮釋而提出的早期重要批評。 在這篇題為《能認為量子力學對物理實在的描述是完全的嗎？》（英語：Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?，下稱「EPR論文」）的論文中，他們設計出一個思想實驗，稱為「EPR思想實驗」。藉著檢驗兩個量子糾纏粒子所呈現出的關聯性物理行為，EPR思想實驗凸顯出定域實在論與量子力學完備性之間的矛盾，因此，這論述被稱為「EPR弔詭」。 EPR論文並沒有質疑量子力學的正確性，它質疑的是",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "cb182d8517f7",
+   "source": "wikipedia",
+   "title": "物理学词汇表",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E8%AF%8D%E6%B1%87%E8%A1%A8",
+   "published": "",
+   "summary": "本物理学词汇表列出了与物理学、其分支学科和相关领域（包括力学、材料科学、核物理学、粒子物理学和热力学）相关的术语和概念的定义。有关科学和技术相关领域的更具包容性的词汇表，请参阅化学词汇表、天文学辞汇、数学领域词汇表和工程学词汇表。 本词汇表按照汉语拼音字母排列。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2150,26 +2219,6 @@
    "title_signal": false
   },
   {
-   "id": "bca0f77d3a27",
-   "source": "wikipedia",
-   "title": "赛门·夏佛",
-   "url": "https://zh.wikipedia.org/wiki/%E8%B5%9B%E9%97%A8%C2%B7%E5%A4%8F%E4%BD%9B",
-   "published": "",
-   "summary": "賽門·夏佛（英語：Simon J. Schaffer，1955年1月1日—），劍橋大學科學史與科學哲學教授。英國科學史期刊主編。專長為物理史、社會科學史。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "cf44c48498ff",
    "source": "wikipedia",
    "title": "XTIE",
@@ -2196,26 +2245,6 @@
    "url": "https://zh.wikipedia.org/wiki/Xcon",
    "published": "",
    "summary": "R1（后来被称为XCON，eXpert CONfigurer的所写，意为专家设置）程序是基于生产规则的系统，由卡内基梅隆大学的John P. McDermott在1978年用OPS5开发。其目的是按照用户的需求，帮助DEC为VAX型计算机系统自动选择组件。XCON的开发继承了两个之前用FORTRAN语言和BASIC语言未成功的尝试完成了一个专家系统。 在1980年，XCON最初被用于DEC位于新罕布什尔州萨利姆的工厂。最终它有了大约2500条规则。截止至1986年，它一共处理了80,000条指令，准确率达到95-98%。据估计，通过减少当技师出错时送给客户的组件、加速组装流程、和增加客户满意度，它每年为DEC节省了两千五百万美元。 在使用XCON之前，当从DEC订购VAX时，电缆、接头、和很多软件要单独订购（计算机和外设不像今天一样一起出售）。不是所有的销售人员都是技术专家，所以经常会发生",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "cee5ba259b88",
-   "source": "wikipedia",
-   "title": "印第安電單車",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
-   "published": "",
-   "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2290,12 +2319,12 @@
    "title_signal": false
   },
   {
-   "id": "d4334f08f1a7",
+   "id": "1b17bfdbe05c",
    "source": "wikipedia",
-   "title": "加拿大",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
+   "title": "實驗哲學",
+   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
    "published": "",
-   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
+   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2310,12 +2339,12 @@
    "title_signal": false
   },
   {
-   "id": "1b17bfdbe05c",
+   "id": "925998e1f52f",
    "source": "wikipedia",
-   "title": "實驗哲學",
-   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
+   "title": "朱迪斯·贾维斯·汤姆逊",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E8%B4%BE%E7%BB%B4%E6%96%AF%C2%B7%E6%B1%A4%E5%A7%86%E9%80%8A",
    "published": "",
-   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
+   "summary": "朱迪斯·贾维斯·汤姆逊（1929年10月4日 – 2020年11月20日）是一位研究伦理学、形上學和有轨电车难题的美国哲学家。 朱迪斯·贾维斯·汤姆逊是《为堕胎辩护》的作者。1989年，朱迪斯·贾维斯·汤姆逊当选美国文理科学院院士。 2016年，她当选为英國國家學術院通讯院士。 2019年，当选为美國哲學學會会员。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2376,26 +2405,6 @@
    "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1",
    "published": "",
    "summary": "伽利略·伽利莱（義大利語：Galileo Galilei ；1564年2月15日—1642年1月8日），義大利物理學家、數學家、天文學家及哲學家，科學革命中的重要人物。伽利略被譽為“現代觀測天文學之父”、“現代物理學之父”、科学方法之父及“現代科學之父”。 伽利略曾研究速率與速度、引力與自由落體、相对性原理、慣性與抛体运动，並在應用科學與技術領域有所建樹，描述鐘擺特性與流体静力平衡。他亦是最早發展熱成像儀的學者之一，並發明多種軍用比例規與測量儀器。透過自行改良的望远镜，伽利略觀測到银河系中的繁星、金星相位、木星最大的四顆衛星、土星環、月球陨石坑與太陽黑子等現象；此外，他亦製造出早期形式的顯微鏡。 伽利略對哥白尼日心說的支持，招致天主教會內部及部分天文學家的反對。1615年，羅馬宗教裁判所開始調查此事，並認定其觀點與當時被接受的《聖經》詮釋相牴觸。 其後，伽利略於《关于托勒密和哥白尼两大世界",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "0829c514aed2",
-   "source": "wikipedia",
-   "title": "元科学",
-   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
-   "published": "",
-   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2530,46 +2539,6 @@
    "title_signal": false
   },
   {
-   "id": "e7af2a5ae059",
-   "source": "wikipedia",
-   "title": "威斯康星大学麦迪逊分校",
-   "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%A4%A7%E5%AD%A6%E9%BA%A6%E8%BF%AA%E9%80%8A%E5%88%86%E6%A0%A1",
-   "published": "",
-   "summary": "威斯康星大学麦迪逊分校（英語：University of Wisconsin–Madison, 简称UW–Madison，UW，或Madison）是一所位于美国威斯康星州麦迪逊市的公立赠地研究型大学，也是威斯康星大学系统的旗舰校区。学校成立于1848年，与威斯康星州成为美国联邦的一部分为同一年。校区占地约378公顷，坐落于门多塔湖畔；此外，大学还在校区以南约6.4公里处拥有并运营着一个占地约486公顷的植物园。 威斯康星大学是美国大学协会的创始成员，也是“公立常春藤”之一，被归类为R1级研究型大学。威斯康星大学是“威斯康星学派”的发源地。根据美国国家科学基金会的数据，2024年该校在全美大学科研经费支出中排名第五。 截至2026年10月 (2026-10)，麦迪逊师生共赢得过23次诺贝尔奖、学校共诞生了43位普利策奖得主、1位菲尔兹奖得主以及1位图灵奖得主。该校同时也培育了大量富布赖特学者",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "42194c0fcf28",
-   "source": "wikipedia",
-   "title": "朝鲜战争",
-   "url": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89",
-   "published": "",
-   "summary": "朝鲜战争是1950年至1953年期间朝鲜半岛发生的大規模戰爭，交戰雙方分別是朝鲜民主主义人民共和国與大韩民国。戰爭爆發後，16國組成的聯合國軍（以美軍為主力）出兵支持韓國，中华人民共和国以中国人民志愿军的名义出兵支持朝鲜，苏联则通过军事物资支援与空军支持出兵朝鲜，使战争升级为影响东亚地缘政治的区域性冲突，同时也令此战成为自中国的第二次国共内战后在冷战时期东西方阵营间的第二场代理人战争。 朝鮮人民軍在三八线发生冲突及南部发生濟州四·三事件后，於1950年6月25日跨越三八线南下与大韩民国国军作战，战争爆發。雙方隨後展開漫長的拉鋸戰，联合国军與中国人民志愿军先後參戰，最終戰線維持在三八線附近，於1953年7月27日在板门店签署《朝鲜停战协定》，並根据停战时实际控制线，建立朝韩非军事区作缓冲地带。朝鲜半岛南北双方仍有外交冲突和军事对峙，持续至今。 而美国于朝鲜战争期间部署第七舰队巡防台湾海峡，以",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "c49fa4f9f601",
    "source": "wikipedia",
    "title": "Blockhead (thought experiment)",
@@ -2670,52 +2639,12 @@
    "title_signal": false
   },
   {
-   "id": "78d0cbe81a17",
-   "source": "wikipedia",
-   "title": "Twin Earth thought experiment",
-   "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
-   "published": "",
-   "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "f5cd3cda2a7a",
    "source": "wikipedia",
    "title": "Experiment",
    "url": "https://en.wikipedia.org/wiki/Experiment",
    "published": "",
    "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4a260f65e483",
-   "source": "wikipedia",
-   "title": "Galileo's Leaning Tower of Pisa experiment",
-   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
-   "published": "",
-   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -2790,12 +2719,32 @@
    "title_signal": false
   },
   {
-   "id": "91b5bfdb8698",
+   "id": "f56d856d138d",
    "source": "wikipedia",
-   "title": "科学分支",
-   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%88%86%E6%94%AF",
+   "title": "Stanford prison experiment",
+   "url": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
    "published": "",
-   "summary": "科学的分支、分类，也称科学领域，通常分为三大类： 形式科学：对形式系统的研究，如逻辑和数学分支下的学科。它们依据先验知识，而非建立在实证基础上。 自然科学：对自然现象的研究（包括宇宙内的宇宙学、地质学、物理学、化学和生物学影响）。自然科学可分为两个主要分支：物理科学和生命科学（或生物科学）。 社会科学：在社会和文化角度研究人类行为的科学。 科学知识必须建立在可观察的现象之上，并且能够在相同条件下被其他研究者验证。自然科学、社会科学和形式科学构成基础科学，它们也是跨学科和应用科学（如工程学和医学）的基础。",
+   "summary": "The Stanford prison experiment (SPE), also referred to as the Zimbardo prison experiment (ZPE), was a controversial psychological experiment performed in August 1971 at Stanford University. It was designed to be a two-week simulation of a prison environment that examined the effects of situational variables on participants' reactions and behaviors. Stanford psychology professor Philip Zimbardo man",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "bca0f77d3a27",
+   "source": "wikipedia",
+   "title": "赛门·夏佛",
+   "url": "https://zh.wikipedia.org/wiki/%E8%B5%9B%E9%97%A8%C2%B7%E5%A4%8F%E4%BD%9B",
+   "published": "",
+   "summary": "賽門·夏佛（英語：Simon J. Schaffer，1955年1月1日—），劍橋大學科學史與科學哲學教授。英國科學史期刊主編。專長為物理史、社會科學史。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2810,12 +2759,152 @@
    "title_signal": false
   },
   {
-   "id": "925998e1f52f",
+   "id": "cee5ba259b88",
    "source": "wikipedia",
-   "title": "朱迪斯·贾维斯·汤姆逊",
-   "url": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E8%B4%BE%E7%BB%B4%E6%96%AF%C2%B7%E6%B1%A4%E5%A7%86%E9%80%8A",
+   "title": "印第安電單車",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
    "published": "",
-   "summary": "朱迪斯·贾维斯·汤姆逊（1929年10月4日 – 2020年11月20日）是一位研究伦理学、形上學和有轨电车难题的美国哲学家。 朱迪斯·贾维斯·汤姆逊是《为堕胎辩护》的作者。1989年，朱迪斯·贾维斯·汤姆逊当选美国文理科学院院士。 2016年，她当选为英國國家學術院通讯院士。 2019年，当选为美國哲學學會会员。",
+   "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "d4334f08f1a7",
+   "source": "wikipedia",
+   "title": "加拿大",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
+   "published": "",
+   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "0829c514aed2",
+   "source": "wikipedia",
+   "title": "元科学",
+   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
+   "published": "",
+   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "e7af2a5ae059",
+   "source": "wikipedia",
+   "title": "威斯康星大学麦迪逊分校",
+   "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%A4%A7%E5%AD%A6%E9%BA%A6%E8%BF%AA%E9%80%8A%E5%88%86%E6%A0%A1",
+   "published": "",
+   "summary": "威斯康星大学麦迪逊分校（英語：University of Wisconsin–Madison, 简称UW–Madison，UW，或Madison）是一所位于美国威斯康星州麦迪逊市的公立赠地研究型大学，也是威斯康星大学系统的旗舰校区。学校成立于1848年，与威斯康星州成为美国联邦的一部分为同一年。校区占地约378公顷，坐落于门多塔湖畔；此外，大学还在校区以南约6.4公里处拥有并运营着一个占地约486公顷的植物园。 威斯康星大学是美国大学协会的创始成员，也是“公立常春藤”之一，被归类为R1级研究型大学。威斯康星大学是“威斯康星学派”的发源地。根据美国国家科学基金会的数据，2024年该校在全美大学科研经费支出中排名第五。 截至2026年10月 (2026-10)，麦迪逊师生共赢得过23次诺贝尔奖、学校共诞生了43位普利策奖得主、1位菲尔兹奖得主以及1位图灵奖得主。该校同时也培育了大量富布赖特学者",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "42194c0fcf28",
+   "source": "wikipedia",
+   "title": "朝鲜战争",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89",
+   "published": "",
+   "summary": "朝鲜战争是1950年至1953年期间朝鲜半岛发生的大規模戰爭，交戰雙方分別是朝鲜民主主义人民共和国與大韩民国。戰爭爆發後，16國組成的聯合國軍（以美軍為主力）出兵支持韓國，中华人民共和国以中国人民志愿军的名义出兵支持朝鲜，苏联则通过军事物资支援与空军支持出兵朝鲜，使战争升级为影响东亚地缘政治的区域性冲突，同时也令此战成为自中国的第二次国共内战后在冷战时期东西方阵营间的第二场代理人战争。 朝鮮人民軍在三八线发生冲突及南部发生濟州四·三事件后，於1950年6月25日跨越三八线南下与大韩民国国军作战，战争爆發。雙方隨後展開漫長的拉鋸戰，联合国军與中国人民志愿军先後參戰，最終戰線維持在三八線附近，於1953年7月27日在板门店签署《朝鲜停战协定》，並根据停战时实际控制线，建立朝韩非军事区作缓冲地带。朝鲜半岛南北双方仍有外交冲突和军事对峙，持续至今。 而美国于朝鲜战争期间部署第七舰队巡防台湾海峡，以",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "78d0cbe81a17",
+   "source": "wikipedia",
+   "title": "Twin Earth thought experiment",
+   "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
+   "published": "",
+   "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4a260f65e483",
+   "source": "wikipedia",
+   "title": "Galileo's Leaning Tower of Pisa experiment",
+   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+   "published": "",
+   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "91b5bfdb8698",
+   "source": "wikipedia",
+   "title": "科学分支",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%88%86%E6%94%AF",
+   "published": "",
+   "summary": "科学的分支、分类，也称科学领域，通常分为三大类： 形式科学：对形式系统的研究，如逻辑和数学分支下的学科。它们依据先验知识，而非建立在实证基础上。 自然科学：对自然现象的研究（包括宇宙内的宇宙学、地质学、物理学、化学和生物学影响）。自然科学可分为两个主要分支：物理科学和生命科学（或生物科学）。 社会科学：在社会和文化角度研究人类行为的科学。 科学知识必须建立在可观察的现象之上，并且能够在相同条件下被其他研究者验证。自然科学、社会科学和形式科学构成基础科学，它们也是跨学科和应用科学（如工程学和医学）的基础。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3082,30 +3171,6 @@
    },
    "targeted": false,
    "score": 62,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "21209da8cf91",
-   "source": "hn",
-   "title": "HomelabFest will be in St. Louis in September 2027",
-   "url": "https://www.homelabfest.org/",
-   "published": "2026-09-26",
-   "summary": "",
-   "meta": {
-    "points": 78,
-    "comments": 61
-   },
-   "targeted": false,
-   "score": 61,
    "why": "",
    "obj_hits": [],
    "per_hits": [
