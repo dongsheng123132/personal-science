@@ -253,6 +253,8 @@ If something looks exciting but feels dangerous, don't do it. Open an issue firs
 ├── inbox/               Raw pool + AI filter
 ├── feed/                Web dashboard
 ├── deploy/              Where to run, where to host
+├── AGENTS.md            Rules for AI agents maintaining this repo
+├── maintenance/         Runbook, backlog, automated checks (Chinese)
 └── archive/             Dead ends, kept on purpose
 ```
 

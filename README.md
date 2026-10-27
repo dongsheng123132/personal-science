@@ -250,6 +250,8 @@ inbox/designs/（草稿，标注未核对）
 ├── inbox/               采集结果 + AI 筛选
 ├── feed/                网页看板
 ├── deploy/              放哪跑、放哪看
+├── AGENTS.md            给维护这个仓库的 AI 看的规矩
+├── maintenance/         维护手册、待办、自动体检脚本
 └── archive/             走错的路（保留，提醒自己别再建平台）
 ```
 
