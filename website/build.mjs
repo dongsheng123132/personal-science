@@ -8,23 +8,27 @@ const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const files=fs.readdirSync(path.join(root,'experiments')).filter(n=>n.endsWith('.md')&&!n.startsWith('_'));
 const docs={'MANIFESTO.md':'manifesto','CHARTER.md':'charter','CONTRIBUTING.md':'contribute','RESULTS.md':'results','inbox/candidates.md':'candidates','README.md':'experiments'};
-function link(href,source){
+const enDocs={'MANIFESTO.en.md':'en/manifesto','CHARTER.en.md':'en/charter','CONTRIBUTING.en.md':'en/contribute','README.en.md':'en'};
+function link(href,source,lang){
  if(/^https?:\/\//i.test(href)||href.startsWith('#'))return href;
  if(/^[a-z][a-z0-9+.-]*:/i.test(href))return '#';
  const [p,hash]=href.split('#'), resolved=path.posix.normalize(path.posix.join(path.posix.dirname(source),p));
- let target=docs[resolved]?`/${docs[resolved]}/`:resolved.startsWith('experiments/')&&!path.posix.basename(resolved).startsWith('_')?`/experiments/${path.posix.basename(resolved,'.md')}/`:resolved.startsWith('inbox/designs/')?'/drafts/':`${repo}/blob/main/${resolved}`;
+ // English pages: .en.md docs map to /en/* routes; experiment detail pages stay Chinese (/experiments/…, handled by the shared branch below).
+ let target=lang==='en'&&enDocs[resolved]?`/${enDocs[resolved]}/`:docs[resolved]?`/${docs[resolved]}/`:resolved.startsWith('experiments/')&&!path.posix.basename(resolved).startsWith('_')?`/experiments/${path.posix.basename(resolved,'.md')}/`:resolved.startsWith('inbox/designs/')?'/drafts/':`${repo}/blob/main/${resolved}`;
  return target+(hash?'#'+hash:'');
 }
-function markdown(text,source){
+function markdown(text,source,lang){
  // Never pass raw HTML from AI/source markdown into the website.
  const renderer=new marked.Renderer();
  renderer.html=({text})=>esc(text);
- renderer.link=({href,text})=>`<a href="${esc(link(href,source))}">${esc(text)}</a>`;
+ renderer.link=({href,text})=>`<a href="${esc(link(href,source,lang))}">${esc(text)}</a>`;
  renderer.image=({text})=>`<span>${esc(text)}</span>`;
  return marked.parse(text.replace(/<!--[\s\S]*?-->/g,''),{renderer});
 }
-const nav=[['/experiments/','实验清单'],['/candidates/','每日发现'],['/drafts/','AI 草稿'],['/manifesto/','宣言'],['/contribute/','参与贡献']];
-function page(url,title,body){const dir=path.join(out,url);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="用身边的工具和 AI，开始你的第一个科学实验。Personal Science 个人科学实验清单。"><title>${esc(title)} · Personal Science</title><link rel="stylesheet" href="/style.css"></head><body><header><a class="brand" href="/">Personal Science<span>个人科学</span></a><nav>${nav.map(([u,t])=>`<a href="${u}" ${url===u.slice(1)?'aria-current="page"':''}>${t}</a>`).join('')}</nav><a class="github" href="${repo}">GitHub ↗</a></header><main>${body}</main><footer><div><b>一个人，也可以开始探索。</b><p>提出问题 · 动手测量 · 让 AI 帮你分析 · 分享结果</p></div><div><a href="/charter/">章程</a> · <a href="/results/">实验记录</a> · <a href="${repo}/blob/main/README.en.md">English</a><p>内容 CC0 · 实验方案不等于实测验证</p></div></footer></body></html>`);}
+import { referencePages } from './references.mjs';
+const nav=[['/sources/','参考资料'],['/experiments/','实验清单'],['/candidates/','每日发现'],['/drafts/','AI 草稿'],['/manifesto/','宣言'],['/contribute/','参与贡献']];
+const navEn=[['/en/experiments/','Experiments'],['/en/manifesto/','Manifesto'],['/en/contribute/','Contribute'],['/en/charter/','Charter']];
+function page(url,title,body,lang){const en=lang==='en';const dir=path.join(out,url);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),`<!doctype html><html lang="${en?'en':'zh-CN'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="${en?'Run real science experiments with everyday tools and AI. Personal Science — a list of experiments you can do at home.':'用身边的工具和 AI，开始你的第一个科学实验。Personal Science 个人科学实验清单。'}"><title>${esc(title)} · Personal Science</title><link rel="stylesheet" href="/style.css"></head><body><header><a class="brand" href="${en?'/en/':'/'}">Personal Science<span>${en?'one person = one lab':'个人科学'}</span></a><nav>${(en?navEn:nav).map(([u,t])=>`<a href="${u}" ${url===u.slice(1)?'aria-current="page"':''}>${t}</a>`).join('')}</nav><a class="lang-switch" href="${en?'/':'/en/'}" hreflang="${en?'zh-CN':'en'}">${en?'中文':'English'}</a><a class="github" href="${repo}">GitHub ↗</a></header><main>${body}</main><footer><div><b>${en?'One person can start exploring.':'一个人，也可以开始探索。'}</b><p>${en?'Ask a question · Measure it yourself · Let AI help analyze · Share the result':'提出问题 · 动手测量 · 让 AI 帮你分析 · 分享结果'}</p></div><div>${en?`<a href="/en/charter/">Charter</a> · <a href="/en/manifesto/">Manifesto</a> · <a href="/en/contribute/">Contribute</a> · <a href="/" hreflang="zh-CN">中文</a><p>Content CC0 · A plan is not a verified result</p>`:`<a href="/charter/">章程</a> · <a href="/results/">实验记录</a> · <a href="/en/" hreflang="en">English</a><p>内容 CC0 · 实验方案不等于实测验证</p>`}</div></footer></body></html>`);}
 const entries=files.map(file=>{const text=read('experiments/'+file);const field=n=>(text.match(new RegExp('\\| \\*\\*'+n+'\\*\\* \\| (.*?) \\|'))||[])[1]||'见实验页';return {file,text,title:text.split('\n')[0].replace(/^# /,''),intro:(text.match(/^> (.+)$/m)||[])[1]||'',cost:field('花费'),time:field('时间'),slug:file.slice(0,-3)};});
 const card=e=>`<a class="card" href="/experiments/${e.slug}/"><div class="meta">${esc(e.time)} <span>${esc(e.cost)}</span></div><h3>${esc(e.title)}</h3><p>${esc(e.intro)}</p><strong>看看怎么做 →</strong></a>`;
 const picks=['blind-cola','galileo-inclined-plane','polarization-tape','eratosthenes'].map(s=>entries.find(e=>e.slug===s)).filter(Boolean);
@@ -35,5 +39,15 @@ for(const [src,slug] of Object.entries(docs)){if(src==='README.md')continue;if(!
 const drafts=fs.readdirSync(path.join(root,'inbox/designs')).filter(n=>n.endsWith('.md')&&n!=='README.md').sort().reverse();
 page('drafts/','AI 实验草稿',`<div class="eyebrow">IDEAS IN PROGRESS</div><h1>下一个实验，从这里长出来。</h1><p class="lead">AI 自动提出方案，人来检查、尝试和改进。这里的草稿可能存在公式、器材或安全问题，不能直接当操作指南。</p><div class="grid">${drafts.map((f,i)=>`<a class="card" href="/drafts/${i}/"><div class="meta">待核对 · AI 草稿</div><h3>${esc(f.replace(/\.md$/,''))}</h3><strong>阅读与改进 →</strong></a>`).join('')}</div>`);
 for(const [i,f] of drafts.entries())page(`drafts/${i}/`,f.replace(/\.md$/,''),`<a href="/drafts/">← 返回草稿列表</a><div class="notice">AI 草稿 · 未经人工核对。不要照此直接操作。欢迎核对来源、指出问题，再通过 PR 完善。</div><article>${markdown(read('inbox/designs/'+f),'inbox/designs/'+f)}</article><a class="button" href="${repo}/blob/main/inbox/designs/${encodeURIComponent(f)}">在 GitHub 查看与贡献 ↗</a>`);
+referencePages(page,esc);
 fs.copyFileSync(path.join(import.meta.dirname,'style.css'),path.join(out,'style.css'));
-console.log(`Built ${entries.length} experiment pages, ${drafts.length} drafts and site navigation.`);
+
+// --- English section (/en/) ---
+// Landing page content is sourced from README.en.md (the English README) split into
+// a hero + full rendered README body; the experiment directory reuses the existing
+// English README table rendering via the same markdown pipeline. Experiment DETAIL
+// pages intentionally stay Chinese-only (physics content is not translated).
+page('en/','Personal Science — one person = one lab',`<section class="hero"><div class="eyebrow">PERSONAL SCIENCE / SCIENCE EQUITY</div><h1>Don't just ask why.<br>Try it yourself.</h1><p>Can you actually tell Coke from Pepsi? Can a strand of hair split light into stripes?<br>Ask questions with everyday tools, and let AI help you design, record and analyze.</p><div class="actions"><a class="button" href="/en/experiments/">Find an experiment →</a><a class="secondary" href="/en/contribute/">Contribute your curiosity</a></div><div class="stats"><span><b>${entries.length}</b> experiment plans</span><span>No gatekeeping, curiosity first</span><span>Phone · AI · ESP32</span></div></section><div class="notice">Experiment detail pages are currently written in Chinese. Translations are very welcome — one page = one PR.</div><article>${markdown(read('README.en.md'),'README.en.md','en')}</article>`,'en');
+page('en/experiments/','Experiments',`<div class="eyebrow">EXPLORE</div><h1>What do you want to verify today?</h1><p class="lead">${entries.length} plans, starting from what you already have. Budget and time are estimates — read the materials, method and safety sections before you start.</p><label class="search">Search experiments <input id="search" type="search" placeholder="Try: phone, light, battery, plant…"></label><div class="grid" id="cards">${entries.map(card).join('')}</div><p id="empty" hidden>No matching experiment. Try another word, or propose a new idea on GitHub.</p><script>document.querySelector('#search').oninput=e=>{let count=0;document.querySelectorAll('#cards .card').forEach(c=>{c.hidden=!c.textContent.toLowerCase().includes(e.target.value.toLowerCase());if(!c.hidden)count++});document.querySelector('#empty').hidden=count>0}</script><div class="notice">Cards above link to the Chinese experiment pages; English translations of detail pages are not available yet.</div>`,'en');
+for(const [src,slug] of Object.entries(enDocs)){if(src==='README.en.md')continue;if(!fs.existsSync(path.join(root,src)))continue;page(slug+'/',{'en/manifesto':'Manifesto','en/charter':'Charter','en/contribute':'Contribute'}[slug],`<div class="eyebrow">PERSONAL SCIENCE</div><article>${markdown(read(src),src,'en')}</article>`,'en');}
+console.log(`Built ${entries.length} experiment pages, ${drafts.length} drafts and site navigation (zh + en).`);
