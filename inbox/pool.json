@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-27T01:28:39+00:00",
- "count": 148,
+ "updated_at": "2026-10-28T01:21:16+00:00",
+ "count": 150,
  "items": [
   {
    "id": "b7ecd58ef8e7",
@@ -506,29 +506,6 @@
    "title_signal": false
   },
   {
-   "id": "60064ab6f6ce",
-   "source": "hackaday",
-   "title": "Going Whole-Hog on a First Satellite Ground Station",
-   "url": "https://hackaday.com/2026/10/20/going-whole-hog-on-a-first-satellite-ground-station",
-   "published": "2026-10-20",
-   "summary": "When most radio enthusiasts start trying to pick up signals from satellites, they might put together a quick-and-dirty Yagi antenna and try to catch a repeater as is passes overhead, …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [
-    "radio"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "radio"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "63e1526bb11f",
    "source": "hackaday",
    "title": "Building a Microscope with a 3D View",
@@ -753,6 +730,29 @@
     "3d print"
    ],
    "title_signal": true
+  },
+  {
+   "id": "60064ab6f6ce",
+   "source": "hackaday",
+   "title": "Going Whole-Hog on a First Satellite Ground Station",
+   "url": "https://hackaday.com/2026/10/20/going-whole-hog-on-a-first-satellite-ground-station",
+   "published": "2026-10-20",
+   "summary": "When most radio enthusiasts start trying to pick up signals from satellites, they might put together a quick-and-dirty Yagi antenna and try to catch a repeater as is passes overhead, …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "obj_hits": [
+    "radio"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "radio"
+   ],
+   "title_signal": false
   },
   {
    "id": "d22d3c04dd7f",
@@ -1035,6 +1035,29 @@
    "title_signal": true
   },
   {
+   "id": "172b48983d81",
+   "source": "hackaday",
+   "title": "ESP32 Rotary Display Makes Ideal Timer",
+   "url": "https://hackaday.com/2026/10/27/esp32-rotary-display-makes-ideal-timer",
+   "published": "2026-10-27",
+   "summary": "We’re big fans of pushing hardware into situations it wasn’t designed for here at Hackaday, but sometimes you’ve got to appreciate a nicely designed gadget doing more or less exactly …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 77,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "esp32"
+   ],
+   "hits": [
+    "esp32"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "ea38c29a8cd4",
    "source": "hackaday",
    "title": "An Open Source Linear Capacitive Encoder",
@@ -1178,30 +1201,6 @@
     "实验"
    ],
    "title_signal": false
-  },
-  {
-   "id": "3159fb8be0c4",
-   "source": "wikipedia",
-   "title": "惠勒延迟选择实验",
-   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
-   "published": "",
-   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": true
   },
   {
    "id": "f2bc782fed23",
@@ -1492,6 +1491,30 @@
    "title_signal": false
   },
   {
+   "id": "3159fb8be0c4",
+   "source": "wikipedia",
+   "title": "惠勒延迟选择实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  },
+  {
    "id": "bb1408b8b499",
    "source": "wikipedia",
    "title": "Bohr–Einstein debates",
@@ -1633,6 +1656,25 @@
    "hits": [
     "physics"
    ],
+   "title_signal": false
+  },
+  {
+   "id": "7b589bc293ff",
+   "source": "hackaday",
+   "title": "2026 Retrocomputing Challenge: Explore Space with a Credit Card Reader",
+   "url": "https://hackaday.com/2026/10/27/2026-retrocomputing-challenge-explore-space-with-a-credit-card-reader",
+   "published": "2026-10-27",
+   "summary": "The humble credit card reader — most of us have used hundreds, perhaps even thousands of them over the years. But even for folks like us, it’s not the sort …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
    "title_signal": false
   },
   {
@@ -2119,6 +2161,26 @@
    "title_signal": false
   },
   {
+   "id": "69f386e07db7",
+   "source": "wikipedia",
+   "title": "思想",
+   "url": "https://zh.wikipedia.org/wiki/%E6%80%9D%E6%83%B3",
+   "published": "",
+   "summary": "最通俗的定義中，思想是獨立於感官刺激而發生的認知過程，最典型的形式是判斷、推理、概念形成、問題解決和審議（deliberation）。但其他心智過程，如細思一個構想、記憶或想像，也經常包括在內。與感知不同，這些過程可以獨立於感覺器官在內部發生。但從最廣泛的意義上理解，任何心智事件都可以被理解為一種思維形式，包括知覺和無意識的心智過程。在稍微不同的意義上，“思想”一詞不是指心智過程本身，而是指由這些過程帶來的心智狀態或觀念系統。 已經提出了各種思維理論。它們旨在捕捉思維的特徵。柏拉圖主義者認為，思維在於辨別和檢查柏拉圖形式（英語：Platonic forms，參見理型論）及其相互關係。它涉及區分純粹的柏拉圖形式本身和在感官世界中發現的單純模仿的能力。根據亞里士多德主義，思考某事就是在一個人的頭腦中實例化思想對象的普遍本質。與柏拉圖主義相反，這些共相是從感官經驗中抽象化得到的，並且不被理解為存",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "9aace4137621",
    "source": "wikipedia",
    "title": "爱因斯坦-波多尔斯基-罗森佯谬",
@@ -2319,12 +2381,12 @@
    "title_signal": false
   },
   {
-   "id": "1b17bfdbe05c",
+   "id": "d4334f08f1a7",
    "source": "wikipedia",
-   "title": "實驗哲學",
-   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
+   "title": "加拿大",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
    "published": "",
-   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
+   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2339,12 +2401,12 @@
    "title_signal": false
   },
   {
-   "id": "925998e1f52f",
+   "id": "1b17bfdbe05c",
    "source": "wikipedia",
-   "title": "朱迪斯·贾维斯·汤姆逊",
-   "url": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E8%B4%BE%E7%BB%B4%E6%96%AF%C2%B7%E6%B1%A4%E5%A7%86%E9%80%8A",
+   "title": "實驗哲學",
+   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
    "published": "",
-   "summary": "朱迪斯·贾维斯·汤姆逊（1929年10月4日 – 2020年11月20日）是一位研究伦理学、形上學和有轨电车难题的美国哲学家。 朱迪斯·贾维斯·汤姆逊是《为堕胎辩护》的作者。1989年，朱迪斯·贾维斯·汤姆逊当选美国文理科学院院士。 2016年，她当选为英國國家學術院通讯院士。 2019年，当选为美國哲學學會会员。",
+   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2405,6 +2467,26 @@
    "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1",
    "published": "",
    "summary": "伽利略·伽利莱（義大利語：Galileo Galilei ；1564年2月15日—1642年1月8日），義大利物理學家、數學家、天文學家及哲學家，科學革命中的重要人物。伽利略被譽為“現代觀測天文學之父”、“現代物理學之父”、科学方法之父及“現代科學之父”。 伽利略曾研究速率與速度、引力與自由落體、相对性原理、慣性與抛体运动，並在應用科學與技術領域有所建樹，描述鐘擺特性與流体静力平衡。他亦是最早發展熱成像儀的學者之一，並發明多種軍用比例規與測量儀器。透過自行改良的望远镜，伽利略觀測到银河系中的繁星、金星相位、木星最大的四顆衛星、土星環、月球陨石坑與太陽黑子等現象；此外，他亦製造出早期形式的顯微鏡。 伽利略對哥白尼日心說的支持，招致天主教會內部及部分天文學家的反對。1615年，羅馬宗教裁判所開始調查此事，並認定其觀點與當時被接受的《聖經》詮釋相牴觸。 其後，伽利略於《关于托勒密和哥白尼两大世界",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "0829c514aed2",
+   "source": "wikipedia",
+   "title": "元科学",
+   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
+   "published": "",
+   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2527,6 +2609,26 @@
    "summary": "Nankai University is located in Tianjin, People's Republic of China. It was co-founded by prominent modern Chinese educators Yan Xiu and Zhang Boling, originating from the establishment of Nankai School in 1904. In 1919, the university division of Nankai School was formally established. On September 25, 1919, the university division of Nankai School held its first opening ceremony, marking the off",
    "meta": {
     "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "925998e1f52f",
+   "source": "wikipedia",
+   "title": "朱迪斯·贾维斯·汤姆逊",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E8%B4%BE%E7%BB%B4%E6%96%AF%C2%B7%E6%B1%A4%E5%A7%86%E9%80%8A",
+   "published": "",
+   "summary": "朱迪斯·贾维斯·汤姆逊（1929年10月4日 – 2020年11月20日）是一位研究伦理学、形上學和有轨电车难题的美国哲学家。 朱迪斯·贾维斯·汤姆逊是《为堕胎辩护》的作者。1989年，朱迪斯·贾维斯·汤姆逊当选美国文理科学院院士。 2016年，她当选为英國國家學術院通讯院士。 2019年，当选为美國哲學學會会员。",
+   "meta": {
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -2765,46 +2867,6 @@
    "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
    "published": "",
    "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "d4334f08f1a7",
-   "source": "wikipedia",
-   "title": "加拿大",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
-   "published": "",
-   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "0829c514aed2",
-   "source": "wikipedia",
-   "title": "元科学",
-   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
-   "published": "",
-   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3323,32 +3385,6 @@
    "title_signal": false
   },
   {
-   "id": "13f5b4f01cce",
-   "source": "hn",
-   "title": "Ask HN: What do you do as a 50yo+ programmer not ready to quit?",
-   "url": "https://news.ycombinator.com/item?id=50163386",
-   "published": "2026-10-20",
-   "summary": "I'm self taught, 51yo and been going through some recent health issues. I'm in the job market in a second tier city, and eerything feels upside dowm. How do I deal with the current market that seems fixated on AI graded leet code pre-screenings? I mean if you give me an actual 1:1 or meaningful homework I have no problem. But these pre screens feell like a challenge between rote memorization and g",
-   "meta": {
-    "points": 4,
-    "comments": 0
-   },
-   "targeted": false,
-   "score": 51,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home",
-    "self"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "home",
-    "self"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "149d8c5d384e",
    "source": "wikipedia",
    "title": "Nanjing Agricultural University",
@@ -3369,26 +3405,28 @@
    "title_signal": false
   },
   {
-   "id": "7fdcc98a5e33",
+   "id": "13f5b4f01cce",
    "source": "hn",
-   "title": "Show HN: Omnesis – A private knowledge layer for ChatGPT and other agents",
-   "url": "https://omnesis.dev/",
-   "published": "2026-09-28",
-   "summary": "Imagine giving ChatGPT or any other agent access to your Whatsapp/iMessage, bank transactions, health data, web pages you see, metadata about all the photos you took, places you visited, all your emails/documents, call logs, meeting notes, your voice mails, and more…. I built a context layer for that purpose. You can connect your Openclaw, Hermes, Claude, ChatGPT, Codex, etc to it. It gives your f",
+   "title": "Ask HN: What do you do as a 50yo+ programmer not ready to quit?",
+   "url": "https://news.ycombinator.com/item?id=50163386",
+   "published": "2026-10-20",
+   "summary": "I'm self taught, 51yo and been going through some recent health issues. I'm in the job market in a second tier city, and eerything feels upside dowm. How do I deal with the current market that seems fixated on AI graded leet code pre-screenings? I mean if you give me an actual 1:1 or meaningful homework I have no problem. But these pre screens feell like a challenge between rote memorization and g",
    "meta": {
-    "points": 10,
-    "comments": 4
+    "points": 4,
+    "comments": 0
    },
    "targeted": false,
-   "score": 43,
+   "score": 47,
    "why": "",
    "obj_hits": [],
    "per_hits": [
-    "built"
+    "home",
+    "self"
    ],
    "modern_hits": [],
    "hits": [
-    "built"
+    "home",
+    "self"
    ],
    "title_signal": false
   }
