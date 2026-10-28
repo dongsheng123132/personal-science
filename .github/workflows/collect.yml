@@ -14,7 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     concurrency:
       group: collect
-      cancel-in-progress: false
+      # 同一时刻只允许一条在跑；新任务进来就取消旧的，避免两条抢着提交 JSON
+      cancel-in-progress: true
     steps:
       - uses: actions/checkout@v5
 
@@ -58,14 +59,20 @@ jobs:
             exit 0
           fi
           git commit -m "collect: $(date -u +%F)"
-          # 如果同时有人往 main 推，push 会被拒；rebase 后重试，别让数据丢
+          # push 被拒说明另一条任务刚提交过（生成的是同一份数据）。
+          # 先 abort 掉可能残留的 rebase，再重试；实在冲突就放弃本轮，别把仓库卡在 detached HEAD。
           for i in 1 2 3; do
             if git push; then
               echo "推送成功"
               exit 0
             fi
             echo "推送被拒，rebase 后重试（$i/3）"
-            git pull --rebase || true
+            git rebase --abort >/dev/null 2>&1 || true
+            if ! git pull --rebase -X theirs; then
+              git rebase --abort >/dev/null 2>&1 || true
+              echo "本轮数据与远程冲突；远程已有今天的提交，放弃本轮（不算失败）"
+              exit 0
+            fi
             sleep 3
           done
           echo "推送失败" >&2
