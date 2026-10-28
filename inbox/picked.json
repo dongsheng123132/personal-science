@@ -1,62 +1,63 @@
 {
- "generated_at": "2026-10-28T01:22:24+00:00",
+ "generated_at": "2026-10-28T01:28:17+00:00",
  "count": 2,
  "items": [
   {
-   "id": "53208c3896c4",
-   "source": "classic",
-   "title": "威尔逊云室（1911）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%A8%81%E5%B0%94%E9%80%8A%E4%BA%91%E5%AE%A4",
+   "id": "a8b9b0b154d4",
+   "source": "wikipedia",
+   "title": "馬德堡半球",
+   "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E5%BE%B7%E5%A0%A1%E5%8D%8A%E7%90%83",
    "published": "",
-   "summary": "第一次'看见'粒子轨迹；重做方式：酒精 + 干冰 + 暗盒，手机拍下粒子轨迹，AI 统计轨迹密度；为什么值得：宇宙射线穿过你家的那一刻，被你拍下来了；难度：进阶",
+   "summary": "馬登堡半球（德語：Magdeburger Halbkugeln），亦作马格德堡半球，是一对铜质空心半球，被用于1654年由德国物理学家、时任馬德堡市長奥托·冯·居里克於神聖羅馬帝國的雷根斯堡進行的一項物理实验。在这项实验中，实验者先将两个完全密合的半球中的空气抽掉，然后驱马从两侧向外拉，以展示大气压力的作用。马德堡半球实验作为物理学中的经典实验，今日仍被广泛用于课堂教学。最初用于实验的两个半球保存于位于慕尼黑的德意志博物馆。馬德堡半球用了16匹馬才拉開。",
    "meta": {
-    "era": "1911",
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "9892c07817f6",
+   "source": "classic",
+   "title": "密立根油滴实验（1909）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%AF%86%E7%AB%8B%E6%A0%B9%E6%B2%B9%E6%BB%B4%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "测出电子电荷；重做方式：平行板 + 显微镜 + 手机摄像头，AI 自动追踪油滴算电荷量子化；为什么值得：把'电荷是一份一份的'从猜想变成可数的数字；难度：进阶",
+   "meta": {
+    "era": "1909",
     "level": "进阶",
     "tools": [
-     "干冰",
-     "酒精",
+     "平行板",
+     "显微镜",
      "手机"
     ]
    },
    "targeted": true,
-   "score": 83,
+   "score": 93,
    "why": "",
    "timeless": true,
-   "obj_hits": [],
+   "obj_hits": [
+    "实验"
+   ],
    "per_hits": [],
    "modern_hits": [
     "手机"
    ],
    "hits": [
+    "实验",
     "手机"
    ],
-   "title_signal": false
-  },
-  {
-   "id": "06b0015bdfc2",
-   "source": "classic",
-   "title": "托里拆利测大气压（1643）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E6%89%98%E9%87%8C%E6%8B%86%E5%88%A9%E6%B5%8B%E5%A4%A7%E6%B0%94%E5%8E%8B",
-   "published": "",
-   "summary": "证明大气有重量，并测出大气压；重做方式：用 10 米软管装水做水柱气压计（安全版，用水银太危险）；为什么值得：在楼道里搭一根 10 米高的水柱，抬头就能看见大气压；难度：进阶",
-   "meta": {
-    "era": "1643",
-    "level": "进阶",
-    "tools": [
-     "软管",
-     "水",
-     "尺子"
-    ]
-   },
-   "targeted": true,
-   "score": 80,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
+   "title_signal": true
   }
  ]
 }
