@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T01:27:23+00:00",
+ "updated_at": "2026-10-29T01:47:26+00:00",
  "count": 150,
  "items": [
   {
@@ -532,32 +532,6 @@
    "title_signal": true
   },
   {
-   "id": "deeab5e0a633",
-   "source": "hackaday",
-   "title": "Synthetic Aperture Radar Drone Gets Interferometric Imaging",
-   "url": "https://hackaday.com/2026/09/28/synthetic-aperture-radar-drone-gets-interferometric-imaging",
-   "published": "2026-09-28",
-   "summary": "It’s been more than a year since [Henrik Forstén] built the first iteration of his synthetic-aperture radar (SAR) imaging drone, and he’s certainly been productive in the meantime. Not only …read more",
-   "meta": {
-    "query": "calibration"
-   },
-   "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [
-    "imaging"
-   ],
-   "per_hits": [
-    "built"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "imaging",
-    "built"
-   ],
-   "title_signal": true
-  },
-  {
    "id": "db6c61486dcf",
    "source": "classic",
    "title": "单光子双缝（1989）",
@@ -704,6 +678,32 @@
     "手机"
    ],
    "title_signal": false
+  },
+  {
+   "id": "acee00936169",
+   "source": "hackaday",
+   "title": "SLAM Navigation For an Arduino Powered Car",
+   "url": "https://hackaday.com/2026/10/28/slam-navigation-for-an-arduino-powered-car",
+   "published": "2026-10-28",
+   "summary": "There are plenty of “robot” projects out there that are really just a small remote control platform of some sort. We often like to think of robots of having some …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 81,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "arduino"
+   ],
+   "modern_hits": [
+    "arduino"
+   ],
+   "hits": [
+    "arduino",
+    "arduino"
+   ],
+   "title_signal": true
   },
   {
    "id": "f956ef278ada",
@@ -1035,6 +1035,29 @@
    "title_signal": true
   },
   {
+   "id": "5623bc1f1bd6",
+   "source": "hackaday",
+   "title": "Turning an Old Phone’s Motherboard into an RC Plane Controller",
+   "url": "https://hackaday.com/2026/10/28/turning-an-old-phones-motherboard-into-an-rc-plane-controller",
+   "published": "2026-10-28",
+   "summary": "Upcycling smartphones makes a lot of sense, especially since they contain so many components that remain useful long after their desirability as a smartphone has faded. In the case of …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 77,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "smartphone"
+   ],
+   "hits": [
+    "smartphone"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "172b48983d81",
    "source": "hackaday",
    "title": "ESP32 Rotary Display Makes Ideal Timer",
@@ -1203,6 +1226,30 @@
    "title_signal": false
   },
   {
+   "id": "3159fb8be0c4",
+   "source": "wikipedia",
+   "title": "惠勒延迟选择实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  },
+  {
    "id": "f2bc782fed23",
    "source": "wikipedia",
    "title": "波普尔实验",
@@ -1347,30 +1394,6 @@
    "title_signal": false
   },
   {
-   "id": "889dbcaae6cd",
-   "source": "wikipedia",
-   "title": "弗朗西斯·培根",
-   "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9",
-   "published": "",
-   "summary": "第一代圣奥尔本子爵弗朗西斯·培根（英語：Francis Bacon, 1st Viscount St Alban，1561年1月22日—1626年4月9日），英国文艺复兴时期哲学家、政要、科學家、法學家、演說家和散文作家，被认为是经验主义哲学的创始人。卡尔·马克思亦称其为“英国唯物主义和整个现代实验科学的真正始祖”。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "5147d7c8f6d0",
    "source": "wikipedia",
    "title": "罗森汉恩实验",
@@ -1491,12 +1514,12 @@
    "title_signal": false
   },
   {
-   "id": "3159fb8be0c4",
+   "id": "889dbcaae6cd",
    "source": "wikipedia",
-   "title": "惠勒延迟选择实验",
-   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
+   "title": "弗朗西斯·培根",
+   "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9",
    "published": "",
-   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
+   "summary": "第一代圣奥尔本子爵弗朗西斯·培根（英語：Francis Bacon, 1st Viscount St Alban，1561年1月22日—1626年4月9日），英国文艺复兴时期哲学家、政要、科學家、法學家、演說家和散文作家，被认为是经验主义哲学的创始人。卡尔·马克思亦称其为“英国唯物主义和整个现代实验科学的真正始祖”。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1512,7 +1535,7 @@
    "hits": [
     "实验"
    ],
-   "title_signal": true
+   "title_signal": false
   },
   {
    "id": "bb1408b8b499",
@@ -1667,6 +1690,25 @@
    "summary": "The humble credit card reader — most of us have used hundreds, perhaps even thousands of them over the years. But even for folks like us, it’s not the sort …read more",
    "meta": {
     "query": "telescope"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "23d837a89064",
+   "source": "hackaday",
+   "title": "Airborne Particle Monitoring, the BIG way",
+   "url": "https://hackaday.com/2026/10/27/airborne-particle-monitoring-the-big-way",
+   "published": "2026-10-27",
+   "summary": "Airborne micro particles can be a significant health hazard in a workshop, and thus it’s important to maintain a high standard of ventilation. But monitoring their concentration is also important, …read more",
+   "meta": {
+    "query": "air quality"
    },
    "targeted": true,
    "score": 74,
@@ -2078,25 +2120,6 @@
    "title_signal": false
   },
   {
-   "id": "a659f2cf96d6",
-   "source": "hackaday",
-   "title": "Two-Dimensional Material Now Easier to Manufacture",
-   "url": "https://hackaday.com/2026/09/28/two-dimensional-material-now-easier-to-manufacture",
-   "published": "2026-09-28",
-   "summary": "We often see scientific breakthroughs in journals or other media that’s reported on as if it’s a revolutionary technology guaranteed to reshape human existence, only to never hear about it …read more",
-   "meta": {
-    "query": "water quality"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "a1d078e21527",
    "source": "wikipedia",
    "title": "以太坊",
@@ -2161,26 +2184,6 @@
    "title_signal": false
   },
   {
-   "id": "69f386e07db7",
-   "source": "wikipedia",
-   "title": "思想",
-   "url": "https://zh.wikipedia.org/wiki/%E6%80%9D%E6%83%B3",
-   "published": "",
-   "summary": "最通俗的定義中，思想是獨立於感官刺激而發生的認知過程，最典型的形式是判斷、推理、概念形成、問題解決和審議（deliberation）。但其他心智過程，如細思一個構想、記憶或想像，也經常包括在內。與感知不同，這些過程可以獨立於感覺器官在內部發生。但從最廣泛的意義上理解，任何心智事件都可以被理解為一種思維形式，包括知覺和無意識的心智過程。在稍微不同的意義上，“思想”一詞不是指心智過程本身，而是指由這些過程帶來的心智狀態或觀念系統。 已經提出了各種思維理論。它們旨在捕捉思維的特徵。柏拉圖主義者認為，思維在於辨別和檢查柏拉圖形式（英語：Platonic forms，參見理型論）及其相互關係。它涉及區分純粹的柏拉圖形式本身和在感官世界中發現的單純模仿的能力。根據亞里士多德主義，思考某事就是在一個人的頭腦中實例化思想對象的普遍本質。與柏拉圖主義相反，這些共相是從感官經驗中抽象化得到的，並且不被理解為存",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "9aace4137621",
    "source": "wikipedia",
    "title": "爱因斯坦-波多尔斯基-罗森佯谬",
@@ -2227,6 +2230,26 @@
    "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E4%B8%96%E7%B4%80%E7%A7%91%E5%AD%B8%E5%8F%B2",
    "published": "",
    "summary": "中世紀科學史是指在中世紀，星象、藥物、數學等科学在當時都相當的活躍，但是，由於古代的文化(在羅馬及伊斯蘭的落沒之前的時期)已經存在有許多的科學基礎，所以研究科學的方法才能夠在中世紀時誕生，也因此科學能夠在此時正式地與哲學分野，然而在當時世界各地像是伊斯蘭世界、地中海盆地、中國，以及印度等也已經有了科學研究的足跡，而在西歐一度落後的科學發展則是從12世紀開始再次趕上這些地區。 拜占庭帝國是中世紀早期的文化指標，它保存了希臘羅馬時期的自然、數學，以及藥學的系統以及理論；亞里士多德、阿基米德、蓋倫、托勒密，以及歐幾里得的思想在當時傳遍整個帝國。他們的著作及注解釋為中世紀科學發展的根源，因為那時候的西歐地區的文化由於西羅馬帝國的落沒而遭受破壞，但是因為有了義大利神學家托馬斯·阿奎那及法國學者布里丹等人的貢獻，西歐科學研究的精神得以保存，而當時所保存的著作也因此成為了往後歐洲的科學在科學革命時期能夠",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "56b2c9a81149",
+   "source": "wikipedia",
+   "title": "伽利略博物馆",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "published": "",
+   "summary": "伽利略博物馆（Museo Galileo），原名科学史学会及博物馆（Istituto e Museo di Storia della Scienza）位于意大利佛罗伦萨阿诺河边的朱迪奇广场 （Piazza dei Giudici），靠近乌菲齐美术馆。设于一座11世纪建筑卡斯特拉尼宫，当时被称为Altafronte的城堡。伽利略博物馆收藏有科学史上宝贵的科学仪器，见证美第奇家族和洛林大公对科学和科学家的重要作用。 2010年6月10日，在为期两年的封闭重新设计和装修工程之后，科学史博物馆以新的名称“伽利略博物馆”重新向公众开放。它距离1610年3月伽利略的《星际信使》出版有四百年，那本小册子彻底改变人类对宇宙的观念，促进现代科学的出现。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2321,26 +2344,6 @@
    "title_signal": false
   },
   {
-   "id": "cee5ba259b88",
-   "source": "wikipedia",
-   "title": "印第安電單車",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
-   "published": "",
-   "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "109ee3b55506",
    "source": "wikipedia",
    "title": "汪達幻視",
@@ -2401,12 +2404,12 @@
    "title_signal": false
   },
   {
-   "id": "1b17bfdbe05c",
+   "id": "d4334f08f1a7",
    "source": "wikipedia",
-   "title": "實驗哲學",
-   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
+   "title": "加拿大",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
    "published": "",
-   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
+   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2421,12 +2424,12 @@
    "title_signal": false
   },
   {
-   "id": "925998e1f52f",
+   "id": "1b17bfdbe05c",
    "source": "wikipedia",
-   "title": "朱迪斯·贾维斯·汤姆逊",
-   "url": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E8%B4%BE%E7%BB%B4%E6%96%AF%C2%B7%E6%B1%A4%E5%A7%86%E9%80%8A",
+   "title": "實驗哲學",
+   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
    "published": "",
-   "summary": "朱迪斯·贾维斯·汤姆逊（1929年10月4日 – 2020年11月20日）是一位研究伦理学、形上學和有轨电车难题的美国哲学家。 朱迪斯·贾维斯·汤姆逊是《为堕胎辩护》的作者。1989年，朱迪斯·贾维斯·汤姆逊当选美国文理科学院院士。 2016年，她当选为英國國家學術院通讯院士。 2019年，当选为美國哲學學會会员。",
+   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2641,12 +2644,172 @@
    "title_signal": false
   },
   {
-   "id": "d4334f08f1a7",
+   "id": "f5cd3cda2a7a",
    "source": "wikipedia",
-   "title": "加拿大",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
+   "title": "Experiment",
+   "url": "https://en.wikipedia.org/wiki/Experiment",
    "published": "",
-   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
+   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4a260f65e483",
+   "source": "wikipedia",
+   "title": "Galileo's Leaning Tower of Pisa experiment",
+   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+   "published": "",
+   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "444f60e72a87",
+   "source": "wikipedia",
+   "title": "History of science",
+   "url": "https://en.wikipedia.org/wiki/History_of_science",
+   "published": "",
+   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "5661bb119eeb",
+   "source": "wikipedia",
+   "title": "Milgram experiment",
+   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
+   "published": "",
+   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ae63027fda5d",
+   "source": "wikipedia",
+   "title": "Rosenhan experiment",
+   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
+   "published": "",
+   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f56d856d138d",
+   "source": "wikipedia",
+   "title": "Stanford prison experiment",
+   "url": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
+   "published": "",
+   "summary": "The Stanford prison experiment (SPE) was a controversial psychological experiment performed in August 1971 at Stanford University. It was designed to be a two-week simulation of a prison environment that examined the effects of situational variables on participants' reactions and behaviors. Stanford psychology professor Philip Zimbardo managed the research team that administered the study. Partic",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "69f386e07db7",
+   "source": "wikipedia",
+   "title": "思想",
+   "url": "https://zh.wikipedia.org/wiki/%E6%80%9D%E6%83%B3",
+   "published": "",
+   "summary": "最通俗的定義中，思想是獨立於感官刺激而發生的認知過程，最典型的形式是判斷、推理、概念形成、問題解決和審議（deliberation）。但其他心智過程，如細思一個構想、記憶或想像，也經常包括在內。與感知不同，這些過程可以獨立於感覺器官在內部發生。但從最廣泛的意義上理解，任何心智事件都可以被理解為一種思維形式，包括知覺和無意識的心智過程。在稍微不同的意義上，“思想”一詞不是指心智過程本身，而是指由這些過程帶來的心智狀態或觀念系統。 已經提出了各種思維理論。它們旨在捕捉思維的特徵。柏拉圖主義者認為，思維在於辨別和檢查柏拉圖形式（英語：Platonic forms，參見理型論）及其相互關係。它涉及區分純粹的柏拉圖形式本身和在感官世界中發現的單純模仿的能力。根據亞里士多德主義，思考某事就是在一個人的頭腦中實例化思想對象的普遍本質。與柏拉圖主義相反，這些共相是從感官經驗中抽象化得到的，並且不被理解為存",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "cee5ba259b88",
+   "source": "wikipedia",
+   "title": "印第安電單車",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
+   "published": "",
+   "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "925998e1f52f",
+   "source": "wikipedia",
+   "title": "朱迪斯·贾维斯·汤姆逊",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E8%B4%BE%E7%BB%B4%E6%96%AF%C2%B7%E6%B1%A4%E5%A7%86%E9%80%8A",
+   "published": "",
+   "summary": "朱迪斯·贾维斯·汤姆逊（1929年10月4日 – 2020年11月20日）是一位研究伦理学、形上學和有轨电车难题的美国哲学家。 朱迪斯·贾维斯·汤姆逊是《为堕胎辩护》的作者。1989年，朱迪斯·贾维斯·汤姆逊当选美国文理科学院院士。 2016年，她当选为英國國家學術院通讯院士。 2019年，当选为美國哲學學會会员。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2761,106 +2924,6 @@
    "title_signal": false
   },
   {
-   "id": "f5cd3cda2a7a",
-   "source": "wikipedia",
-   "title": "Experiment",
-   "url": "https://en.wikipedia.org/wiki/Experiment",
-   "published": "",
-   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "444f60e72a87",
-   "source": "wikipedia",
-   "title": "History of science",
-   "url": "https://en.wikipedia.org/wiki/History_of_science",
-   "published": "",
-   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "5661bb119eeb",
-   "source": "wikipedia",
-   "title": "Milgram experiment",
-   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
-   "published": "",
-   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "ae63027fda5d",
-   "source": "wikipedia",
-   "title": "Rosenhan experiment",
-   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
-   "published": "",
-   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "f56d856d138d",
-   "source": "wikipedia",
-   "title": "Stanford prison experiment",
-   "url": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
-   "published": "",
-   "summary": "The Stanford prison experiment (SPE), also referred to as the Zimbardo prison experiment (ZPE), was a controversial psychological experiment performed in August 1971 at Stanford University. It was designed to be a two-week simulation of a prison environment that examined the effects of situational variables on participants' reactions and behaviors. Stanford psychology professor Philip Zimbardo man",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "bca0f77d3a27",
    "source": "wikipedia",
    "title": "赛门·夏佛",
@@ -2927,26 +2990,6 @@
    "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
    "published": "",
    "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4a260f65e483",
-   "source": "wikipedia",
-   "title": "Galileo's Leaning Tower of Pisa experiment",
-   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
-   "published": "",
-   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3382,52 +3425,6 @@
    "per_hits": [],
    "modern_hits": [],
    "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "149d8c5d384e",
-   "source": "wikipedia",
-   "title": "Nanjing Agricultural University",
-   "url": "https://en.wikipedia.org/wiki/Nanjing_Agricultural_University",
-   "published": "",
-   "summary": "Nanjing Agricultural University (NAU, 南京农业大学) is a public university in Nanjing, Jiangsu, China. It is affiliated with the Ministry of Education and co-sponsored by the Ministry of Education and the Jiangsu Provincial Government. The university is part of Project 211 and the Double First-Class Construction.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 51,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "13f5b4f01cce",
-   "source": "hn",
-   "title": "Ask HN: What do you do as a 50yo+ programmer not ready to quit?",
-   "url": "https://news.ycombinator.com/item?id=50163386",
-   "published": "2026-10-20",
-   "summary": "I'm self taught, 51yo and been going through some recent health issues. I'm in the job market in a second tier city, and eerything feels upside dowm. How do I deal with the current market that seems fixated on AI graded leet code pre-screenings? I mean if you give me an actual 1:1 or meaningful homework I have no problem. But these pre screens feell like a challenge between rote memorization and g",
-   "meta": {
-    "points": 4,
-    "comments": 0
-   },
-   "targeted": false,
-   "score": 47,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home",
-    "self"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "home",
-    "self"
-   ],
    "title_signal": false
   }
  ]

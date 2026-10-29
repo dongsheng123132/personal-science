@@ -1,6 +1,95 @@
 {
- "generated_at": "2026-10-28T01:27:23+00:00",
- "date": "2026-10-28",
- "count": 0,
- "items": []
+ "generated_at": "2026-10-29T01:47:26+00:00",
+ "date": "2026-10-29",
+ "count": 4,
+ "items": [
+  {
+   "id": "acee00936169",
+   "source": "hackaday",
+   "title": "SLAM Navigation For an Arduino Powered Car",
+   "url": "https://hackaday.com/2026/10/28/slam-navigation-for-an-arduino-powered-car",
+   "published": "2026-10-28",
+   "summary": "There are plenty of “robot” projects out there that are really just a small remote control platform of some sort. We often like to think of robots of having some …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 81,
+   "why": "命中 arduino、arduino，2026-10-28",
+   "obj_hits": [],
+   "per_hits": [
+    "arduino"
+   ],
+   "modern_hits": [
+    "arduino"
+   ],
+   "hits": [
+    "arduino",
+    "arduino"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "5623bc1f1bd6",
+   "source": "hackaday",
+   "title": "Turning an Old Phone’s Motherboard into an RC Plane Controller",
+   "url": "https://hackaday.com/2026/10/28/turning-an-old-phones-motherboard-into-an-rc-plane-controller",
+   "published": "2026-10-28",
+   "summary": "Upcycling smartphones makes a lot of sense, especially since they contain so many components that remain useful long after their desirability as a smartphone has faded. In the case of …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 77,
+   "why": "命中 smartphone，2026-10-28",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "smartphone"
+   ],
+   "hits": [
+    "smartphone"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "23d837a89064",
+   "source": "hackaday",
+   "title": "Airborne Particle Monitoring, the BIG way",
+   "url": "https://hackaday.com/2026/10/27/airborne-particle-monitoring-the-big-way",
+   "published": "2026-10-27",
+   "summary": "Airborne micro particles can be a significant health hazard in a workshop, and thus it’s important to maintain a high standard of ventilation. But monitoring their concentration is also important, …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-10-27",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "56b2c9a81149",
+   "source": "wikipedia",
+   "title": "伽利略博物馆",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "published": "",
+   "summary": "伽利略博物馆（Museo Galileo），原名科学史学会及博物馆（Istituto e Museo di Storia della Scienza）位于意大利佛罗伦萨阿诺河边的朱迪奇广场 （Piazza dei Giudici），靠近乌菲齐美术馆。设于一座11世纪建筑卡斯特拉尼宫，当时被称为Altafronte的城堡。伽利略博物馆收藏有科学史上宝贵的科学仪器，见证美第奇家族和洛林大公对科学和科学家的重要作用。 2010年6月10日，在为期两年的封闭重新设计和装修工程之后，科学史博物馆以新的名称“伽利略博物馆”重新向公众开放。它距离1610年3月伽利略的《星际信使》出版有四百年，那本小册子彻底改变人类对宇宙的观念，促进现代科学的出现。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "来自 wikipedia",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  }
+ ]
 }
