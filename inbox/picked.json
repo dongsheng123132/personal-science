@@ -1,64 +1,58 @@
 {
- "generated_at": "2026-10-29T01:48:22+00:00",
+ "generated_at": "2026-10-30T01:58:27+00:00",
  "count": 2,
  "items": [
   {
-   "id": "fc201e2e94a3",
-   "source": "classic",
-   "title": "巴斯德鹅颈瓶（1859）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%B7%B4%E6%96%AF%E5%BE%B7%E9%B9%85%E9%A2%88%E7%93%B6",
-   "published": "",
-   "summary": "推翻自然发生说；重做方式：肉汤 + 两个瓶子（一个开口一个弯管），观察谁先腐败；为什么值得：一次厨房里的实验，改写了医学史；难度：进阶",
+   "id": "b7ecd58ef8e7",
+   "source": "hackaday",
+   "title": "Car’s Camera Footage Backed up to NAS",
+   "url": "https://hackaday.com/2026/10/22/cars-camera-footage-backed-up-to-nas",
+   "published": "2026-10-22",
+   "summary": "For as many sensors, cameras, and computers as there are on modern cars, they ought to be a dream to poke around in and customize to one’s liking. Unfortunately they’re …read more",
    "meta": {
-    "era": "1859",
-    "level": "进阶",
-    "tools": [
-     "玻璃瓶",
-     "肉汤",
-     "锅"
-    ]
+    "query": "sensor"
    },
    "targeted": true,
-   "score": 90,
+   "score": 100,
    "why": "",
-   "timeless": true,
    "obj_hits": [
-    "实验"
+    "sensor",
+    "camera"
    ],
    "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
+   "modern_hits": [
+    "sensor",
+    "camera"
    ],
-   "title_signal": false
+   "hits": [
+    "sensor",
+    "camera",
+    "sensor"
+   ],
+   "title_signal": true
   },
   {
-   "id": "fd6d3cd50fb7",
-   "source": "classic",
-   "title": "孟德尔豌豆实验（1866）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%AD%9F%E5%BE%B7%E5%B0%94%E8%B1%8C%E8%B1%86%E5%AE%9E%E9%AA%8C",
-   "published": "",
-   "summary": "发现遗传规律；重做方式：种两代豌豆/果蝇看性状分离比，AI 做卡方检验；为什么值得：统计学会让'运气'显形，这是数据思维的起点；难度：进阶",
+   "id": "3b473b3d8bf8",
+   "source": "hackaday",
+   "title": "Magnetic Lock Opens By Magic",
+   "url": "https://hackaday.com/2026/10/29/magnetic-lock-opens-by-magic",
+   "published": "2026-10-29",
+   "summary": "Over on IEEE Spectrum, [Stephen Cass] has a project that would probably have seemed like a magic a few centuries ago. Imagine a box that uses a magnetic device to …read more",
    "meta": {
-    "era": "1866",
-    "level": "进阶",
-    "tools": [
-     "种子",
-     "花盆",
-     "手机"
-    ]
+    "query": "sensor"
    },
    "targeted": true,
-   "score": 90,
+   "score": 94,
    "why": "",
-   "timeless": true,
    "obj_hits": [
-    "实验"
+    "spectrum",
+    "magnet"
    ],
    "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "实验"
+    "spectrum",
+    "magnet"
    ],
    "title_signal": true
   }

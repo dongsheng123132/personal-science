@@ -1,71 +1,47 @@
 // 自动生成，勿手改
 window.PS_FEED = {
- "generated_at": "2026-10-29T01:47:26+00:00",
- "date": "2026-10-29",
+ "generated_at": "2026-10-30T01:57:47+00:00",
+ "date": "2026-10-30",
  "count": 4,
  "items": [
   {
-   "id": "acee00936169",
+   "id": "3b473b3d8bf8",
    "source": "hackaday",
-   "title": "SLAM Navigation For an Arduino Powered Car",
-   "url": "https://hackaday.com/2026/10/28/slam-navigation-for-an-arduino-powered-car",
-   "published": "2026-10-28",
-   "summary": "There are plenty of “robot” projects out there that are really just a small remote control platform of some sort. We often like to think of robots of having some …read more",
+   "title": "Magnetic Lock Opens By Magic",
+   "url": "https://hackaday.com/2026/10/29/magnetic-lock-opens-by-magic",
+   "published": "2026-10-29",
+   "summary": "Over on IEEE Spectrum, [Stephen Cass] has a project that would probably have seemed like a magic a few centuries ago. Imagine a box that uses a magnetic device to …read more",
    "meta": {
     "query": "sensor"
    },
    "targeted": true,
-   "score": 81,
-   "why": "命中 arduino、arduino，2026-10-28",
-   "obj_hits": [],
-   "per_hits": [
-    "arduino"
+   "score": 94,
+   "why": "命中 spectrum、magnet，2026-10-29",
+   "obj_hits": [
+    "spectrum",
+    "magnet"
    ],
-   "modern_hits": [
-    "arduino"
-   ],
+   "per_hits": [],
+   "modern_hits": [],
    "hits": [
-    "arduino",
-    "arduino"
+    "spectrum",
+    "magnet"
    ],
    "title_signal": true
   },
   {
-   "id": "5623bc1f1bd6",
+   "id": "a4f54e01f690",
    "source": "hackaday",
-   "title": "Turning an Old Phone’s Motherboard into an RC Plane Controller",
-   "url": "https://hackaday.com/2026/10/28/turning-an-old-phones-motherboard-into-an-rc-plane-controller",
-   "published": "2026-10-28",
-   "summary": "Upcycling smartphones makes a lot of sense, especially since they contain so many components that remain useful long after their desirability as a smartphone has faded. In the case of …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 77,
-   "why": "命中 smartphone，2026-10-28",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [
-    "smartphone"
-   ],
-   "hits": [
-    "smartphone"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "23d837a89064",
-   "source": "hackaday",
-   "title": "Airborne Particle Monitoring, the BIG way",
-   "url": "https://hackaday.com/2026/10/27/airborne-particle-monitoring-the-big-way",
-   "published": "2026-10-27",
-   "summary": "Airborne micro particles can be a significant health hazard in a workshop, and thus it’s important to maintain a high standard of ventilation. But monitoring their concentration is also important, …read more",
+   "title": "2026 Hackaday Supercon: All the Speakers!",
+   "url": "https://hackaday.com/2026/10/29/2026-hackaday-supercon-all-the-speakers",
+   "published": "2026-10-29",
+   "summary": "We announced our first round of speakers, and then the workshops, and we were going to dribble out updates on the rest of the speakers as they came in, but …read more",
    "meta": {
     "query": "air quality"
    },
    "targeted": true,
    "score": 74,
-   "why": "2026-10-27",
+   "why": "2026-10-29",
    "obj_hits": [],
    "per_hits": [],
    "modern_hits": [],
@@ -73,14 +49,34 @@ window.PS_FEED = {
    "title_signal": false
   },
   {
-   "id": "56b2c9a81149",
+   "id": "a19f8aa2f80d",
    "source": "wikipedia",
-   "title": "伽利略博物馆",
-   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "title": "突變第三型",
+   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
    "published": "",
-   "summary": "伽利略博物馆（Museo Galileo），原名科学史学会及博物馆（Istituto e Museo di Storia della Scienza）位于意大利佛罗伦萨阿诺河边的朱迪奇广场 （Piazza dei Giudici），靠近乌菲齐美术馆。设于一座11世纪建筑卡斯特拉尼宫，当时被称为Altafronte的城堡。伽利略博物馆收藏有科学史上宝贵的科学仪器，见证美第奇家族和洛林大公对科学和科学家的重要作用。 2010年6月10日，在为期两年的封闭重新设计和装修工程之后，科学史博物馆以新的名称“伽利略博物馆”重新向公众开放。它距离1610年3月伽利略的《星际信使》出版有四百年，那本小册子彻底改变人类对宇宙的观念，促进现代科学的出现。",
+   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
    "meta": {
     "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "来自 wikipedia",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "78810a1c6cef",
+   "source": "wikipedia",
+   "title": "Sichuan University",
+   "url": "https://en.wikipedia.org/wiki/Sichuan_University",
+   "published": "",
+   "summary": "Sichuan University (SCU) is a public university in Chengdu, Sichuan, China. The university is affiliated with and funded by the Ministry of Education. The university is part of Project 211, Project 985, and the Double First-Class Construction. In 1994, the then Chengdu University of Science and Technology and then Sichuan University merged to form Sichuan Union University (which was renamed Sichu",
+   "meta": {
+    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
