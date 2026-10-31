@@ -1,59 +1,62 @@
 {
- "generated_at": "2026-10-30T01:57:47+00:00",
- "date": "2026-10-30",
- "count": 4,
+ "generated_at": "2026-10-31T01:35:51+00:00",
+ "date": "2026-10-31",
+ "count": 5,
  "items": [
   {
-   "id": "3b473b3d8bf8",
+   "id": "e3b12e282044",
    "source": "hackaday",
-   "title": "Magnetic Lock Opens By Magic",
-   "url": "https://hackaday.com/2026/10/29/magnetic-lock-opens-by-magic",
+   "title": "Is This The Only Instrument You Need?",
+   "url": "https://hackaday.com/2026/10/29/is-this-the-only-instrument-you-need",
    "published": "2026-10-29",
-   "summary": "Over on IEEE Spectrum, [Stephen Cass] has a project that would probably have seemed like a magic a few centuries ago. Imagine a box that uses a magnetic device to …read more",
+   "summary": "When working on an electronic project it’s likely you will find yourself working with a variety of different instruments, be they logic analysers, oscilloscopes, or whatever. These can take up …read more",
    "meta": {
-    "query": "sensor"
+    "query": "oscilloscope"
    },
    "targeted": true,
-   "score": 94,
-   "why": "命中 spectrum、magnet，2026-10-29",
+   "score": 78,
+   "why": "命中 self，2026-10-29",
+   "obj_hits": [],
+   "per_hits": [
+    "self"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "self"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "45a836609966",
+   "source": "wikipedia",
+   "title": "Rutherford scattering experiments",
+   "url": "https://en.wikipedia.org/wiki/Rutherford_scattering_experiments",
+   "published": "",
+   "summary": "The Rutherford scattering experiments were a landmark series of experiments by which scientists learned that every atom has a nucleus where all of its positive charge and most of its mass is concentrated. They deduced this after measuring how an alpha particle beam is scattered when it strikes a thin metal foil. The experiments were performed between 1906 and 1913 by Hans Geiger and Ernest Marsd",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "命中 geiger",
+   "timeless": true,
    "obj_hits": [
-    "spectrum",
-    "magnet"
+    "geiger"
    ],
    "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "spectrum",
-    "magnet"
+    "geiger"
    ],
-   "title_signal": true
-  },
-  {
-   "id": "a4f54e01f690",
-   "source": "hackaday",
-   "title": "2026 Hackaday Supercon: All the Speakers!",
-   "url": "https://hackaday.com/2026/10/29/2026-hackaday-supercon-all-the-speakers",
-   "published": "2026-10-29",
-   "summary": "We announced our first round of speakers, and then the workshops, and we were going to dribble out updates on the rest of the speakers as they came in, but …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "2026-10-29",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
    "title_signal": false
   },
   {
-   "id": "a19f8aa2f80d",
+   "id": "23af48c5e36b",
    "source": "wikipedia",
-   "title": "突變第三型",
-   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
+   "title": "科学革命",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E9%9D%A9%E5%91%BD",
    "published": "",
-   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
+   "summary": "科學革命（英語：Scientific revolution），指近世歷史上，現代科學在歐洲萌芽的這段時期。在那段時期中，數學、物理學、天文學、生物學（包括人體解剖學）與化學等學科皆出現突破性的進步，這些知識改變了人類對於自然的眼界及心態。科學革命發源於歐洲發動十字軍東征與貿易，使得中東的古籍從阿拉伯被帶回來，文藝復興時代結尾之時，這個歷程一直持續到18世紀末，開始了科學進步的歷程。 科學革命的衝擊，造成啟蒙運動與工業革命的出現，影響了歐洲與人類的社會。科學革命的開始日期，史學家仍有爭議。但1543年尼古拉斯·哥白尼出版的《天体运行论》通常被認為是科學革命的起點。從1543年，一直到1632年伽利略出版《关于托勒密和哥白尼两大世界体系的对话》，這段時間，常被認為是科學革命的第一階段。在這個階段中，那時教會腐化正面臨人們的懷疑與變革，此風潮復興了古希臘與羅馬時期的舊有科學知識，被稱為是科學復興",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -68,12 +71,32 @@
    "title_signal": false
   },
   {
-   "id": "78810a1c6cef",
+   "id": "afdcf27e39ca",
    "source": "wikipedia",
-   "title": "Sichuan University",
-   "url": "https://en.wikipedia.org/wiki/Sichuan_University",
+   "title": "沙丘 (2021年電影)",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E4%B8%98_(2021%E5%B9%B4%E9%9B%BB%E5%BD%B1)",
    "published": "",
-   "summary": "Sichuan University (SCU) is a public university in Chengdu, Sichuan, China. The university is affiliated with and funded by the Ministry of Education. The university is part of Project 211, Project 985, and the Double First-Class Construction. In 1994, the then Chengdu University of Science and Technology and then Sichuan University merged to form Sichuan Union University (which was renamed Sichu",
+   "summary": "《沙丘》（英語：Dune，香港、新加坡译《沙丘瀚战》）是一部2021年美國太空史詩科幻電影，由丹尼·維勒納夫執導，艾瑞克·羅斯、喬·斯派茨和導演本人共同編寫劇本，劇情改編自法蘭克·赫伯特的1965年英文同名科幻小說《沙丘》的前半部分內容，是兩部改編電影計畫中的第一部；講述出身貴族家庭的年輕繼承者背負起守護銀河系中最寶貴的資產也是最重要的元素的任務的故事。主演包括提摩西·夏勒梅、蕾貝卡·弗格森、奧斯卡·伊薩克、喬許·布洛林、史戴倫·史柯斯嘉、巴帝斯塔、史蒂芬·亨德森、赞达亚、戴維·達斯馬齊連、張震、香儂·鄧肯-布魯斯特、夏綠蒂·蘭普琳、傑森·摩莫亞和哈維爾·巴登。 《沙丘》由華納兄弟影業發行，2021年9月3日在第78屆威尼斯影展進行全球首映，10月22日在美國首映，包括IMAX和3D版本，同期於串流媒體平台HBO Max播出一個月。它因其視覺效果，世界觀和野心而受到好評，並以1.65億美元",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "来自 wikipedia",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "be789105f5ed",
+   "source": "wikipedia",
+   "title": "Trolley problem",
+   "url": "https://en.wikipedia.org/wiki/Trolley_problem",
+   "published": "",
+   "summary": "The trolley problem is a thought experiment in moral philosophy and moral psychology with many variations, involving hypothetical ethical dilemmas about whether to sacrifice one person to save a larger number of people. The series usually begins with a scenario in which a runaway trolley (tram) or train is on course to collide with and kill a number of people (traditionally five) tied to the track",
    "meta": {
     "site": "en.wikipedia.org"
    },

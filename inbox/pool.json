@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-30T01:57:47+00:00",
+ "updated_at": "2026-10-31T01:35:51+00:00",
  "count": 150,
  "items": [
   {
@@ -346,32 +346,6 @@
    "title_signal": true
   },
   {
-   "id": "d77d099493ec",
-   "source": "hackaday",
-   "title": "Hackaday Podcast Episode 392: Microscopes, Drones, and Other DIY Things",
-   "url": "https://hackaday.com/2026/10/23/hackaday-podcast-episode-392-microscopes-drones-and-other-diy-things",
-   "published": "2026-10-23",
-   "summary": "Hackaday Editors Elliot Williams and Al Williams met to review the week in Hackaday. Turns out, it was a week for tiny things, cybersecurity, nostalgia, and projects that would have …read more",
-   "meta": {
-    "query": "microscope"
-   },
-   "targeted": true,
-   "score": 88,
-   "why": "",
-   "obj_hits": [
-    "microscope"
-   ],
-   "per_hits": [
-    "diy"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "microscope",
-    "diy"
-   ],
-   "title_signal": true
-  },
-  {
    "id": "a58941cbbc37",
    "source": "hackaday",
    "title": "Every Type of Current Sensor Explained",
@@ -504,6 +478,32 @@
    "hits": [
     "physics",
     "实验"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "d77d099493ec",
+   "source": "hackaday",
+   "title": "Hackaday Podcast Episode 392: Microscopes, Drones, and Other DIY Things",
+   "url": "https://hackaday.com/2026/10/23/hackaday-podcast-episode-392-microscopes-drones-and-other-diy-things",
+   "published": "2026-10-23",
+   "summary": "Hackaday Editors Elliot Williams and Al Williams met to review the week in Hackaday. Turns out, it was a week for tiny things, cybersecurity, nostalgia, and projects that would have …read more",
+   "meta": {
+    "query": "microscope"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "obj_hits": [
+    "microscope"
+   ],
+   "per_hits": [
+    "diy"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "microscope",
+    "diy"
    ],
    "title_signal": true
   },
@@ -803,29 +803,6 @@
    "title_signal": false
   },
   {
-   "id": "56d72f8fb466",
-   "source": "hackaday",
-   "title": "Roman Telescope Saves Fuel, Doubles Mission",
-   "url": "https://hackaday.com/2026/09/30/roman-telescope-saves-fuel-doubles-mission",
-   "published": "2026-09-30",
-   "summary": "Contemplate the events that might end a space mission, and you might picture something dramatic: detonation on the pad, a dead guidance system, or micrometeoroids shattering delicate solar panels. More …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 80,
-   "why": "",
-   "obj_hits": [
-    "telescope"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "telescope"
-   ],
-   "title_signal": true
-  },
-  {
    "id": "9094207ea8eb",
    "source": "classic",
    "title": "埃拉托色尼用影子测地球半径（-240）",
@@ -1035,29 +1012,27 @@
    "title_signal": true
   },
   {
-   "id": "c76eafe64d5b",
+   "id": "e3b12e282044",
    "source": "hackaday",
-   "title": "DIY Game Console Does It With Optical Discs",
-   "url": "https://hackaday.com/2026/09/30/diy-game-console-does-it-with-optical-disks",
-   "published": "2026-09-30",
-   "summary": "Optical media may be dead for video games on the big corporate consoles, but not in [Emmet]’s heart– or on his DIY game console, that he built specifically to use …read more",
+   "title": "Is This The Only Instrument You Need?",
+   "url": "https://hackaday.com/2026/10/29/is-this-the-only-instrument-you-need",
+   "published": "2026-10-29",
+   "summary": "When working on an electronic project it’s likely you will find yourself working with a variety of different instruments, be they logic analysers, oscilloscopes, or whatever. These can take up …read more",
    "meta": {
-    "query": "DIY lab"
+    "query": "oscilloscope"
    },
    "targeted": true,
    "score": 78,
    "why": "",
    "obj_hits": [],
    "per_hits": [
-    "built",
-    "diy"
+    "self"
    ],
    "modern_hits": [],
    "hits": [
-    "built",
-    "diy"
+    "self"
    ],
-   "title_signal": true
+   "title_signal": false
   },
   {
    "id": "5623bc1f1bd6",
@@ -1419,54 +1394,6 @@
    "title_signal": false
   },
   {
-   "id": "889dbcaae6cd",
-   "source": "wikipedia",
-   "title": "弗朗西斯·培根",
-   "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9",
-   "published": "",
-   "summary": "第一代圣奥尔本子爵弗朗西斯·培根（英語：Francis Bacon, 1st Viscount St Alban，1561年1月22日—1626年4月9日），英国文艺复兴时期哲学家、政要、科學家、法學家、演說家和散文作家，被认为是经验主义哲学的创始人。卡尔·马克思亦称其为“英国唯物主义和整个现代实验科学的真正始祖”。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "1c289800e7eb",
-   "source": "wikipedia",
-   "title": "自然哲学",
-   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
-   "published": "",
-   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "3548437df952",
    "source": "wikipedia",
    "title": "埃弗里-麦克劳德-麦卡蒂实验",
@@ -1559,6 +1486,78 @@
    "modern_hits": [],
    "hits": [
     "biology"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "45a836609966",
+   "source": "wikipedia",
+   "title": "Rutherford scattering experiments",
+   "url": "https://en.wikipedia.org/wiki/Rutherford_scattering_experiments",
+   "published": "",
+   "summary": "The Rutherford scattering experiments were a landmark series of experiments by which scientists learned that every atom has a nucleus where all of its positive charge and most of its mass is concentrated. They deduced this after measuring how an alpha particle beam is scattered when it strikes a thin metal foil. The experiments were performed between 1906 and 1913 by Hans Geiger and Ernest Marsd",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "geiger"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "geiger"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "889dbcaae6cd",
+   "source": "wikipedia",
+   "title": "弗朗西斯·培根",
+   "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9",
+   "published": "",
+   "summary": "第一代圣奥尔本子爵弗朗西斯·培根（英語：Francis Bacon, 1st Viscount St Alban，1561年1月22日—1626年4月9日），英国文艺复兴时期哲学家、政要、科學家、法學家、演說家和散文作家，被认为是经验主义哲学的创始人。卡尔·马克思亦称其为“英国唯物主义和整个现代实验科学的真正始祖”。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "1c289800e7eb",
+   "source": "wikipedia",
+   "title": "自然哲学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
+   "published": "",
+   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
    ],
    "title_signal": false
   },
@@ -1764,25 +1763,6 @@
    "title_signal": false
   },
   {
-   "id": "9b7319b0e959",
-   "source": "hackaday",
-   "title": "This Week in Security: Record Patch Tuesday, PHP’s Bad Time, The Oldest Vuln, AI Armies, and More",
-   "url": "https://hackaday.com/2026/10/23/this-week-in-security-record-patch-tuesday-phps-bad-time-the-oldest-vuln-ai-armies-and-more",
-   "published": "2026-10-23",
-   "summary": "It’s no longer a proper month without Microsoft breaking its own record for security fixes, and October’s Patch Tuesday was no exception. Brian Krebs brings the roundup: more than 1,400 …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "ad91ebfd5bff",
    "source": "hackaday",
    "title": "Clotty The Custom Period Tracker Can, Of Course, Run DOOM",
@@ -1913,26 +1893,22 @@
    "title_signal": false
   },
   {
-   "id": "0428714f1a14",
+   "id": "9b7319b0e959",
    "source": "hackaday",
-   "title": "Open Source Tricorder Is In It For The Science",
-   "url": "https://hackaday.com/2026/09/30/open-source-tricorder-is-in-it-for-the-science",
-   "published": "2026-09-30",
-   "summary": "If you’re reading Hackaday there’s pretty good odds you’re at least somewhat fond of Star Trek. We’d bet good money most of you would quit your jobs today if a Starfleet …read more",
+   "title": "This Week in Security: Record Patch Tuesday, PHP’s Bad Time, The Oldest Vuln, AI Armies, and More",
+   "url": "https://hackaday.com/2026/10/23/this-week-in-security-record-patch-tuesday-phps-bad-time-the-oldest-vuln-ai-armies-and-more",
+   "published": "2026-10-23",
+   "summary": "It’s no longer a proper month without Microsoft breaking its own record for security fixes, and October’s Patch Tuesday was no exception. Brian Krebs brings the roundup: more than 1,400 …read more",
    "meta": {
-    "query": "spectrometer"
+    "query": "air quality"
    },
    "targeted": true,
-   "score": 73,
+   "score": 70,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
-   "modern_hits": [
-    "open source"
-   ],
-   "hits": [
-    "open source"
-   ],
+   "modern_hits": [],
+   "hits": [],
    "title_signal": false
   },
   {
@@ -2269,12 +2245,52 @@
    "title_signal": false
   },
   {
+   "id": "56b2c9a81149",
+   "source": "wikipedia",
+   "title": "伽利略博物馆",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "published": "",
+   "summary": "伽利略博物馆（Museo Galileo），原名科学史学会及博物馆（Istituto e Museo di Storia della Scienza）位于意大利佛罗伦萨阿诺河边的朱迪奇广场 （Piazza dei Giudici），靠近乌菲齐美术馆。设于一座11世纪建筑卡斯特拉尼宫，当时被称为Altafronte的城堡。伽利略博物馆收藏有科学史上宝贵的科学仪器，见证美第奇家族和洛林大公对科学和科学家的重要作用。 2010年6月10日，在为期两年的封闭重新设计和装修工程之后，科学史博物馆以新的名称“伽利略博物馆”重新向公众开放。它距离1610年3月伽利略的《星际信使》出版有四百年，那本小册子彻底改变人类对宇宙的观念，促进现代科学的出现。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "5716602e848d",
    "source": "wikipedia",
    "title": "科学史",
    "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2",
    "published": "",
    "summary": "科學史，利用了思想史和社會史兩個面向的歷史研究方法。科學起源於對自然其功能性的實用考量以及纯粹的哲學探究。 雖然科學方法自古便不斷發展，但現代科學方法卻是始自伊斯蘭科學家，海什木在大約西元1000年左右，運用實驗的經驗法則寫出了一本關於光學的著作《光學書》。然而，現代科學方法在13世紀的歐洲由大學經院哲學的學者所發起科學革命時，方才算發展完全，到了16世紀及17世紀早期的發展高峰，現代科學方法的廣泛應用更引領了知識的全面重估。科學方法的發展被某些人（尤其是科學哲學家及實證科學家）認為是太過於基礎而重要的，認為早先對於自然的探索只不過是前科學（pre-scientific），現代科學方法才被他們認為是真正的科學。習慣上，科學史學家仍舊認定早先的科學探索也包含於廣大而充足的科學範疇之中。 數學史、科技史及哲學史則在其各自的條目中描述。數學跟科學很接近但有所區别（至少在現代的觀念上是這樣認為）。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "23af48c5e36b",
+   "source": "wikipedia",
+   "title": "科学革命",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E9%9D%A9%E5%91%BD",
+   "published": "",
+   "summary": "科學革命（英語：Scientific revolution），指近世歷史上，現代科學在歐洲萌芽的這段時期。在那段時期中，數學、物理學、天文學、生物學（包括人體解剖學）與化學等學科皆出現突破性的進步，這些知識改變了人類對於自然的眼界及心態。科學革命發源於歐洲發動十字軍東征與貿易，使得中東的古籍從阿拉伯被帶回來，文藝復興時代結尾之時，這個歷程一直持續到18世紀末，開始了科學進步的歷程。 科學革命的衝擊，造成啟蒙運動與工業革命的出現，影響了歐洲與人類的社會。科學革命的開始日期，史學家仍有爭議。但1543年尼古拉斯·哥白尼出版的《天体运行论》通常被認為是科學革命的起點。從1543年，一直到1632年伽利略出版《关于托勒密和哥白尼两大世界体系的对话》，這段時間，常被認為是科學革命的第一階段。在這個階段中，那時教會腐化正面臨人們的懷疑與變革，此風潮復興了古希臘與羅馬時期的舊有科學知識，被稱為是科學復興",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2369,12 +2385,12 @@
    "title_signal": false
   },
   {
-   "id": "a19f8aa2f80d",
+   "id": "afdcf27e39ca",
    "source": "wikipedia",
-   "title": "突變第三型",
-   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
+   "title": "沙丘 (2021年電影)",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E4%B8%98_(2021%E5%B9%B4%E9%9B%BB%E5%BD%B1)",
    "published": "",
-   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
+   "summary": "《沙丘》（英語：Dune，香港、新加坡译《沙丘瀚战》）是一部2021年美國太空史詩科幻電影，由丹尼·維勒納夫執導，艾瑞克·羅斯、喬·斯派茨和導演本人共同編寫劇本，劇情改編自法蘭克·赫伯特的1965年英文同名科幻小說《沙丘》的前半部分內容，是兩部改編電影計畫中的第一部；講述出身貴族家庭的年輕繼承者背負起守護銀河系中最寶貴的資產也是最重要的元素的任務的故事。主演包括提摩西·夏勒梅、蕾貝卡·弗格森、奧斯卡·伊薩克、喬許·布洛林、史戴倫·史柯斯嘉、巴帝斯塔、史蒂芬·亨德森、赞达亚、戴維·達斯馬齊連、張震、香儂·鄧肯-布魯斯特、夏綠蒂·蘭普琳、傑森·摩莫亞和哈維爾·巴登。 《沙丘》由華納兄弟影業發行，2021年9月3日在第78屆威尼斯影展進行全球首映，10月22日在美國首映，包括IMAX和3D版本，同期於串流媒體平台HBO Max播出一個月。它因其視覺效果，世界觀和野心而受到好評，並以1.65億美元",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2429,12 +2445,12 @@
    "title_signal": false
   },
   {
-   "id": "1b17bfdbe05c",
+   "id": "d4334f08f1a7",
    "source": "wikipedia",
-   "title": "實驗哲學",
-   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
+   "title": "加拿大",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
    "published": "",
-   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
+   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2449,12 +2465,12 @@
    "title_signal": false
   },
   {
-   "id": "42194c0fcf28",
+   "id": "1b17bfdbe05c",
    "source": "wikipedia",
-   "title": "朝鲜战争",
-   "url": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89",
+   "title": "實驗哲學",
+   "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E5%93%B2%E5%AD%B8",
    "published": "",
-   "summary": "朝鲜战争是1950年至1953年期间朝鲜半岛发生的大規模戰爭，交戰雙方分別是朝鲜民主主义人民共和国與大韩民国。戰爭爆發後，16國組成的聯合國軍（以美軍為主力）出兵支持韓國，中华人民共和国以中国人民志愿军的名义出兵支持朝鲜，苏联则通过军事物资支援与空军支持出兵朝鲜，使战争升级为影响东亚地缘政治的区域性冲突，同时也令此战成为自中国的第二次国共内战后在冷战时期东西方阵营间的第二场代理人战争。 朝鮮人民軍在三八线发生冲突及南部发生濟州四·三事件后，於1950年6月25日跨越三八线南下与大韩民国国军作战，战争爆發。雙方隨後展開漫長的拉鋸戰，联合国军與中国人民志愿军先後參戰，最終戰線維持在三八線附近，於1953年7月27日在板门店签署《朝鲜停战协定》，並根据停战时实际控制线，建立朝韩非军事区作缓冲地带。朝鲜半岛南北双方仍有外交冲突和军事对峙，持续至今。 而美国于朝鲜战争期间部署第七舰队巡防台湾海峡，以",
+   "summary": "實驗哲學（Experimental Philosophy）是一種新的哲學流派，旨在結合實證研究與傳統的哲學研究方法。 實驗哲學家利用認知科學的方法來了解普通人對於一些基礎哲學問題的想法。 實驗哲學家認為，經由瞭解哲學直覺（philosophical intuitions）的心智背景，他們的實驗結果可以間接影響哲學研究。 這對於實驗結果的依靠被廣泛的認為是反對於一種只依靠於先驗証明的哲學研究方法，有時被稱為\"扶手椅\"哲学（\"armchair\" philosophy）。 哲學家對於實驗哲學的影響有不同的認見，而也有一些哲學家提出對於實驗哲學的批評。 最早的實驗哲學是專注於關於跨文化差異（cross-cultural difference） ，自由意志 ，與行動理論 的問題。現在，實驗哲學已被擴大到新的領域。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2529,26 +2545,6 @@
    "title_signal": false
   },
   {
-   "id": "0829c514aed2",
-   "source": "wikipedia",
-   "title": "元科学",
-   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
-   "published": "",
-   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "f088ab6a58af",
    "source": "wikipedia",
    "title": "Air Force Command College",
@@ -2569,12 +2565,12 @@
    "title_signal": false
   },
   {
-   "id": "86b390281ac8",
+   "id": "e7951e4e685f",
    "source": "wikipedia",
-   "title": "Beijing Electronic Science and Technology Institute",
-   "url": "https://en.wikipedia.org/wiki/Beijing_Electronic_Science_and_Technology_Institute",
+   "title": "HIV/AIDS in China",
+   "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_China",
    "published": "",
-   "summary": "Beijing Electronic Science and Technology Institute, or BEIST, is located at No. 7 Fufeng Road, Fengtai District, Beijing. It is a general institution of higher learning that trains professional and technical personnel in information security and office automation for party and government agencies. It is affiliated with the General Office of the Chinese Communist Party. The college is a major rese",
+   "summary": "HIV/AIDS in China can be traced to an initial outbreak of the human immunodeficiency virus (HIV) first recognized in 1989 among injecting drug users along China's southern border. Figures from the Chinese Center for Disease Control and Prevention, World Health Organization, and UNAIDS estimate that there were 1.25 million people living with HIV/AIDS in China at the end of 2018, with 135,000 new in",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -2709,12 +2705,12 @@
    "title_signal": false
   },
   {
-   "id": "78810a1c6cef",
+   "id": "ef3dd7b47ba5",
    "source": "wikipedia",
-   "title": "Sichuan University",
-   "url": "https://en.wikipedia.org/wiki/Sichuan_University",
+   "title": "Mianyang",
+   "url": "https://en.wikipedia.org/wiki/Mianyang",
    "published": "",
-   "summary": "Sichuan University (SCU) is a public university in Chengdu, Sichuan, China. The university is affiliated with and funded by the Ministry of Education. The university is part of Project 211, Project 985, and the Double First-Class Construction. In 1994, the then Chengdu University of Science and Technology and then Sichuan University merged to form Sichuan Union University (which was renamed Sichu",
+   "summary": "Mianyang (simplified Chinese: 绵阳; traditional Chinese: 綿陽; pinyin: Miányáng; Wade–Giles: Mien2-yang2; Sichuanese romanization: Mien2-iang2; formerly known as Mienchow, Chinese: 綿州; pinyin: Mianzhou; Sichuanese romanization: Miencheo; lit. 'Mian Prefecture') is the second largest prefecture-level city of Sichuan province in Southwestern China. It borders Nanchong City to the east, Suining City to t",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -2909,6 +2905,26 @@
    "title_signal": false
   },
   {
+   "id": "be789105f5ed",
+   "source": "wikipedia",
+   "title": "Trolley problem",
+   "url": "https://en.wikipedia.org/wiki/Trolley_problem",
+   "published": "",
+   "summary": "The trolley problem is a thought experiment in moral philosophy and moral psychology with many variations, involving hypothetical ethical dilemmas about whether to sacrifice one person to save a larger number of people. The series usually begins with a scenario in which a runaway trolley (tram) or train is on course to collide with and kill a number of people (traditionally five) tied to the track",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "78d0cbe81a17",
    "source": "wikipedia",
    "title": "Twin Earth thought experiment",
@@ -2935,6 +2951,26 @@
    "url": "https://en.wikipedia.org/wiki/Experiment",
    "published": "",
    "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4a260f65e483",
+   "source": "wikipedia",
+   "title": "Galileo's Leaning Tower of Pisa experiment",
+   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+   "published": "",
+   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3029,14 +3065,94 @@
    "title_signal": false
   },
   {
-   "id": "56b2c9a81149",
+   "id": "a19f8aa2f80d",
    "source": "wikipedia",
-   "title": "伽利略博物馆",
-   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "title": "突變第三型",
+   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
    "published": "",
-   "summary": "伽利略博物馆（Museo Galileo），原名科学史学会及博物馆（Istituto e Museo di Storia della Scienza）位于意大利佛罗伦萨阿诺河边的朱迪奇广场 （Piazza dei Giudici），靠近乌菲齐美术馆。设于一座11世纪建筑卡斯特拉尼宫，当时被称为Altafronte的城堡。伽利略博物馆收藏有科学史上宝贵的科学仪器，见证美第奇家族和洛林大公对科学和科学家的重要作用。 2010年6月10日，在为期两年的封闭重新设计和装修工程之后，科学史博物馆以新的名称“伽利略博物馆”重新向公众开放。它距离1610年3月伽利略的《星际信使》出版有四百年，那本小册子彻底改变人类对宇宙的观念，促进现代科学的出现。",
+   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
    "meta": {
     "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "42194c0fcf28",
+   "source": "wikipedia",
+   "title": "朝鲜战争",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89",
+   "published": "",
+   "summary": "朝鲜战争是1950年至1953年期间朝鲜半岛发生的大規模戰爭，交戰雙方分別是朝鲜民主主义人民共和国與大韩民国。戰爭爆發後，16國組成的聯合國軍（以美軍為主力）出兵支持韓國，中华人民共和国以中国人民志愿军的名义出兵支持朝鲜，苏联则通过军事物资支援与空军支持出兵朝鲜，使战争升级为影响东亚地缘政治的区域性冲突，同时也令此战成为自中国的第二次国共内战后在冷战时期东西方阵营间的第二场代理人战争。 朝鮮人民軍在三八线发生冲突及南部发生濟州四·三事件后，於1950年6月25日跨越三八线南下与大韩民国国军作战，战争爆發。雙方隨後展開漫長的拉鋸戰，联合国军與中国人民志愿军先後參戰，最終戰線維持在三八線附近，於1953年7月27日在板门店签署《朝鲜停战协定》，並根据停战时实际控制线，建立朝韩非军事区作缓冲地带。朝鲜半岛南北双方仍有外交冲突和军事对峙，持续至今。 而美国于朝鲜战争期间部署第七舰队巡防台湾海峡，以",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "0829c514aed2",
+   "source": "wikipedia",
+   "title": "元科学",
+   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
+   "published": "",
+   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "86b390281ac8",
+   "source": "wikipedia",
+   "title": "Beijing Electronic Science and Technology Institute",
+   "url": "https://en.wikipedia.org/wiki/Beijing_Electronic_Science_and_Technology_Institute",
+   "published": "",
+   "summary": "Beijing Electronic Science and Technology Institute, or BEIST, is located at No. 7 Fufeng Road, Fengtai District, Beijing. It is a general institution of higher learning that trains professional and technical personnel in information security and office automation for party and government agencies. It is affiliated with the General Office of the Chinese Communist Party. The college is a major rese",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "78810a1c6cef",
+   "source": "wikipedia",
+   "title": "Sichuan University",
+   "url": "https://en.wikipedia.org/wiki/Sichuan_University",
+   "published": "",
+   "summary": "Sichuan University (SCU) is a public university in Chengdu, Sichuan, China. The university is affiliated with and funded by the Ministry of Education. The university is part of Project 211, Project 985, and the Double First-Class Construction. In 1994, the then Chengdu University of Science and Technology and then Sichuan University merged to form Sichuan Union University (which was renamed Sichu",
+   "meta": {
+    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -3057,46 +3173,6 @@
    "summary": "《旺达幻视》（英語：WandaVision，香港译《温黛与幻视》，台湾译《汪达幻视》）是一部美國超級英雄類型的網路劇集，改編自漫威漫畫的角色「緋紅女巫」汪達·麥西莫夫和幻視，由潔克·薛佛主創並擔當首席編劇，麥特·夏克曼執導影集。該電視劇是漫威影業開發製作的漫威電影宇宙的首部電視劇作品，與漫威電影宇宙系列電影處於同一架空世界和共同世界，於線上串流媒體平台Disney+首播。 伊莉莎白·歐森和保羅·彼特尼繼續分別飾演在漫威電影宇宙系列電影中的角色汪達·麥西莫夫和幻視。主演還包括黛博拉·喬·拉普、弗雷德·邁拉麥德、凱薩琳·哈恩、泰娜·帕麗斯、藍道爾·朴、凱特·丹寧絲和伊凡·彼得斯。2018年9月，漫威影業宣佈為華特迪士尼公司旗下的在線上串流平台Disney+開發數個電視劇，並以漫威電影宇宙中的「二級核心」人物為主角，比如「緋紅女巫」汪達·麥西莫夫和幻視，伊莉莎白·歐森和保羅·彼特尼有望回歸繼續出",
    "meta": {
     "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "d4334f08f1a7",
-   "source": "wikipedia",
-   "title": "加拿大",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
-   "published": "",
-   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4a260f65e483",
-   "source": "wikipedia",
-   "title": "Galileo's Leaning Tower of Pisa experiment",
-   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
-   "published": "",
-   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
-   "meta": {
-    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -3289,46 +3365,6 @@
    "title_signal": false
   },
   {
-   "id": "e7951e4e685f",
-   "source": "wikipedia",
-   "title": "HIV/AIDS in China",
-   "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_China",
-   "published": "",
-   "summary": "HIV/AIDS in China can be traced to an initial outbreak of the human immunodeficiency virus (HIV) first recognized in 1989 among injecting drug users along China's southern border. Figures from the Chinese Center for Disease Control and Prevention, World Health Organization, and UNAIDS estimate that there were 1.25 million people living with HIV/AIDS in China at the end of 2018, with 135,000 new in",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "ef3dd7b47ba5",
-   "source": "wikipedia",
-   "title": "Mianyang",
-   "url": "https://en.wikipedia.org/wiki/Mianyang",
-   "published": "",
-   "summary": "Mianyang (simplified Chinese: 绵阳; traditional Chinese: 綿陽; pinyin: Miányáng; Wade–Giles: Mien2-yang2; Sichuanese romanization: Mien2-iang2; formerly known as Mienchow, Chinese: 綿州; pinyin: Mianzhou; Sichuanese romanization: Miencheo; lit. 'Mian Prefecture') is the second largest prefecture-level city of Sichuan province in Southwestern China. It borders Nanchong City to the east, Suining City to t",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "6865588406db",
    "source": "hn",
    "title": "Things you don't need to run a Proxmox home lab",
@@ -3362,54 +3398,6 @@
    "meta": {
     "points": 4,
     "comments": 2
-   },
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "3ef2144a01c2",
-   "source": "hn",
-   "title": "Backup Tapes Come Back to the Homelab",
-   "url": "https://hackaday.com/2026/10/12/backup-tapes-come-back-to-the-homelab",
-   "published": "2026-10-16",
-   "summary": "",
-   "meta": {
-    "points": 8,
-    "comments": 1
-   },
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "6e47e6e96589",
-   "source": "hn",
-   "title": "Home lab: own cert to reach: Home Assistant, Vaultwarden and Gitea",
-   "url": "https://blog.jacq.cc/guides/client-certificates-home-assistant-vaultwarden-gitea",
-   "published": "2026-10-16",
-   "summary": "",
-   "meta": {
-    "points": 2,
-    "comments": 0
    },
    "targeted": false,
    "score": 58,

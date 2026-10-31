@@ -1,60 +1,52 @@
 {
- "generated_at": "2026-10-30T01:58:27+00:00",
+ "generated_at": "2026-10-31T01:36:29+00:00",
  "count": 2,
  "items": [
   {
-   "id": "b7ecd58ef8e7",
+   "id": "5623bc1f1bd6",
    "source": "hackaday",
-   "title": "Car’s Camera Footage Backed up to NAS",
-   "url": "https://hackaday.com/2026/10/22/cars-camera-footage-backed-up-to-nas",
-   "published": "2026-10-22",
-   "summary": "For as many sensors, cameras, and computers as there are on modern cars, they ought to be a dream to poke around in and customize to one’s liking. Unfortunately they’re …read more",
+   "title": "Turning an Old Phone’s Motherboard into an RC Plane Controller",
+   "url": "https://hackaday.com/2026/10/28/turning-an-old-phones-motherboard-into-an-rc-plane-controller",
+   "published": "2026-10-28",
+   "summary": "Upcycling smartphones makes a lot of sense, especially since they contain so many components that remain useful long after their desirability as a smartphone has faded. In the case of …read more",
    "meta": {
-    "query": "sensor"
+    "query": "DIY lab"
    },
    "targeted": true,
-   "score": 100,
+   "score": 77,
    "why": "",
-   "obj_hits": [
-    "sensor",
-    "camera"
-   ],
+   "obj_hits": [],
    "per_hits": [],
    "modern_hits": [
-    "sensor",
-    "camera"
+    "smartphone"
    ],
    "hits": [
-    "sensor",
-    "camera",
-    "sensor"
+    "smartphone"
    ],
-   "title_signal": true
+   "title_signal": false
   },
   {
-   "id": "3b473b3d8bf8",
+   "id": "ea38c29a8cd4",
    "source": "hackaday",
-   "title": "Magnetic Lock Opens By Magic",
-   "url": "https://hackaday.com/2026/10/29/magnetic-lock-opens-by-magic",
-   "published": "2026-10-29",
-   "summary": "Over on IEEE Spectrum, [Stephen Cass] has a project that would probably have seemed like a magic a few centuries ago. Imagine a box that uses a magnetic device to …read more",
+   "title": "An Open Source Linear Capacitive Encoder",
+   "url": "https://hackaday.com/2026/10/22/an-open-source-linear-capacitive-encoder",
+   "published": "2026-10-22",
+   "summary": "If you’ve ever pulled apart a set of digital calipers, you’ve probably marvelled at the capacitive encoder that does all the measuring work. There’s nothing stopping you from using the …read more",
    "meta": {
     "query": "sensor"
    },
    "targeted": true,
-   "score": 94,
+   "score": 77,
    "why": "",
-   "obj_hits": [
-    "spectrum",
-    "magnet"
-   ],
+   "obj_hits": [],
    "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "spectrum",
-    "magnet"
+   "modern_hits": [
+    "open source"
    ],
-   "title_signal": true
+   "hits": [
+    "open source"
+   ],
+   "title_signal": false
   }
  ]
 }
