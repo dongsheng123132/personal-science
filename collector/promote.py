@@ -32,6 +32,7 @@ BASE = pathlib.Path(__file__).resolve().parent.parent
 DESIGNS = BASE / "inbox" / "designs"
 EXPERIMENTS = BASE / "experiments"
 STATE_PATH = BASE / "maintenance" / "promote-state.json"
+REJECTED_PATH = BASE / "maintenance" / "rejected.json"
 AUDIT_PATH = BASE / "maintenance" / "audit-log.md"
 NOW = datetime.now(timezone.utc)
 TODAY = NOW.strftime("%Y-%m-%d")
@@ -438,7 +439,17 @@ def main():
         t = p.read_text(encoding="utf-8").split("\n")[0]
         existing_titles.add(re.sub(r"[^\w\u4e00-\u9fff]", "", t))
 
-    held_titles = {h.get("title") for h in state.get("held", [])}
+    rejected = set()
+    if REJECTED_PATH.exists():
+        try:
+            rejected = set(json.loads(REJECTED_PATH.read_text(encoding="utf-8")).get("drafts", []))
+        except json.JSONDecodeError:
+            rejected = set()
+    open_bodies = ""
+    rc, out = run(["gh", "pr", "list", "--state", "open", "--json", "body",
+                   "--jq", ".[].body"], check=False)
+    if rc == 0:
+        open_bodies = out
     cands = []
     for p in sorted(DESIGNS.glob("*.md"), key=lambda x: x.name):
         if p.name == "README.md":
@@ -446,7 +457,8 @@ def main():
         d = parse_draft(p)
         if not d:
             continue
-        if d["title"] in held_titles:
+        rel = str(p.relative_to(BASE))
+        if rel in rejected or rel in open_bodies:
             continue
         if not all(k in d["sections"] for k in TEMPLATE_SECTIONS):
             continue
@@ -580,12 +592,6 @@ def main():
             state["publishes"].append({"date": TODAY, "slug": slug, "pr": pr_url})
             save_state(state)
     else:
-        state.setdefault("held", []).append({"date": TODAY, "title": draft["title"]})
-        state["held"] = state["held"][-30:]
-        save_state(state)
-        run(["git", "add", "--", "maintenance/promote-state.json"], check=False)
-        run(["git", "commit", "-m", "state: 记录 %s 未通过自动合并" % slug], check=False)
-        run(["git", "push"], check=False)
         log("不自动合并（verdict=%s, risk=%s），PR 保留给人工" % (
             risk.get("verdict"), risk.get("risk_level")))
     return 0
