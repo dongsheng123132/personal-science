@@ -7,7 +7,7 @@
 一个人在家就能做的实验清单。不用申请、不用审核、不用等人批准。
 **一个人 = 一个实验室。**（[章程](CHARTER.md)）
 
-`20 个实验` · `每页写清怎么做成` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
+`21 个实验` · `每页写清怎么做成` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
 
 [![collect](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml/badge.svg)](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml)
 
@@ -95,6 +95,7 @@ AI 正好一次拆掉这四样。所以不用等谁批准——测量、记录�
 | [LED 估普朗克常数](experiments/led-planck.md) | 不同颜色 LED 的点亮电压里，藏着一个量子常数 | 万用表、电位器、5 种 LED | 1 小时 | ¥30 | ★★★ |
 | [奥斯特实验](experiments/oersted-magnetism.md) | 通电导线让磁针偏转，电和磁是一回事 | 电池、导线、指南针 | 30 分钟 | ¥10 | ★☆☆ |
 | [法拉第电磁感应](experiments/faraday-induction.md) | 磁铁插进线圈，发电的原理 | 线圈、磁铁、万用表 | 40 分钟 | ¥20 | ★★☆ |
+| [霍尔效应](experiments/hall-effect.md) | 用一块几块钱的霍尔传感器和一块磁铁，测出磁场强度随距离的衰减并验证它大致按三次方掉。 | 线性霍尔传感器模块、钕磁铁、数字万用表 | 一个周末 | 约 ¥40–80 | 待核实 |
 
 ### 光与波
 
@@ -244,7 +245,7 @@ inbox/designs/（草稿，标注未核对）
 ├── MANIFESTO.md         宣言：为什么出发（智力平权）
 ├── CHARTER.md           章程：这个仓库的宪法
 ├── *.en.md              英文版（README / 宣言 / 章程）
-├── experiments/         每个实验一页（20 个）
+├── experiments/         每个实验一页（21 个）
 ├── ideas.md             点子池
 ├── RESULTS.md           有人做过什么（含失败）
 ├── CONTRIBUTING.md      怎么加一个（英文 CONTRIBUTING.en.md）
