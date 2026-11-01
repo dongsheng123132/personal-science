@@ -18,6 +18,24 @@ LED 发光的条件是：电子跨过半导体带隙，放出一个光子。光�
 
 这是少数几个**用几十块钱在家测出量子力学常数**的实验。
 
+## 这件事为什么重要
+
+**当年**：1900 年普朗克提出能量量子；1905 年爱因斯坦用光量子解释光电效应；1962 年霍尔尼雅克做出第一只实用 LED。
+
+**现在**：几十块钱的 LED 就能把普朗克常数测到同一量级——这是量子力学最平民化的入口。
+
+**对后来的影响**：半导体带隙工程后来长出激光、太阳能电池和整个 LED 照明产业。
+
+**AI 时代还能做什么**：线性拟合、误差传播、再和 CODATA 推荐值对比，看看你差在哪。
+
+## 延伸阅读
+
+- [Planck constant（普朗克常数）](https://en.wikipedia.org/wiki/Planck_constant)
+- [Light-emitting diode（发光二极管）](https://en.wikipedia.org/wiki/Light-emitting_diode)
+- [Band gap（带隙）](https://en.wikipedia.org/wiki/Band_gap)
+- [Photoelectric effect（光电效应）](https://en.wikipedia.org/wiki/Photoelectric_effect)
+
+
 ## 怎么做
 
 1. 查（或估）每种 LED 的峰值波长：红 630nm、黄 590nm、绿 525nm、蓝 470nm、紫 405nm。买的时候商品页一般有。

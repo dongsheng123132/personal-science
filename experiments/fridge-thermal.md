@@ -16,6 +16,24 @@
 
 同样的数学出现在放射性衰变、电容放电、疫苗冷链、咖啡保温里。用一杯水把它玩明白，比背公式划算。
 
+## 这件事为什么重要
+
+**当年**：牛顿 1701 年提出冷却定律；19 世纪热力学建立后，「指数衰减」成了描述散热的标准形状。
+
+**现在**：冷链、疫苗运输、咖啡保温、房屋保温，最后都落到一个数——时间常数 τ。
+
+**对后来的影响**：集总热容模型和热传导方程，是工程传热学的起点。
+
+**AI 时代还能做什么**：温度日志自动画曲线、拟合 τ、横向比较不同容器和室温，把「凉得快不快」变成可比的数字。
+
+## 延伸阅读
+
+- [Newton's law of cooling（牛顿冷却定律）](https://en.wikipedia.org/wiki/Newton%27s_law_of_cooling)
+- [Thermal conduction（热传导）](https://en.wikipedia.org/wiki/Thermal_conduction)
+- [Thermal time constant（热时间常数）](https://en.wikipedia.org/wiki/Thermal_time_constant)
+- [Heat transfer（传热）](https://en.wikipedia.org/wiki/Heat_transfer)
+
+
 ## 怎么做
 
 1. 倒一杯热水（**60–70°C，别更烫**，保护冰箱），把温度记录仪放进去。

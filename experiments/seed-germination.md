@@ -16,6 +16,24 @@
 
 而且结果可能反直觉：**很多种子在黑暗里发芽更好**（比如绿豆），有些反而必须见光（比如生菜）。你自己测出来的答案，比课本上的可靠。
 
+## 这件事为什么重要
+
+**当年**：对照实验与统计思想在 19 世纪成形；1866 年孟德尔用对照和计数发现了遗传规律。
+
+**现在**：这是最便宜的实验设计训练：一个变量、足够样本、用比例说话。
+
+**对后来的影响**：实验设计（DOE）与统计检验成了科研的标准工具。
+
+**AI 时代还能做什么**：帮你算样本量、做卡方检验、生成记录表，避免「20 颗里多发了 1 颗就下结论」。
+
+## 延伸阅读
+
+- [Germination（发芽）](https://en.wikipedia.org/wiki/Germination)
+- [Control experiment（对照实验）](https://en.wikipedia.org/wiki/Scientific_control)
+- [Design of experiments（实验设计）](https://en.wikipedia.org/wiki/Design_of_experiments)
+- [Chi-squared test（卡方检验）](https://en.wikipedia.org/wiki/Chi-squared_test)
+
+
 ## 怎么做
 
 1. 每组 **≥20 颗**，随机分（不要挑大的）。

@@ -22,6 +22,24 @@
 
 量出这半个波长，乘以频率再乘 2，就是光速。一台厨房家电，一个 1676 年之后就没变过的常数。
 
+## 这件事为什么重要
+
+**当年**：1676 年罗默从木卫一食的时间差首次估出光速；1849 年斐索在地面用旋转齿轮测量；1926 年迈克尔逊把精度推到很高。
+
+**现在**：一台微波炉加一排巧克力，就能把 c 测到 10% 以内。
+
+**对后来的影响**：1983 年光速被定义为精确常数，反过来「米」由光速定义。
+
+**AI 时代还能做什么**：拍照识别融化点间距、自动算波长和误差，还能对比不同功率/时间的加热斑。
+
+## 延伸阅读
+
+- [Speed of light（光速）](https://en.wikipedia.org/wiki/Speed_of_light)
+- [Rømer's determination of the speed of light](https://en.wikipedia.org/wiki/R%C3%B8mer%27s_determination_of_the_speed_of_light)
+- [Fizeau experiment（斐索实验）](https://en.wikipedia.org/wiki/Fizeau_experiment)
+- [Standing wave（驻波）](https://en.wikipedia.org/wiki/Standing_wave)
+
+
 ## 怎么做
 
 1. **取下转盘和转盘架。** 这一步最重要，转盘会带着驻波图案一起转，量不出来。

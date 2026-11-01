@@ -18,6 +18,24 @@
 
 而且它有个便宜的副产品：没有双缝片，用一根头发也能做，顺便量出头发有多粗。
 
+## 这件事为什么重要
+
+**当年**：1801 年托马斯·杨用双缝证明光是波；1818 年菲涅尔的理论在「泊松亮斑」之争中胜出。
+
+**现在**：一根激光笔、一片双缝、一面白墙，客厅就能重做；没有双缝片，一根头发也行，顺便量出头发直径。
+
+**对后来的影响**：波动光学由此建立；20 世纪双缝又成了量子力学「波粒二象性」的核心实验。
+
+**AI 时代还能做什么**：手机拍条纹，AI 量间距、反推波长、估不确定度。
+
+## 延伸阅读
+
+- [Young's interference experiment（杨氏干涉）](https://en.wikipedia.org/wiki/Young%27s_interference_experiment)
+- [Double-slit experiment（双缝实验）](https://en.wikipedia.org/wiki/Double-slit_experiment)
+- [Wave theory of light（光的波动说）](https://en.wikipedia.org/wiki/Wave_theory_of_light)
+- [Wave interference（波的干涉）](https://en.wikipedia.org/wiki/Wave_interference)
+
+
 ## 怎么做
 
 ### 路线 A：双缝干涉（主实验）

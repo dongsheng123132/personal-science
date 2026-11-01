@@ -506,6 +506,10 @@ def write_feed(items):
     (FEED_DIR / "latest.json").write_text(blob + "\n", "utf-8")
     (FEED_DIR / "latest.js").write_text(
         "// 自动生成，勿手改\nwindow.PS_FEED = " + blob + ";\n", "utf-8")
+    # 按天存档：网站 /daily/ 的「每一天的候选」就是从这些文件读的
+    arch = FEED_DIR / "archive"
+    arch.mkdir(exist_ok=True)
+    (arch / f"{NOW.strftime('%Y-%m-%d')}.json").write_text(blob + "\n", "utf-8")
 
 
 def write_raw(items):

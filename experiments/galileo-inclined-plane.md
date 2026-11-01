@@ -16,6 +16,24 @@
 
 你有 240fps 的手机——同一个实验，精度高一个数量级。而且这一次，**AI 帮你逐帧读数、拟合曲线、挑出误差来源**。
 
+## 这件事为什么重要
+
+**当年**：1604 年伽利略用斜面「稀释」重力，靠音乐节拍和水钟计时，第一次量出 s 与 t² 成正比。
+
+**现在**：手机慢动作把精度提高一个数量级，同一个实验十分钟就能复现。
+
+**对后来的影响**：运动学由此奠基，为牛顿三定律铺路。
+
+**AI 时代还能做什么**：逐帧取点、拟合二次曲线、把误差分解成手抖、斜面摩擦、帧率三项。
+
+## 延伸阅读
+
+- [Galileo Galilei（伽利略）](https://en.wikipedia.org/wiki/Galileo_Galilei)
+- [Kinematics（运动学）](https://en.wikipedia.org/wiki/Kinematics)
+- [Inclined plane（斜面）](https://en.wikipedia.org/wiki/Inclined_plane)
+- [Two New Sciences（伽利略《两门新科学》）](https://en.wikipedia.org/wiki/Two_New_Sciences)
+
+
 ## 怎么做
 
 1. 木板一端垫高，量出斜面长度 `L` 和高度 `h`，`θ = arcsin(h/L)`。

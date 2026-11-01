@@ -16,6 +16,24 @@
 
 **你可以在 3 天里亲眼看见"生长"这个平时看不见的过程。** 延时摄影把它压缩成 10 秒。
 
+## 这件事为什么重要
+
+**当年**：1880 年达尔文父子在《植物运动能力》里记录了向光性；1928 年温特证明是化学物质（生长素）在起作用。
+
+**现在**：延时摄影把三天压成十秒，你能「看见」生长这个平时看不见的过程。
+
+**对后来的影响**：植物激素与光受体（向光素）研究，是现代农业与光生物学的基础。
+
+**AI 时代还能做什么**：手机延时加 AI 追踪茎尖轨迹，把「弯过去」量化成弯曲角速度。
+
+## 延伸阅读
+
+- [Phototropism（向光性）](https://en.wikipedia.org/wiki/Phototropism)
+- [Auxin（生长素）](https://en.wikipedia.org/wiki/Auxin)
+- [The Power of Movement in Plants（达尔文《植物运动能力》）](https://en.wikipedia.org/wiki/The_Power_of_Movement_in_Plants)
+- [Phototropin（向光素）](https://en.wikipedia.org/wiki/Phototropin)
+
+
 ## 怎么做
 
 1. 鞋盒侧面靠近底部开一个 **1 cm 的圆孔**，其他缝隙用胶带封住（只留这一个光源）。

@@ -16,6 +16,24 @@
 
 你花十分钟就能亲手让一根磁针听你的话。
 
+## 这件事为什么重要
+
+**当年**：1820 年奥斯特在一次讲课时发现通电导线让磁针偏转；同年安培给出定量规律，1821 年法拉第造出电动机原型。
+
+**现在**：电动机、扬声器、硬盘、电磁铁、MRI——都从这一下偏转开始。
+
+**对后来的影响**：电与磁被统一进麦克斯韦方程组，直接通向无线电。
+
+**AI 时代还能做什么**：手机磁力计测磁场分布，AI 画场线、和理论值比对。
+
+## 延伸阅读
+
+- [Hans Christian Ørsted（奥斯特）](https://en.wikipedia.org/wiki/Hans_Christian_%C3%98rsted)
+- [Electromagnetism（电磁学）](https://en.wikipedia.org/wiki/Electromagnetism)
+- [Ampère's law（安培定律）](https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law)
+- [Electromagnet（电磁铁）](https://en.wikipedia.org/wiki/Electromagnet)
+
+
 ## 怎么做
 
 1. 指南针平放桌上，等磁针稳定（针大致指向南北）。

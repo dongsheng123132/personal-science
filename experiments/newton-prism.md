@@ -16,6 +16,24 @@
 
 这是"光的颜色到底是什么"这个问题的第一个正确答案，也是你第一个能亲手做出来的"光谱仪"。
 
+## 这件事为什么重要
+
+**当年**：1666 年牛顿用棱镜证明白光由不同颜色的光组成，而且颜色不能再被分开；1704 年他把结论写进《光学》。
+
+**现在**：光谱学是一切天文与化学分析的基础，而你在客厅就能做出第一台「光谱仪」。
+
+**对后来的影响**：光谱分析后来发现了氦、测出恒星成分、量出宇宙膨胀（红移）。
+
+**AI 时代还能做什么**：手机拍光谱照片，AI 识别谱线、比对元素，把「一条彩虹」读成成分表。
+
+## 延伸阅读
+
+- [Prism（棱镜）](https://en.wikipedia.org/wiki/Prism)
+- [Opticks（牛顿《光学》）](https://en.wikipedia.org/wiki/Opticks)
+- [Spectroscopy（光谱学）](https://en.wikipedia.org/wiki/Spectroscopy)
+- [Dispersion (optics)（色散）](https://en.wikipedia.org/wiki/Dispersion_%28optics%29)
+
+
 ## 怎么做
 
 1. 让一束窄光射进来：阳光从窗帘缝、或用手电筒+纸板开一条 3mm 的缝。

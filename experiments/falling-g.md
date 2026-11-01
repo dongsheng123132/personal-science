@@ -14,6 +14,24 @@
 
 重力加速度是你能在地球上最"随手"测到的物理常数之一。而且它不需要任何仪表——**你自己的手机就是一台 240 帧每秒的高速摄像机**。
 
+## 这件事为什么重要
+
+**当年**：伽利略（1604）用斜面论证落体是匀加速；17 世纪惠更斯测出 g；1687 年牛顿用万有引力解释了「为什么是这个数」。
+
+**现在**：手机 240fps 让四百年前的测量变成十分钟的事。g 同时是手机里加速度计校准的基准。
+
+**对后来的影响**：精密重力测量成了地球物理、找矿、监测地下水的工具——重力仪的灵敏度能感到你走过去。
+
+**AI 时代还能做什么**：逐帧识别落点、多点拟合 s–t 曲线、自动挑出「帧率不对/手机没正对」这类误差来源。
+
+## 延伸阅读
+
+- [Galileo Galilei（伽利略）](https://en.wikipedia.org/wiki/Galileo_Galilei)
+- [Gravitational acceleration（重力加速度）](https://en.wikipedia.org/wiki/Gravitational_acceleration)
+- [Gravimetry（重力测量）](https://en.wikipedia.org/wiki/Gravimetry)
+- [Free fall（自由落体）](https://en.wikipedia.org/wiki/Free_fall)
+
+
 ## 怎么做
 
 1. 把米尺用胶带竖直贴在墙上，零点朝上（下落起点在 0 附近）。

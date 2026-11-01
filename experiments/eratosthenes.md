@@ -16,6 +16,24 @@
 
 这也是这个清单里少数**必须两个人**才能做的实验。一个人测不出来——这正是它有意思的地方。
 
+## 这件事为什么重要
+
+**当年**：公元前 240 年，亚历山大图书馆馆长埃拉托色尼只用了「两地正午影长差 7.2°」和两城距离，算出地球周长约 25 万斯台德，误差只有几个百分点。
+
+**现在**：你不需要图书馆，只要两个不同纬度的人在同一个晴天量影子。GPS 时代，它顺带回答「坐标到底从哪来」。
+
+**对后来的影响**：这是人类第一次用几何量出地球大小，比哥伦布出发早了一千七百年。
+
+**AI 时代还能做什么**：AI 帮你约人、核对当地太阳赤纬与时差、把经纬度误差、影子读数误差一项项拆开。
+
+## 延伸阅读
+
+- [Eratosthenes（埃拉托色尼）](https://en.wikipedia.org/wiki/Eratosthenes)
+- [Earth's circumference（地球周长测量史）](https://en.wikipedia.org/wiki/Earth%27s_circumference)
+- [History of geodesy（大地测量史）](https://en.wikipedia.org/wiki/History_of_geodesy)
+- [Posidonius（另一次古代地球测量）](https://en.wikipedia.org/wiki/Posidonius)
+
+
 ## 怎么做
 
 1. 找一个纬度和你差 **≥5°**（约 550 km）的人。越大越好，但要在同一天。

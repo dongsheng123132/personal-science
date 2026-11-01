@@ -16,6 +16,24 @@
 
 这个效应不是玩具——**工程上就是用它在透明塑料件里找应力**：塑料受力后双折射会变强，颜色会跟着变。
 
+## 这件事为什么重要
+
+**当年**：1808 年马吕斯发现偏振；1815 年布儒斯特角；19 世纪双折射被系统研究。
+
+**现在**：光弹性法在工程上用来找透明塑料件的应力；你的手机屏幕和太阳镜也靠偏振工作。
+
+**对后来的影响**：光弹性应力分析、液晶显示、偏振太阳镜，都是它的后代。
+
+**AI 时代还能做什么**：手机拍彩色条纹，AI 估算应力集中位置，和受力方向对上。
+
+## 延伸阅读
+
+- [Polarization（偏振）](https://en.wikipedia.org/wiki/Polarization_%28waves%29)
+- [Photoelasticity（光弹性）](https://en.wikipedia.org/wiki/Photoelasticity)
+- [Étienne-Louis Malus（马吕斯）](https://en.wikipedia.org/wiki/%C3%89tienne-Louis_Malus)
+- [Birefringence（双折射）](https://en.wikipedia.org/wiki/Birefringence)
+
+
 ## 怎么做
 
 ### 基础版：看见偏振

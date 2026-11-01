@@ -14,6 +14,24 @@
 
 声速是最容易"听出来"的物理量。你只需要一声拍手和一面墙，就能在两个声音的间隔里读出它。
 
+## 这件事为什么重要
+
+**当年**：1636 年梅森用钟摆测声速；牛顿从理论上推出约 343 m/s，后来拉普拉斯用绝热过程修正。
+
+**现在**：拍一下手、听回声，十分钟就能测出声速。
+
+**对后来的影响**：声学、超声成像、声呐、降噪，都建立在对声速的理解上。
+
+**AI 时代还能做什么**：手机录音加 AI 用互相关找回声延迟，比人耳准得多。
+
+## 延伸阅读
+
+- [Speed of sound（声速）](https://en.wikipedia.org/wiki/Speed_of_sound)
+- [Echo（回声）](https://en.wikipedia.org/wiki/Echo)
+- [Acoustics（声学）](https://en.wikipedia.org/wiki/Acoustics)
+- [Cross-correlation（互相关）](https://en.wikipedia.org/wiki/Cross-correlation)
+
+
 ## 怎么做
 
 1. 找一面硬墙（砖墙、瓷砖、大楼外墙），站在离它 **至少 15 米**的地方。越远越准。

@@ -21,6 +21,24 @@ I = V₁ / R
 r = (V₀ − V₁) / I
 ```
 
+## 这件事为什么重要
+
+**当年**：1800 年伏打电堆问世后，电池就不是理想电压源。欧姆（1827）和焦耳（1840 年代）先后描述「内阻」怎样把电能变成热，早期电报和电化学研究都绕不开它。
+
+**现在**：手机冬天突然关机、电动车续航缩水、UPS 撑不住——很多都是内阻变大。它随老化单调上升，是电池健康度最直接的指标。
+
+**对后来的影响**：内阻测量后来成了电池管理系统的核心：交流阻抗谱（EIS）用不同频率扫出内阻和电容，给每一块电芯做「体检」。
+
+**AI 时代还能做什么**：把电压—电流曲线记下来交给 AI 拟合，比较不同温度、不同电量下的内阻变化，比手算快得多。
+
+## 延伸阅读
+
+- [Internal resistance（内阻）](https://en.wikipedia.org/wiki/Internal_resistance)
+- [Electrochemical impedance spectroscopy（交流阻抗谱）](https://en.wikipedia.org/wiki/Dielectric_spectroscopy)
+- [伏打电堆 · 电池史](https://en.wikipedia.org/wiki/Voltaic_pile)
+- [Battery management system（电池管理系统）](https://en.wikipedia.org/wiki/Battery_management_system)
+
+
 ## 怎么做
 
 1. **测开路电压 V₀**：不接任何负载，直接量电池两端。

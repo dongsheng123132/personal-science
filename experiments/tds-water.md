@@ -16,6 +16,24 @@ TDS 笔测的是水的电导率折算值（ppm）。它便宜、快、能重复�
 
 一个人测自己的水没有意义。十个城市、一百个人测，才有对照。
 
+## 这件事为什么重要
+
+**当年**：19 世纪电导率测量进入水质分析，成为判断溶解离子的快捷手段。
+
+**现在**：TDS 笔二十块钱，能对比自来水、矿泉水、净水器出水；一个人测没意义，一百个人测才有对照。
+
+**对后来的影响**：电导率换算离子浓度，成了环境监测和工业水处理的常规指标。
+
+**AI 时代还能做什么**：汇总多人数据，AI 画城市分布图、找异常值，把「我家水怎么样」变成地区差异。
+
+## 延伸阅读
+
+- [Total dissolved solids（溶解性总固体）](https://en.wikipedia.org/wiki/Total_dissolved_solids)
+- [Electrical conductivity（电导率）](https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity)
+- [Water quality（水质）](https://en.wikipedia.org/wiki/Water_quality)
+- [Conductivity (electrolytic)（电解电导率）](https://en.wikipedia.org/wiki/Conductivity_%28electrolytic%29)
+
+
 ## 怎么做
 
 1. 准备 4 杯水：自来水（先放水 30 秒）、烧开后的自来水、净水器出水、瓶装矿泉水。

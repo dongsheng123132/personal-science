@@ -16,6 +16,24 @@
 
 你今天能做的每件事，从手机充电到电动汽车，都靠它。
 
+## 这件事为什么重要
+
+**当年**：1831 年法拉第发现「变化的磁场会产生电压」；1832 年亨利独立做出同样结果。1865 年麦克斯韦把它写进方程组。
+
+**现在**：全球发电、变压器、无线充电、电磁炉、感应电机——全是这条规律的工程化。你今天充的每一度电，都从一次「插磁铁」开始。
+
+**对后来的影响**：它直接催生了发电机和电网，点燃第二次工业革命。
+
+**AI 时代还能做什么**：用手机或 ESP32 记录感应电压波形，AI 分析谐波、拟合法拉第定律、把它和线圈匝数对上。
+
+## 延伸阅读
+
+- [Electromagnetic induction（电磁感应）](https://en.wikipedia.org/wiki/Electromagnetic_induction)
+- [Faraday's law（法拉第定律）](https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction)
+- [Maxwell's equations（麦克斯韦方程组）](https://en.wikipedia.org/wiki/Maxwell%27s_equations)
+- [Electric generator（发电机）](https://en.wikipedia.org/wiki/Electric_generator)
+
+
 ## 怎么做
 
 1. 手绕一个线圈：找一根塑料管/笔杆，绕 100–200 圈漆包线或细导线，两端留出线头。

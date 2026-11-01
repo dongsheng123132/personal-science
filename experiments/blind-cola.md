@@ -16,6 +16,24 @@
 
 而且它的结论可以很反直觉：大多数人喝不出来。
 
+## 这件事为什么重要
+
+**当年**：「不知道自己吃的是什么」这件事，20 世纪 50 年代被做成了医学试验的标准（安慰剂对照）；80 年代的「百事挑战」又把它搬上广告战场。
+
+**现在**：任何食品评测（咖啡、酒、茶）都该先过盲测——否则你评的是包装和期待，不是味道。
+
+**对后来的影响**：双盲随机对照试验（RCT）成了现代医学判断疗效的金标准。
+
+**AI 时代还能做什么**：让 AI 设计随机化顺序、生成盲测记录表、做二项检验，避免自己给自己「递答案」。
+
+## 延伸阅读
+
+- [Blind experiment（盲实验）](https://en.wikipedia.org/wiki/Blind_experiment)
+- [Pepsi Challenge（百事挑战）](https://en.wikipedia.org/wiki/Pepsi_Challenge)
+- [Randomized controlled trial（随机对照试验）](https://en.wikipedia.org/wiki/Randomized_controlled_trial)
+- [Placebo（安慰剂）](https://en.wikipedia.org/wiki/Placebo)
+
+
 ## 怎么做
 
 1. **先定死判定标准**：10 轮里正确 ≥8 轮算"能分辨"。为什么是 8？见下面"算一下"。

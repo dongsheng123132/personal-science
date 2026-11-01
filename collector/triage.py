@@ -179,6 +179,14 @@ def main():
     OUT_PATH.parent.mkdir(exist_ok=True)
     OUT_PATH.write_text(text + "\n", "utf-8")
 
+    # 按天存档：网站 /daily/ 按日期展示「那天 AI 筛出来的候选」
+    # 存档移到 inbox/candidates-archive/ 后相对路径深一层，../CHARTER.md 要改成 ../../CHARTER.md
+    cand_date = payload.get("date") or NOW.strftime("%Y-%m-%d")
+    arc = BASE / "inbox" / "candidates-archive"
+    arc.mkdir(parents=True, exist_ok=True)
+    (arc / f"{cand_date}.md").write_text(
+        text.replace("](../CHARTER.md)", "](../../CHARTER.md)") + "\n", "utf-8")
+
     # 只取「可以直接写成实验页」那一组；被判"仅灵感 / 仅阅读"的不该进设计器
     direct_section = text.split("## 需要补设备")[0]
     picked_ids = [int(x) for x in re.findall(r"候选索引[：:]\s*(\d+)", direct_section)]
