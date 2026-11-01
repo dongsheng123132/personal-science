@@ -540,11 +540,16 @@ def update_pool(items):
               if m.get("timeless") or not m.get("published") or m["published"] >= cutoff]
     merged.sort(key=lambda x: (x.get("score", 0), x.get("published", "")), reverse=True)
     merged = merged[:150]
-    pool_path.write_text(json.dumps({
+    blob = json.dumps({
         "updated_at": NOW.isoformat(timespec="seconds"),
         "count": len(merged),
         "items": merged,
-    }, ensure_ascii=False, indent=1) + "\n", "utf-8")
+    }, ensure_ascii=False, indent=1)
+    pool_path.write_text(blob + "\n", "utf-8")
+    # 按天存档：网站 /pool/<日期>/ 公开当天全部候选（含没入选的）
+    arch = FEED_DIR / "pool-archive"
+    arch.mkdir(exist_ok=True)
+    (arch / (NOW.strftime("%Y-%m-%d") + ".json")).write_text(blob + "\n", "utf-8")
 
 
 def write_prefilter(items):
