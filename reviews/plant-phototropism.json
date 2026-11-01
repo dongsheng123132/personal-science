@@ -1,0 +1,79 @@
+{
+ "slug": "plant-phototropism",
+ "date": "2026-11-01",
+ "title": "植物向光性延时",
+ "oneline": "鞋盒开个洞，看植物怎么\"找\"到光。",
+ "category": "",
+ "target": "experiments/plant-phototropism.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E5%90%91%E5%85%89%E6%80%A7"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Phototropism"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Auxin"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "high",
+  "verdict": "hold",
+  "summary": "向光性基本解释及照片数量估算大体合理，但核心拍摄布置、单侧光控制和安全说明需要修订，具体时程及历史表述也需更明确的依据。修订验证前暂缓。",
+  "physics_ok": true,
+  "safety_ok": false,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "critical",
+    "what": "拍摄方案未闭合：唯一小孔既要进光又要供镜头观察；镜头可能遮光，孔径和位置也可能挡住茎。盒内补光会改变单侧光照，开盒拍摄又会扰动条件。须重新设计并验证取景和照明方式。",
+    "where": "怎么做 1–5；坑"
+   },
+   {
+    "severity": "warn",
+    "what": "“安全：无”不成立。美工刀开孔有割伤风险；台灯、充电设备与浇水并用需防触电及过热。应补充安全操作，必要时由成人协助开孔。",
+    "where": "需要；怎么做 1、4–5；安全"
+   },
+   {
+    "severity": "warn",
+    "what": "未限定植物种类、生长阶段、光照强度和昼夜周期，也未交代封盒后的通风及浇水方式；普通盆栽或一把豆芽未必在指定时间内明显弯曲。",
+    "where": "需要；怎么做；会看到什么"
+   },
+   {
+    "severity": "warn",
+    "what": "3 天每 10 分钟一张约为 432 张，正文约 430 张正确；但视频是否为 10 秒取决于播放帧率。例如 30 帧/秒约为 14.4 秒，手机自带延时模式也未必按固定间隔采集。",
+    "where": "为什么值得做；这件事为什么重要；怎么做 3；坑"
+   },
+   {
+    "severity": "warn",
+    "what": "所列百科链接可作为背景资料，但正文中的历史年份、实验结果及具体拍摄时程没有逐项标注可核查依据；尤其“温特证明是生长素”简化了其对可扩散促生长物质的实验结论。应补充对应原始或权威来源，并区分预测与保证。",
+    "where": "这件事为什么重要；来源与依据；会看到什么"
+   },
+   {
+    "severity": "warn",
+    "what": "红、蓝 LED 比较未控制光子通量、距离、照射时间及温度，不能仅凭弯曲差异归因于颜色。",
+    "where": "想再往前一步"
+   },
+   {
+    "severity": "info",
+    "what": "胶带和手机支架未列入材料；¥10 的费用需说明是否假定手机、支架、灯具等已具备。",
+    "where": "需要；花费；怎么做 1、3"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.00905
+}

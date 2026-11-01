@@ -1,0 +1,89 @@
+{
+ "slug": "blind-cola",
+ "date": "2026-11-01",
+ "title": "盲测可乐",
+ "oneline": "一套正经的盲测，检验\"你真喝得出来吗\"。",
+ "category": "",
+ "target": "experiments/blind-cola.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8F%8C%E7%9B%B2"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Blind_experiment"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Pepsi_Challenge"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "high",
+  "verdict": "hold",
+  "summary": "暂缓发布：核心显著性判断、盲法操作和阴性结果解释均需修正，并需为人群结论补充具体来源。未见必须拦截的即时安全风险，但应明确摄入量。",
+  "physics_ok": false,
+  "safety_ok": true,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "critical",
+    "what": "计算结果约为 5.47%，高于而非低于 5%。因此 8/10 未达到常用的单侧 5% 显著性标准；在相应二项模型下，9/10 的概率约为 1.07%。",
+    "where": "算一下；验收"
+   },
+   {
+    "severity": "critical",
+    "what": "被试亲自将可乐倒入标记 A、B 的杯子，可能已知道品牌与杯子标记的对应关系；只交换杯子位置不能保证盲法。应由他人在被试视线外准备并随机安排每轮样品，隐藏品牌对应关系。",
+    "where": "怎么做，第 2—3 步"
+   },
+   {
+    "severity": "critical",
+    "what": "5/10 或 6/10 只能说明本次未提供足够的分辨能力证据，不能断定被试分不出来；10 轮实验可能漏掉真实但不强的分辨能力。",
+    "where": "算一下"
+   },
+   {
+    "severity": "warn",
+    "what": "二项检验需要明确假设并保证每轮品牌位置按预定方式独立随机分配；步骤未说明随机方法、记录方式或每轮是否重新准备样品，复现性不足。",
+    "where": "怎么做；算一下"
+   },
+   {
+    "severity": "warn",
+    "what": "双盲描述不完整：需要由独立人员编码并保管对应表，使被试和与其互动、实施测试的人在测试期间均不知道对应关系。",
+    "where": "怎么做，单盲与双盲说明"
+   },
+   {
+    "severity": "warn",
+    "what": "“大多数人喝不出来”是人群层面的经验性断言；所列一般性背景链接不能替代支持该断言的具体研究及其样本、产品和条件。",
+    "where": "为什么值得做；来源与依据"
+   },
+   {
+    "severity": "warn",
+    "what": "关于安慰剂对照在 20 世纪 50 年代成为医学试验标准的历史说法过于概括，缺少针对该时间和“标准”地位的具体史料支持；安慰剂对照与盲法也不是同一概念。",
+    "where": "这件事为什么重要；来源与依据"
+   },
+   {
+    "severity": "warn",
+    "what": "未规定每杯样品量或是否必须吞咽，实际糖和咖啡因摄入可能差异很大。建议用少量样品、允许吐出，并提醒糖摄入受限或咖啡因敏感者注意。",
+    "where": "怎么做；安全"
+   },
+   {
+    "severity": "info",
+    "what": "列出的“百事挑战”与盲法背景资料可作为入门线索，但不能直接证明本页对普通人辨别能力的结论。",
+    "where": "来源与依据"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.0082
+}

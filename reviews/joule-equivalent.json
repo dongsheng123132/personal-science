@@ -1,0 +1,84 @@
+{
+ "slug": "joule-equivalent",
+ "date": "2026-11-01",
+ "title": "焦耳热功当量（1843）",
+ "oneline": "让重物下落搅拌保温杯里的水，测水温升，亲手算出「1 卡 = 多少焦耳」，看它离 4.18 有多近。",
+ "category": "",
+ "target": "experiments/joule-equivalent.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E7%83%AD%E5%8A%9F%E5%BD%93%E9%87%8F"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Mechanical_equivalent_of_heat"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/James_Prescott_Joule"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "high",
+  "verdict": "reject",
+  "summary": "理想算例算术基本正确，但装置行程和能量核算存在根本缺陷，无法按页复现实验并验证指标；安全措施与历史来源也需补强。应重设计并经实测后再提交评审。",
+  "physics_ok": false,
+  "safety_ok": false,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "critical",
+    "what": "装置无法按描述完成测量：杯内叶片随绳运动，约 1 m 的行程远超 500 mL 杯的高度；也没有明确的导向、支撑和复位机构。无法保证重物每次下降都有效搅水且杯子稳定。",
+    "where": "怎么做 2–5"
+   },
+   {
+    "severity": "critical",
+    "what": "提回重物和叶片的过程也可能搅水、输入热量，但公式只计下落做功；杯体、叶片和温度计的热容及环境换热也未计入。无法仅凭 Mg h N 与水温升可靠求出热功当量，宣称可达到验收范围缺乏依据。",
+    "where": "怎么做 5；算一下；验收"
+   },
+   {
+    "severity": "warn",
+    "what": "功未进入水或热量散失时，水温升偏小，按文中公式计算的 J 通常偏高，而非偏低；若复位或环境额外加热水，则可能偏低。",
+    "where": "坑：机械功没全变成热"
+   },
+   {
+    "severity": "warn",
+    "what": "示例的 1470 J 和理想温升 0.88 ℃ 算术正确，但只适用于全部功进入水且无其他热交换等理想条件，不能作为实际装置温升的保证。0.1 ℃ 分度也不等于测量准确度。",
+    "where": "算一下 / 会看到什么"
+   },
+   {
+    "severity": "warn",
+    "what": "换成食用油不能继续用 Q=mΔT：油的比热不同，还需计入容器热容和损失，才能比较热功当量。对水采用 1 cal/(g·℃) 是近似及单位约定，食品标签的大卡也需与小卡区分。",
+    "where": "想再往前一步；算一下；为什么值得做"
+   },
+   {
+    "severity": "warn",
+    "what": "1843 年论文与磁电生热有关；将重物搅水实验笼统归为 1843 年、称其首次统一热与能量及使热素说就此破产，历史表述过度或年代可疑。所列通用百科链接和未提供链接的论文名称不足以核实这些具体断言，也不支撑家用装置的性能。",
+    "where": "标题；这件事为什么重要；来源与依据"
+   },
+   {
+    "severity": "warn",
+    "what": "重物下落及复位的支撑和防倾倒措施不明确；钻盖缺少固定工件、护眼及去毛刺等要求。玻璃温度计破损处置笼统，含汞时还需隔离、通风并按当地指引处理，不能以通用捡拾提示替代。",
+    "where": "怎么做 2–5；安全"
+   },
+   {
+    "severity": "warn",
+    "what": "至少三次独立测量缺少每次初始条件、复位、计时和环境温度记录方法。建议加大质量或高度也缺少设备承载与安全边界。",
+    "where": "验收；坑"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.01172
+}

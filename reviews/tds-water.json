@@ -1,0 +1,89 @@
+{
+ "slug": "tds-water",
+ "date": "2026-11-01",
+ "title": "自来水 TDS 对照",
+ "oneline": "20 块钱的笔，量出你家水的\"导电性\"。",
+ "category": "",
+ "target": "experiments/tds-water.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E6%80%BB%E6%BA%B6%E8%A7%A3%E5%9B%BA%E4%BD%93"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Total_dissolved_solids"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "medium",
+  "verdict": "hold",
+  "summary": "建议修订后再发布：纠正校准方法和净水器效能表述，补充烧水安全、可复现条件及针对性来源。现有内容不足以支持跨地区比较或水安全判断。",
+  "physics_ok": false,
+  "safety_ok": false,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "warn",
+    "what": "“用纯净水校准”不可靠：应按仪器说明使用指定浓度的电导率或 TDS 标准液；纯净水更适合冲洗探头。",
+    "where": "坑：笔的校准"
+   },
+   {
+    "severity": "warn",
+    "what": "TDS 笔由电导率按仪器设定系数估算 TDS，不能直接确定离子浓度或组成；不同型号、换算系数和温度补偿会影响横向比较。",
+    "where": "为什么值得做；对后来的影响；算一下"
+   },
+   {
+    "severity": "warn",
+    "what": "TDS 不能判断净水器所有滤芯是否有效，也不能判断出水是否安全；某些污染物的去除或滤芯失效未必反映在 TDS 上。",
+    "where": "想再往前一步：净水器前后对比"
+   },
+   {
+    "severity": "warn",
+    "what": "实验包含烧水及反复烧开，但安全栏写“无”。应提示防烫、让水样冷却到仪器允许温度后再测，并避免烧干。",
+    "where": "怎么做第 1 步；想再往前一步；安全"
+   },
+   {
+    "severity": "warn",
+    "what": "典型范围和南北地域划分缺少具体数据来源、采样条件和适用范围，不宜作为各地水样的预期或判定标准；19 世纪的历史表述也缺少针对性依据。所列通用百科链接未逐项支撑这些说法，链接内容未核验。",
+    "where": "来源与依据；这件事为什么重要；算一下"
+   },
+   {
+    "severity": "warn",
+    "what": "验收标准对接近零的读数不适用，且未规定读数稳定时间、重复测量方式或仪器分辨率；三次读数接近也不能证明校准准确。",
+    "where": "验收；怎么做第 2 步"
+   },
+   {
+    "severity": "warn",
+    "what": "烧开前后及多人对照缺少统一条件，例如取样点、采样时间、放水方式、温度、烧水容器、蒸发量及仪器校准和换算系数，结果难以归因或直接比较。",
+    "where": "怎么做；想再往前一步"
+   },
+   {
+    "severity": "info",
+    "what": "“测不出重金属”宜表述为不能特异识别或定量重金属：部分溶解态金属离子可能贡献电导率，但读数不能用于安全判定。",
+    "where": "坑：TDS 不是水质检测"
+   },
+   {
+    "severity": "info",
+    "what": "TDS 笔标价为 ¥20–40，而花费栏写 ¥20，成本说明不一致。",
+    "where": "需要；花费"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.00715
+}

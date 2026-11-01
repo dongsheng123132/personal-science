@@ -1,0 +1,89 @@
+{
+ "slug": "galileo-inclined-plane",
+ "date": "2026-11-01",
+ "title": "伽利略斜面：亲手量出\"加速度\"",
+ "oneline": "让小球从斜面滚下，用手机慢动作逐帧记位置。你会看见 `s` 和 `t²` 成正比。",
+ "category": "",
+ "target": "experiments/galileo-inclined-plane.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Kinematics"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "medium",
+  "verdict": "hold",
+  "summary": "实验思路和示例数值基本合理，但计时定义、滚动条件、滑动建议及安全提示需要修正；历史与精度比较也需补充针对性来源后再审。",
+  "physics_ok": false,
+  "safety_ok": false,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "warn",
+    "what": "计时应以释放时刻的帧号为零点：t=(帧号−释放帧号)/拍摄帧率。慢动作文件的播放帧率或元数据未必等于实际拍摄帧率；忽略时间零点会使拟合加速度失真。",
+    "where": "怎么做第3、5、6步；坑"
+   },
+   {
+    "severity": "warn",
+    "what": "5/7 公式要求均匀实心球在平面上纯滚动。钢珠或弹珠不自动满足无滑动；页面要求确认但没有提供可操作的验证方法。晾衣杆的支撑几何也可能不适用该公式。",
+    "where": "需要；验收；先搞清楚：你的球是在滚还是在滑"
+   },
+   {
+    "severity": "warn",
+    "what": "粗糙表面通常有助于形成纯滚动，不能笼统地说用它制造滑动；光滑滑块公式也不适用于所有有摩擦的滑动。",
+    "where": "想再往前一步；运动方式表"
+   },
+   {
+    "severity": "warn",
+    "what": "有初速度时，以释放点和释放时刻为原点的曲线仍可过原点；拟合偏差方向取决于初速度方向。仅凭高 R² 或 s 对 t² 近似直线，也不足以确认纯滚动或排除系统误差。",
+    "where": "坑；会看到什么；验收"
+   },
+   {
+    "severity": "warn",
+    "what": "R² > 0.99 和理论偏差小于10%被写成统一验收门槛，但未说明标定、测量不确定度、重复实验的处理和失效条件；不保证所有推荐器材和拍摄条件都能达到。",
+    "where": "验收；怎么做"
+   },
+   {
+    "severity": "warn",
+    "what": "“安全：无”不恰当。应要求固定斜面、在底端设置挡球装置并清理滚落球；注意玻璃破损、地面绊滑，以及小球对幼儿的吞咽风险。",
+    "where": "安全；需要"
+   },
+   {
+    "severity": "warn",
+    "what": "1604年首次测出相关规律、同时使用音乐节拍和水钟，以及手机精度提高一个数量级等具体断言缺少对应的可靠依据。所列多为宽泛的百科页面；未核验链接内容，不能据此确认其支撑这些断言。",
+    "where": "为什么值得做；这件事为什么重要；来源与依据"
+   },
+   {
+    "severity": "warn",
+    "what": "AI 无法仅凭给出的提示可靠地量化各误差或判断哪项最大；脚本十秒跑完、彻底去掉人工读数也取决于视频、代码和硬件，应要求人工校验追踪与结果。",
+    "where": "AI 可以怎么帮你"
+   },
+   {
+    "severity": "info",
+    "what": "10°示例中的加速度、1米滚动时间和240 fps帧数计算基本正确。但30 fps 在该示例中约有39帧，并非必然“分不开”。",
+    "where": "算个数；AI 可以怎么帮你"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.00895
+}

@@ -1,0 +1,84 @@
+{
+ "slug": "led-planck",
+ "date": "2026-11-01",
+ "title": "LED 估普朗克常数",
+ "oneline": "不同颜色的 LED，点亮电压不一样。差值里藏着一个常数。",
+ "category": "",
+ "target": "experiments/led-planck.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E6%9C%97%E5%85%8B%E5%B8%B8%E6%95%B0"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Planck_constant"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Light-emitting_diode"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "high",
+  "verdict": "hold",
+  "summary": "暂缓发布：须先修正限流和观察方式，再明确电源条件、估算局限及示例数据来源。",
+  "physics_ok": false,
+  "safety_ok": false,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "critical",
+    "what": "电位器单独串联时可调至接近零电阻，电池可能向 LED 提供过大电流，损坏元件或导致发热。应增加按最高电源电压和 LED 额定电流选定的固定限流电阻，并从最大电阻开始调节。",
+    "where": "怎么做第2–3步；安全"
+   },
+   {
+    "severity": "critical",
+    "what": "要求眼睛贴近 LED 与“不要直视 LED”矛盾；蓝光、紫光及亮度未知的 LED 不应近距离观察。应改用安全距离下的漫反射屏或光传感器判定，并明确观察条件。",
+    "where": "怎么做第3步；安全"
+   },
+   {
+    "severity": "warn",
+    "what": "3 V 电源对蓝、紫 LED 可能没有足够的正向电压及限流余量，实验未指定电池实际电压、LED 参数和调节接法，不能保证五种 LED 均可测。",
+    "where": "需要；怎么做第2步"
+   },
+   {
+    "severity": "warn",
+    "what": "肉眼可见阈值受不同波长的视觉灵敏度、LED 光效和电流影响；eV_on 不必等于光子能量，单调性及验收范围均不能保证。应将其定位为条件依赖的粗略估算，而非普遍可复现的验收标准。",
+    "where": "为什么值得做；验收；怎么做第3–5步"
+   },
+   {
+    "severity": "warn",
+    "what": "示例表的线性拟合斜率约为 1.44×10⁻⁶ V·m，对应 h≈7.7×10⁻³⁴ J·s；使用文中舍入斜率 1.4×10⁻⁶ 则约为 7.5×10⁻³⁴ J·s。文中写约 7×10⁻³⁴ 仅在一位有效数字下可理解，建议统一精度。",
+    "where": "算一下"
+   },
+   {
+    "severity": "warn",
+    "what": "给出的链接是背景百科，未提供具体实验方法、阈值误差或示例数据的来源。典型数据未标明是实测、引用还是构造示例，无法核验其代表性。",
+    "where": "来源与依据；算一下"
+   },
+   {
+    "severity": "warn",
+    "what": "万用表输入电流可能改变工作点，但“读数偏低”不是不依条件成立的结论；影响取决于表的输入阻抗、电路电阻和 LED 电流。",
+    "where": "坑"
+   },
+   {
+    "severity": "warn",
+    "what": "“1962 年做出第一只实用 LED”表述过宽，宜限定为霍尔尼雅克研制的实用可见光 LED；此前已有红外 LED。",
+    "where": "这件事为什么重要"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.00835
+}

@@ -1,0 +1,84 @@
+{
+ "slug": "fridge-thermal",
+ "date": "2026-11-01",
+ "title": "温度计 + 秒表量热平衡",
+ "oneline": "一杯热水放进冰箱，量出它\"凉得有多慢\"。",
+ "category": "",
+ "target": "experiments/fridge-thermal.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E5%86%B7%E5%8D%B4%E5%AE%9A%E5%BE%8B"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Newton%27s_law_of_cooling"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Thermal_conduction"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "medium",
+  "verdict": "hold",
+  "summary": "建议暂缓发布：补充防烫和设备适用性说明，限定冷却模型的适用条件，完善记录与对照方法，并为时间、价格及安全主张提供依据。",
+  "physics_ok": false,
+  "safety_ok": false,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "warn",
+    "what": "指数冷却和 ln(温差) 的直线关系是条件模型，不是必然结果；冰箱环境温度波动、杯体蓄热、蒸发等都会影响拟合。单次测环境温度不足以处理随时间变化的环境温度。",
+    "where": "为什么值得做；怎么做 2–5"
+   },
+   {
+    "severity": "warn",
+    "what": "“低温段曲线会偏平”表述不清：温度随时间的曲线在理想指数模型下会变平，但理想情况下 ln(温差) 曲线仍是直线。温差接近零或受测量噪声影响时不宜取对数拟合。",
+    "where": "坑；验收"
+   },
+   {
+    "severity": "warn",
+    "what": "60–70°C 的水有烫伤风险；“不超过 70°C”不能保证安全。应说明防烫、容器稳固和防玻璃热冲击措施，并避免热水或泄漏使冰箱内食物升温。",
+    "where": "怎么做 1；安全"
+   },
+   {
+    "severity": "warn",
+    "what": "未说明探头是否防水、适用温度范围及记录设备如何在关门状态下工作；普通 USB 记录仪不应默认可浸水或适合冰箱潮湿环境。",
+    "where": "需要；怎么做 1–3"
+   },
+   {
+    "severity": "warn",
+    "what": "60–90 分钟接近环境温度及两小时完成实验缺乏条件和依据，保温杯尤其可能需要更久。¥20 的设备价格和总花费也没有来源，且未计入其他用品。",
+    "where": "需要；时间；花费；怎么做 3、6"
+   },
+   {
+    "severity": "warn",
+    "what": "比较容器或水与油、盐水时，需控制液体体积、初温、盖子、探头位置和冰箱条件；差异不能直接归因于材质或比热容。冰箱耗电还需测量压缩机启停及无实验基线，不能仅凭功率计算。",
+    "where": "怎么做 6；想再往前一步"
+   },
+   {
+    "severity": "warn",
+    "what": "所列来源可作为相关概念的背景线索，但未给出具体出处支撑实验时长、价格、安全温度和示例参数；未对链接内容进行核验。示例应明确标为假设值，不能视为实测结果。",
+    "where": "来源与依据；算一下；安全"
+   },
+   {
+    "severity": "info",
+    "what": "在给定示例数值及恒定环境温度的假设下，斜率和约 17.6 分钟的时间常数计算正确。",
+    "where": "算一下"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.00786
+}

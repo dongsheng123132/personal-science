@@ -1,0 +1,79 @@
+{
+ "slug": "newton-prism",
+ "date": "2026-11-01",
+ "title": "牛顿棱镜：把白光拆成彩虹",
+ "oneline": "一束阳光穿过三棱镜，墙上出现一条彩虹。白光不是白的——它是很多颜色的叠加。",
+ "category": "",
+ "target": "experiments/newton-prism.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E6%A3%B1%E9%95%9C"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Prism"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Opticks"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "medium",
+  "verdict": "hold",
+  "summary": "基本色散方向正确，给定示例参数也不显见矛盾；但测角与验收不可充分复现，部分物理、AI能力及历史表述过度，太阳光安全提示和具体来源支撑不足。修订后再评审。",
+  "physics_ok": false,
+  "safety_ok": false,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "warn",
+    "what": "角度测量方法不充分：仅凭红紫光点到无棱镜光点的距离，不能可靠反推偏折角差；还需明确入射方向、出射点、屏幕位置与角度计算几何。照片旁放尺子也不足以单独换算角度。",
+    "where": "怎么做第5–6步；AI 可以怎么帮你"
+   },
+   {
+    "severity": "warn",
+    "what": "验收要求色带角差≥1°，但未规定棱镜顶角、材料、入射角、屏距和红紫位置的判定方式；窄缝手电也可能因发散和亮度不足而无法形成清晰色带，复现与验收不可靠。",
+    "where": "需要和验收；怎么做第1–3步"
+   },
+   {
+    "severity": "warn",
+    "what": "“颜色不能再被分开”过于绝对。肉眼看到的某一颜色带仍可能包含不同波长；应表述为理想单色光经过棱镜不会再分解成不同波长，并说明近似验证需要选出窄波段后再次色散。",
+    "where": "为什么值得做；这件事为什么重要；AI 可以怎么帮你"
+   },
+   {
+    "severity": "warn",
+    "what": "普通白光 LED 的光谱通常有峰，也可能有较宽的连续发射带；直接说“不是连续谱”容易误导。",
+    "where": "想再往前一步"
+   },
+   {
+    "severity": "warn",
+    "what": "普通棱镜彩虹照片和手机 RGB 数据不足以保证识别元素谱线或推得成分；需要合适的发射或吸收光源、波长校准、足够的光谱分辨率及可靠参考谱。AI 不能弥补这些测量条件。",
+    "where": "这件事为什么重要；AI 可以怎么帮你"
+   },
+   {
+    "severity": "warn",
+    "what": "太阳光实验缺少明确的眼睛安全提示：不要直视太阳，也不要通过棱镜或手机镜头取景直视太阳；注意棱镜边缘可能割手。",
+    "where": "安全；怎么做第1–3步"
+   },
+   {
+    "severity": "warn",
+    "what": "来源多为概览页面，未给出具体段落或页码，不能从列出的引用明确核对1666年“首次证明”、颜色不可再分及后续历史等具体表述；“第一个正确答案”和“第一次证明”也需要更谨慎的历史措辞。此处未独立核验链接内容。",
+    "where": "来源与依据；为什么值得做；这件事为什么重要"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.00819
+}

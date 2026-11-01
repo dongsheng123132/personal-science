@@ -1,0 +1,94 @@
+{
+ "slug": "battery-internal-resistance",
+ "date": "2026-11-01",
+ "title": "两块钱测电池内阻",
+ "oneline": "一块万用表加一个电阻，量出电池的\"内耗\"。",
+ "category": "",
+ "target": "experiments/battery-internal-resistance.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E5%86%85%E9%98%BB"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Internal_resistance"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Dielectric_spectroscopy"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "medium",
+  "verdict": "hold",
+  "summary": "基本测量思路成立，但安全范围、读数方法、验收标准及来源支撑需要修订后再审。",
+  "physics_ok": false,
+  "safety_ok": false,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "warn",
+    "what": "10Ω、5W 电阻用于单节约 1.2–1.6V 的 AA 电池时功耗约 0.14–0.26W；但“只测小电池”不能保证安全，小型锂电池或纽扣电池可能承受不了该负载。应明确限定为单节完好的碱性 AA 或镍氢 AA，规定接通时间，并禁止短路、串联及使用损坏或漏液电池。",
+    "where": "需要、怎么做、安全"
+   },
+   {
+    "severity": "warn",
+    "what": "冰箱或冷冻测试缺少温度范围、防凝露和电池厂家限制；低温及回温时的水汽可能引发漏液或短路。不应笼统建议“冻一下”。",
+    "where": "想再往前一步：温度影响"
+   },
+   {
+    "severity": "warn",
+    "what": "mV 档可能无法容纳约 1.5V 的端电压而过载。应选能覆盖端电压的量程，并核对分辨率和准确度；几十毫伏的压差对仪表误差和接触电阻敏感。",
+    "where": "坑：用 mV 档"
+   },
+   {
+    "severity": "warn",
+    "what": "两种负载可估计电压—电流关系，但不能自动消除共同串联的接触和导线电阻，也不保证更准；应控制接触或采用合适的四线测量。",
+    "where": "想再往前一步：两个不同阻值"
+   },
+   {
+    "severity": "warn",
+    "what": "测得的是指定负载、时间和温度下的直流表观内阻，包含极化及接触影响；带载电压不一定稳定或恢复，断载后才通常表现为电压回升。步骤应统一读数时刻、断载后的间隔，并说明测量实际电阻值。",
+    "where": "怎么做、坑：立刻或等 5 秒"
+   },
+   {
+    "severity": "warn",
+    "what": "新碱性电池小于 0.5Ω、旧电池通常高两倍及各化学体系的内阻范围并非可靠的通用验收标准，受型号、电量、温度和测法影响；镍氢与碱性电池也不能仅凭该实验直接判定健康度。",
+    "where": "验收、坑：不同类型电池内阻"
+   },
+   {
+    "severity": "warn",
+    "what": "内阻随老化“单调上升”、是“最直接”健康指标，以及 EIS 给每块电芯体检，均属过度概括；EIS 测量的是频率相关的复阻抗，不等同于单一内阻。电动车冬季续航下降和 UPS 失效也有多种原因。",
+    "where": "这件事为什么重要"
+   },
+   {
+    "severity": "warn",
+    "what": "列出的百科链接可作为一般背景，但未具体支撑历史归因、数值范围、验收标准和 BMS 应用等断言；标为 EIS 的链接实际指向介电谱页面。需要核对历史表述并补充对应的权威来源。",
+    "where": "来源与依据、这件事为什么重要、验收"
+   },
+   {
+    "severity": "info",
+    "what": "示例公式和算术基本正确：新电池约 0.32Ω，旧电池约 2.08Ω；结果仍依赖实际负载及测量条件。",
+    "where": "算一下"
+   },
+   {
+    "severity": "info",
+    "what": "标题称“两块钱”，材料表称花费 ¥10，且未说明万用表是否计入成本。",
+    "where": "标题、花费"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.00916
+}

@@ -1,0 +1,89 @@
+{
+ "slug": "seed-germination",
+ "date": "2026-11-01",
+ "title": "种子发芽率对照",
+ "oneline": "每组 20 颗，验证\"光照到底影不影响发芽\"。",
+ "category": "",
+ "target": "experiments/seed-germination.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8F%91%E8%8A%BD"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Germination"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Scientific_control"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "medium",
+  "verdict": "hold",
+  "summary": "暂停发布，待补充物种与数据来源并修正实验设计和表述。未发现公式或示例百分比的算术错误，常规操作风险较低；主要问题是来源不足、条件控制和重复设计不充分。",
+  "physics_ok": true,
+  "safety_ok": true,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "warn",
+    "what": "“绿豆嫌光”“生菜需光”及两组反方向的典型百分比缺少针对品种、条件和数据的来源。光需求可能随品种、温度等变化；示例数值应明确标为假设数据，不能作为预期结果。",
+    "where": "为什么值得做；怎么做第 6 步；会看到什么；来源与依据"
+   },
+   {
+    "severity": "warn",
+    "what": "每种种子每个条件只有一个盘，盘间环境差异与光照效应无法区分；20 颗种子不等于 20 个独立重复盘。样本量是否足够取决于效应大小和所需精度，少于 20 颗也不等于结论必然无意义。",
+    "where": "为什么值得做；怎么做；坑"
+   },
+   {
+    "severity": "warn",
+    "what": "窗台直射光和纸盒可能改变温度、湿度及通风；每天打开盒子检查也会使暗组见光。应记录或控制这些条件，并说明暗组如何尽量少受光检查。",
+    "where": "怎么做第 3–4 步；坑"
+   },
+   {
+    "severity": "warn",
+    "what": "未规定光照时长和大致强度、具体种子品种、检查时点及暗组检查方式；“芽长”也可能被理解为芽或胚根。建议预先定义可观察部位及累计计数方法，以提高可复现性。",
+    "where": "需要；怎么做第 3–5 步"
+   },
+   {
+    "severity": "warn",
+    "what": "通用百科和统计条目未直接支撑物种特异性发芽条件、示例比例及“每组样本够多”等判断；建议补充相关实验或种子栽培资料。卡方检验还需检查预期频数和独立性，必要时考虑精确检验。",
+    "where": "来源与依据；为什么值得做；AI 时代还能做什么"
+   },
+   {
+    "severity": "warn",
+    "what": "“自己测出来的答案比课本上的可靠”过于绝对；单次小样本实验有随机误差和条件限制，只能支持限定条件下的观察。",
+    "where": "为什么值得做"
+   },
+   {
+    "severity": "info",
+    "what": "两种种子各做两组、每组至少 20 颗，合计至少需要 80 颗；现有“两个浅盘”和“每组 20 颗”未说明要分两轮还是同时使用更多盘。",
+    "where": "需要；怎么做第 6 步"
+   },
+   {
+    "severity": "info",
+    "what": "发芽率公式正确，示例百分比均可由每组 20 颗得到；但没有证据表明这些比例是实测值。",
+    "where": "怎么做第 5 步；会看到什么"
+   },
+   {
+    "severity": "info",
+    "what": "不应笼统写“安全无”。不食用实验种子的提醒合理；可补充霉变材料密封丢弃、处理后洗手，以及使用 LED 时水电分离。",
+    "where": "安全；坑；想再往前一步"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.00753
+}

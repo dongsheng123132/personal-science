@@ -1,0 +1,79 @@
+{
+ "slug": "polarization-tape",
+ "date": "2026-11-01",
+ "title": "偏振：一块胶带 + 两块屏幕",
+ "oneline": "用手机屏幕和透明胶带，看见塑料里的应力。",
+ "category": "",
+ "target": "experiments/polarization-tape.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E5%81%8F%E6%8C%AF"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Polarization_%28waves%29"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Photoelasticity"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "medium",
+  "verdict": "hold",
+  "summary": "暂缓发布：核心替代方案把第二块手机屏幕当透射检偏器不可行，部分物理表述和验收预期过于绝对，安全提示及具体主张的来源也需补充。修正后可复审。",
+  "physics_ok": false,
+  "safety_ok": false,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "critical",
+    "what": "两块完整手机屏幕叠加不能作为透射式“光源+检偏器”：第二块屏幕通常不透明，会挡住第一块的光。应改用偏振太阳镜或独立偏振片。",
+    "where": "需要；进阶版第 2 步"
+   },
+   {
+    "severity": "warn",
+    "what": "双折射并非通常只是将偏振方向旋转一个角度；它使不同偏振分量产生相位差。胶带颜色随层数和角度变化也受材料、取向和光谱影响。",
+    "where": "为什么值得做；会看到什么"
+   },
+   {
+    "severity": "warn",
+    "what": "彩色条纹、弯曲处变亮和条带变密并非必然；转动检偏器 90°也不保证颜色简单“反转”。应说明需要选用有双折射的材料，调整检偏器及样品角度，并允许只观察到明暗变化。",
+    "where": "进阶版第 3–4 步；会看到什么"
+   },
+   {
+    "severity": "warn",
+    "what": "普通手机摄像头不一定能充当检偏器；拍屏幕时闪烁可能来自屏幕刷新或相机快门，不能据此证明偏振。",
+    "where": "想再往前一步"
+   },
+   {
+    "severity": "warn",
+    "what": "“安全：无”遗漏了塑料尺弯折可能断裂飞溅、胶带可能损伤屏幕表面或镀层的风险。应建议轻力操作、避免朝向眼睛，并优先使用可移除的样品托片。",
+    "where": "进阶版；安全"
+   },
+   {
+    "severity": "warn",
+    "what": "列出的百科条目与偏振、双折射和光弹性的一般背景相关，但正文未逐项对应来源；摄像头实验及 AI 从照片估算应力集中位置的具体主张缺少方法和依据。AI 结果还需要标定与验证，不能直接视为应力测量。",
+    "where": "来源与依据；AI 时代还能做什么；想再往前一步"
+   },
+   {
+    "severity": "info",
+    "what": "OLED 屏的出射偏振状态因结构而异，不应仅按 LCD/OLED 分类判断；可先用偏振太阳镜旋转测试明暗变化。",
+    "where": "坑"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.00701
+}

@@ -1,0 +1,74 @@
+{
+ "slug": "oersted-magnetism",
+ "date": "2026-11-01",
+ "title": "奥斯特实验：电流让磁针偏转",
+ "oneline": "一根导线、一节电池、一个指南针。通电的一瞬间，磁针动了——电和磁原来是一回事。",
+ "category": "",
+ "target": "experiments/oersted-magnetism.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%89%E6%96%AF%C2%B7%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82%E5%AE%89%C2%B7%E5%A5%A5%E6%96%AF%E7%89%B9"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Hans_Christian_%C3%98rsted"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Electromagnetism"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "medium",
+  "verdict": "hold",
+  "summary": "基本磁场公式和限流方案合理，但绕线可复现性、磁针磁化解释及部分来源支撑需要修订；建议修改后再审。",
+  "physics_ok": false,
+  "safety_ok": true,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "warn",
+    "what": "直导线磁场数值计算正确：理想电流 0.5 A 时约为 0.1 G，若地磁水平分量为 0.3 G，理想偏角约 18°。但电池负载电压、实际针线距离、回路线位置及当地地磁场都会影响结果，不能保证偏转至少 10°。",
+    "where": "验收；为什么磁针会动"
+   },
+   {
+    "severity": "warn",
+    "what": "绕线没有说明线圈平面、方向和回路线布置；水平线圈中心的磁场主要竖直，不一定能使水平磁针明显偏转。绕 10 或 50 圈也未说明尺寸、导线长度和电阻变化，约 1 米导线未必够用。",
+    "where": "怎么做第 6 步；想再往前一步"
+   },
+   {
+    "severity": "warn",
+    "what": "“通电太久磁针会被磁化偏掉”缺乏依据，指南针磁针本身已磁化。2 秒通电限制更应以减少电池和电阻发热为理由。",
+    "where": "坑"
+   },
+   {
+    "severity": "warn",
+    "what": "所列电池与限流电阻方案在短时使用下风险较低，但“安全”不应无条件保证。“电流加大”可能诱导读者降低限流电阻；应明确保持限流、使用绝缘导线、间隔通电并在发热时停止。",
+    "where": "为什么磁针会动；安全"
+   },
+   {
+    "severity": "warn",
+    "what": "“电生磁反过来”易误解为静止磁场直接产生电流；应说明电磁感应需要磁通量变化等条件。",
+    "where": "想再往前一步"
+   },
+   {
+    "severity": "warn",
+    "what": "来源主要是通用百科链接，未逐项标明对历史叙述、实验参数和验收阈值的支持。安培“同年给出定量规律”未指明具体规律，不宜直接与所链接的安培环路定律混同；讲课时意外发现的细节也需可靠史料支持。未核验链接原文。",
+    "where": "这件事为什么重要；来源与依据"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.00956
+}

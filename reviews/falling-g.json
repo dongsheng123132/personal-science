@@ -1,0 +1,79 @@
+{
+ "slug": "falling-g",
+ "date": "2026-11-01",
+ "title": "手机慢动作测 g",
+ "oneline": "用一段 240fps 视频和一把尺子，量出重力加速度。",
+ "category": "",
+ "target": "experiments/falling-g.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E9%87%8D%E5%8A%9B%E5%8A%A0%E9%80%9F%E5%BA%A6"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Gravitational_acceleration"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "high",
+  "verdict": "hold",
+  "summary": "实验思路和示例算术基本可行，但帧率与真实时间的对应方法需要修正，真空对照的表述不成立，部分具体历史和仪器性能断言缺少明确来源。建议修改后复审。",
+  "physics_ok": false,
+  "safety_ok": true,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "critical",
+    "what": "视频文件的播放或编码帧率不一定是实际采集帧率；慢动作可能经过时间重映射或变帧率处理。仅查元数据并用 n 除以该帧率，可能得到错误的真实下落时间和 g。应说明如何确认采集帧率及视频时间映射，无法确认时不计算 g。",
+    "where": "怎么做第 3–5 步；坑：帧率"
+   },
+   {
+    "severity": "critical",
+    "what": "在空气中同时拍摄纸片和硬币只能比较空气阻力的影响，不能验证真空中的下落。应删除“真空 vs 空气”表述，或增加实际真空条件及相应对照。",
+    "where": "想再往前一步：用同一个视频验证“真空 vs 空气”"
+   },
+   {
+    "severity": "warn",
+    "what": "g = 2s/t² 假设起始速度为零且起始时刻准确；“刚离开手”的帧和松手动作都可能引入误差。多点拟合宜使用 s = s₀ + v₀t + ½gt²，并报告重复测量的离散程度。",
+    "where": "怎么做第 4–6 步；想再往前一步"
+   },
+   {
+    "severity": "warn",
+    "what": "物体应尽量与尺子位于同一平面，并始终测量物体上的同一参考点；同时需要确认全程和足够长的尺段均在画面中。仅要求镜头正对不能消除所有透视及位置测量误差。",
+    "where": "怎么做第 1–5 步；坑"
+   },
+   {
+    "severity": "warn",
+    "what": "提供的是概述性页面，未逐项给出支持“伽利略 1604 年”“惠更斯测出 g”及重力仪能感到人走过等具体断言的出处。应补充可核查的具体来源并限定表述；本评审未核验链接页面内容。",
+    "where": "这件事为什么重要；来源与依据"
+   },
+   {
+    "severity": "warn",
+    "what": "并非所有手机都支持 240fps；“¥0”也取决于已有设备。“十分钟”与页面标注的 30 分钟不一致。",
+    "where": "需要、时间、花费；为什么值得做；这件事为什么重要"
+   },
+   {
+    "severity": "info",
+    "what": "1 米自由落体约 0.45 秒、240fps 约 108 帧及示例 g ≈ 9.9 m/s² 的计算合理；安全段已提示避脚和禁止从高处丢掷。",
+    "where": "算一下；安全"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.00817
+}

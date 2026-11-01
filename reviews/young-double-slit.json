@@ -1,0 +1,94 @@
+{
+ "slug": "young-double-slit",
+ "date": "2026-11-01",
+ "title": "杨氏双缝：用激光笔看见光的波动性",
+ "oneline": "一根激光笔、一片双缝、一面白墙。光穿过两条细缝，墙上出现一排明暗条纹。",
+ "category": "",
+ "target": "experiments/young-double-slit.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8F%8C%E7%BC%9D%E5%AE%9E%E9%AA%8C"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Young%27s_interference_experiment"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Double-slit_experiment"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "high",
+  "verdict": "hold",
+  "summary": "暂缓发布。先修正激光安全保证和操作规程，再修正头发衍射测量说明，补充器材参数、验收方法及针对性来源。",
+  "physics_ok": false,
+  "safety_ok": false,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "critical",
+    "what": "“激光 <5mW 在正常使用下安全”过于笼统：接近 5mW 的激光仍可能伤眼，暗室和调整光路时风险更高。应删除安全保证，优先使用可靠标注的低功率激光，并规定关机搭建和调整、固定光路、避开眼睛高度及镜面反射、使用漫反射终端；头发不要在激光开启时贴到出光口。",
+    "where": "需要、安全、路线 B"
+   },
+   {
+    "severity": "warn",
+    "what": "头发衍射的中央不一定是暗影；远场条件下中央通常有亮极大。公式使用的暗纹间距应限定为同一侧相邻暗纹间距，跨中央的两个最近暗纹相距约为两倍普通间距，否则直径会算错。",
+    "where": "路线 B"
+   },
+   {
+    "severity": "warn",
+    "what": "双缝和光栅不可不加说明地互换：光栅须知道线密度或缝距并识别衍射级次；双缝的缝距也须可靠标注。未说明这些条件，可能无法反推波长或满足验收。",
+    "where": "需要、路线 A、验收"
+   },
+   {
+    "severity": "warn",
+    "what": "声称 AI 量条纹一定比手量准、L 的误差可能是主要误差，并无测量或不确定度数据支持。精度取决于标尺、图像畸变、峰位、缝距等；AI 生成的代码和估计也须核验。",
+    "where": "AI 可以怎么帮你，第 2、3 项"
+   },
+   {
+    "severity": "warn",
+    "what": "传感器横扫得到的是空间光强分布，不自动构成光谱仪；还需要合适的色散元件、波长映射及校准。",
+    "where": "AI 可以怎么帮你，第 5 项"
+   },
+   {
+    "severity": "warn",
+    "what": "“量 5 个间距”和偏差小于 15%并非对所有双缝、光束和成像条件都可实现；页面也未给出头发重复性验收的重复次数或计算方法。",
+    "where": "路线 A、验收"
+   },
+   {
+    "severity": "warn",
+    "what": "所列链接主要是百科性的干涉与波动光学资料，不能直接支撑激光安全、头发测径细节、AI 精度、成本或验收阈值；页面没有提供实验数据或这些具体主张的针对性来源。",
+    "where": "来源与依据、全文"
+   },
+   {
+    "severity": "info",
+    "what": "杨的实验为光的波动性提供了重要证据，但“钉死”“证明光是波”过于绝对，也简化了历史及后来的量子描述。",
+    "where": "为什么值得做、这件事为什么重要"
+   },
+   {
+    "severity": "info",
+    "what": "双缝近轴公式及 650 nm、0.1 mm、2 m 对应 1.3 cm 的算例计算正确；实际条纹可见度还取决于缝宽、照明及对准。",
+    "where": "路线 A、算一下"
+   },
+   {
+    "severity": "info",
+    "what": "条纹倾斜不必然导致间距偏大：应沿垂直于条纹的方向测量；缝面与屏幕不平行会引入其他几何误差。",
+    "where": "坑"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.00974
+}

@@ -1,0 +1,89 @@
+{
+ "slug": "microwave-speed-of-light",
+ "date": "2026-11-01",
+ "title": "微波炉测光速",
+ "oneline": "用一台微波炉和一排巧克力，把光速量出来。",
+ "category": "",
+ "target": "experiments/microwave-speed-of-light.md",
+ "sources": [
+  {
+   "label": "页面内来源",
+   "url": "https://zh.wikipedia.org/wiki/%E5%85%89%E9%80%9F"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/Speed_of_light"
+  },
+  {
+   "label": "页面内来源",
+   "url": "https://en.wikipedia.org/wiki/R%C3%B8mer%27s_determination_of_the_speed_of_light"
+  }
+ ],
+ "curation": {
+  "score": null,
+  "why": "已上线页面的回溯复核（不是新转正）"
+ },
+ "risk": {
+  "level": "high",
+  "verdict": "hold",
+  "summary": "计算示例本身基本正确，但操作安全条件不足，且实验精度和驻波关系被过度确定化。需补充安全限制、修正物理与验收表述，并提供针对实验的来源后再审。",
+  "physics_ok": false,
+  "safety_ok": false,
+  "provenance_ok": false,
+  "findings": [
+   {
+    "severity": "critical",
+    "what": "无条件要求取下转盘和转盘架并运行，未检查机型说明，也未保证食物有合适支撑。部分机型不允许这样使用，可能损坏设备或造成安全风险。应仅在制造商允许的条件下操作，并使用适合微波炉的非金属支撑。",
+    "where": "怎么做 1–3；安全"
+   },
+   {
+    "severity": "warn",
+    "what": "少量食物和纸盘局部过热可能冒烟或起火；未要求使用适用微波炉的纸盘、全程看守及出现冒烟时停止加热。应短时分段加热，并遵守设备说明。",
+    "where": "需要；怎么做 2–3；安全"
+   },
+   {
+    "severity": "warn",
+    "what": "计算系数和示例算术正确，但炉腔可能存在多模场、模式搅拌及热传导；相邻融化点不一定严格相隔半波长，不能保证达到 10% 或 5% 精度。",
+    "where": "为什么值得做；算一下"
+   },
+   {
+    "severity": "warn",
+    "what": "验收范围 2.4–3.4×10⁸ m/s 对应相对真空光速约 -20% 至 +13%，与正文的 10% 标准不一致。10% 范围约为 2.70–3.30×10⁸ m/s。",
+    "where": "验收；一句话版；算一下"
+   },
+   {
+    "severity": "warn",
+    "what": "转盘主要是让食物相对炉腔场分布移动，并非通常把驻波图案一起转动。微波炉频率也应以铭牌为准；将几十 MHz 偏差称为主要误差来源之一缺乏依据。",
+    "where": "怎么做 1；坑"
+   },
+   {
+    "severity": "warn",
+    "what": "巧克力分片、间隔和摆放方向未充分规定，离散食物可能影响热点定位；炉腔也未必容得下 3–4 段可辨认间距。应说明如何选择连续、均匀样品、处理不足的热点及记录重复结果。",
+    "where": "怎么做 2–4"
+   },
+   {
+    "severity": "warn",
+    "what": "红外测温枪直接测炉腔壁可能受反射和发射率影响，未必能得到可靠的食物温度分布；应在停机开门后测量合适的样品表面。",
+    "where": "想再往前一步"
+   },
+   {
+    "severity": "warn",
+    "what": "罗默在 1676 年通过木卫一观测论证光传播需要时间；将首次数值估算直接归于他有历史争议，通常还需区分惠更斯后续的估算。",
+    "where": "这件事为什么重要"
+   },
+   {
+    "severity": "warn",
+    "what": "所列来源标题主要覆盖光速、历史和一般驻波，未提供针对微波炉实验操作、安全限制、热点间距或精度声明的专门依据；仅凭所列来源无法确认这些正文主张。",
+    "where": "来源与依据"
+   }
+  ]
+ },
+ "status": "published",
+ "pr": "",
+ "screen": {},
+ "hard_block": [],
+ "auto_merge": false,
+ "reviewed_by": "openai/gpt-6.1-terra",
+ "human_reviewed": false,
+ "cost_usd": 0.01006
+}
