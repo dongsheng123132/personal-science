@@ -26,7 +26,7 @@ function markdown(text,source,lang){
  renderer.image=({text})=>`<span>${esc(text)}</span>`;
  return marked.parse(text.replace(/<!--[\s\S]*?-->/g,''),{renderer});
 }
-const nav=[['/sources/','参考资料'],['/experiments/','实验清单'],['/daily/','每日候选'],['/rules/','规则'],['/drafts/','AI 草稿'],['/review/','风险公示'],['/manifesto/','宣言'],['/contribute/','参与贡献']];
+const nav=[['/sources/','参考资料'],['/experiments/','实验清单'],['/daily/','每日候选'],['/rules/','规则'],['/drafts/','AI 草稿'],['/review/','风险公示'],['/fix/','待修'],['/manifesto/','宣言'],['/contribute/','参与贡献']];
 const navEn=[['/en/experiments/','Experiments'],['/en/manifesto/','Manifesto'],['/en/contribute/','Contribute'],['/en/charter/','Charter']];
 function page(url,title,body,lang){const en=lang==='en';const dir=path.join(out,url);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),`<!doctype html><html lang="${en?'en':'zh-CN'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="${en?'Run real science experiments with everyday tools and AI. Personal Science — a list of experiments you can do at home.':'用身边的工具和 AI，开始你的第一个科学实验。Personal Science 个人科学实验清单。'}"><title>${esc(title)} · Personal Science</title><link rel="stylesheet" href="/style.css"></head><body><header><a class="brand" href="${en?'/en/':'/'}">Personal Science<span>${en?'one person = one lab':'个人科学'}</span></a><nav>${(en?navEn:nav).map(([u,t])=>`<a href="${u}" ${url===u.slice(1)?'aria-current="page"':''}>${t}</a>`).join('')}</nav><a class="lang-switch" href="${en?'/':'/en/'}" hreflang="${en?'zh-CN':'en'}">${en?'中文':'English'}</a><a class="github" href="${repo}">GitHub ↗</a></header><main>${body}</main><footer><div><b>${en?'One person can start exploring.':'一个人，也可以开始探索。'}</b><p>${en?'Ask a question · Measure it yourself · Let AI help analyze · Share the result':'提出问题 · 动手测量 · 让 AI 帮你分析 · 分享结果'}</p></div><div>${en?`<a href="/en/charter/">Charter</a> · <a href="/en/manifesto/">Manifesto</a> · <a href="/en/contribute/">Contribute</a> · <a href="/" hreflang="zh-CN">中文</a><p>Content CC0 · A plan is not a verified result</p>`:`<a href="/charter/">章程</a> · <a href="/results/">实验记录</a> · <a href="/en/" hreflang="en">English</a><p>内容 CC0 · 实验方案不等于实测验证</p>`}</div></footer></body></html>`);}
 const entries=files.map(file=>{const text=read('experiments/'+file);const field=n=>(text.match(new RegExp('\\| \\*\\*'+n+'\\*\\* \\| (.*?) \\|'))||[])[1]||'见实验页';return {file,text,title:text.split('\n')[0].replace(/^# /,''),intro:(text.match(/^> (.+)$/m)||[])[1]||'',cost:field('花费'),time:field('时间'),slug:file.slice(0,-3)};});
@@ -46,6 +46,7 @@ const allDates=[...new Set([...feedArch.map(x=>x.date),...candArch.map(x=>x.date
 const reviews=ls('reviews').filter(n=>n.endsWith('.json')).map(n=>readJSON('reviews/'+n)).filter(Boolean).sort((a,b)=>String(b.date).localeCompare(String(a.date)));
 const RISK_ZH={high:'高风险 · 已拦下',medium:'中风险 · 待人工',low:'低风险'};
 const statusZh=(r)=>({published:'已发布',held:'未通过自动发布，等人工处理',rejected:'已否决',retracted:'已撤回'}[r.status]||r.status||'');
+const issueMap=readJSON('reviews/issues.json')||{};
 const humanMark=(r)=>r.human_reviewed?'<span class="humanbadge">人工复核 · 仅供参考，不作为正式推荐</span>':'';
 const countH3=md=>(md.match(/^### /gm)||[]).length;
 const candCount=md=>{const m=md.match(/筛出\s*\**\s*(\d+)\s*条/);return m?+m[1]:countH3(md)};
@@ -58,7 +59,7 @@ const todayStrip=`<section class="strip today"><div><small>今日更新 · ${esc
 page('','把好奇心变成实验',`<section class="hero"><div class="eyebrow">PERSONAL SCIENCE / 科研平权</div><h1>别只问为什么。<br>亲手试一试。</h1><p>可乐真的喝得出区别吗？光能被一根头发挡出条纹吗？<br>用身边的工具提出问题，让 AI 帮你设计、记录和分析。</p><div class="actions"><a class="button" href="/experiments/">找一个实验开始 →</a><a class="secondary" href="/contribute/">贡献你的好奇心</a></div><div class="stats"><span><b>${entries.length}</b> 份实验方案</span><span>年代不限，兴趣优先</span><span>手机 · AI · ESP32</span></div></section>${todayStrip}<section><div class="section-title"><h2>从一个小问题开始</h2><a href="/experiments/">查看全部 →</a></div><div class="grid">${picks.map(card).join('')}</div></section><section class="strip"><div><small>AI 在这里做什么？</small><h2>让一个人的想法，<br>多几双帮忙的手。</h2></div><div><p><b>动手前</b>　比较实验方案，梳理变量，估算需要的量程。</p><p><b>动手后</b>　从视频提取数据，写分析脚本，画图和检查误差。</p><p><b>有了结果</b>　追问还有什么解释，再设计下一次实验。</p><a href="/drafts/">看看 AI 正在设计什么 →</a></div></section><section><h2>科学的入口，可以是一张桌子。</h2><p class="lead">给好奇的上班族、老师、学生、产品经理，也给每一个想亲手验证想法的人。经典实验和生活里的小问题，都值得重新做一次。</p><div class="actions"><a class="button" href="${repo}/issues/new/choose">提一个实验点子</a><a class="secondary" href="${repo}">Star / Fork / 提 PR ↗</a></div></section>`);
 page('experiments/','实验清单',`<div class="eyebrow">EXPLORE</div><h1>今天想验证什么？</h1><p class="lead">${entries.length} 份方案。从你手边的材料开始。预算和时间是参考，动手前请先读器材、方法与安全说明。</p><label class="search">搜索实验 <input id="search" type="search" placeholder="试试：手机、光、电池、植物…"></label><div class="grid" id="cards">${entries.map(card).join('')}</div><p id="empty" hidden>没有匹配的实验。换个词试试，或去 GitHub 提个新点子。</p><script>document.querySelector('#search').oninput=e=>{let count=0;document.querySelectorAll('#cards .card').forEach(c=>{c.hidden=!c.textContent.toLowerCase().includes(e.target.value.toLowerCase());if(!c.hidden)count++});document.querySelector('#empty').hidden=count>0}</script>`);
 const reviewByTarget=new Map(reviews.filter(r=>r.target).map(r=>[r.target,r]));
-for(const e of entries){const rv=reviewByTarget.get('experiments/'+e.file);const rbanner=rv?`<div class="notice riskbanner risk-${esc(rv.risk&&rv.risk.level||'low')}"><b>风险提示</b>：这一页经过复核，判定为「${esc(RISK_ZH[(rv.risk&&rv.risk.level)||'low']||'')}」。${esc((rv.risk&&rv.risk.summary)||'').slice(0,180)} <a href="/review/${esc(rv.slug)}/">看完整评审 →</a></div>`:'';
+for(const e of entries){const rv=reviewByTarget.get('experiments/'+e.file);const rbanner=rv?`<div class="notice riskbanner risk-${esc(rv.risk&&rv.risk.level||'low')}"><b>风险提示</b>：这一页经过复核，判定为「${esc(RISK_ZH[(rv.risk&&rv.risk.level)||'low']||'')}」。${esc((rv.risk&&rv.risk.summary)||'').slice(0,180)} <a href="/review/${esc(rv.slug)}/">看完整评审 →</a>${issueMap[rv.slug]?` · <a href="https://github.com/${'dongsheng123132'}/personal-science/issues/${issueMap[rv.slug].issue}">${issueMap[rv.slug].crit} 条待修，去认领 →</a>`:''}</div>`:'';
 page(`experiments/${e.slug}/`,e.title,`<div class="breadcrumbs"><a href="/experiments/">← 全部实验</a></div>${rbanner}<div class="notice">这是实验方案，尚不代表经过实测验证。请先阅读安全说明；保留原始数据，AI 的分析也需要核对。</div><article>${markdown(e.text,'experiments/'+e.file)}</article><div class="actions"><a class="button" href="${repo}/edit/main/experiments/${e.file}">改进这份方案 ↗</a><a href="/results/">分享你的实验结果 →</a></div>`);}
 for(const [src,slug] of Object.entries(docs)){if(src==='README.md')continue;if(!fs.existsSync(path.join(root,src)))continue;page(slug+'/',{'manifesto':'我们的宣言','charter':'项目章程','contribute':'参与贡献','results':'实验记录','candidates':'每日发现','rules':'挑选规则'}[slug],`<div class="eyebrow">PERSONAL SCIENCE</div>${slug==='candidates'?'<div class="notice">AI 筛选的候选，仅供发现灵感；不是已经核实的实验方案。下面是今天的清单，历史清单见 <a href="/daily/">每日候选</a>。</div>':''}<article>${markdown(read(src),src)}</article>`);}
 
@@ -89,6 +90,21 @@ if(poolArch.length){
 
 page('drafts/','AI 实验草稿',`<div class="eyebrow">IDEAS IN PROGRESS</div><h1>下一个实验，从这里长出来。</h1><p class="lead">AI 自动提出方案，人来检查、尝试和改进。这里的草稿可能存在公式、器材或安全问题，不能直接当操作指南。</p><div class="grid">${drafts.map((f,i)=>`<a class="card" href="/drafts/${i}/"><div class="meta">待核对 · AI 草稿 · ${esc(f.slice(0,10))}</div><h3>${esc(f.replace(/\.md$/,''))}</h3><strong>阅读与改进 →</strong></a>`).join('')}</div>`);
 for(const [i,f] of drafts.entries())page(`drafts/${i}/`,f.replace(/\.md$/,''),`<a href="/drafts/">← 返回草稿列表</a><div class="notice">AI 草稿 · 未经人工核对。不要照此直接操作。欢迎核对来源、指出问题，再通过 PR 完善。</div><article>${markdown(read('inbox/designs/'+f),'inbox/designs/'+f)}</article><a class="button" href="${repo}/blob/main/inbox/designs/${encodeURIComponent(f)}">在 GitHub 查看与贡献 ↗</a>`);
+
+
+// ---- 待修清单（共建入口）----
+{
+ const items=Object.entries(issueMap).map(([slug,v])=>({slug,...v,rev:reviews.find(r=>r.slug===slug)})).sort((a,b)=>b.crit-a.crit);
+ const totalCrit=items.reduce((n,x)=>n+x.crit,0), totalWarn=items.reduce((n,x)=>n+x.warn,0);
+ page('fix/','待修清单 · 来认领',`<div class="eyebrow">FIX</div><h1>这些页面还不能照做，来认领。</h1>
+ <p class="lead">AI 复核判定：<b>${items.length} 个实验、${totalCrit} 条必须拦的问题</b>，另有 ${totalWarn} 条「要人看」。每一条都开了 GitHub issue，谁都可以认领。</p>
+ <div class="tablewrap"><table class="pooltable"><thead><tr><th>实验</th><th>必须拦</th><th>要人看</th><th>入口</th></tr></thead><tbody>
+ ${items.map(x=>`<tr><td><a href="/experiments/${x.slug}/">${esc((x.rev&&x.rev.title)||x.slug)}</a></td><td><b class="no">${x.crit}</b></td><td>${x.warn}</td><td><a href="https://github.com/dongsheng123132/personal-science/issues/${x.issue}">#${x.issue} 认领 →</a> · <a href="/review/${x.slug}/">评审</a></td></tr>`).join('')}
+ </tbody></table></div>
+ <h2>怎么参与</h2>
+ <ol class="srclist"><li>点开对应 issue，看清楚「必须拦」的每一条和它在页面的位置</li><li>改 <code>experiments/&lt;名字&gt;.md</code>，只改这一页</li><li>提 PR，<code>maintenance/check.py</code> 必须全绿</li><li>改完在 issue 里说一声，重跑评审</li></ol>
+ <div class="notice">评审是 AI 做的，也会误判。觉得某条不对，就带着证据反驳——我们改判定，不会无视。</div><div class="actions"><a class="button" href="https://github.com/dongsheng123132/personal-science/issues">去 GitHub 看全部 issue ↗</a><a class="secondary" href="/rules/">先看规则</a></div>`);
+}
 
 // ---- 风险公示：没通过自动发布的草稿也公开，标注风险 + 权威入口 ----
 const fsev=s=>({critical:'必须拦',warn:'要人看',info:'提示'}[s]||s);

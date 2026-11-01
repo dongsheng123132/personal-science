@@ -1,0 +1,80 @@
+{
+ "blind-cola": {
+  "issue": 9,
+  "title": "[待修] 盲测可乐：3 条必须拦的问题",
+  "crit": 3,
+  "warn": 5
+ },
+ "pasteur-swan-neck": {
+  "issue": 10,
+  "title": "[待修] 巴斯德鹅颈瓶（1859）：3 条必须拦的问题",
+  "crit": 3,
+  "warn": 5
+ },
+ "torricelli-water-barometer": {
+  "issue": 11,
+  "title": "[待修] 托里拆利测大气压（1643，水柱版）：3 条必须拦的问题",
+  "crit": 3,
+  "warn": 7
+ },
+ "eratosthenes": {
+  "issue": 12,
+  "title": "[待修] 影子测地球半径：2 条必须拦的问题",
+  "crit": 2,
+  "warn": 6
+ },
+ "falling-g": {
+  "issue": 13,
+  "title": "[待修] 手机慢动作测 g：2 条必须拦的问题",
+  "crit": 2,
+  "warn": 4
+ },
+ "joule-equivalent": {
+  "issue": 14,
+  "title": "[待修] 焦耳热功当量（1843）：2 条必须拦的问题",
+  "crit": 2,
+  "warn": 6
+ },
+ "led-planck": {
+  "issue": 15,
+  "title": "[待修] LED 估普朗克常数：2 条必须拦的问题",
+  "crit": 2,
+  "warn": 6
+ },
+ "faraday-induction": {
+  "issue": 16,
+  "title": "[待修] 法拉第电磁感应：让磁铁\"发一次电\"：1 条必须拦的问题",
+  "crit": 1,
+  "warn": 8
+ },
+ "microwave-speed-of-light": {
+  "issue": 17,
+  "title": "[待修] 微波炉测光速：1 条必须拦的问题",
+  "crit": 1,
+  "warn": 8
+ },
+ "plant-phototropism": {
+  "issue": 18,
+  "title": "[待修] 植物向光性延时：1 条必须拦的问题",
+  "crit": 1,
+  "warn": 5
+ },
+ "polarization-tape": {
+  "issue": 19,
+  "title": "[待修] 偏振：一块胶带 + 两块屏幕：1 条必须拦的问题",
+  "crit": 1,
+  "warn": 5
+ },
+ "sound-speed": {
+  "issue": 20,
+  "title": "[待修] 拍手测声速：1 条必须拦的问题",
+  "crit": 1,
+  "warn": 7
+ },
+ "young-double-slit": {
+  "issue": 21,
+  "title": "[待修] 杨氏双缝：用激光笔看见光的波动性：1 条必须拦的问题",
+  "crit": 1,
+  "warn": 6
+ }
+}
