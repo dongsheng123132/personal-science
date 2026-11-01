@@ -5,7 +5,7 @@
 A list of experiments you can do at home. No application, no review, no permission needed.
 **One person = one lab.** ([Charter](CHARTER.en.md))
 
-`20 experiments` · `each page tells you how to know it worked` · `CC0, copy freely` · `daily collection + AI-designed drafts`
+`21 experiments` · `each page tells you how to know it worked` · `CC0, copy freely` · `daily collection + AI-designed drafts`
 
 [中文](README.md) · [One-minute version](#the-one-minute-version) · [The list](#the-list) · [Growing every day](#growing-every-day) · [How to add one](#how-to-add-one) · [Manifesto](MANIFESTO.en.md) · [Charter](CHARTER.en.md)
 
@@ -93,6 +93,7 @@ When that works, **the individual becomes the smallest unit of research.** Scien
 | [Planck's constant from LEDs](experiments/led-planck.md) | The turn-on voltage of colored LEDs hides a quantum constant | Multimeter, potentiometer, 5 LEDs | 1 hr | ¥30 | ★★★ |
 | [Oersted's compass and current](experiments/oersted-magnetism.md) | A wire with current swings a compass needle — electricity and magnetism are one | Battery, wire, compass | 30 min | ¥10 | ★☆☆ |
 | [Faraday's induction](experiments/faraday-induction.md) | A magnet in a coil makes electricity — the principle behind every power plant | Coil, magnet, multimeter | 40 min | ¥20 | ★★☆ |
+| [Hall Effect](experiments/hall-effect.md) | Use a cheap Hall sensor and a magnet to measure how magnetic field strength falls off with distance and verify it roughly follows an inverse-cube law. | linear Hall sensor module, neodymium magnet, digital multimeter | 1 weekend | 约 ¥40–80 | 待核实 |
 
 ### Light & waves
 
@@ -247,7 +248,7 @@ If something looks exciting but feels dangerous, don't do it. Open an issue firs
 ├── MANIFESTO.en.md      Manifesto (English)
 ├── CHARTER.md           Charter (Chinese)
 ├── CHARTER.en.md        Charter (English)
-├── experiments/         One page per experiment (20 pages)
+├── experiments/         One page per experiment (21 pages)
 ├── ideas.md             Idea pool
 ├── RESULTS.md           What people got (including failures)
 ├── CONTRIBUTING.en.md   How to add one (English)
