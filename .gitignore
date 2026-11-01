@@ -1,0 +1,17 @@
+# 本地临时目录，不属于本项目
+.tmp/
+
+# 维护代理（DSH 等）的本地日报，不进仓库
+.maint/
+
+# Python
+__pycache__/
+*.pyc
+
+# 本地环境变量
+.env
+.env.*
+
+# 系统杂项
+.DS_Store
+Thumbs.db

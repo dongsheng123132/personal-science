@@ -1,0 +1,77 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: 机械体检
+        if: github.event_name == 'push'
+        run: python -X utf8 maintenance/check.py
+      - name: 机械体检 + 改动范围
+        if: github.event_name == 'pull_request'
+        shell: bash
+        env:
+          BASE: origin/${{ github.base_ref }}
+        run: |
+          set -eo pipefail
+
+          # 闸门用 base 分支上的 check.py：PR 改了 check.py 也不能给自己放水。
+          # 必须放在 maintenance/ 下（check.py 用 parents[1] 当仓库根，还要求它等于 git 根），
+          # 并写进 .git/info/exclude，不让它出现在 git 的文件列表和改动范围里。
+          gate=maintenance/.check_base.py
+          if git show "$BASE:maintenance/check.py" > "$gate" 2>/dev/null; then
+            echo "$gate" >> .git/info/exclude
+            echo "闸门：$BASE 上的 maintenance/check.py"
+          else
+            rm -f "$gate"
+            gate=maintenance/check.py
+            echo "$BASE 上没有 maintenance/check.py，退回用 PR 自己的 check.py"
+          fi
+
+          runs=("$gate")
+          if [ "$gate" != maintenance/check.py ] \
+              && [ -n "$(git diff --name-only "$BASE...HEAD" -- maintenance/check.py)" ]; then
+            echo "这个 PR 改了 maintenance/check.py：再用 PR 自己的版本跑一遍，两遍都要通过"
+            runs+=(maintenance/check.py)
+          fi
+
+          out_dir="$(mktemp -d)"
+          fail=0
+          n=0
+          for script in "${runs[@]}"; do
+            n=$((n + 1))
+            out="$out_dir/run$n.txt"
+            echo "===== $script --base $BASE"
+            # 显式拿 python 的退出码，不依赖 pipefail；退出码只由 check.py 决定
+            set +e
+            python -X utf8 "$script" --base "$BASE" 2>&1 | tee "$out"
+            rc=${PIPESTATUS[0]}
+            set -e
+            echo "===== $script 退出码 $rc"
+            if [ "$rc" -ne 0 ]; then
+              fail=1
+            fi
+            {
+              echo "### $script（退出码 $rc）"
+              echo
+              echo '```'
+              grep -E '^(ERROR|REVIEW)  |^INFO  scope  -  这次改动需要：' "$out" || true
+              echo '```'
+              echo
+            } >> "$GITHUB_STEP_SUMMARY"
+          done
+          exit "$fail"

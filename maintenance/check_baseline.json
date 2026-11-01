@@ -1,0 +1,50 @@
+{
+  "_note": "已知欠账。只能删（补齐后），不能加。新增缺失项会让 check.py 报错。",
+  "template_missing": {
+    "experiments/battery-internal-resistance.md": [
+      "## AI 可以怎么帮你"
+    ],
+    "experiments/blind-cola.md": [
+      "## AI 可以怎么帮你"
+    ],
+    "experiments/eratosthenes.md": [
+      "## AI 可以怎么帮你"
+    ],
+    "experiments/falling-g.md": [
+      "## AI 可以怎么帮你"
+    ],
+    "experiments/faraday-induction.md": [
+      "## 算一下 / 会看到什么"
+    ],
+    "experiments/fridge-thermal.md": [
+      "## AI 可以怎么帮你"
+    ],
+    "experiments/led-planck.md": [
+      "## AI 可以怎么帮你"
+    ],
+    "experiments/microwave-speed-of-light.md": [
+      "## AI 可以怎么帮你"
+    ],
+    "experiments/newton-prism.md": [
+      "## 算一下 / 会看到什么"
+    ],
+    "experiments/oersted-magnetism.md": [
+      "## 算一下 / 会看到什么"
+    ],
+    "experiments/plant-phototropism.md": [
+      "## AI 可以怎么帮你"
+    ],
+    "experiments/polarization-tape.md": [
+      "## AI 可以怎么帮你"
+    ],
+    "experiments/seed-germination.md": [
+      "## AI 可以怎么帮你"
+    ],
+    "experiments/sound-speed.md": [
+      "## AI 可以怎么帮你"
+    ],
+    "experiments/tds-water.md": [
+      "## AI 可以怎么帮你"
+    ]
+  }
+}
