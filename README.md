@@ -7,7 +7,7 @@
 一个人在家就能做的实验清单。不用申请、不用审核、不用等人批准。
 **一个人 = 一个实验室。**（[章程](CHARTER.md)）
 
-`20 个实验` · `每页写清怎么做成` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
+`21 个实验` · `每页写清怎么做成` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
 
 [![collect](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml/badge.svg)](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml)
 
@@ -104,6 +104,7 @@ AI 正好一次拆掉这四样。所以不用等谁批准——测量、记录�
 | [杨氏双缝](experiments/young-double-slit.md) | 激光笔加一根头发，看见光的波动性 | 激光笔、双缝片、尺子 | 40 分钟 | ¥20–40 | ★☆☆ |
 | [牛顿棱镜](experiments/newton-prism.md) | 把白光拆成彩虹 | 三棱镜、阳光或白光 LED | 30 分钟 | ¥10–30 | ★☆☆ |
 | [偏振：一块胶带 + 两块屏幕](experiments/polarization-tape.md) | 看见塑料里的应力 | 手机、透明胶带、偏振片 | 20 分钟 | ¥0–20 | ★☆☆ |
+| [光电效应反测普朗克常数](experiments/measuring-planck-s-constant-with-leds.md) | 给不同颜色的 LED 加反向电压，测出刚好不亮时的截止电压，反推出普朗克常数 h。 | 5 种不同颜色的 LED、数字万用表、可调直流电源 | 一个周末 | ¥60–120 | 中等 |
 
 ### 生物与植物
 
@@ -244,7 +245,7 @@ inbox/designs/（草稿，标注未核对）
 ├── MANIFESTO.md         宣言：为什么出发（智力平权）
 ├── CHARTER.md           章程：这个仓库的宪法
 ├── *.en.md              英文版（README / 宣言 / 章程）
-├── experiments/         每个实验一页（20 个）
+├── experiments/         每个实验一页（21 个）
 ├── ideas.md             点子池
 ├── RESULTS.md           有人做过什么（含失败）
 ├── CONTRIBUTING.md      怎么加一个（英文 CONTRIBUTING.en.md）
