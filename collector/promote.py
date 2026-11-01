@@ -33,6 +33,7 @@ DESIGNS = BASE / "inbox" / "designs"
 EXPERIMENTS = BASE / "experiments"
 STATE_PATH = BASE / "maintenance" / "promote-state.json"
 REJECTED_PATH = BASE / "maintenance" / "rejected.json"
+REVIEWS_DIR = BASE / "reviews"
 AUDIT_PATH = BASE / "maintenance" / "audit-log.md"
 NOW = datetime.now(timezone.utc)
 TODAY = NOW.strftime("%Y-%m-%d")
@@ -421,6 +422,53 @@ def save_state(state):
     STATE_PATH.write_text(json.dumps(state, ensure_ascii=False, indent=1) + "\n", "utf-8")
 
 
+
+def push_to_main(paths, message):
+    """把记录类文件直接提交到 main（和 collect 机器人写 inbox/ 一样，属于数据不是代码）。"""
+    for _ in range(3):
+        run(["git", "fetch", "-q", "origin", "main"], check=False)
+        run(["git", "checkout", "-q", "-B", "_review", "origin/main"], check=False)
+        run(["git", "add", "--"] + paths, check=False)
+        rc, _ = run(["git", "commit", "-m", message], check=False)
+        if rc != 0:
+            return False
+        rc, out = run(["git", "push", "origin", "HEAD:main"], check=False)
+        if rc == 0:
+            return True
+        log("推 main 被拒，重试：%s" % out.strip()[-200:])
+        time.sleep(3)
+    return False
+
+
+def write_review(slug, draft, sources, curation, risk, status, pr_url):
+    REVIEWS_DIR.mkdir(exist_ok=True)
+    rec = {
+        "slug": slug,
+        "date": TODAY,
+        "title": curation.get("name_zh") or draft["title"],
+        "oneline": curation.get("oneline_zh") or draft["quote"],
+        "category": curation.get("category_zh", ""),
+        "draft": str(draft["path"].relative_to(BASE)),
+        "sources": [{"label": l, "url": u} for l, u in sources],
+        "curation": {"score": curation.get("score"), "why": curation.get("why", "")},
+        "risk": {
+            "level": risk.get("risk_level"),
+            "verdict": risk.get("verdict"),
+            "summary": risk.get("summary", ""),
+            "physics_ok": risk.get("physics_ok"),
+            "safety_ok": risk.get("safety_ok"),
+            "provenance_ok": risk.get("provenance_ok"),
+            "findings": risk.get("findings", []),
+        },
+        "status": status,
+        "pr": pr_url,
+    }
+    rel = "reviews/%s.json" % slug
+    (BASE / rel).write_text(json.dumps(rec, ensure_ascii=False, indent=1) + "\n", "utf-8")
+    push_to_main([rel], "review: 记录 %s 的评审结果（%s）" % (slug, status))
+    return rel
+
+
 # ---------------------------------------------------------------- 主流程
 
 def main():
@@ -572,6 +620,8 @@ def main():
                   "--body-file", str(body_path)], check=True)[1]
     pr_url = pr_url.strip().splitlines()[-1]
     log("PR: " + pr_url)
+    write_review(slug, draft, sources, curation, risk,
+                 "published" if auto_merge else "held", pr_url)
 
     # 留痕（单独一个提交推到同一分支）
     if not AUDIT_PATH.exists():

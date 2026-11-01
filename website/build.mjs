@@ -26,7 +26,7 @@ function markdown(text,source,lang){
  renderer.image=({text})=>`<span>${esc(text)}</span>`;
  return marked.parse(text.replace(/<!--[\s\S]*?-->/g,''),{renderer});
 }
-const nav=[['/sources/','参考资料'],['/experiments/','实验清单'],['/daily/','每日候选'],['/drafts/','AI 草稿'],['/manifesto/','宣言'],['/contribute/','参与贡献']];
+const nav=[['/sources/','参考资料'],['/experiments/','实验清单'],['/daily/','每日候选'],['/drafts/','AI 草稿'],['/review/','风险公示'],['/manifesto/','宣言'],['/contribute/','参与贡献']];
 const navEn=[['/en/experiments/','Experiments'],['/en/manifesto/','Manifesto'],['/en/contribute/','Contribute'],['/en/charter/','Charter']];
 function page(url,title,body,lang){const en=lang==='en';const dir=path.join(out,url);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),`<!doctype html><html lang="${en?'en':'zh-CN'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="${en?'Run real science experiments with everyday tools and AI. Personal Science — a list of experiments you can do at home.':'用身边的工具和 AI，开始你的第一个科学实验。Personal Science 个人科学实验清单。'}"><title>${esc(title)} · Personal Science</title><link rel="stylesheet" href="/style.css"></head><body><header><a class="brand" href="${en?'/en/':'/'}">Personal Science<span>${en?'one person = one lab':'个人科学'}</span></a><nav>${(en?navEn:nav).map(([u,t])=>`<a href="${u}" ${url===u.slice(1)?'aria-current="page"':''}>${t}</a>`).join('')}</nav><a class="lang-switch" href="${en?'/':'/en/'}" hreflang="${en?'zh-CN':'en'}">${en?'中文':'English'}</a><a class="github" href="${repo}">GitHub ↗</a></header><main>${body}</main><footer><div><b>${en?'One person can start exploring.':'一个人，也可以开始探索。'}</b><p>${en?'Ask a question · Measure it yourself · Let AI help analyze · Share the result':'提出问题 · 动手测量 · 让 AI 帮你分析 · 分享结果'}</p></div><div>${en?`<a href="/en/charter/">Charter</a> · <a href="/en/manifesto/">Manifesto</a> · <a href="/en/contribute/">Contribute</a> · <a href="/" hreflang="zh-CN">中文</a><p>Content CC0 · A plan is not a verified result</p>`:`<a href="/charter/">章程</a> · <a href="/results/">实验记录</a> · <a href="/en/" hreflang="en">English</a><p>内容 CC0 · 实验方案不等于实测验证</p>`}</div></footer></body></html>`);}
 const entries=files.map(file=>{const text=read('experiments/'+file);const field=n=>(text.match(new RegExp('\\| \\*\\*'+n+'\\*\\* \\| (.*?) \\|'))||[])[1]||'见实验页';return {file,text,title:text.split('\n')[0].replace(/^# /,''),intro:(text.match(/^> (.+)$/m)||[])[1]||'',cost:field('花费'),time:field('时间'),slug:file.slice(0,-3)};});
@@ -65,6 +65,21 @@ for(const d of allDates){const f=feedMap.get(d),c=candMap.get(d);const i=allDate
 
 page('drafts/','AI 实验草稿',`<div class="eyebrow">IDEAS IN PROGRESS</div><h1>下一个实验，从这里长出来。</h1><p class="lead">AI 自动提出方案，人来检查、尝试和改进。这里的草稿可能存在公式、器材或安全问题，不能直接当操作指南。</p><div class="grid">${drafts.map((f,i)=>`<a class="card" href="/drafts/${i}/"><div class="meta">待核对 · AI 草稿 · ${esc(f.slice(0,10))}</div><h3>${esc(f.replace(/\.md$/,''))}</h3><strong>阅读与改进 →</strong></a>`).join('')}</div>`);
 for(const [i,f] of drafts.entries())page(`drafts/${i}/`,f.replace(/\.md$/,''),`<a href="/drafts/">← 返回草稿列表</a><div class="notice">AI 草稿 · 未经人工核对。不要照此直接操作。欢迎核对来源、指出问题，再通过 PR 完善。</div><article>${markdown(read('inbox/designs/'+f),'inbox/designs/'+f)}</article><a class="button" href="${repo}/blob/main/inbox/designs/${encodeURIComponent(f)}">在 GitHub 查看与贡献 ↗</a>`);
+
+// ---- 风险公示：没通过自动发布的草稿也公开，标注风险 + 权威入口 ----
+const reviews=ls('reviews').filter(n=>n.endsWith('.json')).map(n=>readJSON('reviews/'+n)).filter(Boolean).sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+const RISK_ZH={high:'高风险 · 已拦下',medium:'中风险 · 待人工',low:'低风险'};
+const statusZh=(r)=>({published:'已发布',held:'未通过自动发布，等人工处理',rejected:'已否决'}[r.status]||r.status||'');
+const fsev=s=>({critical:'必须拦',warn:'要人看',info:'提示'}[s]||s);
+if(reviews.length){
+ page('review/','风险公示',`<div class="eyebrow">REVIEW</div><h1>没过关的，也摆出来。</h1><p class="lead">这些是 AI 写、AI 审的草稿。有的被独立评审拦下了。拦住不等于没价值——这里写清楚：<b>风险是什么</b>、<b>依据在哪</b>、<b>它为什么仍然值得看</b>。欢迎接手改进。</p><div class="grid">${reviews.map(r=>`<a class="card" href="/review/${r.slug}/"><div class="meta">${esc(r.date)} · ${esc(r.category||'')}</div><h3>${esc(r.title)}</h3><p>${esc(r.oneline||'')}</p><div class="riskline risk-${esc(r.risk&&r.risk.level||'low')}">${esc(RISK_ZH[(r.risk&&r.risk.level)||'low']||'')} · ${esc(statusZh(r))}</div><strong>看评审与来源 →</strong></a>`).join('')}</div>`);
+ for(const r of reviews){
+  const srcs=(r.sources||[]).map(x=>`<li><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.label)}</a></li>`).join('');
+  const fnd=((r.risk&&r.risk.findings)||[]).map(f=>`<li class="sev-${esc(f.severity||'info')}"><b>[${esc(fsev(f.severity))}]</b> ${esc(f.what||'')}${f.where?` <span class="meta">（${esc(f.where)}）</span>`:''}</li>`).join('');
+  page(`review/${r.slug}/`,r.title,`<div class="breadcrumbs"><a href="/review/">← 风险公示</a></div><h1>${esc(r.title)}</h1><p class="lead">${esc(r.oneline||'')}</p><div class="riskbox risk-${esc((r.risk&&r.risk.level)||'low')}"><b>${esc(RISK_ZH[(r.risk&&r.risk.level)||'low']||'')}</b> · ${esc(statusZh(r))}${r.risk&&r.risk.summary?`<p>${esc(r.risk.summary)}</p>`:''}</div><h2>权威入口（可点开核对）</h2><ul class="srclist">${srcs||'<li>（暂无）</li>'}</ul><h2>评审发现了什么</h2><ul class="findings">${fnd||'<li>（无）</li>'}</ul><h2>它为什么仍然值得看</h2><p>${esc((r.curation&&r.curation.why)||'')}</p><h2>状态与参与方式</h2><p>${esc(statusZh(r))}。${r.pr?`这份草稿的改造正在 <a href="${esc(r.pr)}">PR</a> 里进行，欢迎接手、指正、补实验数据。`:'欢迎在 GitHub 上接着改。'}</p><div class="actions">${r.pr?`<a class="button" href="${esc(r.pr)}">看 PR / 参与改进 ↗</a>`:''}<a class="secondary" href="${repo}">去仓库 ↗</a></div>`);
+ }
+}
+
 referencePages(page,esc);
 fs.copyFileSync(path.join(import.meta.dirname,'style.css'),path.join(out,'style.css'));
 
