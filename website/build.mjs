@@ -71,8 +71,9 @@ const reviews=ls('reviews').filter(n=>n.endsWith('.json')).map(n=>readJSON('revi
 const RISK_ZH={high:'高风险 · 已拦下',medium:'中风险 · 待人工',low:'低风险'};
 const statusZh=(r)=>({published:'已发布',held:'未通过自动发布，等人工处理',rejected:'已否决'}[r.status]||r.status||'');
 const fsev=s=>({critical:'必须拦',warn:'要人看',info:'提示'}[s]||s);
-if(reviews.length){
- page('review/','风险公示',`<div class="eyebrow">REVIEW</div><h1>没过关的，也摆出来。</h1><p class="lead">这些是 AI 写、AI 审的草稿。有的被独立评审拦下了。拦住不等于没价值——这里写清楚：<b>风险是什么</b>、<b>依据在哪</b>、<b>它为什么仍然值得看</b>。欢迎接手改进。</p><div class="grid">${reviews.map(r=>`<a class="card" href="/review/${r.slug}/"><div class="meta">${esc(r.date)} · ${esc(r.category||'')}</div><h3>${esc(r.title)}</h3><p>${esc(r.oneline||'')}</p><div class="riskline risk-${esc(r.risk&&r.risk.level||'low')}">${esc(RISK_ZH[(r.risk&&r.risk.level)||'low']||'')} · ${esc(statusZh(r))}</div><strong>看评审与来源 →</strong></a>`).join('')}</div>`);
+{
+ const reviewList = reviews.length ? '<div class="grid">'+reviews.map(r=>`<a class="card" href="/review/${r.slug}/"><div class="meta">${esc(r.date)} · ${esc(r.category||'')}</div><h3>${esc(r.title)}</h3><p>${esc(r.oneline||'')}</p><div class="riskline risk-${esc(r.risk&&r.risk.level||'low')}">${esc(RISK_ZH[(r.risk&&r.risk.level)||'low']||'')} · ${esc(statusZh(r))}</div><strong>看评审与来源 →</strong></a>`).join('')+'</div>' : '<p class="notice">还没有评审记录。自动转正每天跑一次，被拦下的草稿会出现在这里。</p>';
+ page('review/','风险公示',`<div class="eyebrow">REVIEW</div><h1>没过关的，也摆出来。</h1><p class="lead">这些是 AI 写、AI 审的草稿。有的被独立评审拦下了。拦住不等于没价值——这里写清楚：<b>风险是什么</b>、<b>依据在哪</b>、<b>它为什么仍然值得看</b>。欢迎接手改进。</p>${reviewList}`);
  for(const r of reviews){
   const srcs=(r.sources||[]).map(x=>`<li><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.label)}</a></li>`).join('');
   const fnd=((r.risk&&r.risk.findings)||[]).map(f=>`<li class="sev-${esc(f.severity||'info')}"><b>[${esc(fsev(f.severity))}]</b> ${esc(f.what||'')}${f.where?` <span class="meta">（${esc(f.where)}）</span>`:''}</li>`).join('');
