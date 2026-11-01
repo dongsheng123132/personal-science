@@ -37,6 +37,8 @@ jobs:
           PS_LLM_BASE: ${{ vars.PS_LLM_BASE }}
           PS_LLM_MODEL: ${{ vars.PS_LLM_MODEL }}
           PS_RISK_MODEL: ${{ vars.PS_RISK_MODEL }}
+          PS_RISK_BASE: ${{ vars.PS_RISK_BASE }}
+          PS_RISK_KEY: ${{ secrets.PS_RISK_KEY }}
           PS_LLM_KEY: ${{ secrets.PS_LLM_KEY }}
         run: |
           set -e
