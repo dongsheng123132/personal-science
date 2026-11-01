@@ -609,16 +609,28 @@ def main():
         run(["git", "branch", "-D", branch], check=False)
         return 1
 
-    run(["git", "push", "-u", "origin", branch])
+    rc, out = run(["git", "push", "-u", "origin", branch], check=False)
+    if rc != 0:
+        # 同名远端分支可能是上一次（已关闭 PR）留下的，强制覆盖
+        log("推送被拒，改为 force-with-lease 覆盖同名分支")
+        run(["git", "push", "--force-with-lease", "-u", "origin", branch])
 
     body = build_pr_body(draft, sources, curation, risk, auto_merge)
     body_path = pathlib.Path("/tmp/ps-promote-pr-body.md")
     body_path.write_text(body, encoding="utf-8")
-    pr_url = run(["gh", "pr", "create", "--base", "main", "--head", branch,
-                  "--title", "[auto][risk:%s] 新实验：%s" % (
-                      risk.get("risk_level"), curation.get("name_zh") or draft["title"]),
-                  "--body-file", str(body_path)], check=True)[1]
-    pr_url = pr_url.strip().splitlines()[-1]
+    rc, out = run(["gh", "pr", "create", "--base", "main", "--head", branch,
+                   "--title", "[auto][risk:%s] 新实验：%s" % (
+                       risk.get("risk_level"), curation.get("name_zh") or draft["title"]),
+                   "--body-file", str(body_path)], check=False)
+    if rc == 0:
+        pr_url = out.strip().splitlines()[-1]
+    else:
+        rc2, out2 = run(["gh", "pr", "view", branch, "--json", "url",
+                         "--jq", ".url"], check=False)
+        if rc2 != 0:
+            raise RuntimeError("创建 PR 失败：%s" % out[-1500:])
+        pr_url = out2.strip()
+        log("该分支已有 PR，复用：%s" % pr_url)
     log("PR: " + pr_url)
     write_review(slug, draft, sources, curation, risk,
                  "published" if auto_merge else "held", pr_url)
