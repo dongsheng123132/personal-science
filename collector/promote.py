@@ -482,10 +482,15 @@ def main():
         return 0
 
     existing_slugs = {p.stem for p in EXPERIMENTS.glob("*.md")}
+    def norm_title(t):
+        t = re.sub(r"\d+", "", t)                       # 去掉年代
+        return re.sub(r"[^\w\u4e00-\u9fff]", "", t)     # 去掉标点空格
+
     existing_titles = set()
     for p in EXPERIMENTS.glob("*.md"):
-        t = p.read_text(encoding="utf-8").split("\n")[0]
-        existing_titles.add(re.sub(r"[^\w\u4e00-\u9fff]", "", t))
+        if p.name.startswith("_"):
+            continue
+        existing_titles.add(norm_title(p.read_text(encoding="utf-8").split("\n")[0]))
 
     rejected = set()
     if REJECTED_PATH.exists():
@@ -510,8 +515,9 @@ def main():
             continue
         if not all(k in d["sections"] for k in TEMPLATE_SECTIONS):
             continue
-        norm = re.sub(r"[^\w\u4e00-\u9fff]", "", d["title"])
-        if any(norm[:12] in t or t[:12] in norm for t in existing_titles if t):
+        norm = norm_title(d["title"])
+        if any(t and (norm[:4] == t[:4] or norm in t or t in norm)
+               for t in existing_titles):
             continue
         srcs = collect_sources(d)
         if len(srcs) < 2:
