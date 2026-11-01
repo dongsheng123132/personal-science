@@ -6,3 +6,4 @@
 
 | 日期 | 标题 | slug | 策展分 | 风险 | PR |
 |---|---|---|---|---|---|
+| 2026-11-01 | 光电效应（用 LED 反做）：用几块钱的 LED 测出普朗克常数 | measuring-planck-s-constant-with-leds | 9 | high | https://github.com/dongsheng123132/personal-science/pull/2 |
