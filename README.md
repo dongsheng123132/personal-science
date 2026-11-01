@@ -7,7 +7,7 @@
 一个人在家就能做的实验清单。不用申请、不用审核、不用等人批准。
 **一个人 = 一个实验室。**（[章程](CHARTER.md)）
 
-`17 个实验` · `每页写清怎么做成` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
+`20 个实验` · `每页写清怎么做成` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
 
 [![collect](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml/badge.svg)](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml)
 
@@ -84,6 +84,8 @@ AI 正好一次拆掉这四样。所以不用等谁批准——测量、记录�
 | [拍手测声速](experiments/sound-speed.md) | 一声拍手一次回声，算出声速 | 手机、长墙 | 20 分钟 | ¥0 | ★☆☆ |
 | [温度计 + 秒表量热平衡](experiments/fridge-thermal.md) | 热水在冰箱里凉得有多慢，指数曲线自己会说话 | 温度记录仪、冰箱 | 2 小时 | ¥20 | ★☆☆ |
 | [影子测地球半径](experiments/eratosthenes.md) | 和另一个纬度的人同一天量影子 | 杆子、尺子、一个网友 | 2 天 | ¥0 | ★★☆ |
+| [托里拆利测大气压](experiments/torricelli-water-barometer.md) | 10 米水柱停住的地方，就是大气压 | 透明软管、水桶、卷尺 | 半天 | ¥70–100 | ★★☆ |
+| [焦耳热功当量](experiments/joule-equivalent.md) | 重物搅水，亲手把 1 卡换算成焦耳 | 保温杯、温度计、重物 | 3–4 小时 | ¥100–200 | ★★★ |
 
 ### 电子与硬件
 
@@ -109,6 +111,7 @@ AI 正好一次拆掉这四样。所以不用等谁批准——测量、记录�
 |---|---|---|---|---|---|
 | [种子发芽率对照](experiments/seed-germination.md) | 光照到底影不影响发芽——两种种子给出两个相反的答案 | 种子、纸巾、两个盘子 | 5 天 | ¥10 | ★☆☆ |
 | [植物向光性延时](experiments/plant-phototropism.md) | 鞋盒开个洞，看植物怎么"找"到光 | 小植物、鞋盒、手机 | 3–5 天 | ¥10 | ★☆☆ |
+| [巴斯德鹅颈瓶](experiments/pasteur-swan-neck.md) | 空气进得去、灰尘进不去，肉汤就不腐 | 玻璃瓶、软管、肉汤 | 7 天 | ¥50–120 | ★★☆ |
 
 ### 环境与水
 
@@ -241,7 +244,7 @@ inbox/designs/（草稿，标注未核对）
 ├── MANIFESTO.md         宣言：为什么出发（智力平权）
 ├── CHARTER.md           章程：这个仓库的宪法
 ├── *.en.md              英文版（README / 宣言 / 章程）
-├── experiments/         每个实验一页（17 个）
+├── experiments/         每个实验一页（20 个）
 ├── ideas.md             点子池
 ├── RESULTS.md           有人做过什么（含失败）
 ├── CONTRIBUTING.md      怎么加一个（英文 CONTRIBUTING.en.md）

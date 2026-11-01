@@ -28,6 +28,7 @@ TDS 笔测的是水的电导率折算值（ppm）。它便宜、快、能重复�
 
 ## 延伸阅读
 
+- [中文：总溶解固体](https://zh.wikipedia.org/wiki/%E6%80%BB%E6%BA%B6%E8%A7%A3%E5%9B%BA%E4%BD%93)
 - [Total dissolved solids（溶解性总固体）](https://en.wikipedia.org/wiki/Total_dissolved_solids)
 - [Electrical conductivity（电导率）](https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity)
 - [Water quality（水质）](https://en.wikipedia.org/wiki/Water_quality)

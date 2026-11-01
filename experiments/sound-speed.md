@@ -26,6 +26,7 @@
 
 ## 延伸阅读
 
+- [中文：声速](https://zh.wikipedia.org/wiki/%E5%A3%B0%E9%80%9F)
 - [Speed of sound（声速）](https://en.wikipedia.org/wiki/Speed_of_sound)
 - [Echo（回声）](https://en.wikipedia.org/wiki/Echo)
 - [Acoustics（声学）](https://en.wikipedia.org/wiki/Acoustics)

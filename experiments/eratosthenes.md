@@ -28,6 +28,7 @@
 
 ## 延伸阅读
 
+- [中文：埃拉托斯特尼](https://zh.wikipedia.org/wiki/%E5%9F%83%E6%8B%89%E6%89%98%E6%96%AF%E7%89%B9%E5%B0%BC)
 - [Eratosthenes（埃拉托色尼）](https://en.wikipedia.org/wiki/Eratosthenes)
 - [Earth's circumference（地球周长测量史）](https://en.wikipedia.org/wiki/Earth%27s_circumference)
 - [History of geodesy（大地测量史）](https://en.wikipedia.org/wiki/History_of_geodesy)

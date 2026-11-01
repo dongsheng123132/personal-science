@@ -30,6 +30,7 @@ LED 发光的条件是：电子跨过半导体带隙，放出一个光子。光�
 
 ## 延伸阅读
 
+- [中文：普朗克常数](https://zh.wikipedia.org/wiki/%E6%99%AE%E6%9C%97%E5%85%8B%E5%B8%B8%E6%95%B0)
 - [Planck constant（普朗克常数）](https://en.wikipedia.org/wiki/Planck_constant)
 - [Light-emitting diode（发光二极管）](https://en.wikipedia.org/wiki/Light-emitting_diode)
 - [Band gap（带隙）](https://en.wikipedia.org/wiki/Band_gap)

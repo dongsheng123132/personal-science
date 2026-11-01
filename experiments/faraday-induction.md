@@ -28,6 +28,7 @@
 
 ## 延伸阅读
 
+- [中文：电磁感应](https://zh.wikipedia.org/wiki/%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94)
 - [Electromagnetic induction（电磁感应）](https://en.wikipedia.org/wiki/Electromagnetic_induction)
 - [Faraday's law（法拉第定律）](https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction)
 - [Maxwell's equations（麦克斯韦方程组）](https://en.wikipedia.org/wiki/Maxwell%27s_equations)

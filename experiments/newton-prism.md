@@ -28,6 +28,7 @@
 
 ## 延伸阅读
 
+- [中文：棱镜](https://zh.wikipedia.org/wiki/%E6%A3%B1%E9%95%9C)
 - [Prism（棱镜）](https://en.wikipedia.org/wiki/Prism)
 - [Opticks（牛顿《光学》）](https://en.wikipedia.org/wiki/Opticks)
 - [Spectroscopy（光谱学）](https://en.wikipedia.org/wiki/Spectroscopy)

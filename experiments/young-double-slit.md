@@ -30,6 +30,7 @@
 
 ## 延伸阅读
 
+- [中文：双缝实验](https://zh.wikipedia.org/wiki/%E5%8F%8C%E7%BC%9D%E5%AE%9E%E9%AA%8C)
 - [Young's interference experiment（杨氏干涉）](https://en.wikipedia.org/wiki/Young%27s_interference_experiment)
 - [Double-slit experiment（双缝实验）](https://en.wikipedia.org/wiki/Double-slit_experiment)
 - [Wave theory of light（光的波动说）](https://en.wikipedia.org/wiki/Wave_theory_of_light)

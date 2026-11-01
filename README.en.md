@@ -5,7 +5,7 @@
 A list of experiments you can do at home. No application, no review, no permission needed.
 **One person = one lab.** ([Charter](CHARTER.en.md))
 
-`17 experiments` · `each page tells you how to know it worked` · `CC0, copy freely` · `daily collection + AI-designed drafts`
+`20 experiments` · `each page tells you how to know it worked` · `CC0, copy freely` · `daily collection + AI-designed drafts`
 
 [中文](README.md) · [One-minute version](#the-one-minute-version) · [The list](#the-list) · [Growing every day](#growing-every-day) · [How to add one](#how-to-add-one) · [Manifesto](MANIFESTO.en.md) · [Charter](CHARTER.en.md)
 
@@ -82,6 +82,8 @@ When that works, **the individual becomes the smallest unit of research.** Scien
 | [Speed of sound with a clap](experiments/sound-speed.md) | One clap, one echo, one number | Phone, a long wall | 20 min | ¥0 | ★☆☆ |
 | [How fast a cup cools](experiments/fridge-thermal.md) | Exponential decay, measured with a thermometer | Temp logger, fridge | 2 hrs | ¥20 | ★☆☆ |
 | [Earth's radius with shadows](experiments/eratosthenes.md) | Same day, different latitudes, two people | A pole, a ruler, a friend | 2 days | ¥0 | ★★☆ |
+| [Torricelli's water barometer](experiments/torricelli-water-barometer.md) | Where the water column stops is one atmosphere | Hose, bucket, tape measure | half a day | ¥70–100 | ★★☆ |
+| [Joule's equivalent of heat](experiments/joule-equivalent.md) | Stir water with a falling weight; turn calories into joules yourself | Thermos, thermometer, weight | 3–4 hrs | ¥100–200 | ★★★ |
 
 ### Electronics & hardware
 
@@ -107,6 +109,7 @@ When that works, **the individual becomes the smallest unit of research.** Scien
 |---|---|---|---|---|---|
 | [Seed germination, light vs. dark](experiments/seed-germination.md) | Two species give two opposite answers | Seeds, paper towels, two plates | 5 days | ¥10 | ★☆☆ |
 | [Phototropism in a shoebox](experiments/plant-phototropism.md) | Watch a plant find the light, in timelapse | Small plant, shoebox, phone | 3–5 days | ¥10 | ★☆☆ |
+| [Pasteur's swan-neck flask](experiments/pasteur-swan-neck.md) | Air gets in, dust doesn't — and the broth stays clear | Bottles, tubing, broth | 7 days | ¥50–120 | ★★☆ |
 
 ### Environment & water
 
@@ -244,7 +247,7 @@ If something looks exciting but feels dangerous, don't do it. Open an issue firs
 ├── MANIFESTO.en.md      Manifesto (English)
 ├── CHARTER.md           Charter (Chinese)
 ├── CHARTER.en.md        Charter (English)
-├── experiments/         One page per experiment (17 pages)
+├── experiments/         One page per experiment (20 pages)
 ├── ideas.md             Idea pool
 ├── RESULTS.md           What people got (including failures)
 ├── CONTRIBUTING.en.md   How to add one (English)

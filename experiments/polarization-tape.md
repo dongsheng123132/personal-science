@@ -28,6 +28,7 @@
 
 ## 延伸阅读
 
+- [中文：偏振](https://zh.wikipedia.org/wiki/%E5%81%8F%E6%8C%AF)
 - [Polarization（偏振）](https://en.wikipedia.org/wiki/Polarization_%28waves%29)
 - [Photoelasticity（光弹性）](https://en.wikipedia.org/wiki/Photoelasticity)
 - [Étienne-Louis Malus（马吕斯）](https://en.wikipedia.org/wiki/%C3%89tienne-Louis_Malus)

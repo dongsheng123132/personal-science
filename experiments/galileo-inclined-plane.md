@@ -28,6 +28,7 @@
 
 ## 延伸阅读
 
+- [中文：伽利略·伽利莱](https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1)
 - [Galileo Galilei（伽利略）](https://en.wikipedia.org/wiki/Galileo_Galilei)
 - [Kinematics（运动学）](https://en.wikipedia.org/wiki/Kinematics)
 - [Inclined plane（斜面）](https://en.wikipedia.org/wiki/Inclined_plane)

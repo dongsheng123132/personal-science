@@ -33,6 +33,7 @@ r = (V₀ − V₁) / I
 
 ## 延伸阅读
 
+- [中文：内阻](https://zh.wikipedia.org/wiki/%E5%86%85%E9%98%BB)
 - [Internal resistance（内阻）](https://en.wikipedia.org/wiki/Internal_resistance)
 - [Electrochemical impedance spectroscopy（交流阻抗谱）](https://en.wikipedia.org/wiki/Dielectric_spectroscopy)
 - [伏打电堆 · 电池史](https://en.wikipedia.org/wiki/Voltaic_pile)

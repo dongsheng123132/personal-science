@@ -28,6 +28,7 @@
 
 ## 延伸阅读
 
+- [中文：汉斯·克里斯蒂安·奥斯特](https://zh.wikipedia.org/wiki/%E6%B1%89%E6%96%AF%C2%B7%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82%E5%AE%89%C2%B7%E5%A5%A5%E6%96%AF%E7%89%B9)
 - [Hans Christian Ørsted（奥斯特）](https://en.wikipedia.org/wiki/Hans_Christian_%C3%98rsted)
 - [Electromagnetism（电磁学）](https://en.wikipedia.org/wiki/Electromagnetism)
 - [Ampère's law（安培定律）](https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law)

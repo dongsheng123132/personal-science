@@ -34,6 +34,7 @@
 
 ## 延伸阅读
 
+- [中文：光速](https://zh.wikipedia.org/wiki/%E5%85%89%E9%80%9F)
 - [Speed of light（光速）](https://en.wikipedia.org/wiki/Speed_of_light)
 - [Rømer's determination of the speed of light](https://en.wikipedia.org/wiki/R%C3%B8mer%27s_determination_of_the_speed_of_light)
 - [Fizeau experiment（斐索实验）](https://en.wikipedia.org/wiki/Fizeau_experiment)

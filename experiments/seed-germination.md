@@ -28,6 +28,7 @@
 
 ## 延伸阅读
 
+- [中文：发芽](https://zh.wikipedia.org/wiki/%E5%8F%91%E8%8A%BD)
 - [Germination（发芽）](https://en.wikipedia.org/wiki/Germination)
 - [Control experiment（对照实验）](https://en.wikipedia.org/wiki/Scientific_control)
 - [Design of experiments（实验设计）](https://en.wikipedia.org/wiki/Design_of_experiments)

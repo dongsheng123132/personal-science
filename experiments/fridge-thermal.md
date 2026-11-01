@@ -28,6 +28,7 @@
 
 ## 延伸阅读
 
+- [中文：牛顿冷却定律](https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E5%86%B7%E5%8D%B4%E5%AE%9A%E5%BE%8B)
 - [Newton's law of cooling（牛顿冷却定律）](https://en.wikipedia.org/wiki/Newton%27s_law_of_cooling)
 - [Thermal conduction（热传导）](https://en.wikipedia.org/wiki/Thermal_conduction)
 - [Thermal time constant（热时间常数）](https://en.wikipedia.org/wiki/Thermal_time_constant)

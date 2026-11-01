@@ -28,6 +28,7 @@
 
 ## 延伸阅读
 
+- [中文：向光性](https://zh.wikipedia.org/wiki/%E5%90%91%E5%85%89%E6%80%A7)
 - [Phototropism（向光性）](https://en.wikipedia.org/wiki/Phototropism)
 - [Auxin（生长素）](https://en.wikipedia.org/wiki/Auxin)
 - [The Power of Movement in Plants（达尔文《植物运动能力》）](https://en.wikipedia.org/wiki/The_Power_of_Movement_in_Plants)

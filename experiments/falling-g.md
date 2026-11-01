@@ -26,6 +26,7 @@
 
 ## 延伸阅读
 
+- [中文：重力加速度](https://zh.wikipedia.org/wiki/%E9%87%8D%E5%8A%9B%E5%8A%A0%E9%80%9F%E5%BA%A6)
 - [Galileo Galilei（伽利略）](https://en.wikipedia.org/wiki/Galileo_Galilei)
 - [Gravitational acceleration（重力加速度）](https://en.wikipedia.org/wiki/Gravitational_acceleration)
 - [Gravimetry（重力测量）](https://en.wikipedia.org/wiki/Gravimetry)

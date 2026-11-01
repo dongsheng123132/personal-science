@@ -28,6 +28,7 @@
 
 ## 延伸阅读
 
+- [中文：双盲](https://zh.wikipedia.org/wiki/%E5%8F%8C%E7%9B%B2)
 - [Blind experiment（盲实验）](https://en.wikipedia.org/wiki/Blind_experiment)
 - [Pepsi Challenge（百事挑战）](https://en.wikipedia.org/wiki/Pepsi_Challenge)
 - [Randomized controlled trial（随机对照试验）](https://en.wikipedia.org/wiki/Randomized_controlled_trial)
