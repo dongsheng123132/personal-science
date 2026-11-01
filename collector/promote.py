@@ -179,6 +179,11 @@ def clean_math(t):
     return t
 
 
+def slugify(text):
+    t = re.sub(r"[^a-zA-Z0-9]+", "-", str(text).lower()).strip("-")
+    return t[:50]
+
+
 def slug_of(title):
     return "auto-" + re.sub(r"[^a-z0-9]+", "-", urllib.parse.quote(title).lower()).strip("-")[:40]
 
@@ -475,7 +480,9 @@ def main():
 
     draft, sources = pick
     cur_cat = curation.get("category_zh", "物理与测量")
-    slug = slug_of(draft["title"])
+    slug = slugify(curation.get("name_en") or "") or "experiment"
+    if (EXPERIMENTS / (slug + ".md")).exists():
+        slug = slug + "-2"
     log("选中：%s（策展分 %s，分类 %s）" % (draft["title"], curation.get("score"), cur_cat))
 
     page = build_page(draft, sources)
@@ -500,6 +507,12 @@ def main():
         print("\n" + page[:1200])
         return 0
 
+    # 先开分支（check.py --base 要求不在 main 上）
+    branch = "agent/auto-%s-%s" % (TODAY, slug)
+    run(["git", "config", "user.name", "ps-bot"])
+    run(["git", "config", "user.email", "ps-bot@users.noreply.github.com"])
+    run(["git", "checkout", "-b", branch])
+
     # 写文件
     (EXPERIMENTS / (slug + ".md")).write_text(page, encoding="utf-8")
     old_n = len([p for p in EXPERIMENTS.glob("*.md") if not p.name.startswith("_")]) - 1
@@ -514,44 +527,38 @@ def main():
     add_readme_rows(cur_cat, en_row, zh_row)
     bump_counts(old_n)
 
-    # 来源门槛 + 门禁
+    add_paths = ["README.md", "README.en.md", "MANIFESTO.md", "MANIFESTO.en.md",
+                 str((EXPERIMENTS / (slug + ".md")).relative_to(BASE))]
+    run(["git", "add", "--"] + add_paths)
+    run(["git", "commit", "-m",
+         "auto: 转正草稿 %s（策展 %s 分，风险 %s）" % (
+             draft["title"], curation.get("score"), risk.get("risk_level"))])
+
+    # 门禁（在分支上跑，才不会被 scope 规则拦）
     rc, out = run([sys.executable, "-X", "utf8", "maintenance/check.py",
                    "--base", "origin/main"], check=False)
     log("check.py 退出码 %d" % rc)
     if rc != 0:
         log("check.py 有 ERROR，放弃本次转正（清理现场）")
         print(out[-3000:])
-        try:
-            run(["git", "checkout", "--", "."], check=False)
-            run(["git", "clean", "-fd", "--", "experiments"], check=False)
-        except Exception:  # noqa: BLE001
-            pass
+        run(["git", "reset", "--hard", "origin/main"], check=False)
+        run(["git", "checkout", "main"], check=False)
+        run(["git", "branch", "-D", branch], check=False)
         return 1
 
-    branch = "agent/auto-%s-%s" % (TODAY, slug[:30])
-    run(["git", "config", "user.name", "ps-bot"])
-    run(["git", "config", "user.email", "ps-bot@users.noreply.github.com"])
-    run(["git", "checkout", "-b", branch])
-    add_paths = ["README.md", "README.en.md", "MANIFESTO.md", "MANIFESTO.en.md",
-                 "maintenance/audit-log.md", "maintenance/promote-state.json",
-                 str((EXPERIMENTS / (slug + ".md")).relative_to(BASE))]
-    run(["git", "add", "--"] + add_paths)
-    run(["git", "commit", "-m",
-         "auto: 转正草稿 %s（策展 %s 分，风险 %s）" % (
-             draft["title"], curation.get("score"), risk.get("risk_level"))])
     run(["git", "push", "-u", "origin", branch])
 
     body = build_pr_body(draft, sources, curation, risk, auto_merge)
     body_path = pathlib.Path("/tmp/ps-promote-pr-body.md")
     body_path.write_text(body, encoding="utf-8")
     pr_url = run(["gh", "pr", "create", "--base", "main", "--head", branch,
-                  "--title", "[auto] 新实验：%s" % (curation.get("name_zh") or draft["title"]),
+                  "--title", "[auto][risk:%s] 新实验：%s" % (
+                      risk.get("risk_level"), curation.get("name_zh") or draft["title"]),
                   "--body-file", str(body_path)], check=True)[1]
     pr_url = pr_url.strip().splitlines()[-1]
     log("PR: " + pr_url)
 
-    # 留痕
-    AUDIT_PATH.parent.mkdir(exist_ok=True)
+    # 留痕（单独一个提交推到同一分支）
     if not AUDIT_PATH.exists():
         AUDIT_PATH.write_text("# 自动转正审计日志\n\n"
                               "| 日期 | 标题 | slug | 策展分 | 风险 | PR |\n"
@@ -560,13 +567,15 @@ def main():
         f.write("| %s | %s | %s | %s | %s | %s |\n" % (
             TODAY, draft["title"], slug, curation.get("score"),
             risk.get("risk_level"), pr_url))
+    run(["git", "add", "--", "maintenance/audit-log.md"])
+    run(["git", "commit", "-m", "audit: 记录自动转正 " + slug])
+    run(["git", "push"], check=False)
 
     if auto_merge:
         merged = wait_and_merge(pr_url)
         if merged:
             state["publishes"].append({"date": TODAY, "slug": slug, "pr": pr_url})
             save_state(state)
-            run(["git", "checkout", "main"], check=False)
     else:
         log("不自动合并（verdict=%s, risk=%s），留给人工" % (risk.get("verdict"), risk.get("risk_level")))
     return 0
