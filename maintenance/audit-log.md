@@ -6,3 +6,4 @@
 
 | 日期 | 标题 | slug | 策展分 | 风险 | PR |
 |---|---|---|---|---|---|
+| 2026-11-01 | 杨氏双缝干涉（1801） | young-s-double-slit-interference | 9 | high | https://github.com/dongsheng123132/personal-science/pull/3 |
