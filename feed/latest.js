@@ -1,105 +1,93 @@
 // 自动生成，勿手改
 window.PS_FEED = {
- "generated_at": "2026-10-31T01:35:51+00:00",
- "date": "2026-10-31",
- "count": 5,
+ "generated_at": "2026-11-01T01:09:10+00:00",
+ "date": "2026-11-01",
+ "count": 4,
  "items": [
   {
-   "id": "e3b12e282044",
+   "id": "657c8d5cc2dc",
    "source": "hackaday",
-   "title": "Is This The Only Instrument You Need?",
-   "url": "https://hackaday.com/2026/10/29/is-this-the-only-instrument-you-need",
-   "published": "2026-10-29",
-   "summary": "When working on an electronic project it’s likely you will find yourself working with a variety of different instruments, be they logic analysers, oscilloscopes, or whatever. These can take up …read more",
+   "title": "Novelty Camera To USB Camera",
+   "url": "https://hackaday.com/2026/10/30/novelty-camera-to-usb-camera",
+   "published": "2026-10-30",
+   "summary": "The Godox C100 is a cheap camera that’s best described as a toy, its party trick being a large clear viewfinder with a head-up-display light meter. It’s by no means …read more",
    "meta": {
-    "query": "oscilloscope"
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 91,
+   "why": "命中 camera、cheap、camera，2026-10-30",
+   "obj_hits": [
+    "camera"
+   ],
+   "per_hits": [
+    "cheap"
+   ],
+   "modern_hits": [
+    "camera"
+   ],
+   "hits": [
+    "camera",
+    "cheap",
+    "camera"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "304f0259b818",
+   "source": "hackaday",
+   "title": "VR Headset Ditches the Base Stations with DIY Tracking",
+   "url": "https://hackaday.com/2026/10/30/vr-headset-ditches-the-base-stations-with-diy-tracking",
+   "published": "2026-10-30",
+   "summary": "Those in the virtual reality scene might be interested in [Prohurtz]’s add-on for the Bigscreen Beyond VR headset. BSB-SLAM adds SLAM (Simultaneous Localization and Mapping) tracking to the headset by attaching …read more",
+   "meta": {
+    "query": "sensor"
    },
    "targeted": true,
    "score": 78,
-   "why": "命中 self，2026-10-29",
+   "why": "命中 diy，2026-10-30",
    "obj_hits": [],
    "per_hits": [
-    "self"
+    "diy"
    ],
    "modern_hits": [],
    "hits": [
-    "self"
+    "diy"
    ],
-   "title_signal": false
+   "title_signal": true
   },
   {
-   "id": "45a836609966",
-   "source": "wikipedia",
-   "title": "Rutherford scattering experiments",
-   "url": "https://en.wikipedia.org/wiki/Rutherford_scattering_experiments",
-   "published": "",
-   "summary": "The Rutherford scattering experiments were a landmark series of experiments by which scientists learned that every atom has a nucleus where all of its positive charge and most of its mass is concentrated. They deduced this after measuring how an alpha particle beam is scattered when it strikes a thin metal foil. The experiments were performed between 1906 and 1913 by Hans Geiger and Ernest Marsd",
+   "id": "8bdc9f6355f2",
+   "source": "hackaday",
+   "title": "DIY WiFi Analyzer Sniffs Out Congestion and Coverage Issues, Suggests Fixes",
+   "url": "https://hackaday.com/2026/10/31/diy-wifi-analyzer-sniffs-out-congestion-and-coverage-issues-suggests-fixes",
+   "published": "2026-10-31",
+   "summary": "[Roni Bandini]’s JEV WiFi Analyzer is an interesting experiment that glues together a single-board Linux computer, a USB WiFi adapter, and a specialized AI model to create a new kind …read more",
    "meta": {
-    "site": "en.wikipedia.org"
+    "query": "DIY lab"
    },
    "targeted": true,
-   "score": 76,
-   "why": "命中 geiger",
-   "timeless": true,
-   "obj_hits": [
-    "geiger"
+   "score": 78,
+   "why": "命中 diy，2026-10-31",
+   "obj_hits": [],
+   "per_hits": [
+    "diy"
    ],
-   "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "geiger"
+    "diy"
    ],
-   "title_signal": false
+   "title_signal": true
   },
   {
-   "id": "23af48c5e36b",
+   "id": "70780f97963a",
    "source": "wikipedia",
-   "title": "科学革命",
-   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E9%9D%A9%E5%91%BD",
+   "title": "黛米·摩尔",
+   "url": "https://zh.wikipedia.org/wiki/%E9%BB%9B%E7%B1%B3%C2%B7%E6%91%A9%E5%B0%94",
    "published": "",
-   "summary": "科學革命（英語：Scientific revolution），指近世歷史上，現代科學在歐洲萌芽的這段時期。在那段時期中，數學、物理學、天文學、生物學（包括人體解剖學）與化學等學科皆出現突破性的進步，這些知識改變了人類對於自然的眼界及心態。科學革命發源於歐洲發動十字軍東征與貿易，使得中東的古籍從阿拉伯被帶回來，文藝復興時代結尾之時，這個歷程一直持續到18世紀末，開始了科學進步的歷程。 科學革命的衝擊，造成啟蒙運動與工業革命的出現，影響了歐洲與人類的社會。科學革命的開始日期，史學家仍有爭議。但1543年尼古拉斯·哥白尼出版的《天体运行论》通常被認為是科學革命的起點。從1543年，一直到1632年伽利略出版《关于托勒密和哥白尼两大世界体系的对话》，這段時間，常被認為是科學革命的第一階段。在這個階段中，那時教會腐化正面臨人們的懷疑與變革，此風潮復興了古希臘與羅馬時期的舊有科學知識，被稱為是科學復興",
+   "summary": "黛米·吉恩·摩尔（Demi Gene Moore，1962年11月11日—），前姓蓋尼斯（Guynes），美国女演员。 黛米·摩尔在20世纪80年代初于好莱坞声名鹊起，1995年，她成为世界上收入最高的女演员。她被公认为好莱坞女性同工同酬的先驱。获得的重要荣誉包括金球奖和美国演员工会奖，并获得奥斯卡金像奖、英国电影学院奖和艾美奖提名。",
    "meta": {
     "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "来自 wikipedia",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "afdcf27e39ca",
-   "source": "wikipedia",
-   "title": "沙丘 (2021年電影)",
-   "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E4%B8%98_(2021%E5%B9%B4%E9%9B%BB%E5%BD%B1)",
-   "published": "",
-   "summary": "《沙丘》（英語：Dune，香港、新加坡译《沙丘瀚战》）是一部2021年美國太空史詩科幻電影，由丹尼·維勒納夫執導，艾瑞克·羅斯、喬·斯派茨和導演本人共同編寫劇本，劇情改編自法蘭克·赫伯特的1965年英文同名科幻小說《沙丘》的前半部分內容，是兩部改編電影計畫中的第一部；講述出身貴族家庭的年輕繼承者背負起守護銀河系中最寶貴的資產也是最重要的元素的任務的故事。主演包括提摩西·夏勒梅、蕾貝卡·弗格森、奧斯卡·伊薩克、喬許·布洛林、史戴倫·史柯斯嘉、巴帝斯塔、史蒂芬·亨德森、赞达亚、戴維·達斯馬齊連、張震、香儂·鄧肯-布魯斯特、夏綠蒂·蘭普琳、傑森·摩莫亞和哈維爾·巴登。 《沙丘》由華納兄弟影業發行，2021年9月3日在第78屆威尼斯影展進行全球首映，10月22日在美國首映，包括IMAX和3D版本，同期於串流媒體平台HBO Max播出一個月。它因其視覺效果，世界觀和野心而受到好評，並以1.65億美元",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "来自 wikipedia",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "be789105f5ed",
-   "source": "wikipedia",
-   "title": "Trolley problem",
-   "url": "https://en.wikipedia.org/wiki/Trolley_problem",
-   "published": "",
-   "summary": "The trolley problem is a thought experiment in moral philosophy and moral psychology with many variations, involving hypothetical ethical dilemmas about whether to sacrifice one person to save a larger number of people. The series usually begins with a scenario in which a runaway trolley (tram) or train is on course to collide with and kill a number of people (traditionally five) tied to the track",
-   "meta": {
-    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,

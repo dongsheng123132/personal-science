@@ -1,12 +1,11 @@
-# 机器初筛 · 2026-10-31
+# 机器初筛 · 2026-11-01
 
-关键词命中 **5** 条。这只是筛子，不是判断——**真正挑哪条要人（或 AI）看**。
+关键词命中 **4** 条。这只是筛子，不是判断——**真正挑哪条要人（或 AI）看**。
 
 完整原始池在 [raw.json](raw.json)。挑出来的写进 `inbox/candidates.md`，
 再照着 [实验模板](../experiments/_template.md) 写成页面，提 PR 进清单。
 
-- **Is This The Only Instrument You Need?** — 78 分 · `hackaday` · 2026-10-29 · [打开](https://hackaday.com/2026/10/29/is-this-the-only-instrument-you-need)
-- **Rutherford scattering experiments** — 76 分 · `wikipedia` · 无日期 · [打开](https://en.wikipedia.org/wiki/Rutherford_scattering_experiments)
-- **科学革命** — 66 分 · `wikipedia` · 无日期 · [打开](https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E9%9D%A9%E5%91%BD)
-- **沙丘 (2021年電影)** — 66 分 · `wikipedia` · 无日期 · [打开](https://zh.wikipedia.org/wiki/%E6%B2%99%E4%B8%98_(2021%E5%B9%B4%E9%9B%BB%E5%BD%B1))
-- **Trolley problem** — 66 分 · `wikipedia` · 无日期 · [打开](https://en.wikipedia.org/wiki/Trolley_problem)
+- **Novelty Camera To USB Camera** — 91 分 · `hackaday` · 2026-10-30 · [打开](https://hackaday.com/2026/10/30/novelty-camera-to-usb-camera)
+- **VR Headset Ditches the Base Stations with DIY Tracking** — 78 分 · `hackaday` · 2026-10-30 · [打开](https://hackaday.com/2026/10/30/vr-headset-ditches-the-base-stations-with-diy-tracking)
+- **DIY WiFi Analyzer Sniffs Out Congestion and Coverage Issues, Suggests Fixes** — 78 分 · `hackaday` · 2026-10-31 · [打开](https://hackaday.com/2026/10/31/diy-wifi-analyzer-sniffs-out-congestion-and-coverage-issues-suggests-fixes)
+- **黛米·摩尔** — 66 分 · `wikipedia` · 无日期 · [打开](https://zh.wikipedia.org/wiki/%E9%BB%9B%E7%B1%B3%C2%B7%E6%91%A9%E5%B0%94)
