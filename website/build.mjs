@@ -3,7 +3,7 @@ import path from 'node:path';
 import { marked } from 'marked';
 import { referencePages } from './references.mjs';
 const root=path.resolve(import.meta.dirname,'..'), out=path.join(import.meta.dirname,'dist');
-fs.mkdirSync(out,{recursive:true});
+fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
 const repo='https://github.com/dongsheng123132/personal-science';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
