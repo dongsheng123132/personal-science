@@ -226,9 +226,6 @@ def derive_terms(title):
     if "测" in t:
         a, b = t.split("测", 1)
         terms += [a.strip(), b.strip()]
-    for suf in ("实验", "定律", "效应", "原理", "现象"):
-        if t.endswith(suf) and len(t) > len(suf):
-            terms.append(t[:-len(suf)])
     seen, out = set(), []
     for x in terms:
         if x and x not in seen:
@@ -274,7 +271,9 @@ def collect_sources(draft, want=3):
         if "Special:Search" in u:
             term = urllib.parse.parse_qs(urllib.parse.urlparse(u).query).get("search", [""])[0]
             terms, seen = [], set()
-            for t in ([term] if term else []) + derive_terms(draft["title"]):
+            base = term or derive_terms(draft["title"])[0]
+            for t in [base] + [x for x in derive_terms(draft["title"])
+                               if x != base and len(x) >= 3]:
                 if t and t not in seen:
                     seen.add(t)
                     terms.append(t)
