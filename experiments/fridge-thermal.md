@@ -26,7 +26,7 @@
 
 **AI 时代还能做什么**：温度日志自动画曲线、拟合 τ、横向比较不同容器和室温，把「凉得快不快」变成可比的数字。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：牛顿冷却定律](https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E5%86%B7%E5%8D%B4%E5%AE%9A%E5%BE%8B)
 - [Newton's law of cooling（牛顿冷却定律）](https://en.wikipedia.org/wiki/Newton%27s_law_of_cooling)

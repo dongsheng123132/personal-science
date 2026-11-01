@@ -95,7 +95,7 @@ J = (W)/(Q) = (M g h N)/(m ΔT) (J/cal)
 - 玻璃温度计易碎，碎了别用手捡水银/酒精，按当地规定处理（待核实你所用温度计类型）。
 - 全程一个人在家可做，无需资质。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：热功当量](https://zh.wikipedia.org/wiki/%E7%83%AD%E5%8A%9F%E5%BD%93%E9%87%8F)
 - [Mechanical equivalent of heat](https://en.wikipedia.org/wiki/Mechanical_equivalent_of_heat)

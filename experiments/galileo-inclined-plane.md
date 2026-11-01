@@ -26,7 +26,7 @@
 
 **AI 时代还能做什么**：逐帧取点、拟合二次曲线、把误差分解成手抖、斜面摩擦、帧率三项。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：伽利略·伽利莱](https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1)
 - [Galileo Galilei（伽利略）](https://en.wikipedia.org/wiki/Galileo_Galilei)

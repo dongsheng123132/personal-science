@@ -648,6 +648,32 @@ DRAFT_RE = re.compile(r"^inbox/designs/[^/]+\.md$")
 DRAFT_MARK = "> \u26a0\ufe0f"  # "> ⚠️"
 
 
+# ---------------------------------------------------------------- 6b. provenance
+
+PROV_HEADING = "## 来源与依据"
+
+
+def rule_provenance(ctx, rep):
+    """审计要求：每个实验页必须有「来源与依据」，且至少 2 条可点开的外链。"""
+    for page in exp_pages(ctx):
+        text = ctx.read_text(page)
+        if text is None:
+            continue
+        m = re.search(r"^" + re.escape(PROV_HEADING) + r"\s*$", text, re.M)
+        if not m:
+            rep.add("ERROR", "provenance", page, None,
+                    "缺 %s（审计要求：每页必须有可点开的来源，至少 2 条）" % PROV_HEADING)
+            continue
+        tail = text[m.end():]
+        nxt = tail.find("\n## ")
+        if nxt != -1:
+            tail = tail[:nxt]
+        links = re.findall(r"\]\((https?://[^)\s]+)\)", tail)
+        if len(links) < 2:
+            rep.add("ERROR", "provenance", page, None,
+                    "来源少于 2 条（现在 %d 条）；审计要求每页可回溯" % len(links))
+
+
 def rule_drafts(ctx, rep):
     for p in ctx.existing:
         if not DRAFT_RE.match(p) or p == "inbox/designs/README.md":
@@ -956,6 +982,7 @@ def main(argv=None):
         rule_experiments_list(ctx, rep, exp)
         rule_count(ctx, rep, exp)
         rule_template(ctx, rep, exp, changed)
+        rule_provenance(ctx, rep)
         rule_drafts(ctx, rep)
         if args.base is not None:
             rule_scope(ctx, rep, args.base, changed)

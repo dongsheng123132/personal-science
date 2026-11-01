@@ -95,7 +95,7 @@
 - 实验结束，肉汤倒掉后用洗洁精清洗瓶子，或煮沸消毒。
 - 全程不涉及明火以外的危险操作。酒精棉远离火源。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：路易·巴斯德](https://zh.wikipedia.org/wiki/%E8%B7%AF%E6%98%93%C2%B7%E5%B7%B4%E6%96%AF%E5%BE%B7)
 - [Louis Pasteur](https://en.wikipedia.org/wiki/Louis_Pasteur)

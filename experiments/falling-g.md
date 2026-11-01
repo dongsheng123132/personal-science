@@ -24,7 +24,7 @@
 
 **AI 时代还能做什么**：逐帧识别落点、多点拟合 s–t 曲线、自动挑出「帧率不对/手机没正对」这类误差来源。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：重力加速度](https://zh.wikipedia.org/wiki/%E9%87%8D%E5%8A%9B%E5%8A%A0%E9%80%9F%E5%BA%A6)
 - [Galileo Galilei（伽利略）](https://en.wikipedia.org/wiki/Galileo_Galilei)

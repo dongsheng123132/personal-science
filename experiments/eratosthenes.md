@@ -26,7 +26,7 @@
 
 **AI 时代还能做什么**：AI 帮你约人、核对当地太阳赤纬与时差、把经纬度误差、影子读数误差一项项拆开。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：埃拉托斯特尼](https://zh.wikipedia.org/wiki/%E5%9F%83%E6%8B%89%E6%89%98%E6%96%AF%E7%89%B9%E5%B0%BC)
 - [Eratosthenes（埃拉托色尼）](https://en.wikipedia.org/wiki/Eratosthenes)

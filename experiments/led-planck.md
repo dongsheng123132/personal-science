@@ -28,7 +28,7 @@ LED 发光的条件是：电子跨过半导体带隙，放出一个光子。光�
 
 **AI 时代还能做什么**：线性拟合、误差传播、再和 CODATA 推荐值对比，看看你差在哪。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：普朗克常数](https://zh.wikipedia.org/wiki/%E6%99%AE%E6%9C%97%E5%85%8B%E5%B8%B8%E6%95%B0)
 - [Planck constant（普朗克常数）](https://en.wikipedia.org/wiki/Planck_constant)

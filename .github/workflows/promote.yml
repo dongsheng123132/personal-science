@@ -1,0 +1,55 @@
+name: promote
+
+on:
+  schedule:
+    # UTC 23:30 = 北京 07:30，紧跟 06:17 的 collect 之后
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "只挑不提交"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: promote
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: 自动转正（草稿 → PR → 风险评审 → 视情况合并）
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PS_LLM_BASE: ${{ vars.PS_LLM_BASE }}
+          PS_LLM_MODEL: ${{ vars.PS_LLM_MODEL }}
+          PS_RISK_MODEL: ${{ vars.PS_RISK_MODEL }}
+          PS_LLM_KEY: ${{ secrets.PS_LLM_KEY }}
+        run: |
+          set -e
+          if [ -z "$PS_LLM_KEY" ]; then
+            echo "没有 PS_LLM_KEY，跳过自动转正（不会提交任何东西）"
+            exit 0
+          fi
+          git config --global user.name "ps-bot"
+          git config --global user.email "ps-bot@users.noreply.github.com"
+          gh auth setup-git
+          git fetch --quiet origin main || true
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+            python -X utf8 collector/promote.py --dry-run
+          else
+            python -X utf8 collector/promote.py
+          fi

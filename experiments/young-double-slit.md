@@ -28,7 +28,7 @@
 
 **AI 时代还能做什么**：手机拍条纹，AI 量间距、反推波长、估不确定度。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：双缝实验](https://zh.wikipedia.org/wiki/%E5%8F%8C%E7%BC%9D%E5%AE%9E%E9%AA%8C)
 - [Young's interference experiment（杨氏干涉）](https://en.wikipedia.org/wiki/Young%27s_interference_experiment)

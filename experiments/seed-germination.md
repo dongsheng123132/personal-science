@@ -26,7 +26,7 @@
 
 **AI 时代还能做什么**：帮你算样本量、做卡方检验、生成记录表，避免「20 颗里多发了 1 颗就下结论」。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：发芽](https://zh.wikipedia.org/wiki/%E5%8F%91%E8%8A%BD)
 - [Germination（发芽）](https://en.wikipedia.org/wiki/Germination)

@@ -26,7 +26,7 @@
 
 **AI 时代还能做什么**：让 AI 设计随机化顺序、生成盲测记录表、做二项检验，避免自己给自己「递答案」。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：双盲](https://zh.wikipedia.org/wiki/%E5%8F%8C%E7%9B%B2)
 - [Blind experiment（盲实验）](https://en.wikipedia.org/wiki/Blind_experiment)

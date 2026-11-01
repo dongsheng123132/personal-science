@@ -26,7 +26,7 @@
 
 **AI 时代还能做什么**：用手机或 ESP32 记录感应电压波形，AI 分析谐波、拟合法拉第定律、把它和线圈匝数对上。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：电磁感应](https://zh.wikipedia.org/wiki/%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94)
 - [Electromagnetic induction（电磁感应）](https://en.wikipedia.org/wiki/Electromagnetic_induction)

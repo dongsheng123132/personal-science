@@ -89,7 +89,7 @@ H ≈ 101325 / (1000 × 9.8) ≈ **10.3 m**
 - **水重**：10 L 水约 10 kg，桶要放稳，别放在会倒的地方。
 - **软管承压**：普通软管够用（水柱底部压强约 1 个大气压），但接口要扎紧，防止脱落溅水。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：托里拆利](https://zh.wikipedia.org/wiki/%E6%89%98%E9%87%8C%E6%8B%86%E5%88%A9)
 - [Evangelista Torricelli](https://en.wikipedia.org/wiki/Evangelista_Torricelli)

@@ -26,7 +26,7 @@
 
 **AI 时代还能做什么**：手机拍彩色条纹，AI 估算应力集中位置，和受力方向对上。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：偏振](https://zh.wikipedia.org/wiki/%E5%81%8F%E6%8C%AF)
 - [Polarization（偏振）](https://en.wikipedia.org/wiki/Polarization_%28waves%29)

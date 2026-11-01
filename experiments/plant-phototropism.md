@@ -26,7 +26,7 @@
 
 **AI 时代还能做什么**：手机延时加 AI 追踪茎尖轨迹，把「弯过去」量化成弯曲角速度。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：向光性](https://zh.wikipedia.org/wiki/%E5%90%91%E5%85%89%E6%80%A7)
 - [Phototropism（向光性）](https://en.wikipedia.org/wiki/Phototropism)

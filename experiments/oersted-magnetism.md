@@ -26,7 +26,7 @@
 
 **AI 时代还能做什么**：手机磁力计测磁场分布，AI 画场线、和理论值比对。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：汉斯·克里斯蒂安·奥斯特](https://zh.wikipedia.org/wiki/%E6%B1%89%E6%96%AF%C2%B7%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82%E5%AE%89%C2%B7%E5%A5%A5%E6%96%AF%E7%89%B9)
 - [Hans Christian Ørsted（奥斯特）](https://en.wikipedia.org/wiki/Hans_Christian_%C3%98rsted)

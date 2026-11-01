@@ -26,7 +26,7 @@
 
 **AI 时代还能做什么**：手机拍光谱照片，AI 识别谱线、比对元素，把「一条彩虹」读成成分表。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：棱镜](https://zh.wikipedia.org/wiki/%E6%A3%B1%E9%95%9C)
 - [Prism（棱镜）](https://en.wikipedia.org/wiki/Prism)

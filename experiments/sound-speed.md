@@ -24,7 +24,7 @@
 
 **AI 时代还能做什么**：手机录音加 AI 用互相关找回声延迟，比人耳准得多。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：声速](https://zh.wikipedia.org/wiki/%E5%A3%B0%E9%80%9F)
 - [Speed of sound（声速）](https://en.wikipedia.org/wiki/Speed_of_sound)

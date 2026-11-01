@@ -31,7 +31,7 @@ r = (V₀ − V₁) / I
 
 **AI 时代还能做什么**：把电压—电流曲线记下来交给 AI 拟合，比较不同温度、不同电量下的内阻变化，比手算快得多。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：内阻](https://zh.wikipedia.org/wiki/%E5%86%85%E9%98%BB)
 - [Internal resistance（内阻）](https://en.wikipedia.org/wiki/Internal_resistance)

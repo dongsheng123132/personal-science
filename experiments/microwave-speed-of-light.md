@@ -32,7 +32,7 @@
 
 **AI 时代还能做什么**：拍照识别融化点间距、自动算波长和误差，还能对比不同功率/时间的加热斑。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：光速](https://zh.wikipedia.org/wiki/%E5%85%89%E9%80%9F)
 - [Speed of light（光速）](https://en.wikipedia.org/wiki/Speed_of_light)

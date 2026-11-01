@@ -26,7 +26,7 @@ TDS 笔测的是水的电导率折算值（ppm）。它便宜、快、能重复�
 
 **AI 时代还能做什么**：汇总多人数据，AI 画城市分布图、找异常值，把「我家水怎么样」变成地区差异。
 
-## 延伸阅读
+## 来源与依据
 
 - [中文：总溶解固体](https://zh.wikipedia.org/wiki/%E6%80%BB%E6%BA%B6%E8%A7%A3%E5%9B%BA%E4%BD%93)
 - [Total dissolved solids（溶解性总固体）](https://en.wikipedia.org/wiki/Total_dissolved_solids)
