@@ -48,6 +48,11 @@ CATS_EN = {
     "方法与思维": "Method & thinking",
 }
 
+# 命中即强制人工，不交给模型判断（fail-closed）
+HARD_BLOCK = ("市电", "220v", "220 v", "高压", "锂电池", "铅酸", "激光", "化学品",
+              "强酸", "强碱", "水银", "汞", "放射性", "辐射源", "微生物", "菌种",
+              "明火", "酒精灯", "高处作业", "屋顶", "攀爬", "强磁", "钕磁铁")
+
 TEMPLATE_SECTIONS = ["为什么值得做", "怎么做", "AI 可以怎么帮你",
                      "算一下 / 会看到什么", "坑", "想再往前一步", "安全"]
 
@@ -126,6 +131,11 @@ def llm(prompt, model_env="PS_LLM_MODEL", key_env="PS_LLM_KEY",
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         data = json.loads(resp.read().decode("utf-8"))
     return data["choices"][0]["message"]["content"].strip()
+
+
+def hard_hits(text):
+    low = text.lower()
+    return [w for w in HARD_BLOCK if w in low]
 
 
 def json_of(text):
@@ -439,7 +449,7 @@ def push_to_main(paths, message):
     return False
 
 
-def write_review(slug, draft, sources, curation, risk, status, pr_url):
+def write_review(slug, draft, sources, curation, risk, status, pr_url, screen=None, blocked=None):
     REVIEWS_DIR.mkdir(exist_ok=True)
     rec = {
         "slug": slug,
@@ -461,6 +471,10 @@ def write_review(slug, draft, sources, curation, risk, status, pr_url):
         },
         "status": status,
         "pr": pr_url,
+        "screen": {"level": (screen or {}).get("risk_level"),
+                   "verdict": (screen or {}).get("verdict")},
+        "hard_block": blocked or [],
+        "auto_merge": False,
     }
     rel = "reviews/%s.json" % slug
     (BASE / rel).write_text(json.dumps(rec, ensure_ascii=False, indent=1) + "\n", "utf-8")
@@ -474,6 +488,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--skip-judges", action="store_true", help="不调模型（本地测试用）")
+    ap.add_argument("--no-merge", action="store_true",
+                    help="只开 PR 并写出决策 JSON，合并交给独立的 merge job")
     args = ap.parse_args()
 
     state = load_state()
@@ -554,20 +570,46 @@ def main():
     log("选中：%s（策展分 %s，分类 %s）" % (draft["title"], curation.get("score"), cur_cat))
 
     page = build_page(draft, sources)
+    blocked = hard_hits(page)
     if args.skip_judges:
+        screen = {"risk_level": "low", "verdict": "approve", "findings": []}
         risk = {"risk_level": "low", "verdict": "approve", "physics_ok": True,
                 "safety_ok": True, "provenance_ok": True, "findings": [],
                 "summary": "skip-judges 测试模式"}
     else:
-        risk = json_of(llm(RISK_PROMPT % page, model_env="PS_RISK_MODEL",
-                           key_env="PS_RISK_KEY", base_env="PS_RISK_BASE"))
+        # 第一段：便宜的预筛（Haiku）。它说不过 → 直接拦，不再花 Sonnet 的钱。
+        screen = json_of(llm(RISK_PROMPT % page, model_env="PS_SCREEN_MODEL",
+                             key_env="PS_RISK_KEY", base_env="PS_RISK_BASE"))
+        log("预筛（%s）：%s / %s" % (
+            os.environ.get("PS_SCREEN_MODEL", "haiku"),
+            screen.get("risk_level"), screen.get("verdict")))
+        if screen.get("verdict") in ("reject", "hold"):
+            risk = screen
+            risk["summary"] = "预筛已拦下：" + str(risk.get("summary", ""))
+        else:
+            # 第二段：终审（Sonnet），只有预筛放行才花钱
+            risk = json_of(llm(RISK_PROMPT % page, model_env="PS_RISK_MODEL",
+                               key_env="PS_RISK_KEY", base_env="PS_RISK_BASE"))
+            log("终审（%s）：%s / %s" % (
+                os.environ.get("PS_RISK_MODEL", "sonnet"),
+                risk.get("risk_level"), risk.get("verdict")))
+    if blocked:
+        risk["risk_level"] = "high"
+        risk["verdict"] = "hold"
+        risk.setdefault("findings", []).insert(0, {
+            "severity": "critical",
+            "what": "命中硬阻断词（%s）：这类实验一律转人工，不自动合并" % "、".join(blocked),
+            "where": "硬规则"})
+        log("硬阻断命中：%s" % "、".join(blocked))
     log("风险评审：%s / %s" % (risk.get("risk_level"), risk.get("verdict")))
     for f in risk.get("findings", []):
         log("  - [%s] %s" % (f.get("severity"), f.get("what")))
 
     auto_merge = (risk.get("verdict") == "approve"
                   and risk.get("risk_level") == "low"
-                  and not any(f.get("severity") == "critical" for f in risk.get("findings", [])))
+                  and not blocked
+                  and not any(f.get("severity") == "critical"
+                              for f in risk.get("findings", [])))
 
     if args.dry_run:
         log("dry-run：将创建 experiments/%s.md（自动合并=%s）" % (slug, auto_merge))
@@ -638,7 +680,8 @@ def main():
         log("该分支已有 PR，复用：%s" % pr_url)
     log("PR: " + pr_url)
     write_review(slug, draft, sources, curation, risk,
-                 "published" if auto_merge else "held", pr_url)
+                 "published" if auto_merge else "held", pr_url,
+                 screen=screen, blocked=blocked)
 
     # 留痕（单独一个提交推到同一分支）
     if not AUDIT_PATH.exists():
@@ -653,7 +696,13 @@ def main():
     run(["git", "commit", "-m", "audit: 记录自动转正 " + slug])
     run(["git", "push"], check=False)
 
-    if auto_merge:
+    decision = {"slug": slug, "pr": pr_url, "auto_merge": bool(auto_merge),
+                "risk_level": risk.get("risk_level"), "verdict": risk.get("verdict"),
+                "hard_block": blocked, "date": TODAY, "model_screen": os.environ.get("PS_SCREEN_MODEL"),
+                "model_final": os.environ.get("PS_RISK_MODEL")}
+    pathlib.Path("/tmp/promote-decision.json").write_text(
+        json.dumps(decision, ensure_ascii=False, indent=1), "utf-8")
+    if auto_merge and not args.no_merge:
         merged = wait_and_merge(pr_url)
         if merged:
             state["publishes"].append({"date": TODAY, "slug": slug, "pr": pr_url})

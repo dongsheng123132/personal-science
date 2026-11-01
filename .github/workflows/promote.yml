@@ -20,8 +20,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  promote:
+  # ① 生成：会读外部文本、会调模型；**没有合并权限**
+  generate:
     runs-on: ubuntu-latest
+    outputs:
+      auto_merge: ${{ steps.dec.outputs.auto_merge }}
+      pr: ${{ steps.dec.outputs.pr }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -31,11 +35,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 自动转正（草稿 → PR → 风险评审 → 视情况合并）
+      - name: 生成实验页 + 两段式风险评审（不合并）
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PS_LLM_BASE: ${{ vars.PS_LLM_BASE }}
           PS_LLM_MODEL: ${{ vars.PS_LLM_MODEL }}
+          PS_SCREEN_MODEL: ${{ vars.PS_SCREEN_MODEL }}
           PS_RISK_MODEL: ${{ vars.PS_RISK_MODEL }}
           PS_RISK_BASE: ${{ vars.PS_RISK_BASE }}
           PS_RISK_KEY: ${{ secrets.PS_RISK_KEY }}
@@ -43,7 +48,7 @@ jobs:
         run: |
           set -e
           if [ -z "$PS_LLM_KEY" ]; then
-            echo "没有 PS_LLM_KEY，跳过自动转正（不会提交任何东西）"
+            echo "没有 PS_LLM_KEY，跳过自动转正"
             exit 0
           fi
           git config --global user.name "ps-bot"
@@ -53,5 +58,62 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
             python -X utf8 collector/promote.py --dry-run
           else
-            python -X utf8 collector/promote.py
+            python -X utf8 collector/promote.py --no-merge
           fi
+
+      - name: 导出决策（失败则视为不可合并）
+        id: dec
+        if: always()
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, pathlib
+          p = pathlib.Path("/tmp/promote-decision.json")
+          d = json.loads(p.read_text()) if p.exists() else {}
+          print("auto_merge=%s" % ("true" if d.get("auto_merge") else "false"))
+          print("pr=%s" % (d.get("pr") or ""))
+          PY
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: promote-decision
+          path: /tmp/promote-decision.json
+          if-no-files-found: ignore
+
+  # ② 合并：**不跑任何模型、不读外部文本**，只校验结构化决策再合并
+  merge:
+    needs: generate
+    if: needs.generate.outputs.auto_merge == 'true' && needs.generate.outputs.pr != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: promote-decision
+          path: /tmp/decision
+
+      - name: 二次校验（fail-closed）
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          python - <<'PY'
+          import json, pathlib, sys
+          d = json.loads(pathlib.Path("/tmp/decision/promote-decision.json").read_text())
+          ok = (d.get("auto_merge") is True and d.get("risk_level") == "low"
+                and d.get("verdict") == "approve" and not d.get("hard_block"))
+          print("决策:", json.dumps(d, ensure_ascii=False))
+          if not ok:
+              print("不满足自动合并条件，退出（PR 保留给人工）")
+              sys.exit(1)
+          PY
+          PR="${{ needs.generate.outputs.pr }}"
+          for i in $(seq 1 20); do
+            states=$(gh pr checks "$PR" --json state --jq '[.[].state]|unique|join(",")' || true)
+            echo "checks: $states"
+            case "$states" in
+              *FAILURE*|*CANCELLED*|*"") [ "$states" = "SUCCESS" ] && break ;;
+            esac
+            [ "$states" = "SUCCESS" ] && break
+            sleep 20
+          done
+          gh pr merge "$PR" --squash --delete-branch
