@@ -1,0 +1,4 @@
+{
+  "note": "人工实测签发：签过的页面会解锁「怎么做」并显示绿色『已实测』徽章。字段：reviewer(署名)、date、evidence(照片/数据链接)、note。",
+  "signoffs": {}
+}
