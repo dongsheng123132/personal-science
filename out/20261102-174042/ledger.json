@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "ts": "2026-11-02T17:40:42",
+    "tier": "econ"
+  },
+  "question": "这是修订后的三个最小版本实验步骤（已按上一轮意见修改）。请复审：安全、物理、可执行、验收。每个实验给 PASS / FIX / BLOCK 一个结论，并列出仍需修改的点（没有就写\"无\"）。不要复述原文，300 字以内。",
+  "context": "# battery-internal-resistance\n\n## 最小版本（15 分钟）\n\n只要四样：一节 1.5V **碱性干电池**（新旧各一）、一个 10Ω **0.5W 以上**的电阻、一块万用表、两个鳄鱼夹（或胶带）。\n\n1. 万用表打直流电压档，直接量电池两端 → 记 V₀（开路电压）\n2. 用鳄鱼夹把 10Ω 电阻夹在电池两端，**同时**在电池两端量电压 → 记 V₁\n3. 读数的**瞬间**就断开，别一直接着\n4. 内阻 r = (V₀ − V₁) / (V₁ / 10)\n5. 换一节新电池重复，对比\n\n**测什么**：旧电池的 r 明显比新电池大（常见新电池 < 0.5Ω、旧电池 > 2Ω）。但**夹子接触电阻本身就有 0.1–0.5Ω**，所以只看\"旧明显大于新\"这个方向，别拿绝对值当真理。\n\n**安全**：只能用 1.5V **碱性干电池**；**禁止**锂电池、14500、充电电池（短路可能起火）；电池鼓胀、漏液、破损一律不用；电阻会发热，摸之前等一下；每次接触不超过 5 秒。\n\n```\n日期：____  电池：____（新旧/型号）\nV₀ = ____ V    V₁ = ____ V\nr = (V₀−V₁)/(V₁/10) = ____ Ω\n重复 3 次：____ / ____ / ____\n对比：新电池 ____Ω，旧电池 ____Ω\n异常（发热/漏液/读数跳）：____\n```\n\n\n\n=====\n\n# tds-water\n\n## 最小版本（15 分钟）\n\n一杯自来水、一杯瓶装水、一杯纯净水（或凉白开），一支 TDS 笔。\n\n1. 三个杯子各倒 100 mL，**同温**放半小时（水温高于 40℃ 读数会失真）\n2. TDS 笔探头浸入，等读数稳定 5 秒，记数\n3. 每换一种水，先用待测水涮两遍探头\n4. 每种水测 3 次取平均\n\n**测什么**：自来水通常 100–300 ppm，纯净水 < 30 ppm，矿泉水可能更高（含矿物质）。\n\n**两个必须知道的误读**：\n- **TDS 高 ≠ 脏**：矿泉水里的钙镁离子也算 TDS。\n- **TDS 低 ≠ 安全**：糖、细菌、病毒都不改变 TDS，测不出来。\n- 凉白开不是纯水，煮沸会让矿物质浓缩，读数可能比自来水还高。\n\n**注意**：TDS 笔测的是电导率折算值，不是水质检测仪；定期用标准液校准。\n\n```\n日期：____  室温：____℃  水温：____℃\n自来水 ____ / ____ / ____ ppm  平均 ____\n瓶装水 ____ / ____ / ____ ppm  平均 ____\n纯净水 ____ / ____ / ____ ppm  平均 ____\n结论：谁的 TDS 最高？查一下它标称的矿物质含量对不对得上\n异常：____\n```\n\n\n\n=====\n\n# oersted-magnetism\n\n## 最小版本（10 分钟）\n\n一节 1.5V **碱性干电池**、一段导线、一个**物理磁针**指南针（手机指南针仅作备选，它是电子磁力计，电流靠近会受干扰）。\n\n1. 指南针平放桌面，等磁针静止，记住南北\n2. 导线放在指南针**正上方 1–2 cm**，沿**南北方向**，并且**与磁针指向一致**\n3. 导线两端**瞬时**碰一下电池正负极（1–2 秒），看磁针是否偏转\n4. 再把导线改成**东西方向**，重复一次\n5. 估一个偏转角度：偏转 ≥ 20° 算明显\n\n**测什么**：导线与磁针平行（南北放）时偏转明显；垂直（东西放）时几乎不偏——这个方向依赖就是\"电流产生环形磁场\"的直接证据。\n\n**安全**：只做**瞬时**接触（≤2 秒），导线或电池发热立刻停；只能用 1.5V 碱性干电池，禁用锂电池/充电电池/市电；鼓胀、漏液、破损的电池不用。\n\n```\n日期：____  电池：1.5V 碱性干电池  距离：____cm\n导线南北放：磁针偏转 □有 □无，方向 ____，估角 ____°\n导线东西放：磁针偏转 □有 □无\n结论：偏转方向和右手定则一致吗？\n异常（发热/读数跳）：____\n```",
+  "total_cost_usd": 0.007785905000000001,
+  "calls": [
+    {
+      "ok": true,
+      "served": "commandcode-plan/z-ai/glm-5.3-flash",
+      "provider": "commandcode-plan",
+      "usage": {
+        "completion_tokens": 763,
+        "completion_tokens_details": {
+          "reasoning_tokens": 408
+        },
+        "prompt_tokens": 1220,
+        "prompt_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1983
+      },
+      "dt": 17.04027485847473,
+      "key": "glm-flash",
+      "model": "auto/glm-5.3-flash",
+      "family": "Zhipu",
+      "cost": 0.00010526999999999999
+    },
+    {
+      "ok": true,
+      "served": "workbuddy/deepseek-v4.1-flash",
+      "provider": "workbuddy",
+      "usage": {
+        "completion_tokens": 246,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens": 1164,
+        "prompt_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1410
+      },
+      "dt": 3.9529330730438232,
+      "key": "deepseek-flash",
+      "model": "auto/deepseek-v4.1-flash",
+      "family": "DeepSeek",
+      "cost": 0.00016956000000000002
+    },
+    {
+      "ok": true,
+      "served": "openrouter/openai/gpt-6-luna",
+      "provider": "openrouter",
+      "usage": {
+        "prompt_tokens": 1394,
+        "completion_tokens": 307,
+        "total_tokens": 1701,
+        "cost": 0.000327675,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1391,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000327675,
+          "upstream_inference_prompt_cost": 0.000174175,
+          "upstream_inference_completions_cost": 0.0001535
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "dt": 4.683067321777344,
+      "key": "gpt-luna",
+      "model": "auto/gpt-6-luna",
+      "family": "OpenAI",
+      "cost": 0.000327675
+    },
+    {
+      "ok": true,
+      "served": "openrouter/anthropic/claude-haiku-5.5",
+      "provider": "openrouter",
+      "usage": {
+        "completion_tokens": 563,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens": 1835,
+        "prompt_tokens_details": {
+          "cache_write_tokens": 1831,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2398
+      },
+      "dt": 4.291285991668701,
+      "key": "claude-haiku",
+      "model": "auto/claude-haiku-5-5",
+      "family": "Anthropic",
+      "cost": 0.000465
+    }
+  ],
+  "judge": "1. 共识  \n- 电池内阻实验物理公式与功率估算成立，接触电阻影响需写清，只作新旧相对比较。  \n- TDS 实验整体安全、可执行，误读提示正确。  \n- 奥斯特实验必须串限流电阻，不能直接短路 1.5V 电池。  \n- 三个实验都缺量化验收判据，需补数值或条件阈值。  \n- 重复测量应说明间隔、冲洗或冷却要求。\n\n2. 分歧  \n- 电池内阻是否 PASS：Zhipu 给 PASS，DeepSeek/OpenAI/Anthropic 给 FIX。我站 FIX，因为接触电阻、测量瞬间一致性和“明显大于”未量化，会影响验收。  \n- 奥斯特是 FIX 还是 BLOCK：OpenAI 给 BLOCK，其余多给 FIX。我站 FIX，只要串限流电阻并禁止直接短路，风险可控，不必阻断。  \n- TDS 同温半小时是否必要：OpenAI 认为可删，Zhipu/DeepSeek 基本接受。我站保留但简化为“室温放置至手感同温即可”，不强制半小时。  \n- 限流电阻阻值：Zhipu/DeepSeek 建议 1–2Ω，OpenAI 建议 10Ω。我站 1–2Ω 更合适，10Ω 会显著降低电流和磁场，可能让偏转不明显。\n\n3. 独到且正确的点  \n- DeepSeek：TDS 探头气泡会虚高，需晃动排除。  \n- DeepSeek：奥斯特实验无偏转时应先验证电池电量，否则无法判断“垂直不偏”。  \n- Anthropic：奥斯特应补“无电流基线”测量，避免地磁场或桌面干扰误判。  \n- OpenAI：万用表电流档严禁直接跨接电池，防止烧表。\n\n4. 明显错误或不可执行的建议  \n- OpenAI 建议奥斯特串 10Ω 限流：电流约 0.15A，磁场太弱，偏转可能不足 20°，不实用。  \n- Anthropic 要求电池内阻“≥2 倍”作为明显阈值：旧电池内阻波动大，固定倍数可能误判，应写“旧 r 明显高于新 r，且重复稳定”。  \n- Zhipu 说 TDS“标准液校准”非阻塞：对 15 分钟家庭实验，校准确实不可执行，应直接删除或改为可选。  \n- 回答中“导线≥30cm”作为限流手段不成立：普通导线电阻极低，加长到 30cm 仍近似短路。\n\n5. 综合建议  \n按优先级：  \n1. 奥斯特实验串 1–2Ω/1W 限流电阻，接触≤2 秒，看到偏转即断开。  \n2. 电池内阻实验写清“V₁ 在接通瞬间读取”，并补“V₁<V₀ 且 r>0”，否则接线错误。  \n3. 三个实验各补一个量化判据：电池 r 旧/新≥2 倍或旧>1Ω；TDS 三次读数极差≤10% 才取平均；奥斯特南北放偏转≥20°且东西放<10°。  \n4. TDS 删除半小时等待，改为同温即可；探头冲洗并晃动排气泡。  \n5. 奥斯特增加无电流基线记录，排除桌面磁场干扰。\n\n6. 最容易被忽略的致命风险  \n- 奥斯特实验直接短路电池：即使 1–2 秒也可能导致导线高温、电池漏液或烫伤，必须串限流电阻。  \n- 万用表误用电流档跨接电池：会烧表甚至引发短路危险，实验前应明确只允许电压档并联测量。"
+}
