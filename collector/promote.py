@@ -84,8 +84,8 @@ RISK_PROMPT = """你是这个公开仓库的独立风险评审（只做审查，
 5. 来源：来源是否真的支撑正文，而不是挂几个不相关的链接？
 
 按严重度给 findings：critical（必须拦）/ warn（要人看）/ info。
-verdict 规则：有 critical → reject；只有 warn → hold；无 critical 且无 warn → approve。
-risk_level：critical 存在=high；有 warn=medium；都没有=low。
+verdict 规则：有 critical → reject；physics_ok/safety_ok/provenance_ok 任一项为 false → hold；三项都 true 且无 critical → approve（warn 可以存在，会原样公开给读者看）。
+risk_level：有 critical=high；physics/safety/provenance 任一项 false=medium；三项都 true 且无 critical=low。
 
 只输出 JSON：
 {"risk_level":"low|medium|high","verdict":"approve|hold|reject","physics_ok":true/false,"safety_ok":true/false,"provenance_ok":true/false,"findings":[{"severity":"critical|warn|info","what":"...","where":"..."}],"summary":"..."}
@@ -134,8 +134,16 @@ def llm(prompt, model_env="PS_LLM_MODEL", key_env="PS_LLM_KEY",
 
 
 def hard_hits(text):
-    low = text.lower()
-    return [w for w in HARD_BLOCK if w in low]
+    """命中硬阻断词就算，但**禁止性语句不算**（"不要用市电"不是真的用市电）。"""
+    hits = []
+    for line in text.splitlines():
+        low = line.lower()
+        if any(neg in low for neg in ("禁止", "不要", "不用", "切勿", "严禁", "避免", "别用", "不可", "不得")):
+            continue
+        for w in HARD_BLOCK:
+            if w in low and w not in hits:
+                hits.append(w)
+    return hits
 
 
 def json_of(text):
@@ -488,9 +496,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--skip-judges", action="store_true", help="不调模型（本地测试用）")
+    ap.add_argument("--draft", help="强制指定某份草稿（文件名），用于演练/返工")
     ap.add_argument("--no-merge", action="store_true",
                     help="只开 PR 并写出决策 JSON，合并交给独立的 merge job")
     args = ap.parse_args()
+    if args.draft:
+        os.environ["PS_FORCE_DRAFT"] = args.draft
 
     state = load_state()
     if not args.dry_run and not limit_ok(state):
@@ -519,14 +530,17 @@ def main():
     if rc == 0:
         open_bodies = out
     cands = []
+    only = os.environ.get("PS_FORCE_DRAFT") or ""
     for p in sorted(DESIGNS.glob("*.md"), key=lambda x: x.name):
         if p.name == "README.md":
+            continue
+        if only and p.name != only:
             continue
         d = parse_draft(p)
         if not d:
             continue
         rel = str(p.relative_to(BASE))
-        if rel in rejected or rel in open_bodies:
+        if not only and (rel in rejected or rel in open_bodies):
             continue
         if not all(k in d["sections"] for k in TEMPLATE_SECTIONS):
             continue
@@ -607,6 +621,9 @@ def main():
 
     auto_merge = (risk.get("verdict") == "approve"
                   and risk.get("risk_level") == "low"
+                  and risk.get("physics_ok") is not False
+                  and risk.get("safety_ok") is not False
+                  and risk.get("provenance_ok") is not False
                   and not blocked
                   and not any(f.get("severity") == "critical"
                               for f in risk.get("findings", [])))
