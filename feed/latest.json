@@ -1,92 +1,40 @@
 {
- "generated_at": "2026-11-01T01:09:10+00:00",
- "date": "2026-11-01",
- "count": 4,
+ "generated_at": "2026-11-02T01:29:55+00:00",
+ "date": "2026-11-02",
+ "count": 2,
  "items": [
   {
-   "id": "657c8d5cc2dc",
+   "id": "48c907f7729e",
    "source": "hackaday",
-   "title": "Novelty Camera To USB Camera",
-   "url": "https://hackaday.com/2026/10/30/novelty-camera-to-usb-camera",
-   "published": "2026-10-30",
-   "summary": "The Godox C100 is a cheap camera that’s best described as a toy, its party trick being a large clear viewfinder with a head-up-display light meter. It’s by no means …read more",
+   "title": "An Electronic Candle You Can Set On Fire",
+   "url": "https://hackaday.com/2026/11/01/an-electronic-candle-you-can-set-on-fire",
+   "published": "2026-11-01",
+   "summary": "Candles are pretty to look at, but they tend to be rather a fire risk and a negative influence on air quality, too. If you want the vibe without the …read more",
    "meta": {
-    "query": "sensor"
+    "query": "air quality"
    },
    "targeted": true,
-   "score": 91,
-   "why": "命中 camera、cheap、camera，2026-10-30",
+   "score": 84,
+   "why": "命中 air quality，2026-11-01",
    "obj_hits": [
-    "camera"
+    "air quality"
    ],
-   "per_hits": [
-    "cheap"
-   ],
-   "modern_hits": [
-    "camera"
-   ],
-   "hits": [
-    "camera",
-    "cheap",
-    "camera"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "304f0259b818",
-   "source": "hackaday",
-   "title": "VR Headset Ditches the Base Stations with DIY Tracking",
-   "url": "https://hackaday.com/2026/10/30/vr-headset-ditches-the-base-stations-with-diy-tracking",
-   "published": "2026-10-30",
-   "summary": "Those in the virtual reality scene might be interested in [Prohurtz]’s add-on for the Bigscreen Beyond VR headset. BSB-SLAM adds SLAM (Simultaneous Localization and Mapping) tracking to the headset by attaching …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 78,
-   "why": "命中 diy，2026-10-30",
-   "obj_hits": [],
-   "per_hits": [
-    "diy"
-   ],
+   "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "diy"
+    "air quality"
    ],
-   "title_signal": true
+   "title_signal": false
   },
   {
-   "id": "8bdc9f6355f2",
-   "source": "hackaday",
-   "title": "DIY WiFi Analyzer Sniffs Out Congestion and Coverage Issues, Suggests Fixes",
-   "url": "https://hackaday.com/2026/10/31/diy-wifi-analyzer-sniffs-out-congestion-and-coverage-issues-suggests-fixes",
-   "published": "2026-10-31",
-   "summary": "[Roni Bandini]’s JEV WiFi Analyzer is an interesting experiment that glues together a single-board Linux computer, a USB WiFi adapter, and a specialized AI model to create a new kind …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 78,
-   "why": "命中 diy，2026-10-31",
-   "obj_hits": [],
-   "per_hits": [
-    "diy"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "diy"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "70780f97963a",
+   "id": "83ad8e00d21a",
    "source": "wikipedia",
-   "title": "黛米·摩尔",
-   "url": "https://zh.wikipedia.org/wiki/%E9%BB%9B%E7%B1%B3%C2%B7%E6%91%A9%E5%B0%94",
+   "title": "Lee Sun Chau",
+   "url": "https://en.wikipedia.org/wiki/Lee_Sun_Chau",
    "published": "",
-   "summary": "黛米·吉恩·摩尔（Demi Gene Moore，1962年11月11日—），前姓蓋尼斯（Guynes），美国女演员。 黛米·摩尔在20世纪80年代初于好莱坞声名鹊起，1995年，她成为世界上收入最高的女演员。她被公认为好莱坞女性同工同酬的先驱。获得的重要荣誉包括金球奖和美国演员工会奖，并获得奥斯卡金像奖、英国电影学院奖和艾美奖提名。",
+   "summary": "Lee Sun Chau (周理信, i.e., 周六姑, 1890-1979) was one of the first female Chinese doctors of Western Medicine in China.",
    "meta": {
-    "site": "zh.wikipedia.org"
+    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,

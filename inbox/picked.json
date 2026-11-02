@@ -1,58 +1,81 @@
 {
- "generated_at": "2026-11-01T01:10:20+00:00",
- "count": 2,
+ "generated_at": "2026-11-02T01:30:34+00:00",
+ "count": 3,
  "items": [
   {
-   "id": "657c8d5cc2dc",
+   "id": "a58941cbbc37",
    "source": "hackaday",
-   "title": "Novelty Camera To USB Camera",
-   "url": "https://hackaday.com/2026/10/30/novelty-camera-to-usb-camera",
-   "published": "2026-10-30",
-   "summary": "The Godox C100 is a cheap camera that’s best described as a toy, its party trick being a large clear viewfinder with a head-up-display light meter. It’s by no means …read more",
+   "title": "Every Type of Current Sensor Explained",
+   "url": "https://hackaday.com/2026/10/21/every-type-of-current-sensor-explained",
+   "published": "2026-10-21",
+   "summary": "Measuring electric currents is an essential element of many electrical systems, but doing so in a way that is as nonintrusive as possible is not an easy problem to solve. …read more",
    "meta": {
     "query": "sensor"
    },
    "targeted": true,
-   "score": 91,
+   "score": 87,
    "why": "",
    "obj_hits": [
-    "camera"
+    "sensor"
    ],
-   "per_hits": [
-    "cheap"
-   ],
+   "per_hits": [],
    "modern_hits": [
-    "camera"
+    "sensor"
    ],
    "hits": [
-    "camera",
-    "cheap",
-    "camera"
+    "sensor",
+    "sensor"
    ],
    "title_signal": true
   },
   {
-   "id": "172b48983d81",
+   "id": "63e1526bb11f",
    "source": "hackaday",
-   "title": "ESP32 Rotary Display Makes Ideal Timer",
-   "url": "https://hackaday.com/2026/10/27/esp32-rotary-display-makes-ideal-timer",
-   "published": "2026-10-27",
-   "summary": "We’re big fans of pushing hardware into situations it wasn’t designed for here at Hackaday, but sometimes you’ve got to appreciate a nicely designed gadget doing more or less exactly …read more",
+   "title": "Building a Microscope with a 3D View",
+   "url": "https://hackaday.com/2026/10/18/building-a-microscope-with-a-3d-view",
+   "published": "2026-10-18",
+   "summary": "As electronic components grow ever smaller, a microscope has become an increasingly indispensable tool for any fine work; when inspecting electronics, though, especially solder joints, [Corebb] found a top-down view …read more",
+   "meta": {
+    "query": "microscope"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "obj_hits": [
+    "microscope"
+   ],
+   "per_hits": [
+    "build"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "microscope",
+    "build"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "8bdc9f6355f2",
+   "source": "hackaday",
+   "title": "DIY WiFi Analyzer Sniffs Out Congestion and Coverage Issues, Suggests Fixes",
+   "url": "https://hackaday.com/2026/10/31/diy-wifi-analyzer-sniffs-out-congestion-and-coverage-issues-suggests-fixes",
+   "published": "2026-10-31",
+   "summary": "[Roni Bandini]’s JEV WiFi Analyzer is an interesting experiment that glues together a single-board Linux computer, a USB WiFi adapter, and a specialized AI model to create a new kind …read more",
    "meta": {
     "query": "DIY lab"
    },
    "targeted": true,
-   "score": 77,
+   "score": 78,
    "why": "",
    "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [
-    "esp32"
+   "per_hits": [
+    "diy"
    ],
+   "modern_hits": [],
    "hits": [
-    "esp32"
+    "diy"
    ],
-   "title_signal": false
+   "title_signal": true
   }
  ]
 }

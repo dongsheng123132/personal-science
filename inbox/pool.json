@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T01:09:10+00:00",
+ "updated_at": "2026-11-02T01:29:55+00:00",
  "count": 150,
  "items": [
   {
@@ -509,6 +509,29 @@
     "实验"
    ],
    "title_signal": true
+  },
+  {
+   "id": "48c907f7729e",
+   "source": "hackaday",
+   "title": "An Electronic Candle You Can Set On Fire",
+   "url": "https://hackaday.com/2026/11/01/an-electronic-candle-you-can-set-on-fire",
+   "published": "2026-11-01",
+   "summary": "Candles are pretty to look at, but they tend to be rather a fire risk and a negative influence on air quality, too. If you want the vibe without the …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "obj_hits": [
+    "air quality"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "air quality"
+   ],
+   "title_signal": false
   },
   {
    "id": "d77d099493ec",
@@ -1182,12 +1205,12 @@
    "title_signal": true
   },
   {
-   "id": "6597a7733b86",
+   "id": "9bb8bebc8f58",
    "source": "wikipedia",
-   "title": "物理哲学",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%93%B2%E5%AD%A6",
+   "title": "物理学史",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E5%8F%B2",
    "published": "",
-   "summary": "在哲学中，物理哲学是关于当代物理中的概念性与解释性的问题。其中许多问题与理论物理学家的研究领域重叠。物理哲学可大致分为以下三个领域： 对量子力学的解释：主要关于如何形式化地看待量子测量以及该理论对现实的描述。 空间与时间的本质：时空是物质，或仅仅是一种关系？同时性是常规的或者相对的？暂时的不对称性是否可以单纯还原为热力学不对称性？ 理论间的关系：不同物理理论之间的关系，如热力学与统计力学。这领域与科学还原论重叠。",
+   "summary": "物理学主要是研究物质、能量及它們彼此之間的關係。它是最早形成的自然科学学科之一，如果把天文学包括在内则有可能是名副其实历史最悠久的自然科学。最早的物理学著作是古希腊科学家亚里士多德的《物理學》。形成物理学的元素主要来自对天文学、光学和力学的研究，而这些研究通过几何学的方法统合在一起形成了物理学。这些方法形成于古巴比伦和古希腊时期，当时的代表人物如数学家阿基米德和天文学家托勒密；随后这些学说被传入阿拉伯世界，并被当时的阿拉伯科学家海什木等人发展为更具有物理性和实验性的传统学说；最终这些学说传入了西欧，首先研究这些内容的学者代表人物是罗吉尔·培根。然而在当时的西方世界，哲学家们普遍认为这些学说在本质上是技术性的，从而一般没有察觉到它们所描述的内容反映着自然界中重要的哲学意义。而在古代中国和印度的科学史上，类似的研究数学的方法也在发展中。 在这一时代，包含着所谓“自然哲学”（即物理学）的哲学所集",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1196,12 +1219,12 @@
    "why": "",
    "timeless": true,
    "obj_hits": [
-    "测量"
+    "实验"
    ],
    "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "测量"
+    "实验"
    ],
    "title_signal": false
   },
@@ -1276,6 +1299,30 @@
     "实验"
    ],
    "title_signal": false
+  },
+  {
+   "id": "3159fb8be0c4",
+   "source": "wikipedia",
+   "title": "惠勒延迟选择实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
   },
   {
    "id": "f2bc782fed23",
@@ -1398,12 +1445,12 @@
    "title_signal": false
   },
   {
-   "id": "9bb8bebc8f58",
+   "id": "889dbcaae6cd",
    "source": "wikipedia",
-   "title": "物理学史",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E5%8F%B2",
+   "title": "弗朗西斯·培根",
+   "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9",
    "published": "",
-   "summary": "物理学主要是研究物质、能量及它們彼此之間的關係。它是最早形成的自然科学学科之一，如果把天文学包括在内则有可能是名副其实历史最悠久的自然科学。最早的物理学著作是古希腊科学家亚里士多德的《物理學》。形成物理学的元素主要来自对天文学、光学和力学的研究，而这些研究通过几何学的方法统合在一起形成了物理学。这些方法形成于古巴比伦和古希腊时期，当时的代表人物如数学家阿基米德和天文学家托勒密；随后这些学说被传入阿拉伯世界，并被当时的阿拉伯科学家海什木等人发展为更具有物理性和实验性的传统学说；最终这些学说传入了西欧，首先研究这些内容的学者代表人物是罗吉尔·培根。然而在当时的西方世界，哲学家们普遍认为这些学说在本质上是技术性的，从而一般没有察觉到它们所描述的内容反映着自然界中重要的哲学意义。而在古代中国和印度的科学史上，类似的研究数学的方法也在发展中。 在这一时代，包含着所谓“自然哲学”（即物理学）的哲学所集",
+   "summary": "第一代圣奥尔本子爵弗朗西斯·培根（英語：Francis Bacon, 1st Viscount St Alban，1561年1月22日—1626年4月9日），英国文艺复兴时期哲学家、政要、科學家、法學家、演說家和散文作家，被认为是经验主义哲学的创始人。卡尔·马克思亦称其为“英国唯物主义和整个现代实验科学的真正始祖”。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1422,12 +1469,12 @@
    "title_signal": false
   },
   {
-   "id": "889dbcaae6cd",
+   "id": "1c289800e7eb",
    "source": "wikipedia",
-   "title": "弗朗西斯·培根",
-   "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9",
+   "title": "自然哲学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
    "published": "",
-   "summary": "第一代圣奥尔本子爵弗朗西斯·培根（英語：Francis Bacon, 1st Viscount St Alban，1561年1月22日—1626年4月9日），英国文艺复兴时期哲学家、政要、科學家、法學家、演說家和散文作家，被认为是经验主义哲学的创始人。卡尔·马克思亦称其为“英国唯物主义和整个现代实验科学的真正始祖”。",
+   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1542,78 +1589,6 @@
    "title_signal": false
   },
   {
-   "id": "3159fb8be0c4",
-   "source": "wikipedia",
-   "title": "惠勒延迟选择实验",
-   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
-   "published": "",
-   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "45a836609966",
-   "source": "wikipedia",
-   "title": "Rutherford scattering experiments",
-   "url": "https://en.wikipedia.org/wiki/Rutherford_scattering_experiments",
-   "published": "",
-   "summary": "The Rutherford scattering experiments were a landmark series of experiments by which scientists learned that every atom has a nucleus where all of its positive charge and most of its mass is concentrated. They deduced this after measuring how an alpha particle beam is scattered when it strikes a thin metal foil. The experiments were performed between 1906 and 1913 by Hans Geiger and Ernest Marsd",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "geiger"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "geiger"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "1c289800e7eb",
-   "source": "wikipedia",
-   "title": "自然哲学",
-   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
-   "published": "",
-   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "84d08da14f64",
    "source": "wikipedia",
    "title": "Theory of relativity",
@@ -1658,6 +1633,54 @@
    "modern_hits": [],
    "hits": [
     "physics"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "6597a7733b86",
+   "source": "wikipedia",
+   "title": "物理哲学",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%93%B2%E5%AD%A6",
+   "published": "",
+   "summary": "在哲学中，物理哲学是关于当代物理中的概念性与解释性的问题。其中许多问题与理论物理学家的研究领域重叠。物理哲学可大致分为以下三个领域： 对量子力学的解释：主要关于如何形式化地看待量子测量以及该理论对现实的描述。 空间与时间的本质：时空是物质，或仅仅是一种关系？同时性是常规的或者相对的？暂时的不对称性是否可以单纯还原为热力学不对称性？ 理论间的关系：不同物理理论之间的关系，如热力学与统计力学。这领域与科学还原论重叠。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "测量"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "测量"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "45a836609966",
+   "source": "wikipedia",
+   "title": "Rutherford scattering experiments",
+   "url": "https://en.wikipedia.org/wiki/Rutherford_scattering_experiments",
+   "published": "",
+   "summary": "The Rutherford scattering experiments were a landmark series of experiments by which scientists learned that every atom has a nucleus where all of its positive charge and most of its mass is concentrated. They deduced this after measuring how an alpha particle beam is scattered when it strikes a thin metal foil. The experiments were performed between 1906 and 1913 by Hans Geiger and Ernest Marsd",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "geiger"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "geiger"
    ],
    "title_signal": false
   },
@@ -2078,25 +2101,6 @@
    "title_signal": false
   },
   {
-   "id": "f6ba968dd648",
-   "source": "hackaday",
-   "title": "The Weirdest Video Games were Hacks",
-   "url": "https://hackaday.com/2026/10/10/the-weirdest-video-games-were-hacks",
-   "published": "2026-10-10",
-   "summary": "We were looking into the marvelous recent project by [Throaty Mumbo] to recreate and reimagine the forgotten world of VHS-tape-based video games. Wait, what? Yes, back in the day, when …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "0c9a12ba2fd4",
    "source": "hackaday",
    "title": "Restoring an Altimeter Watch to Former Heights",
@@ -2116,12 +2120,12 @@
    "title_signal": false
   },
   {
-   "id": "1c55acd5be88",
+   "id": "f6ba968dd648",
    "source": "hackaday",
-   "title": "A Headset Fit For A Hackaday Writer",
-   "url": "https://hackaday.com/2026/10/06/a-headset-fit-for-a-hackaday-writer",
-   "published": "2026-10-06",
-   "summary": "I started writing this from a commuter train passing at speed through the outskirts of London, and my headset had just broken. The flexible joint that attaches one earpiece to …read more",
+   "title": "The Weirdest Video Games were Hacks",
+   "url": "https://hackaday.com/2026/10/10/the-weirdest-video-games-were-hacks",
+   "published": "2026-10-10",
+   "summary": "We were looking into the marvelous recent project by [Throaty Mumbo] to recreate and reimagine the forgotten world of VHS-tape-based video games. Wait, what? Yes, back in the day, when …read more",
    "meta": {
     "query": "air quality"
    },
@@ -2135,14 +2139,14 @@
    "title_signal": false
   },
   {
-   "id": "3597c9d424e2",
+   "id": "1c55acd5be88",
    "source": "hackaday",
-   "title": "Hackaday Podcast Episode 389: Spinning Lightfield Displays, and Jenny Visits a Blast Furnace",
-   "url": "https://hackaday.com/2026/10/02/hackaday-podcast-episode-389-spinning-lightfield-displays-and-jenny-visits-a-blast-furnace",
-   "published": "2026-10-02",
-   "summary": "Another all-European podcast for you this week, as Elliot Williams is joined by Jenny List for an evening looking at the past week in Hackaday. And this week there is …read more",
+   "title": "A Headset Fit For A Hackaday Writer",
+   "url": "https://hackaday.com/2026/10/06/a-headset-fit-for-a-hackaday-writer",
+   "published": "2026-10-06",
+   "summary": "I started writing this from a commuter train passing at speed through the outskirts of London, and my headset had just broken. The flexible joint that attaches one earpiece to …read more",
    "meta": {
-    "query": "telescope"
+    "query": "air quality"
    },
    "targeted": true,
    "score": 70,
@@ -2218,26 +2222,6 @@
    "title_signal": false
   },
   {
-   "id": "69f386e07db7",
-   "source": "wikipedia",
-   "title": "思想",
-   "url": "https://zh.wikipedia.org/wiki/%E6%80%9D%E6%83%B3",
-   "published": "",
-   "summary": "最通俗的定義中，思想是獨立於感官刺激而發生的認知過程，最典型的形式是判斷、推理、概念形成、問題解決和審議（deliberation）。但其他心智過程，如細思一個構想、記憶或想像，也經常包括在內。與感知不同，這些過程可以獨立於感覺器官在內部發生。但從最廣泛的意義上理解，任何心智事件都可以被理解為一種思維形式，包括知覺和無意識的心智過程。在稍微不同的意義上，“思想”一詞不是指心智過程本身，而是指由這些過程帶來的心智狀態或觀念系統。 已經提出了各種思維理論。它們旨在捕捉思維的特徵。柏拉圖主義者認為，思維在於辨別和檢查柏拉圖形式（英語：Platonic forms，參見理型論）及其相互關係。它涉及區分純粹的柏拉圖形式本身和在感官世界中發現的單純模仿的能力。根據亞里士多德主義，思考某事就是在一個人的頭腦中實例化思想對象的普遍本質。與柏拉圖主義相反，這些共相是從感官經驗中抽象化得到的，並且不被理解為存",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "9aace4137621",
    "source": "wikipedia",
    "title": "爱因斯坦-波多尔斯基-罗森佯谬",
@@ -2284,26 +2268,6 @@
    "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E4%B8%96%E7%B4%80%E7%A7%91%E5%AD%B8%E5%8F%B2",
    "published": "",
    "summary": "中世紀科學史是指在中世紀，星象、藥物、數學等科学在當時都相當的活躍，但是，由於古代的文化(在羅馬及伊斯蘭的落沒之前的時期)已經存在有許多的科學基礎，所以研究科學的方法才能夠在中世紀時誕生，也因此科學能夠在此時正式地與哲學分野，然而在當時世界各地像是伊斯蘭世界、地中海盆地、中國，以及印度等也已經有了科學研究的足跡，而在西歐一度落後的科學發展則是從12世紀開始再次趕上這些地區。 拜占庭帝國是中世紀早期的文化指標，它保存了希臘羅馬時期的自然、數學，以及藥學的系統以及理論；亞里士多德、阿基米德、蓋倫、托勒密，以及歐幾里得的思想在當時傳遍整個帝國。他們的著作及注解釋為中世紀科學發展的根源，因為那時候的西歐地區的文化由於西羅馬帝國的落沒而遭受破壞，但是因為有了義大利神學家托馬斯·阿奎那及法國學者布里丹等人的貢獻，西歐科學研究的精神得以保存，而當時所保存的著作也因此成為了往後歐洲的科學在科學革命時期能夠",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "91b5bfdb8698",
-   "source": "wikipedia",
-   "title": "科学分支",
-   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%88%86%E6%94%AF",
-   "published": "",
-   "summary": "科学的分支、分类，也称科学领域，通常分为三大类： 形式科学：对形式系统的研究，如逻辑和数学分支下的学科。它们依据先验知识，而非建立在实证基础上。 自然科学：对自然现象的研究（包括宇宙内的宇宙学、地质学、物理学、化学和生物学影响）。自然科学可分为两个主要分支：物理科学和生命科学（或生物科学）。 社会科学：在社会和文化角度研究人类行为的科学。 科学知识必须建立在可观察的现象之上，并且能够在相同条件下被其他研究者验证。自然科学、社会科学和形式科学构成基础科学，它们也是跨学科和应用科学（如工程学和医学）的基础。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2398,12 +2362,12 @@
    "title_signal": false
   },
   {
-   "id": "5668918f426d",
+   "id": "a19f8aa2f80d",
    "source": "wikipedia",
-   "title": "魔术沙",
-   "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%9C%AF%E6%B2%99",
+   "title": "突變第三型",
+   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
    "published": "",
-   "summary": "魔术沙是一种被疏水材料包裹的沙制玩具。这种疏水材料使用了三甲基硅醇这种有机化合物。 最早的防水沙在1915年的《The Boy Mechanic Book 2》一书中记载。这个防水沙由东印度魔术师发明，它由混合加热的沙子和熔化的蜡得到，所用的蜡在水中可以疏水。",
+   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2418,12 +2382,12 @@
    "title_signal": false
   },
   {
-   "id": "70780f97963a",
+   "id": "5668918f426d",
    "source": "wikipedia",
-   "title": "黛米·摩尔",
-   "url": "https://zh.wikipedia.org/wiki/%E9%BB%9B%E7%B1%B3%C2%B7%E6%91%A9%E5%B0%94",
+   "title": "魔术沙",
+   "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%9C%AF%E6%B2%99",
    "published": "",
-   "summary": "黛米·吉恩·摩尔（Demi Gene Moore，1962年11月11日—），前姓蓋尼斯（Guynes），美国女演员。 黛米·摩尔在20世纪80年代初于好莱坞声名鹊起，1995年，她成为世界上收入最高的女演员。她被公认为好莱坞女性同工同酬的先驱。获得的重要荣誉包括金球奖和美国演员工会奖，并获得奥斯卡金像奖、英国电影学院奖和艾美奖提名。",
+   "summary": "魔术沙是一种被疏水材料包裹的沙制玩具。这种疏水材料使用了三甲基硅醇这种有机化合物。 最早的防水沙在1915年的《The Boy Mechanic Book 2》一书中记载。这个防水沙由东印度魔术师发明，它由混合加热的沙子和熔化的蜡得到，所用的蜡在水中可以疏水。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2558,6 +2522,26 @@
    "title_signal": false
   },
   {
+   "id": "0829c514aed2",
+   "source": "wikipedia",
+   "title": "元科学",
+   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
+   "published": "",
+   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "f088ab6a58af",
    "source": "wikipedia",
    "title": "Air Force Command College",
@@ -2678,126 +2662,6 @@
    "title_signal": false
   },
   {
-   "id": "56b2c9a81149",
-   "source": "wikipedia",
-   "title": "伽利略博物馆",
-   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%E5%8D%9A%E7%89%A9%E9%A6%86",
-   "published": "",
-   "summary": "伽利略博物馆（Museo Galileo），原名科学史学会及博物馆（Istituto e Museo di Storia della Scienza）位于意大利佛罗伦萨阿诺河边的朱迪奇广场 （Piazza dei Giudici），靠近乌菲齐美术馆。设于一座11世纪建筑卡斯特拉尼宫，当时被称为Altafronte的城堡。伽利略博物馆收藏有科学史上宝贵的科学仪器，见证美第奇家族和洛林大公对科学和科学家的重要作用。 2010年6月10日，在为期两年的封闭重新设计和装修工程之后，科学史博物馆以新的名称“伽利略博物馆”重新向公众开放。它距离1610年3月伽利略的《星际信使》出版有四百年，那本小册子彻底改变人类对宇宙的观念，促进现代科学的出现。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "23af48c5e36b",
-   "source": "wikipedia",
-   "title": "科学革命",
-   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E9%9D%A9%E5%91%BD",
-   "published": "",
-   "summary": "科學革命（英語：Scientific revolution），指近世歷史上，現代科學在歐洲萌芽的這段時期。在那段時期中，數學、物理學、天文學、生物學（包括人體解剖學）與化學等學科皆出現突破性的進步，這些知識改變了人類對於自然的眼界及心態。科學革命發源於歐洲發動十字軍東征與貿易，使得中東的古籍從阿拉伯被帶回來，文藝復興時代結尾之時，這個歷程一直持續到18世紀末，開始了科學進步的歷程。 科學革命的衝擊，造成啟蒙運動與工業革命的出現，影響了歐洲與人類的社會。科學革命的開始日期，史學家仍有爭議。但1543年尼古拉斯·哥白尼出版的《天体运行论》通常被認為是科學革命的起點。從1543年，一直到1632年伽利略出版《关于托勒密和哥白尼两大世界体系的对话》，這段時間，常被認為是科學革命的第一階段。在這個階段中，那時教會腐化正面臨人們的懷疑與變革，此風潮復興了古希臘與羅馬時期的舊有科學知識，被稱為是科學復興",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "cee5ba259b88",
-   "source": "wikipedia",
-   "title": "印第安電單車",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
-   "published": "",
-   "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "afdcf27e39ca",
-   "source": "wikipedia",
-   "title": "沙丘 (2021年電影)",
-   "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E4%B8%98_(2021%E5%B9%B4%E9%9B%BB%E5%BD%B1)",
-   "published": "",
-   "summary": "《沙丘》（英語：Dune，香港、新加坡译《沙丘瀚战》）是一部2021年美國太空史詩科幻電影，由丹尼·維勒納夫執導，艾瑞克·羅斯、喬·斯派茨和導演本人共同編寫劇本，劇情改編自法蘭克·赫伯特的1965年英文同名科幻小說《沙丘》的前半部分內容，是兩部改編電影計畫中的第一部；講述出身貴族家庭的年輕繼承者背負起守護銀河系中最寶貴的資產也是最重要的元素的任務的故事。主演包括提摩西·夏勒梅、蕾貝卡·弗格森、奧斯卡·伊薩克、喬許·布洛林、史戴倫·史柯斯嘉、巴帝斯塔、史蒂芬·亨德森、赞达亚、戴維·達斯馬齊連、張震、香儂·鄧肯-布魯斯特、夏綠蒂·蘭普琳、傑森·摩莫亞和哈維爾·巴登。 《沙丘》由華納兄弟影業發行，2021年9月3日在第78屆威尼斯影展進行全球首映，10月22日在美國首映，包括IMAX和3D版本，同期於串流媒體平台HBO Max播出一個月。它因其視覺效果，世界觀和野心而受到好評，並以1.65億美元",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "d4334f08f1a7",
-   "source": "wikipedia",
-   "title": "加拿大",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
-   "published": "",
-   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "e7951e4e685f",
-   "source": "wikipedia",
-   "title": "HIV/AIDS in China",
-   "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_China",
-   "published": "",
-   "summary": "HIV/AIDS in China can be traced to an initial outbreak of the human immunodeficiency virus (HIV) first recognized in 1989 among injecting drug users along China's southern border. Figures from the Chinese Center for Disease Control and Prevention, World Health Organization, and UNAIDS estimate that there were 1.25 million people living with HIV/AIDS in China at the end of 2018, with 135,000 new in",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "e2f65195a4c9",
    "source": "wikipedia",
    "title": "Army Academy of Armored Forces",
@@ -2838,12 +2702,32 @@
    "title_signal": false
   },
   {
-   "id": "ef3dd7b47ba5",
+   "id": "83ad8e00d21a",
    "source": "wikipedia",
-   "title": "Mianyang",
-   "url": "https://en.wikipedia.org/wiki/Mianyang",
+   "title": "Lee Sun Chau",
+   "url": "https://en.wikipedia.org/wiki/Lee_Sun_Chau",
    "published": "",
-   "summary": "Mianyang (simplified Chinese: 绵阳; traditional Chinese: 綿陽; pinyin: Miányáng; Wade–Giles: Mien2-yang2; Sichuanese romanization: Mien2-iang2; formerly known as Mienchow, Chinese: 綿州; pinyin: Mianzhou; Sichuanese romanization: Miencheo; lit. 'Mian Prefecture') is the second largest prefecture-level city of Sichuan province in Southwestern China. It borders Nanchong City to the east, Suining City to t",
+   "summary": "Lee Sun Chau (周理信, i.e., 周六姑, 1890-1979) was one of the first female Chinese doctors of Western Medicine in China.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "78810a1c6cef",
+   "source": "wikipedia",
+   "title": "Sichuan University",
+   "url": "https://en.wikipedia.org/wiki/Sichuan_University",
+   "published": "",
+   "summary": "Sichuan University (SCU) is a public university in Chengdu, Sichuan, China. The university is affiliated with and funded by the Ministry of Education. The university is part of Project 211, Project 985, and the Double First-Class Construction. In 1994, the then Chengdu University of Science and Technology and then Sichuan University merged to form Sichuan Union University (which was renamed Sichu",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3038,26 +2922,6 @@
    "title_signal": false
   },
   {
-   "id": "be789105f5ed",
-   "source": "wikipedia",
-   "title": "Trolley problem",
-   "url": "https://en.wikipedia.org/wiki/Trolley_problem",
-   "published": "",
-   "summary": "The trolley problem is a thought experiment in moral philosophy and moral psychology with many variations, involving hypothetical ethical dilemmas about whether to sacrifice one person to save a larger number of people. The series usually begins with a scenario in which a runaway trolley (tram) or train is on course to collide with and kill a number of people (traditionally five) tied to the track",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "78d0cbe81a17",
    "source": "wikipedia",
    "title": "Twin Earth thought experiment",
@@ -3198,12 +3062,12 @@
    "title_signal": false
   },
   {
-   "id": "a19f8aa2f80d",
+   "id": "69f386e07db7",
    "source": "wikipedia",
-   "title": "突變第三型",
-   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
+   "title": "思想",
+   "url": "https://zh.wikipedia.org/wiki/%E6%80%9D%E6%83%B3",
    "published": "",
-   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
+   "summary": "最通俗的定義中，思想是獨立於感官刺激而發生的認知過程，最典型的形式是判斷、推理、概念形成、問題解決和審議（deliberation）。但其他心智過程，如細思一個構想、記憶或想像，也經常包括在內。與感知不同，這些過程可以獨立於感覺器官在內部發生。但從最廣泛的意義上理解，任何心智事件都可以被理解為一種思維形式，包括知覺和無意識的心智過程。在稍微不同的意義上，“思想”一詞不是指心智過程本身，而是指由這些過程帶來的心智狀態或觀念系統。 已經提出了各種思維理論。它們旨在捕捉思維的特徵。柏拉圖主義者認為，思維在於辨別和檢查柏拉圖形式（英語：Platonic forms，參見理型論）及其相互關係。它涉及區分純粹的柏拉圖形式本身和在感官世界中發現的單純模仿的能力。根據亞里士多德主義，思考某事就是在一個人的頭腦中實例化思想對象的普遍本質。與柏拉圖主義相反，這些共相是從感官經驗中抽象化得到的，並且不被理解為存",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3218,12 +3082,12 @@
    "title_signal": false
   },
   {
-   "id": "0829c514aed2",
+   "id": "91b5bfdb8698",
    "source": "wikipedia",
-   "title": "元科学",
-   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
+   "title": "科学分支",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%88%86%E6%94%AF",
    "published": "",
-   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
+   "summary": "科学的分支、分类，也称科学领域，通常分为三大类： 形式科学：对形式系统的研究，如逻辑和数学分支下的学科。它们依据先验知识，而非建立在实证基础上。 自然科学：对自然现象的研究（包括宇宙内的宇宙学、地质学、物理学、化学和生物学影响）。自然科学可分为两个主要分支：物理科学和生命科学（或生物科学）。 社会科学：在社会和文化角度研究人类行为的科学。 科学知识必须建立在可观察的现象之上，并且能够在相同条件下被其他研究者验证。自然科学、社会科学和形式科学构成基础科学，它们也是跨学科和应用科学（如工程学和医学）的基础。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3238,12 +3102,172 @@
    "title_signal": false
   },
   {
-   "id": "78810a1c6cef",
+   "id": "70780f97963a",
    "source": "wikipedia",
-   "title": "Sichuan University",
-   "url": "https://en.wikipedia.org/wiki/Sichuan_University",
+   "title": "黛米·摩尔",
+   "url": "https://zh.wikipedia.org/wiki/%E9%BB%9B%E7%B1%B3%C2%B7%E6%91%A9%E5%B0%94",
    "published": "",
-   "summary": "Sichuan University (SCU) is a public university in Chengdu, Sichuan, China. The university is affiliated with and funded by the Ministry of Education. The university is part of Project 211, Project 985, and the Double First-Class Construction. In 1994, the then Chengdu University of Science and Technology and then Sichuan University merged to form Sichuan Union University (which was renamed Sichu",
+   "summary": "黛米·吉恩·摩尔（Demi Gene Moore，1962年11月11日—），前姓蓋尼斯（Guynes），美国女演员。 黛米·摩尔在20世纪80年代初于好莱坞声名鹊起，1995年，她成为世界上收入最高的女演员。她被公认为好莱坞女性同工同酬的先驱。获得的重要荣誉包括金球奖和美国演员工会奖，并获得奥斯卡金像奖、英国电影学院奖和艾美奖提名。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "56b2c9a81149",
+   "source": "wikipedia",
+   "title": "伽利略博物馆",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "published": "",
+   "summary": "伽利略博物馆（Museo Galileo），原名科学史学会及博物馆（Istituto e Museo di Storia della Scienza）位于意大利佛罗伦萨阿诺河边的朱迪奇广场 （Piazza dei Giudici），靠近乌菲齐美术馆。设于一座11世纪建筑卡斯特拉尼宫，当时被称为Altafronte的城堡。伽利略博物馆收藏有科学史上宝贵的科学仪器，见证美第奇家族和洛林大公对科学和科学家的重要作用。 2010年6月10日，在为期两年的封闭重新设计和装修工程之后，科学史博物馆以新的名称“伽利略博物馆”重新向公众开放。它距离1610年3月伽利略的《星际信使》出版有四百年，那本小册子彻底改变人类对宇宙的观念，促进现代科学的出现。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "23af48c5e36b",
+   "source": "wikipedia",
+   "title": "科学革命",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E9%9D%A9%E5%91%BD",
+   "published": "",
+   "summary": "科學革命（英語：Scientific revolution），指近世歷史上，現代科學在歐洲萌芽的這段時期。在那段時期中，數學、物理學、天文學、生物學（包括人體解剖學）與化學等學科皆出現突破性的進步，這些知識改變了人類對於自然的眼界及心態。科學革命發源於歐洲發動十字軍東征與貿易，使得中東的古籍從阿拉伯被帶回來，文藝復興時代結尾之時，這個歷程一直持續到18世紀末，開始了科學進步的歷程。 科學革命的衝擊，造成啟蒙運動與工業革命的出現，影響了歐洲與人類的社會。科學革命的開始日期，史學家仍有爭議。但1543年尼古拉斯·哥白尼出版的《天体运行论》通常被認為是科學革命的起點。從1543年，一直到1632年伽利略出版《关于托勒密和哥白尼两大世界体系的对话》，這段時間，常被認為是科學革命的第一階段。在這個階段中，那時教會腐化正面臨人們的懷疑與變革，此風潮復興了古希臘與羅馬時期的舊有科學知識，被稱為是科學復興",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "cee5ba259b88",
+   "source": "wikipedia",
+   "title": "印第安電單車",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
+   "published": "",
+   "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "afdcf27e39ca",
+   "source": "wikipedia",
+   "title": "沙丘 (2021年電影)",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E4%B8%98_(2021%E5%B9%B4%E9%9B%BB%E5%BD%B1)",
+   "published": "",
+   "summary": "《沙丘》（英語：Dune，香港、新加坡译《沙丘瀚战》）是一部2021年美國太空史詩科幻電影，由丹尼·維勒納夫執導，艾瑞克·羅斯、喬·斯派茨和導演本人共同編寫劇本，劇情改編自法蘭克·赫伯特的1965年英文同名科幻小說《沙丘》的前半部分內容，是兩部改編電影計畫中的第一部；講述出身貴族家庭的年輕繼承者背負起守護銀河系中最寶貴的資產也是最重要的元素的任務的故事。主演包括提摩西·夏勒梅、蕾貝卡·弗格森、奧斯卡·伊薩克、喬許·布洛林、史戴倫·史柯斯嘉、巴帝斯塔、史蒂芬·亨德森、赞达亚、戴維·達斯馬齊連、張震、香儂·鄧肯-布魯斯特、夏綠蒂·蘭普琳、傑森·摩莫亞和哈維爾·巴登。 《沙丘》由華納兄弟影業發行，2021年9月3日在第78屆威尼斯影展進行全球首映，10月22日在美國首映，包括IMAX和3D版本，同期於串流媒體平台HBO Max播出一個月。它因其視覺效果，世界觀和野心而受到好評，並以1.65億美元",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "d4334f08f1a7",
+   "source": "wikipedia",
+   "title": "加拿大",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
+   "published": "",
+   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "e7951e4e685f",
+   "source": "wikipedia",
+   "title": "HIV/AIDS in China",
+   "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_China",
+   "published": "",
+   "summary": "HIV/AIDS in China can be traced to an initial outbreak of the human immunodeficiency virus (HIV) first recognized in 1989 among injecting drug users along China's southern border. Figures from the Chinese Center for Disease Control and Prevention, World Health Organization, and UNAIDS estimate that there were 1.25 million people living with HIV/AIDS in China at the end of 2018, with 135,000 new in",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ef3dd7b47ba5",
+   "source": "wikipedia",
+   "title": "Mianyang",
+   "url": "https://en.wikipedia.org/wiki/Mianyang",
+   "published": "",
+   "summary": "Mianyang (simplified Chinese: 绵阳; traditional Chinese: 綿陽; pinyin: Miányáng; Wade–Giles: Mien2-yang2; Sichuanese romanization: Mien2-iang2; formerly known as Mienchow, Chinese: 綿州; pinyin: Mianzhou; Sichuanese romanization: Miencheo; lit. 'Mian Prefecture') is the second largest prefecture-level city of Sichuan province in Southwestern China. It borders Nanchong City to the east, Suining City to t",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "be789105f5ed",
+   "source": "wikipedia",
+   "title": "Trolley problem",
+   "url": "https://en.wikipedia.org/wiki/Trolley_problem",
+   "published": "",
+   "summary": "The trolley problem is a thought experiment in moral philosophy and moral psychology with many variations, involving hypothetical ethical dilemmas about whether to sacrifice one person to save a larger number of people. The series usually begins with a scenario in which a runaway trolley (tram) or train is on course to collide with and kill a number of people (traditionally five) tied to the track",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3384,26 +3408,6 @@
    "url": "https://en.wikipedia.org/wiki/Chengdu",
    "published": "",
    "summary": "Chengdu is the capital city of the Chinese province of Sichuan. With a population of 20,937,757 at the 2020 census, it is the country's fourth most populous city and the only city with a population of over 20 million apart from provincial-level municipalities. It is traditionally the hub of Western China. Chengdu is in central Sichuan. The surrounding Chengdu Plain is known as the \"Country of Heav",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "d3a003a34d23",
-   "source": "wikipedia",
-   "title": "Foot-in-the-door technique",
-   "url": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
-   "published": "",
-   "summary": "Foot-in-the-door (FITD) technique is a compliance tactic that aims at getting a person to agree to a large request by having them agree to a modest request first. If a smaller request is granted, then the person who is agreeing feels like they are obligated to keep agreeing to larger requests. The saying originates from door to door salesmen who keep the door from shutting with their foot, giving",
    "meta": {
     "site": "en.wikipedia.org"
    },
