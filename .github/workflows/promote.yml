@@ -107,13 +107,52 @@ jobs:
               sys.exit(1)
           PY
           PR="${{ needs.generate.outputs.pr }}"
+
+          # 只有全部检查 SUCCESS 才放行；其余一律不合并、非零退出（fail-closed）
+          deny() {
+            echo "::error::$1"
+            echo "不合并（fail-closed）：$1"
+            if [ -n "${GITHUB_STEP_SUMMARY:-}" ]; then
+              {
+                echo "### promote 合并闸门：未合并（fail-closed）"
+                echo ""
+                echo "- PR：#$PR"
+                echo "- 原因：$1"
+                echo "- 最后一次检查状态：\`${states:-<空>}\`"
+              } >> "$GITHUB_STEP_SUMMARY"
+            fi
+            exit 1
+          }
+
+          states=""
           for i in $(seq 1 20); do
+            # 相邻隐患：PR 已被关掉/合并时立刻收工，不要空转 20×20s 再去 merge 一个已关闭的 PR
+            pr_state=$(gh pr view "$PR" --json state --jq '.state' 2>/dev/null || true)
+            [ "$pr_state" = "OPEN" ] || deny "PR 状态是 ${pr_state:-未知}（不是 OPEN），停止等待检查"
+
             states=$(gh pr checks "$PR" --json state --jq '[.[].state]|unique|join(",")' || true)
-            echo "checks: $states"
-            case "$states" in
-              *FAILURE*|*CANCELLED*|*"") [ "$states" = "SUCCESS" ] && break ;;
+            echo "checks: ${states:-<空>}（第 $i/20 次）"
+
+            # 唯一的放行出口
+            if [ "$states" = "SUCCESS" ]; then
+              echo "全部检查 SUCCESS，放行"
+              break
+            fi
+
+            # 终态失败再等也不会变绿，立刻停
+            case ",$states," in
+              *,FAILURE,*|*,CANCELLED,*|*,TIMED_OUT,*|*,STARTUP_FAILURE,*|*,ACTION_REQUIRED,*)
+                deny "检查未通过：${states}" ;;
             esac
-            [ "$states" = "SUCCESS" ] && break
-            sleep 20
+
+            if [ "$i" -lt 20 ]; then
+              sleep 20
+            fi
           done
+
+          # 兜底：不依赖上面的循环逻辑，最后再确认一次，不是 SUCCESS 就绝不往下走
+          if [ "${states:-}" != "SUCCESS" ]; then
+            deny "轮询结束仍未全部 SUCCESS（最后状态：${states:-<空>}），超时或没拿到检查结果"
+          fi
+
           gh pr merge "$PR" --squash --delete-branch
