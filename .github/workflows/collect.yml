@@ -48,6 +48,13 @@ jobs:
         run: python collector/design.py --top 2
 
       # 无论 AI 是否失败，都提交采集到的数据；AI 失败时上一步会变红，这里照样把 raw/feed 存下来
+      - name: 翻译标题（没配 key 会跳过）
+        env:
+          PS_LLM_BASE: ${{ vars.PS_LLM_BASE }}
+          PS_LLM_MODEL: ${{ vars.PS_LLM_MODEL }}
+          PS_LLM_KEY: ${{ secrets.PS_LLM_KEY }}
+        run: python collector/translate.py || echo "翻译失败不影响采集"
+
       - name: 提交
         if: ${{ !cancelled() }}
         run: |
