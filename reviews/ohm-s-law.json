@@ -69,12 +69,14 @@
    }
   ]
  },
- "status": "held",
+ "status": "published",
  "pr": "https://github.com/dongsheng123132/personal-science/pull/25",
  "screen": {
   "level": "medium",
   "verdict": "hold"
  },
  "hard_block": [],
- "auto_merge": false
+ "auto_merge": false,
+ "merged_by": "human",
+ "note": "自动合并未触发（medium/hold），由维护者人工合并 PR #25"
 }

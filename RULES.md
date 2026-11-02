@@ -59,7 +59,8 @@
 | 风险评审 | **模型 B**（另一个厂商）：挑 critical / warn / info；有 critical → reject，有 warn → hold，都没有 → approve |
 | 自动合并 | 只有 `risk=low` **且** `verdict=approve` **且** check 全绿 **且** CI 通过，才 squash 合并 |
 
-**没过关的怎么办**：照样开 PR、照样上墙（`/review/`），写清楚风险、依据、价值。谁都可以接手改。
+**warn 不等于不能发**：`warn` 是"要人看"，会原样公开在 `/review/` 里；只有 `critical` 或者物理/安全/来源三项有 false 才拦。
+**没过关的怎么办**：照样开 PR、照样上墙（`/review/`）。人工看过后可以合并——合并记录会写进评审页。
 
 ## 四点五、硬阻断（fail-closed，不交给模型判断）
 
