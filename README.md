@@ -7,7 +7,7 @@
 一个人在家就能做的实验清单。不用申请、不用审核、不用等人批准。
 **一个人 = 一个实验室。**（[章程](CHARTER.md)）
 
-`20 个实验` · `每页写清怎么做成` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
+`21 个实验` · `每页写清怎么做成` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
 
 [![collect](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml/badge.svg)](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml)
 
@@ -86,6 +86,7 @@ AI 正好一次拆掉这四样。所以不用等谁批准——测量、记录�
 | [影子测地球半径](experiments/eratosthenes.md) | 和另一个纬度的人同一天量影子 | 杆子、尺子、一个网友 | 2 天 | ¥0 | ★★☆ |
 | [托里拆利测大气压](experiments/torricelli-water-barometer.md) | 10 米水柱停住的地方，就是大气压 | 透明软管、水桶、卷尺 | 半天 | ¥70–100 | ★★☆ |
 | [焦耳热功当量](experiments/joule-equivalent.md) | 重物搅水，亲手把 1 卡换算成焦耳 | 保温杯、温度计、重物 | 3–4 小时 | ¥100–200 | ★★★ |
+| [布朗运动](experiments/brownian-motion.md) | 用手机和显微镜拍下微粒的无规则抖动，并用均方位移估出分子大小的量级。 | 显微镜（400×，二手学生显微镜即可）、载玻片与盖玻片、全脂牛奶或中国墨汁 | 一个周末 | ¥0–200（显微镜是唯一大头；已有则几乎为零。具体价格待核实） | 待核实 |
 
 ### 电子与硬件
 
@@ -244,7 +245,7 @@ inbox/designs/（草稿，标注未核对）
 ├── MANIFESTO.md         宣言：为什么出发（智力平权）
 ├── CHARTER.md           章程：这个仓库的宪法
 ├── *.en.md              英文版（README / 宣言 / 章程）
-├── experiments/         每个实验一页（20 个）
+├── experiments/         每个实验一页（21 个）
 ├── ideas.md             点子池
 ├── RESULTS.md           有人做过什么（含失败）
 ├── CONTRIBUTING.md      怎么加一个（英文 CONTRIBUTING.en.md）
