@@ -5,7 +5,7 @@
 A list of experiments you can do at home. No application, no review, no permission needed.
 **One person = one lab.** ([Charter](CHARTER.en.md))
 
-`21 experiments` · `each page tells you how to know it worked` · `CC0, copy freely` · `daily collection + AI-designed drafts`
+`22 experiments` · `each page tells you how to know it worked` · `CC0, copy freely` · `daily collection + AI-designed drafts`
 
 [中文](README.md) · [One-minute version](#the-one-minute-version) · [The list](#the-list) · [Growing every day](#growing-every-day) · [How to add one](#how-to-add-one) · [Manifesto](MANIFESTO.en.md) · [Charter](CHARTER.en.md)
 
@@ -85,6 +85,7 @@ When that works, **the individual becomes the smallest unit of research.** Scien
 | [Torricelli's water barometer](experiments/torricelli-water-barometer.md) | Where the water column stops is one atmosphere | Hose, bucket, tape measure | half a day | ¥70–100 | ★★☆ |
 | [Joule's equivalent of heat](experiments/joule-equivalent.md) | Stir water with a falling weight; turn calories into joules yourself | Thermos, thermometer, weight | 3–4 hrs | ¥100–200 | ★★★ |
 | [Ohm's Law](experiments/ohm-s-law.md) | Use a battery, an adjustable resistor, and a multimeter to plot the I–V line by hand and verify V = IR. | 1.5V battery, battery holder, 10kΩ linear potentiometer | 1 weekend | ¥60–150（万用表占大头，型号价格待核实） | 未提供 |
+| [Foucault Pendulum](experiments/foucault-pendulum.md) | Build a pendulum with a long string, a weight, and a layer of sand, measure the precession rate of its swing plane, and compare it with the theoretical value from your local latitude. | fishing line or braided nylon rope (≥3 m), 1–2 kg weight, thin layer of sand | 1 weekend | ¥50–150 | 待核实 |
 
 ### Electronics & hardware
 
@@ -248,7 +249,7 @@ If something looks exciting but feels dangerous, don't do it. Open an issue firs
 ├── MANIFESTO.en.md      Manifesto (English)
 ├── CHARTER.md           Charter (Chinese)
 ├── CHARTER.en.md        Charter (English)
-├── experiments/         One page per experiment (21 pages)
+├── experiments/         One page per experiment (22 pages)
 ├── ideas.md             Idea pool
 ├── RESULTS.md           What people got (including failures)
 ├── CONTRIBUTING.en.md   How to add one (English)
