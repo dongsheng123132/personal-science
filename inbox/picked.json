@@ -1,81 +1,65 @@
 {
- "generated_at": "2026-11-02T01:30:34+00:00",
- "count": 3,
+ "generated_at": "2026-11-03T03:29:09+00:00",
+ "count": 2,
  "items": [
   {
-   "id": "a58941cbbc37",
-   "source": "hackaday",
-   "title": "Every Type of Current Sensor Explained",
-   "url": "https://hackaday.com/2026/10/21/every-type-of-current-sensor-explained",
-   "published": "2026-10-21",
-   "summary": "Measuring electric currents is an essential element of many electrical systems, but doing so in a way that is as nonintrusive as possible is not an easy problem to solve. …read more",
+   "id": "21493fa4a51b",
+   "source": "classic",
+   "title": "卡文迪许扭秤测万有引力常数（1798）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%8D%A1%E6%96%87%E8%BF%AA%E8%AE%B8%E6%89%AD%E7%A7%A4%E6%B5%8B%E4%B8%87%E6%9C%89%E5%BC%95%E5%8A%9B%E5%B8%B8%E6%95%B0",
+   "published": "",
+   "summary": "第一次'称出'地球的质量；重做方式：扭丝 + 铅球 + 激光光杠杆放大位移（家庭版需耐心，可先做定性）；为什么值得：'看不见的力'被一次微小的偏转测出来了，测量思维的巅峰；难度：进阶",
    "meta": {
-    "query": "sensor"
+    "era": "1798",
+    "level": "进阶",
+    "tools": [
+     "细丝",
+     "铅球",
+     "激光"
+    ]
    },
    "targeted": true,
-   "score": 87,
+   "score": 93,
    "why": "",
+   "timeless": true,
    "obj_hits": [
-    "sensor"
+    "测量"
    ],
    "per_hits": [],
    "modern_hits": [
-    "sensor"
+    "激光"
    ],
    "hits": [
-    "sensor",
-    "sensor"
+    "测量",
+    "激光"
    ],
-   "title_signal": true
+   "title_signal": false
   },
   {
-   "id": "63e1526bb11f",
-   "source": "hackaday",
-   "title": "Building a Microscope with a 3D View",
-   "url": "https://hackaday.com/2026/10/18/building-a-microscope-with-a-3d-view",
-   "published": "2026-10-18",
-   "summary": "As electronic components grow ever smaller, a microscope has become an increasingly indispensable tool for any fine work; when inspecting electronics, though, especially solder joints, [Corebb] found a top-down view …read more",
+   "id": "a0eb5d39901f",
+   "source": "classic",
+   "title": "巴甫洛夫条件反射（1890s）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%B7%B4%E7%94%AB%E6%B4%9B%E5%A4%AB%E6%9D%A1%E4%BB%B6%E5%8F%8D%E5%B0%84",
+   "published": "",
+   "summary": "学习是如何被'配对'出来的；重做方式：用家里的宠物做正向训练，记录响应时间；注意动物福利与伦理；为什么值得：行为主义的第一课，也是产品设计里'习惯回路'的源头；难度：进阶",
    "meta": {
-    "query": "microscope"
+    "era": "1890s",
+    "level": "进阶",
+    "tools": [
+     "宠物",
+     "零食",
+     "秒表"
+    ]
    },
    "targeted": true,
-   "score": 84,
+   "score": 80,
    "why": "",
-   "obj_hits": [
-    "microscope"
-   ],
-   "per_hits": [
-    "build"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "microscope",
-    "build"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "8bdc9f6355f2",
-   "source": "hackaday",
-   "title": "DIY WiFi Analyzer Sniffs Out Congestion and Coverage Issues, Suggests Fixes",
-   "url": "https://hackaday.com/2026/10/31/diy-wifi-analyzer-sniffs-out-congestion-and-coverage-issues-suggests-fixes",
-   "published": "2026-10-31",
-   "summary": "[Roni Bandini]’s JEV WiFi Analyzer is an interesting experiment that glues together a single-board Linux computer, a USB WiFi adapter, and a specialized AI model to create a new kind …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 78,
-   "why": "",
+   "timeless": true,
    "obj_hits": [],
-   "per_hits": [
-    "diy"
-   ],
+   "per_hits": [],
    "modern_hits": [],
-   "hits": [
-    "diy"
-   ],
-   "title_signal": true
+   "hits": [],
+   "title_signal": false
   }
  ]
 }

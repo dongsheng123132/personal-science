@@ -1,7 +1,38 @@
 {
- "updated_at": "2026-11-02T01:29:55+00:00",
+ "updated_at": "2026-11-03T03:28:09+00:00",
  "count": 150,
  "items": [
+  {
+   "id": "db9b777287a4",
+   "source": "hackaday",
+   "title": "Ask Hackaday: What Puts This Photo In The Pink?",
+   "url": "https://hackaday.com/2026/11/02/ask-hackaday-what-puts-this-photo-in-the-pink",
+   "published": "2026-11-02",
+   "summary": "It’s an exciting time to be a camera hacker, because we are at a moment when even cheap camera hardware is starting to have high resolution sensors, and the awesome …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 100,
+   "why": "",
+   "obj_hits": [
+    "sensor",
+    "camera"
+   ],
+   "per_hits": [
+    "cheap"
+   ],
+   "modern_hits": [
+    "sensor",
+    "camera"
+   ],
+   "hits": [
+    "sensor",
+    "camera",
+    "cheap"
+   ],
+   "title_signal": false
+  },
   {
    "id": "b7ecd58ef8e7",
    "source": "hackaday",
@@ -373,6 +404,32 @@
     "实验"
    ],
    "title_signal": true
+  },
+  {
+   "id": "c5ce8aa72624",
+   "source": "hackaday",
+   "title": "Solar Light Shows Why Replacing NiMH with Li-Ion is Dangerous",
+   "url": "https://hackaday.com/2026/11/02/solar-light-shows-why-replacing-nimh-with-li-ion-is-dangerous",
+   "published": "2026-11-02",
+   "summary": "Recently [DiodeGoneWild] got his paws on a purportedly IP44-rated outdoor solar light with PIR motion sensor that also contains an 18650 Li-ion cell. Since it’s being sold in Czechia in …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 87,
+   "why": "",
+   "obj_hits": [
+    "sensor"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "sensor"
+   ],
+   "hits": [
+    "sensor",
+    "sensor"
+   ],
+   "title_signal": false
   },
   {
    "id": "a58941cbbc37",
@@ -1205,6 +1262,30 @@
    "title_signal": true
   },
   {
+   "id": "6597a7733b86",
+   "source": "wikipedia",
+   "title": "物理哲学",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%93%B2%E5%AD%A6",
+   "published": "",
+   "summary": "在哲学中，物理哲学是关于当代物理中的概念性与解释性的问题。其中许多问题与理论物理学家的研究领域重叠。物理哲学可大致分为以下三个领域： 对量子力学的解释：主要关于如何形式化地看待量子测量以及该理论对现实的描述。 空间与时间的本质：时空是物质，或仅仅是一种关系？同时性是常规的或者相对的？暂时的不对称性是否可以单纯还原为热力学不对称性？ 理论间的关系：不同物理理论之间的关系，如热力学与统计力学。这领域与科学还原论重叠。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "测量"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "测量"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "9bb8bebc8f58",
    "source": "wikipedia",
    "title": "物理学史",
@@ -1301,30 +1382,6 @@
    "title_signal": false
   },
   {
-   "id": "3159fb8be0c4",
-   "source": "wikipedia",
-   "title": "惠勒延迟选择实验",
-   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
-   "published": "",
-   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": true
-  },
-  {
    "id": "f2bc782fed23",
    "source": "wikipedia",
    "title": "波普尔实验",
@@ -1347,6 +1404,30 @@
     "实验"
    ],
    "title_signal": true
+  },
+  {
+   "id": "c92f39c2aec2",
+   "source": "wikipedia",
+   "title": "牛顿大炮",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E5%A4%A7%E7%82%AE",
+   "published": "",
+   "summary": "牛顿大炮（英語：Newton's cannonball）是物理学家艾萨克·牛顿阐述的一个思想实验。牛顿用这个实验来假设引力具有普适性，并且是行星运动的重要动力来源。这个实验出现在牛顿的著作《自然哲学的数学原理》中。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
   },
   {
    "id": "6f8a9aad6f5e",
@@ -1589,6 +1670,30 @@
    "title_signal": false
   },
   {
+   "id": "3159fb8be0c4",
+   "source": "wikipedia",
+   "title": "惠勒延迟选择实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  },
+  {
    "id": "84d08da14f64",
    "source": "wikipedia",
    "title": "Theory of relativity",
@@ -1633,30 +1738,6 @@
    "modern_hits": [],
    "hits": [
     "physics"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "6597a7733b86",
-   "source": "wikipedia",
-   "title": "物理哲学",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%93%B2%E5%AD%A6",
-   "published": "",
-   "summary": "在哲学中，物理哲学是关于当代物理中的概念性与解释性的问题。其中许多问题与理论物理学家的研究领域重叠。物理哲学可大致分为以下三个领域： 对量子力学的解释：主要关于如何形式化地看待量子测量以及该理论对现实的描述。 空间与时间的本质：时空是物质，或仅仅是一种关系？同时性是常规的或者相对的？暂时的不对称性是否可以单纯还原为热力学不对称性？ 理论间的关系：不同物理理论之间的关系，如热力学与统计力学。这领域与科学还原论重叠。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "测量"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "测量"
    ],
    "title_signal": false
   },
@@ -1709,30 +1790,6 @@
    "title_signal": true
   },
   {
-   "id": "c92f39c2aec2",
-   "source": "wikipedia",
-   "title": "牛顿大炮",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E5%A4%A7%E7%82%AE",
-   "published": "",
-   "summary": "牛顿大炮（英語：Newton's cannonball）是物理学家艾萨克·牛顿阐述的一个思想实验。牛顿用这个实验来假设引力具有普适性，并且是行星运动的重要动力来源。这个实验出现在牛顿的著作《自然哲学的数学原理》中。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "b2a4e0b2b7c7",
    "source": "wikipedia",
    "title": "國立臺灣大學物理學系",
@@ -1778,6 +1835,25 @@
    "hits": [
     "physics"
    ],
+   "title_signal": false
+  },
+  {
+   "id": "1b9161e9124e",
+   "source": "hackaday",
+   "title": "Hackaday Links: November 1, 2026",
+   "url": "https://hackaday.com/2026/11/01/hackaday-links-november-1-2026",
+   "published": "2026-11-01",
+   "summary": "We’re less than a week away from the 2026 Hackaday Supercon, and things are getting a little… intense. So we trust you’ll forgive us if this week’s post weighs in …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
    "title_signal": false
   },
   {
@@ -2202,26 +2278,6 @@
    "title_signal": false
   },
   {
-   "id": "9aa8dfe5a597",
-   "source": "wikipedia",
-   "title": "相对论",
-   "url": "https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%AF%B9%E8%AE%BA",
-   "published": "",
-   "summary": "相對論（英語：Theory of relativity）是关于时空和引力的理论，主要由爱因斯坦创立，依其研究对象的不同可分为狭义相对论和广义相对论。相对论和量子力学的提出给物理学带来了革命性的变化，它们共同奠定了现代物理学的基础。相对论极大地改变了人类对宇宙和自然的“常识性”观念，提出了“同时的相对性”、“四维时空”、“弯曲时空”等全新的概念。不过近年来，人们对于物理理论的分类有了一种新的认识——以其理论是否是决定论的来划分经典与非经典的物理学，即“非古典的＝量子的”。在这个意义下，相对论仍然是一种经典的理论。 該理論取代了200年前主要由艾薩克·牛頓創立的力學理論，從而改變了20世紀的理論物理學和天文學，它引入的概念，包括時空、同時性之相對性、運動學、重力時間膨脹和勞侖茲收縮。在物理學領域，相對論改善了基本粒子的科學以及它們的基本相互作用，以及迎來核子時代。 另外，藉由相對論，物理宇宙學",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "9aace4137621",
    "source": "wikipedia",
    "title": "爱因斯坦-波多尔斯基-罗森佯谬",
@@ -2348,6 +2404,26 @@
    "url": "https://zh.wikipedia.org/wiki/Xcon",
    "published": "",
    "summary": "R1（后来被称为XCON，eXpert CONfigurer的所写，意为专家设置）程序是基于生产规则的系统，由卡内基梅隆大学的John P. McDermott在1978年用OPS5开发。其目的是按照用户的需求，帮助DEC为VAX型计算机系统自动选择组件。XCON的开发继承了两个之前用FORTRAN语言和BASIC语言未成功的尝试完成了一个专家系统。 在1980年，XCON最初被用于DEC位于新罕布什尔州萨利姆的工厂。最终它有了大约2500条规则。截止至1986年，它一共处理了80,000条指令，准确率达到95-98%。据估计，通过减少当技师出错时送给客户的组件、加速组装流程、和增加客户满意度，它每年为DEC节省了两千五百万美元。 在使用XCON之前，当从DEC订购VAX时，电缆、接头、和很多软件要单独订购（计算机和外设不像今天一样一起出售）。不是所有的销售人员都是技术专家，所以经常会发生",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "cee5ba259b88",
+   "source": "wikipedia",
+   "title": "印第安電單車",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
+   "published": "",
+   "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2650,6 +2726,26 @@
    "summary": "Nankai University is located in Tianjin, People's Republic of China. It was co-founded by prominent modern Chinese educators Yan Xiu and Zhang Boling, originating from the establishment of Nankai School in 1904. In 1919, the university division of Nankai School was formally established. On September 25, 1919, the university division of Nankai School held its first opening ceremony, marking the off",
    "meta": {
     "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "9aa8dfe5a597",
+   "source": "wikipedia",
+   "title": "相对论",
+   "url": "https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%AF%B9%E8%AE%BA",
+   "published": "",
+   "summary": "相對論（英語：Theory of relativity）是关于时空和引力的理论，主要由爱因斯坦创立，依其研究对象的不同可分为狭义相对论和广义相对论。相对论和量子力学的提出给物理学带来了革命性的变化，它们共同奠定了现代物理学的基础。相对论极大地改变了人类对宇宙和自然的“常识性”观念，提出了“同时的相对性”、“四维时空”、“弯曲时空”等全新的概念。不过近年来，人们对于物理理论的分类有了一种新的认识——以其理论是否是决定论的来划分经典与非经典的物理学，即“非古典的＝量子的”。在这个意义下，相对论仍然是一种经典的理论。 該理論取代了200年前主要由艾薩克·牛頓創立的力學理論，從而改變了20世紀的理論物理學和天文學，它引入的概念，包括時空、同時性之相對性、運動學、重力時間膨脹和勞侖茲收縮。在物理學領域，相對論改善了基本粒子的科學以及它們的基本相互作用，以及迎來核子時代。 另外，藉由相對論，物理宇宙學",
+   "meta": {
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -3162,26 +3258,6 @@
    "title_signal": false
   },
   {
-   "id": "cee5ba259b88",
-   "source": "wikipedia",
-   "title": "印第安電單車",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
-   "published": "",
-   "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "afdcf27e39ca",
    "source": "wikipedia",
    "title": "沙丘 (2021年電影)",
@@ -3350,66 +3426,6 @@
    "summary": "賽門·夏佛（英語：Simon J. Schaffer，1955年1月1日—），劍橋大學科學史與科學哲學教授。英國科學史期刊主編。專長為物理史、社會科學史。",
    "meta": {
     "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "e7af2a5ae059",
-   "source": "wikipedia",
-   "title": "威斯康星大学麦迪逊分校",
-   "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%A4%A7%E5%AD%A6%E9%BA%A6%E8%BF%AA%E9%80%8A%E5%88%86%E6%A0%A1",
-   "published": "",
-   "summary": "威斯康星大学麦迪逊分校（英語：University of Wisconsin–Madison, 简称UW–Madison，UW，或Madison）是一所位于美国威斯康星州麦迪逊市的公立赠地研究型大学，也是威斯康星大学系统的旗舰校区。学校成立于1848年，与威斯康星州成为美国联邦的一部分为同一年。校区占地约378公顷，坐落于门多塔湖畔；此外，大学还在校区以南约6.4公里处拥有并运营着一个占地约486公顷的植物园。 威斯康星大学是美国大学协会的创始成员，也是“公立常春藤”之一，被归类为R1级研究型大学。威斯康星大学是“威斯康星学派”的发源地。根据美国国家科学基金会的数据，2024年该校在全美大学科研经费支出中排名第五。 截至2026年10月 (2026-10)，麦迪逊师生共赢得过23次诺贝尔奖、学校共诞生了43位普利策奖得主、1位菲尔兹奖得主以及1位图灵奖得主。该校同时也培育了大量富布赖特学者",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "2b88d40ab609",
-   "source": "wikipedia",
-   "title": "强纲领",
-   "url": "https://zh.wikipedia.org/wiki/%E5%BC%BA%E7%BA%B2%E9%A2%86",
-   "published": "",
-   "summary": "强纲领（英語：Strong programme），是科学知识社会学（SSK）的一支，它尤其与大衛·布魯爾、巴里·巴恩斯、哈里·柯林斯、Donald A. MacKenzie和 John Henry 的研究联系密切。强纲领被社会学家布鲁诺·拉图尔认为对于科学技术论有着无可比拟的的影响。主要以爱丁堡大学的学者为基础的学派阐释了，科学共同体（通过对共享范式的忠诚）紧密联结的方式，是标准科学活动的先决条件。 强纲领是对“弱”科学社会学的一种反应，弱纲领将社会学的应用限制在了“失败”或“错误”的理论，例如颅相学。 失败的理论可以用其研究者出现的偏差来解释，例如隐蔽的政治或经济利益。社会学与成功理论的相关性很小，这些理论之所以成功，是因为它们揭示了一个自然事实。 强纲领提出，对“真”和“假”的科学理论的研究都应该一视同仁，两者都是由社会因素或条件引起的，例如文化背景和自身利益。人类的一切知识，存在于于",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "28cdf1ffdf5f",
-   "source": "wikipedia",
-   "title": "Chengdu",
-   "url": "https://en.wikipedia.org/wiki/Chengdu",
-   "published": "",
-   "summary": "Chengdu is the capital city of the Chinese province of Sichuan. With a population of 20,937,757 at the 2020 census, it is the country's fourth most populous city and the only city with a population of over 20 million apart from provincial-level municipalities. It is traditionally the hub of Western China. Chengdu is in central Sichuan. The surrounding Chengdu Plain is known as the \"Country of Heav",
-   "meta": {
-    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
