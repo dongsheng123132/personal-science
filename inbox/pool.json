@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03T03:28:09+00:00",
+ "updated_at": "2026-11-04T02:20:09+00:00",
  "count": 150,
  "items": [
   {
@@ -516,6 +516,32 @@
    "title_signal": false
   },
   {
+   "id": "e140d349a942",
+   "source": "wikipedia",
+   "title": "J·J·湯姆森",
+   "url": "https://zh.wikipedia.org/wiki/J%C2%B7J%C2%B7%E6%B9%AF%E5%A7%86%E6%A3%AE",
+   "published": "",
+   "summary": "约瑟夫·约翰·湯姆森爵士 （英語：Sir Joseph John Thomson，1856年12月18日—1940年8月30日），英国物理学家，诺贝尔物理学奖获得主， 他发现了电子并測定了其質荷比，这是第一个被发现的亚原子粒子。 1897年，汤姆孙表明，阴极射线由以前未知的带负电粒子（现称为电子）组成，他计算出這種粒子必须比原子小得多，並且有非常小的质荷比。 汤姆孙在1913年也发现了稳定（非放射性）元素同位素的第一个证据，这是他在探索陽極射線（正离子）的過程中的成果之一。 他与弗朗西斯·阿斯頓一起确定带正电粒子的性质的实验是质谱法的第一次使用，使得质谱仪的發展。 汤姆孙因其在气体导电方面的工作而被授予1906年诺贝尔物理学奖。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "ph ",
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "ph ",
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "1e800ac3d6c6",
    "source": "wikipedia",
    "title": "计算物理学",
@@ -564,6 +590,29 @@
    "hits": [
     "physics",
     "实验"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "6ae5874d9649",
+   "source": "hackaday",
+   "title": "Detecting an Eight Magnetic Pole State using Chiral Phonons",
+   "url": "https://hackaday.com/2026/11/03/detecting-an-eight-magnetic-pole-state-using-chiral-phonons",
+   "published": "2026-11-03",
+   "summary": "The idea that magnetism doesn’t necessarily always have a dipolar configuration is not a new one, but it’s not an easy theory to find evidence for. Most recently a team …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "obj_hits": [
+    "magnet"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "magnet"
    ],
    "title_signal": true
   },
@@ -1098,6 +1147,33 @@
    "title_signal": true
   },
   {
+   "id": "aca648fccd47",
+   "source": "wikipedia",
+   "title": "中国脑",
+   "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E8%84%91",
+   "published": "",
+   "summary": "中国脑是心灵哲学中的一个思想实验，探讨了如果每个中国人被要求使用电话或对讲机模拟大脑中一个神经元的动作，会发生什么情况。对讲机模拟连接神经元的轴突和树突。这会使中国人整体像大脑一样具有思想或意识吗？ 中国脑的早期版本由Anatoly Dneprov于1961年提出， ，后于1974年由Lawrence Davis二次提出，1978年由内德·布洛克也参与了讨论。布洛克认为“中国脑”不会具有意识，而丹尼尔·丹尼特则认为会。“中国脑”问题是一个更一般的问题的特例——即是否可以在一个大意识体中存在小意识体。 注：不应将其与约翰·塞尔（John Searle）提出的关于中国房间的论点相混淆——虽然这也是心灵哲学的思想实验，但它与人工智能有关。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 79,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "人工智能"
+   ],
+   "hits": [
+    "实验",
+    "人工智能"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "8bdc9f6355f2",
    "source": "hackaday",
    "title": "DIY WiFi Analyzer Sniffs Out Congestion and Coverage Issues, Suggests Fixes",
@@ -1190,29 +1266,6 @@
    "title_signal": false
   },
   {
-   "id": "172b48983d81",
-   "source": "hackaday",
-   "title": "ESP32 Rotary Display Makes Ideal Timer",
-   "url": "https://hackaday.com/2026/10/27/esp32-rotary-display-makes-ideal-timer",
-   "published": "2026-10-27",
-   "summary": "We’re big fans of pushing hardware into situations it wasn’t designed for here at Hackaday, but sometimes you’ve got to appreciate a nicely designed gadget doing more or less exactly …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 77,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [
-    "esp32"
-   ],
-   "hits": [
-    "esp32"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "ea38c29a8cd4",
    "source": "hackaday",
    "title": "An Open Source Linear Capacitive Encoder",
@@ -1286,30 +1339,6 @@
    "title_signal": false
   },
   {
-   "id": "9bb8bebc8f58",
-   "source": "wikipedia",
-   "title": "物理学史",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E5%8F%B2",
-   "published": "",
-   "summary": "物理学主要是研究物质、能量及它們彼此之間的關係。它是最早形成的自然科学学科之一，如果把天文学包括在内则有可能是名副其实历史最悠久的自然科学。最早的物理学著作是古希腊科学家亚里士多德的《物理學》。形成物理学的元素主要来自对天文学、光学和力学的研究，而这些研究通过几何学的方法统合在一起形成了物理学。这些方法形成于古巴比伦和古希腊时期，当时的代表人物如数学家阿基米德和天文学家托勒密；随后这些学说被传入阿拉伯世界，并被当时的阿拉伯科学家海什木等人发展为更具有物理性和实验性的传统学说；最终这些学说传入了西欧，首先研究这些内容的学者代表人物是罗吉尔·培根。然而在当时的西方世界，哲学家们普遍认为这些学说在本质上是技术性的，从而一般没有察觉到它们所描述的内容反映着自然界中重要的哲学意义。而在古代中国和印度的科学史上，类似的研究数学的方法也在发展中。 在这一时代，包含着所谓“自然哲学”（即物理学）的哲学所集",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "78f4403a37fa",
    "source": "wikipedia",
    "title": "经典力学",
@@ -1358,6 +1387,30 @@
    "title_signal": false
   },
   {
+   "id": "94a5658f26f0",
+   "source": "wikipedia",
+   "title": "伽利略之船",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%E4%B9%8B%E8%88%B9",
+   "published": "",
+   "summary": "伽利略之船是物理学家和天文学家伽利略·伽利莱在16世纪至17世纪进行的两个物理实验，其中包括一个思想實驗和一个实际实验。这些实验的目的是为了反驳地心说，支持地球自转的观点，反驳太阳、行星和恒星围绕地球运转。 当时常用的论据是，如果地球确实在自转，那么拋體或自由落体的轨迹应该会受到可检测的影响。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "58c42e0ca1d6",
    "source": "wikipedia",
    "title": "假想實驗",
@@ -1382,12 +1435,12 @@
    "title_signal": false
   },
   {
-   "id": "f2bc782fed23",
+   "id": "3159fb8be0c4",
    "source": "wikipedia",
-   "title": "波普尔实验",
-   "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%99%AE%E5%B0%94%E5%AE%9E%E9%AA%8C",
+   "title": "惠勒延迟选择实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
    "published": "",
-   "summary": "波普尔实验是由哲学家卡尔·波普尔提出的实验。 在1934年，波普尔对哥本哈根解释，一种流行的量子力学主观解释，产生了怀疑，并提出了一个实验来检验它。 波普尔的实验是对一种争议说法的具体化，类似于阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森提出的EPR佯謬思想实验。",
+   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1404,30 +1457,6 @@
     "实验"
    ],
    "title_signal": true
-  },
-  {
-   "id": "c92f39c2aec2",
-   "source": "wikipedia",
-   "title": "牛顿大炮",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E5%A4%A7%E7%82%AE",
-   "published": "",
-   "summary": "牛顿大炮（英語：Newton's cannonball）是物理学家艾萨克·牛顿阐述的一个思想实验。牛顿用这个实验来假设引力具有普适性，并且是行星运动的重要动力来源。这个实验出现在牛顿的著作《自然哲学的数学原理》中。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": false
   },
   {
    "id": "6f8a9aad6f5e",
@@ -1478,12 +1507,36 @@
    "title_signal": false
   },
   {
-   "id": "b5b9635e94fc",
+   "id": "1128fe5e51b1",
    "source": "wikipedia",
-   "title": "吴健雄",
-   "url": "https://zh.wikipedia.org/wiki/%E5%90%B4%E5%81%A5%E9%9B%84",
+   "title": "物理学",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6",
    "published": "",
-   "summary": "吴健雄（英語：Chien-Shiung Wu；1912年5月31日—1997年2月16日），美籍华裔物理学家，在核物理学领域卓有贡献，其在实验物理学方面的造诣常令人将她与瑪麗·居禮相提并论。吴健雄是美国物理学会的第一位女性会长，常被人称為“中國的居里夫人”、“物理研究的第一女士”、“核子研究的女王”以及“世界最傑出的女性實驗物理學家之一”。 吴健雄先后毕业于中華民國国立中央大学和美国加州大学伯克利分校，师从诺贝尔物理学奖得主欧内斯特·劳伦斯。曼哈顿计划期间，她参与研究了如何利用气体扩散法分离铀的两种同位素（铀-235与铀-238）。吴健雄长期在美国哥伦比亚大学任教，她最著名的一项科研成果是利用实验方法验证了宇称不守恒，这项工作令其同事李政道和杨振宁获得1957年的诺贝尔物理学奖，本人也因此获授1978年首次颁发的沃尔夫物理学奖。",
+   "summary": "物理學或物理（英语：physics）是研究物質、能量的本質與性質的自然科學。由於物質與能量是所有科學研究的必須涉及的基本要素，所以物理學是自然科學中最基礎的學科之一。物理學是一種實驗科學，物理學者從觀測與分析大自然的各種基於物質與能量的現象來找出其中的模式。這些模式稱為「物理理論」，經得起實驗檢驗的常用物理理論稱為物理定律，直到有一天被證明是有錯誤為止（具可否證性）。物理學是由這些定律精緻地建構而成。物理學是自然科學中最基礎的學科之一。化學、生物學、考古學等等科學學術領域的理論都建構於這些物理定律。 物理學是最古老的學術之一。物理學、化學、生物學等等原本都歸屬於自然哲學的範疇，直到十七世紀至十九世紀期間，才漸漸地從自然哲學中分別成長為獨立的學術領域。物理學與其它很多跨領域研究有相當的交集，如量子化學、生物物理學等等。物理學的疆界並不是固定不變的，物理學裡的創始突破時常可以用來解釋這些跨領域",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "9bb8bebc8f58",
+   "source": "wikipedia",
+   "title": "物理学史",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E5%8F%B2",
+   "published": "",
+   "summary": "物理学主要是研究物质、能量及它們彼此之間的關係。它是最早形成的自然科学学科之一，如果把天文学包括在内则有可能是名副其实历史最悠久的自然科学。最早的物理学著作是古希腊科学家亚里士多德的《物理學》。形成物理学的元素主要来自对天文学、光学和力学的研究，而这些研究通过几何学的方法统合在一起形成了物理学。这些方法形成于古巴比伦和古希腊时期，当时的代表人物如数学家阿基米德和天文学家托勒密；随后这些学说被传入阿拉伯世界，并被当时的阿拉伯科学家海什木等人发展为更具有物理性和实验性的传统学说；最终这些学说传入了西欧，首先研究这些内容的学者代表人物是罗吉尔·培根。然而在当时的西方世界，哲学家们普遍认为这些学说在本质上是技术性的，从而一般没有察觉到它们所描述的内容反映着自然界中重要的哲学意义。而在古代中国和印度的科学史上，类似的研究数学的方法也在发展中。 在这一时代，包含着所谓“自然哲学”（即物理学）的哲学所集",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1502,12 +1555,12 @@
    "title_signal": false
   },
   {
-   "id": "1128fe5e51b1",
+   "id": "43a3935e4604",
    "source": "wikipedia",
-   "title": "物理学",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6",
+   "title": "物理学的进化",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E7%9A%84%E8%BF%9B%E5%8C%96",
    "published": "",
-   "summary": "物理學或物理（英语：physics）是研究物質、能量的本質與性質的自然科學。由於物質與能量是所有科學研究的必須涉及的基本要素，所以物理學是自然科學中最基礎的學科之一。物理學是一種實驗科學，物理學者從觀測與分析大自然的各種基於物質與能量的現象來找出其中的模式。這些模式稱為「物理理論」，經得起實驗檢驗的常用物理理論稱為物理定律，直到有一天被證明是有錯誤為止（具可否證性）。物理學是由這些定律精緻地建構而成。物理學是自然科學中最基礎的學科之一。化學、生物學、考古學等等科學學術領域的理論都建構於這些物理定律。 物理學是最古老的學術之一。物理學、化學、生物學等等原本都歸屬於自然哲學的範疇，直到十七世紀至十九世紀期間，才漸漸地從自然哲學中分別成長為獨立的學術領域。物理學與其它很多跨領域研究有相當的交集，如量子化學、生物物理學等等。物理學的疆界並不是固定不變的，物理學裡的創始突破時常可以用來解釋這些跨領域",
+   "summary": "《物理学的进化》（英文版原名：The Evolution of Physics或The Evolution of Physics: From Early Concept to Relativity and Quanta，根据版本不同书名有上述的文字差别。中文版译名来自周肇威的译本）是由物理学家阿尔伯特·爱因斯坦和利奥波德·英费尔德合著出版的物理学科普读物，内容介绍了物理学从伽利略、牛顿时代的经典理论到现代场论、相对论和量子力学的发展演化历程。该书最初由剑桥大学出版社在1938年出版并获得了大众的广泛好评，《时代》杂志还特别为此书刊载了一篇头条报道。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1670,12 +1723,12 @@
    "title_signal": false
   },
   {
-   "id": "3159fb8be0c4",
+   "id": "f2bc782fed23",
    "source": "wikipedia",
-   "title": "惠勒延迟选择实验",
-   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
+   "title": "波普尔实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%99%AE%E5%B0%94%E5%AE%9E%E9%AA%8C",
    "published": "",
-   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
+   "summary": "波普尔实验是由哲学家卡尔·波普尔提出的实验。 在1934年，波普尔对哥本哈根解释，一种流行的量子力学主观解释，产生了怀疑，并提出了一个实验来检验它。 波普尔的实验是对一种争议说法的具体化，类似于阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森提出的EPR佯謬思想实验。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1692,6 +1745,54 @@
     "实验"
    ],
    "title_signal": true
+  },
+  {
+   "id": "c92f39c2aec2",
+   "source": "wikipedia",
+   "title": "牛顿大炮",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E5%A4%A7%E7%82%AE",
+   "published": "",
+   "summary": "牛顿大炮（英語：Newton's cannonball）是物理学家艾萨克·牛顿阐述的一个思想实验。牛顿用这个实验来假设引力具有普适性，并且是行星运动的重要动力来源。这个实验出现在牛顿的著作《自然哲学的数学原理》中。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "b5b9635e94fc",
+   "source": "wikipedia",
+   "title": "吴健雄",
+   "url": "https://zh.wikipedia.org/wiki/%E5%90%B4%E5%81%A5%E9%9B%84",
+   "published": "",
+   "summary": "吴健雄（英語：Chien-Shiung Wu；1912年5月31日—1997年2月16日），美籍华裔物理学家，在核物理学领域卓有贡献，其在实验物理学方面的造诣常令人将她与瑪麗·居禮相提并论。吴健雄是美国物理学会的第一位女性会长，常被人称為“中國的居里夫人”、“物理研究的第一女士”、“核子研究的女王”以及“世界最傑出的女性實驗物理學家之一”。 吴健雄先后毕业于中華民國国立中央大学和美国加州大学伯克利分校，师从诺贝尔物理学奖得主欧内斯特·劳伦斯。曼哈顿计划期间，她参与研究了如何利用气体扩散法分离铀的两种同位素（铀-235与铀-238）。吴健雄长期在美国哥伦比亚大学任教，她最著名的一项科研成果是利用实验方法验证了宇称不守恒，这项工作令其同事李政道和杨振宁获得1957年的诺贝尔物理学奖，本人也因此获授1978年首次颁发的沃尔夫物理学奖。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
   },
   {
    "id": "84d08da14f64",
@@ -1814,27 +1915,22 @@
    "title_signal": false
   },
   {
-   "id": "43a3935e4604",
-   "source": "wikipedia",
-   "title": "物理学的进化",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E7%9A%84%E8%BF%9B%E5%8C%96",
-   "published": "",
-   "summary": "《物理学的进化》（英文版原名：The Evolution of Physics或The Evolution of Physics: From Early Concept to Relativity and Quanta，根据版本不同书名有上述的文字差别。中文版译名来自周肇威的译本）是由物理学家阿尔伯特·爱因斯坦和利奥波德·英费尔德合著出版的物理学科普读物，内容介绍了物理学从伽利略、牛顿时代的经典理论到现代场论、相对论和量子力学的发展演化历程。该书最初由剑桥大学出版社在1938年出版并获得了大众的广泛好评，《时代》杂志还特别为此书刊载了一篇头条报道。",
+   "id": "4bb27f96a94f",
+   "source": "hackaday",
+   "title": "Etching Press Aims To Impress",
+   "url": "https://hackaday.com/2026/11/03/etching-press-aims-to-impress",
+   "published": "2026-11-03",
+   "summary": "There’s an old joke about inviting a girl up to your dorm room to ‘look at your etchings’– but if you’re going to do that, you’d best have some etchings, …read more",
    "meta": {
-    "site": "zh.wikipedia.org"
+    "query": "DIY lab"
    },
    "targeted": true,
-   "score": 76,
+   "score": 74,
    "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
+   "obj_hits": [],
    "per_hits": [],
    "modern_hits": [],
-   "hits": [
-    "physics"
-   ],
+   "hits": [],
    "title_signal": false
   },
   {
@@ -1863,44 +1959,6 @@
    "url": "https://hackaday.com/2026/10/29/2026-hackaday-supercon-all-the-speakers",
    "published": "2026-10-29",
    "summary": "We announced our first round of speakers, and then the workshops, and we were going to dribble out updates on the rest of the speakers as they came in, but …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "7b589bc293ff",
-   "source": "hackaday",
-   "title": "2026 Retrocomputing Challenge: Explore Space with a Credit Card Reader",
-   "url": "https://hackaday.com/2026/10/27/2026-retrocomputing-challenge-explore-space-with-a-credit-card-reader",
-   "published": "2026-10-27",
-   "summary": "The humble credit card reader — most of us have used hundreds, perhaps even thousands of them over the years. But even for folks like us, it’s not the sort …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "23d837a89064",
-   "source": "hackaday",
-   "title": "Airborne Particle Monitoring, the BIG way",
-   "url": "https://hackaday.com/2026/10/27/airborne-particle-monitoring-the-big-way",
-   "published": "2026-10-27",
-   "summary": "Airborne micro particles can be a significant health hazard in a workshop, and thus it’s important to maintain a high standard of ventilation. But monitoring their concentration is also important, …read more",
    "meta": {
     "query": "air quality"
    },
@@ -1998,25 +2056,25 @@
    "title_signal": false
   },
   {
-   "id": "2c1b2b1bd5de",
+   "id": "172b48983d81",
    "source": "hackaday",
-   "title": "Tearing Down a Heavy Oscilloscope",
-   "url": "https://hackaday.com/2026/10/04/tearing-down-a-heavy-oscilloscope",
-   "published": "2026-10-04",
-   "summary": "When [Thomas] showed his 1960s-era Tektronix 545A oscilloscope in a recent video, it made us both nostalgic and happy. Nostalgic because we miss the days when our oscilloscopes were “mainframes” …read more",
+   "title": "ESP32 Rotary Display Makes Ideal Timer",
+   "url": "https://hackaday.com/2026/10/27/esp32-rotary-display-makes-ideal-timer",
+   "published": "2026-10-27",
+   "summary": "We’re big fans of pushing hardware into situations it wasn’t designed for here at Hackaday, but sometimes you’ve got to appreciate a nicely designed gadget doing more or less exactly …read more",
    "meta": {
-    "query": "oscilloscope"
+    "query": "DIY lab"
    },
    "targeted": true,
-   "score": 74,
+   "score": 73,
    "why": "",
    "obj_hits": [],
-   "per_hits": [
-    "made"
+   "per_hits": [],
+   "modern_hits": [
+    "esp32"
    ],
-   "modern_hits": [],
    "hits": [
-    "made"
+    "esp32"
    ],
    "title_signal": false
   },
@@ -2041,6 +2099,44 @@
    "hits": [
     "esp32"
    ],
+   "title_signal": false
+  },
+  {
+   "id": "7b589bc293ff",
+   "source": "hackaday",
+   "title": "2026 Retrocomputing Challenge: Explore Space with a Credit Card Reader",
+   "url": "https://hackaday.com/2026/10/27/2026-retrocomputing-challenge-explore-space-with-a-credit-card-reader",
+   "published": "2026-10-27",
+   "summary": "The humble credit card reader — most of us have used hundreds, perhaps even thousands of them over the years. But even for folks like us, it’s not the sort …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "23d837a89064",
+   "source": "hackaday",
+   "title": "Airborne Particle Monitoring, the BIG way",
+   "url": "https://hackaday.com/2026/10/27/airborne-particle-monitoring-the-big-way",
+   "published": "2026-10-27",
+   "summary": "Airborne micro particles can be a significant health hazard in a workshop, and thus it’s important to maintain a high standard of ventilation. But monitoring their concentration is also important, …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
    "title_signal": false
   },
   {
@@ -2278,12 +2374,12 @@
    "title_signal": false
   },
   {
-   "id": "9aace4137621",
+   "id": "9aa8dfe5a597",
    "source": "wikipedia",
-   "title": "爱因斯坦-波多尔斯基-罗森佯谬",
-   "url": "https://zh.wikipedia.org/wiki/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6-%E6%B3%A2%E5%A4%9A%E5%B0%94%E6%96%AF%E5%9F%BA-%E7%BD%97%E6%A3%AE%E4%BD%AF%E8%B0%AC",
+   "title": "相对论",
+   "url": "https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%AF%B9%E8%AE%BA",
    "published": "",
-   "summary": "愛因斯坦-波多爾斯基-羅森弔詭（英語：Einstein-Podolsky-Rosen paradox），簡稱「愛波羅弔詭」、「EPR弔詭」（EPR paradox）是阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森在1935年發表的一篇論文中，以弔詭的形式針對量子力学的哥本哈根詮釋而提出的早期重要批評。 在這篇題為《能認為量子力學對物理實在的描述是完全的嗎？》（英語：Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?，下稱「EPR論文」）的論文中，他們設計出一個思想實驗，稱為「EPR思想實驗」。藉著檢驗兩個量子糾纏粒子所呈現出的關聯性物理行為，EPR思想實驗凸顯出定域實在論與量子力學完備性之間的矛盾，因此，這論述被稱為「EPR弔詭」。 EPR論文並沒有質疑量子力學的正確性，它質疑的是",
+   "summary": "相對論（英語：Theory of relativity）是关于时空和引力的理论，主要由爱因斯坦创立，依其研究对象的不同可分为狭义相对论和广义相对论。相对论和量子力学的提出给物理学带来了革命性的变化，它们共同奠定了现代物理学的基础。相对论极大地改变了人类对宇宙和自然的“常识性”观念，提出了“同时的相对性”、“四维时空”、“弯曲时空”等全新的概念。不过近年来，人们对于物理理论的分类有了一种新的认识——以其理论是否是决定论的来划分经典与非经典的物理学，即“非古典的＝量子的”。在这个意义下，相对论仍然是一种经典的理论。 該理論取代了200年前主要由艾薩克·牛頓創立的力學理論，從而改變了20世紀的理論物理學和天文學，它引入的概念，包括時空、同時性之相對性、運動學、重力時間膨脹和勞侖茲收縮。在物理學領域，相對論改善了基本粒子的科學以及它們的基本相互作用，以及迎來核子時代。 另外，藉由相對論，物理宇宙學",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2344,6 +2440,26 @@
    "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2",
    "published": "",
    "summary": "科學史，利用了思想史和社會史兩個面向的歷史研究方法。科學起源於對自然其功能性的實用考量以及纯粹的哲學探究。 雖然科學方法自古便不斷發展，但現代科學方法卻是始自伊斯蘭科學家，海什木在大約西元1000年左右，運用實驗的經驗法則寫出了一本關於光學的著作《光學書》。然而，現代科學方法在13世紀的歐洲由大學經院哲學的學者所發起科學革命時，方才算發展完全，到了16世紀及17世紀早期的發展高峰，現代科學方法的廣泛應用更引領了知識的全面重估。科學方法的發展被某些人（尤其是科學哲學家及實證科學家）認為是太過於基礎而重要的，認為早先對於自然的探索只不過是前科學（pre-scientific），現代科學方法才被他們認為是真正的科學。習慣上，科學史學家仍舊認定早先的科學探索也包含於廣大而充足的科學範疇之中。 數學史、科技史及哲學史則在其各自的條目中描述。數學跟科學很接近但有所區别（至少在現代的觀念上是這樣認為）。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "c16ba36fab57",
+   "source": "wikipedia",
+   "title": "科学史学史",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2%E5%AD%A6%E5%8F%B2",
+   "published": "",
+   "summary": "科学史学史，有时也被称为科学史，是一门研究有关科学的历史和方法论的历史分支学科，研究内容包括其学科方面和实践层面（方法、理论、流派）以及对其自身历史发展的研究（ “科学史的历史”，即一门称作科学史的历史学科）。 由于有关科学史研究的适当方法的史学争论有时难以与关于科学的发展历程的历史争论区分开来，因此，后一类的早期争论通常被认为是该学科的开端。例如，这种讨论贯穿了伟大的历史学家和科学哲学家威廉·惠威尔的历史著作。因此，他经常被恰当地认为是这门学科的始祖，另外还有皮埃尔·迪昂和亚历山大·柯瓦雷也对该学科的建立做出了先驱性的贡献。 对科学史学的明确表述，通常可以追溯到 20 世纪 60 年代初期。例如，1965年格尔德·布赫达尔发表的《科学史学史革命》就涉及了托马斯·库恩和约瑟夫·阿伽西的创新研究。他认为这两位作家通过明确区分历史和科学史学史开创了这个学科，他们认为史学观点极大地影响了科学史的",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2438,12 +2554,12 @@
    "title_signal": false
   },
   {
-   "id": "a19f8aa2f80d",
+   "id": "109ee3b55506",
    "source": "wikipedia",
-   "title": "突變第三型",
-   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
+   "title": "汪達幻視",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E9%81%94%E5%B9%BB%E8%A6%96",
    "published": "",
-   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
+   "summary": "《旺达幻视》（英語：WandaVision，香港译《温黛与幻视》，台湾译《汪达幻视》）是一部美國超級英雄類型的網路劇集，改編自漫威漫畫的角色「緋紅女巫」汪達·麥西莫夫和幻視，由潔克·薛佛主創並擔當首席編劇，麥特·夏克曼執導影集。該電視劇是漫威影業開發製作的漫威電影宇宙的首部電視劇作品，與漫威電影宇宙系列電影處於同一架空世界和共同世界，於線上串流媒體平台Disney+首播。 伊莉莎白·歐森和保羅·彼特尼繼續分別飾演在漫威電影宇宙系列電影中的角色汪達·麥西莫夫和幻視。主演還包括黛博拉·喬·拉普、弗雷德·邁拉麥德、凱薩琳·哈恩、泰娜·帕麗斯、藍道爾·朴、凱特·丹寧絲和伊凡·彼得斯。2018年9月，漫威影業宣佈為華特迪士尼公司旗下的在線上串流平台Disney+開發數個電視劇，並以漫威電影宇宙中的「二級核心」人物為主角，比如「緋紅女巫」汪達·麥西莫夫和幻視，伊莉莎白·歐森和保羅·彼特尼有望回歸繼續出",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2518,12 +2634,12 @@
    "title_signal": false
   },
   {
-   "id": "42194c0fcf28",
+   "id": "925998e1f52f",
    "source": "wikipedia",
-   "title": "朝鲜战争",
-   "url": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89",
+   "title": "朱迪斯·贾维斯·汤姆逊",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E8%B4%BE%E7%BB%B4%E6%96%AF%C2%B7%E6%B1%A4%E5%A7%86%E9%80%8A",
    "published": "",
-   "summary": "朝鲜战争是1950年至1953年期间朝鲜半岛发生的大規模戰爭，交戰雙方分別是朝鲜民主主义人民共和国與大韩民国。戰爭爆發後，16國組成的聯合國軍（以美軍為主力）出兵支持韓國，中华人民共和国以中国人民志愿军的名义出兵支持朝鲜，苏联则通过军事物资支援与空军支持出兵朝鲜，使战争升级为影响东亚地缘政治的区域性冲突，同时也令此战成为自中国的第二次国共内战后在冷战时期东西方阵营间的第二场代理人战争。 朝鮮人民軍在三八线发生冲突及南部发生濟州四·三事件后，於1950年6月25日跨越三八线南下与大韩民国国军作战，战争爆發。雙方隨後展開漫長的拉鋸戰，联合国军與中国人民志愿军先後參戰，最終戰線維持在三八線附近，於1953年7月27日在板门店签署《朝鲜停战协定》，並根据停战时实际控制线，建立朝韩非军事区作缓冲地带。朝鲜半岛南北双方仍有外交冲突和军事对峙，持续至今。 而美国于朝鲜战争期间部署第七舰队巡防台湾海峡，以",
+   "summary": "朱迪斯·贾维斯·汤姆逊（1929年10月4日 – 2020年11月20日）是一位研究伦理学、形上學和有轨电车难题的美国哲学家。 朱迪斯·贾维斯·汤姆逊是《为堕胎辩护》的作者。1989年，朱迪斯·贾维斯·汤姆逊当选美国文理科学院院士。 2016年，她当选为英國國家學術院通讯院士。 2019年，当选为美國哲學學會会员。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2738,12 +2854,52 @@
    "title_signal": false
   },
   {
-   "id": "9aa8dfe5a597",
+   "id": "9aace4137621",
    "source": "wikipedia",
-   "title": "相对论",
-   "url": "https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%AF%B9%E8%AE%BA",
+   "title": "爱因斯坦-波多尔斯基-罗森佯谬",
+   "url": "https://zh.wikipedia.org/wiki/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6-%E6%B3%A2%E5%A4%9A%E5%B0%94%E6%96%AF%E5%9F%BA-%E7%BD%97%E6%A3%AE%E4%BD%AF%E8%B0%AC",
    "published": "",
-   "summary": "相對論（英語：Theory of relativity）是关于时空和引力的理论，主要由爱因斯坦创立，依其研究对象的不同可分为狭义相对论和广义相对论。相对论和量子力学的提出给物理学带来了革命性的变化，它们共同奠定了现代物理学的基础。相对论极大地改变了人类对宇宙和自然的“常识性”观念，提出了“同时的相对性”、“四维时空”、“弯曲时空”等全新的概念。不过近年来，人们对于物理理论的分类有了一种新的认识——以其理论是否是决定论的来划分经典与非经典的物理学，即“非古典的＝量子的”。在这个意义下，相对论仍然是一种经典的理论。 該理論取代了200年前主要由艾薩克·牛頓創立的力學理論，從而改變了20世紀的理論物理學和天文學，它引入的概念，包括時空、同時性之相對性、運動學、重力時間膨脹和勞侖茲收縮。在物理學領域，相對論改善了基本粒子的科學以及它們的基本相互作用，以及迎來核子時代。 另外，藉由相對論，物理宇宙學",
+   "summary": "愛因斯坦-波多爾斯基-羅森弔詭（英語：Einstein-Podolsky-Rosen paradox），簡稱「愛波羅弔詭」、「EPR弔詭」（EPR paradox）是阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森在1935年發表的一篇論文中，以弔詭的形式針對量子力学的哥本哈根詮釋而提出的早期重要批評。 在這篇題為《能認為量子力學對物理實在的描述是完全的嗎？》（英語：Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?，下稱「EPR論文」）的論文中，他們設計出一個思想實驗，稱為「EPR思想實驗」。藉著檢驗兩個量子糾纏粒子所呈現出的關聯性物理行為，EPR思想實驗凸顯出定域實在論與量子力學完備性之間的矛盾，因此，這論述被稱為「EPR弔詭」。 EPR論文並沒有質疑量子力學的正確性，它質疑的是",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "a19f8aa2f80d",
+   "source": "wikipedia",
+   "title": "突變第三型",
+   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
+   "published": "",
+   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "42194c0fcf28",
+   "source": "wikipedia",
+   "title": "朝鲜战争",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89",
+   "published": "",
+   "summary": "朝鲜战争是1950年至1953年期间朝鲜半岛发生的大規模戰爭，交戰雙方分別是朝鲜民主主义人民共和国與大韩民国。戰爭爆發後，16國組成的聯合國軍（以美軍為主力）出兵支持韓國，中华人民共和国以中国人民志愿军的名义出兵支持朝鲜，苏联则通过军事物资支援与空军支持出兵朝鲜，使战争升级为影响东亚地缘政治的区域性冲突，同时也令此战成为自中国的第二次国共内战后在冷战时期东西方阵营间的第二场代理人战争。 朝鮮人民軍在三八线发生冲突及南部发生濟州四·三事件后，於1950年6月25日跨越三八线南下与大韩民国国军作战，战争爆發。雙方隨後展開漫長的拉鋸戰，联合国军與中国人民志愿军先後參戰，最終戰線維持在三八線附近，於1953年7月27日在板门店签署《朝鲜停战协定》，並根据停战时实际控制线，建立朝韩非军事区作缓冲地带。朝鲜半岛南北双方仍有外交冲突和军事对峙，持续至今。 而美国于朝鲜战争期间部署第七舰队巡防台湾海峡，以",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3284,146 +3440,6 @@
    "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
    "published": "",
    "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "e7951e4e685f",
-   "source": "wikipedia",
-   "title": "HIV/AIDS in China",
-   "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_China",
-   "published": "",
-   "summary": "HIV/AIDS in China can be traced to an initial outbreak of the human immunodeficiency virus (HIV) first recognized in 1989 among injecting drug users along China's southern border. Figures from the Chinese Center for Disease Control and Prevention, World Health Organization, and UNAIDS estimate that there were 1.25 million people living with HIV/AIDS in China at the end of 2018, with 135,000 new in",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "ef3dd7b47ba5",
-   "source": "wikipedia",
-   "title": "Mianyang",
-   "url": "https://en.wikipedia.org/wiki/Mianyang",
-   "published": "",
-   "summary": "Mianyang (simplified Chinese: 绵阳; traditional Chinese: 綿陽; pinyin: Miányáng; Wade–Giles: Mien2-yang2; Sichuanese romanization: Mien2-iang2; formerly known as Mienchow, Chinese: 綿州; pinyin: Mianzhou; Sichuanese romanization: Miencheo; lit. 'Mian Prefecture') is the second largest prefecture-level city of Sichuan province in Southwestern China. It borders Nanchong City to the east, Suining City to t",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "be789105f5ed",
-   "source": "wikipedia",
-   "title": "Trolley problem",
-   "url": "https://en.wikipedia.org/wiki/Trolley_problem",
-   "published": "",
-   "summary": "The trolley problem is a thought experiment in moral philosophy and moral psychology with many variations, involving hypothetical ethical dilemmas about whether to sacrifice one person to save a larger number of people. The series usually begins with a scenario in which a runaway trolley (tram) or train is on course to collide with and kill a number of people (traditionally five) tied to the track",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "109ee3b55506",
-   "source": "wikipedia",
-   "title": "汪達幻視",
-   "url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E9%81%94%E5%B9%BB%E8%A6%96",
-   "published": "",
-   "summary": "《旺达幻视》（英語：WandaVision，香港译《温黛与幻视》，台湾译《汪达幻视》）是一部美國超級英雄類型的網路劇集，改編自漫威漫畫的角色「緋紅女巫」汪達·麥西莫夫和幻視，由潔克·薛佛主創並擔當首席編劇，麥特·夏克曼執導影集。該電視劇是漫威影業開發製作的漫威電影宇宙的首部電視劇作品，與漫威電影宇宙系列電影處於同一架空世界和共同世界，於線上串流媒體平台Disney+首播。 伊莉莎白·歐森和保羅·彼特尼繼續分別飾演在漫威電影宇宙系列電影中的角色汪達·麥西莫夫和幻視。主演還包括黛博拉·喬·拉普、弗雷德·邁拉麥德、凱薩琳·哈恩、泰娜·帕麗斯、藍道爾·朴、凱特·丹寧絲和伊凡·彼得斯。2018年9月，漫威影業宣佈為華特迪士尼公司旗下的在線上串流平台Disney+開發數個電視劇，並以漫威電影宇宙中的「二級核心」人物為主角，比如「緋紅女巫」汪達·麥西莫夫和幻視，伊莉莎白·歐森和保羅·彼特尼有望回歸繼續出",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "925998e1f52f",
-   "source": "wikipedia",
-   "title": "朱迪斯·贾维斯·汤姆逊",
-   "url": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E8%BF%AA%E6%96%AF%C2%B7%E8%B4%BE%E7%BB%B4%E6%96%AF%C2%B7%E6%B1%A4%E5%A7%86%E9%80%8A",
-   "published": "",
-   "summary": "朱迪斯·贾维斯·汤姆逊（1929年10月4日 – 2020年11月20日）是一位研究伦理学、形上學和有轨电车难题的美国哲学家。 朱迪斯·贾维斯·汤姆逊是《为堕胎辩护》的作者。1989年，朱迪斯·贾维斯·汤姆逊当选美国文理科学院院士。 2016年，她当选为英國國家學術院通讯院士。 2019年，当选为美國哲學學會会员。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "36e498881eeb",
-   "source": "wikipedia",
-   "title": "The Left Hand of Darkness",
-   "url": "https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness",
-   "published": "",
-   "summary": "The Left Hand of Darkness is a science fiction novel by the American writer Ursula K. Le Guin. Published in 1969, its popularity established Le Guin's status as a major author of science fiction. The novel is set in the fictional universe of the Hainish Cycle, a series of novels and short stories by Le Guin, which she introduced in the 1964 short story \"The Dowry of Angyar\". It was fourth in writi",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "bca0f77d3a27",
-   "source": "wikipedia",
-   "title": "赛门·夏佛",
-   "url": "https://zh.wikipedia.org/wiki/%E8%B5%9B%E9%97%A8%C2%B7%E5%A4%8F%E4%BD%9B",
-   "published": "",
-   "summary": "賽門·夏佛（英語：Simon J. Schaffer，1955年1月1日—），劍橋大學科學史與科學哲學教授。英國科學史期刊主編。專長為物理史、社會科學史。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
