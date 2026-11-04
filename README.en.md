@@ -5,7 +5,7 @@
 A list of experiments you can do at home. No application, no review, no permission needed.
 **One person = one lab.** ([Charter](CHARTER.en.md))
 
-`21 experiments` · `each page tells you how to know it worked` · `CC0, copy freely` · `daily collection + AI-designed drafts`
+`22 experiments` · `each page tells you how to know it worked` · `CC0, copy freely` · `daily collection + AI-designed drafts`
 
 [中文](README.md) · [One-minute version](#the-one-minute-version) · [The list](#the-list) · [Growing every day](#growing-every-day) · [How to add one](#how-to-add-one) · [Manifesto](MANIFESTO.en.md) · [Charter](CHARTER.en.md)
 
@@ -111,6 +111,7 @@ When that works, **the individual becomes the smallest unit of research.** Scien
 | [Seed germination, light vs. dark](experiments/seed-germination.md) | Two species give two opposite answers | Seeds, paper towels, two plates | 5 days | ¥10 | ★☆☆ |
 | [Phototropism in a shoebox](experiments/plant-phototropism.md) | Watch a plant find the light, in timelapse | Small plant, shoebox, phone | 3–5 days | ¥10 | ★☆☆ |
 | [Pasteur's swan-neck flask](experiments/pasteur-swan-neck.md) | Air gets in, dust doesn't — and the broth stays clear | Bottles, tubing, broth | 7 days | ¥50–120 | ★★☆ |
+| [Mendel's Pea Experiment](experiments/mendel-s-pea-experiment.md) | Grow two generations of peas, count the 3:1 trait ratio, and use a chi-square test to decide whether it is real or luck. | pea seeds, flower pots, potting soil | about 2 months (one growing season) | ¥100–170 | 中等 |
 
 ### Environment & water
 
@@ -248,7 +249,7 @@ If something looks exciting but feels dangerous, don't do it. Open an issue firs
 ├── MANIFESTO.en.md      Manifesto (English)
 ├── CHARTER.md           Charter (Chinese)
 ├── CHARTER.en.md        Charter (English)
-├── experiments/         One page per experiment (21 pages)
+├── experiments/         One page per experiment (22 pages)
 ├── ideas.md             Idea pool
 ├── RESULTS.md           What people got (including failures)
 ├── CONTRIBUTING.en.md   How to add one (English)

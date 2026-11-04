@@ -7,7 +7,7 @@
 一个人在家就能做的实验清单。不用申请、不用审核、不用等人批准。
 **一个人 = 一个实验室。**（[章程](CHARTER.md)）
 
-`21 个实验` · `每页写清怎么做成` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
+`22 个实验` · `每页写清怎么做成` · `CC0 随便抄` · `每天自动收集 + 自动设计候选方案`
 
 [![collect](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml/badge.svg)](https://github.com/dongsheng123132/personal-science/actions/workflows/collect.yml)
 
@@ -113,6 +113,7 @@ AI 正好一次拆掉这四样。所以不用等谁批准——测量、记录�
 | [种子发芽率对照](experiments/seed-germination.md) | 光照到底影不影响发芽——两种种子给出两个相反的答案 | 种子、纸巾、两个盘子 | 5 天 | ¥10 | ★☆☆ |
 | [植物向光性延时](experiments/plant-phototropism.md) | 鞋盒开个洞，看植物怎么"找"到光 | 小植物、鞋盒、手机 | 3–5 天 | ¥10 | ★☆☆ |
 | [巴斯德鹅颈瓶](experiments/pasteur-swan-neck.md) | 空气进得去、灰尘进不去，肉汤就不腐 | 玻璃瓶、软管、肉汤 | 7 天 | ¥50–120 | ★★☆ |
+| [孟德尔豌豆实验](experiments/mendel-s-pea-experiment.md) | 亲手种两代豌豆，数出3:1的性状分离比，再用卡方检验判断这个比例是真的还是运气。 | 豌豆种子、花盆、培养土 | 约两个月（一个生长季） | ¥100–170 | 中等 |
 
 ### 环境与水
 
@@ -245,7 +246,7 @@ inbox/designs/（草稿，标注未核对）
 ├── MANIFESTO.md         宣言：为什么出发（智力平权）
 ├── CHARTER.md           章程：这个仓库的宪法
 ├── *.en.md              英文版（README / 宣言 / 章程）
-├── experiments/         每个实验一页（21 个）
+├── experiments/         每个实验一页（22 个）
 ├── ideas.md             点子池
 ├── RESULTS.md           有人做过什么（含失败）
 ├── CONTRIBUTING.md      怎么加一个（英文 CONTRIBUTING.en.md）
