@@ -1,0 +1,118 @@
+{
+ "generated_at": "2026-11-05T02:27:40+00:00",
+ "date": "2026-11-05",
+ "count": 5,
+ "items": [
+  {
+   "id": "e9475d65277f",
+   "source": "hackaday",
+   "title": "Reading Data from an Unwilling Blood Pressure Monitor",
+   "url": "https://hackaday.com/2026/11/04/reading-data-from-an-unwilling-blood-pressure-monitor",
+   "published": "2026-11-04",
+   "summary": "Given the modern trend of interconnecting anything and everything, we have no doubt that somebody sells a blood pressure monitor that will push its measurements out to all sorts of …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 94,
+   "why": "命中 pressure、measurement，2026-11-04",
+   "obj_hits": [
+    "pressure",
+    "measurement"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "pressure",
+    "measurement"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "86aa34f7015c",
+   "source": "hackaday",
+   "title": "Beautiful Laser Harp Hides Some Neat Tricks",
+   "url": "https://hackaday.com/2026/11/04/beautiful-laser-harp-hides-some-neat-tricks",
+   "published": "2026-11-04",
+   "summary": "Laser harps aren’t quite a right of passage, in that not everyone builds them, but it’s likely everyone at least contemplates building one at one time or another. We’re lucky …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 91,
+   "why": "命中 laser、build、laser，2026-11-04",
+   "obj_hits": [
+    "laser"
+   ],
+   "per_hits": [
+    "build"
+   ],
+   "modern_hits": [
+    "laser"
+   ],
+   "hits": [
+    "laser",
+    "build",
+    "laser"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "9fbcc4f762f9",
+   "source": "hackaday",
+   "title": "Yesterday Has Never Looked This Good: Feast Your Eyes On The 2026 Retrocomputing Challenge Winners!",
+   "url": "https://hackaday.com/2026/11/04/yesterday-has-never-looked-this-good-feast-your-eyes-on-the-2026-retrocomputing-challenge-winners",
+   "published": "2026-11-04",
+   "summary": "If there’s one category among those we see here at Hackaday that has something for everyone, it’s retrocomputing. Spanning everything from relay-based machines that fill a wall through to modern …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-04",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "db12f0de9716",
+   "source": "hackaday",
+   "title": "Making a Wax Motor for Micrometer-Level Control",
+   "url": "https://hackaday.com/2026/11/04/making-a-wax-motor-for-micrometer-level-control",
+   "published": "2026-11-04",
+   "summary": "Although not very glamorous, wax motors are a fairly common type of linear actuator. They use the thermal response of waxes and the resulting volumetric expansion or reduction to create …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-04",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "8e24ff8e1a84",
+   "source": "hackaday",
+   "title": "Cat Feeder Ensures Fed Cats",
+   "url": "https://hackaday.com/2026/11/03/cat-feeder-ensures-fed-cats",
+   "published": "2026-11-03",
+   "summary": "Automatic cat feeders are a dime a dozen, largely because this is an easy problem to solve. Dry cat food is easy for machines to manipulate, and the electronics needed …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-03",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  }
+ ]
+}

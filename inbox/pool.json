@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T02:20:09+00:00",
+ "updated_at": "2026-11-05T02:27:40+00:00",
  "count": 150,
  "items": [
   {
@@ -134,6 +134,31 @@
    "title_signal": false
   },
   {
+   "id": "e9475d65277f",
+   "source": "hackaday",
+   "title": "Reading Data from an Unwilling Blood Pressure Monitor",
+   "url": "https://hackaday.com/2026/11/04/reading-data-from-an-unwilling-blood-pressure-monitor",
+   "published": "2026-11-04",
+   "summary": "Given the modern trend of interconnecting anything and everything, we have no doubt that somebody sells a blood pressure monitor that will push its measurements out to all sorts of …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 94,
+   "why": "",
+   "obj_hits": [
+    "pressure",
+    "measurement"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "pressure",
+    "measurement"
+   ],
+   "title_signal": true
+  },
+  {
    "id": "3b473b3d8bf8",
    "source": "hackaday",
    "title": "Magnetic Lock Opens By Magic",
@@ -254,6 +279,35 @@
    "hits": [
     "实验",
     "手机"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "86aa34f7015c",
+   "source": "hackaday",
+   "title": "Beautiful Laser Harp Hides Some Neat Tricks",
+   "url": "https://hackaday.com/2026/11/04/beautiful-laser-harp-hides-some-neat-tricks",
+   "published": "2026-11-04",
+   "summary": "Laser harps aren’t quite a right of passage, in that not everyone builds them, but it’s likely everyone at least contemplates building one at one time or another. We’re lucky …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 91,
+   "why": "",
+   "obj_hits": [
+    "laser"
+   ],
+   "per_hits": [
+    "build"
+   ],
+   "modern_hits": [
+    "laser"
+   ],
+   "hits": [
+    "laser",
+    "build",
+    "laser"
    ],
    "title_signal": true
   },
@@ -516,32 +570,6 @@
    "title_signal": false
   },
   {
-   "id": "e140d349a942",
-   "source": "wikipedia",
-   "title": "J·J·湯姆森",
-   "url": "https://zh.wikipedia.org/wiki/J%C2%B7J%C2%B7%E6%B9%AF%E5%A7%86%E6%A3%AE",
-   "published": "",
-   "summary": "约瑟夫·约翰·湯姆森爵士 （英語：Sir Joseph John Thomson，1856年12月18日—1940年8月30日），英国物理学家，诺贝尔物理学奖获得主， 他发现了电子并測定了其質荷比，这是第一个被发现的亚原子粒子。 1897年，汤姆孙表明，阴极射线由以前未知的带负电粒子（现称为电子）组成，他计算出這種粒子必须比原子小得多，並且有非常小的质荷比。 汤姆孙在1913年也发现了稳定（非放射性）元素同位素的第一个证据，这是他在探索陽極射線（正离子）的過程中的成果之一。 他与弗朗西斯·阿斯頓一起确定带正电粒子的性质的实验是质谱法的第一次使用，使得质谱仪的發展。 汤姆孙因其在气体导电方面的工作而被授予1906年诺贝尔物理学奖。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 86,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "ph ",
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "ph ",
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "1e800ac3d6c6",
    "source": "wikipedia",
    "title": "计算物理学",
@@ -563,6 +591,32 @@
    "modern_hits": [],
    "hits": [
     "physics",
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "e140d349a942",
+   "source": "wikipedia",
+   "title": "J·J·湯姆森",
+   "url": "https://zh.wikipedia.org/wiki/J%C2%B7J%C2%B7%E6%B9%AF%E5%A7%86%E6%A3%AE",
+   "published": "",
+   "summary": "约瑟夫·约翰·湯姆森爵士 （英語：Sir Joseph John Thomson，1856年12月18日—1940年8月30日），英国物理学家，诺贝尔物理学奖获得主， 他发现了电子并測定了其質荷比，这是第一个被发现的亚原子粒子。 1897年，汤姆孙表明，阴极射线由以前未知的带负电粒子（现称为电子）组成，他计算出這種粒子必须比原子小得多，並且有非常小的质荷比。 汤姆孙在1913年也发现了稳定（非放射性）元素同位素的第一个证据，这是他在探索陽極射線（正离子）的過程中的成果之一。 他与弗朗西斯·阿斯頓一起确定带正电粒子的性质的实验是质谱法的第一次使用，使得质谱仪的發展。 汤姆孙因其在气体导电方面的工作而被授予1906年诺贝尔物理学奖。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "ph ",
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "ph ",
     "实验"
    ],
    "title_signal": false
@@ -1243,29 +1297,6 @@
    "title_signal": false
   },
   {
-   "id": "5623bc1f1bd6",
-   "source": "hackaday",
-   "title": "Turning an Old Phone’s Motherboard into an RC Plane Controller",
-   "url": "https://hackaday.com/2026/10/28/turning-an-old-phones-motherboard-into-an-rc-plane-controller",
-   "published": "2026-10-28",
-   "summary": "Upcycling smartphones makes a lot of sense, especially since they contain so many components that remain useful long after their desirability as a smartphone has faded. In the case of …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 77,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [
-    "smartphone"
-   ],
-   "hits": [
-    "smartphone"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "ea38c29a8cd4",
    "source": "hackaday",
    "title": "An Open Source Linear Capacitive Encoder",
@@ -1435,12 +1466,12 @@
    "title_signal": false
   },
   {
-   "id": "3159fb8be0c4",
+   "id": "f2bc782fed23",
    "source": "wikipedia",
-   "title": "惠勒延迟选择实验",
-   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
+   "title": "波普尔实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%99%AE%E5%B0%94%E5%AE%9E%E9%AA%8C",
    "published": "",
-   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
+   "summary": "波普尔实验是由哲学家卡尔·波普尔提出的实验。 在1934年，波普尔对哥本哈根解释，一种流行的量子力学主观解释，产生了怀疑，并提出了一个实验来检验它。 波普尔的实验是对一种争议说法的具体化，类似于阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森提出的EPR佯謬思想实验。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1723,12 +1754,12 @@
    "title_signal": false
   },
   {
-   "id": "f2bc782fed23",
+   "id": "3159fb8be0c4",
    "source": "wikipedia",
-   "title": "波普尔实验",
-   "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%99%AE%E5%B0%94%E5%AE%9E%E9%AA%8C",
+   "title": "惠勒延迟选择实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
    "published": "",
-   "summary": "波普尔实验是由哲学家卡尔·波普尔提出的实验。 在1934年，波普尔对哥本哈根解释，一种流行的量子力学主观解释，产生了怀疑，并提出了一个实验来检验它。 波普尔的实验是对一种争议说法的具体化，类似于阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森提出的EPR佯謬思想实验。",
+   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1915,12 +1946,69 @@
    "title_signal": false
   },
   {
+   "id": "9fbcc4f762f9",
+   "source": "hackaday",
+   "title": "Yesterday Has Never Looked This Good: Feast Your Eyes On The 2026 Retrocomputing Challenge Winners!",
+   "url": "https://hackaday.com/2026/11/04/yesterday-has-never-looked-this-good-feast-your-eyes-on-the-2026-retrocomputing-challenge-winners",
+   "published": "2026-11-04",
+   "summary": "If there’s one category among those we see here at Hackaday that has something for everyone, it’s retrocomputing. Spanning everything from relay-based machines that fill a wall through to modern …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "db12f0de9716",
+   "source": "hackaday",
+   "title": "Making a Wax Motor for Micrometer-Level Control",
+   "url": "https://hackaday.com/2026/11/04/making-a-wax-motor-for-micrometer-level-control",
+   "published": "2026-11-04",
+   "summary": "Although not very glamorous, wax motors are a fairly common type of linear actuator. They use the thermal response of waxes and the resulting volumetric expansion or reduction to create …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "8e24ff8e1a84",
+   "source": "hackaday",
+   "title": "Cat Feeder Ensures Fed Cats",
+   "url": "https://hackaday.com/2026/11/03/cat-feeder-ensures-fed-cats",
+   "published": "2026-11-03",
+   "summary": "Automatic cat feeders are a dime a dozen, largely because this is an easy problem to solve. Dry cat food is easy for machines to manipulate, and the electronics needed …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "4bb27f96a94f",
    "source": "hackaday",
    "title": "Etching Press Aims To Impress",
    "url": "https://hackaday.com/2026/11/03/etching-press-aims-to-impress",
    "published": "2026-11-03",
-   "summary": "There’s an old joke about inviting a girl up to your dorm room to ‘look at your etchings’– but if you’re going to do that, you’d best have some etchings, …read more",
+   "summary": "There’s an old joke about inviting somebody up to your dorm room to ‘look at your etchings’ — but if you’re going to do that, you’d best have some etchings, …read more",
    "meta": {
     "query": "DIY lab"
    },
@@ -2052,6 +2140,29 @@
    "modern_hits": [],
    "hits": [
     "cheap"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "5623bc1f1bd6",
+   "source": "hackaday",
+   "title": "Turning an Old Phone’s Motherboard into an RC Plane Controller",
+   "url": "https://hackaday.com/2026/10/28/turning-an-old-phones-motherboard-into-an-rc-plane-controller",
+   "published": "2026-10-28",
+   "summary": "Upcycling smartphones makes a lot of sense, especially since they contain so many components that remain useful long after their desirability as a smartphone has faded. In the case of …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 73,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [
+    "smartphone"
+   ],
+   "hits": [
+    "smartphone"
    ],
    "title_signal": false
   },
@@ -2197,14 +2308,14 @@
    "title_signal": false
   },
   {
-   "id": "b3dc147bc83f",
+   "id": "3b929ed43a7f",
    "source": "hackaday",
-   "title": "Single Button, Handheld Gaming Console",
-   "url": "https://hackaday.com/2026/10/14/single-button-handheld-gaming-console",
+   "title": "Tiny e-Paper Display Delivers 30 FPS of Game Boy Fun",
+   "url": "https://hackaday.com/2026/10/14/tiny-e-paper-display-delivers-30-fps-of-game-boy-fun",
    "published": "2026-10-14",
-   "summary": "Those of us who grew up in the 70s and 80s might be familiar with the Atari 2600 console and its now relatively unrecognizable (by modern standards) controller with only …read more",
+   "summary": "Slow refresh, ghosting and low-contrast — wait, are we talking about passive matrix LCDs, or e-paper displays? That might be why e-paper Game Boy emulators are a thing: the limitations …read more",
    "meta": {
-    "query": "air quality"
+    "query": "calibration"
    },
    "targeted": true,
    "score": 70,
@@ -2216,14 +2327,14 @@
    "title_signal": false
   },
   {
-   "id": "3b929ed43a7f",
+   "id": "b3dc147bc83f",
    "source": "hackaday",
-   "title": "Tiny e-Paper Display Delivers 30 FPS of Game Boy Fun",
-   "url": "https://hackaday.com/2026/10/14/tiny-e-paper-display-delivers-30-fps-of-game-boy-fun",
+   "title": "Single Button, Handheld Gaming Console",
+   "url": "https://hackaday.com/2026/10/14/single-button-handheld-gaming-console",
    "published": "2026-10-14",
-   "summary": "Slow refresh, ghosting and low-contrast — wait, are we talking about passive matrix LCDs, or e-paper displays? That might be why e-paper Game Boy emulators are a thing: the limitations …read more",
+   "summary": "Those of us who grew up in the 70s and 80s might be familiar with the Atari 2600 console and its now relatively unrecognizable (by modern standards) controller with only …read more",
    "meta": {
-    "query": "calibration"
+    "query": "air quality"
    },
    "targeted": true,
    "score": 70,
@@ -2554,12 +2665,12 @@
    "title_signal": false
   },
   {
-   "id": "109ee3b55506",
+   "id": "e7af2a5ae059",
    "source": "wikipedia",
-   "title": "汪達幻視",
-   "url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E9%81%94%E5%B9%BB%E8%A6%96",
+   "title": "威斯康星大学麦迪逊分校",
+   "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%A4%A7%E5%AD%A6%E9%BA%A6%E8%BF%AA%E9%80%8A%E5%88%86%E6%A0%A1",
    "published": "",
-   "summary": "《旺达幻视》（英語：WandaVision，香港译《温黛与幻视》，台湾译《汪达幻视》）是一部美國超級英雄類型的網路劇集，改編自漫威漫畫的角色「緋紅女巫」汪達·麥西莫夫和幻視，由潔克·薛佛主創並擔當首席編劇，麥特·夏克曼執導影集。該電視劇是漫威影業開發製作的漫威電影宇宙的首部電視劇作品，與漫威電影宇宙系列電影處於同一架空世界和共同世界，於線上串流媒體平台Disney+首播。 伊莉莎白·歐森和保羅·彼特尼繼續分別飾演在漫威電影宇宙系列電影中的角色汪達·麥西莫夫和幻視。主演還包括黛博拉·喬·拉普、弗雷德·邁拉麥德、凱薩琳·哈恩、泰娜·帕麗斯、藍道爾·朴、凱特·丹寧絲和伊凡·彼得斯。2018年9月，漫威影業宣佈為華特迪士尼公司旗下的在線上串流平台Disney+開發數個電視劇，並以漫威電影宇宙中的「二級核心」人物為主角，比如「緋紅女巫」汪達·麥西莫夫和幻視，伊莉莎白·歐森和保羅·彼特尼有望回歸繼續出",
+   "summary": "威斯康星大学麦迪逊分校（英語：University of Wisconsin–Madison, 简称UW–Madison，UW，或Madison）是一所位于美国威斯康星州麦迪逊市的公立赠地研究型大学，也是威斯康星大学系统的旗舰校区。学校成立于1848年，与威斯康星州成为美国联邦的一部分为同一年。校区占地约378公顷，坐落于门多塔湖畔；此外，大学还在校区以南约6.4公里处拥有并运营着一个占地约486公顷的植物园。 威斯康星大学是美国大学协会的创始成员，也是“公立常春藤”之一，被归类为R1级研究型大学。威斯康星大学是“威斯康星学派”的发源地。根据美国国家科学基金会的数据，2024年该校在全美大学科研经费支出中排名第五。 截至2026年10月 (2026-10)，麦迪逊师生共赢得过23次诺贝尔奖、学校共诞生了43位普利策奖得主、1位菲尔兹奖得主以及1位图灵奖得主。该校同时也培育了大量富布赖特学者",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2714,12 +2825,12 @@
    "title_signal": false
   },
   {
-   "id": "0829c514aed2",
+   "id": "2b88d40ab609",
    "source": "wikipedia",
-   "title": "元科学",
-   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
+   "title": "强纲领",
+   "url": "https://zh.wikipedia.org/wiki/%E5%BC%BA%E7%BA%B2%E9%A2%86",
    "published": "",
-   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
+   "summary": "强纲领（英語：Strong programme），是科学知识社会学（SSK）的一支，它尤其与大衛·布魯爾、巴里·巴恩斯、哈里·柯林斯、Donald A. MacKenzie和 John Henry 的研究联系密切。强纲领被社会学家布鲁诺·拉图尔认为对于科学技术论有着无可比拟的的影响。主要以爱丁堡大学的学者为基础的学派阐释了，科学共同体（通过对共享范式的忠诚）紧密联结的方式，是标准科学活动的先决条件。 强纲领是对“弱”科学社会学的一种反应，弱纲领将社会学的应用限制在了“失败”或“错误”的理论，例如颅相学。 失败的理论可以用其研究者出现的偏差来解释，例如隐蔽的政治或经济利益。社会学与成功理论的相关性很小，这些理论之所以成功，是因为它们揭示了一个自然事实。 强纲领提出，对“真”和“假”的科学理论的研究都应该一视同仁，两者都是由社会因素或条件引起的，例如文化背景和自身利益。人类的一切知识，存在于于",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2854,146 +2965,6 @@
    "title_signal": false
   },
   {
-   "id": "9aace4137621",
-   "source": "wikipedia",
-   "title": "爱因斯坦-波多尔斯基-罗森佯谬",
-   "url": "https://zh.wikipedia.org/wiki/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6-%E6%B3%A2%E5%A4%9A%E5%B0%94%E6%96%AF%E5%9F%BA-%E7%BD%97%E6%A3%AE%E4%BD%AF%E8%B0%AC",
-   "published": "",
-   "summary": "愛因斯坦-波多爾斯基-羅森弔詭（英語：Einstein-Podolsky-Rosen paradox），簡稱「愛波羅弔詭」、「EPR弔詭」（EPR paradox）是阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森在1935年發表的一篇論文中，以弔詭的形式針對量子力学的哥本哈根詮釋而提出的早期重要批評。 在這篇題為《能認為量子力學對物理實在的描述是完全的嗎？》（英語：Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?，下稱「EPR論文」）的論文中，他們設計出一個思想實驗，稱為「EPR思想實驗」。藉著檢驗兩個量子糾纏粒子所呈現出的關聯性物理行為，EPR思想實驗凸顯出定域實在論與量子力學完備性之間的矛盾，因此，這論述被稱為「EPR弔詭」。 EPR論文並沒有質疑量子力學的正確性，它質疑的是",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "a19f8aa2f80d",
-   "source": "wikipedia",
-   "title": "突變第三型",
-   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
-   "published": "",
-   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "42194c0fcf28",
-   "source": "wikipedia",
-   "title": "朝鲜战争",
-   "url": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89",
-   "published": "",
-   "summary": "朝鲜战争是1950年至1953年期间朝鲜半岛发生的大規模戰爭，交戰雙方分別是朝鲜民主主义人民共和国與大韩民国。戰爭爆發後，16國組成的聯合國軍（以美軍為主力）出兵支持韓國，中华人民共和国以中国人民志愿军的名义出兵支持朝鲜，苏联则通过军事物资支援与空军支持出兵朝鲜，使战争升级为影响东亚地缘政治的区域性冲突，同时也令此战成为自中国的第二次国共内战后在冷战时期东西方阵营间的第二场代理人战争。 朝鮮人民軍在三八线发生冲突及南部发生濟州四·三事件后，於1950年6月25日跨越三八线南下与大韩民国国军作战，战争爆發。雙方隨後展開漫長的拉鋸戰，联合国军與中国人民志愿军先後參戰，最終戰線維持在三八線附近，於1953年7月27日在板门店签署《朝鲜停战协定》，並根据停战时实际控制线，建立朝韩非军事区作缓冲地带。朝鲜半岛南北双方仍有外交冲突和军事对峙，持续至今。 而美国于朝鲜战争期间部署第七舰队巡防台湾海峡，以",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "e2f65195a4c9",
-   "source": "wikipedia",
-   "title": "Army Academy of Armored Forces",
-   "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
-   "published": "",
-   "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "16dfa34f1419",
-   "source": "wikipedia",
-   "title": "Institute for the History of Natural Sciences",
-   "url": "https://en.wikipedia.org/wiki/Institute_for_the_History_of_Natural_Sciences",
-   "published": "",
-   "summary": "The Institute for the History of Natural Sciences (IHNS CAS; Chinese: 中国科学院自然科学史研究所; pinyin: Zhōngguó Kēxuéyuàn Zìrán Kēxuéshǐ Yánjiūsuǒ) is a leading research institution in China dedicated to the study of the history of science, technology, and medicine. It is affiliated with the Chinese Academy of Sciences (CAS).",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "83ad8e00d21a",
-   "source": "wikipedia",
-   "title": "Lee Sun Chau",
-   "url": "https://en.wikipedia.org/wiki/Lee_Sun_Chau",
-   "published": "",
-   "summary": "Lee Sun Chau (周理信, i.e., 周六姑, 1890-1979) was one of the first female Chinese doctors of Western Medicine in China.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "78810a1c6cef",
-   "source": "wikipedia",
-   "title": "Sichuan University",
-   "url": "https://en.wikipedia.org/wiki/Sichuan_University",
-   "published": "",
-   "summary": "Sichuan University (SCU) is a public university in Chengdu, Sichuan, China. The university is affiliated with and funded by the Ministry of Education. The university is part of Project 211, Project 985, and the Double First-Class Construction. In 1994, the then Chengdu University of Science and Technology and then Sichuan University merged to form Sichuan Union University (which was renamed Sichu",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "63623f9ad973",
    "source": "wikipedia",
    "title": "Barnum effect",
@@ -3040,6 +3011,26 @@
    "url": "https://en.wikipedia.org/wiki/Eliezer_Yudkowsky",
    "published": "",
    "summary": "Eliezer Shlomo Yudkowsky ( EL-ee-EH-zər yuud-KOW-skee; born September 11, 1979) is an American artificial intelligence researcher and writer on decision theory and ethics, known for popularizing ideas related to friendly artificial intelligence. He is the founder of and a research fellow at the Machine Intelligence Research Institute (MIRI), a private research nonprofit based in Berkeley, Californ",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "d3a003a34d23",
+   "source": "wikipedia",
+   "title": "Foot-in-the-door technique",
+   "url": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
+   "published": "",
+   "summary": "Foot-in-the-door (FITD) technique is a compliance tactic that aims at getting a person to agree to a large request by having them agree to a modest request first. If a smaller request is granted, then the person who is agreeing feels like they are obligated to keep agreeing to larger requests. The saying originates from door to door salesmen who keep the door from shutting with their foot, giving",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3154,6 +3145,26 @@
    "title_signal": false
   },
   {
+   "id": "36e498881eeb",
+   "source": "wikipedia",
+   "title": "The Left Hand of Darkness",
+   "url": "https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness",
+   "published": "",
+   "summary": "The Left Hand of Darkness is a science fiction novel by the American writer Ursula K. Le Guin. Published in 1969, its popularity established Le Guin's status as a major author of science fiction. The novel is set in the fictional universe of the Hainish Cycle, a series of novels and short stories by Le Guin, which she introduced in the 1964 short story \"The Dowry of Angyar\". It was fourth in writi",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "464ab5e5b3b1",
    "source": "wikipedia",
    "title": "Thought experiment",
@@ -3200,26 +3211,6 @@
    "url": "https://en.wikipedia.org/wiki/Experiment",
    "published": "",
    "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4a260f65e483",
-   "source": "wikipedia",
-   "title": "Galileo's Leaning Tower of Pisa experiment",
-   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
-   "published": "",
-   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3314,12 +3305,12 @@
    "title_signal": false
   },
   {
-   "id": "69f386e07db7",
+   "id": "109ee3b55506",
    "source": "wikipedia",
-   "title": "思想",
-   "url": "https://zh.wikipedia.org/wiki/%E6%80%9D%E6%83%B3",
+   "title": "汪達幻視",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E9%81%94%E5%B9%BB%E8%A6%96",
    "published": "",
-   "summary": "最通俗的定義中，思想是獨立於感官刺激而發生的認知過程，最典型的形式是判斷、推理、概念形成、問題解決和審議（deliberation）。但其他心智過程，如細思一個構想、記憶或想像，也經常包括在內。與感知不同，這些過程可以獨立於感覺器官在內部發生。但從最廣泛的意義上理解，任何心智事件都可以被理解為一種思維形式，包括知覺和無意識的心智過程。在稍微不同的意義上，“思想”一詞不是指心智過程本身，而是指由這些過程帶來的心智狀態或觀念系統。 已經提出了各種思維理論。它們旨在捕捉思維的特徵。柏拉圖主義者認為，思維在於辨別和檢查柏拉圖形式（英語：Platonic forms，參見理型論）及其相互關係。它涉及區分純粹的柏拉圖形式本身和在感官世界中發現的單純模仿的能力。根據亞里士多德主義，思考某事就是在一個人的頭腦中實例化思想對象的普遍本質。與柏拉圖主義相反，這些共相是從感官經驗中抽象化得到的，並且不被理解為存",
+   "summary": "《旺达幻视》（英語：WandaVision，香港译《温黛与幻视》，台湾译《汪达幻视》）是一部美國超級英雄類型的網路劇集，改編自漫威漫畫的角色「緋紅女巫」汪達·麥西莫夫和幻視，由潔克·薛佛主創並擔當首席編劇，麥特·夏克曼執導影集。該電視劇是漫威影業開發製作的漫威電影宇宙的首部電視劇作品，與漫威電影宇宙系列電影處於同一架空世界和共同世界，於線上串流媒體平台Disney+首播。 伊莉莎白·歐森和保羅·彼特尼繼續分別飾演在漫威電影宇宙系列電影中的角色汪達·麥西莫夫和幻視。主演還包括黛博拉·喬·拉普、弗雷德·邁拉麥德、凱薩琳·哈恩、泰娜·帕麗斯、藍道爾·朴、凱特·丹寧絲和伊凡·彼得斯。2018年9月，漫威影業宣佈為華特迪士尼公司旗下的在線上串流平台Disney+開發數個電視劇，並以漫威電影宇宙中的「二級核心」人物為主角，比如「緋紅女巫」汪達·麥西莫夫和幻視，伊莉莎白·歐森和保羅·彼特尼有望回歸繼續出",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3334,12 +3325,12 @@
    "title_signal": false
   },
   {
-   "id": "91b5bfdb8698",
+   "id": "0829c514aed2",
    "source": "wikipedia",
-   "title": "科学分支",
-   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%88%86%E6%94%AF",
+   "title": "元科学",
+   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
    "published": "",
-   "summary": "科学的分支、分类，也称科学领域，通常分为三大类： 形式科学：对形式系统的研究，如逻辑和数学分支下的学科。它们依据先验知识，而非建立在实证基础上。 自然科学：对自然现象的研究（包括宇宙内的宇宙学、地质学、物理学、化学和生物学影响）。自然科学可分为两个主要分支：物理科学和生命科学（或生物科学）。 社会科学：在社会和文化角度研究人类行为的科学。 科学知识必须建立在可观察的现象之上，并且能够在相同条件下被其他研究者验证。自然科学、社会科学和形式科学构成基础科学，它们也是跨学科和应用科学（如工程学和医学）的基础。",
+   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3354,12 +3345,12 @@
    "title_signal": false
   },
   {
-   "id": "70780f97963a",
+   "id": "9aace4137621",
    "source": "wikipedia",
-   "title": "黛米·摩尔",
-   "url": "https://zh.wikipedia.org/wiki/%E9%BB%9B%E7%B1%B3%C2%B7%E6%91%A9%E5%B0%94",
+   "title": "爱因斯坦-波多尔斯基-罗森佯谬",
+   "url": "https://zh.wikipedia.org/wiki/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6-%E6%B3%A2%E5%A4%9A%E5%B0%94%E6%96%AF%E5%9F%BA-%E7%BD%97%E6%A3%AE%E4%BD%AF%E8%B0%AC",
    "published": "",
-   "summary": "黛米·吉恩·摩尔（Demi Gene Moore，1962年11月11日—），前姓蓋尼斯（Guynes），美国女演员。 黛米·摩尔在20世纪80年代初于好莱坞声名鹊起，1995年，她成为世界上收入最高的女演员。她被公认为好莱坞女性同工同酬的先驱。获得的重要荣誉包括金球奖和美国演员工会奖，并获得奥斯卡金像奖、英国电影学院奖和艾美奖提名。",
+   "summary": "愛因斯坦-波多爾斯基-羅森弔詭（英語：Einstein-Podolsky-Rosen paradox），簡稱「愛波羅弔詭」、「EPR弔詭」（EPR paradox）是阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森在1935年發表的一篇論文中，以弔詭的形式針對量子力学的哥本哈根詮釋而提出的早期重要批評。 在這篇題為《能認為量子力學對物理實在的描述是完全的嗎？》（英語：Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?，下稱「EPR論文」）的論文中，他們設計出一個思想實驗，稱為「EPR思想實驗」。藉著檢驗兩個量子糾纏粒子所呈現出的關聯性物理行為，EPR思想實驗凸顯出定域實在論與量子力學完備性之間的矛盾，因此，這論述被稱為「EPR弔詭」。 EPR論文並沒有質疑量子力學的正確性，它質疑的是",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3374,12 +3365,12 @@
    "title_signal": false
   },
   {
-   "id": "56b2c9a81149",
+   "id": "a19f8aa2f80d",
    "source": "wikipedia",
-   "title": "伽利略博物馆",
-   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "title": "突變第三型",
+   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
    "published": "",
-   "summary": "伽利略博物馆（Museo Galileo），原名科学史学会及博物馆（Istituto e Museo di Storia della Scienza）位于意大利佛罗伦萨阿诺河边的朱迪奇广场 （Piazza dei Giudici），靠近乌菲齐美术馆。设于一座11世纪建筑卡斯特拉尼宫，当时被称为Altafronte的城堡。伽利略博物馆收藏有科学史上宝贵的科学仪器，见证美第奇家族和洛林大公对科学和科学家的重要作用。 2010年6月10日，在为期两年的封闭重新设计和装修工程之后，科学史博物馆以新的名称“伽利略博物馆”重新向公众开放。它距离1610年3月伽利略的《星际信使》出版有四百年，那本小册子彻底改变人类对宇宙的观念，促进现代科学的出现。",
+   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3394,12 +3385,12 @@
    "title_signal": false
   },
   {
-   "id": "23af48c5e36b",
+   "id": "42194c0fcf28",
    "source": "wikipedia",
-   "title": "科学革命",
-   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E9%9D%A9%E5%91%BD",
+   "title": "朝鲜战争",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89",
    "published": "",
-   "summary": "科學革命（英語：Scientific revolution），指近世歷史上，現代科學在歐洲萌芽的這段時期。在那段時期中，數學、物理學、天文學、生物學（包括人體解剖學）與化學等學科皆出現突破性的進步，這些知識改變了人類對於自然的眼界及心態。科學革命發源於歐洲發動十字軍東征與貿易，使得中東的古籍從阿拉伯被帶回來，文藝復興時代結尾之時，這個歷程一直持續到18世紀末，開始了科學進步的歷程。 科學革命的衝擊，造成啟蒙運動與工業革命的出現，影響了歐洲與人類的社會。科學革命的開始日期，史學家仍有爭議。但1543年尼古拉斯·哥白尼出版的《天体运行论》通常被認為是科學革命的起點。從1543年，一直到1632年伽利略出版《关于托勒密和哥白尼两大世界体系的对话》，這段時間，常被認為是科學革命的第一階段。在這個階段中，那時教會腐化正面臨人們的懷疑與變革，此風潮復興了古希臘與羅馬時期的舊有科學知識，被稱為是科學復興",
+   "summary": "朝鲜战争是1950年至1953年期间朝鲜半岛发生的大規模戰爭，交戰雙方分別是朝鲜民主主义人民共和国與大韩民国。戰爭爆發後，16國組成的聯合國軍（以美軍為主力）出兵支持韓國，中华人民共和国以中国人民志愿军的名义出兵支持朝鲜，苏联则通过军事物资支援与空军支持出兵朝鲜，使战争升级为影响东亚地缘政治的区域性冲突，同时也令此战成为自中国的第二次国共内战后在冷战时期东西方阵营间的第二场代理人战争。 朝鮮人民軍在三八线发生冲突及南部发生濟州四·三事件后，於1950年6月25日跨越三八线南下与大韩民国国军作战，战争爆發。雙方隨後展開漫長的拉鋸戰，联合国军與中国人民志愿军先後參戰，最終戰線維持在三八線附近，於1953年7月27日在板门店签署《朝鲜停战协定》，並根据停战时实际控制线，建立朝韩非军事区作缓冲地带。朝鲜半岛南北双方仍有外交冲突和军事对峙，持续至今。 而美国于朝鲜战争期间部署第七舰队巡防台湾海峡，以",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3414,14 +3405,14 @@
    "title_signal": false
   },
   {
-   "id": "afdcf27e39ca",
+   "id": "e2f65195a4c9",
    "source": "wikipedia",
-   "title": "沙丘 (2021年電影)",
-   "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E4%B8%98_(2021%E5%B9%B4%E9%9B%BB%E5%BD%B1)",
+   "title": "Army Academy of Armored Forces",
+   "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
    "published": "",
-   "summary": "《沙丘》（英語：Dune，香港、新加坡译《沙丘瀚战》）是一部2021年美國太空史詩科幻電影，由丹尼·維勒納夫執導，艾瑞克·羅斯、喬·斯派茨和導演本人共同編寫劇本，劇情改編自法蘭克·赫伯特的1965年英文同名科幻小說《沙丘》的前半部分內容，是兩部改編電影計畫中的第一部；講述出身貴族家庭的年輕繼承者背負起守護銀河系中最寶貴的資產也是最重要的元素的任務的故事。主演包括提摩西·夏勒梅、蕾貝卡·弗格森、奧斯卡·伊薩克、喬許·布洛林、史戴倫·史柯斯嘉、巴帝斯塔、史蒂芬·亨德森、赞达亚、戴維·達斯馬齊連、張震、香儂·鄧肯-布魯斯特、夏綠蒂·蘭普琳、傑森·摩莫亞和哈維爾·巴登。 《沙丘》由華納兄弟影業發行，2021年9月3日在第78屆威尼斯影展進行全球首映，10月22日在美國首映，包括IMAX和3D版本，同期於串流媒體平台HBO Max播出一個月。它因其視覺效果，世界觀和野心而受到好評，並以1.65億美元",
+   "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
    "meta": {
-    "site": "zh.wikipedia.org"
+    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -3434,14 +3425,34 @@
    "title_signal": false
   },
   {
-   "id": "d4334f08f1a7",
+   "id": "16dfa34f1419",
    "source": "wikipedia",
-   "title": "加拿大",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7",
+   "title": "Institute for the History of Natural Sciences",
+   "url": "https://en.wikipedia.org/wiki/Institute_for_the_History_of_Natural_Sciences",
    "published": "",
-   "summary": "加拿大（英语、法语：Canada，英語：/ˈkænədə/，法語：[kanada]）是一個位于北美洲北部的国家，属于西半球及北半球，其领土西临太平洋，东濒大西洋，北接北冰洋，有部分领土位于北极圈内。加拿大东北方与丹麦领地格陵兰相望，並以漢斯島為界接壤，北方與俄羅斯隔海相望，南方及西北方与美国本土及阿拉斯加州接壤，法国属地圣皮埃尔和密克隆位于其东部的岛屿之中。加拿大的领土面积达998万4670平方公里，为全球面积第二大国家，亦是发达国家之中的领土面积最大者，加拿大的海岸線是全世界最長。该国首都为渥太华。根据2016年都会区人口排序，全國五大城市為：多伦多、蒙特利尔、温哥华、卡尔加里、埃德蒙顿。加拿大聯邦由十个省和三个地区组成。 加拿大在1400年前即有原住民在此生活。15世纪末，英国和法国殖民者开始探索北美洲的东岸，并在此建立殖民地。1763年，当七年战争结束后，法国将其几乎所有的北美殖民地",
+   "summary": "The Institute for the History of Natural Sciences (IHNS CAS; Chinese: 中国科学院自然科学史研究所; pinyin: Zhōngguó Kēxuéyuàn Zìrán Kēxuéshǐ Yánjiūsuǒ) is a leading research institution in China dedicated to the study of the history of science, technology, and medicine. It is affiliated with the Chinese Academy of Sciences (CAS).",
    "meta": {
-    "site": "zh.wikipedia.org"
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "83ad8e00d21a",
+   "source": "wikipedia",
+   "title": "Lee Sun Chau",
+   "url": "https://en.wikipedia.org/wiki/Lee_Sun_Chau",
+   "published": "",
+   "summary": "Lee Sun Chau (周理信, i.e., 周六姑, 1890-1979) was one of the first female Chinese doctors of Western Medicine in China.",
+   "meta": {
+    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,

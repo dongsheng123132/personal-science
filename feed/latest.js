@@ -1,122 +1,76 @@
 // 自动生成，勿手改
 window.PS_FEED = {
- "generated_at": "2026-11-04T02:20:09+00:00",
- "date": "2026-11-04",
- "count": 6,
+ "generated_at": "2026-11-05T02:27:40+00:00",
+ "date": "2026-11-05",
+ "count": 5,
  "items": [
   {
-   "id": "e140d349a942",
-   "source": "wikipedia",
-   "title": "J·J·湯姆森",
-   "url": "https://zh.wikipedia.org/wiki/J%C2%B7J%C2%B7%E6%B9%AF%E5%A7%86%E6%A3%AE",
-   "published": "",
-   "summary": "约瑟夫·约翰·湯姆森爵士 （英語：Sir Joseph John Thomson，1856年12月18日—1940年8月30日），英国物理学家，诺贝尔物理学奖获得主， 他发现了电子并測定了其質荷比，这是第一个被发现的亚原子粒子。 1897年，汤姆孙表明，阴极射线由以前未知的带负电粒子（现称为电子）组成，他计算出這種粒子必须比原子小得多，並且有非常小的质荷比。 汤姆孙在1913年也发现了稳定（非放射性）元素同位素的第一个证据，这是他在探索陽極射線（正离子）的過程中的成果之一。 他与弗朗西斯·阿斯頓一起确定带正电粒子的性质的实验是质谱法的第一次使用，使得质谱仪的發展。 汤姆孙因其在气体导电方面的工作而被授予1906年诺贝尔物理学奖。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 86,
-   "why": "命中 ph 、实验",
-   "timeless": true,
-   "obj_hits": [
-    "ph ",
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "ph ",
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "6ae5874d9649",
+   "id": "e9475d65277f",
    "source": "hackaday",
-   "title": "Detecting an Eight Magnetic Pole State using Chiral Phonons",
-   "url": "https://hackaday.com/2026/11/03/detecting-an-eight-magnetic-pole-state-using-chiral-phonons",
-   "published": "2026-11-03",
-   "summary": "The idea that magnetism doesn’t necessarily always have a dipolar configuration is not a new one, but it’s not an easy theory to find evidence for. Most recently a team …read more",
+   "title": "Reading Data from an Unwilling Blood Pressure Monitor",
+   "url": "https://hackaday.com/2026/11/04/reading-data-from-an-unwilling-blood-pressure-monitor",
+   "published": "2026-11-04",
+   "summary": "Given the modern trend of interconnecting anything and everything, we have no doubt that somebody sells a blood pressure monitor that will push its measurements out to all sorts of …read more",
    "meta": {
     "query": "sensor"
    },
    "targeted": true,
-   "score": 84,
-   "why": "命中 magnet，2026-11-03",
+   "score": 94,
+   "why": "命中 pressure、measurement，2026-11-04",
    "obj_hits": [
-    "magnet"
+    "pressure",
+    "measurement"
    ],
    "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "magnet"
+    "pressure",
+    "measurement"
    ],
    "title_signal": true
   },
   {
-   "id": "aca648fccd47",
-   "source": "wikipedia",
-   "title": "中国脑",
-   "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E8%84%91",
-   "published": "",
-   "summary": "中国脑是心灵哲学中的一个思想实验，探讨了如果每个中国人被要求使用电话或对讲机模拟大脑中一个神经元的动作，会发生什么情况。对讲机模拟连接神经元的轴突和树突。这会使中国人整体像大脑一样具有思想或意识吗？ 中国脑的早期版本由Anatoly Dneprov于1961年提出， ，后于1974年由Lawrence Davis二次提出，1978年由内德·布洛克也参与了讨论。布洛克认为“中国脑”不会具有意识，而丹尼尔·丹尼特则认为会。“中国脑”问题是一个更一般的问题的特例——即是否可以在一个大意识体中存在小意识体。 注：不应将其与约翰·塞尔（John Searle）提出的关于中国房间的论点相混淆——虽然这也是心灵哲学的思想实验，但它与人工智能有关。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 79,
-   "why": "命中 实验、人工智能",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [
-    "人工智能"
-   ],
-   "hits": [
-    "实验",
-    "人工智能"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "94a5658f26f0",
-   "source": "wikipedia",
-   "title": "伽利略之船",
-   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%E4%B9%8B%E8%88%B9",
-   "published": "",
-   "summary": "伽利略之船是物理学家和天文学家伽利略·伽利莱在16世纪至17世纪进行的两个物理实验，其中包括一个思想實驗和一个实际实验。这些实验的目的是为了反驳地心说，支持地球自转的观点，反驳太阳、行星和恒星围绕地球运转。 当时常用的论据是，如果地球确实在自转，那么拋體或自由落体的轨迹应该会受到可检测的影响。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "命中 实验",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "4bb27f96a94f",
+   "id": "86aa34f7015c",
    "source": "hackaday",
-   "title": "Etching Press Aims To Impress",
-   "url": "https://hackaday.com/2026/11/03/etching-press-aims-to-impress",
-   "published": "2026-11-03",
-   "summary": "There’s an old joke about inviting a girl up to your dorm room to ‘look at your etchings’– but if you’re going to do that, you’d best have some etchings, …read more",
+   "title": "Beautiful Laser Harp Hides Some Neat Tricks",
+   "url": "https://hackaday.com/2026/11/04/beautiful-laser-harp-hides-some-neat-tricks",
+   "published": "2026-11-04",
+   "summary": "Laser harps aren’t quite a right of passage, in that not everyone builds them, but it’s likely everyone at least contemplates building one at one time or another. We’re lucky …read more",
    "meta": {
-    "query": "DIY lab"
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 91,
+   "why": "命中 laser、build、laser，2026-11-04",
+   "obj_hits": [
+    "laser"
+   ],
+   "per_hits": [
+    "build"
+   ],
+   "modern_hits": [
+    "laser"
+   ],
+   "hits": [
+    "laser",
+    "build",
+    "laser"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "9fbcc4f762f9",
+   "source": "hackaday",
+   "title": "Yesterday Has Never Looked This Good: Feast Your Eyes On The 2026 Retrocomputing Challenge Winners!",
+   "url": "https://hackaday.com/2026/11/04/yesterday-has-never-looked-this-good-feast-your-eyes-on-the-2026-retrocomputing-challenge-winners",
+   "published": "2026-11-04",
+   "summary": "If there’s one category among those we see here at Hackaday that has something for everyone, it’s retrocomputing. Spanning everything from relay-based machines that fill a wall through to modern …read more",
+   "meta": {
+    "query": "air quality"
    },
    "targeted": true,
    "score": 74,
-   "why": "2026-11-03",
+   "why": "2026-11-04",
    "obj_hits": [],
    "per_hits": [],
    "modern_hits": [],
@@ -124,19 +78,37 @@ window.PS_FEED = {
    "title_signal": false
   },
   {
-   "id": "c16ba36fab57",
-   "source": "wikipedia",
-   "title": "科学史学史",
-   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2%E5%AD%A6%E5%8F%B2",
-   "published": "",
-   "summary": "科学史学史，有时也被称为科学史，是一门研究有关科学的历史和方法论的历史分支学科，研究内容包括其学科方面和实践层面（方法、理论、流派）以及对其自身历史发展的研究（ “科学史的历史”，即一门称作科学史的历史学科）。 由于有关科学史研究的适当方法的史学争论有时难以与关于科学的发展历程的历史争论区分开来，因此，后一类的早期争论通常被认为是该学科的开端。例如，这种讨论贯穿了伟大的历史学家和科学哲学家威廉·惠威尔的历史著作。因此，他经常被恰当地认为是这门学科的始祖，另外还有皮埃尔·迪昂和亚历山大·柯瓦雷也对该学科的建立做出了先驱性的贡献。 对科学史学的明确表述，通常可以追溯到 20 世纪 60 年代初期。例如，1965年格尔德·布赫达尔发表的《科学史学史革命》就涉及了托马斯·库恩和约瑟夫·阿伽西的创新研究。他认为这两位作家通过明确区分历史和科学史学史开创了这个学科，他们认为史学观点极大地影响了科学史的",
+   "id": "db12f0de9716",
+   "source": "hackaday",
+   "title": "Making a Wax Motor for Micrometer-Level Control",
+   "url": "https://hackaday.com/2026/11/04/making-a-wax-motor-for-micrometer-level-control",
+   "published": "2026-11-04",
+   "summary": "Although not very glamorous, wax motors are a fairly common type of linear actuator. They use the thermal response of waxes and the resulting volumetric expansion or reduction to create …read more",
    "meta": {
-    "site": "zh.wikipedia.org"
+    "query": "sensor"
    },
    "targeted": true,
-   "score": 66,
-   "why": "来自 wikipedia",
-   "timeless": true,
+   "score": 74,
+   "why": "2026-11-04",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "8e24ff8e1a84",
+   "source": "hackaday",
+   "title": "Cat Feeder Ensures Fed Cats",
+   "url": "https://hackaday.com/2026/11/03/cat-feeder-ensures-fed-cats",
+   "published": "2026-11-03",
+   "summary": "Automatic cat feeders are a dime a dozen, largely because this is an easy problem to solve. Dry cat food is easy for machines to manipulate, and the electronics needed …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-03",
    "obj_hits": [],
    "per_hits": [],
    "modern_hits": [],
