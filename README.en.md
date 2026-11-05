@@ -5,7 +5,7 @@
 A list of experiments you can do at home. No application, no review, no permission needed.
 **One person = one lab.** ([Charter](CHARTER.en.md))
 
-`21 experiments` · `each page tells you how to know it worked` · `CC0, copy freely` · `daily collection + AI-designed drafts`
+`22 experiments` · `each page tells you how to know it worked` · `CC0, copy freely` · `daily collection + AI-designed drafts`
 
 [中文](README.md) · [One-minute version](#the-one-minute-version) · [The list](#the-list) · [Growing every day](#growing-every-day) · [How to add one](#how-to-add-one) · [Manifesto](MANIFESTO.en.md) · [Charter](CHARTER.en.md)
 
@@ -103,6 +103,7 @@ When that works, **the individual becomes the smallest unit of research.** Scien
 | [Young's double slit](experiments/young-double-slit.md) | A laser pointer and a hair: see light interfere | Laser pointer, double-slit slide, ruler | 40 min | ¥20–40 | ★☆☆ |
 | [Newton's prism](experiments/newton-prism.md) | Split white light into a rainbow | Prism, sunlight or a white LED | 30 min | ¥10–30 | ★☆☆ |
 | [Polarization with tape](experiments/polarization-tape.md) | See the stress inside clear plastic | Phone, tape, polarizer | 20 min | ¥0–20 | ★☆☆ |
+| [Simplified Michelson-Morley Experiment](experiments/simplified-michelson-morley-experiment.md) | Build a simple interferometer with a laser and beamsplitter, rotate it, and measure fringe shifts far below the ether-wind prediction. | red laser pointer, 50/50 beamsplitter, two small flat mirrors | 1 weekend | ¥100–200 | 中等 |
 
 ### Biology & plants
 
@@ -248,7 +249,7 @@ If something looks exciting but feels dangerous, don't do it. Open an issue firs
 ├── MANIFESTO.en.md      Manifesto (English)
 ├── CHARTER.md           Charter (Chinese)
 ├── CHARTER.en.md        Charter (English)
-├── experiments/         One page per experiment (21 pages)
+├── experiments/         One page per experiment (22 pages)
 ├── ideas.md             Idea pool
 ├── RESULTS.md           What people got (including failures)
 ├── CONTRIBUTING.en.md   How to add one (English)
