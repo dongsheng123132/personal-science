@@ -1,0 +1,27 @@
+{
+ "generated_at": "2026-11-06T02:25:30+00:00",
+ "date": "2026-11-06",
+ "count": 1,
+ "items": [
+  {
+   "id": "628eec8d2a5b",
+   "source": "wikipedia",
+   "title": "Neurophilosophy",
+   "url": "https://en.wikipedia.org/wiki/Neurophilosophy",
+   "published": "",
+   "summary": "Neurophilosophy, or the philosophy of neuroscience, is the interdisciplinary study of neuroscience and philosophy that explores the relevance of neuroscientific studies to the arguments traditionally categorized as philosophy of mind. Recent scientific discourse elucidates the distinction between \"neurophilosophy\" and \"philosophy of neuroscience\". The term was coined by Patricia Churchland in her",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "来自 wikipedia",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  }
+ ]
+}
