@@ -1,0 +1,35 @@
+{
+ "generated_at": "2026-11-07T01:55:41+00:00",
+ "date": "2026-11-07",
+ "count": 1,
+ "items": [
+  {
+   "id": "8d1ca0c2056a",
+   "source": "hackaday",
+   "title": "MousePods Reverse Engineers Head Tracking Data From Stubborn AirPods",
+   "url": "https://hackaday.com/2026/11/06/mousepods-reverse-engineers-head-tracking-data-from-stubborn-airpods",
+   "published": "2026-11-06",
+   "summary": "[Matteo Gaudioso] released MousePods, a Python tool which accesses the motion sensors in Apple AirPods on Linux, turning them into mouse input. No Apple host required. Doing this required reverse-engineering …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 90,
+   "why": "命中 sensor、sensor、python，2026-11-06",
+   "obj_hits": [
+    "sensor"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "sensor",
+    "python"
+   ],
+   "hits": [
+    "sensor",
+    "sensor",
+    "python"
+   ],
+   "title_signal": false
+  }
+ ]
+}

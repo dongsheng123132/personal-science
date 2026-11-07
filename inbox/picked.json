@@ -1,65 +1,60 @@
 {
- "generated_at": "2026-11-06T02:26:23+00:00",
+ "generated_at": "2026-11-07T01:56:23+00:00",
  "count": 2,
  "items": [
   {
-   "id": "2bed04fd5894",
-   "source": "classic",
-   "title": "迈克尔逊-莫雷实验（1887）",
-   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E8%BF%88%E5%85%8B%E5%B0%94%E9%80%8A-%E8%8E%AB%E9%9B%B7%E5%AE%9E%E9%AA%8C",
-   "published": "",
-   "summary": "没测到'以太'，为相对论铺路；重做方式：激光 + 分光镜做简化干涉仪，验证光速与方向无关（难度高，可先做定性版）；为什么值得：人类最著名的'零结果'：没测到东西，反而推翻了一整套世界观；难度：进阶",
+   "id": "8d1ca0c2056a",
+   "source": "hackaday",
+   "title": "MousePods Reverse Engineers Head Tracking Data From Stubborn AirPods",
+   "url": "https://hackaday.com/2026/11/06/mousepods-reverse-engineers-head-tracking-data-from-stubborn-airpods",
+   "published": "2026-11-06",
+   "summary": "[Matteo Gaudioso] released MousePods, a Python tool which accesses the motion sensors in Apple AirPods on Linux, turning them into mouse input. No Apple host required. Doing this required reverse-engineering …read more",
    "meta": {
-    "era": "1887",
-    "level": "进阶",
-    "tools": [
-     "激光",
-     "半透镜",
-     "镜子"
-    ]
+    "query": "sensor"
    },
    "targeted": true,
-   "score": 93,
+   "score": 90,
    "why": "",
-   "timeless": true,
    "obj_hits": [
-    "实验"
+    "sensor"
    ],
    "per_hits": [],
    "modern_hits": [
-    "激光"
+    "sensor",
+    "python"
    ],
    "hits": [
-    "实验",
-    "激光"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "e140d349a942",
-   "source": "wikipedia",
-   "title": "J·J·湯姆森",
-   "url": "https://zh.wikipedia.org/wiki/J%C2%B7J%C2%B7%E6%B9%AF%E5%A7%86%E6%A3%AE",
-   "published": "",
-   "summary": "约瑟夫·约翰·湯姆森爵士 （英語：Sir Joseph John Thomson，1856年12月18日—1940年8月30日），英国物理学家，诺贝尔物理学奖获得主， 他发现了电子并測定了其質荷比，这是第一个被发现的亚原子粒子。 1897年，汤姆孙表明，阴极射线由以前未知的带负电粒子（现称为电子）组成，他计算出這種粒子必须比原子小得多，並且有非常小的质荷比。 汤姆孙在1913年也发现了稳定（非放射性）元素同位素的第一个证据，这是他在探索陽極射線（正离子）的過程中的成果之一。 他与弗朗西斯·阿斯頓一起确定带正电粒子的性质的实验是质谱法的第一次使用，使得质谱仪的發展。 汤姆孙因其在气体导电方面的工作而被授予1906年诺贝尔物理学奖。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 86,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "ph ",
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "ph ",
-    "实验"
+    "sensor",
+    "sensor",
+    "python"
    ],
    "title_signal": false
+  },
+  {
+   "id": "acee00936169",
+   "source": "hackaday",
+   "title": "SLAM Navigation For an Arduino Powered Car",
+   "url": "https://hackaday.com/2026/10/28/slam-navigation-for-an-arduino-powered-car",
+   "published": "2026-10-28",
+   "summary": "There are plenty of “robot” projects out there that are really just a small remote control platform of some sort. We often like to think of robots of having some …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 81,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "arduino"
+   ],
+   "modern_hits": [
+    "arduino"
+   ],
+   "hits": [
+    "arduino",
+    "arduino"
+   ],
+   "title_signal": true
   }
  ]
 }

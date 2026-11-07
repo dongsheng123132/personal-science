@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T02:25:30+00:00",
+ "updated_at": "2026-11-07T01:55:41+00:00",
  "count": 150,
  "items": [
   {
@@ -339,6 +339,34 @@
     "camera"
    ],
    "title_signal": true
+  },
+  {
+   "id": "8d1ca0c2056a",
+   "source": "hackaday",
+   "title": "MousePods Reverse Engineers Head Tracking Data From Stubborn AirPods",
+   "url": "https://hackaday.com/2026/11/06/mousepods-reverse-engineers-head-tracking-data-from-stubborn-airpods",
+   "published": "2026-11-06",
+   "summary": "[Matteo Gaudioso] released MousePods, a Python tool which accesses the motion sensors in Apple AirPods on Linux, turning them into mouse input. No Apple host required. Doing this required reverse-engineering …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 90,
+   "why": "",
+   "obj_hits": [
+    "sensor"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "sensor",
+    "python"
+   ],
+   "hits": [
+    "sensor",
+    "sensor",
+    "python"
+   ],
+   "title_signal": false
   },
   {
    "id": "fc201e2e94a3",
@@ -1515,6 +1543,30 @@
    "title_signal": false
   },
   {
+   "id": "1128fe5e51b1",
+   "source": "wikipedia",
+   "title": "物理学",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6",
+   "published": "",
+   "summary": "物理學或物理（英语：physics）是研究物質、能量的本質與性質的自然科學。由於物質與能量是所有科學研究的必須涉及的基本要素，所以物理學是自然科學中最基礎的學科之一。物理學是一種實驗科學，物理學者從觀測與分析大自然的各種基於物質與能量的現象來找出其中的模式。這些模式稱為「物理理論」，經得起實驗檢驗的常用物理理論稱為物理定律，直到有一天被證明是有錯誤為止（具可否證性）。物理學是由這些定律精緻地建構而成。物理學是自然科學中最基礎的學科之一。化學、生物學、考古學等等科學學術領域的理論都建構於這些物理定律。 物理學是最古老的學術之一。物理學、化學、生物學等等原本都歸屬於自然哲學的範疇，直到十七世紀至十九世紀期間，才漸漸地從自然哲學中分別成長為獨立的學術領域。物理學與其它很多跨領域研究有相當的交集，如量子化學、生物物理學等等。物理學的疆界並不是固定不變的，物理學裡的創始突破時常可以用來解釋這些跨領域",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "9bb8bebc8f58",
    "source": "wikipedia",
    "title": "物理学史",
@@ -1679,30 +1731,6 @@
    "modern_hits": [],
    "hits": [
     "biology"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "1128fe5e51b1",
-   "source": "wikipedia",
-   "title": "物理学",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6",
-   "published": "",
-   "summary": "物理學或物理（英语：physics）是研究物質、能量的本質與性質的自然科學。由於物質與能量是所有科學研究的必須涉及的基本要素，所以物理學是自然科學中最基礎的學科之一。物理學是一種實驗科學，物理學者從觀測與分析大自然的各種基於物質與能量的現象來找出其中的模式。這些模式稱為「物理理論」，經得起實驗檢驗的常用物理理論稱為物理定律，直到有一天被證明是有錯誤為止（具可否證性）。物理學是由這些定律精緻地建構而成。物理學是自然科學中最基礎的學科之一。化學、生物學、考古學等等科學學術領域的理論都建構於這些物理定律。 物理學是最古老的學術之一。物理學、化學、生物學等等原本都歸屬於自然哲學的範疇，直到十七世紀至十九世紀期間，才漸漸地從自然哲學中分別成長為獨立的學術領域。物理學與其它很多跨領域研究有相當的交集，如量子化學、生物物理學等等。物理學的疆界並不是固定不變的，物理學裡的創始突破時常可以用來解釋這些跨領域",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics"
    ],
    "title_signal": false
   },
@@ -3146,12 +3174,12 @@
    "title_signal": false
   },
   {
-   "id": "ae63027fda5d",
+   "id": "f56d856d138d",
    "source": "wikipedia",
-   "title": "Rosenhan experiment",
-   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
+   "title": "Stanford prison experiment",
+   "url": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
    "published": "",
-   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
+   "summary": "The Stanford prison experiment (SPE) was a controversial psychological experiment performed in August 1971 at Stanford University. It was designed to be a two-week simulation of a prison environment that examined the effects of situational variables on participants' reactions and behaviors. Stanford psychology professor Philip Zimbardo managed the research team that administered the study. Partic",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3166,12 +3194,12 @@
    "title_signal": false
   },
   {
-   "id": "f56d856d138d",
+   "id": "ae63027fda5d",
    "source": "wikipedia",
-   "title": "Stanford prison experiment",
-   "url": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
+   "title": "Rosenhan experiment",
+   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
    "published": "",
-   "summary": "The Stanford prison experiment (SPE) was a controversial psychological experiment performed in August 1971 at Stanford University. It was designed to be a two-week simulation of a prison environment that examined the effects of situational variables on participants' reactions and behaviors. Stanford psychology professor Philip Zimbardo managed the research team that administered the study. Partic",
+   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3432,26 +3460,6 @@
    "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
    "published": "",
    "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "16dfa34f1419",
-   "source": "wikipedia",
-   "title": "Institute for the History of Natural Sciences",
-   "url": "https://en.wikipedia.org/wiki/Institute_for_the_History_of_Natural_Sciences",
-   "published": "",
-   "summary": "The Institute for the History of Natural Sciences (IHNS CAS; Chinese: 中国科学院自然科学史研究所; pinyin: Zhōngguó Kēxuéyuàn Zìrán Kēxuéshǐ Yánjiūsuǒ) is a leading research institution in China dedicated to the study of the history of science, technology, and medicine. It is affiliated with the Chinese Academy of Sciences (CAS).",
    "meta": {
     "site": "en.wikipedia.org"
    },
