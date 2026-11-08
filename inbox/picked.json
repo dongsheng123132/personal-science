@@ -1,60 +1,54 @@
 {
- "generated_at": "2026-11-07T01:56:23+00:00",
+ "generated_at": "2026-11-08T01:27:23+00:00",
  "count": 2,
  "items": [
   {
-   "id": "8d1ca0c2056a",
-   "source": "hackaday",
-   "title": "MousePods Reverse Engineers Head Tracking Data From Stubborn AirPods",
-   "url": "https://hackaday.com/2026/11/06/mousepods-reverse-engineers-head-tracking-data-from-stubborn-airpods",
-   "published": "2026-11-06",
-   "summary": "[Matteo Gaudioso] released MousePods, a Python tool which accesses the motion sensors in Apple AirPods on Linux, turning them into mouse input. No Apple host required. Doing this required reverse-engineering …read more",
+   "id": "45a836609966",
+   "source": "wikipedia",
+   "title": "Rutherford scattering experiments",
+   "url": "https://en.wikipedia.org/wiki/Rutherford_scattering_experiments",
+   "published": "",
+   "summary": "The Rutherford scattering experiments were a landmark series of experiments by which scientists learned that every atom has a nucleus where all of its positive charge and most of its mass is concentrated. They deduced this after measuring how an alpha particle beam is scattered when it strikes a thin metal foil. The experiments were performed between 1906 and 1913 by Hans Geiger and Ernest Marsd",
    "meta": {
-    "query": "sensor"
+    "site": "en.wikipedia.org"
    },
    "targeted": true,
-   "score": 90,
+   "score": 76,
    "why": "",
+   "timeless": true,
    "obj_hits": [
-    "sensor"
+    "geiger"
    ],
    "per_hits": [],
-   "modern_hits": [
-    "sensor",
-    "python"
-   ],
+   "modern_hits": [],
    "hits": [
-    "sensor",
-    "sensor",
-    "python"
+    "geiger"
    ],
    "title_signal": false
   },
   {
-   "id": "acee00936169",
-   "source": "hackaday",
-   "title": "SLAM Navigation For an Arduino Powered Car",
-   "url": "https://hackaday.com/2026/10/28/slam-navigation-for-an-arduino-powered-car",
-   "published": "2026-10-28",
-   "summary": "There are plenty of “robot” projects out there that are really just a small remote control platform of some sort. We often like to think of robots of having some …read more",
+   "id": "c92f39c2aec2",
+   "source": "wikipedia",
+   "title": "牛顿大炮",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E5%A4%A7%E7%82%AE",
+   "published": "",
+   "summary": "牛顿大炮（英語：Newton's cannonball）是物理学家艾萨克·牛顿阐述的一个思想实验。牛顿用这个实验来假设引力具有普适性，并且是行星运动的重要动力来源。这个实验出现在牛顿的著作《自然哲学的数学原理》中。",
    "meta": {
-    "query": "sensor"
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
-   "score": 81,
+   "score": 76,
    "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "arduino"
+   "timeless": true,
+   "obj_hits": [
+    "实验"
    ],
-   "modern_hits": [
-    "arduino"
-   ],
+   "per_hits": [],
+   "modern_hits": [],
    "hits": [
-    "arduino",
-    "arduino"
+    "实验"
    ],
-   "title_signal": true
+   "title_signal": false
   }
  ]
 }

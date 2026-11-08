@@ -1,0 +1,34 @@
+{
+ "generated_at": "2026-11-08T01:26:21+00:00",
+ "date": "2026-11-08",
+ "count": 1,
+ "items": [
+  {
+   "id": "6a8853ee6da0",
+   "source": "hackaday",
+   "title": "Building a Homemade Induction Soldering Iron",
+   "url": "https://hackaday.com/2026/11/07/building-a-homemade-induction-soldering-iron",
+   "published": "2026-11-07",
+   "summary": "Despite not being inherently any better at converting electricity into heat, induction-heated soldering irons often considerably outperform conventional irons with an identical power rating. They manage this by directly heating …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "命中 build、made、home，2026-11-07",
+   "obj_hits": [],
+   "per_hits": [
+    "build",
+    "made",
+    "home"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "build",
+    "made",
+    "home"
+   ],
+   "title_signal": true
+  }
+ ]
+}

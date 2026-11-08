@@ -1,35 +1,34 @@
 {
- "generated_at": "2026-11-07T01:55:41+00:00",
- "date": "2026-11-07",
+ "generated_at": "2026-11-08T01:26:21+00:00",
+ "date": "2026-11-08",
  "count": 1,
  "items": [
   {
-   "id": "8d1ca0c2056a",
+   "id": "6a8853ee6da0",
    "source": "hackaday",
-   "title": "MousePods Reverse Engineers Head Tracking Data From Stubborn AirPods",
-   "url": "https://hackaday.com/2026/11/06/mousepods-reverse-engineers-head-tracking-data-from-stubborn-airpods",
-   "published": "2026-11-06",
-   "summary": "[Matteo Gaudioso] released MousePods, a Python tool which accesses the motion sensors in Apple AirPods on Linux, turning them into mouse input. No Apple host required. Doing this required reverse-engineering …read more",
+   "title": "Building a Homemade Induction Soldering Iron",
+   "url": "https://hackaday.com/2026/11/07/building-a-homemade-induction-soldering-iron",
+   "published": "2026-11-07",
+   "summary": "Despite not being inherently any better at converting electricity into heat, induction-heated soldering irons often considerably outperform conventional irons with an identical power rating. They manage this by directly heating …read more",
    "meta": {
     "query": "sensor"
    },
    "targeted": true,
-   "score": 90,
-   "why": "命中 sensor、sensor、python，2026-11-06",
-   "obj_hits": [
-    "sensor"
+   "score": 84,
+   "why": "命中 build、made、home，2026-11-07",
+   "obj_hits": [],
+   "per_hits": [
+    "build",
+    "made",
+    "home"
    ],
-   "per_hits": [],
-   "modern_hits": [
-    "sensor",
-    "python"
-   ],
+   "modern_hits": [],
    "hits": [
-    "sensor",
-    "sensor",
-    "python"
+    "build",
+    "made",
+    "home"
    ],
-   "title_signal": false
+   "title_signal": true
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07T01:55:41+00:00",
+ "updated_at": "2026-11-08T01:26:21+00:00",
  "count": 150,
  "items": [
   {
@@ -676,6 +676,33 @@
    "title_signal": true
   },
   {
+   "id": "6a8853ee6da0",
+   "source": "hackaday",
+   "title": "Building a Homemade Induction Soldering Iron",
+   "url": "https://hackaday.com/2026/11/07/building-a-homemade-induction-soldering-iron",
+   "published": "2026-11-07",
+   "summary": "Despite not being inherently any better at converting electricity into heat, induction-heated soldering irons often considerably outperform conventional irons with an identical power rating. They manage this by directly heating …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "build",
+    "made",
+    "home"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "build",
+    "made",
+    "home"
+   ],
+   "title_signal": true
+  },
+  {
    "id": "6ae5874d9649",
    "source": "hackaday",
    "title": "Detecting an Eight Magnetic Pole State using Chiral Phonons",
@@ -1254,29 +1281,6 @@
     "人工智能"
    ],
    "title_signal": false
-  },
-  {
-   "id": "8bdc9f6355f2",
-   "source": "hackaday",
-   "title": "DIY WiFi Analyzer Sniffs Out Congestion and Coverage Issues, Suggests Fixes",
-   "url": "https://hackaday.com/2026/10/31/diy-wifi-analyzer-sniffs-out-congestion-and-coverage-issues-suggests-fixes",
-   "published": "2026-10-31",
-   "summary": "[Roni Bandini]’s JEV WiFi Analyzer is an interesting experiment that glues together a single-board Linux computer, a USB WiFi adapter, and a specialized AI model to create a new kind …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 78,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "diy"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "diy"
-   ],
-   "title_signal": true
   },
   {
    "id": "304f0259b818",
@@ -1989,14 +1993,14 @@
    "title_signal": false
   },
   {
-   "id": "8e24ff8e1a84",
+   "id": "4bb27f96a94f",
    "source": "hackaday",
-   "title": "Cat Feeder Ensures Fed Cats",
-   "url": "https://hackaday.com/2026/11/03/cat-feeder-ensures-fed-cats",
+   "title": "Etching Press Aims To Impress",
+   "url": "https://hackaday.com/2026/11/03/etching-press-aims-to-impress",
    "published": "2026-11-03",
-   "summary": "Automatic cat feeders are a dime a dozen, largely because this is an easy problem to solve. Dry cat food is easy for machines to manipulate, and the electronics needed …read more",
+   "summary": "There’s an old joke about inviting somebody up to your dorm room to ‘look at your etchings’ — but if you’re going to do that, you’d best have some etchings, …read more",
    "meta": {
-    "query": "sensor"
+    "query": "DIY lab"
    },
    "targeted": true,
    "score": 74,
@@ -2008,14 +2012,14 @@
    "title_signal": false
   },
   {
-   "id": "4bb27f96a94f",
+   "id": "8e24ff8e1a84",
    "source": "hackaday",
-   "title": "Etching Press Aims To Impress",
-   "url": "https://hackaday.com/2026/11/03/etching-press-aims-to-impress",
+   "title": "Cat Feeder Ensures Fed Cats",
+   "url": "https://hackaday.com/2026/11/03/cat-feeder-ensures-fed-cats",
    "published": "2026-11-03",
-   "summary": "There’s an old joke about inviting somebody up to your dorm room to ‘look at your etchings’ — but if you’re going to do that, you’d best have some etchings, …read more",
+   "summary": "Automatic cat feeders are a dime a dozen, largely because this is an easy problem to solve. Dry cat food is easy for machines to manipulate, and the electronics needed …read more",
    "meta": {
-    "query": "DIY lab"
+    "query": "sensor"
    },
    "targeted": true,
    "score": 74,
@@ -2044,6 +2048,29 @@
    "modern_hits": [],
    "hits": [],
    "title_signal": false
+  },
+  {
+   "id": "8bdc9f6355f2",
+   "source": "hackaday",
+   "title": "DIY WiFi Analyzer Sniffs Out Congestion and Coverage Issues, Suggests Fixes",
+   "url": "https://hackaday.com/2026/10/31/diy-wifi-analyzer-sniffs-out-congestion-and-coverage-issues-suggests-fixes",
+   "published": "2026-10-31",
+   "summary": "[Roni Bandini]’s JEV WiFi Analyzer is an interesting experiment that glues together a single-board Linux computer, a USB WiFi adapter, and a specialized AI model to create a new kind …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "diy"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "diy"
+   ],
+   "title_signal": true
   },
   {
    "id": "e3b12e282044",
@@ -2220,6 +2247,30 @@
     "esp32"
    ],
    "title_signal": false
+  },
+  {
+   "id": "e4da1fc3654c",
+   "source": "hn",
+   "title": "What I run on my $10 USD OpenStick homelab",
+   "url": "https://blog.bosscher.ch/posts/openstick",
+   "published": "2026-11-07",
+   "summary": "",
+   "meta": {
+    "points": 330,
+    "comments": 81
+   },
+   "targeted": false,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
   },
   {
    "id": "a4f54e01f690",
@@ -3422,46 +3473,6 @@
    "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
    "meta": {
     "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "42194c0fcf28",
-   "source": "wikipedia",
-   "title": "朝鲜战争",
-   "url": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89",
-   "published": "",
-   "summary": "朝鲜战争是1950年至1953年期间朝鲜半岛发生的大規模戰爭，交戰雙方分別是朝鲜民主主义人民共和国與大韩民国。戰爭爆發後，16國組成的聯合國軍（以美軍為主力）出兵支持韓國，中华人民共和国以中国人民志愿军的名义出兵支持朝鲜，苏联则通过军事物资支援与空军支持出兵朝鲜，使战争升级为影响东亚地缘政治的区域性冲突，同时也令此战成为自中国的第二次国共内战后在冷战时期东西方阵营间的第二场代理人战争。 朝鮮人民軍在三八线发生冲突及南部发生濟州四·三事件后，於1950年6月25日跨越三八线南下与大韩民国国军作战，战争爆發。雙方隨後展開漫長的拉鋸戰，联合国军與中国人民志愿军先後參戰，最終戰線維持在三八線附近，於1953年7月27日在板门店签署《朝鲜停战协定》，並根据停战时实际控制线，建立朝韩非军事区作缓冲地带。朝鲜半岛南北双方仍有外交冲突和军事对峙，持续至今。 而美国于朝鲜战争期间部署第七舰队巡防台湾海峡，以",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "e2f65195a4c9",
-   "source": "wikipedia",
-   "title": "Army Academy of Armored Forces",
-   "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
-   "published": "",
-   "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
-   "meta": {
-    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
