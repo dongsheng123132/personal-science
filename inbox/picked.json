@@ -1,52 +1,54 @@
 {
- "generated_at": "2026-11-08T01:27:23+00:00",
+ "generated_at": "2026-11-09T01:45:12+00:00",
  "count": 2,
  "items": [
   {
-   "id": "45a836609966",
-   "source": "wikipedia",
-   "title": "Rutherford scattering experiments",
-   "url": "https://en.wikipedia.org/wiki/Rutherford_scattering_experiments",
-   "published": "",
-   "summary": "The Rutherford scattering experiments were a landmark series of experiments by which scientists learned that every atom has a nucleus where all of its positive charge and most of its mass is concentrated. They deduced this after measuring how an alpha particle beam is scattered when it strikes a thin metal foil. The experiments were performed between 1906 and 1913 by Hans Geiger and Ernest Marsd",
+   "id": "6a8853ee6da0",
+   "source": "hackaday",
+   "title": "Building a Homemade Induction Soldering Iron",
+   "url": "https://hackaday.com/2026/11/07/building-a-homemade-induction-soldering-iron",
+   "published": "2026-11-07",
+   "summary": "Despite not being inherently any better at converting electricity into heat, induction-heated soldering irons often considerably outperform conventional irons with an identical power rating. They manage this by directly heating …read more",
    "meta": {
-    "site": "en.wikipedia.org"
+    "query": "sensor"
    },
    "targeted": true,
-   "score": 76,
+   "score": 84,
    "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "geiger"
+   "obj_hits": [],
+   "per_hits": [
+    "build",
+    "made",
+    "home"
    ],
-   "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "geiger"
+    "build",
+    "made",
+    "home"
    ],
-   "title_signal": false
+   "title_signal": true
   },
   {
-   "id": "c92f39c2aec2",
-   "source": "wikipedia",
-   "title": "牛顿大炮",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E5%A4%A7%E7%82%AE",
-   "published": "",
-   "summary": "牛顿大炮（英語：Newton's cannonball）是物理学家艾萨克·牛顿阐述的一个思想实验。牛顿用这个实验来假设引力具有普适性，并且是行星运动的重要动力来源。这个实验出现在牛顿的著作《自然哲学的数学原理》中。",
+   "id": "60064ab6f6ce",
+   "source": "hackaday",
+   "title": "Going Whole-Hog on a First Satellite Ground Station",
+   "url": "https://hackaday.com/2026/10/20/going-whole-hog-on-a-first-satellite-ground-station",
+   "published": "2026-10-20",
+   "summary": "When most radio enthusiasts start trying to pick up signals from satellites, they might put together a quick-and-dirty Yagi antenna and try to catch a repeater as is passes overhead, …read more",
    "meta": {
-    "site": "zh.wikipedia.org"
+    "query": "telescope"
    },
    "targeted": true,
-   "score": 76,
+   "score": 80,
    "why": "",
-   "timeless": true,
    "obj_hits": [
-    "实验"
+    "radio"
    ],
    "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "实验"
+    "radio"
    ],
    "title_signal": false
   }

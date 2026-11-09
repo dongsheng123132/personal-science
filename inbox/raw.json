@@ -1,72 +1,20 @@
 {
- "generated_at": "2026-11-08T01:26:21+00:00",
- "date": "2026-11-08",
- "count": 3,
+ "generated_at": "2026-11-09T01:44:16+00:00",
+ "date": "2026-11-09",
+ "count": 1,
  "items": [
   {
-   "id": "6a8853ee6da0",
+   "id": "0b42f3c766a6",
    "source": "hackaday",
-   "title": "Building a Homemade Induction Soldering Iron",
-   "url": "https://hackaday.com/2026/11/07/building-a-homemade-induction-soldering-iron",
+   "title": "Artemis II Rocket Was Powerful Enough to Disrupt GPS",
+   "url": "https://hackaday.com/2026/11/07/artemis-ii-rocket-was-powerful-enough-to-disrupt-gps",
    "published": "2026-11-07",
-   "summary": "Despite not being inherently any better at converting electricity into heat, induction-heated soldering irons often considerably outperform conventional irons with an identical power rating. They manage this by directly heating …read more",
+   "summary": "Rockets certainly have a substantial impact if you ever see a launch in person. The noise, shock waves, and even heat can be awe-inspiring. What is less obvious are the …read more",
    "meta": {
     "query": "sensor"
    },
    "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "build",
-    "made",
-    "home"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "build",
-    "made",
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "e4da1fc3654c",
-   "source": "hn",
-   "title": "What I run on my $10 USD OpenStick homelab",
-   "url": "https://blog.bosscher.ch/posts/openstick",
-   "published": "2026-11-07",
-   "summary": "",
-   "meta": {
-    "points": 330,
-    "comments": 81
-   },
-   "targeted": false,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "63d98bf9080d",
-   "source": "hn",
-   "title": "Ask HN: How did you convince family and friends to join your XMPP/Matrix server?",
-   "url": "https://news.ycombinator.com/item?id=50405250",
-   "published": "2026-11-07",
-   "summary": "I love open-source software and open protocols, but my family and friends primarily communicate through SMS for exactly the reasons in https://xkcd.com/2365/ Whenever XMPP or Matrix threads pop up on HN, several commenters casually mention their \"friends and family XMPP (or Matrix) server.\" How did you convince friends and family to move away from SMS/WhatsApp and replace it with a niche messaging",
-   "meta": {
-    "points": 76,
-    "comments": 69
-   },
-   "targeted": false,
-   "score": 46,
+   "score": 74,
    "why": "",
    "obj_hits": [],
    "per_hits": [],

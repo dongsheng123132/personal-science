@@ -1,35 +1,27 @@
 // 自动生成，勿手改
 window.PS_FEED = {
- "generated_at": "2026-11-08T01:26:21+00:00",
- "date": "2026-11-08",
+ "generated_at": "2026-11-09T01:44:16+00:00",
+ "date": "2026-11-09",
  "count": 1,
  "items": [
   {
-   "id": "6a8853ee6da0",
+   "id": "0b42f3c766a6",
    "source": "hackaday",
-   "title": "Building a Homemade Induction Soldering Iron",
-   "url": "https://hackaday.com/2026/11/07/building-a-homemade-induction-soldering-iron",
+   "title": "Artemis II Rocket Was Powerful Enough to Disrupt GPS",
+   "url": "https://hackaday.com/2026/11/07/artemis-ii-rocket-was-powerful-enough-to-disrupt-gps",
    "published": "2026-11-07",
-   "summary": "Despite not being inherently any better at converting electricity into heat, induction-heated soldering irons often considerably outperform conventional irons with an identical power rating. They manage this by directly heating …read more",
+   "summary": "Rockets certainly have a substantial impact if you ever see a launch in person. The noise, shock waves, and even heat can be awe-inspiring. What is less obvious are the …read more",
    "meta": {
     "query": "sensor"
    },
    "targeted": true,
-   "score": 84,
-   "why": "命中 build、made、home，2026-11-07",
+   "score": 74,
+   "why": "2026-11-07",
    "obj_hits": [],
-   "per_hits": [
-    "build",
-    "made",
-    "home"
-   ],
+   "per_hits": [],
    "modern_hits": [],
-   "hits": [
-    "build",
-    "made",
-    "home"
-   ],
-   "title_signal": true
+   "hits": [],
+   "title_signal": false
   }
  ]
 };

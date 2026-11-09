@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T01:26:21+00:00",
+ "updated_at": "2026-11-09T01:44:16+00:00",
  "count": 150,
  "items": [
   {
@@ -726,29 +726,6 @@
    "title_signal": true
   },
   {
-   "id": "48c907f7729e",
-   "source": "hackaday",
-   "title": "An Electronic Candle You Can Set On Fire",
-   "url": "https://hackaday.com/2026/11/01/an-electronic-candle-you-can-set-on-fire",
-   "published": "2026-11-01",
-   "summary": "Candles are pretty to look at, but they tend to be rather a fire risk and a negative influence on air quality, too. If you want the vibe without the …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [
-    "air quality"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "air quality"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "d77d099493ec",
    "source": "hackaday",
    "title": "Hackaday Podcast Episode 392: Microscopes, Drones, and Other DIY Things",
@@ -999,6 +976,29 @@
     "3d print"
    ],
    "title_signal": true
+  },
+  {
+   "id": "48c907f7729e",
+   "source": "hackaday",
+   "title": "An Electronic Candle You Can Set On Fire",
+   "url": "https://hackaday.com/2026/11/01/an-electronic-candle-you-can-set-on-fire",
+   "published": "2026-11-01",
+   "summary": "Candles are pretty to look at, but they tend to be rather a fire risk and a negative influence on air quality, too. If you want the vibe without the …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "obj_hits": [
+    "air quality"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "air quality"
+   ],
+   "title_signal": false
   },
   {
    "id": "a74860b994bb",
@@ -1327,32 +1327,6 @@
     "open source"
    ],
    "title_signal": false
-  },
-  {
-   "id": "de8bd8ec3e0c",
-   "source": "hackaday",
-   "title": "Embedded 3D Printing with Liquids on a Bricked Prusa FDM Printer",
-   "url": "https://hackaday.com/2026/10/09/embedded-3d-printing-with-liquids-on-a-bricked-prusa-fdm-printer",
-   "published": "2026-10-09",
-   "summary": "Recently [Riley] got his paws on an old Prusa i3 FDM printer that had clearly seen better days, with a hot-end that had suffered an explosive blow-out. For the project …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 77,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "3d print"
-   ],
-   "modern_hits": [
-    "3d print"
-   ],
-   "hits": [
-    "3d print",
-    "3d print"
-   ],
-   "title_signal": true
   },
   {
    "id": "6597a7733b86",
@@ -1955,6 +1929,25 @@
    "title_signal": false
   },
   {
+   "id": "0b42f3c766a6",
+   "source": "hackaday",
+   "title": "Artemis II Rocket Was Powerful Enough to Disrupt GPS",
+   "url": "https://hackaday.com/2026/11/07/artemis-ii-rocket-was-powerful-enough-to-disrupt-gps",
+   "published": "2026-11-07",
+   "summary": "Rockets certainly have a substantial impact if you ever see a launch in person. The noise, shock waves, and even heat can be awe-inspiring. What is less obvious are the …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "9fbcc4f762f9",
    "source": "hackaday",
    "title": "Yesterday Has Never Looked This Good: Feast Your Eyes On The 2026 Retrocomputing Challenge Winners!",
@@ -2020,25 +2013,6 @@
    "summary": "Automatic cat feeders are a dime a dozen, largely because this is an easy problem to solve. Dry cat food is easy for machines to manipulate, and the electronics needed …read more",
    "meta": {
     "query": "sensor"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "1b9161e9124e",
-   "source": "hackaday",
-   "title": "Hackaday Links: November 1, 2026",
-   "url": "https://hackaday.com/2026/11/01/hackaday-links-november-1-2026",
-   "published": "2026-11-01",
-   "summary": "We’re less than a week away from the 2026 Hackaday Supercon, and things are getting a little… intense. So we trust you’ll forgive us if this week’s post weighs in …read more",
-   "meta": {
-    "query": "telescope"
    },
    "targeted": true,
    "score": 74,
@@ -2157,29 +2131,6 @@
    "title_signal": false
   },
   {
-   "id": "9a675dec4f8d",
-   "source": "hackaday",
-   "title": "Two-Component H-shifter for Racing Sims",
-   "url": "https://hackaday.com/2026/10/09/two-component-h-shifter-for-racing-sims",
-   "published": "2026-10-09",
-   "summary": "Flying and driving simulators can go as far as money will take you, and at some point it might end up being cheaper to buy a plane or race car …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "cheap"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "cheap"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "5623bc1f1bd6",
    "source": "hackaday",
    "title": "Turning an Old Phone’s Motherboard into an RC Plane Controller",
@@ -2256,8 +2207,8 @@
    "published": "2026-11-07",
    "summary": "",
    "meta": {
-    "points": 330,
-    "comments": 81
+    "points": 776,
+    "comments": 133
    },
    "targeted": false,
    "score": 70,
@@ -2271,6 +2222,25 @@
     "home"
    ],
    "title_signal": true
+  },
+  {
+   "id": "1b9161e9124e",
+   "source": "hackaday",
+   "title": "Hackaday Links: November 1, 2026",
+   "url": "https://hackaday.com/2026/11/01/hackaday-links-november-1-2026",
+   "published": "2026-11-01",
+   "summary": "We’re less than a week away from the 2026 Hackaday Supercon, and things are getting a little… intense. So we trust you’ll forgive us if this week’s post weighs in …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
   },
   {
    "id": "a4f54e01f690",
@@ -3483,6 +3453,30 @@
    "modern_hits": [],
    "hits": [],
    "title_signal": false
+  },
+  {
+   "id": "6865588406db",
+   "source": "hn",
+   "title": "Things you don't need to run a Proxmox home lab",
+   "url": "https://www.virtualizationhowto.com/2026/10/7-things-you-dont-need-to-run-a-great-proxmox-home-lab",
+   "published": "2026-10-20",
+   "summary": "",
+   "meta": {
+    "points": 3,
+    "comments": 3
+   },
+   "targeted": false,
+   "score": 58,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
   }
  ]
 }
