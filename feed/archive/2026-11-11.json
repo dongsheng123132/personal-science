@@ -1,0 +1,30 @@
+{
+ "generated_at": "2026-11-11T01:55:36+00:00",
+ "date": "2026-11-11",
+ "count": 1,
+ "items": [
+  {
+   "id": "8d3033319542",
+   "source": "hackaday",
+   "title": "Watching the Watchers",
+   "url": "https://hackaday.com/2026/11/10/watching-the-watchers",
+   "published": "2026-11-10",
+   "summary": "Although it used to be a much more rare event, now almost any time at dawn or dusk, provided clear weather, a human observer can walk outside, look up, and …read more",
+   "meta": {
+    "query": "weather station"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "命中 weather，2026-11-10",
+   "obj_hits": [
+    "weather"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "weather"
+   ],
+   "title_signal": false
+  }
+ ]
+}

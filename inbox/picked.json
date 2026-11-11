@@ -1,31 +1,27 @@
 {
- "generated_at": "2026-11-10T04:07:23+00:00",
+ "generated_at": "2026-11-11T01:56:26+00:00",
  "count": 1,
  "items": [
   {
-   "id": "c3cb9da8ff84",
+   "id": "8d3033319542",
    "source": "hackaday",
-   "title": "Radon Active",
-   "url": "https://hackaday.com/2026/11/09/radon-active",
-   "published": "2026-11-09",
-   "summary": "When you think about nuclear radiation, you often think about power plants, but it turns out there’s radioactive stuff all over the place: smoke detectors, granite counters, bananas, and potatoes …read more",
+   "title": "Watching the Watchers",
+   "url": "https://hackaday.com/2026/11/10/watching-the-watchers",
+   "published": "2026-11-10",
+   "summary": "Although it used to be a much more rare event, now almost any time at dawn or dusk, provided clear weather, a human observer can walk outside, look up, and …read more",
    "meta": {
-    "query": "DIY lab"
+    "query": "weather station"
    },
    "targeted": true,
-   "score": 94,
+   "score": 84,
    "why": "",
    "obj_hits": [
-    "radiation",
-    "plant",
-    "radio"
+    "weather"
    ],
    "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "radiation",
-    "plant",
-    "radio"
+    "weather"
    ],
    "title_signal": false
   }

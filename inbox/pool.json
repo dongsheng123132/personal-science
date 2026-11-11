@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T04:06:52+00:00",
+ "updated_at": "2026-11-11T01:55:36+00:00",
  "count": 150,
  "items": [
   {
@@ -625,32 +625,6 @@
    "title_signal": false
   },
   {
-   "id": "e140d349a942",
-   "source": "wikipedia",
-   "title": "J·J·湯姆森",
-   "url": "https://zh.wikipedia.org/wiki/J%C2%B7J%C2%B7%E6%B9%AF%E5%A7%86%E6%A3%AE",
-   "published": "",
-   "summary": "约瑟夫·约翰·湯姆森爵士 （英語：Sir Joseph John Thomson，1856年12月18日—1940年8月30日），英国物理学家，诺贝尔物理学奖获得主， 他发现了电子并測定了其質荷比，这是第一个被发现的亚原子粒子。 1897年，汤姆孙表明，阴极射线由以前未知的带负电粒子（现称为电子）组成，他计算出這種粒子必须比原子小得多，並且有非常小的质荷比。 汤姆孙在1913年也发现了稳定（非放射性）元素同位素的第一个证据，这是他在探索陽極射線（正离子）的過程中的成果之一。 他与弗朗西斯·阿斯頓一起确定带正电粒子的性质的实验是质谱法的第一次使用，使得质谱仪的發展。 汤姆孙因其在气体导电方面的工作而被授予1906年诺贝尔物理学奖。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 86,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "ph ",
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "ph ",
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "1e800ac3d6c6",
    "source": "wikipedia",
    "title": "计算物理学",
@@ -672,6 +646,32 @@
    "modern_hits": [],
    "hits": [
     "physics",
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "e140d349a942",
+   "source": "wikipedia",
+   "title": "J·J·湯姆森",
+   "url": "https://zh.wikipedia.org/wiki/J%C2%B7J%C2%B7%E6%B9%AF%E5%A7%86%E6%A3%AE",
+   "published": "",
+   "summary": "约瑟夫·约翰·湯姆森爵士 （英語：Sir Joseph John Thomson，1856年12月18日—1940年8月30日），英国物理学家，诺贝尔物理学奖获得主， 他发现了电子并測定了其質荷比，这是第一个被发现的亚原子粒子。 1897年，汤姆孙表明，阴极射线由以前未知的带负电粒子（现称为电子）组成，他计算出這種粒子必须比原子小得多，並且有非常小的质荷比。 汤姆孙在1913年也发现了稳定（非放射性）元素同位素的第一个证据，这是他在探索陽極射線（正离子）的過程中的成果之一。 他与弗朗西斯·阿斯頓一起确定带正电粒子的性质的实验是质谱法的第一次使用，使得质谱仪的發展。 汤姆孙因其在气体导电方面的工作而被授予1906年诺贝尔物理学奖。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "ph ",
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "ph ",
     "实验"
    ],
    "title_signal": false
@@ -701,6 +701,29 @@
     "实验"
    ],
    "title_signal": true
+  },
+  {
+   "id": "8d3033319542",
+   "source": "hackaday",
+   "title": "Watching the Watchers",
+   "url": "https://hackaday.com/2026/11/10/watching-the-watchers",
+   "published": "2026-11-10",
+   "summary": "Although it used to be a much more rare event, now almost any time at dawn or dusk, provided clear weather, a human observer can walk outside, look up, and …read more",
+   "meta": {
+    "query": "weather station"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "obj_hits": [
+    "weather"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "weather"
+   ],
+   "title_signal": false
   },
   {
    "id": "6a8853ee6da0",
@@ -1380,6 +1403,30 @@
    "title_signal": false
   },
   {
+   "id": "9bb8bebc8f58",
+   "source": "wikipedia",
+   "title": "物理学史",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E5%8F%B2",
+   "published": "",
+   "summary": "物理学主要是研究物质、能量及它們彼此之間的關係。它是最早形成的自然科学学科之一，如果把天文学包括在内则有可能是名副其实历史最悠久的自然科学。最早的物理学著作是古希腊科学家亚里士多德的《物理學》。形成物理学的元素主要来自对天文学、光学和力学的研究，而这些研究通过几何学的方法统合在一起形成了物理学。这些方法形成于古巴比伦和古希腊时期，当时的代表人物如数学家阿基米德和天文学家托勒密；随后这些学说被传入阿拉伯世界，并被当时的阿拉伯科学家海什木等人发展为更具有物理性和实验性的传统学说；最终这些学说传入了西欧，首先研究这些内容的学者代表人物是罗吉尔·培根。然而在当时的西方世界，哲学家们普遍认为这些学说在本质上是技术性的，从而一般没有察觉到它们所描述的内容反映着自然界中重要的哲学意义。而在古代中国和印度的科学史上，类似的研究数学的方法也在发展中。 在这一时代，包含着所谓“自然哲学”（即物理学）的哲学所集",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "78f4403a37fa",
    "source": "wikipedia",
    "title": "经典力学",
@@ -1548,6 +1595,30 @@
    "title_signal": false
   },
   {
+   "id": "b2a4e0b2b7c7",
+   "source": "wikipedia",
+   "title": "國立臺灣大學物理學系",
+   "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%89%A9%E7%90%86%E5%AD%B8%E7%B3%BB",
+   "published": "",
+   "summary": "國立臺灣大學物理學系（英語：Department of Physics, National Taiwan University），略稱臺灣大學物理系、臺大物理系，創辦於1946年8月，首任系主任為物理學家戴運軌。台大物理系是為國立臺灣大學改制之後首創的第一個系所。前身是日治時期臺北帝國大學的理學部化學科所設置的物理學講座，當時有兩三間辦公室和實驗室。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "1128fe5e51b1",
    "source": "wikipedia",
    "title": "物理学",
@@ -1568,30 +1639,6 @@
    "modern_hits": [],
    "hits": [
     "physics"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "9bb8bebc8f58",
-   "source": "wikipedia",
-   "title": "物理学史",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E5%8F%B2",
-   "published": "",
-   "summary": "物理学主要是研究物质、能量及它們彼此之間的關係。它是最早形成的自然科学学科之一，如果把天文学包括在内则有可能是名副其实历史最悠久的自然科学。最早的物理学著作是古希腊科学家亚里士多德的《物理學》。形成物理学的元素主要来自对天文学、光学和力学的研究，而这些研究通过几何学的方法统合在一起形成了物理学。这些方法形成于古巴比伦和古希腊时期，当时的代表人物如数学家阿基米德和天文学家托勒密；随后这些学说被传入阿拉伯世界，并被当时的阿拉伯科学家海什木等人发展为更具有物理性和实验性的传统学说；最终这些学说传入了西欧，首先研究这些内容的学者代表人物是罗吉尔·培根。然而在当时的西方世界，哲学家们普遍认为这些学说在本质上是技术性的，从而一般没有察觉到它们所描述的内容反映着自然界中重要的哲学意义。而在古代中国和印度的科学史上，类似的研究数学的方法也在发展中。 在这一时代，包含着所谓“自然哲学”（即物理学）的哲学所集",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
    ],
    "title_signal": false
   },
@@ -1620,12 +1667,12 @@
    "title_signal": false
   },
   {
-   "id": "889dbcaae6cd",
+   "id": "5147d7c8f6d0",
    "source": "wikipedia",
-   "title": "弗朗西斯·培根",
-   "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9",
+   "title": "罗森汉恩实验",
+   "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%A3%AE%E6%B1%89%E6%81%A9%E5%AE%9E%E9%AA%8C",
    "published": "",
-   "summary": "第一代圣奥尔本子爵弗朗西斯·培根（英語：Francis Bacon, 1st Viscount St Alban，1561年1月22日—1626年4月9日），英国文艺复兴时期哲学家、政要、科學家、法學家、演說家和散文作家，被认为是经验主义哲学的创始人。卡尔·马克思亦称其为“英国唯物主义和整个现代实验科学的真正始祖”。",
+   "summary": "罗森汉恩实验（Rosenhan Experiment）是1973年美国心理学家大卫·罗森汉恩关于检验美国精神病患鉴定标准的一项著名实验，并当年发布在《科学》杂志上。这项研究被认为是对精神病患鉴定标准的重要批判。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1641,7 +1688,7 @@
    "hits": [
     "实验"
    ],
-   "title_signal": false
+   "title_signal": true
   },
   {
    "id": "3548437df952",
@@ -1736,6 +1783,54 @@
    "modern_hits": [],
    "hits": [
     "biology"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "bb1408b8b499",
+   "source": "wikipedia",
+   "title": "Bohr–Einstein debates",
+   "url": "https://en.wikipedia.org/wiki/Bohr%E2%80%93Einstein_debates",
+   "published": "",
+   "summary": "The Bohr–Einstein debates were a series of public disputes about quantum mechanics between Albert Einstein and Niels Bohr. Their debates are remembered because of their importance to the philosophy of science, insofar as the disagreements—and the outcome of Bohr's version of quantum mechanics becoming the prevalent view—form the root of the modern understanding of physics. Most of Bohr's version o",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "889dbcaae6cd",
+   "source": "wikipedia",
+   "title": "弗朗西斯·培根",
+   "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9",
+   "published": "",
+   "summary": "第一代圣奥尔本子爵弗朗西斯·培根（英語：Francis Bacon, 1st Viscount St Alban，1561年1月22日—1626年4月9日），英国文艺复兴时期哲学家、政要、科學家、法學家、演說家和散文作家，被认为是经验主义哲学的创始人。卡尔·马克思亦称其为“英国唯物主义和整个现代实验科学的真正始祖”。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
    ],
    "title_signal": false
   },
@@ -1884,30 +1979,6 @@
    "title_signal": false
   },
   {
-   "id": "bb1408b8b499",
-   "source": "wikipedia",
-   "title": "Bohr–Einstein debates",
-   "url": "https://en.wikipedia.org/wiki/Bohr%E2%80%93Einstein_debates",
-   "published": "",
-   "summary": "The Bohr–Einstein debates were a series of public disputes about quantum mechanics between Albert Einstein and Niels Bohr. Their debates are remembered because of their importance to the philosophy of science, insofar as the disagreements—and the outcome of Bohr's version of quantum mechanics becoming the prevalent view—form the root of the modern understanding of physics. Most of Bohr's version o",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "45a836609966",
    "source": "wikipedia",
    "title": "Rutherford scattering experiments",
@@ -1928,54 +1999,6 @@
    "modern_hits": [],
    "hits": [
     "geiger"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "5147d7c8f6d0",
-   "source": "wikipedia",
-   "title": "罗森汉恩实验",
-   "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%A3%AE%E6%B1%89%E6%81%A9%E5%AE%9E%E9%AA%8C",
-   "published": "",
-   "summary": "罗森汉恩实验（Rosenhan Experiment）是1973年美国心理学家大卫·罗森汉恩关于检验美国精神病患鉴定标准的一项著名实验，并当年发布在《科学》杂志上。这项研究被认为是对精神病患鉴定标准的重要批判。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "b2a4e0b2b7c7",
-   "source": "wikipedia",
-   "title": "國立臺灣大學物理學系",
-   "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%89%A9%E7%90%86%E5%AD%B8%E7%B3%BB",
-   "published": "",
-   "summary": "國立臺灣大學物理學系（英語：Department of Physics, National Taiwan University），略稱臺灣大學物理系、臺大物理系，創辦於1946年8月，首任系主任為物理學家戴運軌。台大物理系是為國立臺灣大學改制之後首創的第一個系所。前身是日治時期臺北帝國大學的理學部化學科所設置的物理學講座，當時有兩三間辦公室和實驗室。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics"
    ],
    "title_signal": false
   },
@@ -2026,25 +2049,6 @@
    "summary": "Although not very glamorous, wax motors are a fairly common type of linear actuator. They use the thermal response of waxes and the resulting volumetric expansion or reduction to create …read more",
    "meta": {
     "query": "sensor"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4bb27f96a94f",
-   "source": "hackaday",
-   "title": "Etching Press Aims To Impress",
-   "url": "https://hackaday.com/2026/11/03/etching-press-aims-to-impress",
-   "published": "2026-11-03",
-   "summary": "There’s an old joke about inviting somebody up to your dorm room to ‘look at your etchings’ — but if you’re going to do that, you’d best have some etchings, …read more",
-   "meta": {
-    "query": "DIY lab"
    },
    "targeted": true,
    "score": 74,
@@ -2235,8 +2239,8 @@
    "published": "2026-11-07",
    "summary": "",
    "meta": {
-    "points": 817,
-    "comments": 137
+    "points": 825,
+    "comments": 138
    },
    "targeted": false,
    "score": 70,
@@ -2250,6 +2254,25 @@
     "home"
    ],
    "title_signal": true
+  },
+  {
+   "id": "4bb27f96a94f",
+   "source": "hackaday",
+   "title": "Etching Press Aims To Impress",
+   "url": "https://hackaday.com/2026/11/03/etching-press-aims-to-impress",
+   "published": "2026-11-03",
+   "summary": "There’s an old joke about inviting somebody up to your dorm room to ‘look at your etchings’ — but if you’re going to do that, you’d best have some etchings, …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
   },
   {
    "id": "1b9161e9124e",
@@ -2442,25 +2465,6 @@
    "title_signal": false
   },
   {
-   "id": "1040963ccfe2",
-   "source": "hackaday",
-   "title": "Inside a Mystery 1980s Filter IC Featuring Switched Capacitors",
-   "url": "https://hackaday.com/2026/10/11/inside-a-mystery-1980s-filter-ic-featuring-switched-capacitors",
-   "published": "2026-10-11",
-   "summary": "Recently [Ken Shirriff] got handed a mystery IC by [CuriousMarc] who had found said IC in a box of various old chips. Labelled only with a date code of the …read more",
-   "meta": {
-    "query": "microscope"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "a1d078e21527",
    "source": "wikipedia",
    "title": "以太坊",
@@ -2485,26 +2489,6 @@
    "title_signal": false
   },
   {
-   "id": "8209714e5c07",
-   "source": "wikipedia",
-   "title": "物理对象",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AF%B9%E8%B1%A1",
-   "published": "",
-   "summary": "物理对象（英语：physical object）其范畴包括“物体”，但定义更广，指在时空中占据位置，且具有物理属性（如：质量、能量、动量、电荷、自旋等）的实体或现象。物理对象含盖所有符合物理定律的实体、场与能量形态，例如：光子、电子、电磁场、引力波、时空本身。 物理实体（physical entity）相当于物理对象，但其更強調“本体存在”（本体论）；物理对象则可以是一个抽象的物理系统（认识论）。例如：「理想气体」是一个研究的物理对象，但它不是一个真实的物理实体，因其在现实中不存在，是个简化后的模型。再如：在量子力学中，波函数也是我们研究的物理对象，但它本身可能不是一个物理实体，可能只是一个机率描述。 在物理学裡，物体（material object，object，body）被认定为独一的、聚集的一群物质；物体为宏观实体，具有明确边界、静止质量不为零的特征。例如，棒球可以被认为是一个物体；",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "9aa8dfe5a597",
    "source": "wikipedia",
    "title": "相对论",
@@ -2525,12 +2509,12 @@
    "title_signal": false
   },
   {
-   "id": "cb182d8517f7",
+   "id": "9aace4137621",
    "source": "wikipedia",
-   "title": "物理学词汇表",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E8%AF%8D%E6%B1%87%E8%A1%A8",
+   "title": "爱因斯坦-波多尔斯基-罗森佯谬",
+   "url": "https://zh.wikipedia.org/wiki/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6-%E6%B3%A2%E5%A4%9A%E5%B0%94%E6%96%AF%E5%9F%BA-%E7%BD%97%E6%A3%AE%E4%BD%AF%E8%B0%AC",
    "published": "",
-   "summary": "本物理学词汇表列出了与物理学、其分支学科和相关领域（包括力学、材料科学、核物理学、粒子物理学和热力学）相关的术语和概念的定义。有关科学和技术相关领域的更具包容性的词汇表，请参阅化学词汇表、天文学辞汇、数学领域词汇表和工程学词汇表。 本词汇表按照汉语拼音字母排列。",
+   "summary": "愛因斯坦-波多爾斯基-羅森弔詭（英語：Einstein-Podolsky-Rosen paradox），簡稱「愛波羅弔詭」、「EPR弔詭」（EPR paradox）是阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森在1935年發表的一篇論文中，以弔詭的形式針對量子力学的哥本哈根詮釋而提出的早期重要批評。 在這篇題為《能認為量子力學對物理實在的描述是完全的嗎？》（英語：Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?，下稱「EPR論文」）的論文中，他們設計出一個思想實驗，稱為「EPR思想實驗」。藉著檢驗兩個量子糾纏粒子所呈現出的關聯性物理行為，EPR思想實驗凸顯出定域實在論與量子力學完備性之間的矛盾，因此，這論述被稱為「EPR弔詭」。 EPR論文並沒有質疑量子力學的正確性，它質疑的是",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2551,6 +2535,26 @@
    "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E4%B8%96%E7%B4%80%E7%A7%91%E5%AD%B8%E5%8F%B2",
    "published": "",
    "summary": "中世紀科學史是指在中世紀，星象、藥物、數學等科学在當時都相當的活躍，但是，由於古代的文化(在羅馬及伊斯蘭的落沒之前的時期)已經存在有許多的科學基礎，所以研究科學的方法才能夠在中世紀時誕生，也因此科學能夠在此時正式地與哲學分野，然而在當時世界各地像是伊斯蘭世界、地中海盆地、中國，以及印度等也已經有了科學研究的足跡，而在西歐一度落後的科學發展則是從12世紀開始再次趕上這些地區。 拜占庭帝國是中世紀早期的文化指標，它保存了希臘羅馬時期的自然、數學，以及藥學的系統以及理論；亞里士多德、阿基米德、蓋倫、托勒密，以及歐幾里得的思想在當時傳遍整個帝國。他們的著作及注解釋為中世紀科學發展的根源，因為那時候的西歐地區的文化由於西羅馬帝國的落沒而遭受破壞，但是因為有了義大利神學家托馬斯·阿奎那及法國學者布里丹等人的貢獻，西歐科學研究的精神得以保存，而當時所保存的著作也因此成為了往後歐洲的科學在科學革命時期能夠",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "56b2c9a81149",
+   "source": "wikipedia",
+   "title": "伽利略博物馆",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%E5%8D%9A%E7%89%A9%E9%A6%86",
+   "published": "",
+   "summary": "伽利略博物馆（Museo Galileo），原名科学史学会及博物馆（Istituto e Museo di Storia della Scienza）位于意大利佛罗伦萨阿诺河边的朱迪奇广场 （Piazza dei Giudici），靠近乌菲齐美术馆。设于一座11世纪建筑卡斯特拉尼宫，当时被称为Altafronte的城堡。伽利略博物馆收藏有科学史上宝贵的科学仪器，见证美第奇家族和洛林大公对科学和科学家的重要作用。 2010年6月10日，在为期两年的封闭重新设计和装修工程之后，科学史博物馆以新的名称“伽利略博物馆”重新向公众开放。它距离1610年3月伽利略的《星际信使》出版有四百年，那本小册子彻底改变人类对宇宙的观念，促进现代科学的出现。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2671,6 +2675,26 @@
    "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
    "published": "",
    "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "e7af2a5ae059",
+   "source": "wikipedia",
+   "title": "威斯康星大学麦迪逊分校",
+   "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%A4%A7%E5%AD%A6%E9%BA%A6%E8%BF%AA%E9%80%8A%E5%88%86%E6%A0%A1",
+   "published": "",
+   "summary": "威斯康星大学麦迪逊分校（英語：University of Wisconsin–Madison, 简称UW–Madison，UW，或Madison）是一所位于美国威斯康星州麦迪逊市的公立赠地研究型大学，也是威斯康星大学系统的旗舰校区。学校成立于1848年，与威斯康星州成为美国联邦的一部分为同一年。校区占地约378公顷，坐落于门多塔湖畔；此外，大学还在校区以南约6.4公里处拥有并运营着一个占地约486公顷的植物园。 威斯康星大学是美国大学协会的创始成员，也是“公立常春藤”之一，被归类为R1级研究型大学。威斯康星大学是“威斯康星学派”的发源地。根据美国国家科学基金会的数据，2024年该校在全美大学科研经费支出中排名第五。 截至2026年10月 (2026-10)，麦迪逊师生共赢得过23次诺贝尔奖、学校共诞生了43位普利策奖得主、1位菲尔兹奖得主以及1位图灵奖得主。该校同时也培育了大量富布赖特学者",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2845,6 +2869,26 @@
    "title_signal": false
   },
   {
+   "id": "2b88d40ab609",
+   "source": "wikipedia",
+   "title": "强纲领",
+   "url": "https://zh.wikipedia.org/wiki/%E5%BC%BA%E7%BA%B2%E9%A2%86",
+   "published": "",
+   "summary": "强纲领（英語：Strong programme），是科学知识社会学（SSK）的一支，它尤其与大衛·布魯爾、巴里·巴恩斯、哈里·柯林斯、Donald A. MacKenzie和 John Henry 的研究联系密切。强纲领被社会学家布鲁诺·拉图尔认为对于科学技术论有着无可比拟的的影响。主要以爱丁堡大学的学者为基础的学派阐释了，科学共同体（通过对共享范式的忠诚）紧密联结的方式，是标准科学活动的先决条件。 强纲领是对“弱”科学社会学的一种反应，弱纲领将社会学的应用限制在了“失败”或“错误”的理论，例如颅相学。 失败的理论可以用其研究者出现的偏差来解释，例如隐蔽的政治或经济利益。社会学与成功理论的相关性很小，这些理论之所以成功，是因为它们揭示了一个自然事实。 强纲领提出，对“真”和“假”的科学理论的研究都应该一视同仁，两者都是由社会因素或条件引起的，例如文化背景和自身利益。人类的一切知识，存在于于",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "f088ab6a58af",
    "source": "wikipedia",
    "title": "Air Force Command College",
@@ -2953,6 +2997,246 @@
    "summary": "Nankai University is located in Tianjin, People's Republic of China. It was co-founded by prominent modern Chinese educators Yan Xiu and Zhang Boling, originating from the establishment of Nankai School in 1904. In 1919, the university division of Nankai School was formally established. On September 25, 1919, the university division of Nankai School held its first opening ceremony, marking the off",
    "meta": {
     "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "c49fa4f9f601",
+   "source": "wikipedia",
+   "title": "Blockhead (thought experiment)",
+   "url": "https://en.wikipedia.org/wiki/Blockhead_(thought_experiment)",
+   "published": "",
+   "summary": "Blockhead is a theoretical computer system invented as part of a thought experiment by philosopher Ned Block, which appeared in a paper titled \"Psychologism and Behaviorism\". Block did not personally name the computer in the paper, but in 1993 F. Jackson claimed that this name \"has become traditional\".",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "8a1f8c315489",
+   "source": "wikipedia",
+   "title": "Demon (thought experiment)",
+   "url": "https://en.wikipedia.org/wiki/Demon_(thought_experiment)",
+   "published": "",
+   "summary": "In thought experiments, philosophers and scientists occasionally imagine entities with special abilities as a way to pose thought experiment or highlight apparent paradoxes. The word \"demon\" here does not necessarily connote a demon, a malevolent being. For instance, James Clerk Maxwell came up with his thought experiment of a \"finite being\" manipulating entropy microscopically to highlight the",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4341680b6209",
+   "source": "wikipedia",
+   "title": "Einstein's thought experiments",
+   "url": "https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments",
+   "published": "",
+   "summary": "A hallmark of Albert Einstein's career was his use of visualized thought experiments (German: Gedankenexperiment) as a fundamental tool for understanding physical issues and for elucidating his concepts to others. Einstein's thought experiments took diverse forms. In his youth, he mentally chased beams of light. For special relativity, he employed moving trains and flashes of lightning to explain",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "36e498881eeb",
+   "source": "wikipedia",
+   "title": "The Left Hand of Darkness",
+   "url": "https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness",
+   "published": "",
+   "summary": "The Left Hand of Darkness is a science fiction novel by the American writer Ursula K. Le Guin. Published in 1969, its popularity established Le Guin's status as a major author of science fiction. The novel is set in the fictional universe of the Hainish Cycle, a series of novels and short stories by Le Guin, which she introduced in the 1964 short story \"The Dowry of Angyar\". It was fourth in writi",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "464ab5e5b3b1",
+   "source": "wikipedia",
+   "title": "Thought experiment",
+   "url": "https://en.wikipedia.org/wiki/Thought_experiment",
+   "published": "",
+   "summary": "A thought experiment is an imaginary scenario that is meant to elucidate or test an argument or theory. It is often an experiment that would be hard, impossible, or unethical to actually perform. It can also be an abstract hypothetical that is meant to test our intuitions about morality or other fundamental questions of philosophy.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f5cd3cda2a7a",
+   "source": "wikipedia",
+   "title": "Experiment",
+   "url": "https://en.wikipedia.org/wiki/Experiment",
+   "published": "",
+   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4a260f65e483",
+   "source": "wikipedia",
+   "title": "Galileo's Leaning Tower of Pisa experiment",
+   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+   "published": "",
+   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "444f60e72a87",
+   "source": "wikipedia",
+   "title": "History of science",
+   "url": "https://en.wikipedia.org/wiki/History_of_science",
+   "published": "",
+   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "5661bb119eeb",
+   "source": "wikipedia",
+   "title": "Milgram experiment",
+   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
+   "published": "",
+   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ae63027fda5d",
+   "source": "wikipedia",
+   "title": "Rosenhan experiment",
+   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
+   "published": "",
+   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "8209714e5c07",
+   "source": "wikipedia",
+   "title": "物理对象",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AF%B9%E8%B1%A1",
+   "published": "",
+   "summary": "物理对象（英语：physical object）其范畴包括“物体”，但定义更广，指在时空中占据位置，且具有物理属性（如：质量、能量、动量、电荷、自旋等）的实体或现象。物理对象含盖所有符合物理定律的实体、场与能量形态，例如：光子、电子、电磁场、引力波、时空本身。 物理实体（physical entity）相当于物理对象，但其更強調“本体存在”（本体论）；物理对象则可以是一个抽象的物理系统（认识论）。例如：「理想气体」是一个研究的物理对象，但它不是一个真实的物理实体，因其在现实中不存在，是个简化后的模型。再如：在量子力学中，波函数也是我们研究的物理对象，但它本身可能不是一个物理实体，可能只是一个机率描述。 在物理学裡，物体（material object，object，body）被认定为独一的、聚集的一群物质；物体为宏观实体，具有明确边界、静止质量不为零的特征。例如，棒球可以被认为是一个物体；",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "cb182d8517f7",
+   "source": "wikipedia",
+   "title": "物理学词汇表",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E8%AF%8D%E6%B1%87%E8%A1%A8",
+   "published": "",
+   "summary": "本物理学词汇表列出了与物理学、其分支学科和相关领域（包括力学、材料科学、核物理学、粒子物理学和热力学）相关的术语和概念的定义。有关科学和技术相关领域的更具包容性的词汇表，请参阅化学词汇表、天文学辞汇、数学领域词汇表和工程学词汇表。 本词汇表按照汉语拼音字母排列。",
+   "meta": {
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -3105,106 +3389,6 @@
    "title_signal": false
   },
   {
-   "id": "c49fa4f9f601",
-   "source": "wikipedia",
-   "title": "Blockhead (thought experiment)",
-   "url": "https://en.wikipedia.org/wiki/Blockhead_(thought_experiment)",
-   "published": "",
-   "summary": "Blockhead is a theoretical computer system invented as part of a thought experiment by philosopher Ned Block, which appeared in a paper titled \"Psychologism and Behaviorism\". Block did not personally name the computer in the paper, but in 1993 F. Jackson claimed that this name \"has become traditional\".",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "8a1f8c315489",
-   "source": "wikipedia",
-   "title": "Demon (thought experiment)",
-   "url": "https://en.wikipedia.org/wiki/Demon_(thought_experiment)",
-   "published": "",
-   "summary": "In thought experiments, philosophers and scientists occasionally imagine entities with special abilities as a way to pose thought experiment or highlight apparent paradoxes. The word \"demon\" here does not necessarily connote a demon, a malevolent being. For instance, James Clerk Maxwell came up with his thought experiment of a \"finite being\" manipulating entropy microscopically to highlight the",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4341680b6209",
-   "source": "wikipedia",
-   "title": "Einstein's thought experiments",
-   "url": "https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments",
-   "published": "",
-   "summary": "A hallmark of Albert Einstein's career was his use of visualized thought experiments (German: Gedankenexperiment) as a fundamental tool for understanding physical issues and for elucidating his concepts to others. Einstein's thought experiments took diverse forms. In his youth, he mentally chased beams of light. For special relativity, he employed moving trains and flashes of lightning to explain",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "36e498881eeb",
-   "source": "wikipedia",
-   "title": "The Left Hand of Darkness",
-   "url": "https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness",
-   "published": "",
-   "summary": "The Left Hand of Darkness is a science fiction novel by the American writer Ursula K. Le Guin. Published in 1969, its popularity established Le Guin's status as a major author of science fiction. The novel is set in the fictional universe of the Hainish Cycle, a series of novels and short stories by Le Guin, which she introduced in the 1964 short story \"The Dowry of Angyar\". It was fourth in writi",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "464ab5e5b3b1",
-   "source": "wikipedia",
-   "title": "Thought experiment",
-   "url": "https://en.wikipedia.org/wiki/Thought_experiment",
-   "published": "",
-   "summary": "A thought experiment is an imaginary scenario that is meant to elucidate or test an argument or theory. It is often an experiment that would be hard, impossible, or unethical to actually perform. It can also be an abstract hypothetical that is meant to test our intuitions about morality or other fundamental questions of philosophy.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "78d0cbe81a17",
    "source": "wikipedia",
    "title": "Twin Earth thought experiment",
@@ -3213,126 +3397,6 @@
    "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
    "meta": {
     "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "f5cd3cda2a7a",
-   "source": "wikipedia",
-   "title": "Experiment",
-   "url": "https://en.wikipedia.org/wiki/Experiment",
-   "published": "",
-   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4a260f65e483",
-   "source": "wikipedia",
-   "title": "Galileo's Leaning Tower of Pisa experiment",
-   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
-   "published": "",
-   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "444f60e72a87",
-   "source": "wikipedia",
-   "title": "History of science",
-   "url": "https://en.wikipedia.org/wiki/History_of_science",
-   "published": "",
-   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "5661bb119eeb",
-   "source": "wikipedia",
-   "title": "Milgram experiment",
-   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
-   "published": "",
-   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "ae63027fda5d",
-   "source": "wikipedia",
-   "title": "Rosenhan experiment",
-   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
-   "published": "",
-   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "e7af2a5ae059",
-   "source": "wikipedia",
-   "title": "威斯康星大学麦迪逊分校",
-   "url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%A4%A7%E5%AD%A6%E9%BA%A6%E8%BF%AA%E9%80%8A%E5%88%86%E6%A0%A1",
-   "published": "",
-   "summary": "威斯康星大学麦迪逊分校（英語：University of Wisconsin–Madison, 简称UW–Madison，UW，或Madison）是一所位于美国威斯康星州麦迪逊市的公立赠地研究型大学，也是威斯康星大学系统的旗舰校区。学校成立于1848年，与威斯康星州成为美国联邦的一部分为同一年。校区占地约378公顷，坐落于门多塔湖畔；此外，大学还在校区以南约6.4公里处拥有并运营着一个占地约486公顷的植物园。 威斯康星大学是美国大学协会的创始成员，也是“公立常春藤”之一，被归类为R1级研究型大学。威斯康星大学是“威斯康星学派”的发源地。根据美国国家科学基金会的数据，2024年该校在全美大学科研经费支出中排名第五。 截至2026年10月 (2026-10)，麦迪逊师生共赢得过23次诺贝尔奖、学校共诞生了43位普利策奖得主、1位菲尔兹奖得主以及1位图灵奖得主。该校同时也培育了大量富布赖特学者",
-   "meta": {
-    "site": "zh.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -3385,26 +3449,6 @@
    "title_signal": false
   },
   {
-   "id": "2b88d40ab609",
-   "source": "wikipedia",
-   "title": "强纲领",
-   "url": "https://zh.wikipedia.org/wiki/%E5%BC%BA%E7%BA%B2%E9%A2%86",
-   "published": "",
-   "summary": "强纲领（英語：Strong programme），是科学知识社会学（SSK）的一支，它尤其与大衛·布魯爾、巴里·巴恩斯、哈里·柯林斯、Donald A. MacKenzie和 John Henry 的研究联系密切。强纲领被社会学家布鲁诺·拉图尔认为对于科学技术论有着无可比拟的的影响。主要以爱丁堡大学的学者为基础的学派阐释了，科学共同体（通过对共享范式的忠诚）紧密联结的方式，是标准科学活动的先决条件。 强纲领是对“弱”科学社会学的一种反应，弱纲领将社会学的应用限制在了“失败”或“错误”的理论，例如颅相学。 失败的理论可以用其研究者出现的偏差来解释，例如隐蔽的政治或经济利益。社会学与成功理论的相关性很小，这些理论之所以成功，是因为它们揭示了一个自然事实。 强纲领提出，对“真”和“假”的科学理论的研究都应该一视同仁，两者都是由社会因素或条件引起的，例如文化背景和自身利益。人类的一切知识，存在于于",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "be33b43c4097",
    "source": "wikipedia",
    "title": "Eliezer Yudkowsky",
@@ -3431,46 +3475,6 @@
    "url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E9%81%94%E5%B9%BB%E8%A6%96",
    "published": "",
    "summary": "《旺达幻视》（英語：WandaVision，香港译《温黛与幻视》，台湾译《汪达幻视》）是一部美國超級英雄類型的網路劇集，改編自漫威漫畫的角色「緋紅女巫」汪達·麥西莫夫和幻視，由潔克·薛佛主創並擔當首席編劇，麥特·夏克曼執導影集。該電視劇是漫威影業開發製作的漫威電影宇宙的首部電視劇作品，與漫威電影宇宙系列電影處於同一架空世界和共同世界，於線上串流媒體平台Disney+首播。 伊莉莎白·歐森和保羅·彼特尼繼續分別飾演在漫威電影宇宙系列電影中的角色汪達·麥西莫夫和幻視。主演還包括黛博拉·喬·拉普、弗雷德·邁拉麥德、凱薩琳·哈恩、泰娜·帕麗斯、藍道爾·朴、凱特·丹寧絲和伊凡·彼得斯。2018年9月，漫威影業宣佈為華特迪士尼公司旗下的在線上串流平台Disney+開發數個電視劇，並以漫威電影宇宙中的「二級核心」人物為主角，比如「緋紅女巫」汪達·麥西莫夫和幻視，伊莉莎白·歐森和保羅·彼特尼有望回歸繼續出",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "9aace4137621",
-   "source": "wikipedia",
-   "title": "爱因斯坦-波多尔斯基-罗森佯谬",
-   "url": "https://zh.wikipedia.org/wiki/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6-%E6%B3%A2%E5%A4%9A%E5%B0%94%E6%96%AF%E5%9F%BA-%E7%BD%97%E6%A3%AE%E4%BD%AF%E8%B0%AC",
-   "published": "",
-   "summary": "愛因斯坦-波多爾斯基-羅森弔詭（英語：Einstein-Podolsky-Rosen paradox），簡稱「愛波羅弔詭」、「EPR弔詭」（EPR paradox）是阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森在1935年發表的一篇論文中，以弔詭的形式針對量子力学的哥本哈根詮釋而提出的早期重要批評。 在這篇題為《能認為量子力學對物理實在的描述是完全的嗎？》（英語：Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?，下稱「EPR論文」）的論文中，他們設計出一個思想實驗，稱為「EPR思想實驗」。藉著檢驗兩個量子糾纏粒子所呈現出的關聯性物理行為，EPR思想實驗凸顯出定域實在論與量子力學完備性之間的矛盾，因此，這論述被稱為「EPR弔詭」。 EPR論文並沒有質疑量子力學的正確性，它質疑的是",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "a19f8aa2f80d",
-   "source": "wikipedia",
-   "title": "突變第三型",
-   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
-   "published": "",
-   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
    "meta": {
     "site": "zh.wikipedia.org"
    },
