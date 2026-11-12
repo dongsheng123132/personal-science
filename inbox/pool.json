@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T01:55:36+00:00",
+ "updated_at": "2026-11-12T02:58:38+00:00",
  "count": 150,
  "items": [
   {
@@ -310,35 +310,6 @@
    "title_signal": true
   },
   {
-   "id": "86aa34f7015c",
-   "source": "hackaday",
-   "title": "Beautiful Laser Harp Hides Some Neat Tricks",
-   "url": "https://hackaday.com/2026/11/04/beautiful-laser-harp-hides-some-neat-tricks",
-   "published": "2026-11-04",
-   "summary": "Laser harps aren’t quite a right of passage, in that not everyone builds them, but it’s likely everyone at least contemplates building one at one time or another. We’re lucky …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 91,
-   "why": "",
-   "obj_hits": [
-    "laser"
-   ],
-   "per_hits": [
-    "build"
-   ],
-   "modern_hits": [
-    "laser"
-   ],
-   "hits": [
-    "laser",
-    "build",
-    "laser"
-   ],
-   "title_signal": true
-  },
-  {
    "id": "657c8d5cc2dc",
    "source": "hackaday",
    "title": "Novelty Camera To USB Camera",
@@ -515,6 +486,35 @@
    "title_signal": true
   },
   {
+   "id": "86aa34f7015c",
+   "source": "hackaday",
+   "title": "Beautiful Laser Harp Hides Some Neat Tricks",
+   "url": "https://hackaday.com/2026/11/04/beautiful-laser-harp-hides-some-neat-tricks",
+   "published": "2026-11-04",
+   "summary": "Laser harps aren’t quite a right of passage, in that not everyone builds them, but it’s likely everyone at least contemplates building one at one time or another. We’re lucky …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 87,
+   "why": "",
+   "obj_hits": [
+    "laser"
+   ],
+   "per_hits": [
+    "build"
+   ],
+   "modern_hits": [
+    "laser"
+   ],
+   "hits": [
+    "laser",
+    "build",
+    "laser"
+   ],
+   "title_signal": true
+  },
+  {
    "id": "c5ce8aa72624",
    "source": "hackaday",
    "title": "Solar Light Shows Why Replacing NiMH with Li-Ion is Dangerous",
@@ -651,32 +651,6 @@
    "title_signal": false
   },
   {
-   "id": "e140d349a942",
-   "source": "wikipedia",
-   "title": "J·J·湯姆森",
-   "url": "https://zh.wikipedia.org/wiki/J%C2%B7J%C2%B7%E6%B9%AF%E5%A7%86%E6%A3%AE",
-   "published": "",
-   "summary": "约瑟夫·约翰·湯姆森爵士 （英語：Sir Joseph John Thomson，1856年12月18日—1940年8月30日），英国物理学家，诺贝尔物理学奖获得主， 他发现了电子并測定了其質荷比，这是第一个被发现的亚原子粒子。 1897年，汤姆孙表明，阴极射线由以前未知的带负电粒子（现称为电子）组成，他计算出這種粒子必须比原子小得多，並且有非常小的质荷比。 汤姆孙在1913年也发现了稳定（非放射性）元素同位素的第一个证据，这是他在探索陽極射線（正离子）的過程中的成果之一。 他与弗朗西斯·阿斯頓一起确定带正电粒子的性质的实验是质谱法的第一次使用，使得质谱仪的發展。 汤姆孙因其在气体导电方面的工作而被授予1906年诺贝尔物理学奖。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 86,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "ph ",
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "ph ",
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "3db785c262e7",
    "source": "wikipedia",
    "title": "普林斯顿等离子体物理实验室",
@@ -701,6 +675,32 @@
     "实验"
    ],
    "title_signal": true
+  },
+  {
+   "id": "e140d349a942",
+   "source": "wikipedia",
+   "title": "J·J·湯姆森",
+   "url": "https://zh.wikipedia.org/wiki/J%C2%B7J%C2%B7%E6%B9%AF%E5%A7%86%E6%A3%AE",
+   "published": "",
+   "summary": "约瑟夫·约翰·湯姆森爵士 （英語：Sir Joseph John Thomson，1856年12月18日—1940年8月30日），英国物理学家，诺贝尔物理学奖获得主， 他发现了电子并測定了其質荷比，这是第一个被发现的亚原子粒子。 1897年，汤姆孙表明，阴极射线由以前未知的带负电粒子（现称为电子）组成，他计算出這種粒子必须比原子小得多，並且有非常小的质荷比。 汤姆孙在1913年也发现了稳定（非放射性）元素同位素的第一个证据，这是他在探索陽極射線（正离子）的過程中的成果之一。 他与弗朗西斯·阿斯頓一起确定带正电粒子的性质的实验是质谱法的第一次使用，使得质谱仪的發展。 汤姆孙因其在气体导电方面的工作而被授予1906年诺贝尔物理学奖。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "ph ",
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "ph ",
+    "实验"
+   ],
+   "title_signal": false
   },
   {
    "id": "8d3033319542",
@@ -1667,6 +1667,30 @@
    "title_signal": false
   },
   {
+   "id": "889dbcaae6cd",
+   "source": "wikipedia",
+   "title": "弗朗西斯·培根",
+   "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9",
+   "published": "",
+   "summary": "第一代圣奥尔本子爵弗朗西斯·培根（英語：Francis Bacon, 1st Viscount St Alban，1561年1月22日—1626年4月9日），英国文艺复兴时期哲学家、政要、科學家、法學家、演說家和散文作家，被认为是经验主义哲学的创始人。卡尔·马克思亦称其为“英国唯物主义和整个现代实验科学的真正始祖”。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "5147d7c8f6d0",
    "source": "wikipedia",
    "title": "罗森汉恩实验",
@@ -1807,30 +1831,6 @@
    "modern_hits": [],
    "hits": [
     "physics"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "889dbcaae6cd",
-   "source": "wikipedia",
-   "title": "弗朗西斯·培根",
-   "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9",
-   "published": "",
-   "summary": "第一代圣奥尔本子爵弗朗西斯·培根（英語：Francis Bacon, 1st Viscount St Alban，1561年1月22日—1626年4月9日），英国文艺复兴时期哲学家、政要、科學家、法學家、演說家和散文作家，被认为是经验主义哲学的创始人。卡尔·马克思亦称其为“英国唯物主义和整个现代实验科学的真正始祖”。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
    ],
    "title_signal": false
   },
@@ -2003,31 +2003,12 @@
    "title_signal": false
   },
   {
-   "id": "0b42f3c766a6",
+   "id": "b47e63a62b38",
    "source": "hackaday",
-   "title": "Artemis II Rocket Was Powerful Enough to Disrupt GPS",
-   "url": "https://hackaday.com/2026/11/07/artemis-ii-rocket-was-powerful-enough-to-disrupt-gps",
-   "published": "2026-11-07",
-   "summary": "Rockets certainly have a substantial impact if you ever see a launch in person. The noise, shock waves, and even heat can be awe-inspiring. What is less obvious are the …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "9fbcc4f762f9",
-   "source": "hackaday",
-   "title": "Yesterday Has Never Looked This Good: Feast Your Eyes On The 2026 Retrocomputing Challenge Winners!",
-   "url": "https://hackaday.com/2026/11/04/yesterday-has-never-looked-this-good-feast-your-eyes-on-the-2026-retrocomputing-challenge-winners",
-   "published": "2026-11-04",
-   "summary": "If there’s one category among those we see here at Hackaday that has something for everyone, it’s retrocomputing. Spanning everything from relay-based machines that fill a wall through to modern …read more",
+   "title": "Why Engineers are Forced to Create Junk Designs",
+   "url": "https://hackaday.com/2026/11/11/why-engineers-are-forced-to-create-junk-designs",
+   "published": "2026-11-11",
+   "summary": "It’s become a bit of a platitude to state that products were manufactured better in ‘the olden days’, but as [The Meandrous Engineer] covers in a recent video essay, the …read more",
    "meta": {
     "query": "air quality"
    },
@@ -2041,12 +2022,12 @@
    "title_signal": false
   },
   {
-   "id": "db12f0de9716",
+   "id": "0b42f3c766a6",
    "source": "hackaday",
-   "title": "Making a Wax Motor for Micrometer-Level Control",
-   "url": "https://hackaday.com/2026/11/04/making-a-wax-motor-for-micrometer-level-control",
-   "published": "2026-11-04",
-   "summary": "Although not very glamorous, wax motors are a fairly common type of linear actuator. They use the thermal response of waxes and the resulting volumetric expansion or reduction to create …read more",
+   "title": "Artemis II Rocket Was Powerful Enough to Disrupt GPS",
+   "url": "https://hackaday.com/2026/11/07/artemis-ii-rocket-was-powerful-enough-to-disrupt-gps",
+   "published": "2026-11-07",
+   "summary": "Rockets certainly have a substantial impact if you ever see a launch in person. The noise, shock waves, and even heat can be awe-inspiring. What is less obvious are the …read more",
    "meta": {
     "query": "sensor"
    },
@@ -2239,8 +2220,8 @@
    "published": "2026-11-07",
    "summary": "",
    "meta": {
-    "points": 825,
-    "comments": 138
+    "points": 829,
+    "comments": 140
    },
    "targeted": false,
    "score": 70,
@@ -2254,6 +2235,44 @@
     "home"
    ],
    "title_signal": true
+  },
+  {
+   "id": "9fbcc4f762f9",
+   "source": "hackaday",
+   "title": "Yesterday Has Never Looked This Good: Feast Your Eyes On The 2026 Retrocomputing Challenge Winners!",
+   "url": "https://hackaday.com/2026/11/04/yesterday-has-never-looked-this-good-feast-your-eyes-on-the-2026-retrocomputing-challenge-winners",
+   "published": "2026-11-04",
+   "summary": "If there’s one category among those we see here at Hackaday that has something for everyone, it’s retrocomputing. Spanning everything from relay-based machines that fill a wall through to modern …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "db12f0de9716",
+   "source": "hackaday",
+   "title": "Making a Wax Motor for Micrometer-Level Control",
+   "url": "https://hackaday.com/2026/11/04/making-a-wax-motor-for-micrometer-level-control",
+   "published": "2026-11-04",
+   "summary": "Although not very glamorous, wax motors are a fairly common type of linear actuator. They use the thermal response of waxes and the resulting volumetric expansion or reduction to create …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
   },
   {
    "id": "4bb27f96a94f",
@@ -2446,25 +2465,6 @@
    "title_signal": false
   },
   {
-   "id": "4f034027590c",
-   "source": "hackaday",
-   "title": "The Prusa Core One+ INDX, a Troubled Multi-Extruder Upgrade?",
-   "url": "https://hackaday.com/2026/10/12/the-prusa-core-one-indx-a-troubled-multi-extruder-upgrade",
-   "published": "2026-10-12",
-   "summary": "The Prusa Core One+ INDX is an interesting upgrade to the base FDM printer by Prusa, featuring eight independent extruders – hence the INDX – that in theory should allow …read more",
-   "meta": {
-    "query": "calibration"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "a1d078e21527",
    "source": "wikipedia",
    "title": "以太坊",
@@ -2575,26 +2575,6 @@
    "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2",
    "published": "",
    "summary": "科學史，利用了思想史和社會史兩個面向的歷史研究方法。科學起源於對自然其功能性的實用考量以及纯粹的哲學探究。 雖然科學方法自古便不斷發展，但現代科學方法卻是始自伊斯蘭科學家，海什木在大約西元1000年左右，運用實驗的經驗法則寫出了一本關於光學的著作《光學書》。然而，現代科學方法在13世紀的歐洲由大學經院哲學的學者所發起科學革命時，方才算發展完全，到了16世紀及17世紀早期的發展高峰，現代科學方法的廣泛應用更引領了知識的全面重估。科學方法的發展被某些人（尤其是科學哲學家及實證科學家）認為是太過於基礎而重要的，認為早先對於自然的探索只不過是前科學（pre-scientific），現代科學方法才被他們認為是真正的科學。習慣上，科學史學家仍舊認定早先的科學探索也包含於廣大而充足的科學範疇之中。 數學史、科技史及哲學史則在其各自的條目中描述。數學跟科學很接近但有所區别（至少在現代的觀念上是這樣認為）。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "c16ba36fab57",
-   "source": "wikipedia",
-   "title": "科学史学史",
-   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2%E5%AD%A6%E5%8F%B2",
-   "published": "",
-   "summary": "科学史学史，有时也被称为科学史，是一门研究有关科学的历史和方法论的历史分支学科，研究内容包括其学科方面和实践层面（方法、理论、流派）以及对其自身历史发展的研究（ “科学史的历史”，即一门称作科学史的历史学科）。 由于有关科学史研究的适当方法的史学争论有时难以与关于科学的发展历程的历史争论区分开来，因此，后一类的早期争论通常被认为是该学科的开端。例如，这种讨论贯穿了伟大的历史学家和科学哲学家威廉·惠威尔的历史著作。因此，他经常被恰当地认为是这门学科的始祖，另外还有皮埃尔·迪昂和亚历山大·柯瓦雷也对该学科的建立做出了先驱性的贡献。 对科学史学的明确表述，通常可以追溯到 20 世纪 60 年代初期。例如，1965年格尔德·布赫达尔发表的《科学史学史革命》就涉及了托马斯·库恩和约瑟夫·阿伽西的创新研究。他认为这两位作家通过明确区分历史和科学史学史开创了这个学科，他们认为史学观点极大地影响了科学史的",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2815,26 +2795,6 @@
    "url": "https://zh.wikipedia.org/wiki/%E9%9D%9E%E7%81%AB%E7%AE%AD%E8%88%AA%E5%A4%A9%E5%8F%91%E5%B0%84",
    "published": "",
    "summary": "非火箭航天发射是一种部分或全部的采用火箭发动机外的其他推进方式的航天发射方式。如在火箭橇发射或空中发射中，在通过其他手段获得初始速度或高度后，火箭才被应用。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "6a392e8abd30",
-   "source": "wikipedia",
-   "title": "伽利略·伽利莱",
-   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1",
-   "published": "",
-   "summary": "伽利略·伽利莱（義大利語：Galileo Galilei ；1564年2月15日—1642年1月8日），義大利物理學家、數學家、天文學家及哲學家，科學革命中的重要人物。伽利略被譽為“現代觀測天文學之父”、“現代物理學之父”、科学方法之父及“現代科學之父”。 伽利略曾研究速率與速度、引力與自由落體、相对性原理、慣性與抛体运动，並在應用科學與技術領域有所建樹，描述鐘擺特性與流体静力平衡。他亦是最早發展熱成像儀的學者之一，並發明多種軍用比例規與測量儀器。透過自行改良的望远镜，伽利略觀測到银河系中的繁星、金星相位、木星最大的四顆衛星、土星環、月球陨石坑與太陽黑子等現象；此外，他亦製造出早期形式的顯微鏡。 伽利略對哥白尼日心說的支持，招致天主教會內部及部分天文學家的反對。1615年，羅馬宗教裁判所開始調查此事，並認定其觀點與當時被接受的《聖經》詮釋相牴觸。 其後，伽利略於《关于托勒密和哥白尼两大世界",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3109,6 +3069,26 @@
    "title_signal": false
   },
   {
+   "id": "78d0cbe81a17",
+   "source": "wikipedia",
+   "title": "Twin Earth thought experiment",
+   "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
+   "published": "",
+   "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "f5cd3cda2a7a",
    "source": "wikipedia",
    "title": "Experiment",
@@ -3169,6 +3149,26 @@
    "title_signal": false
   },
   {
+   "id": "31cafad597e7",
+   "source": "wikipedia",
+   "title": "List of experiments",
+   "url": "https://en.wikipedia.org/wiki/List_of_experiments",
+   "published": "",
+   "summary": "The following is a list of historically important scientific experiments and observations demonstrating something of great scientific interest, typically in an elegant or clever manner.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "5661bb119eeb",
    "source": "wikipedia",
    "title": "Milgram experiment",
@@ -3177,6 +3177,46 @@
    "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
    "meta": {
     "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "c16ba36fab57",
+   "source": "wikipedia",
+   "title": "科学史学史",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2%E5%AD%A6%E5%8F%B2",
+   "published": "",
+   "summary": "科学史学史，有时也被称为科学史，是一门研究有关科学的历史和方法论的历史分支学科，研究内容包括其学科方面和实践层面（方法、理论、流派）以及对其自身历史发展的研究（ “科学史的历史”，即一门称作科学史的历史学科）。 由于有关科学史研究的适当方法的史学争论有时难以与关于科学的发展历程的历史争论区分开来，因此，后一类的早期争论通常被认为是该学科的开端。例如，这种讨论贯穿了伟大的历史学家和科学哲学家威廉·惠威尔的历史著作。因此，他经常被恰当地认为是这门学科的始祖，另外还有皮埃尔·迪昂和亚历山大·柯瓦雷也对该学科的建立做出了先驱性的贡献。 对科学史学的明确表述，通常可以追溯到 20 世纪 60 年代初期。例如，1965年格尔德·布赫达尔发表的《科学史学史革命》就涉及了托马斯·库恩和约瑟夫·阿伽西的创新研究。他认为这两位作家通过明确区分历史和科学史学史开创了这个学科，他们认为史学观点极大地影响了科学史的",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "6a392e8abd30",
+   "source": "wikipedia",
+   "title": "伽利略·伽利莱",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1",
+   "published": "",
+   "summary": "伽利略·伽利莱（義大利語：Galileo Galilei ；1564年2月15日—1642年1月8日），義大利物理學家、數學家、天文學家及哲學家，科學革命中的重要人物。伽利略被譽為“現代觀測天文學之父”、“現代物理學之父”、科学方法之父及“現代科學之父”。 伽利略曾研究速率與速度、引力與自由落體、相对性原理、慣性與抛体运动，並在應用科學與技術領域有所建樹，描述鐘擺特性與流体静力平衡。他亦是最早發展熱成像儀的學者之一，並發明多種軍用比例規與測量儀器。透過自行改良的望远镜，伽利略觀測到银河系中的繁星、金星相位、木星最大的四顆衛星、土星環、月球陨石坑與太陽黑子等現象；此外，他亦製造出早期形式的顯微鏡。 伽利略對哥白尼日心說的支持，招致天主教會內部及部分天文學家的反對。1615年，羅馬宗教裁判所開始調查此事，並認定其觀點與當時被接受的《聖經》詮釋相牴觸。 其後，伽利略於《关于托勒密和哥白尼两大世界",
+   "meta": {
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -3389,26 +3429,6 @@
    "title_signal": false
   },
   {
-   "id": "78d0cbe81a17",
-   "source": "wikipedia",
-   "title": "Twin Earth thought experiment",
-   "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
-   "published": "",
-   "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "628eec8d2a5b",
    "source": "wikipedia",
    "title": "Neurophilosophy",
@@ -3457,26 +3477,6 @@
    "summary": "Eliezer Shlomo Yudkowsky ( EL-ee-EH-zər yuud-KOW-skee; born September 11, 1979) is an American artificial intelligence researcher and writer on decision theory and ethics, known for popularizing ideas related to friendly artificial intelligence. He is the founder of and a research fellow at the Machine Intelligence Research Institute (MIRI), a private research nonprofit based in Berkeley, Californ",
    "meta": {
     "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "109ee3b55506",
-   "source": "wikipedia",
-   "title": "汪達幻視",
-   "url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E9%81%94%E5%B9%BB%E8%A6%96",
-   "published": "",
-   "summary": "《旺达幻视》（英語：WandaVision，香港译《温黛与幻视》，台湾译《汪达幻视》）是一部美國超級英雄類型的網路劇集，改編自漫威漫畫的角色「緋紅女巫」汪達·麥西莫夫和幻視，由潔克·薛佛主創並擔當首席編劇，麥特·夏克曼執導影集。該電視劇是漫威影業開發製作的漫威電影宇宙的首部電視劇作品，與漫威電影宇宙系列電影處於同一架空世界和共同世界，於線上串流媒體平台Disney+首播。 伊莉莎白·歐森和保羅·彼特尼繼續分別飾演在漫威電影宇宙系列電影中的角色汪達·麥西莫夫和幻視。主演還包括黛博拉·喬·拉普、弗雷德·邁拉麥德、凱薩琳·哈恩、泰娜·帕麗斯、藍道爾·朴、凱特·丹寧絲和伊凡·彼得斯。2018年9月，漫威影業宣佈為華特迪士尼公司旗下的在線上串流平台Disney+開發數個電視劇，並以漫威電影宇宙中的「二級核心」人物為主角，比如「緋紅女巫」汪達·麥西莫夫和幻視，伊莉莎白·歐森和保羅·彼特尼有望回歸繼續出",
-   "meta": {
-    "site": "zh.wikipedia.org"
    },
    "targeted": true,
    "score": 66,

@@ -1,54 +1,46 @@
 {
- "generated_at": "2026-11-11T01:55:36+00:00",
- "date": "2026-11-11",
+ "generated_at": "2026-11-12T02:58:38+00:00",
+ "date": "2026-11-12",
  "count": 2,
  "items": [
   {
-   "id": "8d3033319542",
+   "id": "b47e63a62b38",
    "source": "hackaday",
-   "title": "Watching the Watchers",
-   "url": "https://hackaday.com/2026/11/10/watching-the-watchers",
-   "published": "2026-11-10",
-   "summary": "Although it used to be a much more rare event, now almost any time at dawn or dusk, provided clear weather, a human observer can walk outside, look up, and …read more",
+   "title": "Why Engineers are Forced to Create Junk Designs",
+   "url": "https://hackaday.com/2026/11/11/why-engineers-are-forced-to-create-junk-designs",
+   "published": "2026-11-11",
+   "summary": "It’s become a bit of a platitude to state that products were manufactured better in ‘the olden days’, but as [The Meandrous Engineer] covers in a recent video essay, the …read more",
    "meta": {
-    "query": "weather station"
+    "query": "air quality"
    },
    "targeted": true,
-   "score": 84,
+   "score": 74,
    "why": "",
-   "obj_hits": [
-    "weather"
-   ],
+   "obj_hits": [],
    "per_hits": [],
    "modern_hits": [],
-   "hits": [
-    "weather"
-   ],
+   "hits": [],
    "title_signal": false
   },
   {
-   "id": "f6dd6e5a8e6a",
-   "source": "hn",
-   "title": "My declarative multi-machine homelab",
-   "url": "https://www.nijho.lt/post/homelab-explained",
-   "published": "2026-09-28",
-   "summary": "",
+   "id": "31cafad597e7",
+   "source": "wikipedia",
+   "title": "List of experiments",
+   "url": "https://en.wikipedia.org/wiki/List_of_experiments",
+   "published": "",
+   "summary": "The following is a list of historically important scientific experiments and observations demonstrating something of great scientific interest, typically in an elegant or clever manner.",
    "meta": {
-    "points": 3,
-    "comments": 1
+    "site": "en.wikipedia.org"
    },
-   "targeted": false,
-   "score": 54,
+   "targeted": true,
+   "score": 66,
    "why": "",
+   "timeless": true,
    "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
+   "per_hits": [],
    "modern_hits": [],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
+   "hits": [],
+   "title_signal": false
   }
  ]
 }
