@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T02:58:38+00:00",
+ "updated_at": "2026-11-13T02:37:51+00:00",
  "count": 150,
  "items": [
   {
@@ -703,6 +703,29 @@
    "title_signal": false
   },
   {
+   "id": "a9f65c0cff45",
+   "source": "hackaday",
+   "title": "The Sextant: Navigating The Old Way",
+   "url": "https://hackaday.com/2026/11/12/the-sextant-navigating-the-old-way",
+   "published": "2026-11-12",
+   "summary": "Navigation is easy these days, as we’ve entire complex computerized mapping systems and radio-based positioning systems to find ourselves anywhere on Earth. It might seem simple to use GPS these …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
+   "obj_hits": [
+    "radio"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "radio"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "8d3033319542",
    "source": "hackaday",
    "title": "Watching the Watchers",
@@ -1333,6 +1356,52 @@
    "title_signal": false
   },
   {
+   "id": "a8d0a71855f6",
+   "source": "hackaday",
+   "title": "Baochip-1x: A Mostly-Open, 22nm SoC for High Assurance Applications",
+   "url": "https://hackaday.com/2026/11/12/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications",
+   "published": "2026-11-12",
+   "summary": "For most people, just getting any old microcontroller or system on chip (SoC) from our favorite – or cheapest – vendor is more than good enough. But if you’re really …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 78,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "cheap"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "cheap"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "0d1205281260",
+   "source": "hackaday",
+   "title": "Tiny Transmitters Track Monarch Butterflies",
+   "url": "https://hackaday.com/2026/11/12/tiny-transmitters-track-monarch-butterflies",
+   "published": "2026-11-12",
+   "summary": "Miniaturization is one thing, but how would you like to design a transmitter that attaches to a butterfly? That’s what the BlūMorpho transmitter is made to do, according to [Tom …read more",
+   "meta": {
+    "query": "weather station"
+   },
+   "targeted": true,
+   "score": 78,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "made"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "made"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "304f0259b818",
    "source": "hackaday",
    "title": "VR Headset Ditches the Base Stations with DIY Tracking",
@@ -1811,12 +1880,12 @@
    "title_signal": false
   },
   {
-   "id": "bb1408b8b499",
+   "id": "757b5ba04fda",
    "source": "wikipedia",
-   "title": "Bohr–Einstein debates",
-   "url": "https://en.wikipedia.org/wiki/Bohr%E2%80%93Einstein_debates",
+   "title": "Standing wave",
+   "url": "https://en.wikipedia.org/wiki/Standing_wave",
    "published": "",
-   "summary": "The Bohr–Einstein debates were a series of public disputes about quantum mechanics between Albert Einstein and Niels Bohr. Their debates are remembered because of their importance to the philosophy of science, insofar as the disagreements—and the outcome of Bohr's version of quantum mechanics becoming the prevalent view—form the root of the modern understanding of physics. Most of Bohr's version o",
+   "summary": "In physics, a standing wave, also known as a stationary wave, is a wave that oscillates in time but whose peak amplitude profile does not move in space. The peak amplitude of the wave oscillations at any point in space is constant with respect to time, and the oscillations at different points throughout the wave are in phase. The locations at which the absolute value of the amplitude is minimum a",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -1835,12 +1904,12 @@
    "title_signal": false
   },
   {
-   "id": "757b5ba04fda",
+   "id": "bb1408b8b499",
    "source": "wikipedia",
-   "title": "Standing wave",
-   "url": "https://en.wikipedia.org/wiki/Standing_wave",
+   "title": "Bohr–Einstein debates",
+   "url": "https://en.wikipedia.org/wiki/Bohr%E2%80%93Einstein_debates",
    "published": "",
-   "summary": "In physics, a standing wave, also known as a stationary wave, is a wave that oscillates in time but whose peak amplitude profile does not move in space. The peak amplitude of the wave oscillations at any point in space is constant with respect to time, and the oscillations at different points throughout the wave are in phase. The locations at which the absolute value of the amplitude is minimum a",
+   "summary": "The Bohr–Einstein debates were a series of public disputes about quantum mechanics between Albert Einstein and Niels Bohr. Their debates are remembered because of their importance to the philosophy of science, insofar as the disagreements—and the outcome of Bohr's version of quantum mechanics becoming the prevalent view—form the root of the modern understanding of physics. Most of Bohr's version o",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -2000,6 +2069,44 @@
    "hits": [
     "geiger"
    ],
+   "title_signal": false
+  },
+  {
+   "id": "4004436c62be",
+   "source": "hackaday",
+   "title": "Just Use QWIIC Already",
+   "url": "https://hackaday.com/2026/11/12/just-use-qwiic-already",
+   "published": "2026-11-12",
+   "summary": "Years ago, I wrote an article describing different I2C-on-a-connector ecosystems, explaining their strengths, weaknesses, and implementation details, as well as piling on a heap of fun stories. Looking back at …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "c9b2cf559bcc",
+   "source": "hackaday",
+   "title": "Watch That Sound: Your Own Chladni Plate",
+   "url": "https://hackaday.com/2026/11/12/watch-that-sound-your-own-chladni-plate",
+   "published": "2026-11-12",
+   "summary": "What if you could see sound? A Chladni plate uses a speaker and small particles, like sand, to give you a visual representation of sound, and [CrazyScience] shows you how …read more",
+   "meta": {
+    "query": "oscilloscope"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
    "title_signal": false
   },
   {
@@ -2220,7 +2327,7 @@
    "published": "2026-11-07",
    "summary": "",
    "meta": {
-    "points": 829,
+    "points": 831,
     "comments": 140
    },
    "targeted": false,
@@ -2263,7 +2370,7 @@
    "published": "2026-11-04",
    "summary": "Although not very glamorous, wax motors are a fairly common type of linear actuator. They use the thermal response of waxes and the resulting volumetric expansion or reduction to create …read more",
    "meta": {
-    "query": "sensor"
+    "query": "DIY lab"
    },
    "targeted": true,
    "score": 70,
@@ -2809,12 +2916,12 @@
    "title_signal": false
   },
   {
-   "id": "0829c514aed2",
+   "id": "6a392e8abd30",
    "source": "wikipedia",
-   "title": "元科学",
-   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
+   "title": "伽利略·伽利莱",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1",
    "published": "",
-   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
+   "summary": "伽利略·伽利莱（義大利語：Galileo Galilei ；1564年2月15日—1642年1月8日），義大利物理學家、數學家、天文學家及哲學家，科學革命中的重要人物。伽利略被譽為“現代觀測天文學之父”、“現代物理學之父”、科学方法之父及“現代科學之父”。 伽利略曾研究速率與速度、引力與自由落體、相对性原理、慣性與抛体运动，並在應用科學與技術領域有所建樹，描述鐘擺特性與流体静力平衡。他亦是最早發展熱成像儀的學者之一，並發明多種軍用比例規與測量儀器。透過自行改良的望远镜，伽利略觀測到银河系中的繁星、金星相位、木星最大的四顆衛星、土星環、月球陨石坑與太陽黑子等現象；此外，他亦製造出早期形式的顯微鏡。 伽利略對哥白尼日心說的支持，招致天主教會內部及部分天文學家的反對。1615年，羅馬宗教裁判所開始調查此事，並認定其觀點與當時被接受的《聖經》詮釋相牴觸。 其後，伽利略於《关于托勒密和哥白尼两大世界",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2829,12 +2936,12 @@
    "title_signal": false
   },
   {
-   "id": "2b88d40ab609",
+   "id": "0829c514aed2",
    "source": "wikipedia",
-   "title": "强纲领",
-   "url": "https://zh.wikipedia.org/wiki/%E5%BC%BA%E7%BA%B2%E9%A2%86",
+   "title": "元科学",
+   "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%A7%91%E5%AD%A6",
    "published": "",
-   "summary": "强纲领（英語：Strong programme），是科学知识社会学（SSK）的一支，它尤其与大衛·布魯爾、巴里·巴恩斯、哈里·柯林斯、Donald A. MacKenzie和 John Henry 的研究联系密切。强纲领被社会学家布鲁诺·拉图尔认为对于科学技术论有着无可比拟的的影响。主要以爱丁堡大学的学者为基础的学派阐释了，科学共同体（通过对共享范式的忠诚）紧密联结的方式，是标准科学活动的先决条件。 强纲领是对“弱”科学社会学的一种反应，弱纲领将社会学的应用限制在了“失败”或“错误”的理论，例如颅相学。 失败的理论可以用其研究者出现的偏差来解释，例如隐蔽的政治或经济利益。社会学与成功理论的相关性很小，这些理论之所以成功，是因为它们揭示了一个自然事实。 强纲领提出，对“真”和“假”的科学理论的研究都应该一视同仁，两者都是由社会因素或条件引起的，例如文化背景和自身利益。人类的一切知识，存在于于",
+   "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2955,6 +3062,166 @@
    "url": "https://en.wikipedia.org/wiki/History_of_Nankai_University",
    "published": "",
    "summary": "Nankai University is located in Tianjin, People's Republic of China. It was co-founded by prominent modern Chinese educators Yan Xiu and Zhang Boling, originating from the establishment of Nankai School in 1904. In 1919, the university division of Nankai School was formally established. On September 25, 1919, the university division of Nankai School held its first opening ceremony, marking the off",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "e2f65195a4c9",
+   "source": "wikipedia",
+   "title": "Army Academy of Armored Forces",
+   "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
+   "published": "",
+   "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "16dfa34f1419",
+   "source": "wikipedia",
+   "title": "Institute for the History of Natural Sciences",
+   "url": "https://en.wikipedia.org/wiki/Institute_for_the_History_of_Natural_Sciences",
+   "published": "",
+   "summary": "The Institute for the History of Natural Sciences (IHNS CAS; Chinese: 中国科学院自然科学史研究所; pinyin: Zhōngguó Kēxuéyuàn Zìrán Kēxuéshǐ Yánjiūsuǒ) is a leading research institution in China dedicated to the study of the history of science, technology, and medicine. It is affiliated with the Chinese Academy of Sciences (CAS).",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ef3dd7b47ba5",
+   "source": "wikipedia",
+   "title": "Mianyang",
+   "url": "https://en.wikipedia.org/wiki/Mianyang",
+   "published": "",
+   "summary": "Mianyang (simplified Chinese: 绵阳; traditional Chinese: 綿陽; pinyin: Miányáng; Wade–Giles: Mien²-yang²; Sichuanese romanization: Mien2-iang2; formerly known as Mienchow, Chinese: 綿州; pinyin: Mianzhou; Sichuanese romanization: Miencheo; lit. 'Mian Prefecture') is the second largest prefecture-level city of Sichuan province in Southwestern China. It borders Nanchong City to the east, Suining City to t",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "63623f9ad973",
+   "source": "wikipedia",
+   "title": "Barnum effect",
+   "url": "https://en.wikipedia.org/wiki/Barnum_effect",
+   "published": "",
+   "summary": "The Barnum effect, also called the Forer effect or, less commonly, the Barnum–Forer effect, is a common psychological phenomenon whereby individuals give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically to them, yet which are in fact vague and general enough to apply to a broad range of people. This effect can provide a partial explanation for th",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "95daaaf86db7",
+   "source": "wikipedia",
+   "title": "Door-in-the-face technique",
+   "url": "https://en.wikipedia.org/wiki/Door-in-the-face_technique",
+   "published": "",
+   "summary": "The door-in-the-face technique is a compliance method commonly studied in social psychology. The persuader attempts to convince the respondent to comply by making a large request that the respondent will most likely turn down, much like a metaphorical slamming of a door in the persuader's face. The respondent is then more likely to agree to a second, more reasonable request, than if that same requ",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "d3a003a34d23",
+   "source": "wikipedia",
+   "title": "Foot-in-the-door technique",
+   "url": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
+   "published": "",
+   "summary": "Foot-in-the-door (FITD) technique is a compliance tactic that aims at getting a person to agree to a large request by having them agree to a modest request first. If a smaller request is granted, then the person who is agreeing feels like they are obligated to keep agreeing to larger requests. The saying originates from door to door salesmen who keep the door from shutting with their foot, giving",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "6b7326a1de2b",
+   "source": "wikipedia",
+   "title": "Kuleshov effect",
+   "url": "https://en.wikipedia.org/wiki/Kuleshov_effect",
+   "published": "",
+   "summary": "The Kuleshov effect (Russian: Эффект Кулешова) is a film editing (montage) effect demonstrated by Russian filmmaker Lev Kuleshov in the 1910s and 1920s. It is a cognitive phenomenon by which viewers derive more meaning from the interaction of two sequential shots than from a single shot in isolation. Prior to the 1960s, the phenomenon was sometimes known as the Pudovkin effect and the Mozzhukhin e",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "84be9785ed2e",
+   "source": "wikipedia",
+   "title": "Miller–Urey experiment",
+   "url": "https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment",
+   "published": "",
+   "summary": "The Miller–Urey experiment, or Miller experiment, was an experiment in chemical synthesis carried out in 1952 that simulated the conditions thought at the time to be present in the atmosphere of the early, prebiotic Earth. It is seen as one of the first successful experiments demonstrating the synthesis of organic compounds from inorganic constituents in an origin of life scenario. The experiment",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3149,26 +3416,6 @@
    "title_signal": false
   },
   {
-   "id": "31cafad597e7",
-   "source": "wikipedia",
-   "title": "List of experiments",
-   "url": "https://en.wikipedia.org/wiki/List_of_experiments",
-   "published": "",
-   "summary": "The following is a list of historically important scientific experiments and observations demonstrating something of great scientific interest, typically in an elegant or clever manner.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "5661bb119eeb",
    "source": "wikipedia",
    "title": "Milgram experiment",
@@ -3177,46 +3424,6 @@
    "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
    "meta": {
     "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "c16ba36fab57",
-   "source": "wikipedia",
-   "title": "科学史学史",
-   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2%E5%AD%A6%E5%8F%B2",
-   "published": "",
-   "summary": "科学史学史，有时也被称为科学史，是一门研究有关科学的历史和方法论的历史分支学科，研究内容包括其学科方面和实践层面（方法、理论、流派）以及对其自身历史发展的研究（ “科学史的历史”，即一门称作科学史的历史学科）。 由于有关科学史研究的适当方法的史学争论有时难以与关于科学的发展历程的历史争论区分开来，因此，后一类的早期争论通常被认为是该学科的开端。例如，这种讨论贯穿了伟大的历史学家和科学哲学家威廉·惠威尔的历史著作。因此，他经常被恰当地认为是这门学科的始祖，另外还有皮埃尔·迪昂和亚历山大·柯瓦雷也对该学科的建立做出了先驱性的贡献。 对科学史学的明确表述，通常可以追溯到 20 世纪 60 年代初期。例如，1965年格尔德·布赫达尔发表的《科学史学史革命》就涉及了托马斯·库恩和约瑟夫·阿伽西的创新研究。他认为这两位作家通过明确区分历史和科学史学史开创了这个学科，他们认为史学观点极大地影响了科学史的",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "6a392e8abd30",
-   "source": "wikipedia",
-   "title": "伽利略·伽利莱",
-   "url": "https://zh.wikipedia.org/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1",
-   "published": "",
-   "summary": "伽利略·伽利莱（義大利語：Galileo Galilei ；1564年2月15日—1642年1月8日），義大利物理學家、數學家、天文學家及哲學家，科學革命中的重要人物。伽利略被譽為“現代觀測天文學之父”、“現代物理學之父”、科学方法之父及“現代科學之父”。 伽利略曾研究速率與速度、引力與自由落體、相对性原理、慣性與抛体运动，並在應用科學與技術領域有所建樹，描述鐘擺特性與流体静力平衡。他亦是最早發展熱成像儀的學者之一，並發明多種軍用比例規與測量儀器。透過自行改良的望远镜，伽利略觀測到银河系中的繁星、金星相位、木星最大的四顆衛星、土星環、月球陨石坑與太陽黑子等現象；此外，他亦製造出早期形式的顯微鏡。 伽利略對哥白尼日心說的支持，招致天主教會內部及部分天文學家的反對。1615年，羅馬宗教裁判所開始調查此事，並認定其觀點與當時被接受的《聖經》詮釋相牴觸。 其後，伽利略於《关于托勒密和哥白尼两大世界",
-   "meta": {
-    "site": "zh.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -3249,12 +3456,12 @@
    "title_signal": false
   },
   {
-   "id": "8209714e5c07",
+   "id": "2b88d40ab609",
    "source": "wikipedia",
-   "title": "物理对象",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AF%B9%E8%B1%A1",
+   "title": "强纲领",
+   "url": "https://zh.wikipedia.org/wiki/%E5%BC%BA%E7%BA%B2%E9%A2%86",
    "published": "",
-   "summary": "物理对象（英语：physical object）其范畴包括“物体”，但定义更广，指在时空中占据位置，且具有物理属性（如：质量、能量、动量、电荷、自旋等）的实体或现象。物理对象含盖所有符合物理定律的实体、场与能量形态，例如：光子、电子、电磁场、引力波、时空本身。 物理实体（physical entity）相当于物理对象，但其更強調“本体存在”（本体论）；物理对象则可以是一个抽象的物理系统（认识论）。例如：「理想气体」是一个研究的物理对象，但它不是一个真实的物理实体，因其在现实中不存在，是个简化后的模型。再如：在量子力学中，波函数也是我们研究的物理对象，但它本身可能不是一个物理实体，可能只是一个机率描述。 在物理学裡，物体（material object，object，body）被认定为独一的、聚集的一群物质；物体为宏观实体，具有明确边界、静止质量不为零的特征。例如，棒球可以被认为是一个物体；",
+   "summary": "强纲领（英語：Strong programme），是科学知识社会学（SSK）的一支，它尤其与大衛·布魯爾、巴里·巴恩斯、哈里·柯林斯、Donald A. MacKenzie和 John Henry 的研究联系密切。强纲领被社会学家布鲁诺·拉图尔认为对于科学技术论有着无可比拟的的影响。主要以爱丁堡大学的学者为基础的学派阐释了，科学共同体（通过对共享范式的忠诚）紧密联结的方式，是标准科学活动的先决条件。 强纲领是对“弱”科学社会学的一种反应，弱纲领将社会学的应用限制在了“失败”或“错误”的理论，例如颅相学。 失败的理论可以用其研究者出现的偏差来解释，例如隐蔽的政治或经济利益。社会学与成功理论的相关性很小，这些理论之所以成功，是因为它们揭示了一个自然事实。 强纲领提出，对“真”和“假”的科学理论的研究都应该一视同仁，两者都是由社会因素或条件引起的，例如文化背景和自身利益。人类的一切知识，存在于于",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3269,212 +3476,12 @@
    "title_signal": false
   },
   {
-   "id": "cb182d8517f7",
+   "id": "31cafad597e7",
    "source": "wikipedia",
-   "title": "物理学词汇表",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E8%AF%8D%E6%B1%87%E8%A1%A8",
+   "title": "List of experiments",
+   "url": "https://en.wikipedia.org/wiki/List_of_experiments",
    "published": "",
-   "summary": "本物理学词汇表列出了与物理学、其分支学科和相关领域（包括力学、材料科学、核物理学、粒子物理学和热力学）相关的术语和概念的定义。有关科学和技术相关领域的更具包容性的词汇表，请参阅化学词汇表、天文学辞汇、数学领域词汇表和工程学词汇表。 本词汇表按照汉语拼音字母排列。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "e2f65195a4c9",
-   "source": "wikipedia",
-   "title": "Army Academy of Armored Forces",
-   "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
-   "published": "",
-   "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "16dfa34f1419",
-   "source": "wikipedia",
-   "title": "Institute for the History of Natural Sciences",
-   "url": "https://en.wikipedia.org/wiki/Institute_for_the_History_of_Natural_Sciences",
-   "published": "",
-   "summary": "The Institute for the History of Natural Sciences (IHNS CAS; Chinese: 中国科学院自然科学史研究所; pinyin: Zhōngguó Kēxuéyuàn Zìrán Kēxuéshǐ Yánjiūsuǒ) is a leading research institution in China dedicated to the study of the history of science, technology, and medicine. It is affiliated with the Chinese Academy of Sciences (CAS).",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "63623f9ad973",
-   "source": "wikipedia",
-   "title": "Barnum effect",
-   "url": "https://en.wikipedia.org/wiki/Barnum_effect",
-   "published": "",
-   "summary": "The Barnum effect, also called the Forer effect or, less commonly, the Barnum–Forer effect, is a common psychological phenomenon whereby individuals give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically to them, yet which are in fact vague and general enough to apply to a broad range of people. This effect can provide a partial explanation for th",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "95daaaf86db7",
-   "source": "wikipedia",
-   "title": "Door-in-the-face technique",
-   "url": "https://en.wikipedia.org/wiki/Door-in-the-face_technique",
-   "published": "",
-   "summary": "The door-in-the-face technique is a compliance method commonly studied in social psychology. The persuader attempts to convince the respondent to comply by making a large request that the respondent will most likely turn down, much like a metaphorical slamming of a door in the persuader's face. The respondent is then more likely to agree to a second, more reasonable request, than if that same requ",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "d3a003a34d23",
-   "source": "wikipedia",
-   "title": "Foot-in-the-door technique",
-   "url": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
-   "published": "",
-   "summary": "Foot-in-the-door (FITD) technique is a compliance tactic that aims at getting a person to agree to a large request by having them agree to a modest request first. If a smaller request is granted, then the person who is agreeing feels like they are obligated to keep agreeing to larger requests. The saying originates from door to door salesmen who keep the door from shutting with their foot, giving",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "6b7326a1de2b",
-   "source": "wikipedia",
-   "title": "Kuleshov effect",
-   "url": "https://en.wikipedia.org/wiki/Kuleshov_effect",
-   "published": "",
-   "summary": "The Kuleshov effect (Russian: Эффект Кулешова) is a film editing (montage) effect demonstrated by Russian filmmaker Lev Kuleshov in the 1910s and 1920s. It is a cognitive phenomenon by which viewers derive more meaning from the interaction of two sequential shots than from a single shot in isolation. Prior to the 1960s, the phenomenon was sometimes known as the Pudovkin effect and the Mozzhukhin e",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "84be9785ed2e",
-   "source": "wikipedia",
-   "title": "Miller–Urey experiment",
-   "url": "https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment",
-   "published": "",
-   "summary": "The Miller–Urey experiment, or Miller experiment, was an experiment in chemical synthesis carried out in 1952 that simulated the conditions thought at the time to be present in the atmosphere of the early, prebiotic Earth. It is seen as one of the first successful experiments demonstrating the synthesis of organic compounds from inorganic constituents in an origin of life scenario. The experiment",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "628eec8d2a5b",
-   "source": "wikipedia",
-   "title": "Neurophilosophy",
-   "url": "https://en.wikipedia.org/wiki/Neurophilosophy",
-   "published": "",
-   "summary": "Neurophilosophy, or the philosophy of neuroscience, is the interdisciplinary study of neuroscience and philosophy that explores the relevance of neuroscientific studies to the arguments traditionally categorized as philosophy of mind. Recent scientific discourse elucidates the distinction between \"neurophilosophy\" and \"philosophy of neuroscience\". The term was coined by Patricia Churchland in her",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "f56d856d138d",
-   "source": "wikipedia",
-   "title": "Stanford prison experiment",
-   "url": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
-   "published": "",
-   "summary": "The Stanford prison experiment (SPE) was a controversial psychological experiment performed in August 1971 at Stanford University. It was designed to be a two-week simulation of a prison environment that examined the effects of situational variables on participants' reactions and behaviors. Stanford psychology professor Philip Zimbardo managed the research team that administered the study. Partic",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "be33b43c4097",
-   "source": "wikipedia",
-   "title": "Eliezer Yudkowsky",
-   "url": "https://en.wikipedia.org/wiki/Eliezer_Yudkowsky",
-   "published": "",
-   "summary": "Eliezer Shlomo Yudkowsky ( EL-ee-EH-zər yuud-KOW-skee; born September 11, 1979) is an American artificial intelligence researcher and writer on decision theory and ethics, known for popularizing ideas related to friendly artificial intelligence. He is the founder of and a research fellow at the Machine Intelligence Research Institute (MIRI), a private research nonprofit based in Berkeley, Californ",
+   "summary": "The following is a list of historically important scientific experiments and observations demonstrating something of great scientific interest, typically in an elegant or clever manner.",
    "meta": {
     "site": "en.wikipedia.org"
    },

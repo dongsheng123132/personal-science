@@ -1,0 +1,114 @@
+{
+ "generated_at": "2026-11-13T02:37:51+00:00",
+ "date": "2026-11-13",
+ "count": 5,
+ "items": [
+  {
+   "id": "a9f65c0cff45",
+   "source": "hackaday",
+   "title": "The Sextant: Navigating The Old Way",
+   "url": "https://hackaday.com/2026/11/12/the-sextant-navigating-the-old-way",
+   "published": "2026-11-12",
+   "summary": "Navigation is easy these days, as we’ve entire complex computerized mapping systems and radio-based positioning systems to find ourselves anywhere on Earth. It might seem simple to use GPS these …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "命中 radio，2026-11-12",
+   "obj_hits": [
+    "radio"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "radio"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "a8d0a71855f6",
+   "source": "hackaday",
+   "title": "Baochip-1x: A Mostly-Open, 22nm SoC for High Assurance Applications",
+   "url": "https://hackaday.com/2026/11/12/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications",
+   "published": "2026-11-12",
+   "summary": "For most people, just getting any old microcontroller or system on chip (SoC) from our favorite – or cheapest – vendor is more than good enough. But if you’re really …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 78,
+   "why": "命中 cheap，2026-11-12",
+   "obj_hits": [],
+   "per_hits": [
+    "cheap"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "cheap"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "0d1205281260",
+   "source": "hackaday",
+   "title": "Tiny Transmitters Track Monarch Butterflies",
+   "url": "https://hackaday.com/2026/11/12/tiny-transmitters-track-monarch-butterflies",
+   "published": "2026-11-12",
+   "summary": "Miniaturization is one thing, but how would you like to design a transmitter that attaches to a butterfly? That’s what the BlūMorpho transmitter is made to do, according to [Tom …read more",
+   "meta": {
+    "query": "weather station"
+   },
+   "targeted": true,
+   "score": 78,
+   "why": "命中 made，2026-11-12",
+   "obj_hits": [],
+   "per_hits": [
+    "made"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "made"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "4004436c62be",
+   "source": "hackaday",
+   "title": "Just Use QWIIC Already",
+   "url": "https://hackaday.com/2026/11/12/just-use-qwiic-already",
+   "published": "2026-11-12",
+   "summary": "Years ago, I wrote an article describing different I2C-on-a-connector ecosystems, explaining their strengths, weaknesses, and implementation details, as well as piling on a heap of fun stories. Looking back at …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-12",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "c9b2cf559bcc",
+   "source": "hackaday",
+   "title": "Watch That Sound: Your Own Chladni Plate",
+   "url": "https://hackaday.com/2026/11/12/watch-that-sound-your-own-chladni-plate",
+   "published": "2026-11-12",
+   "summary": "What if you could see sound? A Chladni plate uses a speaker and small particles, like sand, to give you a visual representation of sound, and [CrazyScience] shows you how …read more",
+   "meta": {
+    "query": "oscilloscope"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-12",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  }
+ ]
+}
