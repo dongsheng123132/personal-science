@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13T02:37:51+00:00",
+ "updated_at": "2026-11-14T02:26:06+00:00",
  "count": 150,
  "items": [
   {
@@ -339,34 +339,6 @@
    "title_signal": true
   },
   {
-   "id": "8d1ca0c2056a",
-   "source": "hackaday",
-   "title": "MousePods Reverse Engineers Head Tracking Data From Stubborn AirPods",
-   "url": "https://hackaday.com/2026/11/06/mousepods-reverse-engineers-head-tracking-data-from-stubborn-airpods",
-   "published": "2026-11-06",
-   "summary": "[Matteo Gaudioso] released MousePods, a Python tool which accesses the motion sensors in Apple AirPods on Linux, turning them into mouse input. No Apple host required. Doing this required reverse-engineering …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 90,
-   "why": "",
-   "obj_hits": [
-    "sensor"
-   ],
-   "per_hits": [],
-   "modern_hits": [
-    "sensor",
-    "python"
-   ],
-   "hits": [
-    "sensor",
-    "sensor",
-    "python"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "fc201e2e94a3",
    "source": "classic",
    "title": "巴斯德鹅颈瓶（1859）",
@@ -565,6 +537,34 @@
     "sensor"
    ],
    "title_signal": true
+  },
+  {
+   "id": "8d1ca0c2056a",
+   "source": "hackaday",
+   "title": "MousePods Reverse Engineers Head Tracking Data From Stubborn AirPods",
+   "url": "https://hackaday.com/2026/11/06/mousepods-reverse-engineers-head-tracking-data-from-stubborn-airpods",
+   "published": "2026-11-06",
+   "summary": "[Matteo Gaudioso] released MousePods, a Python tool which accesses the motion sensors in Apple AirPods on Linux, turning them into mouse input. No Apple host required. Doing this required reverse-engineering …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "",
+   "obj_hits": [
+    "sensor"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "sensor",
+    "python"
+   ],
+   "hits": [
+    "sensor",
+    "sensor",
+    "python"
+   ],
+   "title_signal": false
   },
   {
    "id": "fefcff432875",
@@ -2327,8 +2327,8 @@
    "published": "2026-11-07",
    "summary": "",
    "meta": {
-    "points": 831,
-    "comments": 140
+    "points": 833,
+    "comments": 141
    },
    "targeted": false,
    "score": 70,
@@ -2523,44 +2523,6 @@
    "summary": "YouTube, like the Internet, has its plusses and minuses. On the plus side, you can find information on just about anything. On the minus side, you don’t always know if …read more",
    "meta": {
     "query": "oscilloscope"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "3b929ed43a7f",
-   "source": "hackaday",
-   "title": "Tiny e-Paper Display Delivers 30 FPS of Game Boy Fun",
-   "url": "https://hackaday.com/2026/10/14/tiny-e-paper-display-delivers-30-fps-of-game-boy-fun",
-   "published": "2026-10-14",
-   "summary": "Slow refresh, ghosting and low-contrast — wait, are we talking about passive matrix LCDs, or e-paper displays? That might be why e-paper Game Boy emulators are a thing: the limitations …read more",
-   "meta": {
-    "query": "calibration"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "b3dc147bc83f",
-   "source": "hackaday",
-   "title": "Single Button, Handheld Gaming Console",
-   "url": "https://hackaday.com/2026/10/14/single-button-handheld-gaming-console",
-   "published": "2026-10-14",
-   "summary": "Those of us who grew up in the 70s and 80s might be familiar with the Atari 2600 console and its now relatively unrecognizable (by modern standards) controller with only …read more",
-   "meta": {
-    "query": "air quality"
    },
    "targeted": true,
    "score": 70,
@@ -3494,6 +3456,54 @@
    "modern_hits": [],
    "hits": [],
    "title_signal": false
+  },
+  {
+   "id": "9780dee552cd",
+   "source": "hn",
+   "title": "Retrospective: Running a Minimal Homelab Whilst Living with the In-Laws",
+   "url": "https://dickingwithdocker.com/posts/minimal-homelab-a-retrospective",
+   "published": "2026-10-31",
+   "summary": "",
+   "meta": {
+    "points": 3,
+    "comments": 0
+   },
+   "targeted": false,
+   "score": 58,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "6865588406db",
+   "source": "hn",
+   "title": "Things you don't need to run a Proxmox home lab",
+   "url": "https://www.virtualizationhowto.com/2026/10/7-things-you-dont-need-to-run-a-great-proxmox-home-lab",
+   "published": "2026-10-20",
+   "summary": "",
+   "meta": {
+    "points": 3,
+    "comments": 3
+   },
+   "targeted": false,
+   "score": 58,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
   }
  ]
 }

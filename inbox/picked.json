@@ -1,47 +1,51 @@
 {
- "generated_at": "2026-11-13T02:38:28+00:00",
+ "generated_at": "2026-11-14T02:27:03+00:00",
  "count": 2,
  "items": [
   {
-   "id": "a9f65c0cff45",
+   "id": "0d1205281260",
    "source": "hackaday",
-   "title": "The Sextant: Navigating The Old Way",
-   "url": "https://hackaday.com/2026/11/12/the-sextant-navigating-the-old-way",
+   "title": "Tiny Transmitters Track Monarch Butterflies",
+   "url": "https://hackaday.com/2026/11/12/tiny-transmitters-track-monarch-butterflies",
    "published": "2026-11-12",
-   "summary": "Navigation is easy these days, as we’ve entire complex computerized mapping systems and radio-based positioning systems to find ourselves anywhere on Earth. It might seem simple to use GPS these …read more",
+   "summary": "Miniaturization is one thing, but how would you like to design a transmitter that attaches to a butterfly? That’s what the BlūMorpho transmitter is made to do, according to [Tom …read more",
    "meta": {
-    "query": "telescope"
+    "query": "weather station"
    },
    "targeted": true,
-   "score": 84,
+   "score": 78,
    "why": "",
-   "obj_hits": [
-    "radio"
+   "obj_hits": [],
+   "per_hits": [
+    "made"
    ],
-   "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "radio"
+    "made"
    ],
    "title_signal": false
   },
   {
-   "id": "c9b2cf559bcc",
+   "id": "a74860b994bb",
    "source": "hackaday",
-   "title": "Watch That Sound: Your Own Chladni Plate",
-   "url": "https://hackaday.com/2026/11/12/watch-that-sound-your-own-chladni-plate",
-   "published": "2026-11-12",
-   "summary": "What if you could see sound? A Chladni plate uses a speaker and small particles, like sand, to give you a visual representation of sound, and [CrazyScience] shows you how …read more",
+   "title": "NASA Batteries Survive Extreme Cold and Heat",
+   "url": "https://hackaday.com/2026/10/22/nasa-batteries-survive-extreme-cold-and-heat",
+   "published": "2026-10-22",
+   "summary": "One of the major limits of mass-produced batteries is the electrolyte. From lead-acid to lithium ion, there’s some temperature where the electrolyte will freeze and cause all sorts of problems, …read more",
    "meta": {
-    "query": "oscilloscope"
+    "query": "telescope"
    },
    "targeted": true,
-   "score": 74,
+   "score": 80,
    "why": "",
-   "obj_hits": [],
+   "obj_hits": [
+    "temperature"
+   ],
    "per_hits": [],
    "modern_hits": [],
-   "hits": [],
+   "hits": [
+    "temperature"
+   ],
    "title_signal": false
   }
  ]
