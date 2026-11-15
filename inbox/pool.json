@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T02:26:06+00:00",
+ "updated_at": "2026-11-15T01:55:29+00:00",
  "count": 150,
  "items": [
   {
@@ -306,6 +306,35 @@
    "hits": [
     "实验",
     "手机"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "e5540e21d5e5",
+   "source": "hackaday",
+   "title": "Making CO₂ Sensors Fail Visibly, Not Silently",
+   "url": "https://hackaday.com/2026/11/14/making-co%e2%82%82-sensors-fail-visibly-not-silently",
+   "published": "2026-11-14",
+   "summary": "CO₂ buildup in a living area can be a serious problem, and a sensor that fails quietly cannot be relied upon. [William Collis] addressed this important issue by creating CO₂ monitors …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 91,
+   "why": "",
+   "obj_hits": [
+    "sensor"
+   ],
+   "per_hits": [
+    "build"
+   ],
+   "modern_hits": [
+    "sensor"
+   ],
+   "hits": [
+    "sensor",
+    "build",
+    "sensor"
    ],
    "title_signal": true
   },
@@ -749,33 +778,6 @@
    "title_signal": false
   },
   {
-   "id": "6a8853ee6da0",
-   "source": "hackaday",
-   "title": "Building a Homemade Induction Soldering Iron",
-   "url": "https://hackaday.com/2026/11/07/building-a-homemade-induction-soldering-iron",
-   "published": "2026-11-07",
-   "summary": "Despite not being inherently any better at converting electricity into heat, induction-heated soldering irons often considerably outperform conventional irons with an identical power rating. They manage this by directly heating …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "build",
-    "made",
-    "home"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "build",
-    "made",
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
    "id": "6ae5874d9649",
    "source": "hackaday",
    "title": "Detecting an Eight Magnetic Pole State using Chiral Phonons",
@@ -999,6 +1001,32 @@
    "title_signal": false
   },
   {
+   "id": "645f05c24c55",
+   "source": "hackaday",
+   "title": "ESP32 Flight Tracker on Apple CRT",
+   "url": "https://hackaday.com/2026/11/13/esp32-flight-tracker-on-apple-crt",
+   "published": "2026-11-13",
+   "summary": "Sometimes we’re most taken by what’s on the screen; sometimes the screen itself is the most interesting part of the project. In this case, it’s the latter. That’s no slight …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 81,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "self"
+   ],
+   "modern_hits": [
+    "esp32"
+   ],
+   "hits": [
+    "self",
+    "esp32"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "acee00936169",
    "source": "hackaday",
    "title": "SLAM Navigation For an Arduino Powered Car",
@@ -1047,6 +1075,33 @@
    "hits": [
     "3d print",
     "3d print"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "6a8853ee6da0",
+   "source": "hackaday",
+   "title": "Building a Homemade Induction Soldering Iron",
+   "url": "https://hackaday.com/2026/11/07/building-a-homemade-induction-soldering-iron",
+   "published": "2026-11-07",
+   "summary": "Despite not being inherently any better at converting electricity into heat, induction-heated soldering irons often considerably outperform conventional irons with an identical power rating. They manage this by directly heating …read more",
+   "meta": {
+    "query": "DIY lab"
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "build",
+    "made",
+    "home"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "build",
+    "made",
+    "home"
    ],
    "title_signal": true
   },
@@ -1880,6 +1935,30 @@
    "title_signal": false
   },
   {
+   "id": "f1e773e2a63e",
+   "source": "wikipedia",
+   "title": "History of agricultural science",
+   "url": "https://en.wikipedia.org/wiki/History_of_agricultural_science",
+   "published": "",
+   "summary": "The history of agricultural science is a sub-field of the history of agriculture which looks at the scientific advancement of techniques and understanding of agriculture. Early study of organic production in botanical gardens was continued in with agricultural experiment stations in several countries. Fertilizer is a major contribution to agriculture history increasing the fertility of the soil an",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "soil"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "soil"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "757b5ba04fda",
    "source": "wikipedia",
    "title": "Standing wave",
@@ -2072,6 +2151,25 @@
    "title_signal": false
   },
   {
+   "id": "18901218705f",
+   "source": "hackaday",
+   "title": "DIVINER: Occult Synth Firmware for the Cardputer",
+   "url": "https://hackaday.com/2026/11/14/diviner-occult-synth-firmware-for-the-cardputer",
+   "published": "2026-11-14",
+   "summary": "We see some strange software around these parts, but this is probably the strangest. DIVINER is a firmware for the M5 Cardputer, which is an interesting device in its own …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "4004436c62be",
    "source": "hackaday",
    "title": "Just Use QWIIC Already",
@@ -2118,25 +2216,6 @@
    "summary": "It’s become a bit of a platitude to state that products were manufactured better in ‘the olden days’, but as [The Meandrous Engineer] covers in a recent video essay, the …read more",
    "meta": {
     "query": "air quality"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "0b42f3c766a6",
-   "source": "hackaday",
-   "title": "Artemis II Rocket Was Powerful Enough to Disrupt GPS",
-   "url": "https://hackaday.com/2026/11/07/artemis-ii-rocket-was-powerful-enough-to-disrupt-gps",
-   "published": "2026-11-07",
-   "summary": "Rockets certainly have a substantial impact if you ever see a launch in person. The noise, shock waves, and even heat can be awe-inspiring. What is less obvious are the …read more",
-   "meta": {
-    "query": "sensor"
    },
    "targeted": true,
    "score": 74,
@@ -2320,28 +2399,23 @@
    "title_signal": false
   },
   {
-   "id": "e4da1fc3654c",
-   "source": "hn",
-   "title": "What I run on my $10 USD OpenStick homelab",
-   "url": "https://blog.bosscher.ch/posts/openstick",
+   "id": "0b42f3c766a6",
+   "source": "hackaday",
+   "title": "Artemis II Rocket Was Powerful Enough to Disrupt GPS",
+   "url": "https://hackaday.com/2026/11/07/artemis-ii-rocket-was-powerful-enough-to-disrupt-gps",
    "published": "2026-11-07",
-   "summary": "",
+   "summary": "Rockets certainly have a substantial impact if you ever see a launch in person. The noise, shock waves, and even heat can be awe-inspiring. What is less obvious are the …read more",
    "meta": {
-    "points": 833,
-    "comments": 141
+    "query": "sensor"
    },
-   "targeted": false,
+   "targeted": true,
    "score": 70,
    "why": "",
    "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
+   "per_hits": [],
    "modern_hits": [],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
+   "hits": [],
+   "title_signal": false
   },
   {
    "id": "9fbcc4f762f9",
@@ -2556,6 +2630,30 @@
     "开源"
    ],
    "title_signal": false
+  },
+  {
+   "id": "e4da1fc3654c",
+   "source": "hn",
+   "title": "What I run on my $10 USD OpenStick homelab",
+   "url": "https://blog.bosscher.ch/posts/openstick",
+   "published": "2026-11-07",
+   "summary": "",
+   "meta": {
+    "points": 834,
+    "comments": 141
+   },
+   "targeted": false,
+   "score": 66,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "home"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "home"
+   ],
+   "title_signal": true
   },
   {
    "id": "9aa8dfe5a597",
@@ -3038,6 +3136,106 @@
    "title_signal": false
   },
   {
+   "id": "f5cd3cda2a7a",
+   "source": "wikipedia",
+   "title": "Experiment",
+   "url": "https://en.wikipedia.org/wiki/Experiment",
+   "published": "",
+   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4a260f65e483",
+   "source": "wikipedia",
+   "title": "Galileo's Leaning Tower of Pisa experiment",
+   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+   "published": "",
+   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "444f60e72a87",
+   "source": "wikipedia",
+   "title": "History of science",
+   "url": "https://en.wikipedia.org/wiki/History_of_science",
+   "published": "",
+   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "5661bb119eeb",
+   "source": "wikipedia",
+   "title": "Milgram experiment",
+   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
+   "published": "",
+   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "464ab5e5b3b1",
+   "source": "wikipedia",
+   "title": "Thought experiment",
+   "url": "https://en.wikipedia.org/wiki/Thought_experiment",
+   "published": "",
+   "summary": "A thought experiment is an imaginary scenario that is meant to elucidate or test an argument or theory. It is often an experiment that would be hard, impossible, or unethical to actually perform. It can also be an abstract hypothetical that is meant to test our intuitions about morality or other fundamental questions of philosophy.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "e2f65195a4c9",
    "source": "wikipedia",
    "title": "Army Academy of Armored Forces",
@@ -3278,112 +3476,12 @@
    "title_signal": false
   },
   {
-   "id": "464ab5e5b3b1",
-   "source": "wikipedia",
-   "title": "Thought experiment",
-   "url": "https://en.wikipedia.org/wiki/Thought_experiment",
-   "published": "",
-   "summary": "A thought experiment is an imaginary scenario that is meant to elucidate or test an argument or theory. It is often an experiment that would be hard, impossible, or unethical to actually perform. It can also be an abstract hypothetical that is meant to test our intuitions about morality or other fundamental questions of philosophy.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "78d0cbe81a17",
    "source": "wikipedia",
    "title": "Twin Earth thought experiment",
    "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
    "published": "",
    "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "f5cd3cda2a7a",
-   "source": "wikipedia",
-   "title": "Experiment",
-   "url": "https://en.wikipedia.org/wiki/Experiment",
-   "published": "",
-   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4a260f65e483",
-   "source": "wikipedia",
-   "title": "Galileo's Leaning Tower of Pisa experiment",
-   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
-   "published": "",
-   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "444f60e72a87",
-   "source": "wikipedia",
-   "title": "History of science",
-   "url": "https://en.wikipedia.org/wiki/History_of_science",
-   "published": "",
-   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "5661bb119eeb",
-   "source": "wikipedia",
-   "title": "Milgram experiment",
-   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
-   "published": "",
-   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3416,94 +3514,6 @@
    "modern_hits": [],
    "hits": [],
    "title_signal": false
-  },
-  {
-   "id": "2b88d40ab609",
-   "source": "wikipedia",
-   "title": "强纲领",
-   "url": "https://zh.wikipedia.org/wiki/%E5%BC%BA%E7%BA%B2%E9%A2%86",
-   "published": "",
-   "summary": "强纲领（英語：Strong programme），是科学知识社会学（SSK）的一支，它尤其与大衛·布魯爾、巴里·巴恩斯、哈里·柯林斯、Donald A. MacKenzie和 John Henry 的研究联系密切。强纲领被社会学家布鲁诺·拉图尔认为对于科学技术论有着无可比拟的的影响。主要以爱丁堡大学的学者为基础的学派阐释了，科学共同体（通过对共享范式的忠诚）紧密联结的方式，是标准科学活动的先决条件。 强纲领是对“弱”科学社会学的一种反应，弱纲领将社会学的应用限制在了“失败”或“错误”的理论，例如颅相学。 失败的理论可以用其研究者出现的偏差来解释，例如隐蔽的政治或经济利益。社会学与成功理论的相关性很小，这些理论之所以成功，是因为它们揭示了一个自然事实。 强纲领提出，对“真”和“假”的科学理论的研究都应该一视同仁，两者都是由社会因素或条件引起的，例如文化背景和自身利益。人类的一切知识，存在于于",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "31cafad597e7",
-   "source": "wikipedia",
-   "title": "List of experiments",
-   "url": "https://en.wikipedia.org/wiki/List_of_experiments",
-   "published": "",
-   "summary": "The following is a list of historically important scientific experiments and observations demonstrating something of great scientific interest, typically in an elegant or clever manner.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "9780dee552cd",
-   "source": "hn",
-   "title": "Retrospective: Running a Minimal Homelab Whilst Living with the In-Laws",
-   "url": "https://dickingwithdocker.com/posts/minimal-homelab-a-retrospective",
-   "published": "2026-10-31",
-   "summary": "",
-   "meta": {
-    "points": 3,
-    "comments": 0
-   },
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "6865588406db",
-   "source": "hn",
-   "title": "Things you don't need to run a Proxmox home lab",
-   "url": "https://www.virtualizationhowto.com/2026/10/7-things-you-dont-need-to-run-a-great-proxmox-home-lab",
-   "published": "2026-10-20",
-   "summary": "",
-   "meta": {
-    "points": 3,
-    "comments": 3
-   },
-   "targeted": false,
-   "score": 58,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "home"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "home"
-   ],
-   "title_signal": true
   }
  ]
 }

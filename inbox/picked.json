@@ -1,50 +1,59 @@
 {
- "generated_at": "2026-11-14T02:27:03+00:00",
+ "generated_at": "2026-11-15T01:56:23+00:00",
  "count": 2,
  "items": [
   {
-   "id": "0d1205281260",
+   "id": "e5540e21d5e5",
    "source": "hackaday",
-   "title": "Tiny Transmitters Track Monarch Butterflies",
-   "url": "https://hackaday.com/2026/11/12/tiny-transmitters-track-monarch-butterflies",
-   "published": "2026-11-12",
-   "summary": "Miniaturization is one thing, but how would you like to design a transmitter that attaches to a butterfly? That’s what the BlūMorpho transmitter is made to do, according to [Tom …read more",
+   "title": "Making CO₂ Sensors Fail Visibly, Not Silently",
+   "url": "https://hackaday.com/2026/11/14/making-co%e2%82%82-sensors-fail-visibly-not-silently",
+   "published": "2026-11-14",
+   "summary": "CO₂ buildup in a living area can be a serious problem, and a sensor that fails quietly cannot be relied upon. [William Collis] addressed this important issue by creating CO₂ monitors …read more",
    "meta": {
-    "query": "weather station"
+    "query": "sensor"
    },
    "targeted": true,
-   "score": 78,
+   "score": 91,
+   "why": "",
+   "obj_hits": [
+    "sensor"
+   ],
+   "per_hits": [
+    "build"
+   ],
+   "modern_hits": [
+    "sensor"
+   ],
+   "hits": [
+    "sensor",
+    "build",
+    "sensor"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "645f05c24c55",
+   "source": "hackaday",
+   "title": "ESP32 Flight Tracker on Apple CRT",
+   "url": "https://hackaday.com/2026/11/13/esp32-flight-tracker-on-apple-crt",
+   "published": "2026-11-13",
+   "summary": "Sometimes we’re most taken by what’s on the screen; sometimes the screen itself is the most interesting part of the project. In this case, it’s the latter. That’s no slight …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 81,
    "why": "",
    "obj_hits": [],
    "per_hits": [
-    "made"
+    "self"
    ],
-   "modern_hits": [],
+   "modern_hits": [
+    "esp32"
+   ],
    "hits": [
-    "made"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "a74860b994bb",
-   "source": "hackaday",
-   "title": "NASA Batteries Survive Extreme Cold and Heat",
-   "url": "https://hackaday.com/2026/10/22/nasa-batteries-survive-extreme-cold-and-heat",
-   "published": "2026-10-22",
-   "summary": "One of the major limits of mass-produced batteries is the electrolyte. From lead-acid to lithium ion, there’s some temperature where the electrolyte will freeze and cause all sorts of problems, …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 80,
-   "why": "",
-   "obj_hits": [
-    "temperature"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "temperature"
+    "self",
+    "esp32"
    ],
    "title_signal": false
   }
