@@ -1,60 +1,52 @@
 {
- "generated_at": "2026-11-15T01:56:23+00:00",
+ "generated_at": "2026-11-16T02:07:23+00:00",
  "count": 2,
  "items": [
   {
-   "id": "e5540e21d5e5",
-   "source": "hackaday",
-   "title": "Making CO₂ Sensors Fail Visibly, Not Silently",
-   "url": "https://hackaday.com/2026/11/14/making-co%e2%82%82-sensors-fail-visibly-not-silently",
-   "published": "2026-11-14",
-   "summary": "CO₂ buildup in a living area can be a serious problem, and a sensor that fails quietly cannot be relied upon. [William Collis] addressed this important issue by creating CO₂ monitors …read more",
+   "id": "db6c61486dcf",
+   "source": "classic",
+   "title": "单光子双缝（1989）",
+   "url": "https://zh.wikipedia.org/wiki/Special:Search?search=%E5%8D%95%E5%85%89%E5%AD%90%E5%8F%8C%E7%BC%9D",
+   "published": "",
+   "summary": "单个光子也能和自己干涉；重做方式：专业设备太贵；可用'逐次累积'的模拟版理解统计含义；为什么值得：量子力学最反直觉的一张图，值得每个人看一眼；难度：仅阅读",
    "meta": {
-    "query": "sensor"
+    "era": "1989",
+    "level": "仅阅读",
+    "tools": [
+     "模拟软件"
+    ]
    },
    "targeted": true,
-   "score": 91,
+   "score": 84,
    "why": "",
-   "obj_hits": [
-    "sensor"
-   ],
-   "per_hits": [
-    "build"
-   ],
-   "modern_hits": [
-    "sensor"
-   ],
-   "hits": [
-    "sensor",
-    "build",
-    "sensor"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "645f05c24c55",
-   "source": "hackaday",
-   "title": "ESP32 Flight Tracker on Apple CRT",
-   "url": "https://hackaday.com/2026/11/13/esp32-flight-tracker-on-apple-crt",
-   "published": "2026-11-13",
-   "summary": "Sometimes we’re most taken by what’s on the screen; sometimes the screen itself is the most interesting part of the project. In this case, it’s the latter. That’s no slight …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 81,
-   "why": "",
+   "timeless": true,
    "obj_hits": [],
    "per_hits": [
-    "self"
+    "自己"
    ],
-   "modern_hits": [
-    "esp32"
-   ],
+   "modern_hits": [],
    "hits": [
-    "self",
-    "esp32"
+    "自己"
    ],
+   "title_signal": false
+  },
+  {
+   "id": "8e24ff8e1a84",
+   "source": "hackaday",
+   "title": "Cat Feeder Ensures Fed Cats",
+   "url": "https://hackaday.com/2026/11/03/cat-feeder-ensures-fed-cats",
+   "published": "2026-11-03",
+   "summary": "Automatic cat feeders are a dime a dozen, largely because this is an easy problem to solve. Dry cat food is easy for machines to manipulate, and the electronics needed …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
    "title_signal": false
   }
  ]
