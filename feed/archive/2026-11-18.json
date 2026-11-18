@@ -1,0 +1,69 @@
+{
+ "generated_at": "2026-11-18T03:42:42+00:00",
+ "date": "2026-11-18",
+ "count": 3,
+ "items": [
+  {
+   "id": "446576af7a0b",
+   "source": "wikipedia",
+   "title": "量子力學入門",
+   "url": "https://zh.wikipedia.org/wiki/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%B8%E5%85%A5%E9%96%80",
+   "published": "",
+   "summary": "量子力学（英語：quantum mechanics；或称量子论）是描述微观物质（原子、亚原子粒子）行为的物理学理论，量子力学是我们理解除万有引力之外的所有基本力（电磁相互作用、强相互作用、弱相互作用）的基础。 量子力学是许多物理学分支的基础，包括电磁学、粒子物理、凝聚态物理以及宇宙学的部分内容。量子力学也是化学键理论、结构生物学以及电子学等学科的基础。 量子力學主要是用來描述微觀下的行為，所描述的粒子現象無法精確地以古典力學詮釋。例如：根據哥本哈根詮釋，一個粒子在被觀測之前，不具有任何物理性質，然而被觀測之後，依測量儀器而定，可能觀測到其粒子性質，也可能觀測到其波動性質，或者觀測到一部分粒子性質一部分波動性質，此即波粒二象性。 量子力学始于20世纪初马克斯·普朗克和尼尔斯·玻尔的开创性工作，马克斯·玻恩于1924年创造了“量子力学”一词。因其成功的解释了经典力学无法解释的实验现象，并精确地",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "命中 实验",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "296b2306ff03",
+   "source": "hackaday",
+   "title": "Making an Affordable Two-Axis Solar Tracker",
+   "url": "https://hackaday.com/2026/11/17/making-an-affordable-two-axis-solar-tracker",
+   "published": "2026-11-17",
+   "summary": "Setting up a photovoltaic panel is simple, but you lose a lot of potential power if you merely bolt said panel into place. With a tracker the panel will instead …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-17",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "5fe9a6e86225",
+   "source": "hackaday",
+   "title": "Newer Rigol Scopes Get a Custom Linux Firmware",
+   "url": "https://hackaday.com/2026/11/17/newer-rigol-scopes-get-a-custom-linux-firmware",
+   "published": "2026-11-17",
+   "summary": "Electronics test equipment is a topic near and dear to many Hackaday readers. The average reader of this article is most likely within 50 feet of a multimeter, and it …read more",
+   "meta": {
+    "query": "oscilloscope"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-17",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  }
+ ]
+}

@@ -1,30 +1,48 @@
 {
- "generated_at": "2026-11-17T04:29:26+00:00",
- "count": 1,
+ "generated_at": "2026-11-18T03:43:25+00:00",
+ "count": 2,
  "items": [
   {
-   "id": "3159fb8be0c4",
-   "source": "wikipedia",
-   "title": "惠勒延迟选择实验",
-   "url": "https://zh.wikipedia.org/wiki/%E6%83%A0%E5%8B%92%E5%BB%B6%E8%BF%9F%E9%80%89%E6%8B%A9%E5%AE%9E%E9%AA%8C",
-   "published": "",
-   "summary": "惠勒延迟选择实验（英語：Wheeler's delayed choice experiment）是美國理論物理学家约翰·惠勒提出的一个思想实验，属于双缝实验的一种变形，该实验很好地体现了量子力学与传统实在观间的巨大分歧。 1979年，惠勒在美國普林斯顿大学纪念爱因斯坦诞辰100周年讨论会上正式提出延迟选择实验，该实验源自爱因斯坦曾提出的分光实验。实验是按如下方式进行的：从一光源发出一光子，让其通过一半镀银镜，光子被反射与透射的概率各为50%。之后，在反射或透射后光子的行进路径上分别各放置一反射镜A和B，使两条路径反射后在C处汇合。而C处则放有两探测器，分别可以观察A路径或B路径是否有光子。此时只有一个探测器能够测得光子，即能确定光子走的是哪一路径（A→C或B→C）。 而如果在两个探测器前再放置一个半镀银镜，可以使光子自我干涉。如适当调整光程差，可使得在某一方向（A或B）上干涉光相消，此方",
+   "id": "296b2306ff03",
+   "source": "hackaday",
+   "title": "Making an Affordable Two-Axis Solar Tracker",
+   "url": "https://hackaday.com/2026/11/17/making-an-affordable-two-axis-solar-tracker",
+   "published": "2026-11-17",
+   "summary": "Setting up a photovoltaic panel is simple, but you lose a lot of potential power if you merely bolt said panel into place. With a tracker the panel will instead …read more",
    "meta": {
-    "site": "zh.wikipedia.org"
+    "query": "sensor"
    },
    "targeted": true,
-   "score": 76,
+   "score": 74,
    "why": "",
-   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "cdab6f91c559",
+   "source": "hackaday",
+   "title": "Binocular Chair Lets You Stargaze in Comfort",
+   "url": "https://hackaday.com/2026/11/16/binocular-chair-lets-you-stargaze-in-comfort",
+   "published": "2026-11-16",
+   "summary": "Telescopes are great, but sometimes binoculars are the right tool for stargazing. Holding them in front of your face for a long night of observation can get onerous though, so …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 84,
+   "why": "",
    "obj_hits": [
-    "实验"
+    "telescope"
    ],
    "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "实验"
+    "telescope"
    ],
-   "title_signal": true
+   "title_signal": false
   }
  ]
 }
