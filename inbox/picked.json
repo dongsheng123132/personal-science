@@ -1,14 +1,40 @@
 {
- "generated_at": "2026-11-18T03:43:25+00:00",
+ "generated_at": "2026-11-19T03:27:25+00:00",
  "count": 2,
  "items": [
   {
-   "id": "296b2306ff03",
+   "id": "5b518652fb9f",
    "source": "hackaday",
-   "title": "Making an Affordable Two-Axis Solar Tracker",
-   "url": "https://hackaday.com/2026/11/17/making-an-affordable-two-axis-solar-tracker",
-   "published": "2026-11-17",
-   "summary": "Setting up a photovoltaic panel is simple, but you lose a lot of potential power if you merely bolt said panel into place. With a tracker the panel will instead …read more",
+   "title": "Handheld Motor Cancels Out Every Twist and Turn",
+   "url": "https://hackaday.com/2026/11/18/handheld-motor-cancels-out-every-twist-and-turn",
+   "published": "2026-11-18",
+   "summary": "It’s one thing to know that input from a motion sensor can steer a motor. It’s another to see and feel the two cancelling out the other in real-time, right …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 87,
+   "why": "",
+   "obj_hits": [
+    "sensor"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "sensor"
+   ],
+   "hits": [
+    "sensor",
+    "sensor"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "97a6ae48cc4e",
+   "source": "hackaday",
+   "title": "How Hough Transforms Enable Computers to See",
+   "url": "https://hackaday.com/2026/11/18/how-hough-transforms-enable-computers-to-see",
+   "published": "2026-11-18",
+   "summary": "Although identifying what we can see with our eyes feels like the most natural thing in the world, the responsible cognitive processes running on our brain’s wetware are quite a …read more",
    "meta": {
     "query": "sensor"
    },
@@ -19,29 +45,6 @@
    "per_hits": [],
    "modern_hits": [],
    "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "cdab6f91c559",
-   "source": "hackaday",
-   "title": "Binocular Chair Lets You Stargaze in Comfort",
-   "url": "https://hackaday.com/2026/11/16/binocular-chair-lets-you-stargaze-in-comfort",
-   "published": "2026-11-16",
-   "summary": "Telescopes are great, but sometimes binoculars are the right tool for stargazing. Holding them in front of your face for a long night of observation can get onerous though, so …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [
-    "telescope"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "telescope"
-   ],
    "title_signal": false
   }
  ]

@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-19T03:26:34+00:00",
+ "date": "2026-11-19",
+ "count": 3,
+ "items": [
+  {
+   "id": "5b518652fb9f",
+   "source": "hackaday",
+   "title": "Handheld Motor Cancels Out Every Twist and Turn",
+   "url": "https://hackaday.com/2026/11/18/handheld-motor-cancels-out-every-twist-and-turn",
+   "published": "2026-11-18",
+   "summary": "It’s one thing to know that input from a motion sensor can steer a motor. It’s another to see and feel the two cancelling out the other in real-time, right …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 87,
+   "why": "命中 sensor、sensor，2026-11-18",
+   "obj_hits": [
+    "sensor"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "sensor"
+   ],
+   "hits": [
+    "sensor",
+    "sensor"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "97a6ae48cc4e",
+   "source": "hackaday",
+   "title": "How Hough Transforms Enable Computers to See",
+   "url": "https://hackaday.com/2026/11/18/how-hough-transforms-enable-computers-to-see",
+   "published": "2026-11-18",
+   "summary": "Although identifying what we can see with our eyes feels like the most natural thing in the world, the responsible cognitive processes running on our brain’s wetware are quite a …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-18",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "9e62bb8c46d3",
+   "source": "hackaday",
+   "title": "Serial: The Port That Won’t Die",
+   "url": "https://hackaday.com/2026/11/18/serial-the-port-that-wont-die",
+   "published": "2026-11-18",
+   "summary": "Computers have changed quite a bit over the last 60 years. Good luck plugging in an old MFM disk into your modern computer. Plugging in a parallel printer is difficult, …read more",
+   "meta": {
+    "query": "oscilloscope"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-18",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  }
+ ]
+}
