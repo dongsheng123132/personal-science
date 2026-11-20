@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-19T03:27:25+00:00",
- "count": 2,
+ "generated_at": "2026-11-20T03:14:26+00:00",
+ "count": 3,
  "items": [
   {
-   "id": "5b518652fb9f",
+   "id": "86aa34f7015c",
    "source": "hackaday",
-   "title": "Handheld Motor Cancels Out Every Twist and Turn",
-   "url": "https://hackaday.com/2026/11/18/handheld-motor-cancels-out-every-twist-and-turn",
-   "published": "2026-11-18",
-   "summary": "It’s one thing to know that input from a motion sensor can steer a motor. It’s another to see and feel the two cancelling out the other in real-time, right …read more",
+   "title": "Beautiful Laser Harp Hides Some Neat Tricks",
+   "url": "https://hackaday.com/2026/11/04/beautiful-laser-harp-hides-some-neat-tricks",
+   "published": "2026-11-04",
+   "summary": "Laser harps aren’t quite a right of passage, in that not everyone builds them, but it’s likely everyone at least contemplates building one at one time or another. We’re lucky …read more",
    "meta": {
     "query": "sensor"
    },
@@ -16,27 +16,30 @@
    "score": 87,
    "why": "",
    "obj_hits": [
-    "sensor"
+    "laser"
    ],
-   "per_hits": [],
+   "per_hits": [
+    "build"
+   ],
    "modern_hits": [
-    "sensor"
+    "laser"
    ],
    "hits": [
-    "sensor",
-    "sensor"
+    "laser",
+    "build",
+    "laser"
    ],
-   "title_signal": false
+   "title_signal": true
   },
   {
-   "id": "97a6ae48cc4e",
+   "id": "9e62bb8c46d3",
    "source": "hackaday",
-   "title": "How Hough Transforms Enable Computers to See",
-   "url": "https://hackaday.com/2026/11/18/how-hough-transforms-enable-computers-to-see",
+   "title": "Serial: The Port That Won’t Die",
+   "url": "https://hackaday.com/2026/11/18/serial-the-port-that-wont-die",
    "published": "2026-11-18",
-   "summary": "Although identifying what we can see with our eyes feels like the most natural thing in the world, the responsible cognitive processes running on our brain’s wetware are quite a …read more",
+   "summary": "Computers have changed quite a bit over the last 60 years. Good luck plugging in an old MFM disk into your modern computer. Plugging in a parallel printer is difficult, …read more",
    "meta": {
-    "query": "sensor"
+    "query": "oscilloscope"
    },
    "targeted": true,
    "score": 74,
@@ -45,6 +48,29 @@
    "per_hits": [],
    "modern_hits": [],
    "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "48c907f7729e",
+   "source": "hackaday",
+   "title": "An Electronic Candle You Can Set On Fire",
+   "url": "https://hackaday.com/2026/11/01/an-electronic-candle-you-can-set-on-fire",
+   "published": "2026-11-01",
+   "summary": "Candles are pretty to look at, but they tend to be rather a fire risk and a negative influence on air quality, too. If you want the vibe without the …read more",
+   "meta": {
+    "query": "air quality"
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "obj_hits": [
+    "air quality"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "air quality"
+   ],
    "title_signal": false
   }
  ]
