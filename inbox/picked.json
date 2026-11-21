@@ -1,77 +1,81 @@
 {
- "generated_at": "2026-11-20T03:14:26+00:00",
+ "generated_at": "2026-11-21T03:13:26+00:00",
  "count": 3,
  "items": [
   {
-   "id": "86aa34f7015c",
-   "source": "hackaday",
-   "title": "Beautiful Laser Harp Hides Some Neat Tricks",
-   "url": "https://hackaday.com/2026/11/04/beautiful-laser-harp-hides-some-neat-tricks",
-   "published": "2026-11-04",
-   "summary": "Laser harps aren’t quite a right of passage, in that not everyone builds them, but it’s likely everyone at least contemplates building one at one time or another. We’re lucky …read more",
+   "id": "5147d7c8f6d0",
+   "source": "wikipedia",
+   "title": "罗森汉恩实验",
+   "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%A3%AE%E6%B1%89%E6%81%A9%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "罗森汉恩实验（Rosenhan Experiment）是1973年美国心理学家大卫·罗森汉恩关于检验美国精神病患鉴定标准的一项著名实验，并当年发布在《科学》杂志上。这项研究被认为是对精神病患鉴定标准的重要批判。",
    "meta": {
-    "query": "sensor"
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
-   "score": 87,
+   "score": 76,
    "why": "",
+   "timeless": true,
    "obj_hits": [
-    "laser"
+    "实验"
    ],
-   "per_hits": [
-    "build"
-   ],
-   "modern_hits": [
-    "laser"
-   ],
+   "per_hits": [],
+   "modern_hits": [],
    "hits": [
-    "laser",
-    "build",
-    "laser"
+    "实验"
    ],
    "title_signal": true
   },
   {
-   "id": "9e62bb8c46d3",
-   "source": "hackaday",
-   "title": "Serial: The Port That Won’t Die",
-   "url": "https://hackaday.com/2026/11/18/serial-the-port-that-wont-die",
-   "published": "2026-11-18",
-   "summary": "Computers have changed quite a bit over the last 60 years. Good luck plugging in an old MFM disk into your modern computer. Plugging in a parallel printer is difficult, …read more",
+   "id": "aca648fccd47",
+   "source": "wikipedia",
+   "title": "中国脑",
+   "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E8%84%91",
+   "published": "",
+   "summary": "中国脑是心灵哲学中的一个思想实验，探讨了如果每个中国人被要求使用电话或对讲机模拟大脑中一个神经元的动作，会发生什么情况。对讲机模拟连接神经元的轴突和树突。这会使中国人整体像大脑一样具有思想或意识吗？ 中国脑的早期版本由Anatoly Dneprov于1961年提出， ，后于1974年由Lawrence Davis二次提出，1978年由内德·布洛克也参与了讨论。布洛克认为“中国脑”不会具有意识，而丹尼尔·丹尼特则认为会。“中国脑”问题是一个更一般的问题的特例——即是否可以在一个大意识体中存在小意识体。 注：不应将其与约翰·塞尔（John Searle）提出的关于中国房间的论点相混淆——虽然这也是心灵哲学的思想实验，但它与人工智能有关。",
    "meta": {
-    "query": "oscilloscope"
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
-   "score": 74,
+   "score": 79,
    "why": "",
-   "obj_hits": [],
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
    "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
+   "modern_hits": [
+    "人工智能"
+   ],
+   "hits": [
+    "实验",
+    "人工智能"
+   ],
    "title_signal": false
   },
   {
-   "id": "48c907f7729e",
-   "source": "hackaday",
-   "title": "An Electronic Candle You Can Set On Fire",
-   "url": "https://hackaday.com/2026/11/01/an-electronic-candle-you-can-set-on-fire",
-   "published": "2026-11-01",
-   "summary": "Candles are pretty to look at, but they tend to be rather a fire risk and a negative influence on air quality, too. If you want the vibe without the …read more",
+   "id": "f2bc782fed23",
+   "source": "wikipedia",
+   "title": "波普尔实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%99%AE%E5%B0%94%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "波普尔实验是由哲学家卡尔·波普尔提出的实验。 在1934年，波普尔对哥本哈根解释，一种流行的量子力学主观解释，产生了怀疑，并提出了一个实验来检验它。 波普尔的实验是对一种争议说法的具体化，类似于阿爾伯特·愛因斯坦、鮑里斯·波多爾斯基和納森·羅森提出的EPR佯謬思想实验。",
    "meta": {
-    "query": "air quality"
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
-   "score": 80,
+   "score": 76,
    "why": "",
+   "timeless": true,
    "obj_hits": [
-    "air quality"
+    "实验"
    ],
    "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "air quality"
+    "实验"
    ],
-   "title_signal": false
+   "title_signal": true
   }
  ]
 }

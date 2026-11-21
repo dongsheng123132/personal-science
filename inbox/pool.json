@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20T03:13:57+00:00",
+ "updated_at": "2026-11-21T03:12:32+00:00",
  "count": 150,
  "items": [
   {
@@ -566,32 +566,6 @@
     "sensor"
    ],
    "title_signal": false
-  },
-  {
-   "id": "a58941cbbc37",
-   "source": "hackaday",
-   "title": "Every Type of Current Sensor Explained",
-   "url": "https://hackaday.com/2026/10/21/every-type-of-current-sensor-explained",
-   "published": "2026-10-21",
-   "summary": "Measuring electric currents is an essential element of many electrical systems, but doing so in a way that is as nonintrusive as possible is not an easy problem to solve. …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 87,
-   "why": "",
-   "obj_hits": [
-    "sensor"
-   ],
-   "per_hits": [],
-   "modern_hits": [
-    "sensor"
-   ],
-   "hits": [
-    "sensor",
-    "sensor"
-   ],
-   "title_signal": true
   },
   {
    "id": "8d1ca0c2056a",
@@ -1793,30 +1767,6 @@
    "title_signal": false
   },
   {
-   "id": "5147d7c8f6d0",
-   "source": "wikipedia",
-   "title": "罗森汉恩实验",
-   "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%A3%AE%E6%B1%89%E6%81%A9%E5%AE%9E%E9%AA%8C",
-   "published": "",
-   "summary": "罗森汉恩实验（Rosenhan Experiment）是1973年美国心理学家大卫·罗森汉恩关于检验美国精神病患鉴定标准的一项著名实验，并当年发布在《科学》杂志上。这项研究被认为是对精神病患鉴定标准的重要批判。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": true
-  },
-  {
    "id": "3548437df952",
    "source": "wikipedia",
    "title": "埃弗里-麦克劳德-麦卡蒂实验",
@@ -1911,6 +1861,30 @@
     "biology"
    ],
    "title_signal": false
+  },
+  {
+   "id": "5147d7c8f6d0",
+   "source": "wikipedia",
+   "title": "罗森汉恩实验",
+   "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%A3%AE%E6%B1%89%E6%81%A9%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "罗森汉恩实验（Rosenhan Experiment）是1973年美国心理学家大卫·罗森汉恩关于检验美国精神病患鉴定标准的一项著名实验，并当年发布在《科学》杂志上。这项研究被认为是对精神病患鉴定标准的重要批判。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
   },
   {
    "id": "757b5ba04fda",
@@ -2416,25 +2390,6 @@
    "title_signal": false
   },
   {
-   "id": "ad91ebfd5bff",
-   "source": "hackaday",
-   "title": "Clotty The Custom Period Tracker Can, Of Course, Run DOOM",
-   "url": "https://hackaday.com/2026/10/21/clotty-the-custom-period-tracker-can-of-course-run-doom",
-   "published": "2026-10-21",
-   "summary": "[kati]’s Clotty might run DOOM and game-ify the menstrual tracking process with a playful Tamagotchi-like aspect, but don’t let that distract you. It is, at its heart, a personal menstrual …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "5623bc1f1bd6",
    "source": "hackaday",
    "title": "Turning an Old Phone’s Motherboard into an RC Plane Controller",
@@ -2838,6 +2793,26 @@
    "title_signal": false
   },
   {
+   "id": "c16ba36fab57",
+   "source": "wikipedia",
+   "title": "科学史学史",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2%E5%AD%A6%E5%8F%B2",
+   "published": "",
+   "summary": "科学史学史，有时也被称为科学史，是一门研究有关科学的历史和方法论的历史分支学科，研究内容包括其学科方面和实践层面（方法、理论、流派）以及对其自身历史发展的研究（ “科学史的历史”，即一门称作科学史的历史学科）。 由于有关科学史研究的适当方法的史学争论有时难以与关于科学的发展历程的历史争论区分开来，因此，后一类的早期争论通常被认为是该学科的开端。例如，这种讨论贯穿了伟大的历史学家和科学哲学家威廉·惠威尔的历史著作。因此，他经常被恰当地认为是这门学科的始祖，另外还有皮埃尔·迪昂和亚历山大·柯瓦雷也对该学科的建立做出了先驱性的贡献。 对科学史学的明确表述，通常可以追溯到 20 世纪 60 年代初期。例如，1965年格尔德·布赫达尔发表的《科学史学史革命》就涉及了托马斯·库恩和约瑟夫·阿伽西的创新研究。他认为这两位作家通过明确区分历史和科学史学史开创了这个学科，他们认为史学观点极大地影响了科学史的",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "2aaa7d3b0145",
    "source": "wikipedia",
    "title": "自然科学",
@@ -3218,6 +3193,126 @@
    "title_signal": false
   },
   {
+   "id": "f5cd3cda2a7a",
+   "source": "wikipedia",
+   "title": "Experiment",
+   "url": "https://en.wikipedia.org/wiki/Experiment",
+   "published": "",
+   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4a260f65e483",
+   "source": "wikipedia",
+   "title": "Galileo's Leaning Tower of Pisa experiment",
+   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+   "published": "",
+   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "444f60e72a87",
+   "source": "wikipedia",
+   "title": "History of science",
+   "url": "https://en.wikipedia.org/wiki/History_of_science",
+   "published": "",
+   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "5661bb119eeb",
+   "source": "wikipedia",
+   "title": "Milgram experiment",
+   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
+   "published": "",
+   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ae63027fda5d",
+   "source": "wikipedia",
+   "title": "Rosenhan experiment",
+   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
+   "published": "",
+   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "464ab5e5b3b1",
+   "source": "wikipedia",
+   "title": "Thought experiment",
+   "url": "https://en.wikipedia.org/wiki/Thought_experiment",
+   "published": "",
+   "summary": "A thought experiment is an imaginary scenario that is meant to elucidate or test an argument or theory. It is often an experiment that would be hard, impossible, or unethical to actually perform. It can also be an abstract hypothetical that is meant to test our intuitions about morality or other fundamental questions of philosophy.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "e2f65195a4c9",
    "source": "wikipedia",
    "title": "Army Academy of Armored Forces",
@@ -3404,106 +3499,6 @@
    "url": "https://en.wikipedia.org/wiki/Demon_(thought_experiment)",
    "published": "",
    "summary": "In thought experiments, philosophers and scientists occasionally imagine entities with special abilities as a way to pose thought experiment or highlight apparent paradoxes. The word \"demon\" here does not necessarily connote a demon, a malevolent being. For instance, James Clerk Maxwell came up with his thought experiment of a \"finite being\" manipulating entropy microscopically to highlight the",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4341680b6209",
-   "source": "wikipedia",
-   "title": "Einstein's thought experiments",
-   "url": "https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments",
-   "published": "",
-   "summary": "A hallmark of Albert Einstein's career was his use of visualized thought experiments (German: Gedankenexperiment) as a fundamental tool for understanding physical issues and for elucidating his concepts to others. Einstein's thought experiments took diverse forms. In his youth, he mentally chased beams of light. For special relativity, he employed moving trains and flashes of lightning to explain",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "36e498881eeb",
-   "source": "wikipedia",
-   "title": "The Left Hand of Darkness",
-   "url": "https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness",
-   "published": "",
-   "summary": "The Left Hand of Darkness is a science fiction novel by the American writer Ursula K. Le Guin. Published in 1969, its popularity established Le Guin's status as a major author of science fiction. The novel is set in the fictional universe of the Hainish Cycle, a series of novels and short stories by Le Guin, which she introduced in the 1964 short story \"The Dowry of Angyar\". It was fourth in writi",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "464ab5e5b3b1",
-   "source": "wikipedia",
-   "title": "Thought experiment",
-   "url": "https://en.wikipedia.org/wiki/Thought_experiment",
-   "published": "",
-   "summary": "A thought experiment is an imaginary scenario that is meant to elucidate or test an argument or theory. It is often an experiment that would be hard, impossible, or unethical to actually perform. It can also be an abstract hypothetical that is meant to test our intuitions about morality or other fundamental questions of philosophy.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "78d0cbe81a17",
-   "source": "wikipedia",
-   "title": "Twin Earth thought experiment",
-   "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
-   "published": "",
-   "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "f5cd3cda2a7a",
-   "source": "wikipedia",
-   "title": "Experiment",
-   "url": "https://en.wikipedia.org/wiki/Experiment",
-   "published": "",
-   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
    "meta": {
     "site": "en.wikipedia.org"
    },
