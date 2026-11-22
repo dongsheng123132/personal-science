@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T03:12:32+00:00",
+ "updated_at": "2026-11-22T02:13:50+00:00",
  "count": 150,
  "items": [
   {
@@ -32,35 +32,6 @@
     "cheap"
    ],
    "title_signal": false
-  },
-  {
-   "id": "b7ecd58ef8e7",
-   "source": "hackaday",
-   "title": "Car’s Camera Footage Backed up to NAS",
-   "url": "https://hackaday.com/2026/10/22/cars-camera-footage-backed-up-to-nas",
-   "published": "2026-10-22",
-   "summary": "For as many sensors, cameras, and computers as there are on modern cars, they ought to be a dream to poke around in and customize to one’s liking. Unfortunately they’re …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 100,
-   "why": "",
-   "obj_hits": [
-    "sensor",
-    "camera"
-   ],
-   "per_hits": [],
-   "modern_hits": [
-    "sensor",
-    "camera"
-   ],
-   "hits": [
-    "sensor",
-    "camera",
-    "sensor"
-   ],
-   "title_signal": true
   },
   {
    "id": "7f435caa1a8d",
@@ -485,6 +456,32 @@
     "实验"
    ],
    "title_signal": true
+  },
+  {
+   "id": "484322c2ccd5",
+   "source": "hackaday",
+   "title": "LiDAR Glasses For the Visually Impaired",
+   "url": "https://hackaday.com/2026/11/21/lidar-glasses-for-the-visually-impaired",
+   "published": "2026-11-21",
+   "summary": "The human brain has a fairly remarkable ability to take any sensory input and convert it into another type. Most notably, those with vision impairments can use systems that produce …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 87,
+   "why": "",
+   "obj_hits": [
+    "sensor"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "sensor"
+   ],
+   "hits": [
+    "sensor",
+    "sensor"
+   ],
+   "title_signal": false
   },
   {
    "id": "5b518652fb9f",
@@ -1126,29 +1123,6 @@
    "title_signal": false
   },
   {
-   "id": "a74860b994bb",
-   "source": "hackaday",
-   "title": "NASA Batteries Survive Extreme Cold and Heat",
-   "url": "https://hackaday.com/2026/10/22/nasa-batteries-survive-extreme-cold-and-heat",
-   "published": "2026-10-22",
-   "summary": "One of the major limits of mass-produced batteries is the electrolyte. From lead-acid to lithium ion, there’s some temperature where the electrolyte will freeze and cause all sorts of problems, …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 80,
-   "why": "",
-   "obj_hits": [
-    "temperature"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "temperature"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "9094207ea8eb",
    "source": "classic",
    "title": "埃拉托色尼用影子测地球半径（-240）",
@@ -1408,14 +1382,14 @@
    "title_signal": true
   },
   {
-   "id": "ea38c29a8cd4",
+   "id": "1d1f037aac76",
    "source": "hackaday",
-   "title": "An Open Source Linear Capacitive Encoder",
-   "url": "https://hackaday.com/2026/10/22/an-open-source-linear-capacitive-encoder",
-   "published": "2026-10-22",
-   "summary": "If you’ve ever pulled apart a set of digital calipers, you’ve probably marvelled at the capacitive encoder that does all the measuring work. There’s nothing stopping you from using the …read more",
+   "title": "ESP32 Drives MDA Display For Wireless Terminal",
+   "url": "https://hackaday.com/2026/11/21/esp32-drives-mda-display-for-wireless-terminal",
+   "published": "2026-11-21",
+   "summary": "Don’t you miss the days where you had to point a particle accelerator at your face for a full shift? Well, maybe not when we think of it that way, …read more",
    "meta": {
-    "query": "sensor"
+    "query": "oscilloscope"
    },
    "targeted": true,
    "score": 77,
@@ -1423,10 +1397,10 @@
    "obj_hits": [],
    "per_hits": [],
    "modern_hits": [
-    "open source"
+    "esp32"
    ],
    "hits": [
-    "open source"
+    "esp32"
    ],
    "title_signal": false
   },
@@ -1767,6 +1741,30 @@
    "title_signal": false
   },
   {
+   "id": "1c289800e7eb",
+   "source": "wikipedia",
+   "title": "自然哲学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
+   "published": "",
+   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "3548437df952",
    "source": "wikipedia",
    "title": "埃弗里-麦克劳德-麦卡蒂实验",
@@ -1863,30 +1861,6 @@
    "title_signal": false
   },
   {
-   "id": "5147d7c8f6d0",
-   "source": "wikipedia",
-   "title": "罗森汉恩实验",
-   "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%A3%AE%E6%B1%89%E6%81%A9%E5%AE%9E%E9%AA%8C",
-   "published": "",
-   "summary": "罗森汉恩实验（Rosenhan Experiment）是1973年美国心理学家大卫·罗森汉恩关于检验美国精神病患鉴定标准的一项著名实验，并当年发布在《科学》杂志上。这项研究被认为是对精神病患鉴定标准的重要批判。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": true
-  },
-  {
    "id": "757b5ba04fda",
    "source": "wikipedia",
    "title": "Standing wave",
@@ -1911,12 +1885,12 @@
    "title_signal": false
   },
   {
-   "id": "1c289800e7eb",
+   "id": "5147d7c8f6d0",
    "source": "wikipedia",
-   "title": "自然哲学",
-   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
+   "title": "罗森汉恩实验",
+   "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E6%A3%AE%E6%B1%89%E6%81%A9%E5%AE%9E%E9%AA%8C",
    "published": "",
-   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
+   "summary": "罗森汉恩实验（Rosenhan Experiment）是1973年美国心理学家大卫·罗森汉恩关于检验美国精神病患鉴定标准的一项著名实验，并当年发布在《科学》杂志上。这项研究被认为是对精神病患鉴定标准的重要批判。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1932,7 +1906,7 @@
    "hits": [
     "实验"
    ],
-   "title_signal": false
+   "title_signal": true
   },
   {
    "id": "a8b9b0b154d4",
@@ -2793,26 +2767,6 @@
    "title_signal": false
   },
   {
-   "id": "c16ba36fab57",
-   "source": "wikipedia",
-   "title": "科学史学史",
-   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2%E5%AD%A6%E5%8F%B2",
-   "published": "",
-   "summary": "科学史学史，有时也被称为科学史，是一门研究有关科学的历史和方法论的历史分支学科，研究内容包括其学科方面和实践层面（方法、理论、流派）以及对其自身历史发展的研究（ “科学史的历史”，即一门称作科学史的历史学科）。 由于有关科学史研究的适当方法的史学争论有时难以与关于科学的发展历程的历史争论区分开来，因此，后一类的早期争论通常被认为是该学科的开端。例如，这种讨论贯穿了伟大的历史学家和科学哲学家威廉·惠威尔的历史著作。因此，他经常被恰当地认为是这门学科的始祖，另外还有皮埃尔·迪昂和亚历山大·柯瓦雷也对该学科的建立做出了先驱性的贡献。 对科学史学的明确表述，通常可以追溯到 20 世纪 60 年代初期。例如，1965年格尔德·布赫达尔发表的《科学史学史革命》就涉及了托马斯·库恩和约瑟夫·阿伽西的创新研究。他认为这两位作家通过明确区分历史和科学史学史开创了这个学科，他们认为史学观点极大地影响了科学史的",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "2aaa7d3b0145",
    "source": "wikipedia",
    "title": "自然科学",
@@ -3193,126 +3147,6 @@
    "title_signal": false
   },
   {
-   "id": "f5cd3cda2a7a",
-   "source": "wikipedia",
-   "title": "Experiment",
-   "url": "https://en.wikipedia.org/wiki/Experiment",
-   "published": "",
-   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4a260f65e483",
-   "source": "wikipedia",
-   "title": "Galileo's Leaning Tower of Pisa experiment",
-   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
-   "published": "",
-   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "444f60e72a87",
-   "source": "wikipedia",
-   "title": "History of science",
-   "url": "https://en.wikipedia.org/wiki/History_of_science",
-   "published": "",
-   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "5661bb119eeb",
-   "source": "wikipedia",
-   "title": "Milgram experiment",
-   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
-   "published": "",
-   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "ae63027fda5d",
-   "source": "wikipedia",
-   "title": "Rosenhan experiment",
-   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
-   "published": "",
-   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "464ab5e5b3b1",
-   "source": "wikipedia",
-   "title": "Thought experiment",
-   "url": "https://en.wikipedia.org/wiki/Thought_experiment",
-   "published": "",
-   "summary": "A thought experiment is an imaginary scenario that is meant to elucidate or test an argument or theory. It is often an experiment that would be hard, impossible, or unethical to actually perform. It can also be an abstract hypothetical that is meant to test our intuitions about morality or other fundamental questions of philosophy.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "e2f65195a4c9",
    "source": "wikipedia",
    "title": "Army Academy of Armored Forces",
@@ -3359,6 +3193,26 @@
    "url": "https://en.wikipedia.org/wiki/Mianyang",
    "published": "",
    "summary": "Mianyang (simplified Chinese: 绵阳; traditional Chinese: 綿陽; pinyin: Miányáng; Wade–Giles: Mien²-yang²; Sichuanese romanization: Mien2-iang2; formerly known as Mienchow, Chinese: 綿州; pinyin: Mianzhou; Sichuanese romanization: Miencheo; lit. 'Mian Prefecture') is the second largest prefecture-level city of Sichuan province in Southwestern China. It borders Nanchong City to the east, Suining City to t",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "78810a1c6cef",
+   "source": "wikipedia",
+   "title": "Sichuan University",
+   "url": "https://en.wikipedia.org/wiki/Sichuan_University",
+   "published": "",
+   "summary": "Sichuan University (SCU) is a public university in Chengdu, Sichuan, China. The university is affiliated with and funded by the Ministry of Education. The university is part of Project 211, Project 985, and the Double First-Class Construction. In 1994, the then Chengdu University of Science and Technology and then Sichuan University merged to form Sichuan Union University (which was renamed Sichu",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3499,6 +3353,146 @@
    "url": "https://en.wikipedia.org/wiki/Demon_(thought_experiment)",
    "published": "",
    "summary": "In thought experiments, philosophers and scientists occasionally imagine entities with special abilities as a way to pose thought experiment or highlight apparent paradoxes. The word \"demon\" here does not necessarily connote a demon, a malevolent being. For instance, James Clerk Maxwell came up with his thought experiment of a \"finite being\" manipulating entropy microscopically to highlight the",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4341680b6209",
+   "source": "wikipedia",
+   "title": "Einstein's thought experiments",
+   "url": "https://en.wikipedia.org/wiki/Einstein%27s_thought_experiments",
+   "published": "",
+   "summary": "A hallmark of Albert Einstein's career was his use of visualized thought experiments (German: Gedankenexperiment) as a fundamental tool for understanding physical issues and for elucidating his concepts to others. Einstein's thought experiments took diverse forms. In his youth, he mentally chased beams of light. For special relativity, he employed moving trains and flashes of lightning to explain",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "36e498881eeb",
+   "source": "wikipedia",
+   "title": "The Left Hand of Darkness",
+   "url": "https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness",
+   "published": "",
+   "summary": "The Left Hand of Darkness is a science fiction novel by the American writer Ursula K. Le Guin. Published in 1969, its popularity established Le Guin's status as a major author of science fiction. The novel is set in the fictional universe of the Hainish Cycle, a series of novels and short stories by Le Guin, which she introduced in the 1964 short story \"The Dowry of Angyar\". It was fourth in writi",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "464ab5e5b3b1",
+   "source": "wikipedia",
+   "title": "Thought experiment",
+   "url": "https://en.wikipedia.org/wiki/Thought_experiment",
+   "published": "",
+   "summary": "A thought experiment is an imaginary scenario that is meant to elucidate or test an argument or theory. It is often an experiment that would be hard, impossible, or unethical to actually perform. It can also be an abstract hypothetical that is meant to test our intuitions about morality or other fundamental questions of philosophy.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "78d0cbe81a17",
+   "source": "wikipedia",
+   "title": "Twin Earth thought experiment",
+   "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
+   "published": "",
+   "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f5cd3cda2a7a",
+   "source": "wikipedia",
+   "title": "Experiment",
+   "url": "https://en.wikipedia.org/wiki/Experiment",
+   "published": "",
+   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4a260f65e483",
+   "source": "wikipedia",
+   "title": "Galileo's Leaning Tower of Pisa experiment",
+   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+   "published": "",
+   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "444f60e72a87",
+   "source": "wikipedia",
+   "title": "History of science",
+   "url": "https://en.wikipedia.org/wiki/History_of_science",
+   "published": "",
+   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
    "meta": {
     "site": "en.wikipedia.org"
    },
