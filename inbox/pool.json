@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T02:13:50+00:00",
+ "updated_at": "2026-11-23T02:44:39+00:00",
  "count": 150,
  "items": [
   {
@@ -771,32 +771,6 @@
    "modern_hits": [],
    "hits": [
     "magnet"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "d77d099493ec",
-   "source": "hackaday",
-   "title": "Hackaday Podcast Episode 392: Microscopes, Drones, and Other DIY Things",
-   "url": "https://hackaday.com/2026/10/23/hackaday-podcast-episode-392-microscopes-drones-and-other-diy-things",
-   "published": "2026-10-23",
-   "summary": "Hackaday Editors Elliot Williams and Al Williams met to review the week in Hackaday. Turns out, it was a week for tiny things, cybersecurity, nostalgia, and projects that would have …read more",
-   "meta": {
-    "query": "microscope"
-   },
-   "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [
-    "microscope"
-   ],
-   "per_hits": [
-    "diy"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "microscope",
-    "diy"
    ],
    "title_signal": true
   },
@@ -1621,30 +1595,6 @@
    "title_signal": false
   },
   {
-   "id": "b2a4e0b2b7c7",
-   "source": "wikipedia",
-   "title": "國立臺灣大學物理學系",
-   "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%89%A9%E7%90%86%E5%AD%B8%E7%B3%BB",
-   "published": "",
-   "summary": "國立臺灣大學物理學系（英語：Department of Physics, National Taiwan University），略稱臺灣大學物理系、臺大物理系，創辦於1946年8月，首任系主任為物理學家戴運軌。台大物理系是為國立臺灣大學改制之後首創的第一個系所。前身是日治時期臺北帝國大學的理學部化學科所設置的物理學講座，當時有兩三間辦公室和實驗室。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "1128fe5e51b1",
    "source": "wikipedia",
    "title": "物理学",
@@ -1885,6 +1835,54 @@
    "title_signal": false
   },
   {
+   "id": "bb1408b8b499",
+   "source": "wikipedia",
+   "title": "Bohr–Einstein debates",
+   "url": "https://en.wikipedia.org/wiki/Bohr%E2%80%93Einstein_debates",
+   "published": "",
+   "summary": "The Bohr–Einstein debates were a series of public disputes about quantum mechanics between Albert Einstein and Niels Bohr. Their debates are remembered because of their importance to the philosophy of science, insofar as the disagreements—and the outcome of Bohr's version of quantum mechanics becoming the prevalent view—form the root of the modern understanding of physics. Most of Bohr's version o",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "b2a4e0b2b7c7",
+   "source": "wikipedia",
+   "title": "國立臺灣大學物理學系",
+   "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%89%A9%E7%90%86%E5%AD%B8%E7%B3%BB",
+   "published": "",
+   "summary": "國立臺灣大學物理學系（英語：Department of Physics, National Taiwan University），略稱臺灣大學物理系、臺大物理系，創辦於1946年8月，首任系主任為物理學家戴運軌。台大物理系是為國立臺灣大學改制之後首創的第一個系所。前身是日治時期臺北帝國大學的理學部化學科所設置的物理學講座，當時有兩三間辦公室和實驗室。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "5147d7c8f6d0",
    "source": "wikipedia",
    "title": "罗森汉恩实验",
@@ -1977,30 +1975,6 @@
    "modern_hits": [],
    "hits": [
     "soil"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "bb1408b8b499",
-   "source": "wikipedia",
-   "title": "Bohr–Einstein debates",
-   "url": "https://en.wikipedia.org/wiki/Bohr%E2%80%93Einstein_debates",
-   "published": "",
-   "summary": "The Bohr–Einstein debates were a series of public disputes about quantum mechanics between Albert Einstein and Niels Bohr. Their debates are remembered because of their importance to the philosophy of science, insofar as the disagreements—and the outcome of Bohr's version of quantum mechanics becoming the prevalent view—form the root of the modern understanding of physics. Most of Bohr's version o",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics"
    ],
    "title_signal": false
   },
@@ -2600,25 +2574,6 @@
    "title_signal": false
   },
   {
-   "id": "9b7319b0e959",
-   "source": "hackaday",
-   "title": "This Week in Security: Record Patch Tuesday, PHP’s Bad Time, The Oldest Vuln, AI Armies, and More",
-   "url": "https://hackaday.com/2026/10/23/this-week-in-security-record-patch-tuesday-phps-bad-time-the-oldest-vuln-ai-armies-and-more",
-   "published": "2026-10-23",
-   "summary": "It’s no longer a proper month without Microsoft breaking its own record for security fixes, and October’s Patch Tuesday was no exception. Brian Krebs brings the roundup: more than 1,400 …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "a1d078e21527",
    "source": "wikipedia",
    "title": "以太坊",
@@ -2707,12 +2662,12 @@
    "title_signal": false
   },
   {
-   "id": "6215b15a1e45",
+   "id": "b0667e96d7f8",
    "source": "wikipedia",
-   "title": "中世紀科學史",
-   "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E4%B8%96%E7%B4%80%E7%A7%91%E5%AD%B8%E5%8F%B2",
+   "title": "史蒂文·温伯格",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%92%82%E6%96%87%C2%B7%E6%B8%A9%E4%BC%AF%E6%A0%BC",
    "published": "",
-   "summary": "中世紀科學史是指在中世紀，星象、藥物、數學等科学在當時都相當的活躍，但是，由於古代的文化(在羅馬及伊斯蘭的落沒之前的時期)已經存在有許多的科學基礎，所以研究科學的方法才能夠在中世紀時誕生，也因此科學能夠在此時正式地與哲學分野，然而在當時世界各地像是伊斯蘭世界、地中海盆地、中國，以及印度等也已經有了科學研究的足跡，而在西歐一度落後的科學發展則是從12世紀開始再次趕上這些地區。 拜占庭帝國是中世紀早期的文化指標，它保存了希臘羅馬時期的自然、數學，以及藥學的系統以及理論；亞里士多德、阿基米德、蓋倫、托勒密，以及歐幾里得的思想在當時傳遍整個帝國。他們的著作及注解釋為中世紀科學發展的根源，因為那時候的西歐地區的文化由於西羅馬帝國的落沒而遭受破壞，但是因為有了義大利神學家托馬斯·阿奎那及法國學者布里丹等人的貢獻，西歐科學研究的精神得以保存，而當時所保存的著作也因此成為了往後歐洲的科學在科學革命時期能夠",
+   "summary": "史蒂文·温伯格（英語：Steven Weinberg，1933年5月3日—2021年7月23日），生于纽约，美国物理学家，1979年获诺贝尔物理学奖。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2753,6 +2708,26 @@
    "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2",
    "published": "",
    "summary": "科學史，利用了思想史和社會史兩個面向的歷史研究方法。科學起源於對自然其功能性的實用考量以及纯粹的哲學探究。 雖然科學方法自古便不斷發展，但現代科學方法卻是始自伊斯蘭科學家，海什木在大約西元1000年左右，運用實驗的經驗法則寫出了一本關於光學的著作《光學書》。然而，現代科學方法在13世紀的歐洲由大學經院哲學的學者所發起科學革命時，方才算發展完全，到了16世紀及17世紀早期的發展高峰，現代科學方法的廣泛應用更引領了知識的全面重估。科學方法的發展被某些人（尤其是科學哲學家及實證科學家）認為是太過於基礎而重要的，認為早先對於自然的探索只不過是前科學（pre-scientific），現代科學方法才被他們認為是真正的科學。習慣上，科學史學家仍舊認定早先的科學探索也包含於廣大而充足的科學範疇之中。 數學史、科技史及哲學史則在其各自的條目中描述。數學跟科學很接近但有所區别（至少在現代的觀念上是這樣認為）。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "c16ba36fab57",
+   "source": "wikipedia",
+   "title": "科学史学史",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2%E5%AD%A6%E5%8F%B2",
+   "published": "",
+   "summary": "科学史学史，有时也被称为科学史，是一门研究有关科学的历史和方法论的历史分支学科，研究内容包括其学科方面和实践层面（方法、理论、流派）以及对其自身历史发展的研究（ “科学史的历史”，即一门称作科学史的历史学科）。 由于有关科学史研究的适当方法的史学争论有时难以与关于科学的发展历程的历史争论区分开来，因此，后一类的早期争论通常被认为是该学科的开端。例如，这种讨论贯穿了伟大的历史学家和科学哲学家威廉·惠威尔的历史著作。因此，他经常被恰当地认为是这门学科的始祖，另外还有皮埃尔·迪昂和亚历山大·柯瓦雷也对该学科的建立做出了先驱性的贡献。 对科学史学的明确表述，通常可以追溯到 20 世纪 60 年代初期。例如，1965年格尔德·布赫达尔发表的《科学史学史革命》就涉及了托马斯·库恩和约瑟夫·阿伽西的创新研究。他认为这两位作家通过明确区分历史和科学史学史开创了这个学科，他们认为史学观点极大地影响了科学史的",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3027,106 +3002,6 @@
    "title_signal": false
   },
   {
-   "id": "f088ab6a58af",
-   "source": "wikipedia",
-   "title": "Air Force Command College",
-   "url": "https://en.wikipedia.org/wiki/Air_Force_Command_College",
-   "published": "",
-   "summary": "The Air Force Command College (AFCC), MOE Code (院校代码): 91023, is the highest academic institution of the Chinese People's Liberation Army Air Force (PLAAF), with a corps deputy grade, and it is tasked with training the commanding officer corps for the force. It is based in Beijing, right next to the Kunming Lake and the Beijing Xijiao Airport. It is an intermediate command school for the trainin",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "86b390281ac8",
-   "source": "wikipedia",
-   "title": "Beijing Electronic Science and Technology Institute",
-   "url": "https://en.wikipedia.org/wiki/Beijing_Electronic_Science_and_Technology_Institute",
-   "published": "",
-   "summary": "Beijing Electronic Science and Technology Institute, or BEIST, is located at No. 7 Fufeng Road, Fengtai District, Beijing. It is a general institution of higher learning that trains professional and technical personnel in information security and office automation for party and government agencies. It is affiliated with the General Office of the Chinese Communist Party. The college is a major rese",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4155afb423c4",
-   "source": "wikipedia",
-   "title": "Li Fei'er",
-   "url": "https://en.wikipedia.org/wiki/Li_Fei%27er",
-   "published": "",
-   "summary": "Li Fei'er (simplified Chinese: 李菲儿; traditional Chinese: 李菲兒; pinyin: Lǐ Fēi'ér, born Li Fei; 3 October 1987), also known as Monica Li, is a Chinese actress and singer. After completing filming for her scenes in Royal Tramp, Li briefly trained in singing and dancing at now-defunct South Korean record label Good Entertainment in 2007.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "57291b5a7813",
-   "source": "wikipedia",
-   "title": "PLA Army Academy of Artillery and Air Defense",
-   "url": "https://en.wikipedia.org/wiki/PLA_Army_Academy_of_Artillery_and_Air_Defense",
-   "published": "",
-   "summary": "The People's Liberation Army Army Academy of Artillery and Air Defense (MOE: 91007) is a military school of deputy corps grade subordinate to the PLA Ground Force. It is responsible for officer, graduate, and NCO training for the PLA artillery forces. The academy was created in 2017 by merging four existing academies.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "39ffe9adb45b",
-   "source": "wikipedia",
-   "title": "Wild Grass (poetry collection)",
-   "url": "https://en.wikipedia.org/wiki/Wild_Grass_(poetry_collection)",
-   "published": "",
-   "summary": "Wild Grass (Chinese: 野草; pinyin: Yécǎo) is a collection of prose poetry by Lu Xun, published in July 1927. It comprises twenty-four pieces (including the preface), written between 1924 and 1926. Among the best-known are \"Autumn Night\", \"The Kite\", \"Snow\", \"The Passer-by\", and \"The Epitaph\". All of them first appeared in serial form in the magazine Yusi (Threads of Language). The collection was co",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "502974008e73",
    "source": "wikipedia",
    "title": "History of Nankai University",
@@ -3187,12 +3062,12 @@
    "title_signal": false
   },
   {
-   "id": "ef3dd7b47ba5",
+   "id": "83ad8e00d21a",
    "source": "wikipedia",
-   "title": "Mianyang",
-   "url": "https://en.wikipedia.org/wiki/Mianyang",
+   "title": "Lee Sun Chau",
+   "url": "https://en.wikipedia.org/wiki/Lee_Sun_Chau",
    "published": "",
-   "summary": "Mianyang (simplified Chinese: 绵阳; traditional Chinese: 綿陽; pinyin: Miányáng; Wade–Giles: Mien²-yang²; Sichuanese romanization: Mien2-iang2; formerly known as Mienchow, Chinese: 綿州; pinyin: Mianzhou; Sichuanese romanization: Miencheo; lit. 'Mian Prefecture') is the second largest prefecture-level city of Sichuan province in Southwestern China. It borders Nanchong City to the east, Suining City to t",
+   "summary": "Lee Sun Chau (周理信, i.e., 周六姑, 1890-1979) was one of the first female Chinese doctors of Western Medicine in China.",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3207,12 +3082,12 @@
    "title_signal": false
   },
   {
-   "id": "78810a1c6cef",
+   "id": "ef3dd7b47ba5",
    "source": "wikipedia",
-   "title": "Sichuan University",
-   "url": "https://en.wikipedia.org/wiki/Sichuan_University",
+   "title": "Mianyang",
+   "url": "https://en.wikipedia.org/wiki/Mianyang",
    "published": "",
-   "summary": "Sichuan University (SCU) is a public university in Chengdu, Sichuan, China. The university is affiliated with and funded by the Ministry of Education. The university is part of Project 211, Project 985, and the Double First-Class Construction. In 1994, the then Chengdu University of Science and Technology and then Sichuan University merged to form Sichuan Union University (which was renamed Sichu",
+   "summary": "Mianyang (simplified Chinese: 绵阳; traditional Chinese: 綿陽; pinyin: Miányáng; Wade–Giles: Mien²-yang²; Sichuanese romanization: Mien2-iang2; formerly known as Mienchow, Chinese: 綿州; pinyin: Mianzhou; Sichuanese romanization: Miencheo; lit. 'Mian Prefecture') is the second largest prefecture-level city of Sichuan province in Southwestern China. It borders Nanchong City to the east, Suining City to t",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3427,26 +3302,6 @@
    "title_signal": false
   },
   {
-   "id": "78d0cbe81a17",
-   "source": "wikipedia",
-   "title": "Twin Earth thought experiment",
-   "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
-   "published": "",
-   "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "f5cd3cda2a7a",
    "source": "wikipedia",
    "title": "Experiment",
@@ -3493,6 +3348,146 @@
    "url": "https://en.wikipedia.org/wiki/History_of_science",
    "published": "",
    "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "5661bb119eeb",
+   "source": "wikipedia",
+   "title": "Milgram experiment",
+   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
+   "published": "",
+   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "ae63027fda5d",
+   "source": "wikipedia",
+   "title": "Rosenhan experiment",
+   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
+   "published": "",
+   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "6215b15a1e45",
+   "source": "wikipedia",
+   "title": "中世紀科學史",
+   "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E4%B8%96%E7%B4%80%E7%A7%91%E5%AD%B8%E5%8F%B2",
+   "published": "",
+   "summary": "中世紀科學史是指在中世紀，星象、藥物、數學等科学在當時都相當的活躍，但是，由於古代的文化(在羅馬及伊斯蘭的落沒之前的時期)已經存在有許多的科學基礎，所以研究科學的方法才能夠在中世紀時誕生，也因此科學能夠在此時正式地與哲學分野，然而在當時世界各地像是伊斯蘭世界、地中海盆地、中國，以及印度等也已經有了科學研究的足跡，而在西歐一度落後的科學發展則是從12世紀開始再次趕上這些地區。 拜占庭帝國是中世紀早期的文化指標，它保存了希臘羅馬時期的自然、數學，以及藥學的系統以及理論；亞里士多德、阿基米德、蓋倫、托勒密，以及歐幾里得的思想在當時傳遍整個帝國。他們的著作及注解釋為中世紀科學發展的根源，因為那時候的西歐地區的文化由於西羅馬帝國的落沒而遭受破壞，但是因為有了義大利神學家托馬斯·阿奎那及法國學者布里丹等人的貢獻，西歐科學研究的精神得以保存，而當時所保存的著作也因此成為了往後歐洲的科學在科學革命時期能夠",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f088ab6a58af",
+   "source": "wikipedia",
+   "title": "Air Force Command College",
+   "url": "https://en.wikipedia.org/wiki/Air_Force_Command_College",
+   "published": "",
+   "summary": "The Air Force Command College (AFCC), MOE Code (院校代码): 91023, is the highest academic institution of the Chinese People's Liberation Army Air Force (PLAAF), with a corps deputy grade, and it is tasked with training the commanding officer corps for the force. It is based in Beijing, right next to the Kunming Lake and the Beijing Xijiao Airport. It is an intermediate command school for the trainin",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "86b390281ac8",
+   "source": "wikipedia",
+   "title": "Beijing Electronic Science and Technology Institute",
+   "url": "https://en.wikipedia.org/wiki/Beijing_Electronic_Science_and_Technology_Institute",
+   "published": "",
+   "summary": "Beijing Electronic Science and Technology Institute, or BEIST, is located at No. 7 Fufeng Road, Fengtai District, Beijing. It is a general institution of higher learning that trains professional and technical personnel in information security and office automation for party and government agencies. It is affiliated with the General Office of the Chinese Communist Party. The college is a major rese",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4155afb423c4",
+   "source": "wikipedia",
+   "title": "Li Fei'er",
+   "url": "https://en.wikipedia.org/wiki/Li_Fei%27er",
+   "published": "",
+   "summary": "Li Fei'er (simplified Chinese: 李菲儿; traditional Chinese: 李菲兒; pinyin: Lǐ Fēi'ér, born Li Fei; 3 October 1987), also known as Monica Li, is a Chinese actress and singer. After completing filming for her scenes in Royal Tramp, Li briefly trained in singing and dancing at now-defunct South Korean record label Good Entertainment in 2007.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "57291b5a7813",
+   "source": "wikipedia",
+   "title": "PLA Army Academy of Artillery and Air Defense",
+   "url": "https://en.wikipedia.org/wiki/PLA_Army_Academy_of_Artillery_and_Air_Defense",
+   "published": "",
+   "summary": "The People's Liberation Army Army Academy of Artillery and Air Defense (MOE: 91007) is a military school of deputy corps grade subordinate to the PLA Ground Force. It is responsible for officer, graduate, and NCO training for the PLA artillery forces. The academy was created in 2017 by merging four existing academies.",
    "meta": {
     "site": "en.wikipedia.org"
    },

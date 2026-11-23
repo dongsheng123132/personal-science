@@ -1,78 +1,24 @@
 {
- "generated_at": "2026-11-22T02:14:27+00:00",
- "count": 3,
+ "generated_at": "2026-11-23T02:45:27+00:00",
+ "count": 1,
  "items": [
   {
-   "id": "1d1f037aac76",
+   "id": "db12f0de9716",
    "source": "hackaday",
-   "title": "ESP32 Drives MDA Display For Wireless Terminal",
-   "url": "https://hackaday.com/2026/11/21/esp32-drives-mda-display-for-wireless-terminal",
-   "published": "2026-11-21",
-   "summary": "Don’t you miss the days where you had to point a particle accelerator at your face for a full shift? Well, maybe not when we think of it that way, …read more",
+   "title": "Making a Wax Motor for Micrometer-Level Control",
+   "url": "https://hackaday.com/2026/11/04/making-a-wax-motor-for-micrometer-level-control",
+   "published": "2026-11-04",
+   "summary": "Although not very glamorous, wax motors are a fairly common type of linear actuator. They use the thermal response of waxes and the resulting volumetric expansion or reduction to create …read more",
    "meta": {
-    "query": "oscilloscope"
+    "query": "DIY lab"
    },
    "targeted": true,
-   "score": 77,
+   "score": 70,
    "why": "",
    "obj_hits": [],
    "per_hits": [],
-   "modern_hits": [
-    "esp32"
-   ],
-   "hits": [
-    "esp32"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "484322c2ccd5",
-   "source": "hackaday",
-   "title": "LiDAR Glasses For the Visually Impaired",
-   "url": "https://hackaday.com/2026/11/21/lidar-glasses-for-the-visually-impaired",
-   "published": "2026-11-21",
-   "summary": "The human brain has a fairly remarkable ability to take any sensory input and convert it into another type. Most notably, those with vision impairments can use systems that produce …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 87,
-   "why": "",
-   "obj_hits": [
-    "sensor"
-   ],
-   "per_hits": [],
-   "modern_hits": [
-    "sensor"
-   ],
-   "hits": [
-    "sensor",
-    "sensor"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "78f4403a37fa",
-   "source": "wikipedia",
-   "title": "经典力学",
-   "url": "https://zh.wikipedia.org/wiki/%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6",
-   "published": "",
-   "summary": "经典力学是力学的一个分支。经典力学是以牛顿运动定律为基础，在宏观世界和低速状态下，研究物体运动的基本学科。在物理學裏，经典力学是最早被接受为力學的一个基本綱領。经典力学又分为静力学（描述静止物体）、运动学（描述物体运动）和动力学（描述物体受力作用下的运动）。16世纪，伽利略·伽利莱就已采用科学实验和数学分析的方法研究力学。他为后来的科学家提供了许多豁然开朗的启示。艾萨克·牛顿则是最早使用数学语言描述力学定律的科学家。 后来，拉格朗日、哈密顿创立更为抽象的研究方法來表述经典力学。新的表述形式被称为拉格朗日力学和哈密顿力学，或统称为分析力学。这些进步主要发生在18世纪和19世纪，新的表达方式大大超出了牛顿所表达经典力学的工作范围，特别是通过使用分析力学，经过一些类比和推广即可用于现代物理学的所有领域。 在研究速度不接近光速、质量不是非常大的宏观物体时，经典力学提供了非常精确的结果。然而，当被检",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
    "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
+   "hits": [],
    "title_signal": false
   }
  ]
