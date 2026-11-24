@@ -1,6 +1,33 @@
 {
- "generated_at": "2026-11-23T02:44:39+00:00",
- "date": "2026-11-23",
- "count": 0,
- "items": []
+ "generated_at": "2026-11-24T06:01:44+00:00",
+ "date": "2026-11-24",
+ "count": 1,
+ "items": [
+  {
+   "id": "3eaaa4bafdc1",
+   "source": "hackaday",
+   "title": "Correcting The Pink Photo From My Modified Phone: A Follow-Up",
+   "url": "https://hackaday.com/2026/11/23/correcting-the-pink-photo-from-my-modified-phone-a-follow-up",
+   "published": "2026-11-23",
+   "summary": "A week or so ago I posted an Ask Hackaday, in which I asked the community for help with a common camera hacking problem I was having with my mobile phone …read more",
+   "meta": {
+    "query": "calibration"
+   },
+   "targeted": true,
+   "score": 87,
+   "why": "命中 camera、camera，2026-11-23",
+   "obj_hits": [
+    "camera"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "camera"
+   ],
+   "hits": [
+    "camera",
+    "camera"
+   ],
+   "title_signal": false
+  }
+ ]
 }

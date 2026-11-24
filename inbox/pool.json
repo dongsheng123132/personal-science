@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23T02:44:39+00:00",
+ "updated_at": "2026-11-24T06:01:44+00:00",
  "count": 150,
  "items": [
   {
@@ -458,6 +458,32 @@
    "title_signal": true
   },
   {
+   "id": "3eaaa4bafdc1",
+   "source": "hackaday",
+   "title": "Correcting The Pink Photo From My Modified Phone: A Follow-Up",
+   "url": "https://hackaday.com/2026/11/23/correcting-the-pink-photo-from-my-modified-phone-a-follow-up",
+   "published": "2026-11-23",
+   "summary": "A week or so ago I posted an Ask Hackaday, in which I asked the community for help with a common camera hacking problem I was having with my mobile phone …read more",
+   "meta": {
+    "query": "calibration"
+   },
+   "targeted": true,
+   "score": 87,
+   "why": "",
+   "obj_hits": [
+    "camera"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "camera"
+   ],
+   "hits": [
+    "camera",
+    "camera"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "484322c2ccd5",
    "source": "hackaday",
    "title": "LiDAR Glasses For the Visually Impaired",
@@ -729,29 +755,6 @@
    "title_signal": false
   },
   {
-   "id": "cdab6f91c559",
-   "source": "hackaday",
-   "title": "Binocular Chair Lets You Stargaze in Comfort",
-   "url": "https://hackaday.com/2026/11/16/binocular-chair-lets-you-stargaze-in-comfort",
-   "published": "2026-11-16",
-   "summary": "Telescopes are great, but sometimes binoculars are the right tool for stargazing. Holding them in front of your face for a long night of observation can get onerous though, so …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 84,
-   "why": "",
-   "obj_hits": [
-    "telescope"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "telescope"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "6ae5874d9649",
    "source": "hackaday",
    "title": "Detecting an Eight Magnetic Pole State using Chiral Phonons",
@@ -999,6 +1002,29 @@
     "3d print"
    ],
    "title_signal": true
+  },
+  {
+   "id": "cdab6f91c559",
+   "source": "hackaday",
+   "title": "Binocular Chair Lets You Stargaze in Comfort",
+   "url": "https://hackaday.com/2026/11/16/binocular-chair-lets-you-stargaze-in-comfort",
+   "published": "2026-11-16",
+   "summary": "Telescopes are great, but sometimes binoculars are the right tool for stargazing. Holding them in front of your face for a long night of observation can get onerous though, so …read more",
+   "meta": {
+    "query": "telescope"
+   },
+   "targeted": true,
+   "score": 80,
+   "why": "",
+   "obj_hits": [
+    "telescope"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "telescope"
+   ],
+   "title_signal": false
   },
   {
    "id": "a9f65c0cff45",
@@ -1691,30 +1717,6 @@
    "title_signal": false
   },
   {
-   "id": "1c289800e7eb",
-   "source": "wikipedia",
-   "title": "自然哲学",
-   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
-   "published": "",
-   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "3548437df952",
    "source": "wikipedia",
    "title": "埃弗里-麦克劳德-麦卡蒂实验",
@@ -1807,6 +1809,54 @@
    "modern_hits": [],
    "hits": [
     "biology"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "84d08da14f64",
+   "source": "wikipedia",
+   "title": "Theory of relativity",
+   "url": "https://en.wikipedia.org/wiki/Theory_of_relativity",
+   "published": "",
+   "summary": "The theory of relativity comprises two physics theories by Albert Einstein: special relativity and general relativity, proposed and published in 1905 and 1915, respectively. Special relativity applies to all physical phenomena in the absence of gravity. General relativity explains the law of gravitation and its relation to the forces of nature. It applies to the cosmological and astrophysical real",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "1c289800e7eb",
+   "source": "wikipedia",
+   "title": "自然哲学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
+   "published": "",
+   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
    ],
    "title_signal": false
   },
@@ -2027,30 +2077,6 @@
    "title_signal": false
   },
   {
-   "id": "84d08da14f64",
-   "source": "wikipedia",
-   "title": "Theory of relativity",
-   "url": "https://en.wikipedia.org/wiki/Theory_of_relativity",
-   "published": "",
-   "summary": "The theory of relativity comprises two physics theories by Albert Einstein: special relativity and general relativity, proposed and published in 1905 and 1915, respectively. Special relativity applies to all physical phenomena in the absence of gravity. General relativity explains the law of gravitation and its relation to the forces of nature. It applies to the cosmological and astrophysical real",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "45a836609966",
    "source": "wikipedia",
    "title": "Rutherford scattering experiments",
@@ -2138,44 +2164,6 @@
    "url": "https://hackaday.com/2026/11/17/newer-rigol-scopes-get-a-custom-linux-firmware",
    "published": "2026-11-17",
    "summary": "Electronics test equipment is a topic near and dear to many Hackaday readers. The average reader of this article is most likely within 50 feet of a multimeter, and it …read more",
-   "meta": {
-    "query": "oscilloscope"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "dc20ae75c7eb",
-   "source": "hackaday",
-   "title": "Can’t Get the Right Cassette Mechanism? Have a Go at Making Your Own!",
-   "url": "https://hackaday.com/2026/11/16/cant-get-the-right-cassette-mechanism-have-a-go-at-making-your-own",
-   "published": "2026-11-16",
-   "summary": "In the world of cassette tape enthusiasts, it’s an oft-repeated factoid that there is only one tape deck mechanism still being manufactured. The truth may be a tiny bit murky …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "de6c2635fecd",
-   "source": "hackaday",
-   "title": "On-Demand Development Boards With Remote Access Methods",
-   "url": "https://hackaday.com/2026/11/16/on-demand-development-boards-with-remote-access-methods",
-   "published": "2026-11-16",
-   "summary": "In an increasingly digitally connected world, it can be easy to forget sometimes how much work still relies on specific pieces of hardware, especially in the field of hardware development. …read more",
    "meta": {
     "query": "oscilloscope"
    },
@@ -2384,6 +2372,44 @@
    "title_signal": false
   },
   {
+   "id": "dc20ae75c7eb",
+   "source": "hackaday",
+   "title": "Can’t Get the Right Cassette Mechanism? Have a Go at Making Your Own!",
+   "url": "https://hackaday.com/2026/11/16/cant-get-the-right-cassette-mechanism-have-a-go-at-making-your-own",
+   "published": "2026-11-16",
+   "summary": "In the world of cassette tape enthusiasts, it’s an oft-repeated factoid that there is only one tape deck mechanism still being manufactured. The truth may be a tiny bit murky …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "de6c2635fecd",
+   "source": "hackaday",
+   "title": "On-Demand Development Boards With Remote Access Methods",
+   "url": "https://hackaday.com/2026/11/16/on-demand-development-boards-with-remote-access-methods",
+   "published": "2026-11-16",
+   "summary": "In an increasingly digitally connected world, it can be easy to forget sometimes how much work still relies on specific pieces of hardware, especially in the field of hardware development. …read more",
+   "meta": {
+    "query": "oscilloscope"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "c9b2cf559bcc",
    "source": "hackaday",
    "title": "Watch That Sound: Your Own Chladni Plate",
@@ -2574,6 +2600,30 @@
    "title_signal": false
   },
   {
+   "id": "afdcf27e39ca",
+   "source": "wikipedia",
+   "title": "沙丘 (2021年電影)",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E4%B8%98_(2021%E5%B9%B4%E9%9B%BB%E5%BD%B1)",
+   "published": "",
+   "summary": "《沙丘》（英語：Dune，香港、新加坡译《沙丘瀚战》）是一部2021年美國太空史詩科幻電影，由丹尼·維勒納夫執導，艾瑞克·羅斯、喬·斯派茨和導演本人共同編寫劇本，劇情改編自法蘭克·赫伯特的1965年英文同名科幻小說《沙丘》的前半部分內容，是兩部改編電影計畫中的第一部；劇情講述亞崔迪家族的年輕繼承人保羅，在家族奉命接管盛產珍貴「香料」的沙漠行星厄拉科斯後，捲入政治陰謀與生存危機的故事。主演包括提摩西·夏勒梅、蕾貝卡·弗格森、奧斯卡·伊薩克、喬許·布洛林、史戴倫·史柯斯嘉、巴帝斯塔、史蒂芬·亨德森、赞达亚、戴維·達斯馬齊連、張震、香儂·鄧肯-布魯斯特、夏綠蒂·蘭普琳、傑森·摩莫亞和哈維爾·巴登。 《沙丘》由華納兄弟影業發行，2021年9月3日在第78屆威尼斯影展進行全球首映，10月22日在美國首映，包括IMAX和3D版本，同期於串流媒體平台HBO Max播出一個月。它因其視覺效果，世界觀和野心",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [
+    "在家"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "在家"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "a1d078e21527",
    "source": "wikipedia",
    "title": "以太坊",
@@ -2668,6 +2718,26 @@
    "url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%92%82%E6%96%87%C2%B7%E6%B8%A9%E4%BC%AF%E6%A0%BC",
    "published": "",
    "summary": "史蒂文·温伯格（英語：Steven Weinberg，1933年5月3日—2021年7月23日），生于纽约，美国物理学家，1979年获诺贝尔物理学奖。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "6215b15a1e45",
+   "source": "wikipedia",
+   "title": "中世紀科學史",
+   "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E4%B8%96%E7%B4%80%E7%A7%91%E5%AD%B8%E5%8F%B2",
+   "published": "",
+   "summary": "中世紀科學史是指在中世紀，星象、藥物、數學等科学在當時都相當的活躍，但是，由於古代的文化(在羅馬及伊斯蘭的落沒之前的時期)已經存在有許多的科學基礎，所以研究科學的方法才能夠在中世紀時誕生，也因此科學能夠在此時正式地與哲學分野，然而在當時世界各地像是伊斯蘭世界、地中海盆地、中國，以及印度等也已經有了科學研究的足跡，而在西歐一度落後的科學發展則是從12世紀開始再次趕上這些地區。 拜占庭帝國是中世紀早期的文化指標，它保存了希臘羅馬時期的自然、數學，以及藥學的系統以及理論；亞里士多德、阿基米德、蓋倫、托勒密，以及歐幾里得的思想在當時傳遍整個帝國。他們的著作及注解釋為中世紀科學發展的根源，因為那時候的西歐地區的文化由於西羅馬帝國的落沒而遭受破壞，但是因為有了義大利神學家托馬斯·阿奎那及法國學者布里丹等人的貢獻，西歐科學研究的精神得以保存，而當時所保存的著作也因此成為了往後歐洲的科學在科學革命時期能夠",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2788,26 +2858,6 @@
    "url": "https://zh.wikipedia.org/wiki/Xcon",
    "published": "",
    "summary": "R1（后来被称为XCON，eXpert CONfigurer的所写，意为专家设置）程序是基于生产规则的系统，由卡内基梅隆大学的John P. McDermott在1978年用OPS5开发。其目的是按照用户的需求，帮助DEC为VAX型计算机系统自动选择组件。XCON的开发继承了两个之前用FORTRAN语言和BASIC语言未成功的尝试完成了一个专家系统。 在1980年，XCON最初被用于DEC位于新罕布什尔州萨利姆的工厂。最终它有了大约2500条规则。截止至1986年，它一共处理了80,000条指令，准确率达到95-98%。据估计，通过减少当技师出错时送给客户的组件、加速组装流程、和增加客户满意度，它每年为DEC节省了两千五百万美元。 在使用XCON之前，当从DEC订购VAX时，电缆、接头、和很多软件要单独订购（计算机和外设不像今天一样一起出售）。不是所有的销售人员都是技术专家，所以经常会发生",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "cee5ba259b88",
-   "source": "wikipedia",
-   "title": "印第安電單車",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
-   "published": "",
-   "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2990,6 +3040,106 @@
    "summary": "元科学或元研究也被誉为“关于研究的研究”或“研究科学的科学”，是用科学方法研究科学的学科，旨在提高科学研究的质量和效率。元科学关注所有领域，试图改进所有的研究方法。如约翰·约阿尼迪斯（John Ioannidis）所说：“科学是人类最伟大的成就……但我们还能做得更好。” 1966年，一篇早期的元研究论文考察了10份著名医学期刊上发表的295篇论文所用的统计学方法，发现“在73%的报告中……结论所依据的理由压根是无效的。”元研究在接下来几十年里发现了许多科研方法上的缺陷、低效及不良做法。医学和文科（软科学）领域的许多科学研究都无法得到复现，2010年代初诞生的术语“可复现性危机”即代表了人们对这一问题的关注。 元科学揭示的问题已经有了一些应对的措施，比如对科学研究和临床试验实施事先登记制、成立CONSORT和EQUATOR网络等组织，发布通用的方法和报告指南。也有个人和组织一直致力于减少统计",
    "meta": {
     "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "f088ab6a58af",
+   "source": "wikipedia",
+   "title": "Air Force Command College",
+   "url": "https://en.wikipedia.org/wiki/Air_Force_Command_College",
+   "published": "",
+   "summary": "The Air Force Command College (AFCC), MOE Code (院校代码): 91023, is the highest academic institution of the Chinese People's Liberation Army Air Force (PLAAF), with a corps deputy grade, and it is tasked with training the commanding officer corps for the force. It is based in Beijing, right next to the Kunming Lake and the Beijing Xijiao Airport. It is an intermediate command school for the trainin",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "86b390281ac8",
+   "source": "wikipedia",
+   "title": "Beijing Electronic Science and Technology Institute",
+   "url": "https://en.wikipedia.org/wiki/Beijing_Electronic_Science_and_Technology_Institute",
+   "published": "",
+   "summary": "Beijing Electronic Science and Technology Institute, or BEIST, is located at No. 7 Fufeng Road, Fengtai District, Beijing. It is a general institution of higher learning that trains professional and technical personnel in information security and office automation for party and government agencies. It is affiliated with the General Office of the Chinese Communist Party. The college is a major rese",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "4155afb423c4",
+   "source": "wikipedia",
+   "title": "Li Fei'er",
+   "url": "https://en.wikipedia.org/wiki/Li_Fei%27er",
+   "published": "",
+   "summary": "Li Fei'er (simplified Chinese: 李菲儿; traditional Chinese: 李菲兒; pinyin: Lǐ Fēi'ér, born Li Fei; 3 October 1987), also known as Monica Li, is a Chinese actress and singer. After completing filming for her scenes in Royal Tramp, Li briefly trained in singing and dancing at now-defunct South Korean record label Good Entertainment in 2007.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "57291b5a7813",
+   "source": "wikipedia",
+   "title": "PLA Army Academy of Artillery and Air Defense",
+   "url": "https://en.wikipedia.org/wiki/PLA_Army_Academy_of_Artillery_and_Air_Defense",
+   "published": "",
+   "summary": "The People's Liberation Army Army Academy of Artillery and Air Defense (MOE: 91007) is a military school of deputy corps grade subordinate to the PLA Ground Force. It is responsible for officer, graduate, and NCO training for the PLA artillery forces. The academy was created in 2017 by merging four existing academies.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "39ffe9adb45b",
+   "source": "wikipedia",
+   "title": "Wild Grass (poetry collection)",
+   "url": "https://en.wikipedia.org/wiki/Wild_Grass_(poetry_collection)",
+   "published": "",
+   "summary": "Wild Grass (Chinese: 野草; pinyin: Yécǎo) is a collection of prose poetry by Lu Xun, published in July 1927. It comprises twenty-four pieces (including the preface), written between 1924 and 1926. Among the best-known are \"Autumn Night\", \"The Kite\", \"Snow\", \"The Passer-by\", and \"The Epitaph\". All of them first appeared in serial form in the magazine Yusi (Threads of Language). The collection was co",
+   "meta": {
+    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,
@@ -3302,12 +3452,12 @@
    "title_signal": false
   },
   {
-   "id": "f5cd3cda2a7a",
+   "id": "78d0cbe81a17",
    "source": "wikipedia",
-   "title": "Experiment",
-   "url": "https://en.wikipedia.org/wiki/Experiment",
+   "title": "Twin Earth thought experiment",
+   "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
    "published": "",
-   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
+   "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3322,92 +3472,12 @@
    "title_signal": false
   },
   {
-   "id": "4a260f65e483",
+   "id": "cee5ba259b88",
    "source": "wikipedia",
-   "title": "Galileo's Leaning Tower of Pisa experiment",
-   "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+   "title": "印第安電單車",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
    "published": "",
-   "summary": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "444f60e72a87",
-   "source": "wikipedia",
-   "title": "History of science",
-   "url": "https://en.wikipedia.org/wiki/History_of_science",
-   "published": "",
-   "summary": "The history of science covers the development of science from ancient times to the present. It encompasses all three major branches of science: natural, social, and formal. Protoscience, early sciences, and natural philosophies such as alchemy and astrology that existed during the Bronze Age, Iron Age, classical antiquity and the Middle Ages, declined after the emergence of modern sciences during",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "5661bb119eeb",
-   "source": "wikipedia",
-   "title": "Milgram experiment",
-   "url": "https://en.wikipedia.org/wiki/Milgram_experiment",
-   "published": "",
-   "summary": "The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "ae63027fda5d",
-   "source": "wikipedia",
-   "title": "Rosenhan experiment",
-   "url": "https://en.wikipedia.org/wiki/Rosenhan_experiment",
-   "published": "",
-   "summary": "The Rosenhan experiment or Thud experiment was a study regarding the validity of psychiatric diagnosis. For the experiment, participants submitted themselves for evaluation at various psychiatric institutions and feigned hallucinations in order to be accepted, but acted normally from then onward. Each was diagnosed with a psychiatric disorder and given antipsychotic medication. The study was arran",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "6215b15a1e45",
-   "source": "wikipedia",
-   "title": "中世紀科學史",
-   "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E4%B8%96%E7%B4%80%E7%A7%91%E5%AD%B8%E5%8F%B2",
-   "published": "",
-   "summary": "中世紀科學史是指在中世紀，星象、藥物、數學等科学在當時都相當的活躍，但是，由於古代的文化(在羅馬及伊斯蘭的落沒之前的時期)已經存在有許多的科學基礎，所以研究科學的方法才能夠在中世紀時誕生，也因此科學能夠在此時正式地與哲學分野，然而在當時世界各地像是伊斯蘭世界、地中海盆地、中國，以及印度等也已經有了科學研究的足跡，而在西歐一度落後的科學發展則是從12世紀開始再次趕上這些地區。 拜占庭帝國是中世紀早期的文化指標，它保存了希臘羅馬時期的自然、數學，以及藥學的系統以及理論；亞里士多德、阿基米德、蓋倫、托勒密，以及歐幾里得的思想在當時傳遍整個帝國。他們的著作及注解釋為中世紀科學發展的根源，因為那時候的西歐地區的文化由於西羅馬帝國的落沒而遭受破壞，但是因為有了義大利神學家托馬斯·阿奎那及法國學者布里丹等人的貢獻，西歐科學研究的精神得以保存，而當時所保存的著作也因此成為了往後歐洲的科學在科學革命時期能夠",
+   "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3422,72 +3492,12 @@
    "title_signal": false
   },
   {
-   "id": "f088ab6a58af",
+   "id": "f5cd3cda2a7a",
    "source": "wikipedia",
-   "title": "Air Force Command College",
-   "url": "https://en.wikipedia.org/wiki/Air_Force_Command_College",
+   "title": "Experiment",
+   "url": "https://en.wikipedia.org/wiki/Experiment",
    "published": "",
-   "summary": "The Air Force Command College (AFCC), MOE Code (院校代码): 91023, is the highest academic institution of the Chinese People's Liberation Army Air Force (PLAAF), with a corps deputy grade, and it is tasked with training the commanding officer corps for the force. It is based in Beijing, right next to the Kunming Lake and the Beijing Xijiao Airport. It is an intermediate command school for the trainin",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "86b390281ac8",
-   "source": "wikipedia",
-   "title": "Beijing Electronic Science and Technology Institute",
-   "url": "https://en.wikipedia.org/wiki/Beijing_Electronic_Science_and_Technology_Institute",
-   "published": "",
-   "summary": "Beijing Electronic Science and Technology Institute, or BEIST, is located at No. 7 Fufeng Road, Fengtai District, Beijing. It is a general institution of higher learning that trains professional and technical personnel in information security and office automation for party and government agencies. It is affiliated with the General Office of the Chinese Communist Party. The college is a major rese",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "4155afb423c4",
-   "source": "wikipedia",
-   "title": "Li Fei'er",
-   "url": "https://en.wikipedia.org/wiki/Li_Fei%27er",
-   "published": "",
-   "summary": "Li Fei'er (simplified Chinese: 李菲儿; traditional Chinese: 李菲兒; pinyin: Lǐ Fēi'ér, born Li Fei; 3 October 1987), also known as Monica Li, is a Chinese actress and singer. After completing filming for her scenes in Royal Tramp, Li briefly trained in singing and dancing at now-defunct South Korean record label Good Entertainment in 2007.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "57291b5a7813",
-   "source": "wikipedia",
-   "title": "PLA Army Academy of Artillery and Air Defense",
-   "url": "https://en.wikipedia.org/wiki/PLA_Army_Academy_of_Artillery_and_Air_Defense",
-   "published": "",
-   "summary": "The People's Liberation Army Army Academy of Artillery and Air Defense (MOE: 91007) is a military school of deputy corps grade subordinate to the PLA Ground Force. It is responsible for officer, graduate, and NCO training for the PLA artillery forces. The academy was created in 2017 by merging four existing academies.",
+   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
    "meta": {
     "site": "en.wikipedia.org"
    },

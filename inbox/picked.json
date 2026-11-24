@@ -1,25 +1,5 @@
 {
- "generated_at": "2026-11-23T02:45:27+00:00",
- "count": 1,
- "items": [
-  {
-   "id": "db12f0de9716",
-   "source": "hackaday",
-   "title": "Making a Wax Motor for Micrometer-Level Control",
-   "url": "https://hackaday.com/2026/11/04/making-a-wax-motor-for-micrometer-level-control",
-   "published": "2026-11-04",
-   "summary": "Although not very glamorous, wax motors are a fairly common type of linear actuator. They use the thermal response of waxes and the resulting volumetric expansion or reduction to create …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  }
- ]
+ "generated_at": "2026-11-24T06:03:08+00:00",
+ "count": 0,
+ "items": []
 }
