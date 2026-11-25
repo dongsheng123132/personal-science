@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-24T06:01:44+00:00",
+ "updated_at": "2026-11-25T04:53:32+00:00",
  "count": 150,
  "items": [
   {
@@ -677,6 +677,32 @@
    "title_signal": false
   },
   {
+   "id": "2aaa7d3b0145",
+   "source": "wikipedia",
+   "title": "自然科学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6",
+   "published": "",
+   "summary": "自然科学或经验科学是科学的一个分支，关注对自然现象的描述、理解和预测，基于来自观察和实验的经验证据。 同行评审和研究发现的可重复性等机制，被用来确保科学进展的有效性。 自然科学可分为两大分支：生命科学和物理科学。生命科学也被称为生物学。物理科学细分为物理学、天文学、地球科学和化学。自然科学的这些分支还可进一步划分为更专业的分支，也称为领域。作为经验科学，自然科学使用来自形式科学的工具，如数学和逻辑学，将关于自然的信息转化为可解释为清晰的“自然定律”陈述的测量结果。 现代自然科学取代了更为经典的自然哲学方法。伽利略·伽利莱、约翰内斯·开普勒、勒内·笛卡尔、弗朗西斯·培根和艾萨克·牛顿曾就研究自然时采用更偏数学化的方法相对于更偏实验性的方法有何益处展开辩论。尽管如此，哲学的视角、猜想以及常被忽视的预设，在自然科学中仍是必要的。 系统性的数据收集，包括发现科学，取代了自然史。自然史出现于16世纪",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验",
+    "测量"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验",
+    "测量"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "1e800ac3d6c6",
    "source": "wikipedia",
    "title": "计算物理学",
@@ -974,32 +1000,6 @@
    "hits": [
     "arduino",
     "arduino"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "f956ef278ada",
-   "source": "hackaday",
-   "title": "A 3D Printed Marble Clock, but it’s Scrolling Text",
-   "url": "https://hackaday.com/2026/10/25/a-3d-printed-marble-clock-but-its-scrolling-text",
-   "published": "2026-10-25",
-   "summary": "With the topic of marble clocks having been quite well explored at this point, it raises the question of how easy it would be to take the basic principle and …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 81,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "3d print"
-   ],
-   "modern_hits": [
-    "3d print"
-   ],
-   "hits": [
-    "3d print",
-    "3d print"
    ],
    "title_signal": true
   },
@@ -1626,7 +1626,7 @@
    "title": "物理学",
    "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6",
    "published": "",
-   "summary": "物理學或物理（英语：physics）是研究物質、能量的本質與性質的自然科學。由於物質與能量是所有科學研究的必須涉及的基本要素，所以物理學是自然科學中最基礎的學科之一。物理學是一種實驗科學，物理學者從觀測與分析大自然的各種基於物質與能量的現象來找出其中的模式。這些模式稱為「物理理論」，經得起實驗檢驗的常用物理理論稱為物理定律，直到有一天被證明是有錯誤為止（具可否證性）。物理學是由這些定律精緻地建構而成。物理學是自然科學中最基礎的學科之一。化學、生物學、考古學等等科學學術領域的理論都建構於這些物理定律。 物理學是最古老的學術之一。物理學、化學、生物學等等原本都歸屬於自然哲學的範疇，直到十七世紀至十九世紀期間，才漸漸地從自然哲學中分別成長為獨立的學術領域。物理學與其它很多跨領域研究有相當的交集，如量子化學、生物物理學等等。物理學的疆界並不是固定不變的，物理學裡的創始突破時常可以用來解釋這些跨領域",
+   "summary": "物理學或物理（英語：physics）是研究物質、能量的本質與性質的自然科學。由於物質與能量是所有科學研究的必須涉及的基本要素，所以物理學是自然科學中最基礎的學科之一。物理學是一種實驗科學，物理學者從觀測與分析大自然的各種基於物質與能量的現象來找出其中的模式。這些模式稱為「物理理論」，經得起實驗檢驗的常用物理理論稱為物理定律，直到有一天被證明是有錯誤為止（具可否證性）。物理學是由這些定律精緻地建構而成。物理學是自然科學中最基礎的學科之一。化學、生物學、考古學等等科學學術領域的理論都建構於這些物理定律。 物理學是最古老的學術之一。物理學、化學、生物學等等原本都歸屬於自然哲學的範疇，直到十七世紀至十九世紀期間，才漸漸地從自然哲學中分別成長為獨立的學術領域。物理學與其它很多跨領域研究有相當的交集，如量子化學、生物物理學等等。物理學的疆界並不是固定不變的，物理學裡的創始突破時常可以用來解釋這些跨領域",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1699,6 +1699,30 @@
    "url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E6%9C%97%E8%A5%BF%E6%96%AF%C2%B7%E5%9F%B9%E6%A0%B9",
    "published": "",
    "summary": "第一代圣奥尔本子爵弗朗西斯·培根（英語：Francis Bacon, 1st Viscount St Alban，1561年1月22日—1626年4月9日），英国文艺复兴时期哲学家、政要、科學家、法學家、演說家和散文作家，被认为是经验主义哲学的创始人。卡尔·马克思亦称其为“英国唯物主义和整个现代实验科学的真正始祖”。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "1c289800e7eb",
+   "source": "wikipedia",
+   "title": "自然哲学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
+   "published": "",
+   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -1833,30 +1857,6 @@
    "modern_hits": [],
    "hits": [
     "physics"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "1c289800e7eb",
-   "source": "wikipedia",
-   "title": "自然哲学",
-   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6",
-   "published": "",
-   "summary": "自然哲学（英語：natural philosophy），又称自然的神学或实验哲学，是现代自然科学的前身，主要指近代以前对自然和物质宇宙的系统性研究和思考，排除了任何超自然因素的影响。弗朗西斯·培根称自然哲学为「科学的伟大母亲」。19世纪以后，实证和实验取向的现代科学逐渐从哲学中分离出来，自然哲学这一术语也大多被「自然科学」所取代。 艾萨克·牛顿的著作《自然哲学的数学原理》（1687）和开尔文勋爵与彼得·格思里·泰特合著的《自然哲学论》（1867）都反映了「自然哲学」在17至19世纪的通行用法，即相当于对自然的系统研究。在德国哲学传统中，浪漫主义影响下的「自然哲学」（Naturphilosophie）在18至19世纪作为思辨的自然哲学存在，代表人物有歌德、黑格尔和谢林。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "实验"
    ],
    "title_signal": false
   },
@@ -2101,6 +2101,25 @@
    "title_signal": false
   },
   {
+   "id": "93dd9ed77a4d",
+   "source": "hackaday",
+   "title": "Getting Started With Hobbyist-Level 3D Scanning Technologies",
+   "url": "https://hackaday.com/2026/11/24/getting-started-with-hobbyist-level-3d-scanning-technologies",
+   "published": "2026-11-24",
+   "summary": "Going from a physical object to a 3D model on your computer would go so much faster than manual modelling if you could just hold the object up to said …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "97a6ae48cc4e",
    "source": "hackaday",
    "title": "How Hough Transforms Enable Computers to See",
@@ -2126,44 +2145,6 @@
    "url": "https://hackaday.com/2026/11/18/serial-the-port-that-wont-die",
    "published": "2026-11-18",
    "summary": "Computers have changed quite a bit over the last 60 years. Good luck plugging in an old MFM disk into your modern computer. Plugging in a parallel printer is difficult, …read more",
-   "meta": {
-    "query": "oscilloscope"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "296b2306ff03",
-   "source": "hackaday",
-   "title": "Making an Affordable Two-Axis Solar Tracker",
-   "url": "https://hackaday.com/2026/11/17/making-an-affordable-two-axis-solar-tracker",
-   "published": "2026-11-17",
-   "summary": "Setting up a photovoltaic panel is simple, but you lose a lot of potential power if you merely bolt said panel into place. With a tracker the panel will instead …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 74,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "5fe9a6e86225",
-   "source": "hackaday",
-   "title": "Newer Rigol Scopes Get a Custom Linux Firmware",
-   "url": "https://hackaday.com/2026/11/17/newer-rigol-scopes-get-a-custom-linux-firmware",
-   "published": "2026-11-17",
-   "summary": "Electronics test equipment is a topic near and dear to many Hackaday readers. The average reader of this article is most likely within 50 feet of a multimeter, and it …read more",
    "meta": {
     "query": "oscilloscope"
    },
@@ -2372,14 +2353,33 @@
    "title_signal": false
   },
   {
-   "id": "dc20ae75c7eb",
+   "id": "296b2306ff03",
    "source": "hackaday",
-   "title": "Can’t Get the Right Cassette Mechanism? Have a Go at Making Your Own!",
-   "url": "https://hackaday.com/2026/11/16/cant-get-the-right-cassette-mechanism-have-a-go-at-making-your-own",
-   "published": "2026-11-16",
-   "summary": "In the world of cassette tape enthusiasts, it’s an oft-repeated factoid that there is only one tape deck mechanism still being manufactured. The truth may be a tiny bit murky …read more",
+   "title": "Making an Affordable Two-Axis Solar Tracker",
+   "url": "https://hackaday.com/2026/11/17/making-an-affordable-two-axis-solar-tracker",
+   "published": "2026-11-17",
+   "summary": "Setting up a photovoltaic panel is simple, but you lose a lot of potential power if you merely bolt said panel into place. With a tracker the panel will instead …read more",
    "meta": {
     "query": "sensor"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "5fe9a6e86225",
+   "source": "hackaday",
+   "title": "Newer Rigol Scopes Get a Custom Linux Firmware",
+   "url": "https://hackaday.com/2026/11/17/newer-rigol-scopes-get-a-custom-linux-firmware",
+   "published": "2026-11-17",
+   "summary": "Electronics test equipment is a topic near and dear to many Hackaday readers. The average reader of this article is most likely within 50 feet of a multimeter, and it …read more",
+   "meta": {
+    "query": "oscilloscope"
    },
    "targeted": true,
    "score": 70,
@@ -2399,6 +2399,25 @@
    "summary": "In an increasingly digitally connected world, it can be easy to forget sometimes how much work still relies on specific pieces of hardware, especially in the field of hardware development. …read more",
    "meta": {
     "query": "oscilloscope"
+   },
+   "targeted": true,
+   "score": 70,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "dc20ae75c7eb",
+   "source": "hackaday",
+   "title": "Can’t Get the Right Cassette Mechanism? Have a Go at Making Your Own!",
+   "url": "https://hackaday.com/2026/11/16/cant-get-the-right-cassette-mechanism-have-a-go-at-making-your-own",
+   "published": "2026-11-16",
+   "summary": "In the world of cassette tape enthusiasts, it’s an oft-repeated factoid that there is only one tape deck mechanism still being manufactured. The truth may be a tiny bit murky …read more",
+   "meta": {
+    "query": "sensor"
    },
    "targeted": true,
    "score": 70,
@@ -2752,26 +2771,6 @@
    "title_signal": false
   },
   {
-   "id": "91b5bfdb8698",
-   "source": "wikipedia",
-   "title": "科学分支",
-   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%88%86%E6%94%AF",
-   "published": "",
-   "summary": "科学的分支、分类，也称科学领域，通常分为三大类： 形式科学：对形式系统的研究，如逻辑和数学分支下的学科。它们依据先验知识，而非建立在实证基础上。 自然科学：对自然现象的研究（包括宇宙内的宇宙学、地质学、物理学、化学和生物学影响）。自然科学可分为两个主要分支：物理科学和生命科学（或生物科学）。 社会科学：在社会和文化角度研究人类行为的科学。 科学知识必须建立在可观察的现象之上，并且能够在相同条件下被其他研究者验证。自然科学、社会科学和形式科学构成基础科学，它们也是跨学科和应用科学（如工程学和医学）的基础。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "5716602e848d",
    "source": "wikipedia",
    "title": "科学史",
@@ -2798,26 +2797,6 @@
    "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%B2%E5%AD%A6%E5%8F%B2",
    "published": "",
    "summary": "科学史学史，有时也被称为科学史，是一门研究有关科学的历史和方法论的历史分支学科，研究内容包括其学科方面和实践层面（方法、理论、流派）以及对其自身历史发展的研究（ “科学史的历史”，即一门称作科学史的历史学科）。 由于有关科学史研究的适当方法的史学争论有时难以与关于科学的发展历程的历史争论区分开来，因此，后一类的早期争论通常被认为是该学科的开端。例如，这种讨论贯穿了伟大的历史学家和科学哲学家威廉·惠威尔的历史著作。因此，他经常被恰当地认为是这门学科的始祖，另外还有皮埃尔·迪昂和亚历山大·柯瓦雷也对该学科的建立做出了先驱性的贡献。 对科学史学的明确表述，通常可以追溯到 20 世纪 60 年代初期。例如，1965年格尔德·布赫达尔发表的《科学史学史革命》就涉及了托马斯·库恩和约瑟夫·阿伽西的创新研究。他认为这两位作家通过明确区分历史和科学史学史开创了这个学科，他们认为史学观点极大地影响了科学史的",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "2aaa7d3b0145",
-   "source": "wikipedia",
-   "title": "自然科学",
-   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6",
-   "published": "",
-   "summary": "自然科学（natural science）是研究大自然中有机或无机的事物和现象的科学。 自然科学包括天文學、物理学、化学、地球科学、生物学等；必须注意的是其不包含逻辑学、数学、统计学。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2872,12 +2851,12 @@
    "title_signal": false
   },
   {
-   "id": "a19f8aa2f80d",
+   "id": "5668918f426d",
    "source": "wikipedia",
-   "title": "突變第三型",
-   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
+   "title": "魔术沙",
+   "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%9C%AF%E6%B2%99",
    "published": "",
-   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
+   "summary": "魔术沙是一种被疏水材料包裹的沙制玩具。这种疏水材料使用了三甲基硅醇这种有机化合物。 最早的防水沙在1915年的《The Boy Mechanic Book 2》一书中记载。这个防水沙由东印度魔术师发明，它由混合加热的沙子和熔化的蜡得到，所用的蜡在水中可以疏水。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -2892,12 +2871,12 @@
    "title_signal": false
   },
   {
-   "id": "5668918f426d",
+   "id": "70780f97963a",
    "source": "wikipedia",
-   "title": "魔术沙",
-   "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%9C%AF%E6%B2%99",
+   "title": "黛米·摩尔",
+   "url": "https://zh.wikipedia.org/wiki/%E9%BB%9B%E7%B1%B3%C2%B7%E6%91%A9%E5%B0%94",
    "published": "",
-   "summary": "魔术沙是一种被疏水材料包裹的沙制玩具。这种疏水材料使用了三甲基硅醇这种有机化合物。 最早的防水沙在1915年的《The Boy Mechanic Book 2》一书中记载。这个防水沙由东印度魔术师发明，它由混合加热的沙子和熔化的蜡得到，所用的蜡在水中可以疏水。",
+   "summary": "黛米·吉恩·摩尔（Demi Gene Moore，1962年11月11日—），前姓蓋尼斯（Guynes），美国女演员。 黛米·摩尔在20世纪80年代初于好莱坞声名鹊起，1995年，她成为世界上收入最高的女演员。她被公认为好莱坞女性同工同酬的先驱。获得的重要荣誉包括金球奖和美国演员工会奖，并获得奥斯卡金像奖、英国电影学院奖和艾美奖提名。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3072,12 +3051,12 @@
    "title_signal": false
   },
   {
-   "id": "86b390281ac8",
+   "id": "e7951e4e685f",
    "source": "wikipedia",
-   "title": "Beijing Electronic Science and Technology Institute",
-   "url": "https://en.wikipedia.org/wiki/Beijing_Electronic_Science_and_Technology_Institute",
+   "title": "HIV/AIDS in China",
+   "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_China",
    "published": "",
-   "summary": "Beijing Electronic Science and Technology Institute, or BEIST, is located at No. 7 Fufeng Road, Fengtai District, Beijing. It is a general institution of higher learning that trains professional and technical personnel in information security and office automation for party and government agencies. It is affiliated with the General Office of the Chinese Communist Party. The college is a major rese",
+   "summary": "HIV/AIDS in China can be traced to an initial outbreak of the human immunodeficiency virus (HIV) first recognized in 1989 among injecting drug users along China's southern border. Figures from the Chinese Center for Disease Control and Prevention, World Health Organization, and UNAIDS estimate that there were 1.25 million people living with HIV/AIDS in China at the end of 2018, with 135,000 new in",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3158,6 +3137,66 @@
    "url": "https://en.wikipedia.org/wiki/History_of_Nankai_University",
    "published": "",
    "summary": "Nankai University is located in Tianjin, People's Republic of China. It was co-founded by prominent modern Chinese educators Yan Xiu and Zhang Boling, originating from the establishment of Nankai School in 1904. In 1919, the university division of Nankai School was formally established. On September 25, 1919, the university division of Nankai School held its first opening ceremony, marking the off",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "91b5bfdb8698",
+   "source": "wikipedia",
+   "title": "科学分支",
+   "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%88%86%E6%94%AF",
+   "published": "",
+   "summary": "科学的分支、分类，也称科学领域，通常分为三大类： 形式科学：对形式系统的研究，如逻辑和数学分支下的学科。它们依据先验知识，而非建立在实证基础上。 自然科学：对自然现象的研究（包括宇宙内的宇宙学、地质学、物理学、化学和生物学影响）。自然科学可分为两个主要分支：物理科学和生命科学（或生物科学）。 社会科学：在社会和文化角度研究人类行为的科学。 科学知识必须建立在可观察的现象之上，并且能够在相同条件下被其他研究者验证。自然科学、社会科学和形式科学构成基础科学，它们也是跨学科和应用科学（如工程学和医学）的基础。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "a19f8aa2f80d",
+   "source": "wikipedia",
+   "title": "突變第三型",
+   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
+   "published": "",
+   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "86b390281ac8",
+   "source": "wikipedia",
+   "title": "Beijing Electronic Science and Technology Institute",
+   "url": "https://en.wikipedia.org/wiki/Beijing_Electronic_Science_and_Technology_Institute",
+   "published": "",
+   "summary": "Beijing Electronic Science and Technology Institute, or BEIST, is located at No. 7 Fufeng Road, Fengtai District, Beijing. It is a general institution of higher learning that trains professional and technical personnel in information security and office automation for party and government agencies. It is affiliated with the General Office of the Chinese Communist Party. The college is a major rese",
    "meta": {
     "site": "en.wikipedia.org"
    },
@@ -3458,46 +3497,6 @@
    "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
    "published": "",
    "summary": "Twin Earth is a thought experiment proposed by philosopher Hilary Putnam in his papers \"Meaning and Reference\" (1973) and \"The Meaning of 'Meaning'\" (1975). It is meant to serve as an illustration of his argument for semantic externalism, or the view that the meanings of words are not purely psychological. The Twin Earth thought experiment was one of three examples that Putnam offered in support o",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "cee5ba259b88",
-   "source": "wikipedia",
-   "title": "印第安電單車",
-   "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%AC%AC%E5%AE%89%E9%9B%BB%E5%96%AE%E8%BB%8A",
-   "published": "",
-   "summary": "印地安電單車（英語：Indian Motorcycle）是美國的電單車品牌。它以生产大排量V型双气缸发动机的摩托车而闻名。印地安摩托车公司生产的著名摩托车型号有Scouts、Cheif、Chieftan和Roadmaster等。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "f5cd3cda2a7a",
-   "source": "wikipedia",
-   "title": "Experiment",
-   "url": "https://en.wikipedia.org/wiki/Experiment",
-   "published": "",
-   "summary": "An experiment is a procedure carried out to support or refute a hypothesis, or determine the efficacy or likelihood of something previously untried. Experiments provide insight into cause-and-effect by demonstrating what outcome occurs when a particular factor is manipulated. Experiments vary greatly in goal and scale but always rely on repeatable procedure and logical analysis of the results. The",
    "meta": {
     "site": "en.wikipedia.org"
    },

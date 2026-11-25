@@ -1,5 +1,25 @@
 {
- "generated_at": "2026-11-24T06:03:08+00:00",
- "count": 0,
- "items": []
+ "generated_at": "2026-11-25T04:54:26+00:00",
+ "count": 1,
+ "items": [
+  {
+   "id": "93dd9ed77a4d",
+   "source": "hackaday",
+   "title": "Getting Started With Hobbyist-Level 3D Scanning Technologies",
+   "url": "https://hackaday.com/2026/11/24/getting-started-with-hobbyist-level-3d-scanning-technologies",
+   "published": "2026-11-24",
+   "summary": "Going from a physical object to a 3D model on your computer would go so much faster than manual modelling if you could just hold the object up to said …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  }
+ ]
 }

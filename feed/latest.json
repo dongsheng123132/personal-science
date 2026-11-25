@@ -1,32 +1,25 @@
 {
- "generated_at": "2026-11-24T06:01:44+00:00",
- "date": "2026-11-24",
+ "generated_at": "2026-11-25T04:53:32+00:00",
+ "date": "2026-11-25",
  "count": 1,
  "items": [
   {
-   "id": "3eaaa4bafdc1",
+   "id": "93dd9ed77a4d",
    "source": "hackaday",
-   "title": "Correcting The Pink Photo From My Modified Phone: A Follow-Up",
-   "url": "https://hackaday.com/2026/11/23/correcting-the-pink-photo-from-my-modified-phone-a-follow-up",
-   "published": "2026-11-23",
-   "summary": "A week or so ago I posted an Ask Hackaday, in which I asked the community for help with a common camera hacking problem I was having with my mobile phone …read more",
+   "title": "Getting Started With Hobbyist-Level 3D Scanning Technologies",
+   "url": "https://hackaday.com/2026/11/24/getting-started-with-hobbyist-level-3d-scanning-technologies",
+   "published": "2026-11-24",
+   "summary": "Going from a physical object to a 3D model on your computer would go so much faster than manual modelling if you could just hold the object up to said …read more",
    "meta": {
-    "query": "calibration"
+    "query": "sensor"
    },
    "targeted": true,
-   "score": 87,
-   "why": "命中 camera、camera，2026-11-23",
-   "obj_hits": [
-    "camera"
-   ],
+   "score": 74,
+   "why": "2026-11-24",
+   "obj_hits": [],
    "per_hits": [],
-   "modern_hits": [
-    "camera"
-   ],
-   "hits": [
-    "camera",
-    "camera"
-   ],
+   "modern_hits": [],
+   "hits": [],
    "title_signal": false
   }
  ]
