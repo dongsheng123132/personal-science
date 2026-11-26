@@ -1,25 +1,30 @@
 {
- "generated_at": "2026-11-25T04:54:26+00:00",
+ "generated_at": "2026-11-26T04:10:16+00:00",
  "count": 1,
  "items": [
   {
-   "id": "93dd9ed77a4d",
-   "source": "hackaday",
-   "title": "Getting Started With Hobbyist-Level 3D Scanning Technologies",
-   "url": "https://hackaday.com/2026/11/24/getting-started-with-hobbyist-level-3d-scanning-technologies",
-   "published": "2026-11-24",
-   "summary": "Going from a physical object to a 3D model on your computer would go so much faster than manual modelling if you could just hold the object up to said …read more",
+   "id": "5d89f5dc10bd",
+   "source": "wikipedia",
+   "title": "水桶实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E6%A1%B6%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "艾萨克·牛顿提出的旋转水桶论证（亦称牛顿的水桶）是一项思想实验，旨在说明真正的旋转运动并不能被定义为物体相对于其周围物体的相对旋转。该实验是牛顿为论证“真实运动与静止”的“性质、原因及结果”而提出的五个论证之一，用以支持他的观点：总体而言，真实的运动与静止并非仅是相对于其他物体的特殊运动或静止状态，而只能通过参照“绝对空间”来加以界定。 换言之，这一系列实验提供了“绝对旋转”这一概念的操作性定义，而并非试图回答“相对于什么旋转”这一问题。广义相对论则摒弃了“绝对空间”以及任何源于系统外部的物理原因，而以“时空测地线”的概念取而代之。",
    "meta": {
-    "query": "sensor"
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
-   "score": 74,
+   "score": 76,
    "why": "",
-   "obj_hits": [],
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
    "per_hits": [],
    "modern_hits": [],
-   "hits": [],
-   "title_signal": false
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
   }
  ]
 }

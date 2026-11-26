@@ -1,21 +1,72 @@
 {
- "generated_at": "2026-11-25T04:53:32+00:00",
- "date": "2026-11-25",
- "count": 1,
+ "generated_at": "2026-11-26T04:09:21+00:00",
+ "date": "2026-11-26",
+ "count": 3,
  "items": [
   {
-   "id": "93dd9ed77a4d",
-   "source": "hackaday",
-   "title": "Getting Started With Hobbyist-Level 3D Scanning Technologies",
-   "url": "https://hackaday.com/2026/11/24/getting-started-with-hobbyist-level-3d-scanning-technologies",
-   "published": "2026-11-24",
-   "summary": "Going from a physical object to a 3D model on your computer would go so much faster than manual modelling if you could just hold the object up to said …read more",
+   "id": "dbbec9f781a8",
+   "source": "wikipedia",
+   "title": "任宁格实验",
+   "url": "https://zh.wikipedia.org/wiki/%E4%BB%BB%E5%AE%81%E6%A0%BC%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "在量子力学中，任宁格实验 （Renninger negative-result experiment） 是一个思想实验，它阐述了理解波函数坍缩与量子测量的一些困难。它描述了一个粒子并不需要为使一次测量发生而被侦测到，粒子未被侦测到也构成一次测量。这思想实验在1953年由毛里求斯·任宁格提出。它可以被理解为莫特问题所展示的佯谬的升级版。",
    "meta": {
-    "query": "sensor"
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
-   "score": 74,
-   "why": "2026-11-24",
+   "score": 86,
+   "why": "命中 实验、测量",
+   "timeless": true,
+   "obj_hits": [
+    "实验",
+    "测量"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验",
+    "测量"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "5d89f5dc10bd",
+   "source": "wikipedia",
+   "title": "水桶实验",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E6%A1%B6%E5%AE%9E%E9%AA%8C",
+   "published": "",
+   "summary": "艾萨克·牛顿提出的旋转水桶论证（亦称牛顿的水桶）是一项思想实验，旨在说明真正的旋转运动并不能被定义为物体相对于其周围物体的相对旋转。该实验是牛顿为论证“真实运动与静止”的“性质、原因及结果”而提出的五个论证之一，用以支持他的观点：总体而言，真实的运动与静止并非仅是相对于其他物体的特殊运动或静止状态，而只能通过参照“绝对空间”来加以界定。 换言之，这一系列实验提供了“绝对旋转”这一概念的操作性定义，而并非试图回答“相对于什么旋转”这一问题。广义相对论则摒弃了“绝对空间”以及任何源于系统外部的物理原因，而以“时空测地线”的概念取而代之。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "命中 实验",
+   "timeless": true,
+   "obj_hits": [
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "2b0159c943c2",
+   "source": "wikipedia",
+   "title": "中国科学技术史",
+   "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%8F%B2",
+   "published": "",
+   "summary": "中国科学技术史，是一套以科学發展為主軸的中國史。中國科学史可與中國思想史結合在一起，相輔相成，是世界科学文化史的重要组成部分。中國科学萌芽於先秦時期，受到當時的哲學家中注重逻辑思辯、认识论及几何学研究的墨家，以及重視辯論的名家所啟蒙。漢代造紙術的普及提供了條件，使前人的科學思想知識及辯證，通過紙張保存了下来，後人得以前人的科學著作為藍本作改良，或通過辩证後推翻，形成一套經验主义科學傳統。至隋唐及宋朝時，中国的科学曾長时期高据世界领先地位。然而由于近代历史原因，許多古中國科學著作或失傳或流失海外，均不利於中國科学史的发掘整理。科學著作的失傳及流失，甚至令後世史家曾一度認為中國沒有科學。 现时可考证到的古中国科学著作，以及相关的古代著作数量庞大，涵盖科学数个主要分支：数学、医学、自然科学、建筑及工程学，又有其他次分支，包括农学、航海学、心理学、地图学及物候学等多个学科内容。系统化地记载了当时的",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "来自 wikipedia",
+   "timeless": true,
    "obj_hits": [],
    "per_hits": [],
    "modern_hits": [],
