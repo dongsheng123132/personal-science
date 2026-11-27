@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T04:09:21+00:00",
+ "updated_at": "2026-11-27T04:15:31+00:00",
  "count": 150,
  "items": [
   {
@@ -308,6 +308,32 @@
     "camera",
     "cheap",
     "camera"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "7163ac279e60",
+   "source": "hackaday",
+   "title": "Location-Accurate Weather For Your Gecko",
+   "url": "https://hackaday.com/2026/11/26/location-accurate-weather-for-your-gecko",
+   "published": "2026-11-26",
+   "summary": "When building a terrarium, most people do their best to make it an acceptable environment for its inhabitant. Temperature and lighting can be regulated, and habitat-appropriate props placed to provide …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 90,
+   "why": "",
+   "obj_hits": [
+    "temperature",
+    "weather"
+   ],
+   "per_hits": [
+    "build"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "temperature",
+    "weather",
+    "build"
    ],
    "title_signal": true
   },
@@ -651,32 +677,6 @@
    "title_signal": false
   },
   {
-   "id": "1e800ac3d6c6",
-   "source": "wikipedia",
-   "title": "计算物理学",
-   "url": "https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E5%AD%A6",
-   "published": "",
-   "summary": "計算物理學（英語：Computational physics）是研究如何使用數值方法分析可以量化的物理学問題的学科。 历史上，计算物理学是计算机的第一项应用；目前计算物理学被视为计算科学的分支。 计算物理有时也被视为理论物理的分支学科或子问题，但也有人认为计算物理与理论物理与实验物理联系紧密，又相对独立，是物理学第三大分支。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 86,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics",
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics",
-    "实验"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "2aaa7d3b0145",
    "source": "wikipedia",
    "title": "自然科学",
@@ -699,6 +699,32 @@
    "hits": [
     "实验",
     "测量"
+   ],
+   "title_signal": false
+  },
+  {
+   "id": "1e800ac3d6c6",
+   "source": "wikipedia",
+   "title": "计算物理学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E5%AD%A6",
+   "published": "",
+   "summary": "計算物理學（英語：Computational physics）是研究如何使用數值方法分析可以量化的物理学問題的学科。 历史上，计算物理学是计算机的第一项应用；目前计算物理学被视为计算科学的分支。 计算物理有时也被视为理论物理的分支学科或子问题，但也有人认为计算物理与理论物理与实验物理联系紧密，又相对独立，是物理学第三大分支。",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics",
+    "实验"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics",
+    "实验"
    ],
    "title_signal": false
   },
@@ -839,7 +865,7 @@
    "published": "2026-11-18",
    "summary": "It’s one thing to know that input from a motion sensor can steer a motor. It’s another to see and feel the two cancelling out the other in real-time, right …read more",
    "meta": {
-    "query": "sensor"
+    "query": "DIY lab"
    },
    "targeted": true,
    "score": 83,
@@ -1383,6 +1409,29 @@
     "人工智能"
    ],
    "title_signal": false
+  },
+  {
+   "id": "7c1c543526fe",
+   "source": "hackaday",
+   "title": "Another Split Flap Display You Can Print Yourself",
+   "url": "https://hackaday.com/2026/11/26/another-split-flap-display-you-can-print-yourself",
+   "published": "2026-11-26",
+   "summary": "Split flap displays were once widely popular in everything from airport terminal displays to alarm clocks. Now they’re a little bit out of vogue in the mainstream, but that doesn’t …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 78,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [
+    "self"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "self"
+   ],
+   "title_signal": true
   },
   {
    "id": "304f0259b818",
@@ -2151,6 +2200,25 @@
    "title_signal": false
   },
   {
+   "id": "d81ea643801d",
+   "source": "hackaday",
+   "title": "Diagnosing a Failed LG Fridge Ice Maker",
+   "url": "https://hackaday.com/2026/11/26/diagnosing-a-failed-lg-fridge-ice-maker",
+   "published": "2026-11-26",
+   "summary": "Although a useful feature for people who use ice cubes a lot, an automatic ice cube maker feature in a refrigerator can be a bit of a pain if they …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "93dd9ed77a4d",
    "source": "hackaday",
    "title": "Getting Started With Hobbyist-Level 3D Scanning Technologies",
@@ -2342,29 +2410,6 @@
    "title_signal": false
   },
   {
-   "id": "172b48983d81",
-   "source": "hackaday",
-   "title": "ESP32 Rotary Display Makes Ideal Timer",
-   "url": "https://hackaday.com/2026/10/27/esp32-rotary-display-makes-ideal-timer",
-   "published": "2026-10-27",
-   "summary": "We’re big fans of pushing hardware into situations it wasn’t designed for here at Hackaday, but sometimes you’ve got to appreciate a nicely designed gadget doing more or less exactly …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 73,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [
-    "esp32"
-   ],
-   "hits": [
-    "esp32"
-   ],
-   "title_signal": false
-  },
-  {
    "id": "97a6ae48cc4e",
    "source": "hackaday",
    "title": "How Hough Transforms Enable Computers to See",
@@ -2403,14 +2448,14 @@
    "title_signal": false
   },
   {
-   "id": "296b2306ff03",
+   "id": "5fe9a6e86225",
    "source": "hackaday",
-   "title": "Making an Affordable Two-Axis Solar Tracker",
-   "url": "https://hackaday.com/2026/11/17/making-an-affordable-two-axis-solar-tracker",
+   "title": "Newer Rigol Scopes Get a Custom Linux Firmware",
+   "url": "https://hackaday.com/2026/11/17/newer-rigol-scopes-get-a-custom-linux-firmware",
    "published": "2026-11-17",
-   "summary": "Setting up a photovoltaic panel is simple, but you lose a lot of potential power if you merely bolt said panel into place. With a tracker the panel will instead …read more",
+   "summary": "Electronics test equipment is a topic near and dear to many Hackaday readers. The average reader of this article is most likely within 50 feet of a multimeter, and it …read more",
    "meta": {
-    "query": "sensor"
+    "query": "oscilloscope"
    },
    "targeted": true,
    "score": 70,
@@ -2422,14 +2467,14 @@
    "title_signal": false
   },
   {
-   "id": "5fe9a6e86225",
+   "id": "296b2306ff03",
    "source": "hackaday",
-   "title": "Newer Rigol Scopes Get a Custom Linux Firmware",
-   "url": "https://hackaday.com/2026/11/17/newer-rigol-scopes-get-a-custom-linux-firmware",
+   "title": "Making an Affordable Two-Axis Solar Tracker",
+   "url": "https://hackaday.com/2026/11/17/making-an-affordable-two-axis-solar-tracker",
    "published": "2026-11-17",
-   "summary": "Electronics test equipment is a topic near and dear to many Hackaday readers. The average reader of this article is most likely within 50 feet of a multimeter, and it …read more",
+   "summary": "Setting up a photovoltaic panel is simple, but you lose a lot of potential power if you merely bolt said panel into place. With a tracker the panel will instead …read more",
    "meta": {
-    "query": "oscilloscope"
+    "query": "sensor"
    },
    "targeted": true,
    "score": 70,
@@ -2631,44 +2676,6 @@
    "title_signal": false
   },
   {
-   "id": "7b589bc293ff",
-   "source": "hackaday",
-   "title": "2026 Retrocomputing Challenge: Explore Space with a Credit Card Reader",
-   "url": "https://hackaday.com/2026/10/27/2026-retrocomputing-challenge-explore-space-with-a-credit-card-reader",
-   "published": "2026-10-27",
-   "summary": "The humble credit card reader — most of us have used hundreds, perhaps even thousands of them over the years. But even for folks like us, it’s not the sort …read more",
-   "meta": {
-    "query": "telescope"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "23d837a89064",
-   "source": "hackaday",
-   "title": "Airborne Particle Monitoring, the BIG way",
-   "url": "https://hackaday.com/2026/10/27/airborne-particle-monitoring-the-big-way",
-   "published": "2026-10-27",
-   "summary": "Airborne micro particles can be a significant health hazard in a workshop, and thus it’s important to maintain a high standard of ventilation. But monitoring their concentration is also important, …read more",
-   "meta": {
-    "query": "air quality"
-   },
-   "targeted": true,
-   "score": 70,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
    "id": "afdcf27e39ca",
    "source": "wikipedia",
    "title": "沙丘 (2021年電影)",
@@ -2827,26 +2834,6 @@
    "url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%92%82%E6%96%87%C2%B7%E6%B8%A9%E4%BC%AF%E6%A0%BC",
    "published": "",
    "summary": "史蒂文·温伯格（英語：Steven Weinberg，1933年5月3日—2021年7月23日），生于纽约，美国物理学家，1979年获诺贝尔物理学奖。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "cb182d8517f7",
-   "source": "wikipedia",
-   "title": "物理学词汇表",
-   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E8%AF%8D%E6%B1%87%E8%A1%A8",
-   "published": "",
-   "summary": "本物理学词汇表列出了与物理学、其分支学科和相关领域（包括力学、材料科学、核物理学、粒子物理学和热力学）相关的术语和概念的定义。有关科学和技术相关领域的更具包容性的词汇表，请参阅化学词汇表、天文学辞汇、数学领域词汇表和工程学词汇表。 本词汇表按照汉语拼音字母排列。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -3209,6 +3196,26 @@
    "summary": "Nankai University is located in Tianjin, People's Republic of China. It was co-founded by prominent modern Chinese educators Yan Xiu and Zhang Boling, originating from the establishment of Nankai School in 1904. In 1919, the university division of Nankai School was formally established. On September 25, 1919, the university division of Nankai School held its first opening ceremony, marking the off",
    "meta": {
     "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "cb182d8517f7",
+   "source": "wikipedia",
+   "title": "物理学词汇表",
+   "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E8%AF%8D%E6%B1%87%E8%A1%A8",
+   "published": "",
+   "summary": "本物理学词汇表列出了与物理学、其分支学科和相关领域（包括力学、材料科学、核物理学、粒子物理学和热力学）相关的术语和概念的定义。有关科学和技术相关领域的更具包容性的词汇表，请参阅化学词汇表、天文学辞汇、数学领域词汇表和工程学词汇表。 本词汇表按照汉语拼音字母排列。",
+   "meta": {
+    "site": "zh.wikipedia.org"
    },
    "targeted": true,
    "score": 66,

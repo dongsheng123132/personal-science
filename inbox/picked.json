@@ -1,30 +1,58 @@
 {
- "generated_at": "2026-11-26T04:10:16+00:00",
- "count": 1,
+ "generated_at": "2026-11-27T04:16:27+00:00",
+ "count": 2,
  "items": [
   {
-   "id": "5d89f5dc10bd",
-   "source": "wikipedia",
-   "title": "水桶实验",
-   "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E6%A1%B6%E5%AE%9E%E9%AA%8C",
-   "published": "",
-   "summary": "艾萨克·牛顿提出的旋转水桶论证（亦称牛顿的水桶）是一项思想实验，旨在说明真正的旋转运动并不能被定义为物体相对于其周围物体的相对旋转。该实验是牛顿为论证“真实运动与静止”的“性质、原因及结果”而提出的五个论证之一，用以支持他的观点：总体而言，真实的运动与静止并非仅是相对于其他物体的特殊运动或静止状态，而只能通过参照“绝对空间”来加以界定。 换言之，这一系列实验提供了“绝对旋转”这一概念的操作性定义，而并非试图回答“相对于什么旋转”这一问题。广义相对论则摒弃了“绝对空间”以及任何源于系统外部的物理原因，而以“时空测地线”的概念取而代之。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
+   "id": "7163ac279e60",
+   "source": "hackaday",
+   "title": "Location-Accurate Weather For Your Gecko",
+   "url": "https://hackaday.com/2026/11/26/location-accurate-weather-for-your-gecko",
+   "published": "2026-11-26",
+   "summary": "When building a terrarium, most people do their best to make it an acceptable environment for its inhabitant. Temperature and lighting can be regulated, and habitat-appropriate props placed to provide …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 90,
    "why": "",
-   "timeless": true,
    "obj_hits": [
-    "实验"
+    "temperature",
+    "weather"
    ],
-   "per_hits": [],
+   "per_hits": [
+    "build"
+   ],
    "modern_hits": [],
    "hits": [
-    "实验"
+    "temperature",
+    "weather",
+    "build"
    ],
    "title_signal": true
+  },
+  {
+   "id": "3eaaa4bafdc1",
+   "source": "hackaday",
+   "title": "Correcting The Pink Photo From My Modified Phone: A Follow-Up",
+   "url": "https://hackaday.com/2026/11/23/correcting-the-pink-photo-from-my-modified-phone-a-follow-up",
+   "published": "2026-11-23",
+   "summary": "A week or so ago I posted an Ask Hackaday, in which I asked the community for help with a common camera hacking problem I was having with my mobile phone …read more",
+   "meta": {
+    "query": "calibration"
+   },
+   "targeted": true,
+   "score": 87,
+   "why": "",
+   "obj_hits": [
+    "camera"
+   ],
+   "per_hits": [],
+   "modern_hits": [
+    "camera"
+   ],
+   "hits": [
+    "camera",
+    "camera"
+   ],
+   "title_signal": false
   }
  ]
 }

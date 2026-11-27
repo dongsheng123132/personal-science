@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-27T04:15:31+00:00",
+ "date": "2026-11-27",
+ "count": 3,
+ "items": [
+  {
+   "id": "7163ac279e60",
+   "source": "hackaday",
+   "title": "Location-Accurate Weather For Your Gecko",
+   "url": "https://hackaday.com/2026/11/26/location-accurate-weather-for-your-gecko",
+   "published": "2026-11-26",
+   "summary": "When building a terrarium, most people do their best to make it an acceptable environment for its inhabitant. Temperature and lighting can be regulated, and habitat-appropriate props placed to provide …read more",
+   "meta": {},
+   "targeted": false,
+   "score": 90,
+   "why": "命中 temperature、weather、build，2026-11-26",
+   "obj_hits": [
+    "temperature",
+    "weather"
+   ],
+   "per_hits": [
+    "build"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "temperature",
+    "weather",
+    "build"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "7c1c543526fe",
+   "source": "hackaday",
+   "title": "Another Split Flap Display You Can Print Yourself",
+   "url": "https://hackaday.com/2026/11/26/another-split-flap-display-you-can-print-yourself",
+   "published": "2026-11-26",
+   "summary": "Split flap displays were once widely popular in everything from airport terminal displays to alarm clocks. Now they’re a little bit out of vogue in the mainstream, but that doesn’t …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 78,
+   "why": "命中 self，2026-11-26",
+   "obj_hits": [],
+   "per_hits": [
+    "self"
+   ],
+   "modern_hits": [],
+   "hits": [
+    "self"
+   ],
+   "title_signal": true
+  },
+  {
+   "id": "d81ea643801d",
+   "source": "hackaday",
+   "title": "Diagnosing a Failed LG Fridge Ice Maker",
+   "url": "https://hackaday.com/2026/11/26/diagnosing-a-failed-lg-fridge-ice-maker",
+   "published": "2026-11-26",
+   "summary": "Although a useful feature for people who use ice cubes a lot, an automatic ice cube maker feature in a refrigerator can be a bit of a pain if they …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-26",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  }
+ ]
+}
