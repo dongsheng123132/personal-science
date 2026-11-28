@@ -1,70 +1,40 @@
 {
- "generated_at": "2026-11-27T04:15:31+00:00",
- "date": "2026-11-27",
- "count": 3,
+ "generated_at": "2026-11-28T03:53:58+00:00",
+ "date": "2026-11-28",
+ "count": 2,
  "items": [
   {
-   "id": "7163ac279e60",
+   "id": "431854a25add",
    "source": "hackaday",
-   "title": "Location-Accurate Weather For Your Gecko",
-   "url": "https://hackaday.com/2026/11/26/location-accurate-weather-for-your-gecko",
-   "published": "2026-11-26",
-   "summary": "When building a terrarium, most people do their best to make it an acceptable environment for its inhabitant. Temperature and lighting can be regulated, and habitat-appropriate props placed to provide …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 90,
-   "why": "命中 temperature、weather、build，2026-11-26",
-   "obj_hits": [
-    "temperature",
-    "weather"
-   ],
-   "per_hits": [
-    "build"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "temperature",
-    "weather",
-    "build"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "7c1c543526fe",
-   "source": "hackaday",
-   "title": "Another Split Flap Display You Can Print Yourself",
-   "url": "https://hackaday.com/2026/11/26/another-split-flap-display-you-can-print-yourself",
-   "published": "2026-11-26",
-   "summary": "Split flap displays were once widely popular in everything from airport terminal displays to alarm clocks. Now they’re a little bit out of vogue in the mainstream, but that doesn’t …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 78,
-   "why": "命中 self，2026-11-26",
-   "obj_hits": [],
-   "per_hits": [
-    "self"
-   ],
-   "modern_hits": [],
-   "hits": [
-    "self"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "d81ea643801d",
-   "source": "hackaday",
-   "title": "Diagnosing a Failed LG Fridge Ice Maker",
-   "url": "https://hackaday.com/2026/11/26/diagnosing-a-failed-lg-fridge-ice-maker",
-   "published": "2026-11-26",
-   "summary": "Although a useful feature for people who use ice cubes a lot, an automatic ice cube maker feature in a refrigerator can be a bit of a pain if they …read more",
+   "title": "A Detailed Breakdown of the 2021 Texas Power Crisis",
+   "url": "https://hackaday.com/2026/11/27/a-detailed-breakdown-of-the-2021-texas-power-crisis",
+   "published": "2026-11-27",
+   "summary": "Although the Texas grid operator managed to prevent a full-blown collapse of the electrical grid in February 2021, they only managed to do so after exhausting every measure at their …read more",
    "meta": {
     "query": "sensor"
    },
    "targeted": true,
    "score": 74,
-   "why": "2026-11-26",
+   "why": "2026-11-27",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "17fdf8d3abb7",
+   "source": "hackaday",
+   "title": "Hackaday Podcast Episode 396: Robot Hands, The Inner Life of Mechanical Watches, and the Truth about 3D Scanning",
+   "url": "https://hackaday.com/2026/11/27/hackaday-podcast-episode-396-robot-hands-the-inner-life-of-mechanical-watches-and-the-truth-about-3d-scanning",
+   "published": "2026-11-27",
+   "summary": "Hackaday Editors Elliot Williams and Al Williams met to review the week in Hackaday. It was a week for hands, in more ways than one, along with a voice assistant …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-27",
    "obj_hits": [],
    "per_hits": [],
    "modern_hits": [],

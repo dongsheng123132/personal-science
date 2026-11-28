@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T04:15:31+00:00",
+ "updated_at": "2026-11-28T03:53:58+00:00",
  "count": 150,
  "items": [
   {
@@ -677,12 +677,12 @@
    "title_signal": false
   },
   {
-   "id": "2aaa7d3b0145",
+   "id": "3db785c262e7",
    "source": "wikipedia",
-   "title": "自然科学",
-   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6",
+   "title": "普林斯顿等离子体物理实验室",
+   "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E6%9E%97%E6%96%AF%E9%A1%BF%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AE%9E%E9%AA%8C%E5%AE%A4",
    "published": "",
-   "summary": "自然科学或经验科学是科学的一个分支，关注对自然现象的描述、理解和预测，基于来自观察和实验的经验证据。 同行评审和研究发现的可重复性等机制，被用来确保科学进展的有效性。 自然科学可分为两大分支：生命科学和物理科学。生命科学也被称为生物学。物理科学细分为物理学、天文学、地球科学和化学。自然科学的这些分支还可进一步划分为更专业的分支，也称为领域。作为经验科学，自然科学使用来自形式科学的工具，如数学和逻辑学，将关于自然的信息转化为可解释为清晰的“自然定律”陈述的测量结果。 现代自然科学取代了更为经典的自然哲学方法。伽利略·伽利莱、约翰内斯·开普勒、勒内·笛卡尔、弗朗西斯·培根和艾萨克·牛顿曾就研究自然时采用更偏数学化的方法相对于更偏实验性的方法有何益处展开辩论。尽管如此，哲学的视角、猜想以及常被忽视的预设，在自然科学中仍是必要的。 系统性的数据收集，包括发现科学，取代了自然史。自然史出现于16世纪",
+   "summary": "普林斯顿等离子体物理实验室（Princeton Plasma Physics Laboratory，PPPL）是一个研究等离子体物理学与核聚变的美国能源部国家实验室。实验室主要的工作是研究聚变能作为能源的发展和应用。 普林斯顿等离子体物理实验室的建立源于一个控制热核反应的冷战最高机密计划——“马特洪计划（Project Matterhorn）”。1961年，在马特洪计划解密后，此计划相关的实验室被更名为普林斯顿等离子体物理实验室。 普林斯顿等离子体物理实验室实际上位于普林斯顿大学的 Forrestal 校园，与普林斯顿大学主校区有一定距离；但实验室仍然有一个位于普林斯顿的地址。",
    "meta": {
     "site": "zh.wikipedia.org"
    },
@@ -691,16 +691,16 @@
    "why": "",
    "timeless": true,
    "obj_hits": [
-    "实验",
-    "测量"
+    "physics",
+    "实验"
    ],
    "per_hits": [],
    "modern_hits": [],
    "hits": [
-    "实验",
-    "测量"
+    "physics",
+    "实验"
    ],
-   "title_signal": false
+   "title_signal": true
   },
   {
    "id": "1e800ac3d6c6",
@@ -729,6 +729,32 @@
    "title_signal": false
   },
   {
+   "id": "2aaa7d3b0145",
+   "source": "wikipedia",
+   "title": "自然科学",
+   "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6",
+   "published": "",
+   "summary": "自然科学或经验科学是科学的一个分支，关注对自然现象的描述、理解和预测，基于来自观察和实验的经验证据。 同行评审和研究发现的可重复性等机制，被用来确保科学进展的有效性。 自然科学可分为两大分支：生命科学和物理科学。生命科学也被称为生物学。物理科学细分为物理学、天文学、地球科学和化学。自然科学的这些分支还可进一步划分为更专业的分支，也称为领域。作为经验科学，自然科学使用来自形式科学的工具，如数学和逻辑学，将关于自然的信息转化为可解释为清晰的“自然定律”陈述的测量结果。 现代自然科学取代了更为经典的自然哲学方法。伽利略·伽利莱、约翰内斯·开普勒、勒内·笛卡尔、弗朗西斯·培根和艾萨克·牛顿曾就研究自然时采用更偏数学化的方法相对于更偏实验性的方法有何益处展开辩论。尽管如此，哲学的视角、猜想以及常被忽视的预设，在自然科学中仍是必要的。 系统性的数据收集，包括发现科学，取代了自然史。自然史出现于16世纪",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 86,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "实验",
+    "测量"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "实验",
+    "测量"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "dbbec9f781a8",
    "source": "wikipedia",
    "title": "任宁格实验",
@@ -751,32 +777,6 @@
    "hits": [
     "实验",
     "测量"
-   ],
-   "title_signal": true
-  },
-  {
-   "id": "3db785c262e7",
-   "source": "wikipedia",
-   "title": "普林斯顿等离子体物理实验室",
-   "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E6%9E%97%E6%96%AF%E9%A1%BF%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AE%9E%E9%AA%8C%E5%AE%A4",
-   "published": "",
-   "summary": "普林斯顿等离子体物理实验室（Princeton Plasma Physics Laboratory，PPPL）是一个研究等离子体物理学与核聚变的美国能源部国家实验室。实验室主要的工作是研究聚变能作为能源的发展和应用。 普林斯顿等离子体物理实验室的建立源于一个控制热核反应的冷战最高机密计划——“马特洪计划（Project Matterhorn）”。1961年，在马特洪计划解密后，此计划相关的实验室被更名为普林斯顿等离子体物理实验室。 普林斯顿等离子体物理实验室实际上位于普林斯顿大学的 Forrestal 校园，与普林斯顿大学主校区有一定距离；但实验室仍然有一个位于普林斯顿的地址。",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 86,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics",
-    "实验"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics",
-    "实验"
    ],
    "title_signal": true
   },
@@ -1028,32 +1028,6 @@
     "esp32"
    ],
    "title_signal": false
-  },
-  {
-   "id": "acee00936169",
-   "source": "hackaday",
-   "title": "SLAM Navigation For an Arduino Powered Car",
-   "url": "https://hackaday.com/2026/10/28/slam-navigation-for-an-arduino-powered-car",
-   "published": "2026-10-28",
-   "summary": "There are plenty of “robot” projects out there that are really just a small remote control platform of some sort. We often like to think of robots of having some …read more",
-   "meta": {
-    "query": "sensor"
-   },
-   "targeted": true,
-   "score": 81,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [
-    "arduino"
-   ],
-   "modern_hits": [
-    "arduino"
-   ],
-   "hits": [
-    "arduino",
-    "arduino"
-   ],
-   "title_signal": true
   },
   {
    "id": "cdab6f91c559",
@@ -1840,6 +1814,30 @@
    "title_signal": false
   },
   {
+   "id": "84d08da14f64",
+   "source": "wikipedia",
+   "title": "Theory of relativity",
+   "url": "https://en.wikipedia.org/wiki/Theory_of_relativity",
+   "published": "",
+   "summary": "The theory of relativity comprises two physics theories by Albert Einstein: special relativity and general relativity, proposed and published in 1905 and 1915, respectively. Special relativity applies to all physical phenomena in the absence of gravity. General relativity explains the law of gravitation and its relation to the forces of nature. It applies to the cosmological and astrophysical real",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 76,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [
+    "physics"
+   ],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [
+    "physics"
+   ],
+   "title_signal": false
+  },
+  {
    "id": "6597a7733b86",
    "source": "wikipedia",
    "title": "物理哲学",
@@ -1980,30 +1978,6 @@
    "modern_hits": [],
    "hits": [
     "实验"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "84d08da14f64",
-   "source": "wikipedia",
-   "title": "Theory of relativity",
-   "url": "https://en.wikipedia.org/wiki/Theory_of_relativity",
-   "published": "",
-   "summary": "The theory of relativity comprises two physics theories by Albert Einstein: special relativity and general relativity, proposed and published in 1905 and 1915, respectively. Special relativity applies to all physical phenomena in the absence of gravity. General relativity explains the law of gravitation and its relation to the forces of nature. It applies to the cosmological and astrophysical real",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 76,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [
-    "physics"
-   ],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [
-    "physics"
    ],
    "title_signal": false
   },
@@ -2200,6 +2174,44 @@
    "title_signal": false
   },
   {
+   "id": "431854a25add",
+   "source": "hackaday",
+   "title": "A Detailed Breakdown of the 2021 Texas Power Crisis",
+   "url": "https://hackaday.com/2026/11/27/a-detailed-breakdown-of-the-2021-texas-power-crisis",
+   "published": "2026-11-27",
+   "summary": "Although the Texas grid operator managed to prevent a full-blown collapse of the electrical grid in February 2021, they only managed to do so after exhausting every measure at their …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "17fdf8d3abb7",
+   "source": "hackaday",
+   "title": "Hackaday Podcast Episode 396: Robot Hands, The Inner Life of Mechanical Watches, and the Truth about 3D Scanning",
+   "url": "https://hackaday.com/2026/11/27/hackaday-podcast-episode-396-robot-hands-the-inner-life-of-mechanical-watches-and-the-truth-about-3d-scanning",
+   "published": "2026-11-27",
+   "summary": "Hackaday Editors Elliot Williams and Al Williams met to review the week in Hackaday. It was a week for hands, in more ways than one, along with a voice assistant …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "d81ea643801d",
    "source": "hackaday",
    "title": "Diagnosing a Failed LG Fridge Ice Maker",
@@ -2387,37 +2399,14 @@
    "title_signal": false
   },
   {
-   "id": "5623bc1f1bd6",
+   "id": "9e62bb8c46d3",
    "source": "hackaday",
-   "title": "Turning an Old Phone’s Motherboard into an RC Plane Controller",
-   "url": "https://hackaday.com/2026/10/28/turning-an-old-phones-motherboard-into-an-rc-plane-controller",
-   "published": "2026-10-28",
-   "summary": "Upcycling smartphones makes a lot of sense, especially since they contain so many components that remain useful long after their desirability as a smartphone has faded. In the case of …read more",
-   "meta": {
-    "query": "DIY lab"
-   },
-   "targeted": true,
-   "score": 73,
-   "why": "",
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [
-    "smartphone"
-   ],
-   "hits": [
-    "smartphone"
-   ],
-   "title_signal": false
-  },
-  {
-   "id": "97a6ae48cc4e",
-   "source": "hackaday",
-   "title": "How Hough Transforms Enable Computers to See",
-   "url": "https://hackaday.com/2026/11/18/how-hough-transforms-enable-computers-to-see",
+   "title": "Serial: The Port That Won’t Die",
+   "url": "https://hackaday.com/2026/11/18/serial-the-port-that-wont-die",
    "published": "2026-11-18",
-   "summary": "Although identifying what we can see with our eyes feels like the most natural thing in the world, the responsible cognitive processes running on our brain’s wetware are quite a …read more",
+   "summary": "Computers have changed quite a bit over the last 60 years. Good luck plugging in an old MFM disk into your modern computer. Plugging in a parallel printer is difficult, …read more",
    "meta": {
-    "query": "sensor"
+    "query": "oscilloscope"
    },
    "targeted": true,
    "score": 70,
@@ -2429,14 +2418,14 @@
    "title_signal": false
   },
   {
-   "id": "9e62bb8c46d3",
+   "id": "97a6ae48cc4e",
    "source": "hackaday",
-   "title": "Serial: The Port That Won’t Die",
-   "url": "https://hackaday.com/2026/11/18/serial-the-port-that-wont-die",
+   "title": "How Hough Transforms Enable Computers to See",
+   "url": "https://hackaday.com/2026/11/18/how-hough-transforms-enable-computers-to-see",
    "published": "2026-11-18",
-   "summary": "Computers have changed quite a bit over the last 60 years. Good luck plugging in an old MFM disk into your modern computer. Plugging in a parallel printer is difficult, …read more",
+   "summary": "Although identifying what we can see with our eyes feels like the most natural thing in the world, the responsible cognitive processes running on our brain’s wetware are quite a …read more",
    "meta": {
-    "query": "oscilloscope"
+    "query": "sensor"
    },
    "targeted": true,
    "score": 70,
@@ -3008,6 +2997,26 @@
    "title_signal": false
   },
   {
+   "id": "42194c0fcf28",
+   "source": "wikipedia",
+   "title": "朝鲜战争",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89",
+   "published": "",
+   "summary": "朝鲜战争是1950年至1953年期间朝鲜半岛发生的大規模戰爭，交戰雙方分別是朝鲜民主主义人民共和国與大韩民国。戰爭爆發後，16國組成的聯合國軍（以美軍為主力）出兵支持韓國，中华人民共和国以中国人民志愿军的名义出兵支持朝鲜，苏联则通过军事物资支援与空军支持出兵朝鲜，使战争升级为影响东亚地缘政治的区域性冲突，同时也令此战成为自中国的第二次国共内战后在冷战时期东西方阵营间的第二场代理人战争。 朝鮮人民軍在三八线发生冲突及南部发生濟州四·三事件后，於1950年6月25日跨越三八线南下与大韩民国国军作战，战争爆發。雙方隨後展開漫長的拉鋸戰，联合国军與中国人民志愿军先後參戰，最終戰線維持在三八線附近，於1953年7月27日在板门店签署《朝鲜停战协定》，並根据停战时实际控制线，建立朝韩非军事区作缓冲地带。朝鲜半岛南北双方仍有外交冲突和军事对峙，持续至今。 而美国于朝鲜战争期间部署第七舰队巡防台湾海峡，以",
+   "meta": {
+    "site": "zh.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "925998e1f52f",
    "source": "wikipedia",
    "title": "朱迪斯·贾维斯·汤姆逊",
@@ -3208,6 +3217,166 @@
    "title_signal": false
   },
   {
+   "id": "e2f65195a4c9",
+   "source": "wikipedia",
+   "title": "Army Academy of Armored Forces",
+   "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
+   "published": "",
+   "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "16dfa34f1419",
+   "source": "wikipedia",
+   "title": "Institute for the History of Natural Sciences",
+   "url": "https://en.wikipedia.org/wiki/Institute_for_the_History_of_Natural_Sciences",
+   "published": "",
+   "summary": "The Institute for the History of Natural Sciences (IHNS CAS; Chinese: 中国科学院自然科学史研究所; pinyin: Zhōngguó Kēxuéyuàn Zìrán Kēxuéshǐ Yánjiūsuǒ) is a leading research institution in China dedicated to the study of the history of science, technology, and medicine. It is affiliated with the Chinese Academy of Sciences (CAS).",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "83ad8e00d21a",
+   "source": "wikipedia",
+   "title": "Lee Sun Chau",
+   "url": "https://en.wikipedia.org/wiki/Lee_Sun_Chau",
+   "published": "",
+   "summary": "Lee Sun Chau (周理信, i.e., 周六姑, 1890-1979) was one of the first female Chinese doctors of Western Medicine in China.",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "63623f9ad973",
+   "source": "wikipedia",
+   "title": "Barnum effect",
+   "url": "https://en.wikipedia.org/wiki/Barnum_effect",
+   "published": "",
+   "summary": "The Barnum effect, also called the Forer effect or, less commonly, the Barnum–Forer effect, is a common psychological phenomenon whereby individuals give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically to them, yet which are in fact vague and general enough to apply to a broad range of people. This effect can provide a partial explanation for th",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "95daaaf86db7",
+   "source": "wikipedia",
+   "title": "Door-in-the-face technique",
+   "url": "https://en.wikipedia.org/wiki/Door-in-the-face_technique",
+   "published": "",
+   "summary": "The door-in-the-face technique is a compliance method commonly studied in social psychology. The persuader attempts to convince the respondent to comply by making a large request that the respondent will most likely turn down, much like a metaphorical slamming of a door in the persuader's face. The respondent is then more likely to agree to a second, more reasonable request, than if that same requ",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "d3a003a34d23",
+   "source": "wikipedia",
+   "title": "Foot-in-the-door technique",
+   "url": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
+   "published": "",
+   "summary": "Foot-in-the-door (FITD) technique is a compliance tactic that aims at getting a person to agree to a large request by having them agree to a modest request first. If a smaller request is granted, then the person who is agreeing feels like they are obligated to keep agreeing to larger requests. The saying originates from door to door salesmen who keep the door from shutting with their foot, giving",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "6b7326a1de2b",
+   "source": "wikipedia",
+   "title": "Kuleshov effect",
+   "url": "https://en.wikipedia.org/wiki/Kuleshov_effect",
+   "published": "",
+   "summary": "The Kuleshov effect (Russian: Эффект Кулешова) is a film editing (montage) effect demonstrated by Russian filmmaker Lev Kuleshov in the 1910s and 1920s. It is a cognitive phenomenon by which viewers derive more meaning from the interaction of two sequential shots than from a single shot in isolation. Prior to the 1960s, the phenomenon was sometimes known as the Pudovkin effect and the Mozzhukhin e",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "84be9785ed2e",
+   "source": "wikipedia",
+   "title": "Miller–Urey experiment",
+   "url": "https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment",
+   "published": "",
+   "summary": "The Miller–Urey experiment, or Miller experiment, was an experiment in chemical synthesis carried out in 1952 that simulated the conditions thought at the time to be present in the atmosphere of the early, prebiotic Earth. It is seen as one of the first successful experiments demonstrating the synthesis of organic compounds from inorganic constituents in an origin of life scenario. The experiment",
+   "meta": {
+    "site": "en.wikipedia.org"
+   },
+   "targeted": true,
+   "score": 66,
+   "why": "",
+   "timeless": true,
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
    "id": "cb182d8517f7",
    "source": "wikipedia",
    "title": "物理学词汇表",
@@ -3336,186 +3505,6 @@
    "summary": "科学的分支、分类，也称科学领域，通常分为三大类： 形式科学：对形式系统的研究，如逻辑和数学分支下的学科。它们依据先验知识，而非建立在实证基础上。 自然科学：对自然现象的研究（包括宇宙内的宇宙学、地质学、物理学、化学和生物学影响）。自然科学可分为两个主要分支：物理科学和生命科学（或生物科学）。 社会科学：在社会和文化角度研究人类行为的科学。 科学知识必须建立在可观察的现象之上，并且能够在相同条件下被其他研究者验证。自然科学、社会科学和形式科学构成基础科学，它们也是跨学科和应用科学（如工程学和医学）的基础。",
    "meta": {
     "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "a19f8aa2f80d",
-   "source": "wikipedia",
-   "title": "突變第三型",
-   "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E8%AE%8A%E7%AC%AC%E4%B8%89%E5%9E%8B",
-   "published": "",
-   "summary": "《怪形》（英語：The Thing）是約翰·卡本特执导、比尔·兰开斯特编剧的1982年美国科幻恐怖片，根据1938年約翰·W·坎貝爾的中篇小说《怪形》改编，讲述美国科考队在南极洲遇到能同化并模仿其他有机体的寄生外星生命“怪形”，大家无法相互信任，因为每个人都可能是怪形变化而来，他们逐渐变得偏执并发生冲突，逐个被怪形吞噬。寇特·羅素领衔饰演科考队直升机驾驶员麦克，其他演员包括威福·伯明莱、TK·卡特、大卫·科列侬、凯斯·大卫、理查德·戴萨特、查尔斯·哈拉汉、彼得·马洛尼、理查德·马苏尔、唐纳德·莫法特、乔尔·波利斯和托马斯·沃特斯。 电影制作的帷幕早在20世纪70年代中期就已拉开，计划比1951年的《怪人》更忠实于原著。《怪形》的导演和编剧换了一拨又一拨，每人都对剧情呈现提出自有构想。主体拍摄从1981年8月开始，约花12星期完成，取景地点包括洛杉矶、阿拉斯加州朱諾和不列颠哥伦比亚省斯图尔特",
-   "meta": {
-    "site": "zh.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "e2f65195a4c9",
-   "source": "wikipedia",
-   "title": "Army Academy of Armored Forces",
-   "url": "https://en.wikipedia.org/wiki/Army_Academy_of_Armored_Forces",
-   "published": "",
-   "summary": "People's Liberation Army Army Academy of Armored Forces, usually called the Army Academy of Armored Forces (MOE 91006) is the primary academic training institution for officers and NCOs of the armored forces of the PLAGF. Its largest campus is located in Bengbu, and its NCO School is located in Changchun.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "16dfa34f1419",
-   "source": "wikipedia",
-   "title": "Institute for the History of Natural Sciences",
-   "url": "https://en.wikipedia.org/wiki/Institute_for_the_History_of_Natural_Sciences",
-   "published": "",
-   "summary": "The Institute for the History of Natural Sciences (IHNS CAS; Chinese: 中国科学院自然科学史研究所; pinyin: Zhōngguó Kēxuéyuàn Zìrán Kēxuéshǐ Yánjiūsuǒ) is a leading research institution in China dedicated to the study of the history of science, technology, and medicine. It is affiliated with the Chinese Academy of Sciences (CAS).",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "83ad8e00d21a",
-   "source": "wikipedia",
-   "title": "Lee Sun Chau",
-   "url": "https://en.wikipedia.org/wiki/Lee_Sun_Chau",
-   "published": "",
-   "summary": "Lee Sun Chau (周理信, i.e., 周六姑, 1890-1979) was one of the first female Chinese doctors of Western Medicine in China.",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "ef3dd7b47ba5",
-   "source": "wikipedia",
-   "title": "Mianyang",
-   "url": "https://en.wikipedia.org/wiki/Mianyang",
-   "published": "",
-   "summary": "Mianyang (simplified Chinese: 绵阳; traditional Chinese: 綿陽; pinyin: Miányáng; Wade–Giles: Mien²-yang²; Sichuanese romanization: Mien2-iang2; formerly known as Mienchow, Chinese: 綿州; pinyin: Mianzhou; Sichuanese romanization: Miencheo; lit. 'Mian Prefecture') is the second largest prefecture-level city of Sichuan province in Southwestern China. It borders Nanchong City to the east, Suining City to t",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "63623f9ad973",
-   "source": "wikipedia",
-   "title": "Barnum effect",
-   "url": "https://en.wikipedia.org/wiki/Barnum_effect",
-   "published": "",
-   "summary": "The Barnum effect, also called the Forer effect or, less commonly, the Barnum–Forer effect, is a common psychological phenomenon whereby individuals give high accuracy ratings to descriptions of their personality that supposedly are tailored specifically to them, yet which are in fact vague and general enough to apply to a broad range of people. This effect can provide a partial explanation for th",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "95daaaf86db7",
-   "source": "wikipedia",
-   "title": "Door-in-the-face technique",
-   "url": "https://en.wikipedia.org/wiki/Door-in-the-face_technique",
-   "published": "",
-   "summary": "The door-in-the-face technique is a compliance method commonly studied in social psychology. The persuader attempts to convince the respondent to comply by making a large request that the respondent will most likely turn down, much like a metaphorical slamming of a door in the persuader's face. The respondent is then more likely to agree to a second, more reasonable request, than if that same requ",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "d3a003a34d23",
-   "source": "wikipedia",
-   "title": "Foot-in-the-door technique",
-   "url": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
-   "published": "",
-   "summary": "Foot-in-the-door (FITD) technique is a compliance tactic that aims at getting a person to agree to a large request by having them agree to a modest request first. If a smaller request is granted, then the person who is agreeing feels like they are obligated to keep agreeing to larger requests. The saying originates from door to door salesmen who keep the door from shutting with their foot, giving",
-   "meta": {
-    "site": "en.wikipedia.org"
-   },
-   "targeted": true,
-   "score": 66,
-   "why": "",
-   "timeless": true,
-   "obj_hits": [],
-   "per_hits": [],
-   "modern_hits": [],
-   "hits": [],
-   "title_signal": false
-  },
-  {
-   "id": "6b7326a1de2b",
-   "source": "wikipedia",
-   "title": "Kuleshov effect",
-   "url": "https://en.wikipedia.org/wiki/Kuleshov_effect",
-   "published": "",
-   "summary": "The Kuleshov effect (Russian: Эффект Кулешова) is a film editing (montage) effect demonstrated by Russian filmmaker Lev Kuleshov in the 1910s and 1920s. It is a cognitive phenomenon by which viewers derive more meaning from the interaction of two sequential shots than from a single shot in isolation. Prior to the 1960s, the phenomenon was sometimes known as the Pudovkin effect and the Mozzhukhin e",
-   "meta": {
-    "site": "en.wikipedia.org"
    },
    "targeted": true,
    "score": 66,

@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-28T03:53:58+00:00",
+ "date": "2026-11-28",
+ "count": 2,
+ "items": [
+  {
+   "id": "431854a25add",
+   "source": "hackaday",
+   "title": "A Detailed Breakdown of the 2021 Texas Power Crisis",
+   "url": "https://hackaday.com/2026/11/27/a-detailed-breakdown-of-the-2021-texas-power-crisis",
+   "published": "2026-11-27",
+   "summary": "Although the Texas grid operator managed to prevent a full-blown collapse of the electrical grid in February 2021, they only managed to do so after exhausting every measure at their …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-27",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  },
+  {
+   "id": "17fdf8d3abb7",
+   "source": "hackaday",
+   "title": "Hackaday Podcast Episode 396: Robot Hands, The Inner Life of Mechanical Watches, and the Truth about 3D Scanning",
+   "url": "https://hackaday.com/2026/11/27/hackaday-podcast-episode-396-robot-hands-the-inner-life-of-mechanical-watches-and-the-truth-about-3d-scanning",
+   "published": "2026-11-27",
+   "summary": "Hackaday Editors Elliot Williams and Al Williams met to review the week in Hackaday. It was a week for hands, in more ways than one, along with a voice assistant …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 74,
+   "why": "2026-11-27",
+   "obj_hits": [],
+   "per_hits": [],
+   "modern_hits": [],
+   "hits": [],
+   "title_signal": false
+  }
+ ]
+}

@@ -1,58 +1,29 @@
 {
- "generated_at": "2026-11-27T04:16:27+00:00",
- "count": 2,
+ "generated_at": "2026-11-28T03:54:41+00:00",
+ "count": 1,
  "items": [
   {
-   "id": "7163ac279e60",
+   "id": "7c1c543526fe",
    "source": "hackaday",
-   "title": "Location-Accurate Weather For Your Gecko",
-   "url": "https://hackaday.com/2026/11/26/location-accurate-weather-for-your-gecko",
+   "title": "Another Split Flap Display You Can Print Yourself",
+   "url": "https://hackaday.com/2026/11/26/another-split-flap-display-you-can-print-yourself",
    "published": "2026-11-26",
-   "summary": "When building a terrarium, most people do their best to make it an acceptable environment for its inhabitant. Temperature and lighting can be regulated, and habitat-appropriate props placed to provide …read more",
-   "meta": {},
-   "targeted": false,
-   "score": 90,
+   "summary": "Split flap displays were once widely popular in everything from airport terminal displays to alarm clocks. Now they’re a little bit out of vogue in the mainstream, but that doesn’t …read more",
+   "meta": {
+    "query": "sensor"
+   },
+   "targeted": true,
+   "score": 78,
    "why": "",
-   "obj_hits": [
-    "temperature",
-    "weather"
-   ],
+   "obj_hits": [],
    "per_hits": [
-    "build"
+    "self"
    ],
    "modern_hits": [],
    "hits": [
-    "temperature",
-    "weather",
-    "build"
+    "self"
    ],
    "title_signal": true
-  },
-  {
-   "id": "3eaaa4bafdc1",
-   "source": "hackaday",
-   "title": "Correcting The Pink Photo From My Modified Phone: A Follow-Up",
-   "url": "https://hackaday.com/2026/11/23/correcting-the-pink-photo-from-my-modified-phone-a-follow-up",
-   "published": "2026-11-23",
-   "summary": "A week or so ago I posted an Ask Hackaday, in which I asked the community for help with a common camera hacking problem I was having with my mobile phone …read more",
-   "meta": {
-    "query": "calibration"
-   },
-   "targeted": true,
-   "score": 87,
-   "why": "",
-   "obj_hits": [
-    "camera"
-   ],
-   "per_hits": [],
-   "modern_hits": [
-    "camera"
-   ],
-   "hits": [
-    "camera",
-    "camera"
-   ],
-   "title_signal": false
   }
  ]
 }
